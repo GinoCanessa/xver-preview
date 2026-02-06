@@ -1,0 +1,131 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/contactentity-type> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "contactentity-type"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://terminology.hl7.org/CodeSystem/contactentity-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">BILL<a name=\"contactentity-type-BILL\"> </a></td><td>Billing</td><td>Contact details for information regarding to billing/general finance enquiries.</td></tr><tr><td style=\"white-space:nowrap\">ADMIN<a name=\"contactentity-type-ADMIN\"> </a></td><td>Administrative</td><td>Contact details for administrative enquiries.</td></tr><tr><td style=\"white-space:nowrap\">HR<a name=\"contactentity-type-HR\"> </a></td><td>Human Resource</td><td>Contact details for issues related to Human Resources, such as staff matters, OH&amp;S etc.</td></tr><tr><td style=\"white-space:nowrap\">PAYOR<a name=\"contactentity-type-PAYOR\"> </a></td><td>Payor</td><td>Contact details for dealing with issues related to insurance claims/adjudication/payment.</td></tr><tr><td style=\"white-space:nowrap\">PATINF<a name=\"contactentity-type-PATINF\"> </a></td><td>Patient</td><td>Generic information contact for patients.</td></tr><tr><td style=\"white-space:nowrap\">PRESS<a name=\"contactentity-type-PRESS\"> </a></td><td>Press</td><td>Dedicated contact point for matters relating to press enquiries.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 3
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "pa"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/contactentity-type"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/contactentity-type>
+  ] ; # 
+  fhir:version [ fhir:v "0.5.0"] ; # 
+  fhir:name [ fhir:v "ContactEntityType"] ; # 
+  fhir:title [ fhir:v "Contact entity type"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2023-02-25T12:07:30-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Patient Administration"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Patient Administration" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/pafm" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This example value set defines a set of codes that can be used to indicate the purpose for which you would contact a contact party."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/contactentity-type|1.0.0"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/contactentity-type?version=1.0.0>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "BILL" ] ;
+     fhir:display [ fhir:v "Billing" ] ;
+     fhir:definition [ fhir:v "Contact details for information regarding to billing/general finance enquiries." ]
+  ] [
+     fhir:code [ fhir:v "ADMIN" ] ;
+     fhir:display [ fhir:v "Administrative" ] ;
+     fhir:definition [ fhir:v "Contact details for administrative enquiries." ]
+  ] [
+     fhir:code [ fhir:v "HR" ] ;
+     fhir:display [ fhir:v "Human Resource" ] ;
+     fhir:definition [ fhir:v "Contact details for issues related to Human Resources, such as staff matters, OH&S etc." ]
+  ] [
+     fhir:code [ fhir:v "PAYOR" ] ;
+     fhir:display [ fhir:v "Payor" ] ;
+     fhir:definition [ fhir:v "Contact details for dealing with issues related to insurance claims/adjudication/payment." ]
+  ] [
+     fhir:code [ fhir:v "PATINF" ] ;
+     fhir:display [ fhir:v "Patient" ] ;
+     fhir:definition [ fhir:v "Generic information contact for patients." ]
+  ] [
+     fhir:code [ fhir:v "PRESS" ] ;
+     fhir:display [ fhir:v "Press" ] ;
+     fhir:definition [ fhir:v "Dedicated contact point for matters relating to press enquiries." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

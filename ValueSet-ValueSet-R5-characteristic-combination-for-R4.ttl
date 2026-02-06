@@ -1,0 +1,212 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/ValueSet-R5-characteristic-combination-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ValueSet-R5-characteristic-combination-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ValueSet-R5-characteristic-combination-for-R4</b></p><a name=\"ValueSet-R5-characteristic-combination-for-R4\"> </a><a name=\"hcValueSet-R5-characteristic-combination-for-R4\"> </a><p>This value set expansion contains 7 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"ValueSet-R5-characteristic-combination-for-R4-http://hl7.org/fhir/characteristic-combination-all-of\"> </a><code>http://hl7.org/fhir/characteristic-combination</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-characteristic-combination.html#characteristic-combination-all-of\">all-of</a></td><td>All of</td><td>Combine characteristics with AND.</td></tr><tr><td><a name=\"ValueSet-R5-characteristic-combination-for-R4-http://hl7.org/fhir/characteristic-combination-any-of\"> </a><code>http://hl7.org/fhir/characteristic-combination</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-characteristic-combination.html#characteristic-combination-any-of\">any-of</a></td><td>Any of</td><td>Combine characteristics with OR.</td></tr><tr><td><a name=\"ValueSet-R5-characteristic-combination-for-R4-http://hl7.org/fhir/characteristic-combination-at-least\"> </a><code>http://hl7.org/fhir/characteristic-combination</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-characteristic-combination.html#characteristic-combination-at-least\">at-least</a></td><td>At least</td><td>Meet at least the threshold number of characteristics for definition.</td></tr><tr><td><a name=\"ValueSet-R5-characteristic-combination-for-R4-http://hl7.org/fhir/characteristic-combination-at-most\"> </a><code>http://hl7.org/fhir/characteristic-combination</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-characteristic-combination.html#characteristic-combination-at-most\">at-most</a></td><td>At most</td><td>Meet at most the threshold number of characteristics for definition.</td></tr><tr><td><a name=\"ValueSet-R5-characteristic-combination-for-R4-http://hl7.org/fhir/characteristic-combination-dataset\"> </a><code>http://hl7.org/fhir/characteristic-combination</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-characteristic-combination.html#characteristic-combination-dataset\">dataset</a></td><td>Dataset</td><td>Combine characteristics as a collection used as the dataset.</td></tr><tr><td><a name=\"ValueSet-R5-characteristic-combination-for-R4-http://hl7.org/fhir/characteristic-combination-net-effect\"> </a><code>http://hl7.org/fhir/characteristic-combination</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-characteristic-combination.html#characteristic-combination-net-effect\">net-effect</a></td><td>Net effect</td><td>Combine characteristics by addition of benefits and subtraction of harms.</td></tr><tr><td><a name=\"ValueSet-R5-characteristic-combination-for-R4-http://hl7.org/fhir/characteristic-combination-statistical\"> </a><code>http://hl7.org/fhir/characteristic-combination</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-characteristic-combination.html#characteristic-combination-statistical\">statistical</a></td><td>Statistical</td><td>Combine characteristics statistically. Use method to specify the statistical method.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "cds"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-characteristic-combination-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-characteristic-combination-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ValueSetR5CharacteristicCombinationForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.CharacteristicCombination for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Clinical Decision Support"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Clinical Decision Support" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/dss" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/characteristic-combination|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/characteristic-combination|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `EvidenceVariable.characteristic.definitionByCombination.code` as Required\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/characteristic-combination|5.0.0`\n* `http://hl7.org/fhir/ValueSet/characteristic-combination|4.3.0`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\nAll concepts in the comparison are listed as identical.\nThe source value set has more active concepts (7) than the target (2), so the source is broader than the target."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/characteristic-combination"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/characteristic-combination>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "all-of" ] ;
+         fhir:display [ fhir:v "All of" ]
+       ] [
+         fhir:code [ fhir:v "any-of" ] ;
+         fhir:display [ fhir:v "Any of" ]
+       ] [
+         fhir:code [ fhir:v "at-least" ] ;
+         fhir:display [ fhir:v "At least" ]
+       ] [
+         fhir:code [ fhir:v "at-most" ] ;
+         fhir:display [ fhir:v "At most" ]
+       ] [
+         fhir:code [ fhir:v "dataset" ] ;
+         fhir:display [ fhir:v "Dataset" ]
+       ] [
+         fhir:code [ fhir:v "net-effect" ] ;
+         fhir:display [ fhir:v "Net effect" ]
+       ] [
+         fhir:code [ fhir:v "statistical" ] ;
+         fhir:display [ fhir:v "Statistical" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/characteristic-combination"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/characteristic-combination>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "all-of" ] ;
+       fhir:display [ fhir:v "All of" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/characteristic-combination"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/characteristic-combination>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "any-of" ] ;
+       fhir:display [ fhir:v "Any of" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/characteristic-combination"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/characteristic-combination>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "at-least" ] ;
+       fhir:display [ fhir:v "At least" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/characteristic-combination"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/characteristic-combination>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "at-most" ] ;
+       fhir:display [ fhir:v "At most" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/characteristic-combination"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/characteristic-combination>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "dataset" ] ;
+       fhir:display [ fhir:v "Dataset" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/characteristic-combination"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/characteristic-combination>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "net-effect" ] ;
+       fhir:display [ fhir:v "Net effect" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/characteristic-combination"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/characteristic-combination>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "statistical" ] ;
+       fhir:display [ fhir:v "Statistical" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

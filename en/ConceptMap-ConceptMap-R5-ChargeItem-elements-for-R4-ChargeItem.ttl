@@ -1,0 +1,541 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-ChargeItem-elements-for-R4-ChargeItem> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-ChargeItem-elements-for-R4-ChargeItem"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-ChargeItem-elements-for-R4-ChargeItem</b></p><a name=\"ConceptMap-R5-ChargeItem-elements-for-R4-ChargeItem\"> </a><a name=\"hcConceptMap-R5-ChargeItem-elements-for-R4-ChargeItem\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ChargeItem|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/ChargeItem|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem</td><td style=\"border-left-width: 0px; border-bottom-style: none\">ChargeItem</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `ChargeItem` is representable via FHIR R4B Resource `ChargeItem`.\nElement `ChargeItem` is mapped to FHIR R4B element `ChargeItem`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `ChargeItem` is representable via FHIR DSTU2 Resource `Basic`.\nElement `ChargeItem` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.meta</td><td style=\"border-left-width: 0px; border-bottom-style: none\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.meta</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.meta` is mapped to FHIR R4B element `ChargeItem.meta`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.meta</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.meta`, use that element instead.\nElement `ChargeItem.meta` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.implicitRules</td><td style=\"border-left-width: 0px; border-bottom-style: none\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.implicitRules` is mapped to FHIR R4B element `ChargeItem.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `ChargeItem.implicitRules` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.language</td><td style=\"border-left-width: 0px; border-bottom-style: none\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.language</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.language` is mapped to FHIR R4B element `ChargeItem.language`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.language</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.language`, use that element instead.\nElement `ChargeItem.language` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.text</td><td style=\"border-left-width: 0px; border-bottom-style: none\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.text</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.text` is mapped to FHIR R4B element `ChargeItem.text`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.text</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `ChargeItem.text` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.contained</td><td style=\"border-left-width: 0px; border-bottom-style: none\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.contained</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.contained` is mapped to FHIR R4B element `ChargeItem.contained`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.contained</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `ChargeItem.contained` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.identifier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.identifier` is mapped to FHIR R4B element `ChargeItem.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.identifier</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `ChargeItem.identifier` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.definitionUri</td><td style=\"border-left-width: 0px; border-bottom-style: none\">definitionUri</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.definitionUri</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.definitionUri` is mapped to FHIR R4B element `ChargeItem.definitionUri`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.definition</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.definitionUri` is mapped to FHIR STU3 element `ChargeItem.definition`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:definitionUri</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.definitionUri` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.definitionCanonical</td><td style=\"border-left-width: 0px; border-bottom-style: none\">definitionCanonical</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.definitionCanonical</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.definitionCanonical` is mapped to FHIR R4B element `ChargeItem.definitionCanonical`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.definitionCanonical</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.definitionCanonical` is mapped to FHIR STU3 structure `ChargeItem`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:definitionCanonical</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.definitionCanonical` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.status</td><td style=\"border-left-width: 0px; border-bottom-style: none\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.status</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.status` is mapped to FHIR R4B element `ChargeItem.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:status</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.status` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.partOf</td><td style=\"border-left-width: 0px; border-bottom-style: none\">partOf</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.partOf</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.partOf` is mapped to FHIR R4B element `ChargeItem.partOf`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:partOf</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.partOf` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.code</td><td style=\"border-left-width: 0px; border-bottom-style: none\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.code</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.code` is mapped to FHIR R4B element `ChargeItem.code`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:code</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.code` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.subject</td><td style=\"border-left-width: 0px; border-bottom-style: none\">subject</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.subject</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.subject` is mapped to FHIR R4B element `ChargeItem.subject`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.subject</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.subject`, use that element instead.\nElement `ChargeItem.subject` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.encounter</td><td style=\"border-left-width: 0px; border-bottom-style: none\">encounter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.context</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.encounter` is mapped to FHIR R4B element `ChargeItem.context`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:encounter</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.encounter` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.occurrence[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">occurrence[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.occurrence[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `ChargeItem.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ChargeItem`.\nElement `ChargeItem.occurrence[x]` is mapped to FHIR R4B element `ChargeItem.occurrence[x]`.\nNote that the target element context `ChargeItem.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ChargeItem`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:occurrence</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.occurrence[x]` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.performer</td><td style=\"border-left-width: 0px; border-bottom-style: none\">performer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.performer</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.performer` is mapped to FHIR R4B element `ChargeItem.performer`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.participant</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.performer` is mapped to FHIR STU3 element `ChargeItem.participant`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:performer</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.performer` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.performer.function</td><td style=\"border-left-width: 0px; border-bottom-style: none\">function</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.performer.function</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.performer.function` is mapped to FHIR R4B element `ChargeItem.performer.function`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.participant.role</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.performer.function` is mapped to FHIR STU3 element `ChargeItem.participant.role`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:performer:function</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.performer.function` is part of an existing definition because parent element `ChargeItem.performer` requires a cross-version extension.\nElement `ChargeItem.performer.function` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.performer.actor</td><td style=\"border-left-width: 0px; border-bottom-style: none\">actor</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.performer.actor</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.performer.actor` is mapped to FHIR R4B element `ChargeItem.performer.actor`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.participant.actor</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.performer.actor` is mapped to FHIR STU3 element `ChargeItem.participant.actor`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:performer:actor</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.performer.actor` is part of an existing definition because parent element `ChargeItem.performer` requires a cross-version extension.\nElement `ChargeItem.performer.actor` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.performingOrganization</td><td style=\"border-left-width: 0px; border-bottom-style: none\">performingOrganization</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.performingOrganization</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.performingOrganization` is mapped to FHIR R4B element `ChargeItem.performingOrganization`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:performingOrganization</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.performingOrganization` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.requestingOrganization</td><td style=\"border-left-width: 0px; border-bottom-style: none\">requestingOrganization</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.requestingOrganization</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.requestingOrganization` is mapped to FHIR R4B element `ChargeItem.requestingOrganization`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:requestingOrganization</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.requestingOrganization` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.costCenter</td><td style=\"border-left-width: 0px; border-bottom-style: none\">costCenter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.costCenter</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.costCenter` is mapped to FHIR R4B element `ChargeItem.costCenter`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.costCenter</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.costCenter` is mapped to FHIR STU3 structure `ChargeItem`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:costCenter</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.costCenter` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.quantity</td><td style=\"border-left-width: 0px; border-bottom-style: none\">quantity</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.quantity</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.quantity` is mapped to FHIR R4B element `ChargeItem.quantity`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:quantity</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.quantity` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.bodysite</td><td style=\"border-left-width: 0px; border-bottom-style: none\">bodysite</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.bodysite</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.bodysite` is mapped to FHIR R4B element `ChargeItem.bodysite`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:bodysite</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.bodysite` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.unitPriceComponent</td><td style=\"border-left-width: 0px; border-bottom-style: none\">unitPriceComponent</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.unitPriceComponent</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.unitPriceComponent` is mapped to FHIR R4B structure `ChargeItem`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:unitPriceComponent</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.unitPriceComponent` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.totalPriceComponent</td><td style=\"border-left-width: 0px; border-bottom-style: none\">totalPriceComponent</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.totalPriceComponent</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.totalPriceComponent` is mapped to FHIR R4B structure `ChargeItem`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:totalPriceComponent</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.totalPriceComponent` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.overrideReason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">overrideReason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.overrideReason</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.overrideReason` is mapped to FHIR R4B element `ChargeItem.overrideReason`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:overrideReason</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.overrideReason` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.enterer</td><td style=\"border-left-width: 0px; border-bottom-style: none\">enterer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.enterer</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.enterer` is mapped to FHIR R4B element `ChargeItem.enterer`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:enterer</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.enterer` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.enteredDate</td><td style=\"border-left-width: 0px; border-bottom-style: none\">enteredDate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.enteredDate</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.enteredDate` is mapped to FHIR R4B element `ChargeItem.enteredDate`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:enteredDate</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.enteredDate` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.reason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.reason</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.reason` is mapped to FHIR R4B element `ChargeItem.reason`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:reason</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.reason` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.service</td><td style=\"border-left-width: 0px; border-bottom-style: none\">service</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.service</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.service` is mapped to FHIR R4B element `ChargeItem.service`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:service</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.service` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.product</td><td style=\"border-left-width: 0px; border-bottom-style: none\">product</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.product[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `ChargeItem.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ChargeItem`.\nElement `ChargeItem.product` is mapped to FHIR R4B element `ChargeItem.product[x]`.\nNote that the target element context `ChargeItem.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ChargeItem`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.product</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.product` is mapped to FHIR STU3 structure `ChargeItem`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:product</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.product` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.account</td><td style=\"border-left-width: 0px; border-bottom-style: none\">account</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.account</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.account` is mapped to FHIR R4B element `ChargeItem.account`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:account</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.account` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.note</td><td style=\"border-left-width: 0px; border-bottom-style: none\">note</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.note</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.note` is mapped to FHIR R4B element `ChargeItem.note`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:note</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.note` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ChargeItem.supportingInformation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">supportingInformation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.supportingInformation</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.supportingInformation` is mapped to FHIR R4B element `ChargeItem.supportingInformation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:supportingInformation</td><td style=\"border-left-width: 0px\"/><td>Element `ChargeItem.supportingInformation` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-ChargeItem-elements-for-R4-ChargeItem"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-ChargeItem-elements-for-R4-ChargeItem>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5ChargeItemElementsForR4ChargeItem"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:31.2386307-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/ChargeItem>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "ChargeItem" ] ;
+       fhir:display [ fhir:v "ChargeItem" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `ChargeItem` is representable via FHIR R4B Resource `ChargeItem`.\nElement `ChargeItem` is mapped to FHIR R4B element `ChargeItem`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `ChargeItem` is representable via FHIR DSTU2 Resource `Basic`.\nElement `ChargeItem` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.meta` is mapped to FHIR R4B element `ChargeItem.meta`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `ChargeItem.meta` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.implicitRules` is mapped to FHIR R4B element `ChargeItem.implicitRules`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `ChargeItem.implicitRules` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.language` is mapped to FHIR R4B element `ChargeItem.language`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.language`, use that element instead.\nElement `ChargeItem.language` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.text` is mapped to FHIR R4B element `ChargeItem.text`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `ChargeItem.text` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.contained` is mapped to FHIR R4B element `ChargeItem.contained`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `ChargeItem.contained` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.identifier` is mapped to FHIR R4B element `ChargeItem.identifier`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `ChargeItem.identifier` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.definitionUri" ] ;
+       fhir:display [ fhir:v "definitionUri" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.definitionUri" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.definitionUri` is mapped to FHIR R4B element `ChargeItem.definitionUri`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.definition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.definitionUri` is mapped to FHIR STU3 element `ChargeItem.definition`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:definitionUri" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.definitionUri` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.definitionCanonical" ] ;
+       fhir:display [ fhir:v "definitionCanonical" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.definitionCanonical" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.definitionCanonical` is mapped to FHIR R4B element `ChargeItem.definitionCanonical`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.definitionCanonical" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.definitionCanonical` is mapped to FHIR STU3 structure `ChargeItem`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:definitionCanonical" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.definitionCanonical` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.status` is mapped to FHIR R4B element `ChargeItem.status`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.status` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.partOf" ] ;
+       fhir:display [ fhir:v "partOf" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.partOf" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.partOf` is mapped to FHIR R4B element `ChargeItem.partOf`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:partOf" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.partOf` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.code` is mapped to FHIR R4B element `ChargeItem.code`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.code` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.subject` is mapped to FHIR R4B element `ChargeItem.subject`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `ChargeItem.subject` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.context" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.encounter` is mapped to FHIR R4B element `ChargeItem.context`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:encounter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.encounter` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.occurrence[x]" ] ;
+       fhir:display [ fhir:v "occurrence[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.occurrence[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `ChargeItem.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ChargeItem`.\nElement `ChargeItem.occurrence[x]` is mapped to FHIR R4B element `ChargeItem.occurrence[x]`.\nNote that the target element context `ChargeItem.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ChargeItem`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:occurrence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.occurrence[x]` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.performer" ] ;
+       fhir:display [ fhir:v "performer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.performer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.performer` is mapped to FHIR R4B element `ChargeItem.performer`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.participant" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.performer` is mapped to FHIR STU3 element `ChargeItem.participant`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:performer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.performer` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.performer.function" ] ;
+       fhir:display [ fhir:v "function" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.performer.function" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.performer.function` is mapped to FHIR R4B element `ChargeItem.performer.function`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.participant.role" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.performer.function` is mapped to FHIR STU3 element `ChargeItem.participant.role`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:performer:function" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.performer.function` is part of an existing definition because parent element `ChargeItem.performer` requires a cross-version extension.\nElement `ChargeItem.performer.function` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.performer.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.performer.actor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.performer.actor` is mapped to FHIR R4B element `ChargeItem.performer.actor`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.participant.actor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.performer.actor` is mapped to FHIR STU3 element `ChargeItem.participant.actor`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:performer:actor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.performer.actor` is part of an existing definition because parent element `ChargeItem.performer` requires a cross-version extension.\nElement `ChargeItem.performer.actor` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.performingOrganization" ] ;
+       fhir:display [ fhir:v "performingOrganization" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.performingOrganization" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.performingOrganization` is mapped to FHIR R4B element `ChargeItem.performingOrganization`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:performingOrganization" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.performingOrganization` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.requestingOrganization" ] ;
+       fhir:display [ fhir:v "requestingOrganization" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.requestingOrganization" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.requestingOrganization` is mapped to FHIR R4B element `ChargeItem.requestingOrganization`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:requestingOrganization" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.requestingOrganization` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.costCenter" ] ;
+       fhir:display [ fhir:v "costCenter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.costCenter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.costCenter` is mapped to FHIR R4B element `ChargeItem.costCenter`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.costCenter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.costCenter` is mapped to FHIR STU3 structure `ChargeItem`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:costCenter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.costCenter` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.quantity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.quantity` is mapped to FHIR R4B element `ChargeItem.quantity`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:quantity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.quantity` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.bodysite" ] ;
+       fhir:display [ fhir:v "bodysite" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.bodysite" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.bodysite` is mapped to FHIR R4B element `ChargeItem.bodysite`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:bodysite" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.bodysite` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.unitPriceComponent" ] ;
+       fhir:display [ fhir:v "unitPriceComponent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.unitPriceComponent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.unitPriceComponent` is mapped to FHIR R4B structure `ChargeItem`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:unitPriceComponent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.unitPriceComponent` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.totalPriceComponent" ] ;
+       fhir:display [ fhir:v "totalPriceComponent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.totalPriceComponent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.totalPriceComponent` is mapped to FHIR R4B structure `ChargeItem`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:totalPriceComponent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.totalPriceComponent` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.overrideReason" ] ;
+       fhir:display [ fhir:v "overrideReason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.overrideReason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.overrideReason` is mapped to FHIR R4B element `ChargeItem.overrideReason`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:overrideReason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.overrideReason` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.enterer" ] ;
+       fhir:display [ fhir:v "enterer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.enterer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.enterer` is mapped to FHIR R4B element `ChargeItem.enterer`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:enterer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.enterer` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.enteredDate" ] ;
+       fhir:display [ fhir:v "enteredDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.enteredDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.enteredDate` is mapped to FHIR R4B element `ChargeItem.enteredDate`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:enteredDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.enteredDate` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.reason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.reason` is mapped to FHIR R4B element `ChargeItem.reason`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:reason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.reason` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.service" ] ;
+       fhir:display [ fhir:v "service" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.service" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.service` is mapped to FHIR R4B element `ChargeItem.service`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:service" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.service` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.product" ] ;
+       fhir:display [ fhir:v "product" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.product[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `ChargeItem.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ChargeItem`.\nElement `ChargeItem.product` is mapped to FHIR R4B element `ChargeItem.product[x]`.\nNote that the target element context `ChargeItem.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ChargeItem`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.product" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.product` is mapped to FHIR STU3 structure `ChargeItem`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:product" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.product` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.account" ] ;
+       fhir:display [ fhir:v "account" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.account" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.account` is mapped to FHIR R4B element `ChargeItem.account`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:account" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.account` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.note` is mapped to FHIR R4B element `ChargeItem.note`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.note` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.supportingInformation" ] ;
+       fhir:display [ fhir:v "supportingInformation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.supportingInformation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.supportingInformation` is mapped to FHIR R4B element `ChargeItem.supportingInformation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem:supportingInformation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.supportingInformation` is not mapped to FHIR DSTU2, since FHIR R5 `ChargeItem` is not mapped." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

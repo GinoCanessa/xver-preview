@@ -1,0 +1,220 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/ex-benefitcategory> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ex-benefitcategory"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://terminology.hl7.org/CodeSystem/ex-benefitcategory</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"ex-benefitcategory-1\"> </a></td><td>Medical Care</td><td>Medical Care.</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"ex-benefitcategory-2\"> </a></td><td>Surgical</td><td>Surgical.</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"ex-benefitcategory-3\"> </a></td><td>Consultation</td><td>Consultation.</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"ex-benefitcategory-4\"> </a></td><td>Diagnostic XRay</td><td>Diagnostic XRay.</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"ex-benefitcategory-5\"> </a></td><td>Diagnostic Lab</td><td>Diagnostic Lab.</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"ex-benefitcategory-14\"> </a></td><td>Renal Supplies</td><td>Renal Supplies excluding Dialysis.</td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"ex-benefitcategory-23\"> </a></td><td>Diagnostic Dental</td><td>Diagnostic Dental.</td></tr><tr><td style=\"white-space:nowrap\">24<a name=\"ex-benefitcategory-24\"> </a></td><td>Periodontics</td><td>Periodontics.</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"ex-benefitcategory-25\"> </a></td><td>Restorative</td><td>Restorative.</td></tr><tr><td style=\"white-space:nowrap\">26<a name=\"ex-benefitcategory-26\"> </a></td><td>Endodontics</td><td>Endodontics.</td></tr><tr><td style=\"white-space:nowrap\">27<a name=\"ex-benefitcategory-27\"> </a></td><td>Maxillofacial Prosthetics</td><td>Maxillofacial Prosthetics.</td></tr><tr><td style=\"white-space:nowrap\">28<a name=\"ex-benefitcategory-28\"> </a></td><td>Adjunctive Dental Services</td><td>Adjunctive Dental Services.</td></tr><tr><td style=\"white-space:nowrap\">30<a name=\"ex-benefitcategory-30\"> </a></td><td>Health Benefit Plan Coverage</td><td>Health Benefit Plan Coverage.</td></tr><tr><td style=\"white-space:nowrap\">35<a name=\"ex-benefitcategory-35\"> </a></td><td>Dental Care</td><td>Dental Care.</td></tr><tr><td style=\"white-space:nowrap\">36<a name=\"ex-benefitcategory-36\"> </a></td><td>Dental Crowns</td><td>Dental Crowns.</td></tr><tr><td style=\"white-space:nowrap\">37<a name=\"ex-benefitcategory-37\"> </a></td><td>Dental Accident</td><td>Dental Accident.</td></tr><tr><td style=\"white-space:nowrap\">49<a name=\"ex-benefitcategory-49\"> </a></td><td>Hospital Room and Board</td><td>Hospital Room and Board.</td></tr><tr><td style=\"white-space:nowrap\">55<a name=\"ex-benefitcategory-55\"> </a></td><td>Major Medical</td><td>Major Medical.</td></tr><tr><td style=\"white-space:nowrap\">56<a name=\"ex-benefitcategory-56\"> </a></td><td>Medically Related Transportation</td><td>Medically Related Transportation.</td></tr><tr><td style=\"white-space:nowrap\">61<a name=\"ex-benefitcategory-61\"> </a></td><td>In-vitro Fertilization</td><td>In-vitro Fertilization.</td></tr><tr><td style=\"white-space:nowrap\">62<a name=\"ex-benefitcategory-62\"> </a></td><td>MRI Scan</td><td>MRI Scan.</td></tr><tr><td style=\"white-space:nowrap\">63<a name=\"ex-benefitcategory-63\"> </a></td><td>Donor Procedures</td><td>Donor Procedures such as organ harvest.</td></tr><tr><td style=\"white-space:nowrap\">69<a name=\"ex-benefitcategory-69\"> </a></td><td>Maternity</td><td>Maternity.</td></tr><tr><td style=\"white-space:nowrap\">76<a name=\"ex-benefitcategory-76\"> </a></td><td>Renal Dialysis</td><td>Renal dialysis.</td></tr><tr><td style=\"white-space:nowrap\">F1<a name=\"ex-benefitcategory-F1\"> </a></td><td>Medical Coverage</td><td>Medical Coverage.</td></tr><tr><td style=\"white-space:nowrap\">F3<a name=\"ex-benefitcategory-F3\"> </a></td><td>Dental Coverage</td><td>Dental Coverage.</td></tr><tr><td style=\"white-space:nowrap\">F4<a name=\"ex-benefitcategory-F4\"> </a></td><td>Hearing Coverage</td><td>Hearing Coverage.</td></tr><tr><td style=\"white-space:nowrap\">F6<a name=\"ex-benefitcategory-F6\"> </a></td><td>Vision Coverage</td><td>Vision Coverage.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fm"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/ex-benefitcategory"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/ex-benefitcategory>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "BenefitCategoryCodes"] ; # 
+  fhir:title [ fhir:v "Benefit Category Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2023-02-25T12:07:30-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Financial Management"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Financial Management" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fm" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This value set includes examples of Benefit Category codes."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:copyright [ fhir:v "This is an example set."] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/ex-benefitcategory|1.0.1"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/ex-benefitcategory?version=1.0.1>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "Medical Care" ] ;
+     fhir:definition [ fhir:v "Medical Care." ]
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "Surgical" ] ;
+     fhir:definition [ fhir:v "Surgical." ]
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "Consultation" ] ;
+     fhir:definition [ fhir:v "Consultation." ]
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "Diagnostic XRay" ] ;
+     fhir:definition [ fhir:v "Diagnostic XRay." ]
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "Diagnostic Lab" ] ;
+     fhir:definition [ fhir:v "Diagnostic Lab." ]
+  ] [
+     fhir:code [ fhir:v "14" ] ;
+     fhir:display [ fhir:v "Renal Supplies" ] ;
+     fhir:definition [ fhir:v "Renal Supplies excluding Dialysis." ]
+  ] [
+     fhir:code [ fhir:v "23" ] ;
+     fhir:display [ fhir:v "Diagnostic Dental" ] ;
+     fhir:definition [ fhir:v "Diagnostic Dental." ]
+  ] [
+     fhir:code [ fhir:v "24" ] ;
+     fhir:display [ fhir:v "Periodontics" ] ;
+     fhir:definition [ fhir:v "Periodontics." ]
+  ] [
+     fhir:code [ fhir:v "25" ] ;
+     fhir:display [ fhir:v "Restorative" ] ;
+     fhir:definition [ fhir:v "Restorative." ]
+  ] [
+     fhir:code [ fhir:v "26" ] ;
+     fhir:display [ fhir:v "Endodontics" ] ;
+     fhir:definition [ fhir:v "Endodontics." ]
+  ] [
+     fhir:code [ fhir:v "27" ] ;
+     fhir:display [ fhir:v "Maxillofacial Prosthetics" ] ;
+     fhir:definition [ fhir:v "Maxillofacial Prosthetics." ]
+  ] [
+     fhir:code [ fhir:v "28" ] ;
+     fhir:display [ fhir:v "Adjunctive Dental Services" ] ;
+     fhir:definition [ fhir:v "Adjunctive Dental Services." ]
+  ] [
+     fhir:code [ fhir:v "30" ] ;
+     fhir:display [ fhir:v "Health Benefit Plan Coverage" ] ;
+     fhir:definition [ fhir:v "Health Benefit Plan Coverage." ]
+  ] [
+     fhir:code [ fhir:v "35" ] ;
+     fhir:display [ fhir:v "Dental Care" ] ;
+     fhir:definition [ fhir:v "Dental Care." ]
+  ] [
+     fhir:code [ fhir:v "36" ] ;
+     fhir:display [ fhir:v "Dental Crowns" ] ;
+     fhir:definition [ fhir:v "Dental Crowns." ]
+  ] [
+     fhir:code [ fhir:v "37" ] ;
+     fhir:display [ fhir:v "Dental Accident" ] ;
+     fhir:definition [ fhir:v "Dental Accident." ]
+  ] [
+     fhir:code [ fhir:v "49" ] ;
+     fhir:display [ fhir:v "Hospital Room and Board" ] ;
+     fhir:definition [ fhir:v "Hospital Room and Board." ]
+  ] [
+     fhir:code [ fhir:v "55" ] ;
+     fhir:display [ fhir:v "Major Medical" ] ;
+     fhir:definition [ fhir:v "Major Medical." ]
+  ] [
+     fhir:code [ fhir:v "56" ] ;
+     fhir:display [ fhir:v "Medically Related Transportation" ] ;
+     fhir:definition [ fhir:v "Medically Related Transportation." ]
+  ] [
+     fhir:code [ fhir:v "61" ] ;
+     fhir:display [ fhir:v "In-vitro Fertilization" ] ;
+     fhir:definition [ fhir:v "In-vitro Fertilization." ]
+  ] [
+     fhir:code [ fhir:v "62" ] ;
+     fhir:display [ fhir:v "MRI Scan" ] ;
+     fhir:definition [ fhir:v "MRI Scan." ]
+  ] [
+     fhir:code [ fhir:v "63" ] ;
+     fhir:display [ fhir:v "Donor Procedures" ] ;
+     fhir:definition [ fhir:v "Donor Procedures such as organ harvest." ]
+  ] [
+     fhir:code [ fhir:v "69" ] ;
+     fhir:display [ fhir:v "Maternity" ] ;
+     fhir:definition [ fhir:v "Maternity." ]
+  ] [
+     fhir:code [ fhir:v "76" ] ;
+     fhir:display [ fhir:v "Renal Dialysis" ] ;
+     fhir:definition [ fhir:v "Renal dialysis." ]
+  ] [
+     fhir:code [ fhir:v "F1" ] ;
+     fhir:display [ fhir:v "Medical Coverage" ] ;
+     fhir:definition [ fhir:v "Medical Coverage." ]
+  ] [
+     fhir:code [ fhir:v "F3" ] ;
+     fhir:display [ fhir:v "Dental Coverage" ] ;
+     fhir:definition [ fhir:v "Dental Coverage." ]
+  ] [
+     fhir:code [ fhir:v "F4" ] ;
+     fhir:display [ fhir:v "Hearing Coverage" ] ;
+     fhir:definition [ fhir:v "Hearing Coverage." ]
+  ] [
+     fhir:code [ fhir:v "F6" ] ;
+     fhir:display [ fhir:v "Vision Coverage" ] ;
+     fhir:definition [ fhir:v "Vision Coverage." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

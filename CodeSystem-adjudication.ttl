@@ -1,0 +1,140 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/adjudication> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "adjudication"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://terminology.hl7.org/CodeSystem/adjudication</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">submitted<a name=\"adjudication-submitted\"> </a></td><td>Submitted Amount</td><td>The total submitted amount for the claim or group or line item.</td></tr><tr><td style=\"white-space:nowrap\">copay<a name=\"adjudication-copay\"> </a></td><td>CoPay</td><td>Patient Co-Payment</td></tr><tr><td style=\"white-space:nowrap\">eligible<a name=\"adjudication-eligible\"> </a></td><td>Eligible Amount</td><td>Amount of the change which is considered for adjudication.</td></tr><tr><td style=\"white-space:nowrap\">deductible<a name=\"adjudication-deductible\"> </a></td><td>Deductible</td><td>Amount deducted from the eligible amount prior to adjudication.</td></tr><tr><td style=\"white-space:nowrap\">unallocdeduct<a name=\"adjudication-unallocdeduct\"> </a></td><td>Unallocated Deductible</td><td>The amount of deductible which could not allocated to other line items.</td></tr><tr><td style=\"white-space:nowrap\">eligpercent<a name=\"adjudication-eligpercent\"> </a></td><td>Eligible %</td><td>Eligible Percentage.</td></tr><tr><td style=\"white-space:nowrap\">tax<a name=\"adjudication-tax\"> </a></td><td>Tax</td><td>The amount of tax.</td></tr><tr><td style=\"white-space:nowrap\">benefit<a name=\"adjudication-benefit\"> </a></td><td>Benefit Amount</td><td>Amount payable under the coverage</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fm"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/adjudication"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/adjudication>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "AdjudicationValueCodes"] ; # 
+  fhir:title [ fhir:v "Adjudication Value Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2023-02-25T12:07:30-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Financial Management"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Financial Management" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fm" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This value set includes a smattering of Adjudication Value codes which includes codes to indicate the amounts eligible under the plan, the amount of benefit, copays etc."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:copyright [ fhir:v "This is an example set."] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/adjudication|1.0.1"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/adjudication?version=1.0.1>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "submitted" ] ;
+     fhir:display [ fhir:v "Submitted Amount" ] ;
+     fhir:definition [ fhir:v "The total submitted amount for the claim or group or line item." ]
+  ] [
+     fhir:code [ fhir:v "copay" ] ;
+     fhir:display [ fhir:v "CoPay" ] ;
+     fhir:definition [ fhir:v "Patient Co-Payment" ]
+  ] [
+     fhir:code [ fhir:v "eligible" ] ;
+     fhir:display [ fhir:v "Eligible Amount" ] ;
+     fhir:definition [ fhir:v "Amount of the change which is considered for adjudication." ]
+  ] [
+     fhir:code [ fhir:v "deductible" ] ;
+     fhir:display [ fhir:v "Deductible" ] ;
+     fhir:definition [ fhir:v "Amount deducted from the eligible amount prior to adjudication." ]
+  ] [
+     fhir:code [ fhir:v "unallocdeduct" ] ;
+     fhir:display [ fhir:v "Unallocated Deductible" ] ;
+     fhir:definition [ fhir:v "The amount of deductible which could not allocated to other line items." ]
+  ] [
+     fhir:code [ fhir:v "eligpercent" ] ;
+     fhir:display [ fhir:v "Eligible %" ] ;
+     fhir:definition [ fhir:v "Eligible Percentage." ]
+  ] [
+     fhir:code [ fhir:v "tax" ] ;
+     fhir:display [ fhir:v "Tax" ] ;
+     fhir:definition [ fhir:v "The amount of tax." ]
+  ] [
+     fhir:code [ fhir:v "benefit" ] ;
+     fhir:display [ fhir:v "Benefit Amount" ] ;
+     fhir:definition [ fhir:v "Amount payable under the coverage" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

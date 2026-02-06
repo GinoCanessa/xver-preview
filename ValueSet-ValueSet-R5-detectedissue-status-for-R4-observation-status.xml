@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ValueSet-R5-detectedissue-status-for-R4-observation-status"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ValueSet-R5-detectedissue-status-for-R4-observation-status</b></p><a name="ValueSet-R5-detectedissue-status-for-R4-observation-status"> </a><a name="hcValueSet-R5-detectedissue-status-for-R4-observation-status"> </a><p>This value set expansion contains 1 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="ValueSet-R5-detectedissue-status-for-R4-observation-status-http://hl7.org/fhir/detectedissue-status-mitigated"> </a><code>http://hl7.org/fhir/detectedissue-status</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-detectedissue-status.html#detectedissue-status-mitigated">mitigated</a></td><td>Mitigated</td><td>Indicates the detected issue has been mitigated</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="cds"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-detectedissue-status-for-R4-observation-status"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="ValueSetR5DetectedissueStatusForR4ObservationStatus"/>
+  <title value="Cross-version ValueSet R5.DetectedIssueStatus for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <publisher value="Clinical Decision Support"/>
+  <contact>
+    <name value="Clinical Decision Support"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/dss"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from http://hl7.org/fhir/ValueSet/detectedissue-status|5.0.0 for use in FHIR R4 that is appropriate for use but unavailable in `http://hl7.org/fhir/ValueSet/observation-status|4.0.1`."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/detectedissue-status|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `DetectedIssue.status` as Required&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the value set has been mapped as:&#xD;&#xA;* `http://hl7.org/fhir/ValueSet/detectedissue-status|5.0.0`&#xA;* `http://hl7.org/fhir/ValueSet/observation-status|4.3.0`&#xA;* `http://hl7.org/fhir/ValueSet/observation-status|4.0.1`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* `http://hl7.org/fhir/observation-status#entered-in-error`&#xA;* `http://hl7.org/fhir/observation-status#final`&#xA;* `http://hl7.org/fhir/observation-status#preliminary`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;One or more source concepts are either not mapped or broader than their targets, so the value set relationship is broadened.&#xA;The source value set has fewer active concepts (4) than the target (8), so the source is narrower than the target.&#xA;All concepts in the comparison are listed as identical.&#xA;The source and target value sets have the same number of active concepts (8)."/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/detectedissue-status"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="mitigated"/>
+        <display value="Mitigated"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-06T19:17:19.5427077+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/detectedissue-status"/>
+      <version value="5.0.0"/>
+      <code value="mitigated"/>
+      <display value="Mitigated"/>
+    </contains>
+  </expansion>
+</ValueSet>

@@ -1,0 +1,1375 @@
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>ConceptMapR5CodeSystemElementsForR4CodeSystem - JSON Representation - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"7.2125"}
+    h3,h4,h5,h6{--heading-prefix:"7.2125"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" data-no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img alt="International flag" src="../assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ConceptMapR5CodeSystemElementsForR4CodeSystem</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="ConceptMap-ConceptMap-R5-CodeSystem-elements-for-R4-CodeSystem.xml.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="ConceptMap-ConceptMap-R5-CodeSystem-elements-for-R4-CodeSystem.ttl.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<!-- layouts\layout-instance-format -->
+<div style="counter-reset: section 8" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="ConceptMap-ConceptMap-R5-CodeSystem-elements-for-R4-CodeSystem.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ConceptMap-ConceptMap-R5-CodeSystem-elements-for-R4-CodeSystem.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ConceptMap-ConceptMap-R5-CodeSystem-elements-for-R4-CodeSystem.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+
+<h2 id="root">: ConceptMapR5CodeSystemElementsForR4CodeSystem</h2>
+
+  <table class="colsd" data-fhir="generated">
+    <tr>
+
+      <td colspan="1">
+        
+          <i>Page standards status:</i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standards Status">Trial-use</a>
+          
+        
+      </td>
+
+      <td>
+        <a href="http://hl7.org/fhir/versions.html#maturity">Maturity Level</a>: 0
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p><a href="ConceptMap-ConceptMap-R5-CodeSystem-elements-for-R4-CodeSystem.json" no-download="true">Raw json</a> | <a href="ConceptMap-ConceptMap-R5-CodeSystem-elements-for-R4-CodeSystem.json" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="json" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code style="white-space: pre; text-wrap: nowrap;">{
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap">resourceType</a>" : "ConceptMap",
+  "<a href="http://hl7.org/fhir/R4/resource.html#ConceptMap.id">id</a>" : "ConceptMap-R5-CodeSystem-elements-for-R4-CodeSystem",
+  "<a href="http://hl7.org/fhir/R4/resource.html#ConceptMap.language">language</a>" : "en",
+  "<a href="http://hl7.org/fhir/R4/domainresource.html#ConceptMap.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: ConceptMap ConceptMap-R5-CodeSystem-elements-for-R4-CodeSystem&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;ConceptMap-R5-CodeSystem-elements-for-R4-CodeSystem\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcConceptMap-R5-CodeSystem-elements-for-R4-CodeSystem\&quot;&gt; &lt;/a&gt;&lt;p&gt;Mapping from (not specified) to (not specified)&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b&gt;Group 1 &lt;/b&gt;Mapping from &lt;code&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem|5.0.0&lt;/code&gt; to &lt;code&gt;unspecified code system&lt;/code&gt;&lt;/p&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td colspan=\&quot;2\&quot;&gt;&lt;b&gt;Source Concept Details&lt;/b&gt;&lt;/td&gt;&lt;td colspan=\&quot;2\&quot;&gt;&lt;b&gt;Target Concept Details&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Comment&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=\&quot;2\&quot;&gt;&lt;b&gt;Codes&lt;/b&gt; from http://hl7.org/fhir/StructureDefinition/CodeSystem|5.0.0&lt;/td&gt;&lt;td colspan=\&quot;2\&quot;&gt;&lt;b&gt;Codes&lt;/b&gt; from &lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;FHIR R5 Resource `CodeSystem` is representable via FHIR R4B Resource `CodeSystem`.\nElement `CodeSystem` is mapped to FHIR R4B element `CodeSystem`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;FHIR R5 Resource `CodeSystem` is representable via FHIR DSTU2 Resource `ValueSet`.\nElement `CodeSystem` is mapped to FHIR DSTU2 element `ValueSet`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.meta&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;meta&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.meta&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.meta` is mapped to FHIR R4B element `CodeSystem.meta`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.meta&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.meta` is mapped to FHIR DSTU2 element `ValueSet.meta`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.implicitRules&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;implicitRules&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.implicitRules&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.implicitRules` is mapped to FHIR R4B element `CodeSystem.implicitRules`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.implicitRules&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.implicitRules` is mapped to FHIR DSTU2 element `ValueSet.implicitRules`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.language&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;language&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.language&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.language` is mapped to FHIR R4B element `CodeSystem.language`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.language&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.language` is mapped to FHIR DSTU2 element `ValueSet.language`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.text&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;text&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.text&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.text` is mapped to FHIR R4B element `CodeSystem.text`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.text&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.text` is mapped to FHIR DSTU2 element `ValueSet.text`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.contained&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;contained&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.contained&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.contained` is mapped to FHIR R4B element `CodeSystem.contained`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.contained&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.contained` is mapped to FHIR DSTU2 element `ValueSet.contained`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.url&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;url&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.url&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.url` is mapped to FHIR R4B element `CodeSystem.url`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.url&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.url` is mapped to FHIR DSTU2 element `ValueSet.url`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.identifier&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;identifier&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.identifier&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.identifier` is mapped to FHIR R4B element `CodeSystem.identifier`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.identifier&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.identifier` is mapped to FHIR DSTU2 element `ValueSet.identifier`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.version&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;version&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.version&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.version` is mapped to FHIR R4B element `CodeSystem.version`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.version&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.version` is mapped to FHIR DSTU2 element `ValueSet.version`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;CodeSystem.versionAlgorithm[x]&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;versionAlgorithm[x]&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.versionAlgorithm&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.versionAlgorithm[x]` is mapped to FHIR R4B structure `CodeSystem`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.name&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;name&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.name&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.name` is mapped to FHIR R4B element `CodeSystem.name`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.name&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.name` is mapped to FHIR DSTU2 element `ValueSet.name`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.title&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;title&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.title&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.title` is mapped to FHIR R4B element `CodeSystem.title`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.title&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.title` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.status&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;status&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.status&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.status` is mapped to FHIR R4B element `CodeSystem.status`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.status&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Note that the target element context `ValueSet.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `CodeSystem.status` is mapped to FHIR DSTU2 element `ValueSet.status`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.experimental&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;experimental&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.experimental&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.experimental` is mapped to FHIR R4B element `CodeSystem.experimental`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.experimental&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.experimental` is mapped to FHIR DSTU2 element `ValueSet.experimental`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.date&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;date&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.date&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.date` is mapped to FHIR R4B element `CodeSystem.date`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.date&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.date` is mapped to FHIR DSTU2 element `ValueSet.date`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.publisher&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;publisher&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.publisher&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.publisher` is mapped to FHIR R4B element `CodeSystem.publisher`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.publisher&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.publisher` is mapped to FHIR DSTU2 element `ValueSet.publisher`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.contact&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;contact&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.contact&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.contact` is mapped to FHIR R4B element `CodeSystem.contact`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.contact&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.contact` is mapped to FHIR DSTU2 element `ValueSet.contact`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.description&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;description&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.description&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.description` is mapped to FHIR R4B element `CodeSystem.description`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.description&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.description` is mapped to FHIR DSTU2 element `ValueSet.description`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.useContext&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;useContext&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.useContext&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.useContext` is mapped to FHIR R4B element `CodeSystem.useContext`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.useContext&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.useContext` is mapped to FHIR DSTU2 element `ValueSet.useContext`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.jurisdiction&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;jurisdiction&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.jurisdiction&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.jurisdiction` is mapped to FHIR R4B element `CodeSystem.jurisdiction`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.jurisdiction&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.jurisdiction` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.purpose&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;purpose&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.purpose&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.purpose` is mapped to FHIR R4B element `CodeSystem.purpose`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.purpose&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.purpose` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.copyright&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;copyright&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.copyright&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.copyright` is mapped to FHIR R4B element `CodeSystem.copyright`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.copyright&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.copyright` is mapped to FHIR DSTU2 element `ValueSet.copyright`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;CodeSystem.copyrightLabel&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;copyrightLabel&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.copyrightLabel&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.copyrightLabel` is mapped to FHIR R4B structure `CodeSystem`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;CodeSystem.approvalDate&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;approvalDate&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.approvalDate&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.approvalDate` is mapped to FHIR R4B structure `CodeSystem`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;CodeSystem.lastReviewDate&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;lastReviewDate&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.lastReviewDate&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.lastReviewDate` is mapped to FHIR R4B structure `CodeSystem`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;CodeSystem.effectivePeriod&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;effectivePeriod&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.effectivePeriod&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.effectivePeriod` is mapped to FHIR R4B structure `CodeSystem`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;CodeSystem.topic&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;topic&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.topic&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.topic` is mapped to FHIR R4B structure `CodeSystem`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;CodeSystem.author&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;author&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.author&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -&amp;gt; basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson,http://hl7.org/fhir/StructureDefinition/Organization)`:0..1).\nElement `CodeSystem.author` is mapped to FHIR R4B structure `CodeSystem`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;CodeSystem.editor&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;editor&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.editor&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.editor` is mapped to FHIR R4B structure `CodeSystem`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;CodeSystem.reviewer&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;reviewer&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.reviewer&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.reviewer` is mapped to FHIR R4B structure `CodeSystem`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;CodeSystem.endorser&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;endorser&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.endorser&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.endorser` is mapped to FHIR R4B structure `CodeSystem`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;CodeSystem.relatedArtifact&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;relatedArtifact&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.relatedArtifact&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.relatedArtifact` is mapped to FHIR R4B structure `CodeSystem`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.caseSensitive&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;caseSensitive&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.caseSensitive&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.caseSensitive` is mapped to FHIR R4B element `CodeSystem.caseSensitive`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.caseSensitive&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.caseSensitive` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.valueSet&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;valueSet&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.valueSet&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.valueSet` is mapped to FHIR R4B element `CodeSystem.valueSet`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.valueSet&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.valueSet` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.hierarchyMeaning&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;hierarchyMeaning&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.hierarchyMeaning&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.hierarchyMeaning` is mapped to FHIR R4B element `CodeSystem.hierarchyMeaning`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.hierarchyMeaning&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.hierarchyMeaning` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.compositional&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;compositional&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.compositional&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.compositional` is mapped to FHIR R4B element `CodeSystem.compositional`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.compositional&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.compositional` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.versionNeeded&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;versionNeeded&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.versionNeeded&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.versionNeeded` is mapped to FHIR R4B element `CodeSystem.versionNeeded`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.versionNeeded&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.versionNeeded` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.content&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;content&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.content&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.content` is mapped to FHIR R4B element `CodeSystem.content`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.content&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.content` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.supplements&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;supplements&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.supplements&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.supplements` is mapped to FHIR R4B element `CodeSystem.supplements`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.supplements&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.supplements` is mapped to FHIR STU3 structure `CodeSystem`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.count&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;count&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.count&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.count` is mapped to FHIR R4B element `CodeSystem.count`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.count&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.count` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.filter&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;filter&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.filter&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.filter` is mapped to FHIR R4B element `CodeSystem.filter`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.filter&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.filter` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.filter.code&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;code&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.filter.code&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.filter.code` is mapped to FHIR R4B element `CodeSystem.filter.code`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.filter:code&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.filter.code` is part of an existing definition because parent element `CodeSystem.filter` requires a cross-version extension.\nElement `CodeSystem.filter.code` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.filter.description&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;description&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.filter.description&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.filter.description` is mapped to FHIR R4B element `CodeSystem.filter.description`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.filter:description&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.filter.description` is part of an existing definition because parent element `CodeSystem.filter` requires a cross-version extension.\nElement `CodeSystem.filter.description` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.filter.operator&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;operator&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.filter.operator&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.filter.operator` is mapped to FHIR R4B element `CodeSystem.filter.operator`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.filter:operator&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.filter.operator` is part of an existing definition because parent element `CodeSystem.filter` requires a cross-version extension.\nElement `CodeSystem.filter.operator` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.filter.value&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;value&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.filter.value&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.filter.value` is mapped to FHIR R4B element `CodeSystem.filter.value`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.filter:value&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.filter.value` is part of an existing definition because parent element `CodeSystem.filter` requires a cross-version extension.\nElement `CodeSystem.filter.value` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.property&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;property&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.property&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.property` is mapped to FHIR R4B element `CodeSystem.property`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.property&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.property` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.property.code&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;code&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.property.code&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.property.code` is mapped to FHIR R4B element `CodeSystem.property.code`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.property:code&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.property.code` is part of an existing definition because parent element `CodeSystem.property` requires a cross-version extension.\nElement `CodeSystem.property.code` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.property.uri&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;uri&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.property.uri&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.property.uri` is mapped to FHIR R4B element `CodeSystem.property.uri`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.property:uri&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.property.uri` is part of an existing definition because parent element `CodeSystem.property` requires a cross-version extension.\nElement `CodeSystem.property.uri` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.property.description&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;description&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.property.description&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.property.description` is mapped to FHIR R4B element `CodeSystem.property.description`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.property:description&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.property.description` is part of an existing definition because parent element `CodeSystem.property` requires a cross-version extension.\nElement `CodeSystem.property.description` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.property.type&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;type&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.property.type&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.property.type` is mapped to FHIR R4B element `CodeSystem.property.type`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.property:type&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.property.type` is part of an existing definition because parent element `CodeSystem.property` requires a cross-version extension.\nElement `CodeSystem.property.type` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.concept&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;concept&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.concept` is mapped to FHIR R4B element `CodeSystem.concept`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.concept` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.concept.code&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;code&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.code&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.concept.code` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.code` is mapped to FHIR R4B element `CodeSystem.concept.code`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept:code&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.concept.code` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.\nElement `CodeSystem.concept.code` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.code` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.concept.display&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;display&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.display&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.concept.display` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.display` is mapped to FHIR R4B element `CodeSystem.concept.display`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept:display&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.concept.display` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.\nElement `CodeSystem.concept.display` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.display` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.concept.definition&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;definition&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.definition&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.concept.definition` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.definition` is mapped to FHIR R4B element `CodeSystem.concept.definition`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept:definition&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.concept.definition` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.\nElement `CodeSystem.concept.definition` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.definition` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.concept.designation&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;designation&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.designation&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.concept.designation` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.designation` is mapped to FHIR R4B element `CodeSystem.concept.designation`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept:http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept.designation&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.concept.designation` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.\nElement `CodeSystem.concept.designation` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.designation` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.concept.designation.language&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;language&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.designation.language&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.concept.designation.language` is mapped to FHIR R4B element `CodeSystem.concept.designation.language`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept:http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept.designation:language&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.concept.designation.language` is part of an existing definition because parent element `CodeSystem.concept.designation` requires a cross-version extension.\nElement `CodeSystem.concept.designation.language` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.concept.designation.use&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;use&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.designation.use&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.concept.designation.use` is mapped to FHIR R4B element `CodeSystem.concept.designation.use`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept:http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept.designation:use&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.concept.designation.use` is part of an existing definition because parent element `CodeSystem.concept.designation` requires a cross-version extension.\nElement `CodeSystem.concept.designation.use` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.concept.designation.additionalUse&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;additionalUse&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept.designation.additionalUse&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.concept.designation.additionalUse` is mapped to FHIR R4B structure `CodeSystem`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept:http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept.designation:additionalUse&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.concept.designation.additionalUse` is part of an existing definition because parent element `CodeSystem.concept.designation` requires a cross-version extension.\nElement `CodeSystem.concept.designation.additionalUse` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.concept.designation.value&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;value&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.designation.value&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.concept.designation.value` is mapped to FHIR R4B element `CodeSystem.concept.designation.value`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept:http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept.designation:value&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.concept.designation.value` is part of an existing definition because parent element `CodeSystem.concept.designation` requires a cross-version extension.\nElement `CodeSystem.concept.designation.value` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.concept.property&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;property&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.property&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.concept.property` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.property` is mapped to FHIR R4B element `CodeSystem.concept.property`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept:http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept.property&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.concept.property` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.\nElement `CodeSystem.concept.property` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.property` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.concept.property.code&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;code&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.property.code&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.concept.property.code` is mapped to FHIR R4B element `CodeSystem.concept.property.code`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept:http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept.property:code&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.concept.property.code` is part of an existing definition because parent element `CodeSystem.concept.property` requires a cross-version extension.\nElement `CodeSystem.concept.property.code` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.concept.property.value[x]&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;value[x]&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.property.value[x]&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Note that the target element context `CodeSystem.concept.property.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CodeSystem.concept.property`.\nElement `CodeSystem.concept.property.value[x]` is mapped to FHIR R4B element `CodeSystem.concept.property.value[x]`.\nNote that the target element context `CodeSystem.concept.property.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CodeSystem.concept.property`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept:http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept.property:value&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.concept.property.value[x]` is part of an existing definition because parent element `CodeSystem.concept.property` requires a cross-version extension.\nElement `CodeSystem.concept.property.value[x]` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;CodeSystem.concept.concept&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;concept&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.concept&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.concept.concept` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.concept` is mapped to FHIR R4B element `CodeSystem.concept.concept`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept:concept&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `CodeSystem.concept.concept` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.\nElement `CodeSystem.concept.concept` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.concept` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+  },
+  "<a href="http://hl7.org/fhir/R4/domainresource.html#ConceptMap.extension">extension</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a>" : "fhir"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 0,
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">_valueInteger</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#integer.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCanonical</a>" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a>" : "trial-use",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">_valueCode</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#code.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCanonical</a>" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.url">url</a>" : "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-CodeSystem-elements-for-R4-CodeSystem",
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.version">version</a>" : "0.0.1-snapshot-3",
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.name">name</a>" : "ConceptMapR5CodeSystemElementsForR4CodeSystem",
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.title">title</a>" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.status">status</a>" : "active",
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.experimental">experimental</a>" : false,
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.date">date</a>" : "2026-02-06T13:17:31.6179581-06:00",
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.contact">contact</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "FHIR Infrastructure",
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "http://www.hl7.org/Special/committees/fiwg"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.description">description</a>" : "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4.",
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.jurisdiction">jurisdiction</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "001",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "World"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group">group</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.source">source</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem",
+      "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.sourceVersion">sourceVersion</a>" : "5.0.0",
+      "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "CodeSystem",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "FHIR R5 Resource `CodeSystem` is representable via FHIR R4B Resource `CodeSystem`.\nElement `CodeSystem` is mapped to FHIR R4B element `CodeSystem`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "FHIR R5 Resource `CodeSystem` is representable via FHIR DSTU2 Resource `ValueSet`.\nElement `CodeSystem` is mapped to FHIR DSTU2 element `ValueSet`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.meta",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "meta",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.meta",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.meta` is mapped to FHIR R4B element `CodeSystem.meta`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.meta",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.meta` is mapped to FHIR DSTU2 element `ValueSet.meta`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.implicitRules",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "implicitRules",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.implicitRules",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.implicitRules` is mapped to FHIR R4B element `CodeSystem.implicitRules`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.implicitRules",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.implicitRules` is mapped to FHIR DSTU2 element `ValueSet.implicitRules`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.language",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "language",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.language",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.language` is mapped to FHIR R4B element `CodeSystem.language`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.language",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.language` is mapped to FHIR DSTU2 element `ValueSet.language`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.text",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "text",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.text",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.text` is mapped to FHIR R4B element `CodeSystem.text`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.text",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.text` is mapped to FHIR DSTU2 element `ValueSet.text`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.contained",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "contained",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.contained",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.contained` is mapped to FHIR R4B element `CodeSystem.contained`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.contained",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.contained` is mapped to FHIR DSTU2 element `ValueSet.contained`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.url",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "url",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.url",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.url` is mapped to FHIR R4B element `CodeSystem.url`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.url",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.url` is mapped to FHIR DSTU2 element `ValueSet.url`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.identifier",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "identifier",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.identifier",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.identifier` is mapped to FHIR R4B element `CodeSystem.identifier`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.identifier",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.identifier` is mapped to FHIR DSTU2 element `ValueSet.identifier`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.version",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "version",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.version",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.version` is mapped to FHIR R4B element `CodeSystem.version`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.version",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.version` is mapped to FHIR DSTU2 element `ValueSet.version`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.versionAlgorithm[x]",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "versionAlgorithm[x]",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.versionAlgorithm",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.versionAlgorithm[x]` is mapped to FHIR R4B structure `CodeSystem`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.name",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "name",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.name",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.name` is mapped to FHIR R4B element `CodeSystem.name`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.name",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.name` is mapped to FHIR DSTU2 element `ValueSet.name`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.title",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "title",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.title",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.title` is mapped to FHIR R4B element `CodeSystem.title`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.title",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.title` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.status",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.status",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.status` is mapped to FHIR R4B element `CodeSystem.status`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.status",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Note that the target element context `ValueSet.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `CodeSystem.status` is mapped to FHIR DSTU2 element `ValueSet.status`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.experimental",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "experimental",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.experimental",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.experimental` is mapped to FHIR R4B element `CodeSystem.experimental`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.experimental",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.experimental` is mapped to FHIR DSTU2 element `ValueSet.experimental`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.date",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "date",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.date",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.date` is mapped to FHIR R4B element `CodeSystem.date`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.date",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.date` is mapped to FHIR DSTU2 element `ValueSet.date`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.publisher",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "publisher",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.publisher",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.publisher` is mapped to FHIR R4B element `CodeSystem.publisher`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.publisher",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.publisher` is mapped to FHIR DSTU2 element `ValueSet.publisher`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.contact",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "contact",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.contact",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.contact` is mapped to FHIR R4B element `CodeSystem.contact`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.contact",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.contact` is mapped to FHIR DSTU2 element `ValueSet.contact`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.description",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "description",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.description",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.description` is mapped to FHIR R4B element `CodeSystem.description`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.description",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.description` is mapped to FHIR DSTU2 element `ValueSet.description`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.useContext",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "useContext",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.useContext",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.useContext` is mapped to FHIR R4B element `CodeSystem.useContext`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.useContext",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.useContext` is mapped to FHIR DSTU2 element `ValueSet.useContext`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.jurisdiction",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "jurisdiction",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.jurisdiction",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.jurisdiction` is mapped to FHIR R4B element `CodeSystem.jurisdiction`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.jurisdiction",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.jurisdiction` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.purpose",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "purpose",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.purpose",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.purpose` is mapped to FHIR R4B element `CodeSystem.purpose`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.purpose",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.purpose` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.copyright",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "copyright",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.copyright",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.copyright` is mapped to FHIR R4B element `CodeSystem.copyright`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#ValueSet.copyright",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.copyright` is mapped to FHIR DSTU2 element `ValueSet.copyright`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.copyrightLabel",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "copyrightLabel",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.copyrightLabel",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.copyrightLabel` is mapped to FHIR R4B structure `CodeSystem`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.approvalDate",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "approvalDate",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.approvalDate",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.approvalDate` is mapped to FHIR R4B structure `CodeSystem`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.lastReviewDate",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "lastReviewDate",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.lastReviewDate",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.lastReviewDate` is mapped to FHIR R4B structure `CodeSystem`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.effectivePeriod",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "effectivePeriod",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.effectivePeriod",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.effectivePeriod` is mapped to FHIR R4B structure `CodeSystem`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.topic",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "topic",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.topic",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.topic` is mapped to FHIR R4B structure `CodeSystem`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.author",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "author",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.author",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -&gt; basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson,http://hl7.org/fhir/StructureDefinition/Organization)`:0..1).\nElement `CodeSystem.author` is mapped to FHIR R4B structure `CodeSystem`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.editor",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "editor",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.editor",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.editor` is mapped to FHIR R4B structure `CodeSystem`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.reviewer",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "reviewer",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.reviewer",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.reviewer` is mapped to FHIR R4B structure `CodeSystem`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.endorser",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "endorser",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.endorser",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.endorser` is mapped to FHIR R4B structure `CodeSystem`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.relatedArtifact",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "relatedArtifact",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.relatedArtifact",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.relatedArtifact` is mapped to FHIR R4B structure `CodeSystem`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.caseSensitive",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "caseSensitive",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.caseSensitive",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.caseSensitive` is mapped to FHIR R4B element `CodeSystem.caseSensitive`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.caseSensitive",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.caseSensitive` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.valueSet",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "valueSet",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.valueSet",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.valueSet` is mapped to FHIR R4B element `CodeSystem.valueSet`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.valueSet",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.valueSet` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.hierarchyMeaning",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "hierarchyMeaning",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.hierarchyMeaning",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.hierarchyMeaning` is mapped to FHIR R4B element `CodeSystem.hierarchyMeaning`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.hierarchyMeaning",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.hierarchyMeaning` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.compositional",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "compositional",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.compositional",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.compositional` is mapped to FHIR R4B element `CodeSystem.compositional`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.compositional",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.compositional` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.versionNeeded",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "versionNeeded",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.versionNeeded",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.versionNeeded` is mapped to FHIR R4B element `CodeSystem.versionNeeded`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.versionNeeded",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.versionNeeded` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.content",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "content",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.content",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.content` is mapped to FHIR R4B element `CodeSystem.content`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.content",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.content` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.supplements",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "supplements",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.supplements",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.supplements` is mapped to FHIR R4B element `CodeSystem.supplements`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.supplements",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.supplements` is mapped to FHIR STU3 structure `CodeSystem`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.count",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "count",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.count",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.count` is mapped to FHIR R4B element `CodeSystem.count`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.count",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.count` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.filter",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "filter",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.filter",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.filter` is mapped to FHIR R4B element `CodeSystem.filter`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.filter",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.filter` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.filter.code",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "code",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.filter.code",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.filter.code` is mapped to FHIR R4B element `CodeSystem.filter.code`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.filter:code",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.filter.code` is part of an existing definition because parent element `CodeSystem.filter` requires a cross-version extension.\nElement `CodeSystem.filter.code` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.filter.description",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "description",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.filter.description",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.filter.description` is mapped to FHIR R4B element `CodeSystem.filter.description`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.filter:description",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.filter.description` is part of an existing definition because parent element `CodeSystem.filter` requires a cross-version extension.\nElement `CodeSystem.filter.description` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.filter.operator",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "operator",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.filter.operator",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.filter.operator` is mapped to FHIR R4B element `CodeSystem.filter.operator`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.filter:operator",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.filter.operator` is part of an existing definition because parent element `CodeSystem.filter` requires a cross-version extension.\nElement `CodeSystem.filter.operator` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.filter.value",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "value",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.filter.value",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.filter.value` is mapped to FHIR R4B element `CodeSystem.filter.value`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.filter:value",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.filter.value` is part of an existing definition because parent element `CodeSystem.filter` requires a cross-version extension.\nElement `CodeSystem.filter.value` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.property",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "property",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.property",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.property` is mapped to FHIR R4B element `CodeSystem.property`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.property",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.property` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.property.code",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "code",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.property.code",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.property.code` is mapped to FHIR R4B element `CodeSystem.property.code`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.property:code",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.property.code` is part of an existing definition because parent element `CodeSystem.property` requires a cross-version extension.\nElement `CodeSystem.property.code` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.property.uri",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "uri",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.property.uri",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.property.uri` is mapped to FHIR R4B element `CodeSystem.property.uri`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.property:uri",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.property.uri` is part of an existing definition because parent element `CodeSystem.property` requires a cross-version extension.\nElement `CodeSystem.property.uri` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.property.description",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "description",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.property.description",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.property.description` is mapped to FHIR R4B element `CodeSystem.property.description`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.property:description",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.property.description` is part of an existing definition because parent element `CodeSystem.property` requires a cross-version extension.\nElement `CodeSystem.property.description` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.property.type",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "type",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.property.type",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.property.type` is mapped to FHIR R4B element `CodeSystem.property.type`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.property:type",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.property.type` is part of an existing definition because parent element `CodeSystem.property` requires a cross-version extension.\nElement `CodeSystem.property.type` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.concept",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "concept",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.concept` is mapped to FHIR R4B element `CodeSystem.concept`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.concept` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.concept.code",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "code",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.code",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.concept.code` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.code` is mapped to FHIR R4B element `CodeSystem.concept.code`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept:code",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.concept.code` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.\nElement `CodeSystem.concept.code` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.code` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.concept.display",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "display",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.display",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.concept.display` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.display` is mapped to FHIR R4B element `CodeSystem.concept.display`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept:display",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.concept.display` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.\nElement `CodeSystem.concept.display` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.display` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.concept.definition",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "definition",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.definition",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.concept.definition` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.definition` is mapped to FHIR R4B element `CodeSystem.concept.definition`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept:definition",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.concept.definition` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.\nElement `CodeSystem.concept.definition` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.definition` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.concept.designation",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "designation",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.designation",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.concept.designation` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.designation` is mapped to FHIR R4B element `CodeSystem.concept.designation`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept:http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept.designation",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.concept.designation` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.\nElement `CodeSystem.concept.designation` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.designation` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.concept.designation.language",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "language",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.designation.language",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.concept.designation.language` is mapped to FHIR R4B element `CodeSystem.concept.designation.language`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept:http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept.designation:language",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.concept.designation.language` is part of an existing definition because parent element `CodeSystem.concept.designation` requires a cross-version extension.\nElement `CodeSystem.concept.designation.language` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.concept.designation.use",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "use",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.designation.use",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.concept.designation.use` is mapped to FHIR R4B element `CodeSystem.concept.designation.use`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept:http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept.designation:use",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.concept.designation.use` is part of an existing definition because parent element `CodeSystem.concept.designation` requires a cross-version extension.\nElement `CodeSystem.concept.designation.use` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.concept.designation.additionalUse",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "additionalUse",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept.designation.additionalUse",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.concept.designation.additionalUse` is mapped to FHIR R4B structure `CodeSystem`, but has no target element specified."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept:http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept.designation:additionalUse",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.concept.designation.additionalUse` is part of an existing definition because parent element `CodeSystem.concept.designation` requires a cross-version extension.\nElement `CodeSystem.concept.designation.additionalUse` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.concept.designation.value",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "value",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.designation.value",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.concept.designation.value` is mapped to FHIR R4B element `CodeSystem.concept.designation.value`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept:http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept.designation:value",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.concept.designation.value` is part of an existing definition because parent element `CodeSystem.concept.designation` requires a cross-version extension.\nElement `CodeSystem.concept.designation.value` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.concept.property",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "property",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.property",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.concept.property` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.property` is mapped to FHIR R4B element `CodeSystem.concept.property`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept:http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept.property",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.concept.property` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.\nElement `CodeSystem.concept.property` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.property` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.concept.property.code",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "code",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.property.code",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.concept.property.code` is mapped to FHIR R4B element `CodeSystem.concept.property.code`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept:http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept.property:code",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.concept.property.code` is part of an existing definition because parent element `CodeSystem.concept.property` requires a cross-version extension.\nElement `CodeSystem.concept.property.code` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.concept.property.value[x]",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "value[x]",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.property.value[x]",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Note that the target element context `CodeSystem.concept.property.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CodeSystem.concept.property`.\nElement `CodeSystem.concept.property.value[x]` is mapped to FHIR R4B element `CodeSystem.concept.property.value[x]`.\nNote that the target element context `CodeSystem.concept.property.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CodeSystem.concept.property`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept:http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept.property:value",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.concept.property.value[x]` is part of an existing definition because parent element `CodeSystem.concept.property` requires a cross-version extension.\nElement `CodeSystem.concept.property.value[x]` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "CodeSystem.concept.concept",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "concept",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.concept",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.concept.concept` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.concept` is mapped to FHIR R4B element `CodeSystem.concept.concept`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept:concept",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `CodeSystem.concept.concept` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.\nElement `CodeSystem.concept.concept` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.concept` is mapped to FHIR DSTU2 structure `ValueSet`, but has no target element specified."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="ConceptMap-ConceptMap-R5-CodeSystem-elements-for-R4-CodeSystem.xml.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="ConceptMap-ConceptMap-R5-CodeSystem-elements-for-R4-CodeSystem.ttl.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-06 13:22:00 -0600">
+    2026-02-06
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir/uv/xver/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

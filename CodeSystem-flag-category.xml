@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="flag-category"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://terminology.hl7.org/CodeSystem/flag-category</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">diet<a name="flag-category-diet"> </a></td><td>Diet</td><td>Flags related to the subject's dietary needs.</td></tr><tr><td style="white-space:nowrap">drug<a name="flag-category-drug"> </a></td><td>Drug</td><td>Flags related to the subject's medications.</td></tr><tr><td style="white-space:nowrap">lab<a name="flag-category-lab"> </a></td><td>Lab</td><td>Flags related to performing laboratory tests and related processes (e.g. phlebotomy).</td></tr><tr><td style="white-space:nowrap">admin<a name="flag-category-admin"> </a></td><td>Administrative</td><td>Flags related to administrative and financial processes.</td></tr><tr><td style="white-space:nowrap">contact<a name="flag-category-contact"> </a></td><td>Subject Contact</td><td>Flags related to coming into contact with the patient.</td></tr><tr><td style="white-space:nowrap">clinical<a name="flag-category-clinical"> </a></td><td>Clinical</td><td>Flags related to the subject's clinical data.</td></tr><tr><td style="white-space:nowrap">behavioral<a name="flag-category-behavioral"> </a></td><td>Behavioral</td><td>Flags related to behavior.</td></tr><tr><td style="white-space:nowrap">research<a name="flag-category-research"> </a></td><td>Research</td><td>Flags related to research.</td></tr><tr><td style="white-space:nowrap">advance-directive<a name="flag-category-advance-directive"> </a></td><td>Advance Directive</td><td>Flags related to subject's advance directives.</td></tr><tr><td style="white-space:nowrap">safety<a name="flag-category-safety"> </a></td><td>Safety</td><td>Flags related to safety precautions.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pc"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/flag-category"/>
+  <version value="0.1.0"/>
+  <name value="FlagCategory"/>
+  <title value="Flag Category"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2023-02-25T12:07:30-06:00"/>
+  <publisher value="Patient Care"/>
+  <contact>
+    <name value="Patient Care"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="Example list of general categories for flagged issues. (Not complete or necessarily appropriate.)"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/flag-category|1.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="diet"/>
+    <display value="Diet"/>
+    <definition value="Flags related to the subject's dietary needs."/>
+  </concept>
+  <concept>
+    <code value="drug"/>
+    <display value="Drug"/>
+    <definition value="Flags related to the subject's medications."/>
+  </concept>
+  <concept>
+    <code value="lab"/>
+    <display value="Lab"/>
+    <definition value="Flags related to performing laboratory tests and related processes (e.g. phlebotomy)."/>
+  </concept>
+  <concept>
+    <code value="admin"/>
+    <display value="Administrative"/>
+    <definition value="Flags related to administrative and financial processes."/>
+  </concept>
+  <concept>
+    <code value="contact"/>
+    <display value="Subject Contact"/>
+    <definition value="Flags related to coming into contact with the patient."/>
+  </concept>
+  <concept>
+    <code value="clinical"/>
+    <display value="Clinical"/>
+    <definition value="Flags related to the subject's clinical data."/>
+  </concept>
+  <concept>
+    <code value="behavioral"/>
+    <display value="Behavioral"/>
+    <definition value="Flags related to behavior."/>
+  </concept>
+  <concept>
+    <code value="research"/>
+    <display value="Research"/>
+    <definition value="Flags related to research."/>
+  </concept>
+  <concept>
+    <code value="advance-directive"/>
+    <display value="Advance Directive"/>
+    <definition value="Flags related to subject's advance directives."/>
+  </concept>
+  <concept>
+    <code value="safety"/>
+    <display value="Safety"/>
+    <definition value="Flags related to safety precautions."/>
+  </concept>
+</CodeSystem>

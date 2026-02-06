@@ -1,0 +1,131 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/variable-role> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "variable-role"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://terminology.hl7.org/CodeSystem/variable-role</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">population<a name=\"variable-role-population\"> </a></td><td>population</td><td>variable represents a population.</td></tr><tr><td style=\"white-space:nowrap\">subpopulation<a name=\"variable-role-subpopulation\"> </a></td><td>subpopulation</td><td>variable represents a subpopulation.</td></tr><tr><td style=\"white-space:nowrap\">exposure<a name=\"variable-role-exposure\"> </a></td><td>exposure</td><td>variable represents an exposure.</td></tr><tr><td style=\"white-space:nowrap\">referenceExposure<a name=\"variable-role-referenceExposure\"> </a></td><td>reference exposure</td><td>variable represents a reference exposure.</td></tr><tr><td style=\"white-space:nowrap\">measuredVariable<a name=\"variable-role-measuredVariable\"> </a></td><td>measured variable</td><td>variable represents a measured variable.</td></tr><tr><td style=\"white-space:nowrap\">confounder<a name=\"variable-role-confounder\"> </a></td><td>confounder</td><td>variable represents a confounder.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "cds"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/variable-role"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/variable-role>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "EvidenceVariableRole"] ; # 
+  fhir:title [ fhir:v "EvidenceVariableRole"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2020-04-09T16:10:28-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Clinical Decision Support"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Clinical Decision Support" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/dss" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "The role that the assertion variable plays."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/variable-role|1.0.2"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/variable-role?version=1.0.2>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "population" ] ;
+     fhir:display [ fhir:v "population" ] ;
+     fhir:definition [ fhir:v "variable represents a population." ]
+  ] [
+     fhir:code [ fhir:v "subpopulation" ] ;
+     fhir:display [ fhir:v "subpopulation" ] ;
+     fhir:definition [ fhir:v "variable represents a subpopulation." ]
+  ] [
+     fhir:code [ fhir:v "exposure" ] ;
+     fhir:display [ fhir:v "exposure" ] ;
+     fhir:definition [ fhir:v "variable represents an exposure." ]
+  ] [
+     fhir:code [ fhir:v "referenceExposure" ] ;
+     fhir:display [ fhir:v "reference exposure" ] ;
+     fhir:definition [ fhir:v "variable represents a reference exposure." ]
+  ] [
+     fhir:code [ fhir:v "measuredVariable" ] ;
+     fhir:display [ fhir:v "measured variable" ] ;
+     fhir:definition [ fhir:v "variable represents a measured variable." ]
+  ] [
+     fhir:code [ fhir:v "confounder" ] ;
+     fhir:display [ fhir:v "confounder" ] ;
+     fhir:definition [ fhir:v "variable represents a confounder." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

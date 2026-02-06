@@ -1,0 +1,800 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-Consent-elements-for-R4-Consent> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-Consent-elements-for-R4-Consent"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-Consent-elements-for-R4-Consent</b></p><a name=\"ConceptMap-R5-Consent-elements-for-R4-Consent\"> </a><a name=\"hcConceptMap-R5-Consent-elements-for-R4-Consent\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Consent|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Consent|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent</td><td style=\"border-left-width: 0px; border-bottom-style: none\">Consent</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Consent` is representable via FHIR R4B Resource `Consent`.\nElement `Consent` is mapped to FHIR R4B element `Consent`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Consent` is representable via FHIR DSTU2 Resource `Basic`.\nElement `Consent` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.meta</td><td style=\"border-left-width: 0px; border-bottom-style: none\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.meta</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.meta` is mapped to FHIR R4B element `Consent.meta`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.meta</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.meta`, use that element instead.\nElement `Consent.meta` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.implicitRules</td><td style=\"border-left-width: 0px; border-bottom-style: none\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.implicitRules` is mapped to FHIR R4B element `Consent.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `Consent.implicitRules` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.language</td><td style=\"border-left-width: 0px; border-bottom-style: none\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.language</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.language` is mapped to FHIR R4B element `Consent.language`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.language</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.language`, use that element instead.\nElement `Consent.language` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.text</td><td style=\"border-left-width: 0px; border-bottom-style: none\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.text</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.text` is mapped to FHIR R4B element `Consent.text`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.text</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `Consent.text` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.contained</td><td style=\"border-left-width: 0px; border-bottom-style: none\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.contained</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.contained` is mapped to FHIR R4B element `Consent.contained`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.contained</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `Consent.contained` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.identifier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.identifier` is mapped to FHIR R4B element `Consent.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.identifier</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `Consent.identifier` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.status</td><td style=\"border-left-width: 0px; border-bottom-style: none\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.status</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Consent.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Consent.status` is mapped to FHIR R4B element `Consent.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:status</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.status` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.category</td><td style=\"border-left-width: 0px; border-bottom-style: none\">category</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.category</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.category` is mapped to FHIR R4B element `Consent.category`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:category</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.category` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.subject</td><td style=\"border-left-width: 0px; border-bottom-style: none\">subject</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.patient</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.subject`, use that element instead.\nElement `Consent.subject` is mapped to FHIR R4B element `Consent.patient`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.subject</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.subject`, use that element instead.\nElement `Consent.subject` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.date</td><td style=\"border-left-width: 0px; border-bottom-style: none\">date</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.dateTime</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.date` is mapped to FHIR R4B element `Consent.dateTime`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:date</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.date` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.period</td><td style=\"border-left-width: 0px; border-bottom-style: none\">period</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.period</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.period` is mapped to FHIR R4B structure `Consent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:period</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.period` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.grantor</td><td style=\"border-left-width: 0px; border-bottom-style: none\">grantor</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.grantor</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.grantor` is mapped to FHIR R4B structure `Consent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:grantor</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.grantor` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.grantee</td><td style=\"border-left-width: 0px; border-bottom-style: none\">grantee</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.performer</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.grantee` is mapped to FHIR R4B element `Consent.performer`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.consentingParty</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.grantee` is mapped to FHIR STU3 element `Consent.consentingParty`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:grantee</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.grantee` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.manager</td><td style=\"border-left-width: 0px; border-bottom-style: none\">manager</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.manager</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.manager` is mapped to FHIR R4B structure `Consent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:manager</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.manager` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.controller</td><td style=\"border-left-width: 0px; border-bottom-style: none\">controller</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.controller</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.controller` is mapped to FHIR R4B structure `Consent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:controller</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.controller` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.sourceAttachment</td><td style=\"border-left-width: 0px; border-bottom-style: none\">sourceAttachment</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.source[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`.\nElement `Consent.sourceAttachment` is mapped to FHIR R4B element `Consent.source[x]`.\nNote that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:sourceAttachment</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.sourceAttachment` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.sourceReference</td><td style=\"border-left-width: 0px; border-bottom-style: none\">sourceReference</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.source[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`.\nElement `Consent.sourceReference` is mapped to FHIR R4B element `Consent.source[x]`.\nNote that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:sourceReference</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.sourceReference` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.regulatoryBasis</td><td style=\"border-left-width: 0px; border-bottom-style: none\">regulatoryBasis</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.policyRule</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.regulatoryBasis` is mapped to FHIR R4B element `Consent.policyRule`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:regulatoryBasis</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.regulatoryBasis` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.policyBasis</td><td style=\"border-left-width: 0px; border-bottom-style: none\">policyBasis</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.policy</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.policyBasis` is mapped to FHIR R4B element `Consent.policy`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:policyBasis</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.policyBasis` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.policyBasis.reference</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reference</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.policy</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.policyBasis.reference` is mapped to FHIR R4B element `Consent.policy`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:policyBasis:reference</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.policyBasis.reference` is part of an existing definition because parent element `Consent.policyBasis` requires a cross-version extension.\nElement `Consent.policyBasis.reference` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.policyBasis.url</td><td style=\"border-left-width: 0px; border-bottom-style: none\">url</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.policy</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.policyBasis.url` is mapped to FHIR R4B element `Consent.policy`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:policyBasis:url</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.policyBasis.url` is part of an existing definition because parent element `Consent.policyBasis` requires a cross-version extension.\nElement `Consent.policyBasis.url` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.policyText</td><td style=\"border-left-width: 0px; border-bottom-style: none\">policyText</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.policyText</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.policyText` is mapped to FHIR R4B structure `Consent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:policyText</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.policyText` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.verification</td><td style=\"border-left-width: 0px; border-bottom-style: none\">verification</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.verification</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.verification` is mapped to FHIR R4B element `Consent.verification`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.verification</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.verification` is mapped to FHIR STU3 structure `Consent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:verification</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.verification` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.verification.verified</td><td style=\"border-left-width: 0px; border-bottom-style: none\">verified</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.verification.verified</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.verification.verified` is mapped to FHIR R4B element `Consent.verification.verified`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.verification:verified</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.verification.verified` is part of an existing definition because parent element `Consent.verification` requires a cross-version extension.\nElement `Consent.verification.verified` is mapped to FHIR STU3 structure `Consent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:verification:verified</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.verification.verified` is part of an existing definition because parent element `Consent.verification` requires a cross-version extension.\nElement `Consent.verification.verified` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.verification.verificationType</td><td style=\"border-left-width: 0px; border-bottom-style: none\">verificationType</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.verification.verificationType</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.verification.verificationType` is mapped to FHIR R4B structure `Consent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.verification:verificationType</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.verification.verificationType` is part of an existing definition because parent element `Consent.verification` requires a cross-version extension.\nElement `Consent.verification.verificationType` is mapped to FHIR STU3 structure `Consent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:verification:verificationType</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.verification.verificationType` is part of an existing definition because parent element `Consent.verification` requires a cross-version extension.\nElement `Consent.verification.verificationType` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.verification.verifiedBy</td><td style=\"border-left-width: 0px; border-bottom-style: none\">verifiedBy</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.verification.verifiedBy</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.verification.verifiedBy` is mapped to FHIR R4B structure `Consent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.verification:verifiedBy</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.verification.verifiedBy` is part of an existing definition because parent element `Consent.verification` requires a cross-version extension.\nElement `Consent.verification.verifiedBy` is mapped to FHIR STU3 structure `Consent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:verification:verifiedBy</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.verification.verifiedBy` is part of an existing definition because parent element `Consent.verification` requires a cross-version extension.\nElement `Consent.verification.verifiedBy` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.verification.verifiedWith</td><td style=\"border-left-width: 0px; border-bottom-style: none\">verifiedWith</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.verification.verifiedWith</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.verification.verifiedWith` is mapped to FHIR R4B element `Consent.verification.verifiedWith`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.verification:verifiedWith</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.verification.verifiedWith` is part of an existing definition because parent element `Consent.verification` requires a cross-version extension.\nElement `Consent.verification.verifiedWith` is mapped to FHIR STU3 structure `Consent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:verification:verifiedWith</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.verification.verifiedWith` is part of an existing definition because parent element `Consent.verification` requires a cross-version extension.\nElement `Consent.verification.verifiedWith` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.verification.verificationDate</td><td style=\"border-left-width: 0px; border-bottom-style: none\">verificationDate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.verification.verificationDate</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.verification.verificationDate` is mapped to FHIR R4B element `Consent.verification.verificationDate`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.verification:verificationDate</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.verification.verificationDate` is part of an existing definition because parent element `Consent.verification` requires a cross-version extension.\nElement `Consent.verification.verificationDate` is mapped to FHIR STU3 structure `Consent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:verification:verificationDate</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.verification.verificationDate` is part of an existing definition because parent element `Consent.verification` requires a cross-version extension.\nElement `Consent.verification.verificationDate` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.decision</td><td style=\"border-left-width: 0px; border-bottom-style: none\">decision</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.decision</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.decision` is mapped to FHIR R4B structure `Consent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:decision</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.decision` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.provision</td><td style=\"border-left-width: 0px; border-bottom-style: none\">provision</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision` is mapped to FHIR R4B element `Consent.provision`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.except</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision` is mapped to FHIR STU3 element `Consent.except`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.provision.period</td><td style=\"border-left-width: 0px; border-bottom-style: none\">period</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.period</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.period` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.period` is mapped to FHIR R4B element `Consent.provision.period`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.period</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.period` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.period` is mapped to FHIR STU3 element `Consent.except.period`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:period</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.period` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.period` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.period` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.provision.actor</td><td style=\"border-left-width: 0px; border-bottom-style: none\">actor</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.actor</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.actor` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.actor` is mapped to FHIR R4B element `Consent.provision.actor`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.actor</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.actor` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.actor` is mapped to FHIR STU3 element `Consent.actor`.\nElement `Consent.provision.actor` is mapped to FHIR STU3 element `Consent.except.actor`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.actor</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.actor` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.actor` is mapped to FHIR STU3 element `Consent.actor`.\nElement `Consent.provision.actor` is mapped to FHIR STU3 element `Consent.except.actor`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:actor</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.actor` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.actor` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.actor` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.provision.actor.role</td><td style=\"border-left-width: 0px; border-bottom-style: none\">role</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.actor.role</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.actor.role` is mapped to FHIR R4B element `Consent.provision.actor.role`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.actor.role</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.actor.role` is mapped to FHIR STU3 element `Consent.actor.role`.\nElement `Consent.provision.actor.role` is mapped to FHIR STU3 element `Consent.except.actor.role`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.actor.role</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.actor.role` is mapped to FHIR STU3 element `Consent.actor.role`.\nElement `Consent.provision.actor.role` is mapped to FHIR STU3 element `Consent.except.actor.role`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:actor:role</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.actor.role` is part of an existing definition because parent element `Consent.provision.actor` requires a cross-version extension.\nElement `Consent.provision.actor.role` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.provision.actor.reference</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reference</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.actor.reference</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.actor.reference` is mapped to FHIR R4B element `Consent.provision.actor.reference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.actor.reference</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.actor.reference` is mapped to FHIR STU3 element `Consent.actor.reference`.\nElement `Consent.provision.actor.reference` is mapped to FHIR STU3 element `Consent.except.actor.reference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.actor.reference</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.actor.reference` is mapped to FHIR STU3 element `Consent.actor.reference`.\nElement `Consent.provision.actor.reference` is mapped to FHIR STU3 element `Consent.except.actor.reference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:actor:reference</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.actor.reference` is part of an existing definition because parent element `Consent.provision.actor` requires a cross-version extension.\nElement `Consent.provision.actor.reference` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.provision.action</td><td style=\"border-left-width: 0px; border-bottom-style: none\">action</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.action</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.action` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.action` is mapped to FHIR R4B element `Consent.provision.action`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.action</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.action` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.action` is mapped to FHIR STU3 element `Consent.action`.\nElement `Consent.provision.action` is mapped to FHIR STU3 element `Consent.except.action`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.action</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.action` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.action` is mapped to FHIR STU3 element `Consent.action`.\nElement `Consent.provision.action` is mapped to FHIR STU3 element `Consent.except.action`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:action</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.action` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.action` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.action` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.provision.securityLabel</td><td style=\"border-left-width: 0px; border-bottom-style: none\">securityLabel</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.securityLabel</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.securityLabel` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.securityLabel` is mapped to FHIR R4B element `Consent.provision.securityLabel`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.securityLabel</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.securityLabel` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.securityLabel` is mapped to FHIR STU3 element `Consent.securityLabel`.\nElement `Consent.provision.securityLabel` is mapped to FHIR STU3 element `Consent.except.securityLabel`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.securityLabel</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.securityLabel` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.securityLabel` is mapped to FHIR STU3 element `Consent.securityLabel`.\nElement `Consent.provision.securityLabel` is mapped to FHIR STU3 element `Consent.except.securityLabel`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:securityLabel</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.securityLabel` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.securityLabel` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.securityLabel` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.provision.purpose</td><td style=\"border-left-width: 0px; border-bottom-style: none\">purpose</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.purpose</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.purpose` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.purpose` is mapped to FHIR R4B element `Consent.provision.purpose`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.purpose</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.purpose` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.purpose` is mapped to FHIR STU3 element `Consent.purpose`.\nElement `Consent.provision.purpose` is mapped to FHIR STU3 element `Consent.except.purpose`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.purpose</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.purpose` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.purpose` is mapped to FHIR STU3 element `Consent.purpose`.\nElement `Consent.provision.purpose` is mapped to FHIR STU3 element `Consent.except.purpose`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:purpose</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.purpose` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.purpose` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.purpose` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.provision.documentType</td><td style=\"border-left-width: 0px; border-bottom-style: none\">documentType</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.class</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.documentType` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.documentType` is mapped to FHIR R4B element `Consent.provision.class`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.class</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.documentType` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.documentType` is mapped to FHIR STU3 element `Consent.except.class`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:documentType</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.documentType` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.documentType` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.documentType` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.provision.resourceType</td><td style=\"border-left-width: 0px; border-bottom-style: none\">resourceType</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.class</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.resourceType` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.resourceType` is mapped to FHIR R4B element `Consent.provision.class`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.class</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.resourceType` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.resourceType` is mapped to FHIR STU3 element `Consent.except.class`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:resourceType</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.resourceType` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.resourceType` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.resourceType` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.provision.code</td><td style=\"border-left-width: 0px; border-bottom-style: none\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.code</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.code` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.code` is mapped to FHIR R4B element `Consent.provision.code`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.code</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.code` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.code` is mapped to FHIR STU3 element `Consent.except.code`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:code</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.code` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.code` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.code` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.provision.dataPeriod</td><td style=\"border-left-width: 0px; border-bottom-style: none\">dataPeriod</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.dataPeriod</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.dataPeriod` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.dataPeriod` is mapped to FHIR R4B element `Consent.provision.dataPeriod`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.dataPeriod</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.dataPeriod` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.dataPeriod` is mapped to FHIR STU3 element `Consent.dataPeriod`.\nElement `Consent.provision.dataPeriod` is mapped to FHIR STU3 element `Consent.except.dataPeriod`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.dataPeriod</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.dataPeriod` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.dataPeriod` is mapped to FHIR STU3 element `Consent.dataPeriod`.\nElement `Consent.provision.dataPeriod` is mapped to FHIR STU3 element `Consent.except.dataPeriod`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:dataPeriod</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.dataPeriod` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.dataPeriod` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.dataPeriod` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.provision.data</td><td style=\"border-left-width: 0px; border-bottom-style: none\">data</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.data</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.data` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.data` is mapped to FHIR R4B element `Consent.provision.data`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.data</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.data` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.data` is mapped to FHIR STU3 element `Consent.data`.\nElement `Consent.provision.data` is mapped to FHIR STU3 element `Consent.except.data`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.data</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.data` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.data` is mapped to FHIR STU3 element `Consent.data`.\nElement `Consent.provision.data` is mapped to FHIR STU3 element `Consent.except.data`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:data</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.data` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.data` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.data` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.provision.data.meaning</td><td style=\"border-left-width: 0px; border-bottom-style: none\">meaning</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.data.meaning</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.data.meaning` is mapped to FHIR R4B element `Consent.provision.data.meaning`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.data.meaning</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.data.meaning` is mapped to FHIR STU3 element `Consent.data.meaning`.\nElement `Consent.provision.data.meaning` is mapped to FHIR STU3 element `Consent.except.data.meaning`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.data.meaning</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.data.meaning` is mapped to FHIR STU3 element `Consent.data.meaning`.\nElement `Consent.provision.data.meaning` is mapped to FHIR STU3 element `Consent.except.data.meaning`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:data:meaning</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.data.meaning` is part of an existing definition because parent element `Consent.provision.data` requires a cross-version extension.\nElement `Consent.provision.data.meaning` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.provision.data.reference</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reference</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.data.reference</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.data.reference` is mapped to FHIR R4B element `Consent.provision.data.reference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.data.reference</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.data.reference` is mapped to FHIR STU3 element `Consent.data.reference`.\nElement `Consent.provision.data.reference` is mapped to FHIR STU3 element `Consent.except.data.reference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.data.reference</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.data.reference` is mapped to FHIR STU3 element `Consent.data.reference`.\nElement `Consent.provision.data.reference` is mapped to FHIR STU3 element `Consent.except.data.reference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:data:reference</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.data.reference` is part of an existing definition because parent element `Consent.provision.data` requires a cross-version extension.\nElement `Consent.provision.data.reference` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.provision.expression</td><td style=\"border-left-width: 0px; border-bottom-style: none\">expression</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.provision.expression</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.expression` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.expression` is mapped to FHIR R4B structure `Consent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:expression</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.expression` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.expression` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.expression` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Consent.provision.provision</td><td style=\"border-left-width: 0px; border-bottom-style: none\">provision</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.provision</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.provision` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.provision` is mapped to FHIR R4B element `Consent.provision.provision`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.provision.provision</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.provision` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.provision` is mapped to FHIR STU3 structure `Consent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:provision</td><td style=\"border-left-width: 0px\"/><td>Element `Consent.provision.provision` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.provision` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.provision` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Consent-elements-for-R4-Consent"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Consent-elements-for-R4-Consent>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5ConsentElementsForR4Consent"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:31.8393443-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Consent"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Consent>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Consent" ] ;
+       fhir:display [ fhir:v "Consent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Consent` is representable via FHIR R4B Resource `Consent`.\nElement `Consent` is mapped to FHIR R4B element `Consent`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Consent` is representable via FHIR DSTU2 Resource `Basic`.\nElement `Consent` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.meta` is mapped to FHIR R4B element `Consent.meta`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `Consent.meta` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.implicitRules` is mapped to FHIR R4B element `Consent.implicitRules`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `Consent.implicitRules` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.language` is mapped to FHIR R4B element `Consent.language`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.language`, use that element instead.\nElement `Consent.language` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.text` is mapped to FHIR R4B element `Consent.text`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `Consent.text` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.contained` is mapped to FHIR R4B element `Consent.contained`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `Consent.contained` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.identifier` is mapped to FHIR R4B element `Consent.identifier`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `Consent.identifier` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Consent.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Consent.status` is mapped to FHIR R4B element `Consent.status`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.status` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.category` is mapped to FHIR R4B element `Consent.category`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.category` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.patient" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `Consent.subject` is mapped to FHIR R4B element `Consent.patient`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `Consent.subject` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.dateTime" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.date` is mapped to FHIR R4B element `Consent.dateTime`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.date` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.period` is mapped to FHIR R4B structure `Consent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.period` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.grantor" ] ;
+       fhir:display [ fhir:v "grantor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.grantor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.grantor` is mapped to FHIR R4B structure `Consent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:grantor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.grantor` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.grantee" ] ;
+       fhir:display [ fhir:v "grantee" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.performer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.grantee` is mapped to FHIR R4B element `Consent.performer`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.consentingParty" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.grantee` is mapped to FHIR STU3 element `Consent.consentingParty`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:grantee" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.grantee` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.manager" ] ;
+       fhir:display [ fhir:v "manager" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.manager" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.manager` is mapped to FHIR R4B structure `Consent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:manager" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.manager` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.controller" ] ;
+       fhir:display [ fhir:v "controller" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.controller" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.controller` is mapped to FHIR R4B structure `Consent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:controller" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.controller` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.sourceAttachment" ] ;
+       fhir:display [ fhir:v "sourceAttachment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.source[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`.\nElement `Consent.sourceAttachment` is mapped to FHIR R4B element `Consent.source[x]`.\nNote that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:sourceAttachment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.sourceAttachment` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.sourceReference" ] ;
+       fhir:display [ fhir:v "sourceReference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.source[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`.\nElement `Consent.sourceReference` is mapped to FHIR R4B element `Consent.source[x]`.\nNote that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:sourceReference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.sourceReference` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.regulatoryBasis" ] ;
+       fhir:display [ fhir:v "regulatoryBasis" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.policyRule" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.regulatoryBasis` is mapped to FHIR R4B element `Consent.policyRule`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:regulatoryBasis" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.regulatoryBasis` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.policyBasis" ] ;
+       fhir:display [ fhir:v "policyBasis" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.policy" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.policyBasis` is mapped to FHIR R4B element `Consent.policy`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:policyBasis" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.policyBasis` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.policyBasis.reference" ] ;
+       fhir:display [ fhir:v "reference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.policy" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.policyBasis.reference` is mapped to FHIR R4B element `Consent.policy`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:policyBasis:reference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.policyBasis.reference` is part of an existing definition because parent element `Consent.policyBasis` requires a cross-version extension.\nElement `Consent.policyBasis.reference` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.policyBasis.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.policy" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.policyBasis.url` is mapped to FHIR R4B element `Consent.policy`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:policyBasis:url" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.policyBasis.url` is part of an existing definition because parent element `Consent.policyBasis` requires a cross-version extension.\nElement `Consent.policyBasis.url` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.policyText" ] ;
+       fhir:display [ fhir:v "policyText" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.policyText" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.policyText` is mapped to FHIR R4B structure `Consent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:policyText" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.policyText` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.verification" ] ;
+       fhir:display [ fhir:v "verification" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.verification" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.verification` is mapped to FHIR R4B element `Consent.verification`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.verification" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.verification` is mapped to FHIR STU3 structure `Consent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:verification" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.verification` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.verification.verified" ] ;
+       fhir:display [ fhir:v "verified" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.verification.verified" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.verification.verified` is mapped to FHIR R4B element `Consent.verification.verified`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.verification:verified" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.verification.verified` is part of an existing definition because parent element `Consent.verification` requires a cross-version extension.\nElement `Consent.verification.verified` is mapped to FHIR STU3 structure `Consent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:verification:verified" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.verification.verified` is part of an existing definition because parent element `Consent.verification` requires a cross-version extension.\nElement `Consent.verification.verified` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.verification.verificationType" ] ;
+       fhir:display [ fhir:v "verificationType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.verification.verificationType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.verification.verificationType` is mapped to FHIR R4B structure `Consent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.verification:verificationType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.verification.verificationType` is part of an existing definition because parent element `Consent.verification` requires a cross-version extension.\nElement `Consent.verification.verificationType` is mapped to FHIR STU3 structure `Consent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:verification:verificationType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.verification.verificationType` is part of an existing definition because parent element `Consent.verification` requires a cross-version extension.\nElement `Consent.verification.verificationType` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.verification.verifiedBy" ] ;
+       fhir:display [ fhir:v "verifiedBy" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.verification.verifiedBy" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.verification.verifiedBy` is mapped to FHIR R4B structure `Consent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.verification:verifiedBy" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.verification.verifiedBy` is part of an existing definition because parent element `Consent.verification` requires a cross-version extension.\nElement `Consent.verification.verifiedBy` is mapped to FHIR STU3 structure `Consent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:verification:verifiedBy" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.verification.verifiedBy` is part of an existing definition because parent element `Consent.verification` requires a cross-version extension.\nElement `Consent.verification.verifiedBy` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.verification.verifiedWith" ] ;
+       fhir:display [ fhir:v "verifiedWith" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.verification.verifiedWith" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.verification.verifiedWith` is mapped to FHIR R4B element `Consent.verification.verifiedWith`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.verification:verifiedWith" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.verification.verifiedWith` is part of an existing definition because parent element `Consent.verification` requires a cross-version extension.\nElement `Consent.verification.verifiedWith` is mapped to FHIR STU3 structure `Consent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:verification:verifiedWith" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.verification.verifiedWith` is part of an existing definition because parent element `Consent.verification` requires a cross-version extension.\nElement `Consent.verification.verifiedWith` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.verification.verificationDate" ] ;
+       fhir:display [ fhir:v "verificationDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.verification.verificationDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.verification.verificationDate` is mapped to FHIR R4B element `Consent.verification.verificationDate`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.verification:verificationDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.verification.verificationDate` is part of an existing definition because parent element `Consent.verification` requires a cross-version extension.\nElement `Consent.verification.verificationDate` is mapped to FHIR STU3 structure `Consent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:verification:verificationDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.verification.verificationDate` is part of an existing definition because parent element `Consent.verification` requires a cross-version extension.\nElement `Consent.verification.verificationDate` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.decision" ] ;
+       fhir:display [ fhir:v "decision" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.decision" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.decision` is mapped to FHIR R4B structure `Consent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:decision" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.decision` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision" ] ;
+       fhir:display [ fhir:v "provision" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision` is mapped to FHIR R4B element `Consent.provision`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.except" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision` is mapped to FHIR STU3 element `Consent.except`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.period` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.period` is mapped to FHIR R4B element `Consent.provision.period`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.period` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.period` is mapped to FHIR STU3 element `Consent.except.period`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.period` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.period` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.period` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.actor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.actor` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.actor` is mapped to FHIR R4B element `Consent.provision.actor`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.actor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.actor` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.actor` is mapped to FHIR STU3 element `Consent.actor`.\nElement `Consent.provision.actor` is mapped to FHIR STU3 element `Consent.except.actor`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.actor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.actor` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.actor` is mapped to FHIR STU3 element `Consent.actor`.\nElement `Consent.provision.actor` is mapped to FHIR STU3 element `Consent.except.actor`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:actor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.actor` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.actor` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.actor` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.actor.role" ] ;
+       fhir:display [ fhir:v "role" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.actor.role" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.actor.role` is mapped to FHIR R4B element `Consent.provision.actor.role`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.actor.role" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.actor.role` is mapped to FHIR STU3 element `Consent.actor.role`.\nElement `Consent.provision.actor.role` is mapped to FHIR STU3 element `Consent.except.actor.role`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.actor.role" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.actor.role` is mapped to FHIR STU3 element `Consent.actor.role`.\nElement `Consent.provision.actor.role` is mapped to FHIR STU3 element `Consent.except.actor.role`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:actor:role" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.actor.role` is part of an existing definition because parent element `Consent.provision.actor` requires a cross-version extension.\nElement `Consent.provision.actor.role` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.actor.reference" ] ;
+       fhir:display [ fhir:v "reference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.actor.reference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.actor.reference` is mapped to FHIR R4B element `Consent.provision.actor.reference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.actor.reference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.actor.reference` is mapped to FHIR STU3 element `Consent.actor.reference`.\nElement `Consent.provision.actor.reference` is mapped to FHIR STU3 element `Consent.except.actor.reference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.actor.reference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.actor.reference` is mapped to FHIR STU3 element `Consent.actor.reference`.\nElement `Consent.provision.actor.reference` is mapped to FHIR STU3 element `Consent.except.actor.reference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:actor:reference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.actor.reference` is part of an existing definition because parent element `Consent.provision.actor` requires a cross-version extension.\nElement `Consent.provision.actor.reference` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.action" ] ;
+       fhir:display [ fhir:v "action" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.action" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.action` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.action` is mapped to FHIR R4B element `Consent.provision.action`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.action" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.action` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.action` is mapped to FHIR STU3 element `Consent.action`.\nElement `Consent.provision.action` is mapped to FHIR STU3 element `Consent.except.action`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.action" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.action` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.action` is mapped to FHIR STU3 element `Consent.action`.\nElement `Consent.provision.action` is mapped to FHIR STU3 element `Consent.except.action`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:action" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.action` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.action` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.action` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.securityLabel" ] ;
+       fhir:display [ fhir:v "securityLabel" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.securityLabel" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.securityLabel` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.securityLabel` is mapped to FHIR R4B element `Consent.provision.securityLabel`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.securityLabel" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.securityLabel` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.securityLabel` is mapped to FHIR STU3 element `Consent.securityLabel`.\nElement `Consent.provision.securityLabel` is mapped to FHIR STU3 element `Consent.except.securityLabel`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.securityLabel" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.securityLabel` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.securityLabel` is mapped to FHIR STU3 element `Consent.securityLabel`.\nElement `Consent.provision.securityLabel` is mapped to FHIR STU3 element `Consent.except.securityLabel`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:securityLabel" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.securityLabel` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.securityLabel` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.securityLabel` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.purpose" ] ;
+       fhir:display [ fhir:v "purpose" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.purpose" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.purpose` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.purpose` is mapped to FHIR R4B element `Consent.provision.purpose`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.purpose" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.purpose` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.purpose` is mapped to FHIR STU3 element `Consent.purpose`.\nElement `Consent.provision.purpose` is mapped to FHIR STU3 element `Consent.except.purpose`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.purpose" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.purpose` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.purpose` is mapped to FHIR STU3 element `Consent.purpose`.\nElement `Consent.provision.purpose` is mapped to FHIR STU3 element `Consent.except.purpose`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:purpose" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.purpose` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.purpose` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.purpose` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.documentType" ] ;
+       fhir:display [ fhir:v "documentType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.class" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.documentType` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.documentType` is mapped to FHIR R4B element `Consent.provision.class`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.class" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.documentType` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.documentType` is mapped to FHIR STU3 element `Consent.except.class`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:documentType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.documentType` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.documentType` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.documentType` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.resourceType" ] ;
+       fhir:display [ fhir:v "resourceType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.class" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.resourceType` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.resourceType` is mapped to FHIR R4B element `Consent.provision.class`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.class" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.resourceType` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.resourceType` is mapped to FHIR STU3 element `Consent.except.class`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:resourceType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.resourceType` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.resourceType` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.resourceType` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.code` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.code` is mapped to FHIR R4B element `Consent.provision.code`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.code` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.code` is mapped to FHIR STU3 element `Consent.except.code`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.code` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.code` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.code` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.dataPeriod" ] ;
+       fhir:display [ fhir:v "dataPeriod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.dataPeriod" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.dataPeriod` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.dataPeriod` is mapped to FHIR R4B element `Consent.provision.dataPeriod`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.dataPeriod" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.dataPeriod` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.dataPeriod` is mapped to FHIR STU3 element `Consent.dataPeriod`.\nElement `Consent.provision.dataPeriod` is mapped to FHIR STU3 element `Consent.except.dataPeriod`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.dataPeriod" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.dataPeriod` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.dataPeriod` is mapped to FHIR STU3 element `Consent.dataPeriod`.\nElement `Consent.provision.dataPeriod` is mapped to FHIR STU3 element `Consent.except.dataPeriod`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:dataPeriod" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.dataPeriod` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.dataPeriod` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.dataPeriod` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.data" ] ;
+       fhir:display [ fhir:v "data" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.data" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.data` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.data` is mapped to FHIR R4B element `Consent.provision.data`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.data" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.data` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.data` is mapped to FHIR STU3 element `Consent.data`.\nElement `Consent.provision.data` is mapped to FHIR STU3 element `Consent.except.data`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.data" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.data` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.data` is mapped to FHIR STU3 element `Consent.data`.\nElement `Consent.provision.data` is mapped to FHIR STU3 element `Consent.except.data`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:data" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.data` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.data` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.data` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.data.meaning" ] ;
+       fhir:display [ fhir:v "meaning" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.data.meaning" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.data.meaning` is mapped to FHIR R4B element `Consent.provision.data.meaning`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.data.meaning" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.data.meaning` is mapped to FHIR STU3 element `Consent.data.meaning`.\nElement `Consent.provision.data.meaning` is mapped to FHIR STU3 element `Consent.except.data.meaning`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.data.meaning" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.data.meaning` is mapped to FHIR STU3 element `Consent.data.meaning`.\nElement `Consent.provision.data.meaning` is mapped to FHIR STU3 element `Consent.except.data.meaning`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:data:meaning" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.data.meaning` is part of an existing definition because parent element `Consent.provision.data` requires a cross-version extension.\nElement `Consent.provision.data.meaning` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.data.reference" ] ;
+       fhir:display [ fhir:v "reference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.data.reference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.data.reference` is mapped to FHIR R4B element `Consent.provision.data.reference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.data.reference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.data.reference` is mapped to FHIR STU3 element `Consent.data.reference`.\nElement `Consent.provision.data.reference` is mapped to FHIR STU3 element `Consent.except.data.reference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.except.data.reference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.data.reference` is mapped to FHIR STU3 element `Consent.data.reference`.\nElement `Consent.provision.data.reference` is mapped to FHIR STU3 element `Consent.except.data.reference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:data:reference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.data.reference` is part of an existing definition because parent element `Consent.provision.data` requires a cross-version extension.\nElement `Consent.provision.data.reference` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.expression" ] ;
+       fhir:display [ fhir:v "expression" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.provision.expression" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.expression` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.expression` is mapped to FHIR R4B structure `Consent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:expression" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.expression` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.expression` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.expression` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.provision" ] ;
+       fhir:display [ fhir:v "provision" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.provision" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.provision` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.provision` is mapped to FHIR R4B element `Consent.provision.provision`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.provision.provision" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.provision` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.provision` is mapped to FHIR STU3 structure `Consent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent:provision:provision" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.provision` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.provision` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.provision` is not mapped to FHIR DSTU2, since FHIR R5 `Consent` is not mapped." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

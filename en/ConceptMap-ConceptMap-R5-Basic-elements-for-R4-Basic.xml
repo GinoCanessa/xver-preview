@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="ConceptMap-R5-Basic-elements-for-R4-Basic"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap ConceptMap-R5-Basic-elements-for-R4-Basic</b></p><a name="ConceptMap-R5-Basic-elements-for-R4-Basic"> </a><a name="hcConceptMap-R5-Basic-elements-for-R4-Basic"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Basic|5.0.0</code> to <code>unspecified code system</code></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Basic</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Basic#Basic</td><td>FHIR R5 Resource `Basic` is representable via FHIR R4B Resource `Basic`.
+Element `Basic` is mapped to FHIR R4B element `Basic`.</td></tr><tr><td>Basic.meta (meta)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Basic#Basic.meta</td><td>Element `Basic.meta` is mapped to FHIR R4B element `Basic.meta`.</td></tr><tr><td>Basic.implicitRules (implicitRules)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Basic#Basic.implicitRules</td><td>Element `Basic.implicitRules` is mapped to FHIR R4B element `Basic.implicitRules`.</td></tr><tr><td>Basic.language (language)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Basic#Basic.language</td><td>Element `Basic.language` is mapped to FHIR R4B element `Basic.language`.</td></tr><tr><td>Basic.text (text)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Basic#Basic.text</td><td>Element `Basic.text` is mapped to FHIR R4B element `Basic.text`.</td></tr><tr><td>Basic.contained (contained)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Basic#Basic.contained</td><td>Element `Basic.contained` is mapped to FHIR R4B element `Basic.contained`.</td></tr><tr><td>Basic.identifier (identifier)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Basic#Basic.identifier</td><td>Element `Basic.identifier` is mapped to FHIR R4B element `Basic.identifier`.</td></tr><tr><td>Basic.code (code)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Basic#Basic.code</td><td>Element `Basic.code` is mapped to FHIR R4B element `Basic.code`.</td></tr><tr><td>Basic.subject (subject)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Basic#Basic.subject</td><td>Element `Basic.subject` is mapped to FHIR R4B element `Basic.subject`.</td></tr><tr><td>Basic.created (created)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Basic#Basic.created</td><td>Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `dateTime`:0..1 -&gt; basic: `date`:0..1).
+Element `Basic.created` is mapped to FHIR R4B element `Basic.created`.</td></tr><tr><td>Basic.author (author)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Basic#Basic.author</td><td>Element matches Basic element path `Basic.author`, use that element instead.
+Element `Basic.author` is mapped to FHIR R4B element `Basic.author`.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Basic-elements-for-R4-Basic"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="ConceptMapR5BasicElementsForR4Basic"/>
+  <title value="Cross-version ConceptMap for FHIR R5 resources in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-06T13:17:31.0893605-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Basic"/>
+    <sourceVersion value="5.0.0"/>
+    <element>
+      <code value="Basic"/>
+      <display value="Basic"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/Basic#Basic"/>
+        <equivalence value="relatedto"/>
+        <comment value="FHIR R5 Resource `Basic` is representable via FHIR R4B Resource `Basic`.&#xA;Element `Basic` is mapped to FHIR R4B element `Basic`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Basic.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/Basic#Basic.meta"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `Basic.meta` is mapped to FHIR R4B element `Basic.meta`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Basic.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/Basic#Basic.implicitRules"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `Basic.implicitRules` is mapped to FHIR R4B element `Basic.implicitRules`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Basic.language"/>
+      <display value="language"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/Basic#Basic.language"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `Basic.language` is mapped to FHIR R4B element `Basic.language`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Basic.text"/>
+      <display value="text"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/Basic#Basic.text"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `Basic.text` is mapped to FHIR R4B element `Basic.text`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Basic.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/Basic#Basic.contained"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `Basic.contained` is mapped to FHIR R4B element `Basic.contained`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Basic.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/Basic#Basic.identifier"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `Basic.identifier` is mapped to FHIR R4B element `Basic.identifier`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Basic.code"/>
+      <display value="code"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/Basic#Basic.code"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `Basic.code` is mapped to FHIR R4B element `Basic.code`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Basic.subject"/>
+      <display value="subject"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/Basic#Basic.subject"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `Basic.subject` is mapped to FHIR R4B element `Basic.subject`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Basic.created"/>
+      <display value="created"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/Basic#Basic.created"/>
+        <equivalence value="relatedto"/>
+        <comment value="Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `dateTime`:0..1 -&gt; basic: `date`:0..1).&#xA;Element `Basic.created` is mapped to FHIR R4B element `Basic.created`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Basic.author"/>
+      <display value="author"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/Basic#Basic.author"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element matches Basic element path `Basic.author`, use that element instead.&#xA;Element `Basic.author` is mapped to FHIR R4B element `Basic.author`."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

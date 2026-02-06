@@ -1,0 +1,453 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-MedicationAdministration-elements-for-R4-MedicationAdministration> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-MedicationAdministration-elements-for-R4-MedicationAdministration"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-MedicationAdministration-elements-for-R4-MedicationAdministration</b></p><a name=\"ConceptMap-R5-MedicationAdministration-elements-for-R4-MedicationAdministration\"> </a><a name=\"hcConceptMap-R5-MedicationAdministration-elements-for-R4-MedicationAdministration\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MedicationAdministration|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/MedicationAdministration|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">MedicationAdministration</td><td style=\"border-left-width: 0px\">MedicationAdministration</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `MedicationAdministration` is representable via FHIR R4B Resource `MedicationAdministration`.\nElement `MedicationAdministration` is mapped to FHIR R4B element `MedicationAdministration`.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationAdministration.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.meta</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.meta` is mapped to FHIR R4B element `MedicationAdministration.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationAdministration.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.implicitRules` is mapped to FHIR R4B element `MedicationAdministration.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationAdministration.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.language</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.language` is mapped to FHIR R4B element `MedicationAdministration.language`.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationAdministration.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.text</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.text` is mapped to FHIR R4B element `MedicationAdministration.text`.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationAdministration.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.contained</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.contained` is mapped to FHIR R4B element `MedicationAdministration.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationAdministration.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.identifier` is mapped to FHIR R4B element `MedicationAdministration.identifier`.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationAdministration.basedOn</td><td style=\"border-left-width: 0px\">basedOn</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.basedOn</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.basedOn` is mapped to FHIR R4B structure `MedicationAdministration`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">MedicationAdministration.partOf</td><td style=\"border-left-width: 0px; border-bottom-style: none\">partOf</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.partOf</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.partOf` is mapped to FHIR R4B element `MedicationAdministration.partOf`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.partOf</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.partOf` is mapped to FHIR DSTU2 structure `MedicationAdministration`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationAdministration.status</td><td style=\"border-left-width: 0px\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.status</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.status` is mapped to FHIR R4B element `MedicationAdministration.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">MedicationAdministration.statusReason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">statusReason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.statusReason</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.statusReason` is mapped to FHIR R4B element `MedicationAdministration.statusReason`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.statusReason</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.statusReason` is mapped to FHIR STU3 structure `MedicationAdministration`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">MedicationAdministration.category</td><td style=\"border-left-width: 0px; border-bottom-style: none\">category</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.category</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.category` is mapped to FHIR R4B element `MedicationAdministration.category`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.category</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.category` is mapped to FHIR DSTU2 structure `MedicationAdministration`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationAdministration.medication</td><td style=\"border-left-width: 0px\">medication</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.medication[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `MedicationAdministration.medication[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration`.\nElement `MedicationAdministration.medication` is mapped to FHIR R4B element `MedicationAdministration.medication[x]`.\nNote that the target element context `MedicationAdministration.medication[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">MedicationAdministration.subject</td><td style=\"border-left-width: 0px; border-bottom-style: none\">subject</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.subject</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.subject` is mapped to FHIR R4B element `MedicationAdministration.subject`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.patient</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.subject`, use that element instead.\nElement `MedicationAdministration.subject` is mapped to FHIR DSTU2 element `MedicationAdministration.patient`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">MedicationAdministration.encounter</td><td style=\"border-left-width: 0px; border-bottom-style: none\">encounter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.context</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.encounter` is mapped to FHIR R4B element `MedicationAdministration.context`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.encounter</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.encounter` is mapped to FHIR DSTU2 element `MedicationAdministration.encounter`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">MedicationAdministration.supportingInformation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">supportingInformation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.supportingInformation</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.supportingInformation` is mapped to FHIR R4B element `MedicationAdministration.supportingInformation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.supportingInformation</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.supportingInformation` is mapped to FHIR DSTU2 structure `MedicationAdministration`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">MedicationAdministration.occurence[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">occurence[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.effective[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `MedicationAdministration.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration`.\nElement `MedicationAdministration.occurence[x]` is mapped to FHIR R4B element `MedicationAdministration.effective[x]`.\nNote that the target element context `MedicationAdministration.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.effectiveTime[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `MedicationAdministration.effectiveTime[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration`.\nElement `MedicationAdministration.occurence[x]` is mapped to FHIR DSTU2 element `MedicationAdministration.effectiveTime[x]`.\nNote that the target element context `MedicationAdministration.effectiveTime[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration`.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationAdministration.recorded</td><td style=\"border-left-width: 0px\">recorded</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.recorded</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.recorded` is mapped to FHIR R4B structure `MedicationAdministration`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationAdministration.isSubPotent</td><td style=\"border-left-width: 0px\">isSubPotent</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.isSubPotent</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.isSubPotent` is mapped to FHIR R4B structure `MedicationAdministration`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationAdministration.subPotentReason</td><td style=\"border-left-width: 0px\">subPotentReason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.subPotentReason</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.subPotentReason` is mapped to FHIR R4B structure `MedicationAdministration`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">MedicationAdministration.performer</td><td style=\"border-left-width: 0px; border-bottom-style: none\">performer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.performer</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.performer` is mapped to FHIR R4B element `MedicationAdministration.performer`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.practitioner</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.performer` is mapped to FHIR DSTU2 element `MedicationAdministration.practitioner`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">MedicationAdministration.performer.function</td><td style=\"border-left-width: 0px; border-bottom-style: none\">function</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.performer.function</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.performer.function` is mapped to FHIR R4B element `MedicationAdministration.performer.function`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">function</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.performer.function` is mapped to FHIR STU3 structure `MedicationAdministration`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">MedicationAdministration.performer.actor</td><td style=\"border-left-width: 0px; border-bottom-style: none\">actor</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.performer.actor</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.performer.actor` is mapped to FHIR R4B element `MedicationAdministration.performer.actor`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.practitioner</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.performer.actor` is mapped to FHIR DSTU2 element `MedicationAdministration.practitioner`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">MedicationAdministration.reason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.reasonCode</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.reason` is mapped to FHIR R4B element `MedicationAdministration.reasonCode`.\nElement `MedicationAdministration.reason` is mapped to FHIR R4B element `MedicationAdministration.reasonReference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.reasonReference</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.reason` is mapped to FHIR R4B element `MedicationAdministration.reasonCode`.\nElement `MedicationAdministration.reason` is mapped to FHIR R4B element `MedicationAdministration.reasonReference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.reasonNotGiven</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.reason` is mapped to FHIR STU3 element `MedicationAdministration.reasonNotGiven`.\nElement `MedicationAdministration.reason` is mapped to FHIR STU3 element `MedicationAdministration.reasonCode`.\nElement `MedicationAdministration.reason` is mapped to FHIR STU3 element `MedicationAdministration.reasonReference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.reasonGiven</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.reason` is mapped to FHIR DSTU2 element `MedicationAdministration.reasonNotGiven`.\nElement `MedicationAdministration.reason` is mapped to FHIR DSTU2 element `MedicationAdministration.reasonGiven`.\nElement `MedicationAdministration.reason` is mapped to FHIR DSTU2 structure `MedicationAdministration`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">MedicationAdministration.request</td><td style=\"border-left-width: 0px; border-bottom-style: none\">request</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.request</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.request` is mapped to FHIR R4B element `MedicationAdministration.request`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.prescription</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.request` is mapped to FHIR STU3 element `MedicationAdministration.prescription`.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationAdministration.device</td><td style=\"border-left-width: 0px\">device</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.device</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.device` is mapped to FHIR R4B element `MedicationAdministration.device`.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationAdministration.note</td><td style=\"border-left-width: 0px\">note</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.note</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.note` is mapped to FHIR R4B element `MedicationAdministration.note`.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationAdministration.dosage</td><td style=\"border-left-width: 0px\">dosage</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.dosage` is mapped to FHIR R4B element `MedicationAdministration.dosage`.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationAdministration.dosage.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage.text</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.dosage.text` is mapped to FHIR R4B element `MedicationAdministration.dosage.text`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">MedicationAdministration.dosage.site</td><td style=\"border-left-width: 0px; border-bottom-style: none\">site</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage.site</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.dosage.site` is mapped to FHIR R4B element `MedicationAdministration.dosage.site`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage.site[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `MedicationAdministration.dosage.site[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration.dosage`.\nElement `MedicationAdministration.dosage.site` is mapped to FHIR DSTU2 element `MedicationAdministration.dosage.site[x]`.\nNote that the target element context `MedicationAdministration.dosage.site[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration.dosage`.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationAdministration.dosage.route</td><td style=\"border-left-width: 0px\">route</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage.route</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.dosage.route` is mapped to FHIR R4B element `MedicationAdministration.dosage.route`.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationAdministration.dosage.method</td><td style=\"border-left-width: 0px\">method</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage.method</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.dosage.method` is mapped to FHIR R4B element `MedicationAdministration.dosage.method`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">MedicationAdministration.dosage.dose</td><td style=\"border-left-width: 0px; border-bottom-style: none\">dose</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage.dose</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.dosage.dose` is mapped to FHIR R4B element `MedicationAdministration.dosage.dose`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage.quantity</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.dosage.dose` is mapped to FHIR DSTU2 element `MedicationAdministration.dosage.quantity`.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationAdministration.dosage.rate[x]</td><td style=\"border-left-width: 0px\">rate[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage.rate[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `MedicationAdministration.dosage.rate[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration.dosage`.\nElement `MedicationAdministration.dosage.rate[x]` is mapped to FHIR R4B element `MedicationAdministration.dosage.rate[x]`.\nNote that the target element context `MedicationAdministration.dosage.rate[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration.dosage`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">MedicationAdministration.eventHistory</td><td style=\"border-left-width: 0px; border-bottom-style: none\">eventHistory</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.eventHistory</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.eventHistory` is mapped to FHIR R4B element `MedicationAdministration.eventHistory`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.eventHistory</td><td style=\"border-left-width: 0px\"/><td>Element `MedicationAdministration.eventHistory` is mapped to FHIR DSTU2 structure `MedicationAdministration`, but has no target element specified.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-MedicationAdministration-elements-for-R4-MedicationAdministration"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-MedicationAdministration-elements-for-R4-MedicationAdministration>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5MedicationAdministrationElementsForR4MedicationAdministration"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:33.3575722-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/MedicationAdministration>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "MedicationAdministration" ] ;
+       fhir:display [ fhir:v "MedicationAdministration" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `MedicationAdministration` is representable via FHIR R4B Resource `MedicationAdministration`.\nElement `MedicationAdministration` is mapped to FHIR R4B element `MedicationAdministration`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.meta` is mapped to FHIR R4B element `MedicationAdministration.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.implicitRules` is mapped to FHIR R4B element `MedicationAdministration.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.language` is mapped to FHIR R4B element `MedicationAdministration.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.text` is mapped to FHIR R4B element `MedicationAdministration.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.contained` is mapped to FHIR R4B element `MedicationAdministration.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.identifier` is mapped to FHIR R4B element `MedicationAdministration.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.basedOn" ] ;
+       fhir:display [ fhir:v "basedOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.basedOn" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.basedOn` is mapped to FHIR R4B structure `MedicationAdministration`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.partOf" ] ;
+       fhir:display [ fhir:v "partOf" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.partOf" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.partOf` is mapped to FHIR R4B element `MedicationAdministration.partOf`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.partOf" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.partOf` is mapped to FHIR DSTU2 structure `MedicationAdministration`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.status` is mapped to FHIR R4B element `MedicationAdministration.status`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.statusReason" ] ;
+       fhir:display [ fhir:v "statusReason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.statusReason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.statusReason` is mapped to FHIR R4B element `MedicationAdministration.statusReason`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.statusReason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.statusReason` is mapped to FHIR STU3 structure `MedicationAdministration`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.category` is mapped to FHIR R4B element `MedicationAdministration.category`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.category` is mapped to FHIR DSTU2 structure `MedicationAdministration`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.medication" ] ;
+       fhir:display [ fhir:v "medication" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.medication[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `MedicationAdministration.medication[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration`.\nElement `MedicationAdministration.medication` is mapped to FHIR R4B element `MedicationAdministration.medication[x]`.\nNote that the target element context `MedicationAdministration.medication[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.subject` is mapped to FHIR R4B element `MedicationAdministration.subject`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.patient" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `MedicationAdministration.subject` is mapped to FHIR DSTU2 element `MedicationAdministration.patient`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.context" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.encounter` is mapped to FHIR R4B element `MedicationAdministration.context`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.encounter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.encounter` is mapped to FHIR DSTU2 element `MedicationAdministration.encounter`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.supportingInformation" ] ;
+       fhir:display [ fhir:v "supportingInformation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.supportingInformation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.supportingInformation` is mapped to FHIR R4B element `MedicationAdministration.supportingInformation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.supportingInformation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.supportingInformation` is mapped to FHIR DSTU2 structure `MedicationAdministration`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.occurence[x]" ] ;
+       fhir:display [ fhir:v "occurence[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.effective[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `MedicationAdministration.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration`.\nElement `MedicationAdministration.occurence[x]` is mapped to FHIR R4B element `MedicationAdministration.effective[x]`.\nNote that the target element context `MedicationAdministration.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.effectiveTime[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `MedicationAdministration.effectiveTime[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration`.\nElement `MedicationAdministration.occurence[x]` is mapped to FHIR DSTU2 element `MedicationAdministration.effectiveTime[x]`.\nNote that the target element context `MedicationAdministration.effectiveTime[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.recorded" ] ;
+       fhir:display [ fhir:v "recorded" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.recorded" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.recorded` is mapped to FHIR R4B structure `MedicationAdministration`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.isSubPotent" ] ;
+       fhir:display [ fhir:v "isSubPotent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.isSubPotent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.isSubPotent` is mapped to FHIR R4B structure `MedicationAdministration`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.subPotentReason" ] ;
+       fhir:display [ fhir:v "subPotentReason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.subPotentReason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.subPotentReason` is mapped to FHIR R4B structure `MedicationAdministration`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.performer" ] ;
+       fhir:display [ fhir:v "performer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.performer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.performer` is mapped to FHIR R4B element `MedicationAdministration.performer`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.practitioner" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.performer` is mapped to FHIR DSTU2 element `MedicationAdministration.practitioner`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.performer.function" ] ;
+       fhir:display [ fhir:v "function" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.performer.function" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.performer.function` is mapped to FHIR R4B element `MedicationAdministration.performer.function`." ]
+       ] [
+         fhir:code [ fhir:v "function" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.performer.function` is mapped to FHIR STU3 structure `MedicationAdministration`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.performer.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.performer.actor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.performer.actor` is mapped to FHIR R4B element `MedicationAdministration.performer.actor`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.practitioner" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.performer.actor` is mapped to FHIR DSTU2 element `MedicationAdministration.practitioner`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.reasonCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.reason` is mapped to FHIR R4B element `MedicationAdministration.reasonCode`.\nElement `MedicationAdministration.reason` is mapped to FHIR R4B element `MedicationAdministration.reasonReference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.reasonReference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.reason` is mapped to FHIR R4B element `MedicationAdministration.reasonCode`.\nElement `MedicationAdministration.reason` is mapped to FHIR R4B element `MedicationAdministration.reasonReference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.reasonNotGiven" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.reason` is mapped to FHIR STU3 element `MedicationAdministration.reasonNotGiven`.\nElement `MedicationAdministration.reason` is mapped to FHIR STU3 element `MedicationAdministration.reasonCode`.\nElement `MedicationAdministration.reason` is mapped to FHIR STU3 element `MedicationAdministration.reasonReference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.reasonGiven" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.reason` is mapped to FHIR DSTU2 element `MedicationAdministration.reasonNotGiven`.\nElement `MedicationAdministration.reason` is mapped to FHIR DSTU2 element `MedicationAdministration.reasonGiven`.\nElement `MedicationAdministration.reason` is mapped to FHIR DSTU2 structure `MedicationAdministration`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.request" ] ;
+       fhir:display [ fhir:v "request" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.request" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.request` is mapped to FHIR R4B element `MedicationAdministration.request`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.prescription" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.request` is mapped to FHIR STU3 element `MedicationAdministration.prescription`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.device" ] ;
+       fhir:display [ fhir:v "device" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.device" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.device` is mapped to FHIR R4B element `MedicationAdministration.device`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.note` is mapped to FHIR R4B element `MedicationAdministration.note`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.dosage" ] ;
+       fhir:display [ fhir:v "dosage" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.dosage` is mapped to FHIR R4B element `MedicationAdministration.dosage`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.dosage.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.dosage.text` is mapped to FHIR R4B element `MedicationAdministration.dosage.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.dosage.site" ] ;
+       fhir:display [ fhir:v "site" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage.site" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.dosage.site` is mapped to FHIR R4B element `MedicationAdministration.dosage.site`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage.site[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `MedicationAdministration.dosage.site[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration.dosage`.\nElement `MedicationAdministration.dosage.site` is mapped to FHIR DSTU2 element `MedicationAdministration.dosage.site[x]`.\nNote that the target element context `MedicationAdministration.dosage.site[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration.dosage`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.dosage.route" ] ;
+       fhir:display [ fhir:v "route" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage.route" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.dosage.route` is mapped to FHIR R4B element `MedicationAdministration.dosage.route`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.dosage.method" ] ;
+       fhir:display [ fhir:v "method" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage.method" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.dosage.method` is mapped to FHIR R4B element `MedicationAdministration.dosage.method`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.dosage.dose" ] ;
+       fhir:display [ fhir:v "dose" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage.dose" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.dosage.dose` is mapped to FHIR R4B element `MedicationAdministration.dosage.dose`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage.quantity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.dosage.dose` is mapped to FHIR DSTU2 element `MedicationAdministration.dosage.quantity`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.dosage.rate[x]" ] ;
+       fhir:display [ fhir:v "rate[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.dosage.rate[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `MedicationAdministration.dosage.rate[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration.dosage`.\nElement `MedicationAdministration.dosage.rate[x]` is mapped to FHIR R4B element `MedicationAdministration.dosage.rate[x]`.\nNote that the target element context `MedicationAdministration.dosage.rate[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationAdministration.dosage`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationAdministration.eventHistory" ] ;
+       fhir:display [ fhir:v "eventHistory" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationAdministration#MedicationAdministration.eventHistory" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.eventHistory` is mapped to FHIR R4B element `MedicationAdministration.eventHistory`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.eventHistory" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationAdministration.eventHistory` is mapped to FHIR DSTU2 structure `MedicationAdministration`, but has no target element specified." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

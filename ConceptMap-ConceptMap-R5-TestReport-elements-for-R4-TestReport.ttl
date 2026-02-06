@@ -1,0 +1,704 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-TestReport-elements-for-R4-TestReport> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-TestReport-elements-for-R4-TestReport"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-TestReport-elements-for-R4-TestReport</b></p><a name=\"ConceptMap-R5-TestReport-elements-for-R4-TestReport\"> </a><a name=\"hcConceptMap-R5-TestReport-elements-for-R4-TestReport\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/TestReport|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/TestReport|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport</td><td style=\"border-left-width: 0px; border-bottom-style: none\">TestReport</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `TestReport` is representable via FHIR R4B Resource `TestReport`.\nElement `TestReport` is mapped to FHIR R4B element `TestReport`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `TestReport` is representable via FHIR DSTU2 Resource `Basic`.\nElement `TestReport` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.meta</td><td style=\"border-left-width: 0px; border-bottom-style: none\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.meta</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.meta` is mapped to FHIR R4B element `TestReport.meta`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.meta</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.meta`, use that element instead.\nElement `TestReport.meta` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.implicitRules</td><td style=\"border-left-width: 0px; border-bottom-style: none\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.implicitRules` is mapped to FHIR R4B element `TestReport.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `TestReport.implicitRules` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.language</td><td style=\"border-left-width: 0px; border-bottom-style: none\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.language</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.language` is mapped to FHIR R4B element `TestReport.language`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.language</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.language`, use that element instead.\nElement `TestReport.language` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.text</td><td style=\"border-left-width: 0px; border-bottom-style: none\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.text</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.text` is mapped to FHIR R4B element `TestReport.text`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.text</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `TestReport.text` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.contained</td><td style=\"border-left-width: 0px; border-bottom-style: none\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.contained</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.contained` is mapped to FHIR R4B element `TestReport.contained`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.contained</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `TestReport.contained` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.identifier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.identifier` is mapped to FHIR R4B element `TestReport.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.identifier</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `TestReport.identifier` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.name</td><td style=\"border-left-width: 0px; border-bottom-style: none\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.name</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.name` is mapped to FHIR R4B element `TestReport.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:name</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.name` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.status</td><td style=\"border-left-width: 0px; border-bottom-style: none\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.status</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.status` is mapped to FHIR R4B element `TestReport.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:status</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.status` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.testScript</td><td style=\"border-left-width: 0px; border-bottom-style: none\">testScript</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.testScript</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.testScript` is mapped to FHIR R4B element `TestReport.testScript`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:testScript</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.testScript` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.result</td><td style=\"border-left-width: 0px; border-bottom-style: none\">result</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.result</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.result` is mapped to FHIR R4B element `TestReport.result`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:result</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.result` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.score</td><td style=\"border-left-width: 0px; border-bottom-style: none\">score</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.score</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.score` is mapped to FHIR R4B element `TestReport.score`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:score</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.score` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.tester</td><td style=\"border-left-width: 0px; border-bottom-style: none\">tester</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.tester</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.tester` is mapped to FHIR R4B element `TestReport.tester`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:tester</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.tester` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.issued</td><td style=\"border-left-width: 0px; border-bottom-style: none\">issued</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.issued</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.issued` is mapped to FHIR R4B element `TestReport.issued`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:issued</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.issued` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.participant</td><td style=\"border-left-width: 0px; border-bottom-style: none\">participant</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.participant</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.participant` is mapped to FHIR R4B element `TestReport.participant`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:participant</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.participant` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.participant.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.participant.type</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.participant.type` is mapped to FHIR R4B element `TestReport.participant.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:participant:type</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.participant.type` is part of an existing definition because parent element `TestReport.participant` requires a cross-version extension.\nElement `TestReport.participant.type` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.participant.uri</td><td style=\"border-left-width: 0px; border-bottom-style: none\">uri</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.participant.uri</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.participant.uri` is mapped to FHIR R4B element `TestReport.participant.uri`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:participant:uri</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.participant.uri` is part of an existing definition because parent element `TestReport.participant` requires a cross-version extension.\nElement `TestReport.participant.uri` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.participant.display</td><td style=\"border-left-width: 0px; border-bottom-style: none\">display</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.participant.display</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.participant.display` is mapped to FHIR R4B element `TestReport.participant.display`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:participant:display</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.participant.display` is part of an existing definition because parent element `TestReport.participant` requires a cross-version extension.\nElement `TestReport.participant.display` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.setup</td><td style=\"border-left-width: 0px; border-bottom-style: none\">setup</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.setup` is mapped to FHIR R4B element `TestReport.setup`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:setup</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.setup` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.setup.action</td><td style=\"border-left-width: 0px; border-bottom-style: none\">action</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.setup.action` is mapped to FHIR R4B element `TestReport.setup.action`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:setup:action</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.setup.action` is part of an existing definition because parent element `TestReport.setup` requires a cross-version extension.\nElement `TestReport.setup.action` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.setup.action.operation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">operation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action.operation</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.setup.action.operation` is mapped to FHIR R4B element `TestReport.setup.action.operation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:setup:action:operation</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.setup.action.operation` is part of an existing definition because parent element `TestReport.setup.action` requires a cross-version extension.\nElement `TestReport.setup.action.operation` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.setup.action.operation.result</td><td style=\"border-left-width: 0px; border-bottom-style: none\">result</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action.operation.result</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.setup.action.operation.result` is part of an existing definition because parent element `TestReport.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.operation.result` is mapped to FHIR R4B element `TestReport.setup.action.operation.result`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:setup:action:operation:result</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.setup.action.operation.result` is part of an existing definition because parent element `TestReport.setup.action.operation` requires a cross-version extension.\nElement `TestReport.setup.action.operation.result` is part of an existing definition because parent element `TestReport.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.operation.result` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.setup.action.operation.message</td><td style=\"border-left-width: 0px; border-bottom-style: none\">message</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action.operation.message</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.setup.action.operation.message` is part of an existing definition because parent element `TestReport.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.operation.message` is mapped to FHIR R4B element `TestReport.setup.action.operation.message`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:setup:action:operation:message</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.setup.action.operation.message` is part of an existing definition because parent element `TestReport.setup.action.operation` requires a cross-version extension.\nElement `TestReport.setup.action.operation.message` is part of an existing definition because parent element `TestReport.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.operation.message` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.setup.action.operation.detail</td><td style=\"border-left-width: 0px; border-bottom-style: none\">detail</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action.operation.detail</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.setup.action.operation.detail` is part of an existing definition because parent element `TestReport.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.operation.detail` is mapped to FHIR R4B element `TestReport.setup.action.operation.detail`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:setup:action:operation:detail</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.setup.action.operation.detail` is part of an existing definition because parent element `TestReport.setup.action.operation` requires a cross-version extension.\nElement `TestReport.setup.action.operation.detail` is part of an existing definition because parent element `TestReport.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.operation.detail` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.setup.action.assert</td><td style=\"border-left-width: 0px; border-bottom-style: none\">assert</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action.assert</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.setup.action.assert` is mapped to FHIR R4B element `TestReport.setup.action.assert`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:setup:action:assert</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.setup.action.assert` is part of an existing definition because parent element `TestReport.setup.action` requires a cross-version extension.\nElement `TestReport.setup.action.assert` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.setup.action.assert.result</td><td style=\"border-left-width: 0px; border-bottom-style: none\">result</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action.assert.result</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.setup.action.assert.result` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.result` is mapped to FHIR R4B element `TestReport.setup.action.assert.result`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:setup:action:assert:result</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.setup.action.assert.result` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a cross-version extension.\nElement `TestReport.setup.action.assert.result` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.result` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.setup.action.assert.message</td><td style=\"border-left-width: 0px; border-bottom-style: none\">message</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action.assert.message</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.setup.action.assert.message` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.message` is mapped to FHIR R4B element `TestReport.setup.action.assert.message`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:setup:action:assert:message</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.setup.action.assert.message` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a cross-version extension.\nElement `TestReport.setup.action.assert.message` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.message` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.setup.action.assert.detail</td><td style=\"border-left-width: 0px; border-bottom-style: none\">detail</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action.assert.detail</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.setup.action.assert.detail` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.detail` is mapped to FHIR R4B element `TestReport.setup.action.assert.detail`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:setup:action:assert:detail</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.setup.action.assert.detail` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a cross-version extension.\nElement `TestReport.setup.action.assert.detail` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.detail` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.setup.action.assert.requirement</td><td style=\"border-left-width: 0px; border-bottom-style: none\">requirement</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport.setup.action.assert.requirement</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.setup.action.assert.requirement` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.requirement` is mapped to FHIR R4B structure `TestReport`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:setup:action:assert:requirement</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.setup.action.assert.requirement` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a cross-version extension.\nElement `TestReport.setup.action.assert.requirement` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.requirement` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.setup.action.assert.requirement.link[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">link[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport.setup.action.assert.requirement:link</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.setup.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestReport.setup.action.assert.requirement` requires a cross-version extension.\nElement `TestReport.setup.action.assert.requirement.link[x]` is mapped to FHIR R4B structure `TestReport`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:setup:action:assert:requirement:link</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.setup.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestReport.setup.action.assert.requirement` requires a cross-version extension.\nElement `TestReport.setup.action.assert.requirement.link[x]` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.test</td><td style=\"border-left-width: 0px; border-bottom-style: none\">test</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test` is mapped to FHIR R4B element `TestReport.test`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.test.name</td><td style=\"border-left-width: 0px; border-bottom-style: none\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.name</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test.name` is mapped to FHIR R4B element `TestReport.test.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test:name</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test.name` is part of an existing definition because parent element `TestReport.test` requires a cross-version extension.\nElement `TestReport.test.name` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.test.description</td><td style=\"border-left-width: 0px; border-bottom-style: none\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.description</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test.description` is mapped to FHIR R4B element `TestReport.test.description`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test:description</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test.description` is part of an existing definition because parent element `TestReport.test` requires a cross-version extension.\nElement `TestReport.test.description` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.test.action</td><td style=\"border-left-width: 0px; border-bottom-style: none\">action</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test.action` is mapped to FHIR R4B element `TestReport.test.action`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test:action</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test.action` is part of an existing definition because parent element `TestReport.test` requires a cross-version extension.\nElement `TestReport.test.action` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.test.action.operation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">operation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action.operation</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test.action.operation` is mapped to FHIR R4B element `TestReport.test.action.operation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test:action:operation</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test.action.operation` is part of an existing definition because parent element `TestReport.test.action` requires a cross-version extension.\nElement `TestReport.test.action.operation` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.test.action.operation.result</td><td style=\"border-left-width: 0px; border-bottom-style: none\">result</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action.operation.result</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test.action.operation.result` is mapped to FHIR R4B element `TestReport.test.action.operation.result`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test:action:operation:result</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test.action.operation.result` is part of an existing definition because parent element `TestReport.test.action.operation` requires a cross-version extension.\nElement `TestReport.test.action.operation.result` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.test.action.operation.message</td><td style=\"border-left-width: 0px; border-bottom-style: none\">message</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action.operation.message</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test.action.operation.message` is mapped to FHIR R4B element `TestReport.test.action.operation.message`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test:action:operation:message</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test.action.operation.message` is part of an existing definition because parent element `TestReport.test.action.operation` requires a cross-version extension.\nElement `TestReport.test.action.operation.message` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.test.action.operation.detail</td><td style=\"border-left-width: 0px; border-bottom-style: none\">detail</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action.operation.detail</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test.action.operation.detail` is mapped to FHIR R4B element `TestReport.test.action.operation.detail`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test:action:operation:detail</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test.action.operation.detail` is part of an existing definition because parent element `TestReport.test.action.operation` requires a cross-version extension.\nElement `TestReport.test.action.operation.detail` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.test.action.assert</td><td style=\"border-left-width: 0px; border-bottom-style: none\">assert</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action.assert</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test.action.assert` is mapped to FHIR R4B element `TestReport.test.action.assert`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test:action:assert</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test.action.assert` is part of an existing definition because parent element `TestReport.test.action` requires a cross-version extension.\nElement `TestReport.test.action.assert` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.test.action.assert.result</td><td style=\"border-left-width: 0px; border-bottom-style: none\">result</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action.assert.result</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test.action.assert.result` is mapped to FHIR R4B element `TestReport.test.action.assert.result`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test:action:assert:result</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test.action.assert.result` is part of an existing definition because parent element `TestReport.test.action.assert` requires a cross-version extension.\nElement `TestReport.test.action.assert.result` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.test.action.assert.message</td><td style=\"border-left-width: 0px; border-bottom-style: none\">message</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action.assert.message</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test.action.assert.message` is mapped to FHIR R4B element `TestReport.test.action.assert.message`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test:action:assert:message</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test.action.assert.message` is part of an existing definition because parent element `TestReport.test.action.assert` requires a cross-version extension.\nElement `TestReport.test.action.assert.message` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.teardown</td><td style=\"border-left-width: 0px; border-bottom-style: none\">teardown</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.teardown</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.teardown` is mapped to FHIR R4B element `TestReport.teardown`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:teardown</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.teardown` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.test.action.assert.detail</td><td style=\"border-left-width: 0px; border-bottom-style: none\">detail</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action.assert.detail</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test.action.assert.detail` is mapped to FHIR R4B element `TestReport.test.action.assert.detail`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test:action:assert:detail</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test.action.assert.detail` is part of an existing definition because parent element `TestReport.test.action.assert` requires a cross-version extension.\nElement `TestReport.test.action.assert.detail` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.test.action.assert.requirement</td><td style=\"border-left-width: 0px; border-bottom-style: none\">requirement</td><td style=\"border-right-width: 0px\">requirement</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test.action.assert.requirement` is mapped to FHIR R4B structure `TestReport`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test:action:assert:requirement</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test.action.assert.requirement` is part of an existing definition because parent element `TestReport.test.action.assert` requires a cross-version extension.\nElement `TestReport.test.action.assert.requirement` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.teardown.action</td><td style=\"border-left-width: 0px; border-bottom-style: none\">action</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.teardown.action</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.teardown.action` is mapped to FHIR R4B element `TestReport.teardown.action`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:teardown:action</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.teardown.action` is part of an existing definition because parent element `TestReport.teardown` requires a cross-version extension.\nElement `TestReport.teardown.action` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.test.action.assert.requirement.link[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">link[x]</td><td style=\"border-right-width: 0px\">requirement:link</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestReport.test.action.assert.requirement` requires a cross-version extension.\nElement `TestReport.test.action.assert.requirement.link[x]` is mapped to FHIR R4B structure `TestReport`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test:action:assert:requirement:link</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.test.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestReport.test.action.assert.requirement` requires a cross-version extension.\nElement `TestReport.test.action.assert.requirement.link[x]` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.teardown.action.operation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">operation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.teardown.action.operation</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.teardown.action.operation` is mapped to FHIR R4B element `TestReport.teardown.action.operation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:teardown:action:operation</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.teardown.action.operation` is part of an existing definition because parent element `TestReport.teardown.action` requires a cross-version extension.\nElement `TestReport.teardown.action.operation` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.teardown.action.operation.result</td><td style=\"border-left-width: 0px; border-bottom-style: none\">result</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.teardown.action.operation.result</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.teardown.action.operation.result` is mapped to FHIR R4B element `TestReport.teardown.action.operation.result`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:teardown:action:operation:result</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.teardown.action.operation.result` is part of an existing definition because parent element `TestReport.teardown.action.operation` requires a cross-version extension.\nElement `TestReport.teardown.action.operation.result` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.teardown.action.operation.message</td><td style=\"border-left-width: 0px; border-bottom-style: none\">message</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.teardown.action.operation.message</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.teardown.action.operation.message` is mapped to FHIR R4B element `TestReport.teardown.action.operation.message`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:teardown:action:operation:message</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.teardown.action.operation.message` is part of an existing definition because parent element `TestReport.teardown.action.operation` requires a cross-version extension.\nElement `TestReport.teardown.action.operation.message` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">TestReport.teardown.action.operation.detail</td><td style=\"border-left-width: 0px; border-bottom-style: none\">detail</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.teardown.action.operation.detail</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.teardown.action.operation.detail` is mapped to FHIR R4B element `TestReport.teardown.action.operation.detail`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:teardown:action:operation:detail</td><td style=\"border-left-width: 0px\"/><td>Element `TestReport.teardown.action.operation.detail` is part of an existing definition because parent element `TestReport.teardown.action.operation` requires a cross-version extension.\nElement `TestReport.teardown.action.operation.detail` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-TestReport-elements-for-R4-TestReport"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-TestReport-elements-for-R4-TestReport>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5TestReportElementsForR4TestReport"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:34.7002525-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/TestReport>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "TestReport" ] ;
+       fhir:display [ fhir:v "TestReport" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `TestReport` is representable via FHIR R4B Resource `TestReport`.\nElement `TestReport` is mapped to FHIR R4B element `TestReport`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `TestReport` is representable via FHIR DSTU2 Resource `Basic`.\nElement `TestReport` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.meta` is mapped to FHIR R4B element `TestReport.meta`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `TestReport.meta` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.implicitRules` is mapped to FHIR R4B element `TestReport.implicitRules`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `TestReport.implicitRules` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.language` is mapped to FHIR R4B element `TestReport.language`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.language`, use that element instead.\nElement `TestReport.language` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.text` is mapped to FHIR R4B element `TestReport.text`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `TestReport.text` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.contained` is mapped to FHIR R4B element `TestReport.contained`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `TestReport.contained` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.identifier` is mapped to FHIR R4B element `TestReport.identifier`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `TestReport.identifier` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.name` is mapped to FHIR R4B element `TestReport.name`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.name` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.status` is mapped to FHIR R4B element `TestReport.status`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.status` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.testScript" ] ;
+       fhir:display [ fhir:v "testScript" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.testScript" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.testScript` is mapped to FHIR R4B element `TestReport.testScript`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:testScript" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.testScript` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.result" ] ;
+       fhir:display [ fhir:v "result" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.result" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.result` is mapped to FHIR R4B element `TestReport.result`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:result" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.result` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.score" ] ;
+       fhir:display [ fhir:v "score" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.score" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.score` is mapped to FHIR R4B element `TestReport.score`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:score" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.score` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.tester" ] ;
+       fhir:display [ fhir:v "tester" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.tester" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.tester` is mapped to FHIR R4B element `TestReport.tester`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:tester" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.tester` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.issued" ] ;
+       fhir:display [ fhir:v "issued" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.issued" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.issued` is mapped to FHIR R4B element `TestReport.issued`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:issued" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.issued` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.participant" ] ;
+       fhir:display [ fhir:v "participant" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.participant" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.participant` is mapped to FHIR R4B element `TestReport.participant`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:participant" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.participant` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.participant.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.participant.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.participant.type` is mapped to FHIR R4B element `TestReport.participant.type`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:participant:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.participant.type` is part of an existing definition because parent element `TestReport.participant` requires a cross-version extension.\nElement `TestReport.participant.type` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.participant.uri" ] ;
+       fhir:display [ fhir:v "uri" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.participant.uri" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.participant.uri` is mapped to FHIR R4B element `TestReport.participant.uri`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:participant:uri" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.participant.uri` is part of an existing definition because parent element `TestReport.participant` requires a cross-version extension.\nElement `TestReport.participant.uri` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.participant.display" ] ;
+       fhir:display [ fhir:v "display" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.participant.display" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.participant.display` is mapped to FHIR R4B element `TestReport.participant.display`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:participant:display" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.participant.display` is part of an existing definition because parent element `TestReport.participant` requires a cross-version extension.\nElement `TestReport.participant.display` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.setup" ] ;
+       fhir:display [ fhir:v "setup" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.setup` is mapped to FHIR R4B element `TestReport.setup`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:setup" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.setup` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.setup.action" ] ;
+       fhir:display [ fhir:v "action" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.setup.action` is mapped to FHIR R4B element `TestReport.setup.action`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:setup:action" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.setup.action` is part of an existing definition because parent element `TestReport.setup` requires a cross-version extension.\nElement `TestReport.setup.action` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.setup.action.operation" ] ;
+       fhir:display [ fhir:v "operation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action.operation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.setup.action.operation` is mapped to FHIR R4B element `TestReport.setup.action.operation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:setup:action:operation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.setup.action.operation` is part of an existing definition because parent element `TestReport.setup.action` requires a cross-version extension.\nElement `TestReport.setup.action.operation` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.setup.action.operation.result" ] ;
+       fhir:display [ fhir:v "result" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action.operation.result" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.setup.action.operation.result` is part of an existing definition because parent element `TestReport.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.operation.result` is mapped to FHIR R4B element `TestReport.setup.action.operation.result`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:setup:action:operation:result" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.setup.action.operation.result` is part of an existing definition because parent element `TestReport.setup.action.operation` requires a cross-version extension.\nElement `TestReport.setup.action.operation.result` is part of an existing definition because parent element `TestReport.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.operation.result` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.setup.action.operation.message" ] ;
+       fhir:display [ fhir:v "message" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action.operation.message" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.setup.action.operation.message` is part of an existing definition because parent element `TestReport.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.operation.message` is mapped to FHIR R4B element `TestReport.setup.action.operation.message`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:setup:action:operation:message" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.setup.action.operation.message` is part of an existing definition because parent element `TestReport.setup.action.operation` requires a cross-version extension.\nElement `TestReport.setup.action.operation.message` is part of an existing definition because parent element `TestReport.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.operation.message` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.setup.action.operation.detail" ] ;
+       fhir:display [ fhir:v "detail" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action.operation.detail" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.setup.action.operation.detail` is part of an existing definition because parent element `TestReport.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.operation.detail` is mapped to FHIR R4B element `TestReport.setup.action.operation.detail`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:setup:action:operation:detail" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.setup.action.operation.detail` is part of an existing definition because parent element `TestReport.setup.action.operation` requires a cross-version extension.\nElement `TestReport.setup.action.operation.detail` is part of an existing definition because parent element `TestReport.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.operation.detail` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.setup.action.assert" ] ;
+       fhir:display [ fhir:v "assert" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action.assert" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.setup.action.assert` is mapped to FHIR R4B element `TestReport.setup.action.assert`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:setup:action:assert" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.setup.action.assert` is part of an existing definition because parent element `TestReport.setup.action` requires a cross-version extension.\nElement `TestReport.setup.action.assert` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.setup.action.assert.result" ] ;
+       fhir:display [ fhir:v "result" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action.assert.result" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.setup.action.assert.result` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.result` is mapped to FHIR R4B element `TestReport.setup.action.assert.result`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:setup:action:assert:result" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.setup.action.assert.result` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a cross-version extension.\nElement `TestReport.setup.action.assert.result` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.result` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.setup.action.assert.message" ] ;
+       fhir:display [ fhir:v "message" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action.assert.message" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.setup.action.assert.message` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.message` is mapped to FHIR R4B element `TestReport.setup.action.assert.message`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:setup:action:assert:message" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.setup.action.assert.message` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a cross-version extension.\nElement `TestReport.setup.action.assert.message` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.message` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.setup.action.assert.detail" ] ;
+       fhir:display [ fhir:v "detail" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action.assert.detail" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.setup.action.assert.detail` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.detail` is mapped to FHIR R4B element `TestReport.setup.action.assert.detail`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:setup:action:assert:detail" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.setup.action.assert.detail` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a cross-version extension.\nElement `TestReport.setup.action.assert.detail` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.detail` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.setup.action.assert.requirement" ] ;
+       fhir:display [ fhir:v "requirement" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport.setup.action.assert.requirement" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.setup.action.assert.requirement` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.requirement` is mapped to FHIR R4B structure `TestReport`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:setup:action:assert:requirement" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.setup.action.assert.requirement` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a cross-version extension.\nElement `TestReport.setup.action.assert.requirement` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.requirement` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.setup.action.assert.requirement.link[x]" ] ;
+       fhir:display [ fhir:v "link[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport.setup.action.assert.requirement:link" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.setup.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestReport.setup.action.assert.requirement` requires a cross-version extension.\nElement `TestReport.setup.action.assert.requirement.link[x]` is mapped to FHIR R4B structure `TestReport`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:setup:action:assert:requirement:link" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.setup.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestReport.setup.action.assert.requirement` requires a cross-version extension.\nElement `TestReport.setup.action.assert.requirement.link[x]` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.test" ] ;
+       fhir:display [ fhir:v "test" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test` is mapped to FHIR R4B element `TestReport.test`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.test.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test.name` is mapped to FHIR R4B element `TestReport.test.name`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test:name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test.name` is part of an existing definition because parent element `TestReport.test` requires a cross-version extension.\nElement `TestReport.test.name` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.test.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test.description` is mapped to FHIR R4B element `TestReport.test.description`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test:description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test.description` is part of an existing definition because parent element `TestReport.test` requires a cross-version extension.\nElement `TestReport.test.description` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.test.action" ] ;
+       fhir:display [ fhir:v "action" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test.action` is mapped to FHIR R4B element `TestReport.test.action`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test:action" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test.action` is part of an existing definition because parent element `TestReport.test` requires a cross-version extension.\nElement `TestReport.test.action` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.test.action.operation" ] ;
+       fhir:display [ fhir:v "operation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action.operation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test.action.operation` is mapped to FHIR R4B element `TestReport.test.action.operation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test:action:operation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test.action.operation` is part of an existing definition because parent element `TestReport.test.action` requires a cross-version extension.\nElement `TestReport.test.action.operation` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.test.action.operation.result" ] ;
+       fhir:display [ fhir:v "result" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action.operation.result" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test.action.operation.result` is mapped to FHIR R4B element `TestReport.test.action.operation.result`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test:action:operation:result" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test.action.operation.result` is part of an existing definition because parent element `TestReport.test.action.operation` requires a cross-version extension.\nElement `TestReport.test.action.operation.result` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.test.action.operation.message" ] ;
+       fhir:display [ fhir:v "message" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action.operation.message" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test.action.operation.message` is mapped to FHIR R4B element `TestReport.test.action.operation.message`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test:action:operation:message" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test.action.operation.message` is part of an existing definition because parent element `TestReport.test.action.operation` requires a cross-version extension.\nElement `TestReport.test.action.operation.message` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.test.action.operation.detail" ] ;
+       fhir:display [ fhir:v "detail" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action.operation.detail" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test.action.operation.detail` is mapped to FHIR R4B element `TestReport.test.action.operation.detail`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test:action:operation:detail" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test.action.operation.detail` is part of an existing definition because parent element `TestReport.test.action.operation` requires a cross-version extension.\nElement `TestReport.test.action.operation.detail` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.test.action.assert" ] ;
+       fhir:display [ fhir:v "assert" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action.assert" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test.action.assert` is mapped to FHIR R4B element `TestReport.test.action.assert`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test:action:assert" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test.action.assert` is part of an existing definition because parent element `TestReport.test.action` requires a cross-version extension.\nElement `TestReport.test.action.assert` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.test.action.assert.result" ] ;
+       fhir:display [ fhir:v "result" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action.assert.result" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test.action.assert.result` is mapped to FHIR R4B element `TestReport.test.action.assert.result`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test:action:assert:result" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test.action.assert.result` is part of an existing definition because parent element `TestReport.test.action.assert` requires a cross-version extension.\nElement `TestReport.test.action.assert.result` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.test.action.assert.message" ] ;
+       fhir:display [ fhir:v "message" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action.assert.message" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test.action.assert.message` is mapped to FHIR R4B element `TestReport.test.action.assert.message`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test:action:assert:message" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test.action.assert.message` is part of an existing definition because parent element `TestReport.test.action.assert` requires a cross-version extension.\nElement `TestReport.test.action.assert.message` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.teardown" ] ;
+       fhir:display [ fhir:v "teardown" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.teardown" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.teardown` is mapped to FHIR R4B element `TestReport.teardown`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:teardown" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.teardown` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.test.action.assert.detail" ] ;
+       fhir:display [ fhir:v "detail" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action.assert.detail" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test.action.assert.detail` is mapped to FHIR R4B element `TestReport.test.action.assert.detail`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test:action:assert:detail" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test.action.assert.detail` is part of an existing definition because parent element `TestReport.test.action.assert` requires a cross-version extension.\nElement `TestReport.test.action.assert.detail` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.test.action.assert.requirement" ] ;
+       fhir:display [ fhir:v "requirement" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "requirement" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test.action.assert.requirement` is mapped to FHIR R4B structure `TestReport`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test:action:assert:requirement" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test.action.assert.requirement` is part of an existing definition because parent element `TestReport.test.action.assert` requires a cross-version extension.\nElement `TestReport.test.action.assert.requirement` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.teardown.action" ] ;
+       fhir:display [ fhir:v "action" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.teardown.action" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.teardown.action` is mapped to FHIR R4B element `TestReport.teardown.action`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:teardown:action" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.teardown.action` is part of an existing definition because parent element `TestReport.teardown` requires a cross-version extension.\nElement `TestReport.teardown.action` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.test.action.assert.requirement.link[x]" ] ;
+       fhir:display [ fhir:v "link[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "requirement:link" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestReport.test.action.assert.requirement` requires a cross-version extension.\nElement `TestReport.test.action.assert.requirement.link[x]` is mapped to FHIR R4B structure `TestReport`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:test:action:assert:requirement:link" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.test.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestReport.test.action.assert.requirement` requires a cross-version extension.\nElement `TestReport.test.action.assert.requirement.link[x]` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.teardown.action.operation" ] ;
+       fhir:display [ fhir:v "operation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.teardown.action.operation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.teardown.action.operation` is mapped to FHIR R4B element `TestReport.teardown.action.operation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:teardown:action:operation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.teardown.action.operation` is part of an existing definition because parent element `TestReport.teardown.action` requires a cross-version extension.\nElement `TestReport.teardown.action.operation` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.teardown.action.operation.result" ] ;
+       fhir:display [ fhir:v "result" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.teardown.action.operation.result" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.teardown.action.operation.result` is mapped to FHIR R4B element `TestReport.teardown.action.operation.result`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:teardown:action:operation:result" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.teardown.action.operation.result` is part of an existing definition because parent element `TestReport.teardown.action.operation` requires a cross-version extension.\nElement `TestReport.teardown.action.operation.result` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.teardown.action.operation.message" ] ;
+       fhir:display [ fhir:v "message" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.teardown.action.operation.message" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.teardown.action.operation.message` is mapped to FHIR R4B element `TestReport.teardown.action.operation.message`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:teardown:action:operation:message" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.teardown.action.operation.message` is part of an existing definition because parent element `TestReport.teardown.action.operation` requires a cross-version extension.\nElement `TestReport.teardown.action.operation.message` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "TestReport.teardown.action.operation.detail" ] ;
+       fhir:display [ fhir:v "detail" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.teardown.action.operation.detail" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.teardown.action.operation.detail` is mapped to FHIR R4B element `TestReport.teardown.action.operation.detail`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport:teardown:action:operation:detail" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `TestReport.teardown.action.operation.detail` is part of an existing definition because parent element `TestReport.teardown.action.operation` requires a cross-version extension.\nElement `TestReport.teardown.action.operation.detail` is not mapped to FHIR DSTU2, since FHIR R5 `TestReport` is not mapped." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

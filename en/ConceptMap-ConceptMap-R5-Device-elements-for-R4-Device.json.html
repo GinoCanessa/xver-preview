@@ -1,0 +1,1233 @@
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>ConceptMapR5DeviceElementsForR4Device - JSON Representation - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"7.2149"}
+    h3,h4,h5,h6{--heading-prefix:"7.2149"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" data-no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img alt="International flag" src="../assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ConceptMapR5DeviceElementsForR4Device</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="ConceptMap-ConceptMap-R5-Device-elements-for-R4-Device.xml.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="ConceptMap-ConceptMap-R5-Device-elements-for-R4-Device.ttl.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<!-- layouts\layout-instance-format -->
+<div style="counter-reset: section 8" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="ConceptMap-ConceptMap-R5-Device-elements-for-R4-Device.html">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ConceptMap-ConceptMap-R5-Device-elements-for-R4-Device.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ConceptMap-ConceptMap-R5-Device-elements-for-R4-Device.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+
+<h2 id="root">: ConceptMapR5DeviceElementsForR4Device</h2>
+
+  <table class="colsd" data-fhir="generated">
+    <tr>
+
+      <td colspan="1">
+        
+          <i>Page standards status:</i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standards Status">Trial-use</a>
+          
+        
+      </td>
+
+      <td>
+        <a href="http://hl7.org/fhir/versions.html#maturity">Maturity Level</a>: 0
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p><a href="ConceptMap-ConceptMap-R5-Device-elements-for-R4-Device.json" no-download="true">Raw json</a> | <a href="ConceptMap-ConceptMap-R5-Device-elements-for-R4-Device.json" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="json" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code style="white-space: pre; text-wrap: nowrap;">{
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap">resourceType</a>" : "ConceptMap",
+  "<a href="http://hl7.org/fhir/R4/resource.html#ConceptMap.id">id</a>" : "ConceptMap-R5-Device-elements-for-R4-Device",
+  "<a href="http://hl7.org/fhir/R4/resource.html#ConceptMap.language">language</a>" : "en",
+  "<a href="http://hl7.org/fhir/R4/domainresource.html#ConceptMap.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: ConceptMap ConceptMap-R5-Device-elements-for-R4-Device&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;ConceptMap-R5-Device-elements-for-R4-Device\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcConceptMap-R5-Device-elements-for-R4-Device\&quot;&gt; &lt;/a&gt;&lt;p&gt;Mapping from (not specified) to (not specified)&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b&gt;Group 1 &lt;/b&gt;Mapping from &lt;code&gt;http://hl7.org/fhir/StructureDefinition/Device|5.0.0&lt;/code&gt; to &lt;code&gt;unspecified code system&lt;/code&gt;&lt;/p&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td colspan=\&quot;2\&quot;&gt;&lt;b&gt;Source Concept Details&lt;/b&gt;&lt;/td&gt;&lt;td colspan=\&quot;2\&quot;&gt;&lt;b&gt;Target Concept Details&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Comment&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan=\&quot;2\&quot;&gt;&lt;b&gt;Codes&lt;/b&gt; from http://hl7.org/fhir/StructureDefinition/Device|5.0.0&lt;/td&gt;&lt;td colspan=\&quot;2\&quot;&gt;&lt;b&gt;Codes&lt;/b&gt; from &lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;Device&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;Device&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;FHIR R5 Resource `Device` is representable via FHIR R4B Resource `Device`.\nElement `Device` is mapped to FHIR R4B element `Device`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;Device.meta&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;meta&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.meta&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.meta` is mapped to FHIR R4B element `Device.meta`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;Device.implicitRules&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;implicitRules&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.implicitRules&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.implicitRules` is mapped to FHIR R4B element `Device.implicitRules`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;Device.language&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;language&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.language&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.language` is mapped to FHIR R4B element `Device.language`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;Device.text&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;text&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.text&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.text` is mapped to FHIR R4B element `Device.text`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;Device.contained&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;contained&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.contained&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.contained` is mapped to FHIR R4B element `Device.contained`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;Device.identifier&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;identifier&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.identifier&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.identifier` is mapped to FHIR R4B element `Device.identifier`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.displayName&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;displayName&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.deviceName&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.displayName` is mapped to FHIR R4B element `Device.deviceName`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.udi&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.displayName` is mapped to FHIR STU3 element `Device.udi`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.definition&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;definition&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.definition&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.definition` is mapped to FHIR R4B element `Device.definition`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.definition&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.definition` is mapped to FHIR STU3 structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.udiCarrier&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;udiCarrier&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.udiCarrier` is mapped to FHIR R4B element `Device.udiCarrier`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.udi&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.udiCarrier` is mapped to FHIR STU3 element `Device.udi`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.udiCarrier.deviceIdentifier&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;deviceIdentifier&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier.deviceIdentifier&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.udiCarrier.deviceIdentifier` is mapped to FHIR R4B element `Device.udiCarrier.deviceIdentifier`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none; border-bottom-style: none\&quot;/&gt;&lt;td style=\&quot;border-left-width: 0px; border-top-style: none; border-bottom-style: none\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.udi.deviceIdentifier&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.udiCarrier.deviceIdentifier` is mapped to FHIR STU3 element `Device.udi.deviceIdentifier`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;deviceIdentifier&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.udiCarrier.deviceIdentifier` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.udiCarrier.issuer&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;issuer&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier.issuer&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.udiCarrier.issuer` is mapped to FHIR R4B element `Device.udiCarrier.issuer`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none; border-bottom-style: none\&quot;/&gt;&lt;td style=\&quot;border-left-width: 0px; border-top-style: none; border-bottom-style: none\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.udi.issuer&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.udiCarrier.issuer` is mapped to FHIR STU3 element `Device.udi.issuer`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;issuer&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.udiCarrier.issuer` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.udiCarrier.jurisdiction&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;jurisdiction&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier.jurisdiction&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.udiCarrier.jurisdiction` is mapped to FHIR R4B element `Device.udiCarrier.jurisdiction`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none; border-bottom-style: none\&quot;/&gt;&lt;td style=\&quot;border-left-width: 0px; border-top-style: none; border-bottom-style: none\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.udi.jurisdiction&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.udiCarrier.jurisdiction` is mapped to FHIR STU3 element `Device.udi.jurisdiction`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;jurisdiction&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.udiCarrier.jurisdiction` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.udiCarrier.carrierAIDC&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;carrierAIDC&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier.carrierAIDC&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.udiCarrier.carrierAIDC` is mapped to FHIR R4B element `Device.udiCarrier.carrierAIDC`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none; border-bottom-style: none\&quot;/&gt;&lt;td style=\&quot;border-left-width: 0px; border-top-style: none; border-bottom-style: none\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.udi.carrierAIDC&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.udiCarrier.carrierAIDC` is mapped to FHIR STU3 element `Device.udi.carrierAIDC`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;carrierAIDC&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.udiCarrier.carrierAIDC` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.udiCarrier.carrierHRF&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;carrierHRF&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier.carrierHRF&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.udiCarrier.carrierHRF` is mapped to FHIR R4B element `Device.udiCarrier.carrierHRF`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none; border-bottom-style: none\&quot;/&gt;&lt;td style=\&quot;border-left-width: 0px; border-top-style: none; border-bottom-style: none\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.udi.carrierHRF&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.udiCarrier.carrierHRF` is mapped to FHIR STU3 element `Device.udi.carrierHRF`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;carrierHRF&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.udiCarrier.carrierHRF` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.udiCarrier.entryType&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;entryType&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier.entryType&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.udiCarrier.entryType` is mapped to FHIR R4B element `Device.udiCarrier.entryType`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none; border-bottom-style: none\&quot;/&gt;&lt;td style=\&quot;border-left-width: 0px; border-top-style: none; border-bottom-style: none\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.udi.entryType&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.udiCarrier.entryType` is mapped to FHIR STU3 element `Device.udi.entryType`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;entryType&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.udiCarrier.entryType` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;Device.status&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;status&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.status&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.status` is mapped to FHIR R4B element `Device.status`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;Device.availabilityStatus&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;availabilityStatus&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.availabilityStatus&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.availabilityStatus` is mapped to FHIR R4B structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;Device.biologicalSourceEvent&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;biologicalSourceEvent&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.biologicalSourceEvent&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.biologicalSourceEvent` is mapped to FHIR R4B structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;Device.manufacturer&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;manufacturer&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.manufacturer&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.manufacturer` is mapped to FHIR R4B element `Device.manufacturer`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;Device.manufactureDate&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;manufactureDate&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.manufactureDate&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.manufactureDate` is mapped to FHIR R4B element `Device.manufactureDate`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.expirationDate&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;expirationDate&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.expirationDate&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.expirationDate` is mapped to FHIR R4B element `Device.expirationDate`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.expiry&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.expirationDate` is mapped to FHIR DSTU2 element `Device.expiry`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;Device.lotNumber&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;lotNumber&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.lotNumber&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.lotNumber` is mapped to FHIR R4B element `Device.lotNumber`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.serialNumber&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;serialNumber&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.serialNumber&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.serialNumber` is mapped to FHIR R4B element `Device.serialNumber`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.serialNumber&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.serialNumber` is mapped to FHIR STU3 structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.name&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;name&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.deviceName&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.name` is mapped to FHIR R4B element `Device.deviceName`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.udi&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.name` is mapped to FHIR STU3 element `Device.udi`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.name.value&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;value&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.deviceName&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.name.value` is mapped to FHIR R4B element `Device.deviceName`.\nElement `Device.name.value` is mapped to FHIR R4B element `Device.deviceName.name`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none; border-bottom-style: none\&quot;/&gt;&lt;td style=\&quot;border-left-width: 0px; border-top-style: none; border-bottom-style: none\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.deviceName.name&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.name.value` is mapped to FHIR R4B element `Device.deviceName`.\nElement `Device.name.value` is mapped to FHIR R4B element `Device.deviceName.name`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.udi&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.name.value` is mapped to FHIR STU3 element `Device.udi`.\nElement `Device.name.value` is mapped to FHIR STU3 structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.name.type&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;type&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.deviceName.type&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.name.type` is mapped to FHIR R4B element `Device.deviceName.type`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none; border-bottom-style: none\&quot;/&gt;&lt;td style=\&quot;border-left-width: 0px; border-top-style: none; border-bottom-style: none\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;type&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.name.type` is mapped to FHIR STU3 structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.name.type&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.name.type` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.name.display&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;display&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.deviceName&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.name.display` is mapped to FHIR R4B element `Device.deviceName`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.udi&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.name.display` is mapped to FHIR STU3 element `Device.udi`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.modelNumber&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;modelNumber&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.modelNumber&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.modelNumber` is mapped to FHIR R4B element `Device.modelNumber`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.model&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.modelNumber` is mapped to FHIR STU3 element `Device.model`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.partNumber&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;partNumber&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.partNumber&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.partNumber` is mapped to FHIR R4B element `Device.partNumber`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.partNumber&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.partNumber` is mapped to FHIR STU3 structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;Device.category&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;category&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.category&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.category` is mapped to FHIR R4B structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;Device.type&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;type&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.type&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.type` is mapped to FHIR R4B element `Device.type`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;Device.version&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;version&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.version&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.version` is mapped to FHIR R4B element `Device.version`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.version.type&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;type&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.version.type&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.version.type` is mapped to FHIR R4B element `Device.version.type`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;type&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.version.type` is mapped to FHIR STU3 structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.version.component&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;component&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.version.component&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.version.component` is mapped to FHIR R4B element `Device.version.component`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;component&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.version.component` is mapped to FHIR STU3 structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.version.installDate&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;installDate&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.version.installDate&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.version.installDate` is mapped to FHIR R4B structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;installDate&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.version.installDate` is mapped to FHIR STU3 structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.version.value&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;value&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.version.value&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.version.value` is mapped to FHIR R4B element `Device.version.value`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;value&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.version.value` is mapped to FHIR STU3 structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.conformsTo&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;conformsTo&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.specialization&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.conformsTo` is mapped to FHIR R4B element `Device.specialization`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.conformsTo&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.conformsTo` is mapped to FHIR STU3 structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.conformsTo.category&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;category&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.specialization&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.conformsTo.category` is mapped to FHIR R4B element `Device.specialization`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.conformsTo:category&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.conformsTo.category` is part of an existing definition because parent element `Device.conformsTo` requires a cross-version extension.\nElement `Device.conformsTo.category` is mapped to FHIR STU3 structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.conformsTo.specification&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;specification&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.specialization&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.conformsTo.specification` is mapped to FHIR R4B element `Device.specialization`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.conformsTo:specification&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.conformsTo.specification` is part of an existing definition because parent element `Device.conformsTo` requires a cross-version extension.\nElement `Device.conformsTo.specification` is mapped to FHIR STU3 structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.conformsTo.version&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;version&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.conformsTo.version&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.conformsTo.version` is mapped to FHIR R4B structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.conformsTo:version&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.conformsTo.version` is part of an existing definition because parent element `Device.conformsTo` requires a cross-version extension.\nElement `Device.conformsTo.version` is mapped to FHIR STU3 structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.property&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;property&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.property&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.property` is mapped to FHIR R4B element `Device.property`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.property&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.property` is mapped to FHIR STU3 structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.property.type&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;type&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.property.type&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.property.type` is mapped to FHIR R4B element `Device.property.type`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.property:type&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.property.type` is part of an existing definition because parent element `Device.property` requires a cross-version extension.\nElement `Device.property.type` is mapped to FHIR STU3 structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.property.value[x]&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;value[x]&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.property.valueCode&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.property.value[x]` is mapped to FHIR R4B element `Device.property.valueQuantity`.\nElement `Device.property.value[x]` is mapped to FHIR R4B element `Device.property.valueCode`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none; border-bottom-style: none\&quot;/&gt;&lt;td style=\&quot;border-left-width: 0px; border-top-style: none; border-bottom-style: none\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.property.valueQuantity&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.property.value[x]` is mapped to FHIR R4B element `Device.property.valueQuantity`.\nElement `Device.property.value[x]` is mapped to FHIR R4B element `Device.property.valueCode`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.property:value&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.property.value[x]` is part of an existing definition because parent element `Device.property` requires a cross-version extension.\nElement `Device.property.value[x]` is mapped to FHIR STU3 structure `Device`, but has no target element specified.\nElement `Device.property.value[x]` is mapped to FHIR STU3 structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;Device.mode&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;mode&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.mode&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.mode` is mapped to FHIR R4B structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;Device.cycle&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;cycle&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.cycle&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.cycle` is mapped to FHIR R4B structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;Device.duration&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;duration&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.duration&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.duration` is mapped to FHIR R4B structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;Device.owner&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;owner&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.owner&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.owner` is mapped to FHIR R4B element `Device.owner`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;Device.contact&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;contact&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.contact&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.contact` is mapped to FHIR R4B element `Device.contact`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;Device.location&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;location&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.location&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.location` is mapped to FHIR R4B element `Device.location`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;Device.url&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;url&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.url&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.url` is mapped to FHIR R4B element `Device.url`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;Device.endpoint&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;endpoint&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.endpoint&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.endpoint` is mapped to FHIR R4B structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;Device.gateway&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;gateway&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.gateway&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.gateway` is mapped to FHIR R4B structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;Device.note&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;&gt;note&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.note&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.note` is mapped to FHIR R4B element `Device.note`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.safety&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;safety&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.safety&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.safety` is mapped to FHIR R4B element `Device.safety`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.safety&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.safety` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-bottom-style: none\&quot;&gt;Device.parent&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px; border-bottom-style: none\&quot;&gt;parent&lt;/td&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/StructureDefinition/Device#Device.parent&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.parent` is mapped to FHIR R4B element `Device.parent`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;border-right-width: 0px; border-top-style: none\&quot;/&gt;&lt;td style=\&quot;border-top-style: none; border-left-width: 0px\&quot;/&gt;&lt;td style=\&quot;border-right-width: 0px\&quot;&gt;http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.parent&lt;/td&gt;&lt;td style=\&quot;border-left-width: 0px\&quot;/&gt;&lt;td&gt;Element `Device.parent` is mapped to FHIR STU3 structure `Device`, but has no target element specified.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+  },
+  "<a href="http://hl7.org/fhir/R4/domainresource.html#ConceptMap.extension">extension</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a>" : "fhir"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueInteger</a>" : 0,
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">_valueInteger</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#integer.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCanonical</a>" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCode</a>" : "trial-use",
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">_valueCode</a>" : {
+        "<a href="http://hl7.org/fhir/R4/datatypes.html#Element#code.extension">extension</a>" : [
+          {
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valueCanonical</a>" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.url">url</a>" : "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Device-elements-for-R4-Device",
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.version">version</a>" : "0.0.1-snapshot-3",
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.name">name</a>" : "ConceptMapR5DeviceElementsForR4Device",
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.title">title</a>" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.status">status</a>" : "active",
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.experimental">experimental</a>" : false,
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.date">date</a>" : "2026-02-06T13:17:32.0737623-06:00",
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.contact">contact</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "FHIR Infrastructure",
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "http://www.hl7.org/Special/committees/fiwg"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.description">description</a>" : "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4.",
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.jurisdiction">jurisdiction</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "001",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "World"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group">group</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.source">source</a>" : "http://hl7.org/fhir/StructureDefinition/Device",
+      "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.sourceVersion">sourceVersion</a>" : "5.0.0",
+      "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "Device",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "FHIR R5 Resource `Device` is representable via FHIR R4B Resource `Device`.\nElement `Device` is mapped to FHIR R4B element `Device`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.meta",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "meta",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.meta",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.meta` is mapped to FHIR R4B element `Device.meta`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.implicitRules",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "implicitRules",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.implicitRules",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.implicitRules` is mapped to FHIR R4B element `Device.implicitRules`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.language",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "language",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.language",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.language` is mapped to FHIR R4B element `Device.language`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.text",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "text",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.text",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.text` is mapped to FHIR R4B element `Device.text`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.contained",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "contained",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.contained",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.contained` is mapped to FHIR R4B element `Device.contained`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.identifier",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "identifier",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.identifier",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.identifier` is mapped to FHIR R4B element `Device.identifier`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.displayName",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "displayName",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.deviceName",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.displayName` is mapped to FHIR R4B element `Device.deviceName`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.udi",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.displayName` is mapped to FHIR STU3 element `Device.udi`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.definition",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "definition",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.definition",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.definition` is mapped to FHIR R4B element `Device.definition`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.definition",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.definition` is mapped to FHIR STU3 structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.udiCarrier",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "udiCarrier",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.udiCarrier` is mapped to FHIR R4B element `Device.udiCarrier`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.udi",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.udiCarrier` is mapped to FHIR STU3 element `Device.udi`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.udiCarrier.deviceIdentifier",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "deviceIdentifier",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier.deviceIdentifier",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.udiCarrier.deviceIdentifier` is mapped to FHIR R4B element `Device.udiCarrier.deviceIdentifier`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.udi.deviceIdentifier",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.udiCarrier.deviceIdentifier` is mapped to FHIR STU3 element `Device.udi.deviceIdentifier`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "deviceIdentifier",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.udiCarrier.deviceIdentifier` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.udiCarrier.issuer",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "issuer",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier.issuer",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.udiCarrier.issuer` is mapped to FHIR R4B element `Device.udiCarrier.issuer`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.udi.issuer",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.udiCarrier.issuer` is mapped to FHIR STU3 element `Device.udi.issuer`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "issuer",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.udiCarrier.issuer` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.udiCarrier.jurisdiction",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "jurisdiction",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier.jurisdiction",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.udiCarrier.jurisdiction` is mapped to FHIR R4B element `Device.udiCarrier.jurisdiction`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.udi.jurisdiction",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.udiCarrier.jurisdiction` is mapped to FHIR STU3 element `Device.udi.jurisdiction`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "jurisdiction",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.udiCarrier.jurisdiction` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.udiCarrier.carrierAIDC",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "carrierAIDC",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier.carrierAIDC",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.udiCarrier.carrierAIDC` is mapped to FHIR R4B element `Device.udiCarrier.carrierAIDC`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.udi.carrierAIDC",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.udiCarrier.carrierAIDC` is mapped to FHIR STU3 element `Device.udi.carrierAIDC`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "carrierAIDC",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.udiCarrier.carrierAIDC` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.udiCarrier.carrierHRF",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "carrierHRF",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier.carrierHRF",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.udiCarrier.carrierHRF` is mapped to FHIR R4B element `Device.udiCarrier.carrierHRF`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.udi.carrierHRF",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.udiCarrier.carrierHRF` is mapped to FHIR STU3 element `Device.udi.carrierHRF`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "carrierHRF",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.udiCarrier.carrierHRF` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.udiCarrier.entryType",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "entryType",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier.entryType",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.udiCarrier.entryType` is mapped to FHIR R4B element `Device.udiCarrier.entryType`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.udi.entryType",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.udiCarrier.entryType` is mapped to FHIR STU3 element `Device.udi.entryType`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "entryType",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.udiCarrier.entryType` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.status",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.status",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.status` is mapped to FHIR R4B element `Device.status`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.availabilityStatus",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "availabilityStatus",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.availabilityStatus",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.availabilityStatus` is mapped to FHIR R4B structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.biologicalSourceEvent",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "biologicalSourceEvent",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.biologicalSourceEvent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.biologicalSourceEvent` is mapped to FHIR R4B structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.manufacturer",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "manufacturer",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.manufacturer",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.manufacturer` is mapped to FHIR R4B element `Device.manufacturer`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.manufactureDate",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "manufactureDate",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.manufactureDate",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.manufactureDate` is mapped to FHIR R4B element `Device.manufactureDate`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.expirationDate",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "expirationDate",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.expirationDate",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.expirationDate` is mapped to FHIR R4B element `Device.expirationDate`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.expiry",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.expirationDate` is mapped to FHIR DSTU2 element `Device.expiry`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.lotNumber",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "lotNumber",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.lotNumber",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.lotNumber` is mapped to FHIR R4B element `Device.lotNumber`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.serialNumber",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "serialNumber",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.serialNumber",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.serialNumber` is mapped to FHIR R4B element `Device.serialNumber`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.serialNumber",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.serialNumber` is mapped to FHIR STU3 structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.name",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "name",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.deviceName",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.name` is mapped to FHIR R4B element `Device.deviceName`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.udi",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.name` is mapped to FHIR STU3 element `Device.udi`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.name.value",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "value",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.deviceName",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.name.value` is mapped to FHIR R4B element `Device.deviceName`.\nElement `Device.name.value` is mapped to FHIR R4B element `Device.deviceName.name`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.deviceName.name",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.name.value` is mapped to FHIR R4B element `Device.deviceName`.\nElement `Device.name.value` is mapped to FHIR R4B element `Device.deviceName.name`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.udi",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.name.value` is mapped to FHIR STU3 element `Device.udi`.\nElement `Device.name.value` is mapped to FHIR STU3 structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.name.type",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "type",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.deviceName.type",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.name.type` is mapped to FHIR R4B element `Device.deviceName.type`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "type",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.name.type` is mapped to FHIR STU3 structure `Device`, but has no target element specified."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.name.type",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.name.type` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.name.display",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "display",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.deviceName",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.name.display` is mapped to FHIR R4B element `Device.deviceName`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.udi",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.name.display` is mapped to FHIR STU3 element `Device.udi`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.modelNumber",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "modelNumber",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.modelNumber",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.modelNumber` is mapped to FHIR R4B element `Device.modelNumber`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.model",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.modelNumber` is mapped to FHIR STU3 element `Device.model`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.partNumber",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "partNumber",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.partNumber",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.partNumber` is mapped to FHIR R4B element `Device.partNumber`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.partNumber",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.partNumber` is mapped to FHIR STU3 structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.category",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "category",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.category",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.category` is mapped to FHIR R4B structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.type",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "type",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.type",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.type` is mapped to FHIR R4B element `Device.type`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.version",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "version",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.version",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.version` is mapped to FHIR R4B element `Device.version`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.version.type",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "type",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.version.type",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.version.type` is mapped to FHIR R4B element `Device.version.type`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "type",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.version.type` is mapped to FHIR STU3 structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.version.component",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "component",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.version.component",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.version.component` is mapped to FHIR R4B element `Device.version.component`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "component",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.version.component` is mapped to FHIR STU3 structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.version.installDate",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "installDate",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.version.installDate",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.version.installDate` is mapped to FHIR R4B structure `Device`, but has no target element specified."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "installDate",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.version.installDate` is mapped to FHIR STU3 structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.version.value",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "value",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.version.value",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.version.value` is mapped to FHIR R4B element `Device.version.value`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "value",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.version.value` is mapped to FHIR STU3 structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.conformsTo",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "conformsTo",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.specialization",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.conformsTo` is mapped to FHIR R4B element `Device.specialization`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.conformsTo",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.conformsTo` is mapped to FHIR STU3 structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.conformsTo.category",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "category",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.specialization",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.conformsTo.category` is mapped to FHIR R4B element `Device.specialization`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.conformsTo:category",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.conformsTo.category` is part of an existing definition because parent element `Device.conformsTo` requires a cross-version extension.\nElement `Device.conformsTo.category` is mapped to FHIR STU3 structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.conformsTo.specification",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "specification",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.specialization",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.conformsTo.specification` is mapped to FHIR R4B element `Device.specialization`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.conformsTo:specification",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.conformsTo.specification` is part of an existing definition because parent element `Device.conformsTo` requires a cross-version extension.\nElement `Device.conformsTo.specification` is mapped to FHIR STU3 structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.conformsTo.version",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "version",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.conformsTo.version",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.conformsTo.version` is mapped to FHIR R4B structure `Device`, but has no target element specified."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.conformsTo:version",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.conformsTo.version` is part of an existing definition because parent element `Device.conformsTo` requires a cross-version extension.\nElement `Device.conformsTo.version` is mapped to FHIR STU3 structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.property",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "property",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.property",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.property` is mapped to FHIR R4B element `Device.property`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.property",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.property` is mapped to FHIR STU3 structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.property.type",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "type",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.property.type",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.property.type` is mapped to FHIR R4B element `Device.property.type`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.property:type",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.property.type` is part of an existing definition because parent element `Device.property` requires a cross-version extension.\nElement `Device.property.type` is mapped to FHIR STU3 structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.property.value[x]",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "value[x]",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.property.valueCode",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.property.value[x]` is mapped to FHIR R4B element `Device.property.valueQuantity`.\nElement `Device.property.value[x]` is mapped to FHIR R4B element `Device.property.valueCode`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.property.valueQuantity",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.property.value[x]` is mapped to FHIR R4B element `Device.property.valueQuantity`.\nElement `Device.property.value[x]` is mapped to FHIR R4B element `Device.property.valueCode`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.property:value",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.property.value[x]` is part of an existing definition because parent element `Device.property` requires a cross-version extension.\nElement `Device.property.value[x]` is mapped to FHIR STU3 structure `Device`, but has no target element specified.\nElement `Device.property.value[x]` is mapped to FHIR STU3 structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.mode",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "mode",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.mode",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.mode` is mapped to FHIR R4B structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.cycle",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "cycle",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.cycle",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.cycle` is mapped to FHIR R4B structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.duration",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "duration",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.duration",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.duration` is mapped to FHIR R4B structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.owner",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "owner",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.owner",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.owner` is mapped to FHIR R4B element `Device.owner`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.contact",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "contact",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.contact",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.contact` is mapped to FHIR R4B element `Device.contact`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.location",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "location",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.location",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.location` is mapped to FHIR R4B element `Device.location`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.url",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "url",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.url",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.url` is mapped to FHIR R4B element `Device.url`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.endpoint",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "endpoint",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.endpoint",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.endpoint` is mapped to FHIR R4B structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.gateway",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "gateway",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.gateway",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.gateway` is mapped to FHIR R4B structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.note",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "note",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.note",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.note` is mapped to FHIR R4B element `Device.note`."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.safety",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "safety",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.safety",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.safety` is mapped to FHIR R4B element `Device.safety`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.safety",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.safety` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.code">code</a>" : "Device.parent",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.display">display</a>" : "parent",
+          "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>" : [
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/StructureDefinition/Device#Device.parent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.parent` is mapped to FHIR R4B element `Device.parent`."
+            },
+            {
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a>" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.parent",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a>" : "relatedto",
+              "<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>" : "Element `Device.parent` is mapped to FHIR STU3 structure `Device`, but has no target element specified."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="ConceptMap-ConceptMap-R5-Device-elements-for-R4-Device.xml.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="ConceptMap-ConceptMap-R5-Device-elements-for-R4-Device.ttl.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-06 13:22:00 -0600">
+    2026-02-06
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir/uv/xver/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

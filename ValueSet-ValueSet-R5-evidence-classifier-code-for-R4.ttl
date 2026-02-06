@@ -1,0 +1,476 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/ValueSet-R5-evidence-classifier-code-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ValueSet-R5-evidence-classifier-code-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ValueSet-R5-evidence-classifier-code-for-R4</b></p><a name=\"ValueSet-R5-evidence-classifier-code-for-R4\"> </a><a name=\"hcValueSet-R5-evidence-classifier-code-for-R4\"> </a><p>This value set expansion contains 31 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-AllocConcealNotStated\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-AllocConcealNotStated\">AllocConcealNotStated</a></td><td>Allocation concealment not stated</td><td>Allocation concealment not stated.</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-BaselineImbalance\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-BaselineImbalance\">BaselineImbalance</a></td><td>Baseline imbalances</td><td>Differences between groups at start of trial may confound or bias the findings.</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-COVID19HumanResearch\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-COVID19HumanResearch\">COVID19HumanResearch</a></td><td>COVID-19 human data in population, exposure, or outcome</td><td>contains human COVID-19 disease in the research data as any variable (population, exposure or outcome).</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-COVID19Relevant\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-COVID19Relevant\">COVID19Relevant</a></td><td>COVID-19 relevant (but not specific) article</td><td>Not about COVID-19 but relevant to COVID-19 management or understanding.</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-COVID19Specific\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-COVID19Specific\">COVID19Specific</a></td><td>COVID-19 specific article</td><td>About COVID-19.</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-Diagnosis\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-Diagnosis\">Diagnosis</a></td><td>Article about diagnosis</td><td>about methods to distinguish having or not having a condition.</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-EarlyTrialTermination\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-EarlyTrialTermination\">EarlyTrialTermination</a></td><td>Early trial termination</td><td>Early trial termination.</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-Guideline\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-Guideline\">Guideline</a></td><td>Article includes guideline</td><td>for clinical practice guidelines.</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-NoBlinding\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-NoBlinding\">NoBlinding</a></td><td>No blinding</td><td>No blinding.</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-NoITT\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-NoITT\">NoITT</a></td><td>No intention-to-treat analysis</td><td>No intention-to-treat analysis.</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-NotAssessed\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-NotAssessed\">NotAssessed</a></td><td>Not rated, not assessed</td><td>Neither rated as yes nor rated as no.</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-NotResearchNotGuideline\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-NotResearchNotGuideline\">NotResearchNotGuideline</a></td><td>Article is neither research nor guideline</td><td>for things that are not research reports, research protocols or guidelines.</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-OriginalResearch\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-OriginalResearch\">OriginalResearch</a></td><td>Article includes original research</td><td>such as randomized trial, observational study.</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-PreliminaryAnalysis\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-PreliminaryAnalysis\">PreliminaryAnalysis</a></td><td>Preliminary analysis</td><td>Preliminary analysis.</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-Preprint\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-Preprint\">Preprint</a></td><td>Preprint (not final publication)</td><td>Results presented in preprint (pre-final publication) form.</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-PreventionAndControl\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-PreventionAndControl\">PreventionAndControl</a></td><td>Article about prevention and control</td><td>about preventive care and interventions.</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-PrognosisPrediction\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-PrognosisPrediction\">PrognosisPrediction</a></td><td>Article about prognosis or prediction</td><td>about predicting risk for something or risk factors for it.</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-RatedAsCaseControl\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-RatedAsCaseControl\">RatedAsCaseControl</a></td><td>classified as case-control study</td><td>classified as case-control study.</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-RatedAsComparativeCohort\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-RatedAsComparativeCohort\">RatedAsComparativeCohort</a></td><td>classified as comparative cohort study (observational)</td><td>classified as comparative cohort study (observational).</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-RatedAsControlledTrial\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-RatedAsControlledTrial\">RatedAsControlledTrial</a></td><td>classified as nonrandomized controlled trial (experimental)</td><td>classified as nonrandomized controlled trial (experimental).</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-RatedAsMixedMethods\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-RatedAsMixedMethods\">RatedAsMixedMethods</a></td><td>classified as mixed-methods study</td><td>classified as mixed-methods study.</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-RatedAsNo\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-RatedAsNo\">RatedAsNo</a></td><td>Rated as no, negative, absent, or exclude</td><td>Rated as no, negative, absent, or exclude.</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-RatedAsOther\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-RatedAsOther\">RatedAsOther</a></td><td>classified as other concept (not elsewhere classified)</td><td>classified as other concept (not elsewhere classified).</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-RatedAsRCT\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-RatedAsRCT\">RatedAsRCT</a></td><td>classified as randomized controlled trial</td><td>classified as randomized controlled trial.</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-RatedAsUncontrolledSeries\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-RatedAsUncontrolledSeries\">RatedAsUncontrolledSeries</a></td><td>classified as uncontrolled cohort (case series)</td><td>classified as uncontrolled cohort (case series).</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-RatedAsYes\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-RatedAsYes\">RatedAsYes</a></td><td>Rated as yes, affirmative, positive, present, or include</td><td/></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-ResearchProtocol\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-ResearchProtocol\">ResearchProtocol</a></td><td>Article provides protocol without results</td><td>for research protocols.</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-ResearchSynthesis\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-ResearchSynthesis\">ResearchSynthesis</a></td><td>Article includes synthesis of research</td><td>such as systematic review, meta-analysis, rapid review.</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-RiskOfBias\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-RiskOfBias\">RiskOfBias</a></td><td>Risk of bias assessment</td><td>Risk of bias assessment.</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-SubgroupAnalysis\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-SubgroupAnalysis\">SubgroupAnalysis</a></td><td>Subgroup analysis</td><td>Subgroup analysis.</td></tr><tr><td><a name=\"ValueSet-R5-evidence-classifier-code-for-R4-http://hl7.org/fhir/evidence-classifier-code-Treatment\"> </a><code>http://hl7.org/fhir/evidence-classifier-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-evidence-classifier-code.html#evidence-classifier-code-Treatment\">Treatment</a></td><td>Article about treatment</td><td>about therapeutic interventions.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "cds"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-evidence-classifier-code-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-evidence-classifier-code-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ValueSetR5EvidenceClassifierCodeForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.EvidenceClassifier for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Clinical Decision Support"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Clinical Decision Support" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/dss" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/evidence-classifier-code|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/evidence-classifier-code|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `EvidenceReport.section.entryClassifier` as Extensible\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/evidence-classifier-code|5.0.0`\n* `http://hl7.org/fhir/ValueSet/evidence-classifier-code|4.3.0`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\nAll concepts in the comparison are listed as identical.\nThe source and target value sets have the same number of active concepts (31)."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "AllocConcealNotStated" ] ;
+         fhir:display [ fhir:v "Allocation concealment not stated" ]
+       ] [
+         fhir:code [ fhir:v "BaselineImbalance" ] ;
+         fhir:display [ fhir:v "Baseline imbalances" ]
+       ] [
+         fhir:code [ fhir:v "COVID19HumanResearch" ] ;
+         fhir:display [ fhir:v "COVID-19 human data in population, exposure, or outcome" ]
+       ] [
+         fhir:code [ fhir:v "COVID19Relevant" ] ;
+         fhir:display [ fhir:v "COVID-19 relevant (but not specific) article" ]
+       ] [
+         fhir:code [ fhir:v "COVID19Specific" ] ;
+         fhir:display [ fhir:v "COVID-19 specific article" ]
+       ] [
+         fhir:code [ fhir:v "Diagnosis" ] ;
+         fhir:display [ fhir:v "Article about diagnosis" ]
+       ] [
+         fhir:code [ fhir:v "EarlyTrialTermination" ] ;
+         fhir:display [ fhir:v "Early trial termination" ]
+       ] [
+         fhir:code [ fhir:v "Guideline" ] ;
+         fhir:display [ fhir:v "Article includes guideline" ]
+       ] [
+         fhir:code [ fhir:v "NoBlinding" ] ;
+         fhir:display [ fhir:v "No blinding" ]
+       ] [
+         fhir:code [ fhir:v "NoITT" ] ;
+         fhir:display [ fhir:v "No intention-to-treat analysis" ]
+       ] [
+         fhir:code [ fhir:v "NotAssessed" ] ;
+         fhir:display [ fhir:v "Not rated, not assessed" ]
+       ] [
+         fhir:code [ fhir:v "NotResearchNotGuideline" ] ;
+         fhir:display [ fhir:v "Article is neither research nor guideline" ]
+       ] [
+         fhir:code [ fhir:v "OriginalResearch" ] ;
+         fhir:display [ fhir:v "Article includes original research" ]
+       ] [
+         fhir:code [ fhir:v "PreliminaryAnalysis" ] ;
+         fhir:display [ fhir:v "Preliminary analysis" ]
+       ] [
+         fhir:code [ fhir:v "Preprint" ] ;
+         fhir:display [ fhir:v "Preprint (not final publication)" ]
+       ] [
+         fhir:code [ fhir:v "PreventionAndControl" ] ;
+         fhir:display [ fhir:v "Article about prevention and control" ]
+       ] [
+         fhir:code [ fhir:v "PrognosisPrediction" ] ;
+         fhir:display [ fhir:v "Article about prognosis or prediction" ]
+       ] [
+         fhir:code [ fhir:v "RatedAsCaseControl" ] ;
+         fhir:display [ fhir:v "classified as case-control study" ]
+       ] [
+         fhir:code [ fhir:v "RatedAsComparativeCohort" ] ;
+         fhir:display [ fhir:v "classified as comparative cohort study (observational)" ]
+       ] [
+         fhir:code [ fhir:v "RatedAsControlledTrial" ] ;
+         fhir:display [ fhir:v "classified as nonrandomized controlled trial (experimental)" ]
+       ] [
+         fhir:code [ fhir:v "RatedAsMixedMethods" ] ;
+         fhir:display [ fhir:v "classified as mixed-methods study" ]
+       ] [
+         fhir:code [ fhir:v "RatedAsNo" ] ;
+         fhir:display [ fhir:v "Rated as no, negative, absent, or exclude" ]
+       ] [
+         fhir:code [ fhir:v "RatedAsOther" ] ;
+         fhir:display [ fhir:v "classified as other concept (not elsewhere classified)" ]
+       ] [
+         fhir:code [ fhir:v "RatedAsRCT" ] ;
+         fhir:display [ fhir:v "classified as randomized controlled trial" ]
+       ] [
+         fhir:code [ fhir:v "RatedAsUncontrolledSeries" ] ;
+         fhir:display [ fhir:v "classified as uncontrolled cohort (case series)" ]
+       ] [
+         fhir:code [ fhir:v "RatedAsYes" ] ;
+         fhir:display [ fhir:v "Rated as yes, affirmative, positive, present, or include" ]
+       ] [
+         fhir:code [ fhir:v "ResearchProtocol" ] ;
+         fhir:display [ fhir:v "Article provides protocol without results" ]
+       ] [
+         fhir:code [ fhir:v "ResearchSynthesis" ] ;
+         fhir:display [ fhir:v "Article includes synthesis of research" ]
+       ] [
+         fhir:code [ fhir:v "RiskOfBias" ] ;
+         fhir:display [ fhir:v "Risk of bias assessment" ]
+       ] [
+         fhir:code [ fhir:v "SubgroupAnalysis" ] ;
+         fhir:display [ fhir:v "Subgroup analysis" ]
+       ] [
+         fhir:code [ fhir:v "Treatment" ] ;
+         fhir:display [ fhir:v "Article about treatment" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "AllocConcealNotStated" ] ;
+       fhir:display [ fhir:v "Allocation concealment not stated" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "BaselineImbalance" ] ;
+       fhir:display [ fhir:v "Baseline imbalances" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "COVID19HumanResearch" ] ;
+       fhir:display [ fhir:v "COVID-19 human data in population, exposure, or outcome" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "COVID19Relevant" ] ;
+       fhir:display [ fhir:v "COVID-19 relevant (but not specific) article" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "COVID19Specific" ] ;
+       fhir:display [ fhir:v "COVID-19 specific article" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Diagnosis" ] ;
+       fhir:display [ fhir:v "Article about diagnosis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "EarlyTrialTermination" ] ;
+       fhir:display [ fhir:v "Early trial termination" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Guideline" ] ;
+       fhir:display [ fhir:v "Article includes guideline" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "NoBlinding" ] ;
+       fhir:display [ fhir:v "No blinding" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "NoITT" ] ;
+       fhir:display [ fhir:v "No intention-to-treat analysis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "NotAssessed" ] ;
+       fhir:display [ fhir:v "Not rated, not assessed" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "NotResearchNotGuideline" ] ;
+       fhir:display [ fhir:v "Article is neither research nor guideline" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "OriginalResearch" ] ;
+       fhir:display [ fhir:v "Article includes original research" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "PreliminaryAnalysis" ] ;
+       fhir:display [ fhir:v "Preliminary analysis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Preprint" ] ;
+       fhir:display [ fhir:v "Preprint (not final publication)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "PreventionAndControl" ] ;
+       fhir:display [ fhir:v "Article about prevention and control" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "PrognosisPrediction" ] ;
+       fhir:display [ fhir:v "Article about prognosis or prediction" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "RatedAsCaseControl" ] ;
+       fhir:display [ fhir:v "classified as case-control study" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "RatedAsComparativeCohort" ] ;
+       fhir:display [ fhir:v "classified as comparative cohort study (observational)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "RatedAsControlledTrial" ] ;
+       fhir:display [ fhir:v "classified as nonrandomized controlled trial (experimental)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "RatedAsMixedMethods" ] ;
+       fhir:display [ fhir:v "classified as mixed-methods study" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "RatedAsNo" ] ;
+       fhir:display [ fhir:v "Rated as no, negative, absent, or exclude" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "RatedAsOther" ] ;
+       fhir:display [ fhir:v "classified as other concept (not elsewhere classified)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "RatedAsRCT" ] ;
+       fhir:display [ fhir:v "classified as randomized controlled trial" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "RatedAsUncontrolledSeries" ] ;
+       fhir:display [ fhir:v "classified as uncontrolled cohort (case series)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "RatedAsYes" ] ;
+       fhir:display [ fhir:v "Rated as yes, affirmative, positive, present, or include" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "ResearchProtocol" ] ;
+       fhir:display [ fhir:v "Article provides protocol without results" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "ResearchSynthesis" ] ;
+       fhir:display [ fhir:v "Article includes synthesis of research" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "RiskOfBias" ] ;
+       fhir:display [ fhir:v "Risk of bias assessment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SubgroupAnalysis" ] ;
+       fhir:display [ fhir:v "Subgroup analysis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-classifier-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-classifier-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Treatment" ] ;
+       fhir:display [ fhir:v "Article about treatment" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

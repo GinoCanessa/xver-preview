@@ -1,0 +1,192 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-Signature-elements-for-R4-Signature> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-Signature-elements-for-R4-Signature"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-Signature-elements-for-R4-Signature</b></p><a name=\"ConceptMap-R5-Signature-elements-for-R4-Signature\"> </a><a name=\"hcConceptMap-R5-Signature-elements-for-R4-Signature\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Signature|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Signature|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">Signature</td><td style=\"border-left-width: 0px\">Signature</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Signature#Signature</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 ComplexType `Signature` is representable via FHIR R4B extensions.\nElement `Signature` is mapped to FHIR R4B element `Signature`.</td></tr><tr><td style=\"border-right-width: 0px\">Signature.type</td><td style=\"border-left-width: 0px\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Signature#Signature.type</td><td style=\"border-left-width: 0px\"/><td>Element `Signature.type` is mapped to FHIR R4B element `Signature.type`.</td></tr><tr><td style=\"border-right-width: 0px\">Signature.when</td><td style=\"border-left-width: 0px\">when</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Signature#Signature.when</td><td style=\"border-left-width: 0px\"/><td>Element `Signature.when` is mapped to FHIR R4B element `Signature.when`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Signature.who</td><td style=\"border-left-width: 0px; border-bottom-style: none\">who</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Signature#Signature.who</td><td style=\"border-left-width: 0px\"/><td>Element `Signature.who` is mapped to FHIR R4B element `Signature.who`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Signature#Signature.who[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Signature.who[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Signature`.\nElement `Signature.who` is mapped to FHIR STU3 element `Signature.who[x]`.\nNote that the target element context `Signature.who[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Signature`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Signature.onBehalfOf</td><td style=\"border-left-width: 0px; border-bottom-style: none\">onBehalfOf</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Signature#Signature.onBehalfOf</td><td style=\"border-left-width: 0px\"/><td>Element `Signature.onBehalfOf` is mapped to FHIR R4B element `Signature.onBehalfOf`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Signature#Signature.onBehalfOf[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Signature.onBehalfOf[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Signature`.\nElement `Signature.onBehalfOf` is mapped to FHIR STU3 element `Signature.onBehalfOf[x]`.\nNote that the target element context `Signature.onBehalfOf[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Signature`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Signature.onBehalfOf</td><td style=\"border-left-width: 0px\"/><td>Element `Signature.onBehalfOf` is mapped to FHIR DSTU2 structure `Signature`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Signature.targetFormat</td><td style=\"border-left-width: 0px; border-bottom-style: none\">targetFormat</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Signature#Signature.targetFormat</td><td style=\"border-left-width: 0px\"/><td>Element `Signature.targetFormat` is mapped to FHIR R4B element `Signature.targetFormat`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Signature.targetFormat</td><td style=\"border-left-width: 0px\"/><td>Element `Signature.targetFormat` is mapped to FHIR STU3 structure `Signature`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Signature.sigFormat</td><td style=\"border-left-width: 0px; border-bottom-style: none\">sigFormat</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Signature#Signature.sigFormat</td><td style=\"border-left-width: 0px\"/><td>Element `Signature.sigFormat` is mapped to FHIR R4B element `Signature.sigFormat`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Signature#Signature.contentType</td><td style=\"border-left-width: 0px\"/><td>Element `Signature.sigFormat` is mapped to FHIR STU3 element `Signature.contentType`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Signature.data</td><td style=\"border-left-width: 0px; border-bottom-style: none\">data</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Signature#Signature.data</td><td style=\"border-left-width: 0px\"/><td>Element `Signature.data` is mapped to FHIR R4B element `Signature.data`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Signature#Signature.blob</td><td style=\"border-left-width: 0px\"/><td>Element `Signature.data` is mapped to FHIR STU3 element `Signature.blob`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Signature-elements-for-R4-Signature"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Signature-elements-for-R4-Signature>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5SignatureElementsForR4Signature"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:34.2592578-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Signature"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Signature>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Signature" ] ;
+       fhir:display [ fhir:v "Signature" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Signature#Signature" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 ComplexType `Signature` is representable via FHIR R4B extensions.\nElement `Signature` is mapped to FHIR R4B element `Signature`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Signature.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Signature#Signature.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Signature.type` is mapped to FHIR R4B element `Signature.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Signature.when" ] ;
+       fhir:display [ fhir:v "when" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Signature#Signature.when" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Signature.when` is mapped to FHIR R4B element `Signature.when`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Signature.who" ] ;
+       fhir:display [ fhir:v "who" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Signature#Signature.who" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Signature.who` is mapped to FHIR R4B element `Signature.who`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Signature#Signature.who[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Signature.who[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Signature`.\nElement `Signature.who` is mapped to FHIR STU3 element `Signature.who[x]`.\nNote that the target element context `Signature.who[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Signature`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Signature.onBehalfOf" ] ;
+       fhir:display [ fhir:v "onBehalfOf" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Signature#Signature.onBehalfOf" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Signature.onBehalfOf` is mapped to FHIR R4B element `Signature.onBehalfOf`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Signature#Signature.onBehalfOf[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Signature.onBehalfOf[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Signature`.\nElement `Signature.onBehalfOf` is mapped to FHIR STU3 element `Signature.onBehalfOf[x]`.\nNote that the target element context `Signature.onBehalfOf[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Signature`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Signature.onBehalfOf" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Signature.onBehalfOf` is mapped to FHIR DSTU2 structure `Signature`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Signature.targetFormat" ] ;
+       fhir:display [ fhir:v "targetFormat" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Signature#Signature.targetFormat" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Signature.targetFormat` is mapped to FHIR R4B element `Signature.targetFormat`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Signature.targetFormat" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Signature.targetFormat` is mapped to FHIR STU3 structure `Signature`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Signature.sigFormat" ] ;
+       fhir:display [ fhir:v "sigFormat" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Signature#Signature.sigFormat" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Signature.sigFormat` is mapped to FHIR R4B element `Signature.sigFormat`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Signature#Signature.contentType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Signature.sigFormat` is mapped to FHIR STU3 element `Signature.contentType`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Signature.data" ] ;
+       fhir:display [ fhir:v "data" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Signature#Signature.data" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Signature.data` is mapped to FHIR R4B element `Signature.data`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Signature#Signature.blob" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Signature.data` is mapped to FHIR STU3 element `Signature.blob`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

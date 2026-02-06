@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="claim-exception"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://terminology.hl7.org/CodeSystem/claim-exception</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">student<a name="claim-exception-student"> </a></td><td>Student (Fulltime)</td><td>Fulltime Student</td></tr><tr><td style="white-space:nowrap">disabled<a name="claim-exception-disabled"> </a></td><td>Disabled</td><td>Disabled</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fm"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/claim-exception"/>
+  <version value="0.1.0"/>
+  <name value="ExceptionCodes"/>
+  <title value="Exception Codes"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2023-02-25T12:07:30-06:00"/>
+  <publisher value="Financial Management"/>
+  <contact>
+    <name value="Financial Management"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fm"/>
+    </telecom>
+  </contact>
+  <description value="This value set includes sample Exception codes."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This is an example set."/>
+  <caseSensitive value="true"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/claim-exception|1.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="student"/>
+    <display value="Student (Fulltime)"/>
+    <definition value="Fulltime Student"/>
+  </concept>
+  <concept>
+    <code value="disabled"/>
+    <display value="Disabled"/>
+    <definition value="Disabled"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,368 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-SupplyRequest-elements-for-R4-SupplyRequest> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-SupplyRequest-elements-for-R4-SupplyRequest"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-SupplyRequest-elements-for-R4-SupplyRequest</b></p><a name=\"ConceptMap-R5-SupplyRequest-elements-for-R4-SupplyRequest\"> </a><a name=\"hcConceptMap-R5-SupplyRequest-elements-for-R4-SupplyRequest\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/SupplyRequest|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/SupplyRequest|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">SupplyRequest</td><td style=\"border-left-width: 0px; border-bottom-style: none\">SupplyRequest</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `SupplyRequest` is representable via FHIR R4B Resource `SupplyRequest`.\nElement `SupplyRequest` is mapped to FHIR R4B element `SupplyRequest`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.orderedItem</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `SupplyRequest` is representable via FHIR STU3 Resource `SupplyRequest`.\nElement `SupplyRequest` is mapped to FHIR STU3 element `SupplyRequest.orderedItem`.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.meta</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.meta` is mapped to FHIR R4B element `SupplyRequest.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.implicitRules` is mapped to FHIR R4B element `SupplyRequest.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.language</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.language` is mapped to FHIR R4B element `SupplyRequest.language`.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.text</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.text` is mapped to FHIR R4B element `SupplyRequest.text`.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.contained</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.contained` is mapped to FHIR R4B element `SupplyRequest.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.identifier` is mapped to FHIR R4B element `SupplyRequest.identifier`.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.status</td><td style=\"border-left-width: 0px\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.status</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.status` is mapped to FHIR R4B element `SupplyRequest.status`.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.basedOn</td><td style=\"border-left-width: 0px\">basedOn</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.basedOn</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.basedOn` is mapped to FHIR R4B structure `SupplyRequest`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">SupplyRequest.category</td><td style=\"border-left-width: 0px; border-bottom-style: none\">category</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.category</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.category` is mapped to FHIR R4B element `SupplyRequest.category`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.kind</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.category` is mapped to FHIR DSTU2 element `SupplyRequest.kind`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">SupplyRequest.priority</td><td style=\"border-left-width: 0px; border-bottom-style: none\">priority</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.priority</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.priority` is mapped to FHIR R4B element `SupplyRequest.priority`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.priority</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.priority` is mapped to FHIR DSTU2 structure `SupplyRequest`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.deliverFor</td><td style=\"border-left-width: 0px\">deliverFor</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.deliverFor</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.deliverFor` is mapped to FHIR R4B structure `SupplyRequest`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">SupplyRequest.item</td><td style=\"border-left-width: 0px; border-bottom-style: none\">item</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.item[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `SupplyRequest.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`.\nElement `SupplyRequest.item` is mapped to FHIR R4B element `SupplyRequest.item[x]`.\nNote that the target element context `SupplyRequest.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.orderedItem.item[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `SupplyRequest.orderedItem.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest.orderedItem`.\nElement `SupplyRequest.item` is mapped to FHIR STU3 element `SupplyRequest.orderedItem.item[x]`.\nNote that the target element context `SupplyRequest.orderedItem.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest.orderedItem`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.item</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.item` is mapped to FHIR DSTU2 structure `SupplyRequest`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">SupplyRequest.quantity</td><td style=\"border-left-width: 0px; border-bottom-style: none\">quantity</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.quantity</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.quantity` is mapped to FHIR R4B element `SupplyRequest.quantity`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.orderedItem.quantity</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.quantity` is mapped to FHIR STU3 element `SupplyRequest.orderedItem.quantity`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.quantity</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.quantity` is mapped to FHIR DSTU2 structure `SupplyRequest`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">SupplyRequest.parameter</td><td style=\"border-left-width: 0px; border-bottom-style: none\">parameter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.parameter</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.parameter` is mapped to FHIR R4B element `SupplyRequest.parameter`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.parameter</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.parameter` is mapped to FHIR STU3 structure `SupplyRequest`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">SupplyRequest.parameter.code</td><td style=\"border-left-width: 0px; border-bottom-style: none\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.parameter.code</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.parameter.code` is mapped to FHIR R4B element `SupplyRequest.parameter.code`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.parameter:code</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.parameter.code` is part of an existing definition because parent element `SupplyRequest.parameter` requires a cross-version extension.\nElement `SupplyRequest.parameter.code` is mapped to FHIR STU3 structure `SupplyRequest`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">SupplyRequest.parameter.value[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">value[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.parameter.value[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `SupplyRequest.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest.parameter`.\nElement `SupplyRequest.parameter.value[x]` is mapped to FHIR R4B element `SupplyRequest.parameter.value[x]`.\nNote that the target element context `SupplyRequest.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest.parameter`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.parameter:value</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.parameter.value[x]` is part of an existing definition because parent element `SupplyRequest.parameter` requires a cross-version extension.\nElement `SupplyRequest.parameter.value[x]` is mapped to FHIR STU3 structure `SupplyRequest`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">SupplyRequest.occurrence[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">occurrence[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.occurrence[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `SupplyRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`.\nElement `SupplyRequest.occurrence[x]` is mapped to FHIR R4B element `SupplyRequest.occurrence[x]`.\nNote that the target element context `SupplyRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.when.schedule</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.occurrence[x]` is mapped to FHIR DSTU2 element `SupplyRequest.when.schedule`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">SupplyRequest.authoredOn</td><td style=\"border-left-width: 0px; border-bottom-style: none\">authoredOn</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.authoredOn</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.authoredOn` is mapped to FHIR R4B element `SupplyRequest.authoredOn`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.date</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.authoredOn` is mapped to FHIR DSTU2 element `SupplyRequest.date`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">SupplyRequest.requester</td><td style=\"border-left-width: 0px; border-bottom-style: none\">requester</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.requester</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.requester` is mapped to FHIR R4B element `SupplyRequest.requester`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.requester.agent</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.requester` is mapped to FHIR STU3 element `SupplyRequest.requester.agent`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.source</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.requester` is mapped to FHIR DSTU2 element `SupplyRequest.source`.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.supplier</td><td style=\"border-left-width: 0px\">supplier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.supplier</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.supplier` is mapped to FHIR R4B element `SupplyRequest.supplier`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">SupplyRequest.reason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.reasonCode</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.reason` is mapped to FHIR R4B element `SupplyRequest.reasonCode`.\nElement `SupplyRequest.reason` is mapped to FHIR R4B element `SupplyRequest.reasonReference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.reasonReference</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.reason` is mapped to FHIR R4B element `SupplyRequest.reasonCode`.\nElement `SupplyRequest.reason` is mapped to FHIR R4B element `SupplyRequest.reasonReference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.reason[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `SupplyRequest.reason[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`.\nElement `SupplyRequest.reason` is mapped to FHIR STU3 element `SupplyRequest.reason[x]`.\nNote that the target element context `SupplyRequest.reason[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`.\nElement `SupplyRequest.reason` is mapped to FHIR STU3 element `SupplyRequest.reason[x]`.\nNote that the target element context `SupplyRequest.reason[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">SupplyRequest.deliverFrom</td><td style=\"border-left-width: 0px; border-bottom-style: none\">deliverFrom</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.deliverFrom</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.deliverFrom` is mapped to FHIR R4B element `SupplyRequest.deliverFrom`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.deliverFrom</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.deliverFrom` is mapped to FHIR DSTU2 structure `SupplyRequest`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">SupplyRequest.deliverTo</td><td style=\"border-left-width: 0px; border-bottom-style: none\">deliverTo</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.deliverTo</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.deliverTo` is mapped to FHIR R4B element `SupplyRequest.deliverTo`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.deliverTo</td><td style=\"border-left-width: 0px\"/><td>Element `SupplyRequest.deliverTo` is mapped to FHIR DSTU2 structure `SupplyRequest`, but has no target element specified.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-SupplyRequest-elements-for-R4-SupplyRequest"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-SupplyRequest-elements-for-R4-SupplyRequest>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5SupplyRequestElementsForR4SupplyRequest"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:34.5871908-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/SupplyRequest>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "SupplyRequest" ] ;
+       fhir:display [ fhir:v "SupplyRequest" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `SupplyRequest` is representable via FHIR R4B Resource `SupplyRequest`.\nElement `SupplyRequest` is mapped to FHIR R4B element `SupplyRequest`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.orderedItem" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `SupplyRequest` is representable via FHIR STU3 Resource `SupplyRequest`.\nElement `SupplyRequest` is mapped to FHIR STU3 element `SupplyRequest.orderedItem`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.meta` is mapped to FHIR R4B element `SupplyRequest.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.implicitRules` is mapped to FHIR R4B element `SupplyRequest.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.language` is mapped to FHIR R4B element `SupplyRequest.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.text` is mapped to FHIR R4B element `SupplyRequest.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.contained` is mapped to FHIR R4B element `SupplyRequest.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.identifier` is mapped to FHIR R4B element `SupplyRequest.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.status` is mapped to FHIR R4B element `SupplyRequest.status`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.basedOn" ] ;
+       fhir:display [ fhir:v "basedOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.basedOn" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.basedOn` is mapped to FHIR R4B structure `SupplyRequest`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.category` is mapped to FHIR R4B element `SupplyRequest.category`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.kind" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.category` is mapped to FHIR DSTU2 element `SupplyRequest.kind`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.priority" ] ;
+       fhir:display [ fhir:v "priority" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.priority" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.priority` is mapped to FHIR R4B element `SupplyRequest.priority`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.priority" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.priority` is mapped to FHIR DSTU2 structure `SupplyRequest`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.deliverFor" ] ;
+       fhir:display [ fhir:v "deliverFor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.deliverFor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.deliverFor` is mapped to FHIR R4B structure `SupplyRequest`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.item" ] ;
+       fhir:display [ fhir:v "item" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.item[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `SupplyRequest.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`.\nElement `SupplyRequest.item` is mapped to FHIR R4B element `SupplyRequest.item[x]`.\nNote that the target element context `SupplyRequest.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.orderedItem.item[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `SupplyRequest.orderedItem.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest.orderedItem`.\nElement `SupplyRequest.item` is mapped to FHIR STU3 element `SupplyRequest.orderedItem.item[x]`.\nNote that the target element context `SupplyRequest.orderedItem.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest.orderedItem`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.item" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.item` is mapped to FHIR DSTU2 structure `SupplyRequest`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.quantity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.quantity` is mapped to FHIR R4B element `SupplyRequest.quantity`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.orderedItem.quantity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.quantity` is mapped to FHIR STU3 element `SupplyRequest.orderedItem.quantity`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.quantity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.quantity` is mapped to FHIR DSTU2 structure `SupplyRequest`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.parameter" ] ;
+       fhir:display [ fhir:v "parameter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.parameter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.parameter` is mapped to FHIR R4B element `SupplyRequest.parameter`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.parameter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.parameter` is mapped to FHIR STU3 structure `SupplyRequest`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.parameter.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.parameter.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.parameter.code` is mapped to FHIR R4B element `SupplyRequest.parameter.code`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.parameter:code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.parameter.code` is part of an existing definition because parent element `SupplyRequest.parameter` requires a cross-version extension.\nElement `SupplyRequest.parameter.code` is mapped to FHIR STU3 structure `SupplyRequest`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.parameter.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.parameter.value[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `SupplyRequest.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest.parameter`.\nElement `SupplyRequest.parameter.value[x]` is mapped to FHIR R4B element `SupplyRequest.parameter.value[x]`.\nNote that the target element context `SupplyRequest.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest.parameter`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.parameter:value" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.parameter.value[x]` is part of an existing definition because parent element `SupplyRequest.parameter` requires a cross-version extension.\nElement `SupplyRequest.parameter.value[x]` is mapped to FHIR STU3 structure `SupplyRequest`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.occurrence[x]" ] ;
+       fhir:display [ fhir:v "occurrence[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.occurrence[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `SupplyRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`.\nElement `SupplyRequest.occurrence[x]` is mapped to FHIR R4B element `SupplyRequest.occurrence[x]`.\nNote that the target element context `SupplyRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.when.schedule" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.occurrence[x]` is mapped to FHIR DSTU2 element `SupplyRequest.when.schedule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.authoredOn" ] ;
+       fhir:display [ fhir:v "authoredOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.authoredOn" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.authoredOn` is mapped to FHIR R4B element `SupplyRequest.authoredOn`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.authoredOn` is mapped to FHIR DSTU2 element `SupplyRequest.date`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.requester" ] ;
+       fhir:display [ fhir:v "requester" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.requester" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.requester` is mapped to FHIR R4B element `SupplyRequest.requester`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.requester.agent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.requester` is mapped to FHIR STU3 element `SupplyRequest.requester.agent`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.source" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.requester` is mapped to FHIR DSTU2 element `SupplyRequest.source`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.supplier" ] ;
+       fhir:display [ fhir:v "supplier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.supplier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.supplier` is mapped to FHIR R4B element `SupplyRequest.supplier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.reasonCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.reason` is mapped to FHIR R4B element `SupplyRequest.reasonCode`.\nElement `SupplyRequest.reason` is mapped to FHIR R4B element `SupplyRequest.reasonReference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.reasonReference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.reason` is mapped to FHIR R4B element `SupplyRequest.reasonCode`.\nElement `SupplyRequest.reason` is mapped to FHIR R4B element `SupplyRequest.reasonReference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.reason[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `SupplyRequest.reason[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`.\nElement `SupplyRequest.reason` is mapped to FHIR STU3 element `SupplyRequest.reason[x]`.\nNote that the target element context `SupplyRequest.reason[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`.\nElement `SupplyRequest.reason` is mapped to FHIR STU3 element `SupplyRequest.reason[x]`.\nNote that the target element context `SupplyRequest.reason[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.deliverFrom" ] ;
+       fhir:display [ fhir:v "deliverFrom" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.deliverFrom" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.deliverFrom` is mapped to FHIR R4B element `SupplyRequest.deliverFrom`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.deliverFrom" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.deliverFrom` is mapped to FHIR DSTU2 structure `SupplyRequest`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.deliverTo" ] ;
+       fhir:display [ fhir:v "deliverTo" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest#SupplyRequest.deliverTo" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.deliverTo` is mapped to FHIR R4B element `SupplyRequest.deliverTo`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.deliverTo" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.deliverTo` is mapped to FHIR DSTU2 structure `SupplyRequest`, but has no target element specified." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

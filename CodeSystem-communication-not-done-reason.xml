@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="communication-not-done-reason"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://terminology.hl7.org/CodeSystem/communication-not-done-reason</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">unknown<a name="communication-not-done-reason-unknown"> </a></td><td>Unknown</td><td>The communication was not done due to an unknown reason.</td></tr><tr><td style="white-space:nowrap">system-error<a name="communication-not-done-reason-system-error"> </a></td><td>System Error</td><td>The communication was not done due to a system error.</td></tr><tr><td style="white-space:nowrap">invalid-phone-number<a name="communication-not-done-reason-invalid-phone-number"> </a></td><td>Invalid Phone Number</td><td>The communication was not done due to an invalid phone number.</td></tr><tr><td style="white-space:nowrap">recipient-unavailable<a name="communication-not-done-reason-recipient-unavailable"> </a></td><td>Recipient Unavailable</td><td>The communication was not done due to the recipient being unavailable.</td></tr><tr><td style="white-space:nowrap">family-objection<a name="communication-not-done-reason-family-objection"> </a></td><td>Family Objection</td><td>The communication was not done due to a family objection.</td></tr><tr><td style="white-space:nowrap">patient-objection<a name="communication-not-done-reason-patient-objection"> </a></td><td>Patient Objection</td><td>The communication was not done due to a patient objection.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pc"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/communication-not-done-reason"/>
+  <version value="0.1.0"/>
+  <name value="CommunicationNotDoneReason"/>
+  <title value="CommunicationNotDoneReason"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-04-09T16:10:28-05:00"/>
+  <publisher value="Patient Care"/>
+  <contact>
+    <name value="Patient Care"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="Codes for the reason why a communication did not happen."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/communication-not-done-reason|1.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="unknown"/>
+    <display value="Unknown"/>
+    <definition value="The communication was not done due to an unknown reason."/>
+  </concept>
+  <concept>
+    <code value="system-error"/>
+    <display value="System Error"/>
+    <definition value="The communication was not done due to a system error."/>
+  </concept>
+  <concept>
+    <code value="invalid-phone-number"/>
+    <display value="Invalid Phone Number"/>
+    <definition value="The communication was not done due to an invalid phone number."/>
+  </concept>
+  <concept>
+    <code value="recipient-unavailable"/>
+    <display value="Recipient Unavailable"/>
+    <definition value="The communication was not done due to the recipient being unavailable."/>
+  </concept>
+  <concept>
+    <code value="family-objection"/>
+    <display value="Family Objection"/>
+    <definition value="The communication was not done due to a family objection."/>
+  </concept>
+  <concept>
+    <code value="patient-objection"/>
+    <display value="Patient Objection"/>
+    <definition value="The communication was not done due to a patient objection."/>
+  </concept>
+</CodeSystem>

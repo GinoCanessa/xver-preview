@@ -1,0 +1,691 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-languages-for-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-languages-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-languages-for-R4</b></p><a name=\"ConceptMap-R5-languages-for-R4\"> </a><a name=\"hcConceptMap-R5-languages-for-R4\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <a href=\"CodeSystem-v3-ietf3066.html\">Tags for the Identification of Languagesversion: 2.0.1)</a> to <a href=\"CodeSystem-v3-ietf3066.html\">Tags for the Identification of Languagesversion: 2.0.1)</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from <a href=\"CodeSystem-v3-ietf3066.html\" title=\"urn:ietf:bcp:47|2.0.1\">Tags for the Identification of Languages</a></td><td colspan=\"2\"><b>Codes</b> from <a href=\"CodeSystem-v3-ietf3066.html\" title=\"urn:ietf:bcp:47|2.0.1\">Tags for the Identification of Languages</a></td><td/></tr><tr><td style=\"border-right-width: 0px\">ar</td><td style=\"border-left-width: 0px\">Arabisk</td><td style=\"border-right-width: 0px\">ar</td><td style=\"border-left-width: 0px\">Arabisch</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">bn</td><td style=\"border-left-width: 0px\">Bengali</td><td style=\"border-right-width: 0px\">bn</td><td style=\"border-left-width: 0px\">Bengalsk</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">cs</td><td style=\"border-left-width: 0px\">Czech</td><td style=\"border-right-width: 0px\">cs</td><td style=\"border-left-width: 0px\">Tjekkisk</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">da</td><td style=\"border-left-width: 0px\">Danish</td><td style=\"border-right-width: 0px\">da</td><td style=\"border-left-width: 0px\">Dansk</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">de</td><td style=\"border-left-width: 0px\">German</td><td style=\"border-right-width: 0px\">de</td><td style=\"border-left-width: 0px\">Tysk</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">de-AT</td><td style=\"border-left-width: 0px\">German (Austria)</td><td style=\"border-right-width: 0px\">de-AT</td><td style=\"border-left-width: 0px\">Tysk (Østrig</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">de-CH</td><td style=\"border-left-width: 0px\">German (Switzerland)</td><td style=\"border-right-width: 0px\">de-CH</td><td style=\"border-left-width: 0px\">Tysk (Schweiz)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">de-DE</td><td style=\"border-left-width: 0px\">German (Germany)</td><td style=\"border-right-width: 0px\">de-DE</td><td style=\"border-left-width: 0px\">Tysk (Tyskland)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">el</td><td style=\"border-left-width: 0px\">Greek</td><td style=\"border-right-width: 0px\">el</td><td style=\"border-left-width: 0px\">Græsk</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">en</td><td style=\"border-left-width: 0px\">English</td><td style=\"border-right-width: 0px\">en</td><td style=\"border-left-width: 0px\">Engelsk</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">en-AU</td><td style=\"border-left-width: 0px\">English (Australia)</td><td style=\"border-right-width: 0px\">en-AU</td><td style=\"border-left-width: 0px\">Engelsk (Australien)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">en-CA</td><td style=\"border-left-width: 0px\">English (Canada)</td><td style=\"border-right-width: 0px\">en-CA</td><td style=\"border-left-width: 0px\">Engelsk (Canada)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">en-GB</td><td style=\"border-left-width: 0px\">English (Great Britain)</td><td style=\"border-right-width: 0px\">en-GB</td><td style=\"border-left-width: 0px\">Engelsk (Storbritannien)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">en-IN</td><td style=\"border-left-width: 0px\">English (India)</td><td style=\"border-right-width: 0px\">en-IN</td><td style=\"border-left-width: 0px\">Engelsk (Indien)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">en-NZ</td><td style=\"border-left-width: 0px\">English (New Zealand)</td><td style=\"border-right-width: 0px\">en-NZ</td><td style=\"border-left-width: 0px\">Engelsk (New Zeeland)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">en-SG</td><td style=\"border-left-width: 0px\">English (Singapore)</td><td style=\"border-right-width: 0px\">en-SG</td><td style=\"border-left-width: 0px\">Engelsk (Singapore)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">en-US</td><td style=\"border-left-width: 0px\">English (United States)</td><td style=\"border-right-width: 0px\">en-US</td><td style=\"border-left-width: 0px\">Engelsk (Amerikansk)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">es</td><td style=\"border-left-width: 0px\">Spanish</td><td style=\"border-right-width: 0px\">es</td><td style=\"border-left-width: 0px\">Spansk</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">es-AR</td><td style=\"border-left-width: 0px\">Spanish (Argentina)</td><td style=\"border-right-width: 0px\">es-AR</td><td style=\"border-left-width: 0px\">Spansk (Argentina)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">es-ES</td><td style=\"border-left-width: 0px\">Spanish (Spain)</td><td style=\"border-right-width: 0px\">es-ES</td><td style=\"border-left-width: 0px\">Spansk (Spanien)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">es-UY</td><td style=\"border-left-width: 0px\">Spanish (Uruguay)</td><td style=\"border-right-width: 0px\">es-UY</td><td style=\"border-left-width: 0px\">Spansk (Uruguay)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">fi</td><td style=\"border-left-width: 0px\">Finnish</td><td style=\"border-right-width: 0px\">fi</td><td style=\"border-left-width: 0px\">Finsk</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">fr</td><td style=\"border-left-width: 0px\">French</td><td style=\"border-right-width: 0px\">fr</td><td style=\"border-left-width: 0px\">Fransk</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">fr-BE</td><td style=\"border-left-width: 0px\">French (Belgium)</td><td style=\"border-right-width: 0px\">fr-BE</td><td style=\"border-left-width: 0px\">Finsk (Belgien)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">fr-CH</td><td style=\"border-left-width: 0px\">French (Switzerland)</td><td style=\"border-right-width: 0px\">fr-CH</td><td style=\"border-left-width: 0px\">Fransk (Schweiz)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">fr-FR</td><td style=\"border-left-width: 0px\">French (France)</td><td style=\"border-right-width: 0px\">fr-FR</td><td style=\"border-left-width: 0px\">Fransk (Frankrig)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">fy</td><td style=\"border-left-width: 0px\">Frisian</td><td style=\"border-right-width: 0px\">fy</td><td style=\"border-left-width: 0px\">Frisisk</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">fy-NL</td><td style=\"border-left-width: 0px\">Frisian (Netherlands)</td><td style=\"border-right-width: 0px\">fy-NL</td><td style=\"border-left-width: 0px\">Frisisk (Holland)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">hi</td><td style=\"border-left-width: 0px\">Hindi</td><td style=\"border-right-width: 0px\">hi</td><td style=\"border-left-width: 0px\">Hindi</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">hr</td><td style=\"border-left-width: 0px\">Croatian</td><td style=\"border-right-width: 0px\">hr</td><td style=\"border-left-width: 0px\">Kroatisk</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">it</td><td style=\"border-left-width: 0px\">Italian</td><td style=\"border-right-width: 0px\">it</td><td style=\"border-left-width: 0px\">Italiensk</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">it-CH</td><td style=\"border-left-width: 0px\">Italian (Switzerland)</td><td style=\"border-right-width: 0px\">it-CH</td><td style=\"border-left-width: 0px\">Italiensk (Schweiz)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">it-IT</td><td style=\"border-left-width: 0px\">Italian (Italy)</td><td style=\"border-right-width: 0px\">it-IT</td><td style=\"border-left-width: 0px\">Italiensk (Italien)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">ja</td><td style=\"border-left-width: 0px\">Japanese</td><td style=\"border-right-width: 0px\">ja</td><td style=\"border-left-width: 0px\">Japansk</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">ko</td><td style=\"border-left-width: 0px\">Korean</td><td style=\"border-right-width: 0px\">ko</td><td style=\"border-left-width: 0px\">Koreansk</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">nl</td><td style=\"border-left-width: 0px\">Dutch</td><td style=\"border-right-width: 0px\">nl</td><td style=\"border-left-width: 0px\">Hollandsk</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">nl-BE</td><td style=\"border-left-width: 0px\">Dutch (Belgium)</td><td style=\"border-right-width: 0px\">nl-BE</td><td style=\"border-left-width: 0px\">Hollandsk (Belgien)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">nl-NL</td><td style=\"border-left-width: 0px\">Dutch (Netherlands)</td><td style=\"border-right-width: 0px\">nl-NL</td><td style=\"border-left-width: 0px\">Hollandsk (Holland)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">no</td><td style=\"border-left-width: 0px\">Norwegian</td><td style=\"border-right-width: 0px\">no</td><td style=\"border-left-width: 0px\">Norsk</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">no-NO</td><td style=\"border-left-width: 0px\">Norwegian (Norway)</td><td style=\"border-right-width: 0px\">no-NO</td><td style=\"border-left-width: 0px\">Norsk (Norge)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">pa</td><td style=\"border-left-width: 0px\">Punjabi</td><td style=\"border-right-width: 0px\">pa</td><td style=\"border-left-width: 0px\">Punjabi</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">pl</td><td style=\"border-left-width: 0px\">Polskie</td><td style=\"border-right-width: 0px\">pl</td><td style=\"border-left-width: 0px\">Polskie</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">pt</td><td style=\"border-left-width: 0px\">Portuguese</td><td style=\"border-right-width: 0px\">pt</td><td style=\"border-left-width: 0px\">Portugisisk</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">pt-BR</td><td style=\"border-left-width: 0px\">Portuguese (Brazil)</td><td style=\"border-right-width: 0px\">pt-BR</td><td style=\"border-left-width: 0px\">Portugisisk (Brasilien)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">ru</td><td style=\"border-left-width: 0px\">Russian</td><td style=\"border-right-width: 0px\">ru</td><td style=\"border-left-width: 0px\">Russisk</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">ru-RU</td><td style=\"border-left-width: 0px\">Russian (Russia)</td><td style=\"border-right-width: 0px\">ru-RU</td><td style=\"border-left-width: 0px\">Russisk (Rusland)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">sr</td><td style=\"border-left-width: 0px\">Serbian</td><td style=\"border-right-width: 0px\">sr</td><td style=\"border-left-width: 0px\">Serbisk</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">sr-RS</td><td style=\"border-left-width: 0px\">Serbian (Serbia)</td><td style=\"border-right-width: 0px\">sr-RS</td><td style=\"border-left-width: 0px\">Serbisk (Serbien)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">sv</td><td style=\"border-left-width: 0px\">Swedish</td><td style=\"border-right-width: 0px\">sv</td><td style=\"border-left-width: 0px\">Svensk</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">sv-SE</td><td style=\"border-left-width: 0px\">Swedish (Sweden)</td><td style=\"border-right-width: 0px\">sv-SE</td><td style=\"border-left-width: 0px\">Svensk (Sverige)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">te</td><td style=\"border-left-width: 0px\">Telugu</td><td style=\"border-right-width: 0px\">te</td><td style=\"border-left-width: 0px\">Telugu</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">zh</td><td style=\"border-left-width: 0px\">Chinese</td><td style=\"border-right-width: 0px\">zh</td><td style=\"border-left-width: 0px\">Kinesisk</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">zh-CN</td><td style=\"border-left-width: 0px\">Chinese (China)</td><td style=\"border-right-width: 0px\">zh-CN</td><td style=\"border-left-width: 0px\">Kinesisk (Kina)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">zh-HK</td><td style=\"border-left-width: 0px\">Chinese (Hong Kong)</td><td style=\"border-right-width: 0px\">zh-HK</td><td style=\"border-left-width: 0px\">Kinesisk (Hong Kong)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">zh-SG</td><td style=\"border-left-width: 0px\">Chinese (Singapore)</td><td style=\"border-right-width: 0px\">zh-SG</td><td style=\"border-left-width: 0px\">Kinesisk (Singapore)</td><td>TODO</td></tr><tr><td style=\"border-right-width: 0px\">zh-TW</td><td style=\"border-left-width: 0px\">Chinese (Taiwan)</td><td style=\"border-right-width: 0px\">zh-TW</td><td style=\"border-left-width: 0px\">Kinesisk (Taiwan)</td><td>TODO</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ValueSet-R5-languages-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ValueSet-R5-languages-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5LanguagesForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for ValueSet ValueSet-R5-languages-for-R4 from FHIR R5 to FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:23.9872153-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of concepts from ValueSet `http://hl7.org/fhir/ValueSet/languages|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+       fhir:l <urn:ietf:bcp:47>
+     ] ;
+     fhir:sourceVersion [ fhir:v "2.0.1" ] ;
+     fhir:target [
+       fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ;
+       fhir:l <urn:ietf:bcp:47>
+     ] ;
+     fhir:targetVersion [ fhir:v "2.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "ar" ] ;
+       fhir:display [ fhir:v "Arabisk" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ar" ] ;
+         fhir:display [ fhir:v "Arabisch" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "bn" ] ;
+       fhir:display [ fhir:v "Bengali" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "bn" ] ;
+         fhir:display [ fhir:v "Bengalsk" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "cs" ] ;
+       fhir:display [ fhir:v "Czech" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "cs" ] ;
+         fhir:display [ fhir:v "Tjekkisk" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "da" ] ;
+       fhir:display [ fhir:v "Danish" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "da" ] ;
+         fhir:display [ fhir:v "Dansk" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "de" ] ;
+       fhir:display [ fhir:v "German" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "de" ] ;
+         fhir:display [ fhir:v "Tysk" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "de-AT" ] ;
+       fhir:display [ fhir:v "German (Austria)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "de-AT" ] ;
+         fhir:display [ fhir:v "Tysk (Østrig" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "de-CH" ] ;
+       fhir:display [ fhir:v "German (Switzerland)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "de-CH" ] ;
+         fhir:display [ fhir:v "Tysk (Schweiz)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "de-DE" ] ;
+       fhir:display [ fhir:v "German (Germany)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "de-DE" ] ;
+         fhir:display [ fhir:v "Tysk (Tyskland)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "el" ] ;
+       fhir:display [ fhir:v "Greek" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "el" ] ;
+         fhir:display [ fhir:v "Græsk" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "en" ] ;
+       fhir:display [ fhir:v "English" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "en" ] ;
+         fhir:display [ fhir:v "Engelsk" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "en-AU" ] ;
+       fhir:display [ fhir:v "English (Australia)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "en-AU" ] ;
+         fhir:display [ fhir:v "Engelsk (Australien)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "en-CA" ] ;
+       fhir:display [ fhir:v "English (Canada)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "en-CA" ] ;
+         fhir:display [ fhir:v "Engelsk (Canada)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "en-GB" ] ;
+       fhir:display [ fhir:v "English (Great Britain)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "en-GB" ] ;
+         fhir:display [ fhir:v "Engelsk (Storbritannien)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "en-IN" ] ;
+       fhir:display [ fhir:v "English (India)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "en-IN" ] ;
+         fhir:display [ fhir:v "Engelsk (Indien)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "en-NZ" ] ;
+       fhir:display [ fhir:v "English (New Zealand)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "en-NZ" ] ;
+         fhir:display [ fhir:v "Engelsk (New Zeeland)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "en-SG" ] ;
+       fhir:display [ fhir:v "English (Singapore)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "en-SG" ] ;
+         fhir:display [ fhir:v "Engelsk (Singapore)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "en-US" ] ;
+       fhir:display [ fhir:v "English (United States)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "en-US" ] ;
+         fhir:display [ fhir:v "Engelsk (Amerikansk)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "es" ] ;
+       fhir:display [ fhir:v "Spanish" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "es" ] ;
+         fhir:display [ fhir:v "Spansk" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "es-AR" ] ;
+       fhir:display [ fhir:v "Spanish (Argentina)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "es-AR" ] ;
+         fhir:display [ fhir:v "Spansk (Argentina)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "es-ES" ] ;
+       fhir:display [ fhir:v "Spanish (Spain)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "es-ES" ] ;
+         fhir:display [ fhir:v "Spansk (Spanien)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "es-UY" ] ;
+       fhir:display [ fhir:v "Spanish (Uruguay)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "es-UY" ] ;
+         fhir:display [ fhir:v "Spansk (Uruguay)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "fi" ] ;
+       fhir:display [ fhir:v "Finnish" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "fi" ] ;
+         fhir:display [ fhir:v "Finsk" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "fr" ] ;
+       fhir:display [ fhir:v "French" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "fr" ] ;
+         fhir:display [ fhir:v "Fransk" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "fr-BE" ] ;
+       fhir:display [ fhir:v "French (Belgium)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "fr-BE" ] ;
+         fhir:display [ fhir:v "Finsk (Belgien)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "fr-CH" ] ;
+       fhir:display [ fhir:v "French (Switzerland)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "fr-CH" ] ;
+         fhir:display [ fhir:v "Fransk (Schweiz)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "fr-FR" ] ;
+       fhir:display [ fhir:v "French (France)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "fr-FR" ] ;
+         fhir:display [ fhir:v "Fransk (Frankrig)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "fy" ] ;
+       fhir:display [ fhir:v "Frisian" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "fy" ] ;
+         fhir:display [ fhir:v "Frisisk" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "fy-NL" ] ;
+       fhir:display [ fhir:v "Frisian (Netherlands)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "fy-NL" ] ;
+         fhir:display [ fhir:v "Frisisk (Holland)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "hi" ] ;
+       fhir:display [ fhir:v "Hindi" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "hi" ] ;
+         fhir:display [ fhir:v "Hindi" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "hr" ] ;
+       fhir:display [ fhir:v "Croatian" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "hr" ] ;
+         fhir:display [ fhir:v "Kroatisk" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "it" ] ;
+       fhir:display [ fhir:v "Italian" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "it" ] ;
+         fhir:display [ fhir:v "Italiensk" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "it-CH" ] ;
+       fhir:display [ fhir:v "Italian (Switzerland)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "it-CH" ] ;
+         fhir:display [ fhir:v "Italiensk (Schweiz)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "it-IT" ] ;
+       fhir:display [ fhir:v "Italian (Italy)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "it-IT" ] ;
+         fhir:display [ fhir:v "Italiensk (Italien)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ja" ] ;
+       fhir:display [ fhir:v "Japanese" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ja" ] ;
+         fhir:display [ fhir:v "Japansk" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ko" ] ;
+       fhir:display [ fhir:v "Korean" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ko" ] ;
+         fhir:display [ fhir:v "Koreansk" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "nl" ] ;
+       fhir:display [ fhir:v "Dutch" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "nl" ] ;
+         fhir:display [ fhir:v "Hollandsk" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "nl-BE" ] ;
+       fhir:display [ fhir:v "Dutch (Belgium)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "nl-BE" ] ;
+         fhir:display [ fhir:v "Hollandsk (Belgien)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "nl-NL" ] ;
+       fhir:display [ fhir:v "Dutch (Netherlands)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "nl-NL" ] ;
+         fhir:display [ fhir:v "Hollandsk (Holland)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "no" ] ;
+       fhir:display [ fhir:v "Norwegian" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "no" ] ;
+         fhir:display [ fhir:v "Norsk" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "no-NO" ] ;
+       fhir:display [ fhir:v "Norwegian (Norway)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "no-NO" ] ;
+         fhir:display [ fhir:v "Norsk (Norge)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "pa" ] ;
+       fhir:display [ fhir:v "Punjabi" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "pa" ] ;
+         fhir:display [ fhir:v "Punjabi" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "pl" ] ;
+       fhir:display [ fhir:v "Polskie" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "pl" ] ;
+         fhir:display [ fhir:v "Polskie" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "pt" ] ;
+       fhir:display [ fhir:v "Portuguese" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "pt" ] ;
+         fhir:display [ fhir:v "Portugisisk" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "pt-BR" ] ;
+       fhir:display [ fhir:v "Portuguese (Brazil)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "pt-BR" ] ;
+         fhir:display [ fhir:v "Portugisisk (Brasilien)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ru" ] ;
+       fhir:display [ fhir:v "Russian" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ru" ] ;
+         fhir:display [ fhir:v "Russisk" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ru-RU" ] ;
+       fhir:display [ fhir:v "Russian (Russia)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ru-RU" ] ;
+         fhir:display [ fhir:v "Russisk (Rusland)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "sr" ] ;
+       fhir:display [ fhir:v "Serbian" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "sr" ] ;
+         fhir:display [ fhir:v "Serbisk" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "sr-RS" ] ;
+       fhir:display [ fhir:v "Serbian (Serbia)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "sr-RS" ] ;
+         fhir:display [ fhir:v "Serbisk (Serbien)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "sv" ] ;
+       fhir:display [ fhir:v "Swedish" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "sv" ] ;
+         fhir:display [ fhir:v "Svensk" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "sv-SE" ] ;
+       fhir:display [ fhir:v "Swedish (Sweden)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "sv-SE" ] ;
+         fhir:display [ fhir:v "Svensk (Sverige)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "te" ] ;
+       fhir:display [ fhir:v "Telugu" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "te" ] ;
+         fhir:display [ fhir:v "Telugu" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "zh" ] ;
+       fhir:display [ fhir:v "Chinese" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "zh" ] ;
+         fhir:display [ fhir:v "Kinesisk" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "zh-CN" ] ;
+       fhir:display [ fhir:v "Chinese (China)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "zh-CN" ] ;
+         fhir:display [ fhir:v "Kinesisk (Kina)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "zh-HK" ] ;
+       fhir:display [ fhir:v "Chinese (Hong Kong)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "zh-HK" ] ;
+         fhir:display [ fhir:v "Kinesisk (Hong Kong)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "zh-SG" ] ;
+       fhir:display [ fhir:v "Chinese (Singapore)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "zh-SG" ] ;
+         fhir:display [ fhir:v "Kinesisk (Singapore)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "zh-TW" ] ;
+       fhir:display [ fhir:v "Chinese (Taiwan)" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "zh-TW" ] ;
+         fhir:display [ fhir:v "Kinesisk (Taiwan)" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "TODO" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "bg" ] ;
+       fhir:display [ fhir:v "Bulgarian" ]
+     ] [
+       fhir:code [ fhir:v "bg-BG" ] ;
+       fhir:display [ fhir:v "Bulgarian (Bulgaria)" ]
+     ] [
+       fhir:code [ fhir:v "bs" ] ;
+       fhir:display [ fhir:v "Bosnian" ]
+     ] [
+       fhir:code [ fhir:v "bs-BA" ] ;
+       fhir:display [ fhir:v "Bosnian (Bosnia and Herzegovina))" ]
+     ] [
+       fhir:code [ fhir:v "cs-CZ" ] ;
+       fhir:display [ fhir:v "Czech (Czechia)" ]
+     ] [
+       fhir:code [ fhir:v "da-DK" ] ;
+       fhir:display [ fhir:v "Danish (Denmark)" ]
+     ] [
+       fhir:code [ fhir:v "el-GR" ] ;
+       fhir:display [ fhir:v "Greek (Greece)" ]
+     ] [
+       fhir:code [ fhir:v "et" ] ;
+       fhir:display [ fhir:v "Estonian" ]
+     ] [
+       fhir:code [ fhir:v "et-EE" ] ;
+       fhir:display [ fhir:v "Estonian (Estonia)" ]
+     ] [
+       fhir:code [ fhir:v "fi-FI" ] ;
+       fhir:display [ fhir:v "Finnish (Finland)" ]
+     ] [
+       fhir:code [ fhir:v "fr-CA" ] ;
+       fhir:display [ fhir:v "French (Canada)" ]
+     ] [
+       fhir:code [ fhir:v "hr-HR" ] ;
+       fhir:display [ fhir:v "Croatian (Croatia)" ]
+     ] [
+       fhir:code [ fhir:v "is" ] ;
+       fhir:display [ fhir:v "Icelandic" ]
+     ] [
+       fhir:code [ fhir:v "is-IS" ] ;
+       fhir:display [ fhir:v "Icelandic (Iceland)" ]
+     ] [
+       fhir:code [ fhir:v "lt" ] ;
+       fhir:display [ fhir:v "Lithuanian" ]
+     ] [
+       fhir:code [ fhir:v "lt-LT" ] ;
+       fhir:display [ fhir:v "Lithuanian (Lithuania)" ]
+     ] [
+       fhir:code [ fhir:v "lv" ] ;
+       fhir:display [ fhir:v "Latvian" ]
+     ] [
+       fhir:code [ fhir:v "lv-LV" ] ;
+       fhir:display [ fhir:v "Latvian (Latvia)" ]
+     ] [
+       fhir:code [ fhir:v "pl-PL" ] ;
+       fhir:display [ fhir:v "Polish (Poland)" ]
+     ] [
+       fhir:code [ fhir:v "pt-PT" ] ;
+       fhir:display [ fhir:v "Portuguese (Portugal)" ]
+     ] [
+       fhir:code [ fhir:v "ro" ] ;
+       fhir:display [ fhir:v "Romanian" ]
+     ] [
+       fhir:code [ fhir:v "ro-RO" ] ;
+       fhir:display [ fhir:v "Romanian (Romania)" ]
+     ] [
+       fhir:code [ fhir:v "sk" ] ;
+       fhir:display [ fhir:v "Slovakian" ]
+     ] [
+       fhir:code [ fhir:v "sk-SK" ] ;
+       fhir:display [ fhir:v "Slovakian (Slovakia)" ]
+     ] [
+       fhir:code [ fhir:v "sl" ] ;
+       fhir:display [ fhir:v "Slovenian" ]
+     ] [
+       fhir:code [ fhir:v "sl-SI" ] ;
+       fhir:display [ fhir:v "Slovenian (Slovenia)" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

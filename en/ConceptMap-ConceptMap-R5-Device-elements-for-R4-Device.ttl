@@ -1,0 +1,709 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-Device-elements-for-R4-Device> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-Device-elements-for-R4-Device"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-Device-elements-for-R4-Device</b></p><a name=\"ConceptMap-R5-Device-elements-for-R4-Device\"> </a><a name=\"hcConceptMap-R5-Device-elements-for-R4-Device\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Device|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Device|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">Device</td><td style=\"border-left-width: 0px\">Device</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Device` is representable via FHIR R4B Resource `Device`.\nElement `Device` is mapped to FHIR R4B element `Device`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.meta</td><td style=\"border-left-width: 0px\"/><td>Element `Device.meta` is mapped to FHIR R4B element `Device.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `Device.implicitRules` is mapped to FHIR R4B element `Device.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.language</td><td style=\"border-left-width: 0px\"/><td>Element `Device.language` is mapped to FHIR R4B element `Device.language`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.text</td><td style=\"border-left-width: 0px\"/><td>Element `Device.text` is mapped to FHIR R4B element `Device.text`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.contained</td><td style=\"border-left-width: 0px\"/><td>Element `Device.contained` is mapped to FHIR R4B element `Device.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `Device.identifier` is mapped to FHIR R4B element `Device.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.displayName</td><td style=\"border-left-width: 0px; border-bottom-style: none\">displayName</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.deviceName</td><td style=\"border-left-width: 0px\"/><td>Element `Device.displayName` is mapped to FHIR R4B element `Device.deviceName`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.udi</td><td style=\"border-left-width: 0px\"/><td>Element `Device.displayName` is mapped to FHIR STU3 element `Device.udi`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.definition</td><td style=\"border-left-width: 0px; border-bottom-style: none\">definition</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.definition</td><td style=\"border-left-width: 0px\"/><td>Element `Device.definition` is mapped to FHIR R4B element `Device.definition`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.definition</td><td style=\"border-left-width: 0px\"/><td>Element `Device.definition` is mapped to FHIR STU3 structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.udiCarrier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">udiCarrier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier</td><td style=\"border-left-width: 0px\"/><td>Element `Device.udiCarrier` is mapped to FHIR R4B element `Device.udiCarrier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.udi</td><td style=\"border-left-width: 0px\"/><td>Element `Device.udiCarrier` is mapped to FHIR STU3 element `Device.udi`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.udiCarrier.deviceIdentifier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">deviceIdentifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier.deviceIdentifier</td><td style=\"border-left-width: 0px\"/><td>Element `Device.udiCarrier.deviceIdentifier` is mapped to FHIR R4B element `Device.udiCarrier.deviceIdentifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.udi.deviceIdentifier</td><td style=\"border-left-width: 0px\"/><td>Element `Device.udiCarrier.deviceIdentifier` is mapped to FHIR STU3 element `Device.udi.deviceIdentifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">deviceIdentifier</td><td style=\"border-left-width: 0px\"/><td>Element `Device.udiCarrier.deviceIdentifier` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.udiCarrier.issuer</td><td style=\"border-left-width: 0px; border-bottom-style: none\">issuer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier.issuer</td><td style=\"border-left-width: 0px\"/><td>Element `Device.udiCarrier.issuer` is mapped to FHIR R4B element `Device.udiCarrier.issuer`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.udi.issuer</td><td style=\"border-left-width: 0px\"/><td>Element `Device.udiCarrier.issuer` is mapped to FHIR STU3 element `Device.udi.issuer`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">issuer</td><td style=\"border-left-width: 0px\"/><td>Element `Device.udiCarrier.issuer` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.udiCarrier.jurisdiction</td><td style=\"border-left-width: 0px; border-bottom-style: none\">jurisdiction</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier.jurisdiction</td><td style=\"border-left-width: 0px\"/><td>Element `Device.udiCarrier.jurisdiction` is mapped to FHIR R4B element `Device.udiCarrier.jurisdiction`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.udi.jurisdiction</td><td style=\"border-left-width: 0px\"/><td>Element `Device.udiCarrier.jurisdiction` is mapped to FHIR STU3 element `Device.udi.jurisdiction`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">jurisdiction</td><td style=\"border-left-width: 0px\"/><td>Element `Device.udiCarrier.jurisdiction` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.udiCarrier.carrierAIDC</td><td style=\"border-left-width: 0px; border-bottom-style: none\">carrierAIDC</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier.carrierAIDC</td><td style=\"border-left-width: 0px\"/><td>Element `Device.udiCarrier.carrierAIDC` is mapped to FHIR R4B element `Device.udiCarrier.carrierAIDC`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.udi.carrierAIDC</td><td style=\"border-left-width: 0px\"/><td>Element `Device.udiCarrier.carrierAIDC` is mapped to FHIR STU3 element `Device.udi.carrierAIDC`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">carrierAIDC</td><td style=\"border-left-width: 0px\"/><td>Element `Device.udiCarrier.carrierAIDC` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.udiCarrier.carrierHRF</td><td style=\"border-left-width: 0px; border-bottom-style: none\">carrierHRF</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier.carrierHRF</td><td style=\"border-left-width: 0px\"/><td>Element `Device.udiCarrier.carrierHRF` is mapped to FHIR R4B element `Device.udiCarrier.carrierHRF`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.udi.carrierHRF</td><td style=\"border-left-width: 0px\"/><td>Element `Device.udiCarrier.carrierHRF` is mapped to FHIR STU3 element `Device.udi.carrierHRF`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">carrierHRF</td><td style=\"border-left-width: 0px\"/><td>Element `Device.udiCarrier.carrierHRF` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.udiCarrier.entryType</td><td style=\"border-left-width: 0px; border-bottom-style: none\">entryType</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier.entryType</td><td style=\"border-left-width: 0px\"/><td>Element `Device.udiCarrier.entryType` is mapped to FHIR R4B element `Device.udiCarrier.entryType`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.udi.entryType</td><td style=\"border-left-width: 0px\"/><td>Element `Device.udiCarrier.entryType` is mapped to FHIR STU3 element `Device.udi.entryType`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">entryType</td><td style=\"border-left-width: 0px\"/><td>Element `Device.udiCarrier.entryType` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Device.status</td><td style=\"border-left-width: 0px\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.status</td><td style=\"border-left-width: 0px\"/><td>Element `Device.status` is mapped to FHIR R4B element `Device.status`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.availabilityStatus</td><td style=\"border-left-width: 0px\">availabilityStatus</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.availabilityStatus</td><td style=\"border-left-width: 0px\"/><td>Element `Device.availabilityStatus` is mapped to FHIR R4B structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Device.biologicalSourceEvent</td><td style=\"border-left-width: 0px\">biologicalSourceEvent</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.biologicalSourceEvent</td><td style=\"border-left-width: 0px\"/><td>Element `Device.biologicalSourceEvent` is mapped to FHIR R4B structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Device.manufacturer</td><td style=\"border-left-width: 0px\">manufacturer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.manufacturer</td><td style=\"border-left-width: 0px\"/><td>Element `Device.manufacturer` is mapped to FHIR R4B element `Device.manufacturer`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.manufactureDate</td><td style=\"border-left-width: 0px\">manufactureDate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.manufactureDate</td><td style=\"border-left-width: 0px\"/><td>Element `Device.manufactureDate` is mapped to FHIR R4B element `Device.manufactureDate`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.expirationDate</td><td style=\"border-left-width: 0px; border-bottom-style: none\">expirationDate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.expirationDate</td><td style=\"border-left-width: 0px\"/><td>Element `Device.expirationDate` is mapped to FHIR R4B element `Device.expirationDate`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.expiry</td><td style=\"border-left-width: 0px\"/><td>Element `Device.expirationDate` is mapped to FHIR DSTU2 element `Device.expiry`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.lotNumber</td><td style=\"border-left-width: 0px\">lotNumber</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.lotNumber</td><td style=\"border-left-width: 0px\"/><td>Element `Device.lotNumber` is mapped to FHIR R4B element `Device.lotNumber`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.serialNumber</td><td style=\"border-left-width: 0px; border-bottom-style: none\">serialNumber</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.serialNumber</td><td style=\"border-left-width: 0px\"/><td>Element `Device.serialNumber` is mapped to FHIR R4B element `Device.serialNumber`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.serialNumber</td><td style=\"border-left-width: 0px\"/><td>Element `Device.serialNumber` is mapped to FHIR STU3 structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.name</td><td style=\"border-left-width: 0px; border-bottom-style: none\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.deviceName</td><td style=\"border-left-width: 0px\"/><td>Element `Device.name` is mapped to FHIR R4B element `Device.deviceName`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.udi</td><td style=\"border-left-width: 0px\"/><td>Element `Device.name` is mapped to FHIR STU3 element `Device.udi`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.name.value</td><td style=\"border-left-width: 0px; border-bottom-style: none\">value</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.deviceName</td><td style=\"border-left-width: 0px\"/><td>Element `Device.name.value` is mapped to FHIR R4B element `Device.deviceName`.\nElement `Device.name.value` is mapped to FHIR R4B element `Device.deviceName.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.deviceName.name</td><td style=\"border-left-width: 0px\"/><td>Element `Device.name.value` is mapped to FHIR R4B element `Device.deviceName`.\nElement `Device.name.value` is mapped to FHIR R4B element `Device.deviceName.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.udi</td><td style=\"border-left-width: 0px\"/><td>Element `Device.name.value` is mapped to FHIR STU3 element `Device.udi`.\nElement `Device.name.value` is mapped to FHIR STU3 structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.name.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.deviceName.type</td><td style=\"border-left-width: 0px\"/><td>Element `Device.name.type` is mapped to FHIR R4B element `Device.deviceName.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">type</td><td style=\"border-left-width: 0px\"/><td>Element `Device.name.type` is mapped to FHIR STU3 structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.name.type</td><td style=\"border-left-width: 0px\"/><td>Element `Device.name.type` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.name.display</td><td style=\"border-left-width: 0px; border-bottom-style: none\">display</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.deviceName</td><td style=\"border-left-width: 0px\"/><td>Element `Device.name.display` is mapped to FHIR R4B element `Device.deviceName`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.udi</td><td style=\"border-left-width: 0px\"/><td>Element `Device.name.display` is mapped to FHIR STU3 element `Device.udi`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.modelNumber</td><td style=\"border-left-width: 0px; border-bottom-style: none\">modelNumber</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.modelNumber</td><td style=\"border-left-width: 0px\"/><td>Element `Device.modelNumber` is mapped to FHIR R4B element `Device.modelNumber`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.model</td><td style=\"border-left-width: 0px\"/><td>Element `Device.modelNumber` is mapped to FHIR STU3 element `Device.model`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.partNumber</td><td style=\"border-left-width: 0px; border-bottom-style: none\">partNumber</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.partNumber</td><td style=\"border-left-width: 0px\"/><td>Element `Device.partNumber` is mapped to FHIR R4B element `Device.partNumber`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.partNumber</td><td style=\"border-left-width: 0px\"/><td>Element `Device.partNumber` is mapped to FHIR STU3 structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Device.category</td><td style=\"border-left-width: 0px\">category</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.category</td><td style=\"border-left-width: 0px\"/><td>Element `Device.category` is mapped to FHIR R4B structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Device.type</td><td style=\"border-left-width: 0px\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.type</td><td style=\"border-left-width: 0px\"/><td>Element `Device.type` is mapped to FHIR R4B element `Device.type`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.version</td><td style=\"border-left-width: 0px\">version</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.version</td><td style=\"border-left-width: 0px\"/><td>Element `Device.version` is mapped to FHIR R4B element `Device.version`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.version.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.version.type</td><td style=\"border-left-width: 0px\"/><td>Element `Device.version.type` is mapped to FHIR R4B element `Device.version.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">type</td><td style=\"border-left-width: 0px\"/><td>Element `Device.version.type` is mapped to FHIR STU3 structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.version.component</td><td style=\"border-left-width: 0px; border-bottom-style: none\">component</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.version.component</td><td style=\"border-left-width: 0px\"/><td>Element `Device.version.component` is mapped to FHIR R4B element `Device.version.component`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">component</td><td style=\"border-left-width: 0px\"/><td>Element `Device.version.component` is mapped to FHIR STU3 structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.version.installDate</td><td style=\"border-left-width: 0px; border-bottom-style: none\">installDate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.version.installDate</td><td style=\"border-left-width: 0px\"/><td>Element `Device.version.installDate` is mapped to FHIR R4B structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">installDate</td><td style=\"border-left-width: 0px\"/><td>Element `Device.version.installDate` is mapped to FHIR STU3 structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.version.value</td><td style=\"border-left-width: 0px; border-bottom-style: none\">value</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.version.value</td><td style=\"border-left-width: 0px\"/><td>Element `Device.version.value` is mapped to FHIR R4B element `Device.version.value`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">value</td><td style=\"border-left-width: 0px\"/><td>Element `Device.version.value` is mapped to FHIR STU3 structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.conformsTo</td><td style=\"border-left-width: 0px; border-bottom-style: none\">conformsTo</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.specialization</td><td style=\"border-left-width: 0px\"/><td>Element `Device.conformsTo` is mapped to FHIR R4B element `Device.specialization`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.conformsTo</td><td style=\"border-left-width: 0px\"/><td>Element `Device.conformsTo` is mapped to FHIR STU3 structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.conformsTo.category</td><td style=\"border-left-width: 0px; border-bottom-style: none\">category</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.specialization</td><td style=\"border-left-width: 0px\"/><td>Element `Device.conformsTo.category` is mapped to FHIR R4B element `Device.specialization`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.conformsTo:category</td><td style=\"border-left-width: 0px\"/><td>Element `Device.conformsTo.category` is part of an existing definition because parent element `Device.conformsTo` requires a cross-version extension.\nElement `Device.conformsTo.category` is mapped to FHIR STU3 structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.conformsTo.specification</td><td style=\"border-left-width: 0px; border-bottom-style: none\">specification</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.specialization</td><td style=\"border-left-width: 0px\"/><td>Element `Device.conformsTo.specification` is mapped to FHIR R4B element `Device.specialization`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.conformsTo:specification</td><td style=\"border-left-width: 0px\"/><td>Element `Device.conformsTo.specification` is part of an existing definition because parent element `Device.conformsTo` requires a cross-version extension.\nElement `Device.conformsTo.specification` is mapped to FHIR STU3 structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.conformsTo.version</td><td style=\"border-left-width: 0px; border-bottom-style: none\">version</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.conformsTo.version</td><td style=\"border-left-width: 0px\"/><td>Element `Device.conformsTo.version` is mapped to FHIR R4B structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.conformsTo:version</td><td style=\"border-left-width: 0px\"/><td>Element `Device.conformsTo.version` is part of an existing definition because parent element `Device.conformsTo` requires a cross-version extension.\nElement `Device.conformsTo.version` is mapped to FHIR STU3 structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.property</td><td style=\"border-left-width: 0px; border-bottom-style: none\">property</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.property</td><td style=\"border-left-width: 0px\"/><td>Element `Device.property` is mapped to FHIR R4B element `Device.property`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.property</td><td style=\"border-left-width: 0px\"/><td>Element `Device.property` is mapped to FHIR STU3 structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.property.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.property.type</td><td style=\"border-left-width: 0px\"/><td>Element `Device.property.type` is mapped to FHIR R4B element `Device.property.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.property:type</td><td style=\"border-left-width: 0px\"/><td>Element `Device.property.type` is part of an existing definition because parent element `Device.property` requires a cross-version extension.\nElement `Device.property.type` is mapped to FHIR STU3 structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.property.value[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">value[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.property.valueCode</td><td style=\"border-left-width: 0px\"/><td>Element `Device.property.value[x]` is mapped to FHIR R4B element `Device.property.valueQuantity`.\nElement `Device.property.value[x]` is mapped to FHIR R4B element `Device.property.valueCode`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.property.valueQuantity</td><td style=\"border-left-width: 0px\"/><td>Element `Device.property.value[x]` is mapped to FHIR R4B element `Device.property.valueQuantity`.\nElement `Device.property.value[x]` is mapped to FHIR R4B element `Device.property.valueCode`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.property:value</td><td style=\"border-left-width: 0px\"/><td>Element `Device.property.value[x]` is part of an existing definition because parent element `Device.property` requires a cross-version extension.\nElement `Device.property.value[x]` is mapped to FHIR STU3 structure `Device`, but has no target element specified.\nElement `Device.property.value[x]` is mapped to FHIR STU3 structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Device.mode</td><td style=\"border-left-width: 0px\">mode</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.mode</td><td style=\"border-left-width: 0px\"/><td>Element `Device.mode` is mapped to FHIR R4B structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Device.cycle</td><td style=\"border-left-width: 0px\">cycle</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.cycle</td><td style=\"border-left-width: 0px\"/><td>Element `Device.cycle` is mapped to FHIR R4B structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Device.duration</td><td style=\"border-left-width: 0px\">duration</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.duration</td><td style=\"border-left-width: 0px\"/><td>Element `Device.duration` is mapped to FHIR R4B structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Device.owner</td><td style=\"border-left-width: 0px\">owner</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.owner</td><td style=\"border-left-width: 0px\"/><td>Element `Device.owner` is mapped to FHIR R4B element `Device.owner`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.contact</td><td style=\"border-left-width: 0px\">contact</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.contact</td><td style=\"border-left-width: 0px\"/><td>Element `Device.contact` is mapped to FHIR R4B element `Device.contact`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.location</td><td style=\"border-left-width: 0px\">location</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.location</td><td style=\"border-left-width: 0px\"/><td>Element `Device.location` is mapped to FHIR R4B element `Device.location`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.url</td><td style=\"border-left-width: 0px\">url</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.url</td><td style=\"border-left-width: 0px\"/><td>Element `Device.url` is mapped to FHIR R4B element `Device.url`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.endpoint</td><td style=\"border-left-width: 0px\">endpoint</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.endpoint</td><td style=\"border-left-width: 0px\"/><td>Element `Device.endpoint` is mapped to FHIR R4B structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Device.gateway</td><td style=\"border-left-width: 0px\">gateway</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.gateway</td><td style=\"border-left-width: 0px\"/><td>Element `Device.gateway` is mapped to FHIR R4B structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Device.note</td><td style=\"border-left-width: 0px\">note</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.note</td><td style=\"border-left-width: 0px\"/><td>Element `Device.note` is mapped to FHIR R4B element `Device.note`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.safety</td><td style=\"border-left-width: 0px; border-bottom-style: none\">safety</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.safety</td><td style=\"border-left-width: 0px\"/><td>Element `Device.safety` is mapped to FHIR R4B element `Device.safety`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.safety</td><td style=\"border-left-width: 0px\"/><td>Element `Device.safety` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.parent</td><td style=\"border-left-width: 0px; border-bottom-style: none\">parent</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.parent</td><td style=\"border-left-width: 0px\"/><td>Element `Device.parent` is mapped to FHIR R4B element `Device.parent`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.parent</td><td style=\"border-left-width: 0px\"/><td>Element `Device.parent` is mapped to FHIR STU3 structure `Device`, but has no target element specified.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Device-elements-for-R4-Device"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Device-elements-for-R4-Device>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5DeviceElementsForR4Device"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:32.0737623-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Device"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Device>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Device" ] ;
+       fhir:display [ fhir:v "Device" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Device` is representable via FHIR R4B Resource `Device`.\nElement `Device` is mapped to FHIR R4B element `Device`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.meta` is mapped to FHIR R4B element `Device.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.implicitRules` is mapped to FHIR R4B element `Device.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.language` is mapped to FHIR R4B element `Device.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.text` is mapped to FHIR R4B element `Device.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.contained` is mapped to FHIR R4B element `Device.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.identifier` is mapped to FHIR R4B element `Device.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.displayName" ] ;
+       fhir:display [ fhir:v "displayName" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.deviceName" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.displayName` is mapped to FHIR R4B element `Device.deviceName`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.udi" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.displayName` is mapped to FHIR STU3 element `Device.udi`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.definition" ] ;
+       fhir:display [ fhir:v "definition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.definition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.definition` is mapped to FHIR R4B element `Device.definition`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.definition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.definition` is mapped to FHIR STU3 structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.udiCarrier" ] ;
+       fhir:display [ fhir:v "udiCarrier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier` is mapped to FHIR R4B element `Device.udiCarrier`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.udi" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier` is mapped to FHIR STU3 element `Device.udi`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.udiCarrier.deviceIdentifier" ] ;
+       fhir:display [ fhir:v "deviceIdentifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier.deviceIdentifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier.deviceIdentifier` is mapped to FHIR R4B element `Device.udiCarrier.deviceIdentifier`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.udi.deviceIdentifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier.deviceIdentifier` is mapped to FHIR STU3 element `Device.udi.deviceIdentifier`." ]
+       ] [
+         fhir:code [ fhir:v "deviceIdentifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier.deviceIdentifier` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.udiCarrier.issuer" ] ;
+       fhir:display [ fhir:v "issuer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier.issuer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier.issuer` is mapped to FHIR R4B element `Device.udiCarrier.issuer`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.udi.issuer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier.issuer` is mapped to FHIR STU3 element `Device.udi.issuer`." ]
+       ] [
+         fhir:code [ fhir:v "issuer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier.issuer` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.udiCarrier.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier.jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier.jurisdiction` is mapped to FHIR R4B element `Device.udiCarrier.jurisdiction`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.udi.jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier.jurisdiction` is mapped to FHIR STU3 element `Device.udi.jurisdiction`." ]
+       ] [
+         fhir:code [ fhir:v "jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier.jurisdiction` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.udiCarrier.carrierAIDC" ] ;
+       fhir:display [ fhir:v "carrierAIDC" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier.carrierAIDC" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier.carrierAIDC` is mapped to FHIR R4B element `Device.udiCarrier.carrierAIDC`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.udi.carrierAIDC" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier.carrierAIDC` is mapped to FHIR STU3 element `Device.udi.carrierAIDC`." ]
+       ] [
+         fhir:code [ fhir:v "carrierAIDC" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier.carrierAIDC` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.udiCarrier.carrierHRF" ] ;
+       fhir:display [ fhir:v "carrierHRF" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier.carrierHRF" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier.carrierHRF` is mapped to FHIR R4B element `Device.udiCarrier.carrierHRF`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.udi.carrierHRF" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier.carrierHRF` is mapped to FHIR STU3 element `Device.udi.carrierHRF`." ]
+       ] [
+         fhir:code [ fhir:v "carrierHRF" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier.carrierHRF` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.udiCarrier.entryType" ] ;
+       fhir:display [ fhir:v "entryType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.udiCarrier.entryType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier.entryType` is mapped to FHIR R4B element `Device.udiCarrier.entryType`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.udi.entryType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier.entryType` is mapped to FHIR STU3 element `Device.udi.entryType`." ]
+       ] [
+         fhir:code [ fhir:v "entryType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier.entryType` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.status` is mapped to FHIR R4B element `Device.status`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.availabilityStatus" ] ;
+       fhir:display [ fhir:v "availabilityStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.availabilityStatus" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.availabilityStatus` is mapped to FHIR R4B structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.biologicalSourceEvent" ] ;
+       fhir:display [ fhir:v "biologicalSourceEvent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.biologicalSourceEvent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.biologicalSourceEvent` is mapped to FHIR R4B structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.manufacturer" ] ;
+       fhir:display [ fhir:v "manufacturer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.manufacturer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.manufacturer` is mapped to FHIR R4B element `Device.manufacturer`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.manufactureDate" ] ;
+       fhir:display [ fhir:v "manufactureDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.manufactureDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.manufactureDate` is mapped to FHIR R4B element `Device.manufactureDate`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.expirationDate" ] ;
+       fhir:display [ fhir:v "expirationDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.expirationDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.expirationDate` is mapped to FHIR R4B element `Device.expirationDate`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.expiry" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.expirationDate` is mapped to FHIR DSTU2 element `Device.expiry`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.lotNumber" ] ;
+       fhir:display [ fhir:v "lotNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.lotNumber" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.lotNumber` is mapped to FHIR R4B element `Device.lotNumber`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.serialNumber" ] ;
+       fhir:display [ fhir:v "serialNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.serialNumber" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.serialNumber` is mapped to FHIR R4B element `Device.serialNumber`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.serialNumber" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.serialNumber` is mapped to FHIR STU3 structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.deviceName" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.name` is mapped to FHIR R4B element `Device.deviceName`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.udi" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.name` is mapped to FHIR STU3 element `Device.udi`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.name.value" ] ;
+       fhir:display [ fhir:v "value" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.deviceName" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.name.value` is mapped to FHIR R4B element `Device.deviceName`.\nElement `Device.name.value` is mapped to FHIR R4B element `Device.deviceName.name`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.deviceName.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.name.value` is mapped to FHIR R4B element `Device.deviceName`.\nElement `Device.name.value` is mapped to FHIR R4B element `Device.deviceName.name`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.udi" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.name.value` is mapped to FHIR STU3 element `Device.udi`.\nElement `Device.name.value` is mapped to FHIR STU3 structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.name.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.deviceName.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.name.type` is mapped to FHIR R4B element `Device.deviceName.type`." ]
+       ] [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.name.type` is mapped to FHIR STU3 structure `Device`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.name.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.name.type` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.name.display" ] ;
+       fhir:display [ fhir:v "display" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.deviceName" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.name.display` is mapped to FHIR R4B element `Device.deviceName`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.udi" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.name.display` is mapped to FHIR STU3 element `Device.udi`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.modelNumber" ] ;
+       fhir:display [ fhir:v "modelNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.modelNumber" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.modelNumber` is mapped to FHIR R4B element `Device.modelNumber`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.model" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.modelNumber` is mapped to FHIR STU3 element `Device.model`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.partNumber" ] ;
+       fhir:display [ fhir:v "partNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.partNumber" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.partNumber` is mapped to FHIR R4B element `Device.partNumber`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.partNumber" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.partNumber` is mapped to FHIR STU3 structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.category` is mapped to FHIR R4B structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.type` is mapped to FHIR R4B element `Device.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.version" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.version` is mapped to FHIR R4B element `Device.version`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.version.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.version.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.version.type` is mapped to FHIR R4B element `Device.version.type`." ]
+       ] [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.version.type` is mapped to FHIR STU3 structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.version.component" ] ;
+       fhir:display [ fhir:v "component" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.version.component" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.version.component` is mapped to FHIR R4B element `Device.version.component`." ]
+       ] [
+         fhir:code [ fhir:v "component" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.version.component` is mapped to FHIR STU3 structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.version.installDate" ] ;
+       fhir:display [ fhir:v "installDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.version.installDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.version.installDate` is mapped to FHIR R4B structure `Device`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "installDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.version.installDate` is mapped to FHIR STU3 structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.version.value" ] ;
+       fhir:display [ fhir:v "value" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.version.value" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.version.value` is mapped to FHIR R4B element `Device.version.value`." ]
+       ] [
+         fhir:code [ fhir:v "value" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.version.value` is mapped to FHIR STU3 structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.conformsTo" ] ;
+       fhir:display [ fhir:v "conformsTo" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.specialization" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.conformsTo` is mapped to FHIR R4B element `Device.specialization`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.conformsTo" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.conformsTo` is mapped to FHIR STU3 structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.conformsTo.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.specialization" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.conformsTo.category` is mapped to FHIR R4B element `Device.specialization`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.conformsTo:category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.conformsTo.category` is part of an existing definition because parent element `Device.conformsTo` requires a cross-version extension.\nElement `Device.conformsTo.category` is mapped to FHIR STU3 structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.conformsTo.specification" ] ;
+       fhir:display [ fhir:v "specification" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.specialization" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.conformsTo.specification` is mapped to FHIR R4B element `Device.specialization`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.conformsTo:specification" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.conformsTo.specification` is part of an existing definition because parent element `Device.conformsTo` requires a cross-version extension.\nElement `Device.conformsTo.specification` is mapped to FHIR STU3 structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.conformsTo.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.conformsTo.version" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.conformsTo.version` is mapped to FHIR R4B structure `Device`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.conformsTo:version" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.conformsTo.version` is part of an existing definition because parent element `Device.conformsTo` requires a cross-version extension.\nElement `Device.conformsTo.version` is mapped to FHIR STU3 structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.property" ] ;
+       fhir:display [ fhir:v "property" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.property" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.property` is mapped to FHIR R4B element `Device.property`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.property" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.property` is mapped to FHIR STU3 structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.property.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.property.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.property.type` is mapped to FHIR R4B element `Device.property.type`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.property:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.property.type` is part of an existing definition because parent element `Device.property` requires a cross-version extension.\nElement `Device.property.type` is mapped to FHIR STU3 structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.property.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.property.valueCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.property.value[x]` is mapped to FHIR R4B element `Device.property.valueQuantity`.\nElement `Device.property.value[x]` is mapped to FHIR R4B element `Device.property.valueCode`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.property.valueQuantity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.property.value[x]` is mapped to FHIR R4B element `Device.property.valueQuantity`.\nElement `Device.property.value[x]` is mapped to FHIR R4B element `Device.property.valueCode`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.property:value" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.property.value[x]` is part of an existing definition because parent element `Device.property` requires a cross-version extension.\nElement `Device.property.value[x]` is mapped to FHIR STU3 structure `Device`, but has no target element specified.\nElement `Device.property.value[x]` is mapped to FHIR STU3 structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.mode" ] ;
+       fhir:display [ fhir:v "mode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.mode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.mode` is mapped to FHIR R4B structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.cycle" ] ;
+       fhir:display [ fhir:v "cycle" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.cycle" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.cycle` is mapped to FHIR R4B structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.duration" ] ;
+       fhir:display [ fhir:v "duration" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.duration" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.duration` is mapped to FHIR R4B structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.owner" ] ;
+       fhir:display [ fhir:v "owner" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.owner" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.owner` is mapped to FHIR R4B element `Device.owner`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.contact" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.contact` is mapped to FHIR R4B element `Device.contact`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.location" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.location` is mapped to FHIR R4B element `Device.location`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.url" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.url` is mapped to FHIR R4B element `Device.url`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.endpoint" ] ;
+       fhir:display [ fhir:v "endpoint" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.endpoint" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.endpoint` is mapped to FHIR R4B structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.gateway" ] ;
+       fhir:display [ fhir:v "gateway" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.gateway" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.gateway` is mapped to FHIR R4B structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.note` is mapped to FHIR R4B element `Device.note`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.safety" ] ;
+       fhir:display [ fhir:v "safety" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.safety" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.safety` is mapped to FHIR R4B element `Device.safety`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.safety" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.safety` is mapped to FHIR DSTU2 structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.parent" ] ;
+       fhir:display [ fhir:v "parent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.parent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.parent` is mapped to FHIR R4B element `Device.parent`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.parent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.parent` is mapped to FHIR STU3 structure `Device`, but has no target element specified." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

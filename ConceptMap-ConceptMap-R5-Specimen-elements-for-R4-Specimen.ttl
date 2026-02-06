@@ -1,0 +1,464 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-Specimen-elements-for-R4-Specimen> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-Specimen-elements-for-R4-Specimen"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-Specimen-elements-for-R4-Specimen</b></p><a name=\"ConceptMap-R5-Specimen-elements-for-R4-Specimen\"> </a><a name=\"hcConceptMap-R5-Specimen-elements-for-R4-Specimen\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Specimen|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Specimen|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">Specimen</td><td style=\"border-left-width: 0px\">Specimen</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Specimen` is representable via FHIR R4B Resource `Specimen`.\nElement `Specimen` is mapped to FHIR R4B element `Specimen`.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.meta</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.meta` is mapped to FHIR R4B element `Specimen.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.implicitRules` is mapped to FHIR R4B element `Specimen.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.language</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.language` is mapped to FHIR R4B element `Specimen.language`.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.text</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.text` is mapped to FHIR R4B element `Specimen.text`.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.contained</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.contained` is mapped to FHIR R4B element `Specimen.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.identifier` is mapped to FHIR R4B element `Specimen.identifier`.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.accessionIdentifier</td><td style=\"border-left-width: 0px\">accessionIdentifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.accessionIdentifier</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.accessionIdentifier` is mapped to FHIR R4B element `Specimen.accessionIdentifier`.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.status</td><td style=\"border-left-width: 0px\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.status</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.status` is mapped to FHIR R4B element `Specimen.status`.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.type</td><td style=\"border-left-width: 0px\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.type</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.type` is mapped to FHIR R4B element `Specimen.type`.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.subject</td><td style=\"border-left-width: 0px\">subject</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.subject</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.subject`, use that element instead.\nElement `Specimen.subject` is mapped to FHIR R4B element `Specimen.subject`.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.receivedTime</td><td style=\"border-left-width: 0px\">receivedTime</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.receivedTime</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.receivedTime` is mapped to FHIR R4B element `Specimen.receivedTime`.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.parent</td><td style=\"border-left-width: 0px\">parent</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.parent</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.parent` is mapped to FHIR R4B element `Specimen.parent`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Specimen.request</td><td style=\"border-left-width: 0px; border-bottom-style: none\">request</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.request</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.request` is mapped to FHIR R4B element `Specimen.request`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.request</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.request` is mapped to FHIR DSTU2 structure `Specimen`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.combined</td><td style=\"border-left-width: 0px\">combined</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.combined</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.combined` is mapped to FHIR R4B structure `Specimen`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.role</td><td style=\"border-left-width: 0px\">role</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.role</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.role` is mapped to FHIR R4B structure `Specimen`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.feature</td><td style=\"border-left-width: 0px\">feature</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.feature` is mapped to FHIR R4B structure `Specimen`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.feature.type</td><td style=\"border-left-width: 0px\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature:type</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.feature.type` is part of an existing definition because parent element `Specimen.feature` requires a cross-version extension.\nElement `Specimen.feature.type` is mapped to FHIR R4B structure `Specimen`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.feature.description</td><td style=\"border-left-width: 0px\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature:description</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.feature.description` is part of an existing definition because parent element `Specimen.feature` requires a cross-version extension.\nElement `Specimen.feature.description` is mapped to FHIR R4B structure `Specimen`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.collection</td><td style=\"border-left-width: 0px\">collection</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.collection` is mapped to FHIR R4B element `Specimen.collection`.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.collection.collector</td><td style=\"border-left-width: 0px\">collector</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection.collector</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.collection.collector` is mapped to FHIR R4B element `Specimen.collection.collector`.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.collection.collected[x]</td><td style=\"border-left-width: 0px\">collected[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection.collected[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Specimen.collection.collected[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.collection`.\nElement `Specimen.collection.collected[x]` is mapped to FHIR R4B element `Specimen.collection.collected[x]`.\nNote that the target element context `Specimen.collection.collected[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.collection`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Specimen.collection.duration</td><td style=\"border-left-width: 0px; border-bottom-style: none\">duration</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection.duration</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.collection.duration` is mapped to FHIR R4B element `Specimen.collection.duration`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.duration</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.collection.duration` is mapped to FHIR STU3 structure `Specimen`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.collection.quantity</td><td style=\"border-left-width: 0px\">quantity</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection.quantity</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.collection.quantity` is mapped to FHIR R4B element `Specimen.collection.quantity`.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.collection.method</td><td style=\"border-left-width: 0px\">method</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection.method</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.collection.method` is mapped to FHIR R4B element `Specimen.collection.method`.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.collection.device</td><td style=\"border-left-width: 0px\">device</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.device</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.collection.device` is mapped to FHIR R4B structure `Specimen`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.collection.procedure</td><td style=\"border-left-width: 0px\">procedure</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.procedure</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.collection.procedure` is mapped to FHIR R4B structure `Specimen`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.collection.bodySite</td><td style=\"border-left-width: 0px\">bodySite</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection.bodySite</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.collection.bodySite` is mapped to FHIR R4B element `Specimen.collection.bodySite`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Specimen.collection.fastingStatus[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">fastingStatus[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection.fastingStatus[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Specimen.collection.fastingStatus[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.collection`.\nElement `Specimen.collection.fastingStatus[x]` is mapped to FHIR R4B element `Specimen.collection.fastingStatus[x]`.\nNote that the target element context `Specimen.collection.fastingStatus[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.collection`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.fastingStatus</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.collection.fastingStatus[x]` is mapped to FHIR STU3 structure `Specimen`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Specimen.processing</td><td style=\"border-left-width: 0px; border-bottom-style: none\">processing</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.processing</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.processing` is mapped to FHIR R4B element `Specimen.processing`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.treatment</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.processing` is mapped to FHIR DSTU2 element `Specimen.treatment`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Specimen.processing.description</td><td style=\"border-left-width: 0px; border-bottom-style: none\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.processing.description</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.processing.description` is mapped to FHIR R4B element `Specimen.processing.description`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.treatment.description</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.processing.description` is mapped to FHIR DSTU2 element `Specimen.treatment.description`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Specimen.processing.method</td><td style=\"border-left-width: 0px; border-bottom-style: none\">method</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.processing.procedure</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.processing.method` is mapped to FHIR R4B element `Specimen.processing.procedure`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.treatment.procedure</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.processing.method` is mapped to FHIR DSTU2 element `Specimen.treatment.procedure`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Specimen.processing.additive</td><td style=\"border-left-width: 0px; border-bottom-style: none\">additive</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.processing.additive</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.processing.additive` is mapped to FHIR R4B element `Specimen.processing.additive`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.treatment.additive</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.processing.additive` is mapped to FHIR DSTU2 element `Specimen.treatment.additive`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Specimen.processing.time[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">time[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.processing.time[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Specimen.processing.time[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.processing`.\nElement `Specimen.processing.time[x]` is mapped to FHIR R4B element `Specimen.processing.time[x]`.\nNote that the target element context `Specimen.processing.time[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.processing`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.processing.time</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.processing.time[x]` is mapped to FHIR DSTU2 structure `Specimen`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.container</td><td style=\"border-left-width: 0px\">container</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.container</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.container` is mapped to FHIR R4B element `Specimen.container`.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.container.device</td><td style=\"border-left-width: 0px\">device</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.device</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.container.device` is mapped to FHIR R4B structure `Specimen`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.container.location</td><td style=\"border-left-width: 0px\">location</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.location</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.container.location` is mapped to FHIR R4B structure `Specimen`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Specimen.container.specimenQuantity</td><td style=\"border-left-width: 0px\">specimenQuantity</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.container.specimenQuantity</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.container.specimenQuantity` is mapped to FHIR R4B element `Specimen.container.specimenQuantity`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Specimen.condition</td><td style=\"border-left-width: 0px; border-bottom-style: none\">condition</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.condition</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.condition` is mapped to FHIR R4B element `Specimen.condition`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.condition</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.condition` is mapped to FHIR STU3 structure `Specimen`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Specimen.note</td><td style=\"border-left-width: 0px; border-bottom-style: none\">note</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.note</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.note` is mapped to FHIR R4B element `Specimen.note`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection.comment</td><td style=\"border-left-width: 0px\"/><td>Element `Specimen.note` is mapped to FHIR DSTU2 element `Specimen.collection.comment`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Specimen-elements-for-R4-Specimen"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Specimen-elements-for-R4-Specimen>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5SpecimenElementsForR4Specimen"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:34.2707312-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Specimen>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Specimen" ] ;
+       fhir:display [ fhir:v "Specimen" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Specimen` is representable via FHIR R4B Resource `Specimen`.\nElement `Specimen` is mapped to FHIR R4B element `Specimen`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.meta` is mapped to FHIR R4B element `Specimen.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.implicitRules` is mapped to FHIR R4B element `Specimen.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.language` is mapped to FHIR R4B element `Specimen.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.text` is mapped to FHIR R4B element `Specimen.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.contained` is mapped to FHIR R4B element `Specimen.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.identifier` is mapped to FHIR R4B element `Specimen.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.accessionIdentifier" ] ;
+       fhir:display [ fhir:v "accessionIdentifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.accessionIdentifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.accessionIdentifier` is mapped to FHIR R4B element `Specimen.accessionIdentifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.status` is mapped to FHIR R4B element `Specimen.status`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.type` is mapped to FHIR R4B element `Specimen.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `Specimen.subject` is mapped to FHIR R4B element `Specimen.subject`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.receivedTime" ] ;
+       fhir:display [ fhir:v "receivedTime" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.receivedTime" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.receivedTime` is mapped to FHIR R4B element `Specimen.receivedTime`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.parent" ] ;
+       fhir:display [ fhir:v "parent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.parent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.parent` is mapped to FHIR R4B element `Specimen.parent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.request" ] ;
+       fhir:display [ fhir:v "request" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.request" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.request` is mapped to FHIR R4B element `Specimen.request`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.request" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.request` is mapped to FHIR DSTU2 structure `Specimen`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.combined" ] ;
+       fhir:display [ fhir:v "combined" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.combined" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.combined` is mapped to FHIR R4B structure `Specimen`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.role" ] ;
+       fhir:display [ fhir:v "role" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.role" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.role` is mapped to FHIR R4B structure `Specimen`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.feature" ] ;
+       fhir:display [ fhir:v "feature" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.feature` is mapped to FHIR R4B structure `Specimen`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.feature.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.feature.type` is part of an existing definition because parent element `Specimen.feature` requires a cross-version extension.\nElement `Specimen.feature.type` is mapped to FHIR R4B structure `Specimen`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.feature.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature:description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.feature.description` is part of an existing definition because parent element `Specimen.feature` requires a cross-version extension.\nElement `Specimen.feature.description` is mapped to FHIR R4B structure `Specimen`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.collection" ] ;
+       fhir:display [ fhir:v "collection" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.collection` is mapped to FHIR R4B element `Specimen.collection`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.collection.collector" ] ;
+       fhir:display [ fhir:v "collector" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection.collector" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.collection.collector` is mapped to FHIR R4B element `Specimen.collection.collector`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.collection.collected[x]" ] ;
+       fhir:display [ fhir:v "collected[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection.collected[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Specimen.collection.collected[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.collection`.\nElement `Specimen.collection.collected[x]` is mapped to FHIR R4B element `Specimen.collection.collected[x]`.\nNote that the target element context `Specimen.collection.collected[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.collection`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.collection.duration" ] ;
+       fhir:display [ fhir:v "duration" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection.duration" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.collection.duration` is mapped to FHIR R4B element `Specimen.collection.duration`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.duration" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.collection.duration` is mapped to FHIR STU3 structure `Specimen`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.collection.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection.quantity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.collection.quantity` is mapped to FHIR R4B element `Specimen.collection.quantity`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.collection.method" ] ;
+       fhir:display [ fhir:v "method" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection.method" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.collection.method` is mapped to FHIR R4B element `Specimen.collection.method`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.collection.device" ] ;
+       fhir:display [ fhir:v "device" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.device" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.collection.device` is mapped to FHIR R4B structure `Specimen`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.collection.procedure" ] ;
+       fhir:display [ fhir:v "procedure" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.procedure" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.collection.procedure` is mapped to FHIR R4B structure `Specimen`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.collection.bodySite" ] ;
+       fhir:display [ fhir:v "bodySite" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection.bodySite" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.collection.bodySite` is mapped to FHIR R4B element `Specimen.collection.bodySite`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.collection.fastingStatus[x]" ] ;
+       fhir:display [ fhir:v "fastingStatus[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection.fastingStatus[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Specimen.collection.fastingStatus[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.collection`.\nElement `Specimen.collection.fastingStatus[x]` is mapped to FHIR R4B element `Specimen.collection.fastingStatus[x]`.\nNote that the target element context `Specimen.collection.fastingStatus[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.collection`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.fastingStatus" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.collection.fastingStatus[x]` is mapped to FHIR STU3 structure `Specimen`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.processing" ] ;
+       fhir:display [ fhir:v "processing" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.processing" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.processing` is mapped to FHIR R4B element `Specimen.processing`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.treatment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.processing` is mapped to FHIR DSTU2 element `Specimen.treatment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.processing.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.processing.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.processing.description` is mapped to FHIR R4B element `Specimen.processing.description`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.treatment.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.processing.description` is mapped to FHIR DSTU2 element `Specimen.treatment.description`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.processing.method" ] ;
+       fhir:display [ fhir:v "method" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.processing.procedure" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.processing.method` is mapped to FHIR R4B element `Specimen.processing.procedure`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.treatment.procedure" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.processing.method` is mapped to FHIR DSTU2 element `Specimen.treatment.procedure`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.processing.additive" ] ;
+       fhir:display [ fhir:v "additive" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.processing.additive" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.processing.additive` is mapped to FHIR R4B element `Specimen.processing.additive`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.treatment.additive" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.processing.additive` is mapped to FHIR DSTU2 element `Specimen.treatment.additive`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.processing.time[x]" ] ;
+       fhir:display [ fhir:v "time[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.processing.time[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Specimen.processing.time[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.processing`.\nElement `Specimen.processing.time[x]` is mapped to FHIR R4B element `Specimen.processing.time[x]`.\nNote that the target element context `Specimen.processing.time[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.processing`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.processing.time" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.processing.time[x]` is mapped to FHIR DSTU2 structure `Specimen`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.container" ] ;
+       fhir:display [ fhir:v "container" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.container" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.container` is mapped to FHIR R4B element `Specimen.container`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.container.device" ] ;
+       fhir:display [ fhir:v "device" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.device" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.container.device` is mapped to FHIR R4B structure `Specimen`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.container.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.location" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.container.location` is mapped to FHIR R4B structure `Specimen`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.container.specimenQuantity" ] ;
+       fhir:display [ fhir:v "specimenQuantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.container.specimenQuantity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.container.specimenQuantity` is mapped to FHIR R4B element `Specimen.container.specimenQuantity`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.condition" ] ;
+       fhir:display [ fhir:v "condition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.condition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.condition` is mapped to FHIR R4B element `Specimen.condition`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.condition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.condition` is mapped to FHIR STU3 structure `Specimen`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Specimen.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.note` is mapped to FHIR R4B element `Specimen.note`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection.comment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Specimen.note` is mapped to FHIR DSTU2 element `Specimen.collection.comment`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

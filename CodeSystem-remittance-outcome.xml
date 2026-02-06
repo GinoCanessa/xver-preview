@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="remittance-outcome"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/remittance-outcome</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">complete
+                  <a name="remittance-outcome-complete"> </a>
+                </td>
+                <td>Complete</td>
+                <td>The processing completed without errors.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">error
+                  <a name="remittance-outcome-error"> </a>
+                </td>
+                <td>Error</td>
+                <td>The processing identified errors.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">partial
+                  <a name="remittance-outcome-partial"> </a>
+                </td>
+                <td>Partial</td>
+                <td>No errors have been detected and some of the adjudication has been performed.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fm"/>
+  </extension>
+  <url value="http://hl7.org/fhir/remittance-outcome"/>
+  <version value="5.0.0"/>
+  <name value="RemittanceOutcome"/>
+  <title value="RemittanceOutcome"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2023-03-25T23:21:02-05:00"/>
+  <publisher value="Financial Management"/>
+  <contact>
+    <name value="Financial Management"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fm"/>
+    </telecom>
+  </contact>
+  <description value="The outcome of the processing."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/remittance-outcome|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="complete"/>
+    <display value="Complete"/>
+    <definition value="The processing completed without errors."/>
+  </concept>
+  <concept>
+    <code value="error"/>
+    <display value="Error"/>
+    <definition value="The processing identified errors."/>
+  </concept>
+  <concept>
+    <code value="partial"/>
+    <display value="Partial"/>
+    <definition value="No errors have been detected and some of the adjudication has been performed."/>
+  </concept>
+</CodeSystem>

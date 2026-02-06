@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="virtual-service-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/virtual-service-type</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">zoom
+                  <a name="virtual-service-type-zoom"> </a>
+                </td>
+                <td>Zoom web conferencing</td>
+                <td>the amount is the base price used for calculating the total price before applying surcharges, discount or taxes.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">ms-teams
+                  <a name="virtual-service-type-ms-teams"> </a>
+                </td>
+                <td>Microsoft Teams</td>
+                <td>Microsoft Teams web conferencing meeting</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">whatsapp
+                  <a name="virtual-service-type-whatsapp"> </a>
+                </td>
+                <td>WhatsApp conference call</td>
+                <td>A conference call using the WhatsApp conference call service</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <url value="http://hl7.org/fhir/virtual-service-type"/>
+  <version value="5.0.0"/>
+  <name value="VirtualServiceType"/>
+  <title value="Virtual Service Type"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="Example codes for possible virtual service connection types."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/virtual-service-type"/>
+  <content value="complete"/>
+  <concept>
+    <code value="zoom"/>
+    <display value="Zoom web conferencing"/>
+    <definition value="the amount is the base price used for calculating the total price before applying surcharges, discount or taxes."/>
+  </concept>
+  <concept>
+    <code value="ms-teams"/>
+    <display value="Microsoft Teams"/>
+    <definition value="Microsoft Teams web conferencing meeting"/>
+  </concept>
+  <concept>
+    <code value="whatsapp"/>
+    <display value="WhatsApp conference call"/>
+    <definition value="A conference call using the WhatsApp conference call service"/>
+  </concept>
+</CodeSystem>

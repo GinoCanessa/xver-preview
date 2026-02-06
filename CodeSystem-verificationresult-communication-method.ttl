@@ -1,0 +1,127 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/verificationresult-communication-method> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "verificationresult-communication-method"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://terminology.hl7.org/CodeSystem/verificationresult-communication-method</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">manual<a name=\"verificationresult-communication-method-manual\"> </a></td><td>Manual</td><td>The information is submitted/retrieved manually (e.g. by phone, fax, paper-based)</td></tr><tr><td style=\"white-space:nowrap\">portal<a name=\"verificationresult-communication-method-portal\"> </a></td><td>Portal</td><td>The information is submitted/retrieved via a portal</td></tr><tr><td style=\"white-space:nowrap\">pull<a name=\"verificationresult-communication-method-pull\"> </a></td><td>Pull</td><td>The information is retrieved (i.e. pulled) from a source (e.g. over an API)</td></tr><tr><td style=\"white-space:nowrap\">push<a name=\"verificationresult-communication-method-push\"> </a></td><td>Push</td><td>The information is sent (i.e. pushed) from a source (e.g. over an API, asynchronously, secure messaging)</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "pa"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/verificationresult-communication-method"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/verificationresult-communication-method>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "Verificationresult_communication_method"] ; # 
+  fhir:title [ fhir:v "VerificationResult Communication Method"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2018-10-30T19:00:00-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Patient Administration"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "other" ] ;
+       fhir:value [ fhir:v "http://hl7.org/fhir" ]
+     ] )
+  ] [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "other" ] ;
+       fhir:value [ fhir:v "http://hl7.org/fhir" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Attested information may be validated by process that are manual or automated. For automated processes it may accomplished by the system of record reaching out through another system's API or information may be sent to the system of record. This value set defines a set of codes to describing the process, the how, a resource or data element is validated."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/verificationresult-communication-method|1.0.0"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/verificationresult-communication-method?version=1.0.0>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "manual" ] ;
+     fhir:display [ fhir:v "Manual" ] ;
+     fhir:definition [ fhir:v "The information is submitted/retrieved manually (e.g. by phone, fax, paper-based)" ]
+  ] [
+     fhir:code [ fhir:v "portal" ] ;
+     fhir:display [ fhir:v "Portal" ] ;
+     fhir:definition [ fhir:v "The information is submitted/retrieved via a portal" ]
+  ] [
+     fhir:code [ fhir:v "pull" ] ;
+     fhir:display [ fhir:v "Pull" ] ;
+     fhir:definition [ fhir:v "The information is retrieved (i.e. pulled) from a source (e.g. over an API)" ]
+  ] [
+     fhir:code [ fhir:v "push" ] ;
+     fhir:display [ fhir:v "Push" ] ;
+     fhir:definition [ fhir:v "The information is sent (i.e. pushed) from a source (e.g. over an API, asynchronously, secure messaging)" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

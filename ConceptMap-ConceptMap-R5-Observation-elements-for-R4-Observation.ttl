@@ -1,0 +1,600 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-Observation-elements-for-R4-Observation> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-Observation-elements-for-R4-Observation"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-Observation-elements-for-R4-Observation</b></p><a name=\"ConceptMap-R5-Observation-elements-for-R4-Observation\"> </a><a name=\"hcConceptMap-R5-Observation-elements-for-R4-Observation\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Observation|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Observation|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Observation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">Observation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Observation` is representable via FHIR R4B Resource `Observation`.\nElement `Observation` is mapped to FHIR R4B element `Observation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.related</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Observation` is representable via FHIR STU3 Resource `Observation`.\nElement `Observation` is mapped to FHIR STU3 element `Observation.related`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.meta</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.meta` is mapped to FHIR R4B element `Observation.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.implicitRules` is mapped to FHIR R4B element `Observation.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.language</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.language` is mapped to FHIR R4B element `Observation.language`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.text</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.text` is mapped to FHIR R4B element `Observation.text`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.contained</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.contained` is mapped to FHIR R4B element `Observation.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.identifier` is mapped to FHIR R4B element `Observation.identifier`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.instantiates[x]</td><td style=\"border-left-width: 0px\">instantiates[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.instantiates</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.instantiates[x]` is mapped to FHIR R4B structure `Observation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Observation.basedOn</td><td style=\"border-left-width: 0px; border-bottom-style: none\">basedOn</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.basedOn</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.basedOn` is mapped to FHIR R4B element `Observation.basedOn`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.basedOn</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.basedOn` is mapped to FHIR DSTU2 structure `Observation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.triggeredBy</td><td style=\"border-left-width: 0px\">triggeredBy</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.triggeredBy` is mapped to FHIR R4B structure `Observation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.triggeredBy.observation</td><td style=\"border-left-width: 0px\">observation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy:observation</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.triggeredBy.observation` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.\nElement `Observation.triggeredBy.observation` is mapped to FHIR R4B structure `Observation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.triggeredBy.type</td><td style=\"border-left-width: 0px\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy:type</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.triggeredBy.type` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.\nElement `Observation.triggeredBy.type` is mapped to FHIR R4B structure `Observation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.triggeredBy.reason</td><td style=\"border-left-width: 0px\">reason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy:reason</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.triggeredBy.reason` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.\nElement `Observation.triggeredBy.reason` is mapped to FHIR R4B structure `Observation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Observation.partOf</td><td style=\"border-left-width: 0px; border-bottom-style: none\">partOf</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.partOf</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.partOf` is mapped to FHIR R4B element `Observation.partOf`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.partOf</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.partOf` is mapped to FHIR STU3 structure `Observation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.status</td><td style=\"border-left-width: 0px\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.status</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.status` is mapped to FHIR R4B element `Observation.status`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.category</td><td style=\"border-left-width: 0px\">category</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.category</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.category` is mapped to FHIR R4B element `Observation.category`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.code</td><td style=\"border-left-width: 0px\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.code</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.code` is mapped to FHIR R4B element `Observation.code`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.subject</td><td style=\"border-left-width: 0px\">subject</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.subject</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.subject`, use that element instead.\nElement `Observation.subject` is mapped to FHIR R4B element `Observation.subject`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Observation.focus</td><td style=\"border-left-width: 0px; border-bottom-style: none\">focus</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.focus</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.focus` is mapped to FHIR R4B element `Observation.focus`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.focus</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.focus` is mapped to FHIR STU3 structure `Observation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Observation.encounter</td><td style=\"border-left-width: 0px; border-bottom-style: none\">encounter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.encounter</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.encounter` is mapped to FHIR R4B element `Observation.encounter`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.context</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.encounter` is mapped to FHIR STU3 element `Observation.context`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.effective[x]</td><td style=\"border-left-width: 0px\">effective[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.effective[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Observation.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.\nElement `Observation.effective[x]` is mapped to FHIR R4B element `Observation.effective[x]`.\nNote that the target element context `Observation.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.issued</td><td style=\"border-left-width: 0px\">issued</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.issued</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.issued` is mapped to FHIR R4B element `Observation.issued`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.performer</td><td style=\"border-left-width: 0px\">performer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.performer</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.performer` is mapped to FHIR R4B element `Observation.performer`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.value[x]</td><td style=\"border-left-width: 0px\">value[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.value[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Observation.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.\nElement `Observation.value[x]` is mapped to FHIR R4B element `Observation.value[x]`.\nNote that the target element context `Observation.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.dataAbsentReason</td><td style=\"border-left-width: 0px\">dataAbsentReason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.dataAbsentReason</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.dataAbsentReason` is mapped to FHIR R4B element `Observation.dataAbsentReason`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.interpretation</td><td style=\"border-left-width: 0px\">interpretation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.interpretation</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.interpretation` is mapped to FHIR R4B element `Observation.interpretation`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Observation.note</td><td style=\"border-left-width: 0px; border-bottom-style: none\">note</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.note</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.note` is mapped to FHIR R4B element `Observation.note`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.comment</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.note` is mapped to FHIR STU3 element `Observation.comment`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.comments</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.note` is mapped to FHIR DSTU2 element `Observation.comments`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.bodySite</td><td style=\"border-left-width: 0px\">bodySite</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.bodySite</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.bodySite` is mapped to FHIR R4B element `Observation.bodySite`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.bodyStructure</td><td style=\"border-left-width: 0px\">bodyStructure</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.bodyStructure</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.bodyStructure` is mapped to FHIR R4B structure `Observation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.method</td><td style=\"border-left-width: 0px\">method</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.method</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.method` is mapped to FHIR R4B element `Observation.method`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.specimen</td><td style=\"border-left-width: 0px\">specimen</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.specimen</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.specimen` is mapped to FHIR R4B element `Observation.specimen`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.device</td><td style=\"border-left-width: 0px\">device</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.device</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.device` is mapped to FHIR R4B element `Observation.device`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.referenceRange</td><td style=\"border-left-width: 0px\">referenceRange</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.referenceRange` is mapped to FHIR R4B element `Observation.referenceRange`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.referenceRange.low</td><td style=\"border-left-width: 0px\">low</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange.low</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.referenceRange.low` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.low` is mapped to FHIR R4B element `Observation.referenceRange.low`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.referenceRange.high</td><td style=\"border-left-width: 0px\">high</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange.high</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.referenceRange.high` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.high` is mapped to FHIR R4B element `Observation.referenceRange.high`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.referenceRange.normalValue</td><td style=\"border-left-width: 0px\">normalValue</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.referenceRange.normalValue</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.referenceRange.normalValue` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.normalValue` is mapped to FHIR R4B structure `Observation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Observation.referenceRange.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange.type</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.referenceRange.type` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.type` is mapped to FHIR R4B element `Observation.referenceRange.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.referenceRange.type</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.referenceRange.type` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.type` is mapped to FHIR DSTU2 structure `Observation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Observation.referenceRange.appliesTo</td><td style=\"border-left-width: 0px; border-bottom-style: none\">appliesTo</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange.appliesTo</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.referenceRange.appliesTo` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.appliesTo` is mapped to FHIR R4B element `Observation.referenceRange.appliesTo`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange.meaning</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.referenceRange.appliesTo` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.appliesTo` is mapped to FHIR DSTU2 element `Observation.referenceRange.meaning`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.referenceRange.age</td><td style=\"border-left-width: 0px\">age</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange.age</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.referenceRange.age` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.age` is mapped to FHIR R4B element `Observation.referenceRange.age`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.referenceRange.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange.text</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.referenceRange.text` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.text` is mapped to FHIR R4B element `Observation.referenceRange.text`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Observation.hasMember</td><td style=\"border-left-width: 0px; border-bottom-style: none\">hasMember</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.hasMember</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.hasMember` is mapped to FHIR R4B element `Observation.hasMember`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.related.target</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.hasMember` is mapped to FHIR STU3 element `Observation.related.target`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Observation.derivedFrom</td><td style=\"border-left-width: 0px; border-bottom-style: none\">derivedFrom</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.derivedFrom</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.derivedFrom` is mapped to FHIR R4B element `Observation.derivedFrom`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.related.target</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.derivedFrom` is mapped to FHIR STU3 element `Observation.related.target`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.component</td><td style=\"border-left-width: 0px\">component</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.component</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.component` is mapped to FHIR R4B element `Observation.component`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.component.code</td><td style=\"border-left-width: 0px\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.component.code</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.component.code` is mapped to FHIR R4B element `Observation.component.code`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.component.value[x]</td><td style=\"border-left-width: 0px\">value[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.component.value[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Observation.component.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation.component`.\nElement `Observation.component.value[x]` is mapped to FHIR R4B element `Observation.component.value[x]`.\nNote that the target element context `Observation.component.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation.component`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.component.dataAbsentReason</td><td style=\"border-left-width: 0px\">dataAbsentReason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.component.dataAbsentReason</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.component.dataAbsentReason` is mapped to FHIR R4B element `Observation.component.dataAbsentReason`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Observation.component.interpretation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">interpretation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.component.interpretation</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.component.interpretation` is mapped to FHIR R4B element `Observation.component.interpretation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.component.interpretation</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.component.interpretation` is mapped to FHIR DSTU2 structure `Observation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.component.referenceRange</td><td style=\"border-left-width: 0px\">referenceRange</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.component.referenceRange</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.component.referenceRange` is mapped to FHIR R4B element `Observation.component.referenceRange`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.component.referenceRange.low</td><td style=\"border-left-width: 0px\">low</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.component.referenceRange.low</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.component.referenceRange.low` is mapped to FHIR R4B element `Observation.component.referenceRange.low`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.component.referenceRange.high</td><td style=\"border-left-width: 0px\">high</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.component.referenceRange.high</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.component.referenceRange.high` is mapped to FHIR R4B element `Observation.component.referenceRange.high`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.component.referenceRange.normalValue</td><td style=\"border-left-width: 0px\">normalValue</td><td style=\"border-right-width: 0px\">normalValue</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.component.referenceRange.normalValue` is mapped to FHIR R4B structure `Observation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Observation.component.referenceRange.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.component.referenceRange.type</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.component.referenceRange.type` is mapped to FHIR R4B element `Observation.component.referenceRange.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">type</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.component.referenceRange.type` is mapped to FHIR DSTU2 structure `Observation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Observation.component.referenceRange.appliesTo</td><td style=\"border-left-width: 0px; border-bottom-style: none\">appliesTo</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.component.referenceRange.appliesTo</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.component.referenceRange.appliesTo` is mapped to FHIR R4B element `Observation.component.referenceRange.appliesTo`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.component.referenceRange.meaning</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.component.referenceRange.appliesTo` is mapped to FHIR DSTU2 element `Observation.component.referenceRange.meaning`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.component.referenceRange.age</td><td style=\"border-left-width: 0px\">age</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.component.referenceRange.age</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.component.referenceRange.age` is mapped to FHIR R4B element `Observation.component.referenceRange.age`.</td></tr><tr><td style=\"border-right-width: 0px\">Observation.component.referenceRange.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Observation#Observation.component.referenceRange.text</td><td style=\"border-left-width: 0px\"/><td>Element `Observation.component.referenceRange.text` is mapped to FHIR R4B element `Observation.component.referenceRange.text`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Observation-elements-for-R4-Observation"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Observation-elements-for-R4-Observation>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5ObservationElementsForR4Observation"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:33.6905232-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Observation"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Observation>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Observation" ] ;
+       fhir:display [ fhir:v "Observation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Observation` is representable via FHIR R4B Resource `Observation`.\nElement `Observation` is mapped to FHIR R4B element `Observation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.related" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Observation` is representable via FHIR STU3 Resource `Observation`.\nElement `Observation` is mapped to FHIR STU3 element `Observation.related`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.meta` is mapped to FHIR R4B element `Observation.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.implicitRules` is mapped to FHIR R4B element `Observation.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.language` is mapped to FHIR R4B element `Observation.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.text` is mapped to FHIR R4B element `Observation.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.contained` is mapped to FHIR R4B element `Observation.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.identifier` is mapped to FHIR R4B element `Observation.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.instantiates[x]" ] ;
+       fhir:display [ fhir:v "instantiates[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.instantiates" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.instantiates[x]` is mapped to FHIR R4B structure `Observation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.basedOn" ] ;
+       fhir:display [ fhir:v "basedOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.basedOn" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.basedOn` is mapped to FHIR R4B element `Observation.basedOn`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.basedOn" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.basedOn` is mapped to FHIR DSTU2 structure `Observation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.triggeredBy" ] ;
+       fhir:display [ fhir:v "triggeredBy" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.triggeredBy` is mapped to FHIR R4B structure `Observation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.triggeredBy.observation" ] ;
+       fhir:display [ fhir:v "observation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy:observation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.triggeredBy.observation` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.\nElement `Observation.triggeredBy.observation` is mapped to FHIR R4B structure `Observation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.triggeredBy.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.triggeredBy.type` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.\nElement `Observation.triggeredBy.type` is mapped to FHIR R4B structure `Observation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.triggeredBy.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy:reason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.triggeredBy.reason` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.\nElement `Observation.triggeredBy.reason` is mapped to FHIR R4B structure `Observation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.partOf" ] ;
+       fhir:display [ fhir:v "partOf" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.partOf" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.partOf` is mapped to FHIR R4B element `Observation.partOf`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.partOf" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.partOf` is mapped to FHIR STU3 structure `Observation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.status` is mapped to FHIR R4B element `Observation.status`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.category` is mapped to FHIR R4B element `Observation.category`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.code` is mapped to FHIR R4B element `Observation.code`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `Observation.subject` is mapped to FHIR R4B element `Observation.subject`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.focus" ] ;
+       fhir:display [ fhir:v "focus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.focus" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.focus` is mapped to FHIR R4B element `Observation.focus`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.focus" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.focus` is mapped to FHIR STU3 structure `Observation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.encounter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.encounter` is mapped to FHIR R4B element `Observation.encounter`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.context" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.encounter` is mapped to FHIR STU3 element `Observation.context`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.effective[x]" ] ;
+       fhir:display [ fhir:v "effective[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.effective[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Observation.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.\nElement `Observation.effective[x]` is mapped to FHIR R4B element `Observation.effective[x]`.\nNote that the target element context `Observation.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.issued" ] ;
+       fhir:display [ fhir:v "issued" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.issued" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.issued` is mapped to FHIR R4B element `Observation.issued`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.performer" ] ;
+       fhir:display [ fhir:v "performer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.performer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.performer` is mapped to FHIR R4B element `Observation.performer`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.value[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Observation.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.\nElement `Observation.value[x]` is mapped to FHIR R4B element `Observation.value[x]`.\nNote that the target element context `Observation.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.dataAbsentReason" ] ;
+       fhir:display [ fhir:v "dataAbsentReason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.dataAbsentReason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.dataAbsentReason` is mapped to FHIR R4B element `Observation.dataAbsentReason`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.interpretation" ] ;
+       fhir:display [ fhir:v "interpretation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.interpretation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.interpretation` is mapped to FHIR R4B element `Observation.interpretation`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.note` is mapped to FHIR R4B element `Observation.note`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.comment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.note` is mapped to FHIR STU3 element `Observation.comment`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.comments" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.note` is mapped to FHIR DSTU2 element `Observation.comments`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.bodySite" ] ;
+       fhir:display [ fhir:v "bodySite" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.bodySite" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.bodySite` is mapped to FHIR R4B element `Observation.bodySite`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.bodyStructure" ] ;
+       fhir:display [ fhir:v "bodyStructure" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.bodyStructure" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.bodyStructure` is mapped to FHIR R4B structure `Observation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.method" ] ;
+       fhir:display [ fhir:v "method" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.method" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.method` is mapped to FHIR R4B element `Observation.method`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.specimen" ] ;
+       fhir:display [ fhir:v "specimen" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.specimen" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.specimen` is mapped to FHIR R4B element `Observation.specimen`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.device" ] ;
+       fhir:display [ fhir:v "device" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.device" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.device` is mapped to FHIR R4B element `Observation.device`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.referenceRange" ] ;
+       fhir:display [ fhir:v "referenceRange" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.referenceRange` is mapped to FHIR R4B element `Observation.referenceRange`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.referenceRange.low" ] ;
+       fhir:display [ fhir:v "low" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange.low" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.referenceRange.low` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.low` is mapped to FHIR R4B element `Observation.referenceRange.low`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.referenceRange.high" ] ;
+       fhir:display [ fhir:v "high" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange.high" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.referenceRange.high` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.high` is mapped to FHIR R4B element `Observation.referenceRange.high`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.referenceRange.normalValue" ] ;
+       fhir:display [ fhir:v "normalValue" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.referenceRange.normalValue" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.referenceRange.normalValue` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.normalValue` is mapped to FHIR R4B structure `Observation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.referenceRange.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.referenceRange.type` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.type` is mapped to FHIR R4B element `Observation.referenceRange.type`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.referenceRange.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.referenceRange.type` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.type` is mapped to FHIR DSTU2 structure `Observation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.referenceRange.appliesTo" ] ;
+       fhir:display [ fhir:v "appliesTo" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange.appliesTo" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.referenceRange.appliesTo` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.appliesTo` is mapped to FHIR R4B element `Observation.referenceRange.appliesTo`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange.meaning" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.referenceRange.appliesTo` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.appliesTo` is mapped to FHIR DSTU2 element `Observation.referenceRange.meaning`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.referenceRange.age" ] ;
+       fhir:display [ fhir:v "age" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange.age" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.referenceRange.age` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.age` is mapped to FHIR R4B element `Observation.referenceRange.age`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.referenceRange.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.referenceRange.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.referenceRange.text` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.text` is mapped to FHIR R4B element `Observation.referenceRange.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.hasMember" ] ;
+       fhir:display [ fhir:v "hasMember" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.hasMember" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.hasMember` is mapped to FHIR R4B element `Observation.hasMember`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.related.target" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.hasMember` is mapped to FHIR STU3 element `Observation.related.target`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.derivedFrom" ] ;
+       fhir:display [ fhir:v "derivedFrom" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.derivedFrom" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.derivedFrom` is mapped to FHIR R4B element `Observation.derivedFrom`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.related.target" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.derivedFrom` is mapped to FHIR STU3 element `Observation.related.target`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.component" ] ;
+       fhir:display [ fhir:v "component" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.component" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.component` is mapped to FHIR R4B element `Observation.component`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.component.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.component.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.component.code` is mapped to FHIR R4B element `Observation.component.code`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.component.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.component.value[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Observation.component.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation.component`.\nElement `Observation.component.value[x]` is mapped to FHIR R4B element `Observation.component.value[x]`.\nNote that the target element context `Observation.component.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation.component`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.component.dataAbsentReason" ] ;
+       fhir:display [ fhir:v "dataAbsentReason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.component.dataAbsentReason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.component.dataAbsentReason` is mapped to FHIR R4B element `Observation.component.dataAbsentReason`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.component.interpretation" ] ;
+       fhir:display [ fhir:v "interpretation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.component.interpretation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.component.interpretation` is mapped to FHIR R4B element `Observation.component.interpretation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.component.interpretation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.component.interpretation` is mapped to FHIR DSTU2 structure `Observation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.component.referenceRange" ] ;
+       fhir:display [ fhir:v "referenceRange" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.component.referenceRange" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.component.referenceRange` is mapped to FHIR R4B element `Observation.component.referenceRange`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.component.referenceRange.low" ] ;
+       fhir:display [ fhir:v "low" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.component.referenceRange.low" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.component.referenceRange.low` is mapped to FHIR R4B element `Observation.component.referenceRange.low`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.component.referenceRange.high" ] ;
+       fhir:display [ fhir:v "high" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.component.referenceRange.high" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.component.referenceRange.high` is mapped to FHIR R4B element `Observation.component.referenceRange.high`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.component.referenceRange.normalValue" ] ;
+       fhir:display [ fhir:v "normalValue" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "normalValue" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.component.referenceRange.normalValue` is mapped to FHIR R4B structure `Observation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.component.referenceRange.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.component.referenceRange.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.component.referenceRange.type` is mapped to FHIR R4B element `Observation.component.referenceRange.type`." ]
+       ] [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.component.referenceRange.type` is mapped to FHIR DSTU2 structure `Observation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.component.referenceRange.appliesTo" ] ;
+       fhir:display [ fhir:v "appliesTo" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.component.referenceRange.appliesTo" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.component.referenceRange.appliesTo` is mapped to FHIR R4B element `Observation.component.referenceRange.appliesTo`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.component.referenceRange.meaning" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.component.referenceRange.appliesTo` is mapped to FHIR DSTU2 element `Observation.component.referenceRange.meaning`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.component.referenceRange.age" ] ;
+       fhir:display [ fhir:v "age" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.component.referenceRange.age" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.component.referenceRange.age` is mapped to FHIR R4B element `Observation.component.referenceRange.age`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Observation.component.referenceRange.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Observation#Observation.component.referenceRange.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Observation.component.referenceRange.text` is mapped to FHIR R4B element `Observation.component.referenceRange.text`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

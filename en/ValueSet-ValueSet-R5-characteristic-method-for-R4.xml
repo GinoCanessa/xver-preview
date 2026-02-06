@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ValueSet-R5-characteristic-method-for-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ValueSet-R5-characteristic-method-for-R4</b></p><a name="ValueSet-R5-characteristic-method-for-R4"> </a><a name="hcValueSet-R5-characteristic-method-for-R4"> </a><p>This value set expansion contains 1 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name="ValueSet-R5-characteristic-method-for-R4-http://terminology.hl7.org/CodeSystem/characteristic-method-Default"> </a><code>http://terminology.hl7.org/CodeSystem/characteristic-method</code></td><td>0.1.0</td><td style="white-space:nowrap">  Default</td><td>Default</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="cds"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-characteristic-method-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="ValueSetR5CharacteristicMethodForR4"/>
+  <title value="Cross-version ValueSet R5.CharacteristicMethod for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <publisher value="Clinical Decision Support"/>
+  <contact>
+    <name value="Clinical Decision Support"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/dss"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/characteristic-method|0.1.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://terminology.hl7.org/ValueSet/characteristic-method|0.1.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* &#xD;&#xA;&#xD;&#xA;Across FHIR versions, the value set has been mapped as:&#xD;&#xA;* `http://terminology.hl7.org/ValueSet/characteristic-method|0.1.0`&#xA;* `http://hl7.org/fhir/ValueSet/characteristic-method|4.3.0`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;All concepts in the comparison are listed as identical.&#xA;The source and target value sets have the same number of active concepts (1)."/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/characteristic-method"/>
+      <version value="0.1.0"/>
+      <concept>
+        <code value="Default"/>
+        <display value="Default"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-06T19:17:19.5427077+00:00"/>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/characteristic-method"/>
+      <version value="0.1.0"/>
+      <code value="Default"/>
+      <display value="Default"/>
+    </contains>
+  </expansion>
+</ValueSet>

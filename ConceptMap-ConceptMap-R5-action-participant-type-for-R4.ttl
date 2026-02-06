@@ -1,0 +1,163 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-action-participant-type-for-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-action-participant-type-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-action-participant-type-for-R4</b></p><a name=\"ConceptMap-R5-action-participant-type-for-R4\"> </a><a name=\"hcConceptMap-R5-action-participant-type-for-R4\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <a href=\"CodeSystem-action-participant-type.html\">Action Participant Typeversion: 5.0.0)</a> to <a href=\"CodeSystem-action-participant-type.html\">Action Participant Typeversion: 5.0.0)</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from <a href=\"CodeSystem-action-participant-type.html\" title=\"http://hl7.org/fhir/action-participant-type|5.0.0\">Action Participant Type</a></td><td colspan=\"2\"><b>Codes</b> from <a href=\"CodeSystem-action-participant-type.html\" title=\"http://hl7.org/fhir/action-participant-type|5.0.0\">Action Participant Type</a></td><td/></tr><tr><td style=\"border-right-width: 0px\">device</td><td style=\"border-left-width: 0px\">Device</td><td style=\"border-right-width: 0px\">device</td><td style=\"border-left-width: 0px\">Device</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/action-participant-type|5.0.0` to `http://hl7.org/fhir/ValueSet/action-participant-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ActionParticipantType-R4B-ActionParticipantType` (`ConceptMap-R5-ActionParticipantType-R4B-ActionParticipantType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/action-participant-type|4.3.0` to `http://hl7.org/fhir/ValueSet/action-participant-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ActionParticipantType-R4-ActionParticipantType` (`ConceptMap-R4B-ActionParticipantType-R4-ActionParticipantType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/action-participant-type|5.0.0#device` to `http://hl7.org/fhir/ValueSet/action-participant-type|4.0.1#device` as Equivalent in `ConceptMap-R5-ActionParticipantType-R4-ActionParticipantType.json`, which results in Equivalent.</td></tr><tr><td style=\"border-right-width: 0px\">patient</td><td style=\"border-left-width: 0px\">Patient</td><td style=\"border-right-width: 0px\">patient</td><td style=\"border-left-width: 0px\">Patient</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/action-participant-type|5.0.0` to `http://hl7.org/fhir/ValueSet/action-participant-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ActionParticipantType-R4B-ActionParticipantType` (`ConceptMap-R5-ActionParticipantType-R4B-ActionParticipantType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/action-participant-type|4.3.0` to `http://hl7.org/fhir/ValueSet/action-participant-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ActionParticipantType-R4-ActionParticipantType` (`ConceptMap-R4B-ActionParticipantType-R4-ActionParticipantType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/action-participant-type|5.0.0#patient` to `http://hl7.org/fhir/ValueSet/action-participant-type|4.0.1#patient` as Equivalent in `ConceptMap-R5-ActionParticipantType-R4-ActionParticipantType.json`, which results in Equivalent.</td></tr><tr><td style=\"border-right-width: 0px\">practitioner</td><td style=\"border-left-width: 0px\">Practitioner</td><td style=\"border-right-width: 0px\">practitioner</td><td style=\"border-left-width: 0px\">Practitioner</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/action-participant-type|5.0.0` to `http://hl7.org/fhir/ValueSet/action-participant-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ActionParticipantType-R4B-ActionParticipantType` (`ConceptMap-R5-ActionParticipantType-R4B-ActionParticipantType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/action-participant-type|4.3.0` to `http://hl7.org/fhir/ValueSet/action-participant-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ActionParticipantType-R4-ActionParticipantType` (`ConceptMap-R4B-ActionParticipantType-R4-ActionParticipantType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/action-participant-type|5.0.0#practitioner` to `http://hl7.org/fhir/ValueSet/action-participant-type|4.0.1#practitioner` as Equivalent in `ConceptMap-R5-ActionParticipantType-R4-ActionParticipantType.json`, which results in Equivalent.</td></tr><tr><td style=\"border-right-width: 0px\">relatedperson</td><td style=\"border-left-width: 0px\">RelatedPerson</td><td style=\"border-right-width: 0px\">related-person</td><td style=\"border-left-width: 0px\">Related Person</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/action-participant-type|5.0.0` to `http://hl7.org/fhir/ValueSet/action-participant-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ActionParticipantType-R4B-ActionParticipantType` (`ConceptMap-R5-ActionParticipantType-R4B-ActionParticipantType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/action-participant-type|4.3.0` to `http://hl7.org/fhir/ValueSet/action-participant-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ActionParticipantType-R4-ActionParticipantType` (`ConceptMap-R4B-ActionParticipantType-R4-ActionParticipantType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/action-participant-type|5.0.0#relatedperson` to `http://hl7.org/fhir/ValueSet/action-participant-type|4.0.1#related-person` as Equivalent in `ConceptMap-R5-ActionParticipantType-R4-ActionParticipantType.json`, which results in Equivalent.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ValueSet-R5-action-participant-type-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ValueSet-R5-action-participant-type-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5ActionParticipantTypeForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for ValueSet ValueSet-R5-action-participant-type-for-R4 from FHIR R5 to FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:23.9097079-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of concepts from ValueSet `http://hl7.org/fhir/ValueSet/action-participant-type|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/action-participant-type"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/action-participant-type>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/action-participant-type"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/action-participant-type>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "device" ] ;
+       fhir:display [ fhir:v "Device" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "device" ] ;
+         fhir:display [ fhir:v "Device" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/action-participant-type|5.0.0` to `http://hl7.org/fhir/ValueSet/action-participant-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ActionParticipantType-R4B-ActionParticipantType` (`ConceptMap-R5-ActionParticipantType-R4B-ActionParticipantType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/action-participant-type|4.3.0` to `http://hl7.org/fhir/ValueSet/action-participant-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ActionParticipantType-R4-ActionParticipantType` (`ConceptMap-R4B-ActionParticipantType-R4-ActionParticipantType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/action-participant-type|5.0.0#device` to `http://hl7.org/fhir/ValueSet/action-participant-type|4.0.1#device` as Equivalent in `ConceptMap-R5-ActionParticipantType-R4-ActionParticipantType.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "patient" ] ;
+       fhir:display [ fhir:v "Patient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "patient" ] ;
+         fhir:display [ fhir:v "Patient" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/action-participant-type|5.0.0` to `http://hl7.org/fhir/ValueSet/action-participant-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ActionParticipantType-R4B-ActionParticipantType` (`ConceptMap-R5-ActionParticipantType-R4B-ActionParticipantType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/action-participant-type|4.3.0` to `http://hl7.org/fhir/ValueSet/action-participant-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ActionParticipantType-R4-ActionParticipantType` (`ConceptMap-R4B-ActionParticipantType-R4-ActionParticipantType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/action-participant-type|5.0.0#patient` to `http://hl7.org/fhir/ValueSet/action-participant-type|4.0.1#patient` as Equivalent in `ConceptMap-R5-ActionParticipantType-R4-ActionParticipantType.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "practitioner" ] ;
+       fhir:display [ fhir:v "Practitioner" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "practitioner" ] ;
+         fhir:display [ fhir:v "Practitioner" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/action-participant-type|5.0.0` to `http://hl7.org/fhir/ValueSet/action-participant-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ActionParticipantType-R4B-ActionParticipantType` (`ConceptMap-R5-ActionParticipantType-R4B-ActionParticipantType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/action-participant-type|4.3.0` to `http://hl7.org/fhir/ValueSet/action-participant-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ActionParticipantType-R4-ActionParticipantType` (`ConceptMap-R4B-ActionParticipantType-R4-ActionParticipantType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/action-participant-type|5.0.0#practitioner` to `http://hl7.org/fhir/ValueSet/action-participant-type|4.0.1#practitioner` as Equivalent in `ConceptMap-R5-ActionParticipantType-R4-ActionParticipantType.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "relatedperson" ] ;
+       fhir:display [ fhir:v "RelatedPerson" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "related-person" ] ;
+         fhir:display [ fhir:v "Related Person" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/action-participant-type|5.0.0` to `http://hl7.org/fhir/ValueSet/action-participant-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ActionParticipantType-R4B-ActionParticipantType` (`ConceptMap-R5-ActionParticipantType-R4B-ActionParticipantType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/action-participant-type|4.3.0` to `http://hl7.org/fhir/ValueSet/action-participant-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ActionParticipantType-R4-ActionParticipantType` (`ConceptMap-R4B-ActionParticipantType-R4-ActionParticipantType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/action-participant-type|5.0.0#relatedperson` to `http://hl7.org/fhir/ValueSet/action-participant-type|4.0.1#related-person` as Equivalent in `ConceptMap-R5-ActionParticipantType-R4-ActionParticipantType.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "careteam" ] ;
+       fhir:display [ fhir:v "CareTeam" ]
+     ] [
+       fhir:code [ fhir:v "group" ] ;
+       fhir:display [ fhir:v "Group" ]
+     ] [
+       fhir:code [ fhir:v "healthcareservice" ] ;
+       fhir:display [ fhir:v "HealthcareService" ]
+     ] [
+       fhir:code [ fhir:v "location" ] ;
+       fhir:display [ fhir:v "Location" ]
+     ] [
+       fhir:code [ fhir:v "organization" ] ;
+       fhir:display [ fhir:v "Organization" ]
+     ] [
+       fhir:code [ fhir:v "practitionerrole" ] ;
+       fhir:display [ fhir:v "PractitionerRole" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

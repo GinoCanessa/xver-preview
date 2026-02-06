@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="encounter-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://terminology.hl7.org/CodeSystem/encounter-type</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">ADMS<a name="encounter-type-ADMS"> </a></td><td>Annual diabetes mellitus screening</td></tr><tr><td style="white-space:nowrap">BD/BM-clin<a name="encounter-type-BD.47BM-clin"> </a></td><td>Bone drilling/bone marrow punction in clinic</td></tr><tr><td style="white-space:nowrap">CCS60<a name="encounter-type-CCS60"> </a></td><td>Infant colon screening - 60 minutes</td></tr><tr><td style="white-space:nowrap">OKI<a name="encounter-type-OKI"> </a></td><td>Outpatient Kenacort injection</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pa"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/encounter-type"/>
+  <version value="0.1.0"/>
+  <name value="EncounterType"/>
+  <title value="Encounter type"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2023-02-25T12:07:30-06:00"/>
+  <publisher value="Patient Administration"/>
+  <contact>
+    <name value="Patient Administration"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pafm"/>
+    </telecom>
+  </contact>
+  <description value="This example value set defines a set of codes that can be used to indicate the type of encounter: a specific code indicating type of service provided."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/encounter-type|1.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="ADMS"/>
+    <display value="Annual diabetes mellitus screening"/>
+  </concept>
+  <concept>
+    <code value="BD/BM-clin"/>
+    <display value="Bone drilling/bone marrow punction in clinic"/>
+  </concept>
+  <concept>
+    <code value="CCS60"/>
+    <display value="Infant colon screening - 60 minutes"/>
+  </concept>
+  <concept>
+    <code value="OKI"/>
+    <display value="Outpatient Kenacort injection"/>
+  </concept>
+</CodeSystem>

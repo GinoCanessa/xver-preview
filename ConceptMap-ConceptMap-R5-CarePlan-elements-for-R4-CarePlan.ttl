@@ -1,0 +1,432 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-CarePlan-elements-for-R4-CarePlan> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-CarePlan-elements-for-R4-CarePlan"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-CarePlan-elements-for-R4-CarePlan</b></p><a name=\"ConceptMap-R5-CarePlan-elements-for-R4-CarePlan\"> </a><a name=\"hcConceptMap-R5-CarePlan-elements-for-R4-CarePlan\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/CarePlan|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/CarePlan|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">CarePlan</td><td style=\"border-left-width: 0px\">CarePlan</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `CarePlan` is representable via FHIR R4B Resource `CarePlan`.\nElement `CarePlan` is mapped to FHIR R4B element `CarePlan`.</td></tr><tr><td style=\"border-right-width: 0px\">CarePlan.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.meta</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.meta` is mapped to FHIR R4B element `CarePlan.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">CarePlan.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.implicitRules` is mapped to FHIR R4B element `CarePlan.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">CarePlan.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.language</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.language` is mapped to FHIR R4B element `CarePlan.language`.</td></tr><tr><td style=\"border-right-width: 0px\">CarePlan.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.text</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.text` is mapped to FHIR R4B element `CarePlan.text`.</td></tr><tr><td style=\"border-right-width: 0px\">CarePlan.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.contained</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.contained` is mapped to FHIR R4B element `CarePlan.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">CarePlan.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.identifier` is mapped to FHIR R4B element `CarePlan.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CarePlan.instantiatesCanonical</td><td style=\"border-left-width: 0px; border-bottom-style: none\">instantiatesCanonical</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.instantiatesCanonical</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.instantiatesCanonical` is mapped to FHIR R4B element `CarePlan.instantiatesCanonical`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.definition</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.instantiatesCanonical` is mapped to FHIR STU3 element `CarePlan.definition`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CarePlan.instantiatesCanonical</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.instantiatesCanonical` is mapped to FHIR DSTU2 structure `CarePlan`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CarePlan.instantiatesUri</td><td style=\"border-left-width: 0px; border-bottom-style: none\">instantiatesUri</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.instantiatesUri</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.instantiatesUri` is mapped to FHIR R4B element `CarePlan.instantiatesUri`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CarePlan.instantiatesUri</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.instantiatesUri` is mapped to FHIR STU3 structure `CarePlan`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CarePlan.basedOn</td><td style=\"border-left-width: 0px; border-bottom-style: none\">basedOn</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.basedOn</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.basedOn` is mapped to FHIR R4B element `CarePlan.basedOn`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.relatedPlan</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.basedOn` is mapped to FHIR DSTU2 element `CarePlan.relatedPlan`.\nElement `CarePlan.basedOn` is mapped to FHIR DSTU2 element `CarePlan.relatedPlan.plan`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.relatedPlan.plan</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.basedOn` is mapped to FHIR DSTU2 element `CarePlan.relatedPlan`.\nElement `CarePlan.basedOn` is mapped to FHIR DSTU2 element `CarePlan.relatedPlan.plan`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CarePlan.replaces</td><td style=\"border-left-width: 0px; border-bottom-style: none\">replaces</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.replaces</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.replaces` is mapped to FHIR R4B element `CarePlan.replaces`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.relatedPlan</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.replaces` is mapped to FHIR DSTU2 element `CarePlan.relatedPlan`.\nElement `CarePlan.replaces` is mapped to FHIR DSTU2 element `CarePlan.relatedPlan.plan`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.relatedPlan.plan</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.replaces` is mapped to FHIR DSTU2 element `CarePlan.relatedPlan`.\nElement `CarePlan.replaces` is mapped to FHIR DSTU2 element `CarePlan.relatedPlan.plan`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CarePlan.partOf</td><td style=\"border-left-width: 0px; border-bottom-style: none\">partOf</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.partOf</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.partOf` is mapped to FHIR R4B element `CarePlan.partOf`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.relatedPlan</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.partOf` is mapped to FHIR DSTU2 element `CarePlan.relatedPlan`.</td></tr><tr><td style=\"border-right-width: 0px\">CarePlan.status</td><td style=\"border-left-width: 0px\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.status</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.status` is mapped to FHIR R4B element `CarePlan.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CarePlan.intent</td><td style=\"border-left-width: 0px; border-bottom-style: none\">intent</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.intent</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `CarePlan.intent` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `CarePlan.intent` is mapped to FHIR R4B element `CarePlan.intent`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CarePlan.intent</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.intent` is mapped to FHIR DSTU2 structure `CarePlan`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">CarePlan.category</td><td style=\"border-left-width: 0px\">category</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.category</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.category` is mapped to FHIR R4B element `CarePlan.category`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CarePlan.title</td><td style=\"border-left-width: 0px; border-bottom-style: none\">title</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.title</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.title` is mapped to FHIR R4B element `CarePlan.title`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CarePlan.title</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.title` is mapped to FHIR DSTU2 structure `CarePlan`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">CarePlan.description</td><td style=\"border-left-width: 0px\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.description</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.description` is mapped to FHIR R4B element `CarePlan.description`.</td></tr><tr><td style=\"border-right-width: 0px\">CarePlan.subject</td><td style=\"border-left-width: 0px\">subject</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.subject</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.subject` is mapped to FHIR R4B element `CarePlan.subject`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CarePlan.encounter</td><td style=\"border-left-width: 0px; border-bottom-style: none\">encounter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.encounter</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.encounter` is mapped to FHIR R4B element `CarePlan.encounter`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.context</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.encounter` is mapped to FHIR STU3 element `CarePlan.context`.</td></tr><tr><td style=\"border-right-width: 0px\">CarePlan.period</td><td style=\"border-left-width: 0px\">period</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.period</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.period` is mapped to FHIR R4B element `CarePlan.period`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CarePlan.created</td><td style=\"border-left-width: 0px; border-bottom-style: none\">created</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.created</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.created` is mapped to FHIR R4B element `CarePlan.created`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CarePlan.created</td><td style=\"border-left-width: 0px\"/><td>Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `dateTime`:0..1 -&gt; basic: `date`:0..1).\nElement `CarePlan.created` is mapped to FHIR STU3 structure `CarePlan`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">CarePlan.custodian</td><td style=\"border-left-width: 0px\">custodian</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.author</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.custodian` is mapped to FHIR R4B element `CarePlan.author`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CarePlan.contributor</td><td style=\"border-left-width: 0px; border-bottom-style: none\">contributor</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.contributor</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.contributor` is mapped to FHIR R4B element `CarePlan.contributor`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CarePlan.contributor</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.contributor` is mapped to FHIR STU3 structure `CarePlan`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CarePlan.careTeam</td><td style=\"border-left-width: 0px; border-bottom-style: none\">careTeam</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.careTeam</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.careTeam` is mapped to FHIR R4B element `CarePlan.careTeam`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.participant</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.careTeam` is mapped to FHIR DSTU2 element `CarePlan.participant`.</td></tr><tr><td style=\"border-right-width: 0px\">CarePlan.addresses</td><td style=\"border-left-width: 0px\">addresses</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.addresses</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.addresses` is mapped to FHIR R4B element `CarePlan.addresses`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CarePlan.supportingInfo</td><td style=\"border-left-width: 0px; border-bottom-style: none\">supportingInfo</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.supportingInfo</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.supportingInfo` is mapped to FHIR R4B element `CarePlan.supportingInfo`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.support</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.supportingInfo` is mapped to FHIR DSTU2 element `CarePlan.support`.</td></tr><tr><td style=\"border-right-width: 0px\">CarePlan.goal</td><td style=\"border-left-width: 0px\">goal</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.goal</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.goal` is mapped to FHIR R4B element `CarePlan.goal`.</td></tr><tr><td style=\"border-right-width: 0px\">CarePlan.activity</td><td style=\"border-left-width: 0px\">activity</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.activity</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.activity` is mapped to FHIR R4B element `CarePlan.activity`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CarePlan.activity.performedActivity</td><td style=\"border-left-width: 0px; border-bottom-style: none\">performedActivity</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.activity.outcomeCodeableConcept</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.activity.performedActivity` is mapped to FHIR R4B element `CarePlan.activity.outcomeCodeableConcept`.\nElement `CarePlan.activity.performedActivity` is mapped to FHIR R4B element `CarePlan.activity.outcomeReference`.\nElement `CarePlan.activity.performedActivity` is mapped to FHIR R4B element `CarePlan.activity.reference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.activity.outcomeReference</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.activity.performedActivity` is mapped to FHIR R4B element `CarePlan.activity.outcomeCodeableConcept`.\nElement `CarePlan.activity.performedActivity` is mapped to FHIR R4B element `CarePlan.activity.outcomeReference`.\nElement `CarePlan.activity.performedActivity` is mapped to FHIR R4B element `CarePlan.activity.reference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.activity.reference</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.activity.performedActivity` is mapped to FHIR R4B element `CarePlan.activity.outcomeCodeableConcept`.\nElement `CarePlan.activity.performedActivity` is mapped to FHIR R4B element `CarePlan.activity.outcomeReference`.\nElement `CarePlan.activity.performedActivity` is mapped to FHIR R4B element `CarePlan.activity.reference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.activity.actionResulting</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.activity.performedActivity` is mapped to FHIR DSTU2 structure `CarePlan`, but has no target element specified.\nElement `CarePlan.activity.performedActivity` is mapped to FHIR DSTU2 element `CarePlan.activity.actionResulting`.\nElement `CarePlan.activity.performedActivity` is mapped to FHIR DSTU2 element `CarePlan.activity.reference`.</td></tr><tr><td style=\"border-right-width: 0px\">CarePlan.activity.progress</td><td style=\"border-left-width: 0px\">progress</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.activity.progress</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.activity.progress` is mapped to FHIR R4B element `CarePlan.activity.progress`.</td></tr><tr><td style=\"border-right-width: 0px\">CarePlan.activity.plannedActivityReference</td><td style=\"border-left-width: 0px\">plannedActivityReference</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.activity.reference</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.activity.plannedActivityReference` is mapped to FHIR R4B element `CarePlan.activity.reference`.</td></tr><tr><td style=\"border-right-width: 0px\">CarePlan.note</td><td style=\"border-left-width: 0px\">note</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.note</td><td style=\"border-left-width: 0px\"/><td>Element `CarePlan.note` is mapped to FHIR R4B element `CarePlan.note`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-CarePlan-elements-for-R4-CarePlan"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-CarePlan-elements-for-R4-CarePlan>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5CarePlanElementsForR4CarePlan"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:31.2125039-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/CarePlan>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "CarePlan" ] ;
+       fhir:display [ fhir:v "CarePlan" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `CarePlan` is representable via FHIR R4B Resource `CarePlan`.\nElement `CarePlan` is mapped to FHIR R4B element `CarePlan`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.meta` is mapped to FHIR R4B element `CarePlan.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.implicitRules` is mapped to FHIR R4B element `CarePlan.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.language` is mapped to FHIR R4B element `CarePlan.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.text` is mapped to FHIR R4B element `CarePlan.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.contained` is mapped to FHIR R4B element `CarePlan.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.identifier` is mapped to FHIR R4B element `CarePlan.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.instantiatesCanonical" ] ;
+       fhir:display [ fhir:v "instantiatesCanonical" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.instantiatesCanonical" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.instantiatesCanonical` is mapped to FHIR R4B element `CarePlan.instantiatesCanonical`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.definition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.instantiatesCanonical` is mapped to FHIR STU3 element `CarePlan.definition`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CarePlan.instantiatesCanonical" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.instantiatesCanonical` is mapped to FHIR DSTU2 structure `CarePlan`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.instantiatesUri" ] ;
+       fhir:display [ fhir:v "instantiatesUri" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.instantiatesUri" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.instantiatesUri` is mapped to FHIR R4B element `CarePlan.instantiatesUri`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CarePlan.instantiatesUri" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.instantiatesUri` is mapped to FHIR STU3 structure `CarePlan`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.basedOn" ] ;
+       fhir:display [ fhir:v "basedOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.basedOn" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.basedOn` is mapped to FHIR R4B element `CarePlan.basedOn`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.relatedPlan" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.basedOn` is mapped to FHIR DSTU2 element `CarePlan.relatedPlan`.\nElement `CarePlan.basedOn` is mapped to FHIR DSTU2 element `CarePlan.relatedPlan.plan`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.relatedPlan.plan" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.basedOn` is mapped to FHIR DSTU2 element `CarePlan.relatedPlan`.\nElement `CarePlan.basedOn` is mapped to FHIR DSTU2 element `CarePlan.relatedPlan.plan`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.replaces" ] ;
+       fhir:display [ fhir:v "replaces" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.replaces" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.replaces` is mapped to FHIR R4B element `CarePlan.replaces`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.relatedPlan" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.replaces` is mapped to FHIR DSTU2 element `CarePlan.relatedPlan`.\nElement `CarePlan.replaces` is mapped to FHIR DSTU2 element `CarePlan.relatedPlan.plan`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.relatedPlan.plan" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.replaces` is mapped to FHIR DSTU2 element `CarePlan.relatedPlan`.\nElement `CarePlan.replaces` is mapped to FHIR DSTU2 element `CarePlan.relatedPlan.plan`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.partOf" ] ;
+       fhir:display [ fhir:v "partOf" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.partOf" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.partOf` is mapped to FHIR R4B element `CarePlan.partOf`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.relatedPlan" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.partOf` is mapped to FHIR DSTU2 element `CarePlan.relatedPlan`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.status` is mapped to FHIR R4B element `CarePlan.status`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.intent" ] ;
+       fhir:display [ fhir:v "intent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.intent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `CarePlan.intent` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `CarePlan.intent` is mapped to FHIR R4B element `CarePlan.intent`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CarePlan.intent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.intent` is mapped to FHIR DSTU2 structure `CarePlan`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.category` is mapped to FHIR R4B element `CarePlan.category`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.title" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.title` is mapped to FHIR R4B element `CarePlan.title`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CarePlan.title" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.title` is mapped to FHIR DSTU2 structure `CarePlan`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.description` is mapped to FHIR R4B element `CarePlan.description`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.subject` is mapped to FHIR R4B element `CarePlan.subject`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.encounter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.encounter` is mapped to FHIR R4B element `CarePlan.encounter`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.context" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.encounter` is mapped to FHIR STU3 element `CarePlan.context`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.period` is mapped to FHIR R4B element `CarePlan.period`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.created" ] ;
+       fhir:display [ fhir:v "created" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.created" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.created` is mapped to FHIR R4B element `CarePlan.created`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CarePlan.created" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `dateTime`:0..1 -> basic: `date`:0..1).\nElement `CarePlan.created` is mapped to FHIR STU3 structure `CarePlan`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.custodian" ] ;
+       fhir:display [ fhir:v "custodian" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.author" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.custodian` is mapped to FHIR R4B element `CarePlan.author`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.contributor" ] ;
+       fhir:display [ fhir:v "contributor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.contributor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.contributor` is mapped to FHIR R4B element `CarePlan.contributor`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CarePlan.contributor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.contributor` is mapped to FHIR STU3 structure `CarePlan`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.careTeam" ] ;
+       fhir:display [ fhir:v "careTeam" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.careTeam" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.careTeam` is mapped to FHIR R4B element `CarePlan.careTeam`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.participant" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.careTeam` is mapped to FHIR DSTU2 element `CarePlan.participant`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.addresses" ] ;
+       fhir:display [ fhir:v "addresses" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.addresses" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.addresses` is mapped to FHIR R4B element `CarePlan.addresses`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.supportingInfo" ] ;
+       fhir:display [ fhir:v "supportingInfo" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.supportingInfo" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.supportingInfo` is mapped to FHIR R4B element `CarePlan.supportingInfo`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.support" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.supportingInfo` is mapped to FHIR DSTU2 element `CarePlan.support`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.goal" ] ;
+       fhir:display [ fhir:v "goal" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.goal" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.goal` is mapped to FHIR R4B element `CarePlan.goal`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.activity" ] ;
+       fhir:display [ fhir:v "activity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.activity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.activity` is mapped to FHIR R4B element `CarePlan.activity`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.activity.performedActivity" ] ;
+       fhir:display [ fhir:v "performedActivity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.activity.outcomeCodeableConcept" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.activity.performedActivity` is mapped to FHIR R4B element `CarePlan.activity.outcomeCodeableConcept`.\nElement `CarePlan.activity.performedActivity` is mapped to FHIR R4B element `CarePlan.activity.outcomeReference`.\nElement `CarePlan.activity.performedActivity` is mapped to FHIR R4B element `CarePlan.activity.reference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.activity.outcomeReference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.activity.performedActivity` is mapped to FHIR R4B element `CarePlan.activity.outcomeCodeableConcept`.\nElement `CarePlan.activity.performedActivity` is mapped to FHIR R4B element `CarePlan.activity.outcomeReference`.\nElement `CarePlan.activity.performedActivity` is mapped to FHIR R4B element `CarePlan.activity.reference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.activity.reference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.activity.performedActivity` is mapped to FHIR R4B element `CarePlan.activity.outcomeCodeableConcept`.\nElement `CarePlan.activity.performedActivity` is mapped to FHIR R4B element `CarePlan.activity.outcomeReference`.\nElement `CarePlan.activity.performedActivity` is mapped to FHIR R4B element `CarePlan.activity.reference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.activity.actionResulting" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.activity.performedActivity` is mapped to FHIR DSTU2 structure `CarePlan`, but has no target element specified.\nElement `CarePlan.activity.performedActivity` is mapped to FHIR DSTU2 element `CarePlan.activity.actionResulting`.\nElement `CarePlan.activity.performedActivity` is mapped to FHIR DSTU2 element `CarePlan.activity.reference`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.activity.progress" ] ;
+       fhir:display [ fhir:v "progress" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.activity.progress" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.activity.progress` is mapped to FHIR R4B element `CarePlan.activity.progress`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.activity.plannedActivityReference" ] ;
+       fhir:display [ fhir:v "plannedActivityReference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.activity.reference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.activity.plannedActivityReference` is mapped to FHIR R4B element `CarePlan.activity.reference`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CarePlan.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CarePlan#CarePlan.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CarePlan.note` is mapped to FHIR R4B element `CarePlan.note`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

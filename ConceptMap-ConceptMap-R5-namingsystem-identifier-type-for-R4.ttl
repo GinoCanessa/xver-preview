@@ -1,0 +1,151 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-namingsystem-identifier-type-for-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-namingsystem-identifier-type-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-namingsystem-identifier-type-for-R4</b></p><a name=\"ConceptMap-R5-namingsystem-identifier-type-for-R4\"> </a><a name=\"hcConceptMap-R5-namingsystem-identifier-type-for-R4\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <a href=\"CodeSystem-namingsystem-identifier-type.html\">Naming System Identifier Typeversion: 5.0.0)</a> to <a href=\"CodeSystem-namingsystem-identifier-type.html\">Naming System Identifier Typeversion: 5.0.0)</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from <a href=\"CodeSystem-namingsystem-identifier-type.html\" title=\"http://hl7.org/fhir/namingsystem-identifier-type|5.0.0\">Naming System Identifier Type</a></td><td colspan=\"2\"><b>Codes</b> from <a href=\"CodeSystem-namingsystem-identifier-type.html\" title=\"http://hl7.org/fhir/namingsystem-identifier-type|5.0.0\">Naming System Identifier Type</a></td><td/></tr><tr><td style=\"border-right-width: 0px\">oid</td><td style=\"border-left-width: 0px\">OID</td><td style=\"border-right-width: 0px\">oid</td><td style=\"border-left-width: 0px\">OID</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0` to `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-NamingsystemIdentifierType-R4B-NamingsystemIdentifierType` (`ConceptMap-R5-NamingsystemIdentifierType-R4B-NamingsystemIdentifierType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.3.0` to `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-NamingsystemIdentifierType-R4-NamingsystemIdentifierType` (`ConceptMap-R4B-NamingsystemIdentifierType-R4-NamingsystemIdentifierType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0#oid` to `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.0.1#oid` as Equivalent in `ConceptMap-R5-NamingsystemIdentifierType-R4-NamingsystemIdentifierType.json`, which results in Equivalent.</td></tr><tr><td style=\"border-right-width: 0px\">other</td><td style=\"border-left-width: 0px\">Other</td><td style=\"border-right-width: 0px\">other</td><td style=\"border-left-width: 0px\">Other</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0` to `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-NamingsystemIdentifierType-R4B-NamingsystemIdentifierType` (`ConceptMap-R5-NamingsystemIdentifierType-R4B-NamingsystemIdentifierType.json`)\nSince source concept `other` is flagged as an 'escape-valve' code and the source value set contains more concepts than the target (6 vs. 4), the source is narrower than the target.\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.3.0` to `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-NamingsystemIdentifierType-R4-NamingsystemIdentifierType` (`ConceptMap-R4B-NamingsystemIdentifierType-R4-NamingsystemIdentifierType.json`)\nSince source concept `other` is flagged as an 'escape-valve' code and the source value set contains the same number of concepts as the target (4 vs. 4), we can assume equivalence.\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0#other` to `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.0.1#other` as Equivalent in `ConceptMap-R5-NamingsystemIdentifierType-R4-NamingsystemIdentifierType.json`, which results in SourceIsNarrowerThanTarget.\nValue Set Relationship of RelatedTo applied to 'escape-valve' mapping.</td></tr><tr><td style=\"border-right-width: 0px\">uri</td><td style=\"border-left-width: 0px\">URI</td><td style=\"border-right-width: 0px\">uri</td><td style=\"border-left-width: 0px\">URI</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0` to `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-NamingsystemIdentifierType-R4B-NamingsystemIdentifierType` (`ConceptMap-R5-NamingsystemIdentifierType-R4B-NamingsystemIdentifierType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.3.0` to `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-NamingsystemIdentifierType-R4-NamingsystemIdentifierType` (`ConceptMap-R4B-NamingsystemIdentifierType-R4-NamingsystemIdentifierType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0#uri` to `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.0.1#uri` as Equivalent in `ConceptMap-R5-NamingsystemIdentifierType-R4-NamingsystemIdentifierType.json`, which results in Equivalent.</td></tr><tr><td style=\"border-right-width: 0px\">uuid</td><td style=\"border-left-width: 0px\">UUID</td><td style=\"border-right-width: 0px\">uuid</td><td style=\"border-left-width: 0px\">UUID</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0` to `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-NamingsystemIdentifierType-R4B-NamingsystemIdentifierType` (`ConceptMap-R5-NamingsystemIdentifierType-R4B-NamingsystemIdentifierType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.3.0` to `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-NamingsystemIdentifierType-R4-NamingsystemIdentifierType` (`ConceptMap-R4B-NamingsystemIdentifierType-R4-NamingsystemIdentifierType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0#uuid` to `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.0.1#uuid` as Equivalent in `ConceptMap-R5-NamingsystemIdentifierType-R4-NamingsystemIdentifierType.json`, which results in Equivalent.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ValueSet-R5-namingsystem-identifier-type-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ValueSet-R5-namingsystem-identifier-type-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5NamingsystemIdentifierTypeForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for ValueSet ValueSet-R5-namingsystem-identifier-type-for-R4 from FHIR R5 to FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:23.9975656-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of concepts from ValueSet `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/namingsystem-identifier-type"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/namingsystem-identifier-type>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/namingsystem-identifier-type"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/namingsystem-identifier-type>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "oid" ] ;
+       fhir:display [ fhir:v "OID" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "oid" ] ;
+         fhir:display [ fhir:v "OID" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0` to `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-NamingsystemIdentifierType-R4B-NamingsystemIdentifierType` (`ConceptMap-R5-NamingsystemIdentifierType-R4B-NamingsystemIdentifierType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.3.0` to `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-NamingsystemIdentifierType-R4-NamingsystemIdentifierType` (`ConceptMap-R4B-NamingsystemIdentifierType-R4-NamingsystemIdentifierType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0#oid` to `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.0.1#oid` as Equivalent in `ConceptMap-R5-NamingsystemIdentifierType-R4-NamingsystemIdentifierType.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "other" ] ;
+       fhir:display [ fhir:v "Other" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "other" ] ;
+         fhir:display [ fhir:v "Other" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0` to `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-NamingsystemIdentifierType-R4B-NamingsystemIdentifierType` (`ConceptMap-R5-NamingsystemIdentifierType-R4B-NamingsystemIdentifierType.json`)\nSince source concept `other` is flagged as an 'escape-valve' code and the source value set contains more concepts than the target (6 vs. 4), the source is narrower than the target.\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.3.0` to `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-NamingsystemIdentifierType-R4-NamingsystemIdentifierType` (`ConceptMap-R4B-NamingsystemIdentifierType-R4-NamingsystemIdentifierType.json`)\nSince source concept `other` is flagged as an 'escape-valve' code and the source value set contains the same number of concepts as the target (4 vs. 4), we can assume equivalence.\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0#other` to `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.0.1#other` as Equivalent in `ConceptMap-R5-NamingsystemIdentifierType-R4-NamingsystemIdentifierType.json`, which results in SourceIsNarrowerThanTarget.\nValue Set Relationship of RelatedTo applied to 'escape-valve' mapping." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "uri" ] ;
+       fhir:display [ fhir:v "URI" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "uri" ] ;
+         fhir:display [ fhir:v "URI" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0` to `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-NamingsystemIdentifierType-R4B-NamingsystemIdentifierType` (`ConceptMap-R5-NamingsystemIdentifierType-R4B-NamingsystemIdentifierType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.3.0` to `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-NamingsystemIdentifierType-R4-NamingsystemIdentifierType` (`ConceptMap-R4B-NamingsystemIdentifierType-R4-NamingsystemIdentifierType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0#uri` to `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.0.1#uri` as Equivalent in `ConceptMap-R5-NamingsystemIdentifierType-R4-NamingsystemIdentifierType.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "uuid" ] ;
+       fhir:display [ fhir:v "UUID" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "uuid" ] ;
+         fhir:display [ fhir:v "UUID" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0` to `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-NamingsystemIdentifierType-R4B-NamingsystemIdentifierType` (`ConceptMap-R5-NamingsystemIdentifierType-R4B-NamingsystemIdentifierType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.3.0` to `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-NamingsystemIdentifierType-R4-NamingsystemIdentifierType` (`ConceptMap-R4B-NamingsystemIdentifierType-R4-NamingsystemIdentifierType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0#uuid` to `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.0.1#uuid` as Equivalent in `ConceptMap-R5-NamingsystemIdentifierType-R4-NamingsystemIdentifierType.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "iri-stem" ] ;
+       fhir:display [ fhir:v "IRI stem" ]
+     ] [
+       fhir:code [ fhir:v "v2csmnemonic" ] ;
+       fhir:display [ fhir:v "V2CSMNemonic" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

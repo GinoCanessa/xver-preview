@@ -1,0 +1,216 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-Flag-elements-for-R4-Flag> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-Flag-elements-for-R4-Flag"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-Flag-elements-for-R4-Flag</b></p><a name=\"ConceptMap-R5-Flag-elements-for-R4-Flag\"> </a><a name=\"hcConceptMap-R5-Flag-elements-for-R4-Flag\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Flag|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Flag</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Flag#Flag</td><td>FHIR R5 Resource `Flag` is representable via FHIR R4B Resource `Flag`.\nElement `Flag` is mapped to FHIR R4B element `Flag`.</td></tr><tr><td>Flag.meta (meta)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Flag#Flag.meta</td><td>Element `Flag.meta` is mapped to FHIR R4B element `Flag.meta`.</td></tr><tr><td>Flag.implicitRules (implicitRules)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Flag#Flag.implicitRules</td><td>Element `Flag.implicitRules` is mapped to FHIR R4B element `Flag.implicitRules`.</td></tr><tr><td>Flag.language (language)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Flag#Flag.language</td><td>Element `Flag.language` is mapped to FHIR R4B element `Flag.language`.</td></tr><tr><td>Flag.text (text)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Flag#Flag.text</td><td>Element `Flag.text` is mapped to FHIR R4B element `Flag.text`.</td></tr><tr><td>Flag.contained (contained)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Flag#Flag.contained</td><td>Element `Flag.contained` is mapped to FHIR R4B element `Flag.contained`.</td></tr><tr><td>Flag.identifier (identifier)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Flag#Flag.identifier</td><td>Element `Flag.identifier` is mapped to FHIR R4B element `Flag.identifier`.</td></tr><tr><td>Flag.status (status)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Flag#Flag.status</td><td>Element `Flag.status` is mapped to FHIR R4B element `Flag.status`.</td></tr><tr><td>Flag.category (category)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Flag#Flag.category</td><td>Element `Flag.category` is mapped to FHIR R4B element `Flag.category`.</td></tr><tr><td>Flag.code (code)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Flag#Flag.code</td><td>Element `Flag.code` is mapped to FHIR R4B element `Flag.code`.</td></tr><tr><td>Flag.subject (subject)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Flag#Flag.subject</td><td>Element matches Basic element path `Basic.subject`, use that element instead.\nElement `Flag.subject` is mapped to FHIR R4B element `Flag.subject`.</td></tr><tr><td>Flag.period (period)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Flag#Flag.period</td><td>Element `Flag.period` is mapped to FHIR R4B element `Flag.period`.</td></tr><tr><td>Flag.encounter (encounter)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Flag#Flag.encounter</td><td>Element `Flag.encounter` is mapped to FHIR R4B element `Flag.encounter`.</td></tr><tr><td>Flag.author (author)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Flag#Flag.author</td><td>Element matches Basic element path `Basic.author`, use that element instead.\nElement `Flag.author` is mapped to FHIR R4B element `Flag.author`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Flag-elements-for-R4-Flag"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Flag-elements-for-R4-Flag>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5FlagElementsForR4Flag"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:32.8746431-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Flag"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Flag>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Flag" ] ;
+       fhir:display [ fhir:v "Flag" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Flag#Flag" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Flag` is representable via FHIR R4B Resource `Flag`.\nElement `Flag` is mapped to FHIR R4B element `Flag`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Flag.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Flag#Flag.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Flag.meta` is mapped to FHIR R4B element `Flag.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Flag.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Flag#Flag.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Flag.implicitRules` is mapped to FHIR R4B element `Flag.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Flag.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Flag#Flag.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Flag.language` is mapped to FHIR R4B element `Flag.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Flag.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Flag#Flag.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Flag.text` is mapped to FHIR R4B element `Flag.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Flag.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Flag#Flag.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Flag.contained` is mapped to FHIR R4B element `Flag.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Flag.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Flag#Flag.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Flag.identifier` is mapped to FHIR R4B element `Flag.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Flag.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Flag#Flag.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Flag.status` is mapped to FHIR R4B element `Flag.status`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Flag.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Flag#Flag.category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Flag.category` is mapped to FHIR R4B element `Flag.category`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Flag.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Flag#Flag.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Flag.code` is mapped to FHIR R4B element `Flag.code`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Flag.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Flag#Flag.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `Flag.subject` is mapped to FHIR R4B element `Flag.subject`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Flag.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Flag#Flag.period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Flag.period` is mapped to FHIR R4B element `Flag.period`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Flag.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Flag#Flag.encounter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Flag.encounter` is mapped to FHIR R4B element `Flag.encounter`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Flag.author" ] ;
+       fhir:display [ fhir:v "author" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Flag#Flag.author" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.author`, use that element instead.\nElement `Flag.author` is mapped to FHIR R4B element `Flag.author`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

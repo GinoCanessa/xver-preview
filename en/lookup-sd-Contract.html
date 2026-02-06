@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Lookup for ProfileContract - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"3.36"}
+    h3,h4,h5,h6{--heading-prefix:"3.36"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" data-no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img alt="International flag" src="../assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='lookup-sd.html'><b>Structure Lookup</b></a></li><li><b>Lookup for ProfileContract</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="lookup-sd-Consent.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="lookup-sd-Coverage.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Lookup for ProfileContract</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+</div>
+<h3 id="lookup-for-fhir-r5-contract-for-use-in-fhir-r4">Lookup for <a href="https://hl7.org/fhir/R5/">FHIR R5</a> <a href="https://hl7.org/fhir/R5/Contract.html">Contract</a> for use in <a href="https://hl7.org/fhir/R4/">FHIR R4</a></h3>
+
+<p>The FHIR R5 resource is represented in FHIR R4 via the Contract resource.</p>
+
+<p>Note that there is a profile defined to simplify use of this cross-version resource representation:<a href="StructureDefinition-profile-Contract.html">Profile: Contract</a></p>
+
+<p>A computable version of the following element information is available in: <a href="ConceptMap-ConceptMap-R5-Contract-elements-for-R4-Contract.html">ConceptMapR5ContractElementsForR4Contract</a></p>
+
+<table class="grid">
+  <thead>
+    <tr>
+      <th>Source Element (FHIR R5)</th>
+      <th>Target(s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.meta</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.meta</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.implicitRules</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.implicitRules</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.language</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.language</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.text</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.text</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.contained</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.contained</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.identifier</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.identifier</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.url</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.url</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.version</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.version</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.status</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.status</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.legalState</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.legalState</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.instantiatesCanonical</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.instantiatesCanonical</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.instantiatesUri</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.instantiatesUri</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.contentDerivative</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.contentDerivative</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.issued</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.issued</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.applies</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.applies</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.expirationType</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.expirationType</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.subject</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.subject</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.authority</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.authority</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.domain</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.domain</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.site</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.site</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.name</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.name</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.title</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.title</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.subtitle</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.subtitle</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.alias</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.alias</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.author</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.author</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.scope</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.scope</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.topic[x]</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.topic[x]</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.type</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.type</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.subType</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.subType</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.contentDefinition</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.contentDefinition</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.contentDefinition.type</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.contentDefinition.type</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.contentDefinition.subType</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.contentDefinition.subType</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.contentDefinition.publisher</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.contentDefinition.publisher</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.contentDefinition.publicationDate</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.contentDefinition.publicationDate</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.contentDefinition.publicationStatus</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.contentDefinition.publicationStatus</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.contentDefinition.copyright</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.contentDefinition.copyright</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term</a><br /><a href="StructureDefinition-ext-R5-Contract.term.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.term</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.identifier</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.identifier</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.issued</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.issued</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.applies</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.applies</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.topic[x]</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.topic[x]</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.type</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.type</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.subType</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.subType</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.text</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.text</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.securityLabel</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.securityLabel</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.securityLabel.number</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.securityLabel.number</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.securityLabel.classification</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.securityLabel.classification</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.securityLabel.category</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.securityLabel.category</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.securityLabel.control</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.securityLabel.control</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.offer</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.offer</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.offer.identifier</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.offer.identifier</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.offer.party</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.offer.party</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.offer.party.reference</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.offer.party.reference</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.offer.party.role</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.offer.party.role</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.offer.topic</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.offer.topic</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.offer.type</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.offer.type</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.offer.decision</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.offer.decision</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.offer.decisionMode</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.offer.decisionMode</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.offer.answer</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.offer.answer</a><br /><a href="StructureDefinition-ext-R5-Contract.ter.off.answer.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.term.offer.answer</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.offer.answer.value[x]</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.offer.answer.value[x]</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.offer.text</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.offer.text</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.offer.linkId</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.offer.linkId</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.offer.securityLabelNumber</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.offer.securityLabelNumber</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.scope</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.scope</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.type</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.type</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.typeReference</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.typeReference</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.subtype</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.subtype</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.relationship</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.relationship</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.context</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.context</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.context.reference</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.context.reference</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.context.code</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.context.code</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.context.text</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.context.text</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.condition</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.condition</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.periodType</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.periodType</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.period</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.period</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.usePeriod</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.usePeriod</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.text</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.text</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.linkId</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.linkId</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.answer</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.answer</a><br /><a href="StructureDefinition-ext-R5-Contract.ter.ass.answer.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.term.asset.answer</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.answer.value[x]</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.answer.value[x]</a><br /><a href="StructureDefinition-ext-R5-Contract.ter.ass.answer.html">Extension slice: value</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.securityLabelNumber</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.securityLabelNumber</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.valuedItem</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.valuedItem</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.valuedItem.entity[x]</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.valuedItem.entity[x]</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.valuedItem.identifier</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.valuedItem.identifier</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.valuedItem.effectiveTime</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.valuedItem.effectiveTime</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.valuedItem.quantity</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.valuedItem.quantity</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.valuedItem.unitPrice</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.valuedItem.unitPrice</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.valuedItem.factor</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.valuedItem.factor</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.valuedItem.points</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.valuedItem.points</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.valuedItem.net</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.valuedItem.net</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.valuedItem.payment</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.valuedItem.payment</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.valuedItem.paymentDate</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.valuedItem.paymentDate</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.valuedItem.responsible</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.valuedItem.responsible</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.valuedItem.recipient</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.valuedItem.recipient</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.valuedItem.linkId</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.valuedItem.linkId</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.asset.valuedItem.securityLabelNumber</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.asset.valuedItem.securityLabelNumber</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.action</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.action</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.action.doNotPerform</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.action.doNotPerform</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.action.type</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.action.type</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.action.subject</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.action.subject</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.action.subject.reference</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.action.subject.reference</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.action.subject.role</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.action.subject.role</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.action.intent</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.action.intent</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.action.linkId</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.action.linkId</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.action.status</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.action.status</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.action.context</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.action.context</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.action.contextLinkId</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.action.contextLinkId</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.action.occurrence[x]</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.action.occurrence[x]</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.action.requester</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.action.requester</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.action.requesterLinkId</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.action.requesterLinkId</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.action.performerType</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.action.performerType</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.action.performerRole</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.action.performerRole</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.action.performer</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.action.performer</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.action.performerLinkId</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.action.performerLinkId</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.action.reason</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.action.reason</a><br /><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.action.reasonCode</a><br /><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.action.reasonReference</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.action.reasonLinkId</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.action.reasonLinkId</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.action.note</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.action.note</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.action.securityLabelNumber</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.action.securityLabelNumber</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.term.group</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.term.group</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.supportingInfo</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.supportingInfo</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.relevantHistory</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.relevantHistory</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.signer</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.signer</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.signer.type</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.signer.type</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.signer.party</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.signer.party</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.signer.signature</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.signer.signature</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.friendly</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.friendly</a><br /><a href="StructureDefinition-ext-R5-Contract.friendly.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.friendly</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.friendly.content[x]</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.friendly.content[x]</a><br /><a href="StructureDefinition-ext-R5-Contract.friendly.html">Extension slice: content</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.legal</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.legal</a><br /><a href="StructureDefinition-ext-R5-Contract.legal.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.legal</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.legal.content[x]</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.legal.content[x]</a><br /><a href="StructureDefinition-ext-R5-Contract.legal.html">Extension slice: content</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.rule</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.rule</a><br /><a href="StructureDefinition-ext-R5-Contract.rule.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.rule</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.rule.content[x]</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.rule.content[x]</a><br /><a href="StructureDefinition-ext-R5-Contract.rule.html">Extension slice: content</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Contract.html#resource"><code class="language-plaintext highlighter-rouge">Contract.legallyBinding[x]</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Contract.html#resource">Contract.legallyBinding[x]</a><br /><a href="StructureDefinition-ext-R5-Contract.legallyBinding.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.legallyBinding</a></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="lookup-sd-Consent.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="lookup-sd-Coverage.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-06 13:22:00 -0600">
+    2026-02-06
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir/uv/xver/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

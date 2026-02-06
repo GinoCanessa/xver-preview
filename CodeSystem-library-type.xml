@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="library-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://terminology.hl7.org/CodeSystem/library-type</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">logic-library<a name="library-type-logic-library"> </a></td><td>Logic Library</td><td>The resource is a shareable library of formalized knowledge.</td></tr><tr><td style="white-space:nowrap">model-definition<a name="library-type-model-definition"> </a></td><td>Model Definition</td><td>The resource is a definition of an information model.</td></tr><tr><td style="white-space:nowrap">asset-collection<a name="library-type-asset-collection"> </a></td><td>Asset Collection</td><td>The resource is a collection of knowledge assets.</td></tr><tr><td style="white-space:nowrap">module-definition<a name="library-type-module-definition"> </a></td><td>Module Definition</td><td>The resource defines the dependencies, parameters, and data requirements for a particular module or evaluation context.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="cds"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/library-type"/>
+  <version value="0.1.0"/>
+  <name value="LibraryType"/>
+  <title value="LibraryType"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-04-09T16:10:28-05:00"/>
+  <publisher value="Clinical Decision Support"/>
+  <contact>
+    <name value="Clinical Decision Support"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/dss"/>
+    </telecom>
+  </contact>
+  <description value="The type of knowledge asset this library contains."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/library-type|1.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="logic-library"/>
+    <display value="Logic Library"/>
+    <definition value="The resource is a shareable library of formalized knowledge."/>
+  </concept>
+  <concept>
+    <code value="model-definition"/>
+    <display value="Model Definition"/>
+    <definition value="The resource is a definition of an information model."/>
+  </concept>
+  <concept>
+    <code value="asset-collection"/>
+    <display value="Asset Collection"/>
+    <definition value="The resource is a collection of knowledge assets."/>
+  </concept>
+  <concept>
+    <code value="module-definition"/>
+    <display value="Module Definition"/>
+    <definition value="The resource defines the dependencies, parameters, and data requirements for a particular module or evaluation context."/>
+  </concept>
+</CodeSystem>

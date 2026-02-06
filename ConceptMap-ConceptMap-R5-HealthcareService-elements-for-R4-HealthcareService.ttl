@@ -1,0 +1,400 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-HealthcareService-elements-for-R4-HealthcareService> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-HealthcareService-elements-for-R4-HealthcareService"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-HealthcareService-elements-for-R4-HealthcareService</b></p><a name=\"ConceptMap-R5-HealthcareService-elements-for-R4-HealthcareService\"> </a><a name=\"hcConceptMap-R5-HealthcareService-elements-for-R4-HealthcareService\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/HealthcareService|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/HealthcareService|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">HealthcareService</td><td style=\"border-left-width: 0px; border-bottom-style: none\">HealthcareService</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `HealthcareService` is representable via FHIR R4B Resource `HealthcareService`.\nElement `HealthcareService` is mapped to FHIR R4B element `HealthcareService`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.serviceType</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `HealthcareService` is representable via FHIR DSTU2 Resource `HealthcareService`.\nElement `HealthcareService` is mapped to FHIR DSTU2 element `HealthcareService.serviceType`.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.meta</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.meta` is mapped to FHIR R4B element `HealthcareService.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.implicitRules` is mapped to FHIR R4B element `HealthcareService.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.language</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.language` is mapped to FHIR R4B element `HealthcareService.language`.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.text</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.text` is mapped to FHIR R4B element `HealthcareService.text`.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.contained</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.contained` is mapped to FHIR R4B element `HealthcareService.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.identifier` is mapped to FHIR R4B element `HealthcareService.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">HealthcareService.active</td><td style=\"border-left-width: 0px; border-bottom-style: none\">active</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.active</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.active` is mapped to FHIR R4B element `HealthcareService.active`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-HealthcareService.active</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.active` is mapped to FHIR DSTU2 structure `HealthcareService`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.providedBy</td><td style=\"border-left-width: 0px\">providedBy</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.providedBy</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.providedBy` is mapped to FHIR R4B element `HealthcareService.providedBy`.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.offeredIn</td><td style=\"border-left-width: 0px\">offeredIn</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-HealthcareService.offeredIn</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.offeredIn` is mapped to FHIR R4B structure `HealthcareService`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">HealthcareService.category</td><td style=\"border-left-width: 0px; border-bottom-style: none\">category</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.category</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.category` is mapped to FHIR R4B element `HealthcareService.category`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.serviceCategory</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.category` is mapped to FHIR DSTU2 element `HealthcareService.serviceCategory`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">HealthcareService.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.type</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.type` is mapped to FHIR R4B element `HealthcareService.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.serviceType.type</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.type` is mapped to FHIR DSTU2 element `HealthcareService.serviceType.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">HealthcareService.specialty</td><td style=\"border-left-width: 0px; border-bottom-style: none\">specialty</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.specialty</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.specialty` is mapped to FHIR R4B element `HealthcareService.specialty`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.serviceType.specialty</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.specialty` is mapped to FHIR DSTU2 element `HealthcareService.serviceType.specialty`.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.location</td><td style=\"border-left-width: 0px\">location</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.location</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.location` is mapped to FHIR R4B element `HealthcareService.location`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">HealthcareService.name</td><td style=\"border-left-width: 0px; border-bottom-style: none\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.name</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.name` is mapped to FHIR R4B element `HealthcareService.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.serviceName</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.name` is mapped to FHIR DSTU2 element `HealthcareService.serviceName`.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.comment</td><td style=\"border-left-width: 0px\">comment</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.comment</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.comment` is mapped to FHIR R4B element `HealthcareService.comment`.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.extraDetails</td><td style=\"border-left-width: 0px\">extraDetails</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.extraDetails</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.extraDetails` is mapped to FHIR R4B element `HealthcareService.extraDetails`.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.photo</td><td style=\"border-left-width: 0px\">photo</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.photo</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.photo` is mapped to FHIR R4B element `HealthcareService.photo`.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.contact</td><td style=\"border-left-width: 0px\">contact</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-HealthcareService.contact</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.contact` is mapped to FHIR R4B structure `HealthcareService`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.coverageArea</td><td style=\"border-left-width: 0px\">coverageArea</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.coverageArea</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.coverageArea` is mapped to FHIR R4B element `HealthcareService.coverageArea`.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.serviceProvisionCode</td><td style=\"border-left-width: 0px\">serviceProvisionCode</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.serviceProvisionCode</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.serviceProvisionCode` is mapped to FHIR R4B element `HealthcareService.serviceProvisionCode`.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.eligibility</td><td style=\"border-left-width: 0px\">eligibility</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.eligibility</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.eligibility` is mapped to FHIR R4B element `HealthcareService.eligibility`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">HealthcareService.eligibility.code</td><td style=\"border-left-width: 0px; border-bottom-style: none\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.eligibility.code</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.eligibility.code` is mapped to FHIR R4B element `HealthcareService.eligibility.code`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.eligibility</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.eligibility.code` is mapped to FHIR STU3 element `HealthcareService.eligibility`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">HealthcareService.eligibility.comment</td><td style=\"border-left-width: 0px; border-bottom-style: none\">comment</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.eligibility.comment</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.eligibility.comment` is mapped to FHIR R4B element `HealthcareService.eligibility.comment`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.eligibilityNote</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.eligibility.comment` is mapped to FHIR STU3 element `HealthcareService.eligibilityNote`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">HealthcareService.program</td><td style=\"border-left-width: 0px; border-bottom-style: none\">program</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.program</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.program` is mapped to FHIR R4B element `HealthcareService.program`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-HealthcareService.program</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.program` is mapped to FHIR STU3 structure `HealthcareService`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.characteristic</td><td style=\"border-left-width: 0px\">characteristic</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.characteristic</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.characteristic` is mapped to FHIR R4B element `HealthcareService.characteristic`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">HealthcareService.communication</td><td style=\"border-left-width: 0px; border-bottom-style: none\">communication</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.communication</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.communication` is mapped to FHIR R4B element `HealthcareService.communication`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-HealthcareService.communication</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.communication` is mapped to FHIR STU3 structure `HealthcareService`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.referralMethod</td><td style=\"border-left-width: 0px\">referralMethod</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.referralMethod</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.referralMethod` is mapped to FHIR R4B element `HealthcareService.referralMethod`.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.appointmentRequired</td><td style=\"border-left-width: 0px\">appointmentRequired</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.appointmentRequired</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.appointmentRequired` is mapped to FHIR R4B element `HealthcareService.appointmentRequired`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">HealthcareService.availability</td><td style=\"border-left-width: 0px; border-bottom-style: none\">availability</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.availableTime</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.availability` is mapped to FHIR R4B element `HealthcareService.availableTime`.\nElement `HealthcareService.availability` is mapped to FHIR R4B element `HealthcareService.notAvailable`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.notAvailable</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.availability` is mapped to FHIR R4B element `HealthcareService.availableTime`.\nElement `HealthcareService.availability` is mapped to FHIR R4B element `HealthcareService.notAvailable`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">HealthcareService.endpoint</td><td style=\"border-left-width: 0px; border-bottom-style: none\">endpoint</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.endpoint</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.endpoint` is mapped to FHIR R4B element `HealthcareService.endpoint`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-HealthcareService.endpoint</td><td style=\"border-left-width: 0px\"/><td>Element `HealthcareService.endpoint` is mapped to FHIR DSTU2 structure `HealthcareService`, but has no target element specified.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-HealthcareService-elements-for-R4-HealthcareService"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-HealthcareService-elements-for-R4-HealthcareService>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5HealthcareServiceElementsForR4HealthcareService"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:32.9673252-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/HealthcareService>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "HealthcareService" ] ;
+       fhir:display [ fhir:v "HealthcareService" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `HealthcareService` is representable via FHIR R4B Resource `HealthcareService`.\nElement `HealthcareService` is mapped to FHIR R4B element `HealthcareService`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.serviceType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `HealthcareService` is representable via FHIR DSTU2 Resource `HealthcareService`.\nElement `HealthcareService` is mapped to FHIR DSTU2 element `HealthcareService.serviceType`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.meta` is mapped to FHIR R4B element `HealthcareService.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.implicitRules` is mapped to FHIR R4B element `HealthcareService.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.language` is mapped to FHIR R4B element `HealthcareService.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.text` is mapped to FHIR R4B element `HealthcareService.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.contained` is mapped to FHIR R4B element `HealthcareService.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.identifier` is mapped to FHIR R4B element `HealthcareService.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.active" ] ;
+       fhir:display [ fhir:v "active" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.active" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.active` is mapped to FHIR R4B element `HealthcareService.active`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-HealthcareService.active" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.active` is mapped to FHIR DSTU2 structure `HealthcareService`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.providedBy" ] ;
+       fhir:display [ fhir:v "providedBy" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.providedBy" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.providedBy` is mapped to FHIR R4B element `HealthcareService.providedBy`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.offeredIn" ] ;
+       fhir:display [ fhir:v "offeredIn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-HealthcareService.offeredIn" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.offeredIn` is mapped to FHIR R4B structure `HealthcareService`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.category` is mapped to FHIR R4B element `HealthcareService.category`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.serviceCategory" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.category` is mapped to FHIR DSTU2 element `HealthcareService.serviceCategory`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.type` is mapped to FHIR R4B element `HealthcareService.type`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.serviceType.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.type` is mapped to FHIR DSTU2 element `HealthcareService.serviceType.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.specialty" ] ;
+       fhir:display [ fhir:v "specialty" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.specialty" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.specialty` is mapped to FHIR R4B element `HealthcareService.specialty`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.serviceType.specialty" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.specialty` is mapped to FHIR DSTU2 element `HealthcareService.serviceType.specialty`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.location" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.location` is mapped to FHIR R4B element `HealthcareService.location`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.name` is mapped to FHIR R4B element `HealthcareService.name`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.serviceName" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.name` is mapped to FHIR DSTU2 element `HealthcareService.serviceName`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.comment" ] ;
+       fhir:display [ fhir:v "comment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.comment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.comment` is mapped to FHIR R4B element `HealthcareService.comment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.extraDetails" ] ;
+       fhir:display [ fhir:v "extraDetails" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.extraDetails" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.extraDetails` is mapped to FHIR R4B element `HealthcareService.extraDetails`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.photo" ] ;
+       fhir:display [ fhir:v "photo" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.photo" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.photo` is mapped to FHIR R4B element `HealthcareService.photo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-HealthcareService.contact" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.contact` is mapped to FHIR R4B structure `HealthcareService`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.coverageArea" ] ;
+       fhir:display [ fhir:v "coverageArea" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.coverageArea" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.coverageArea` is mapped to FHIR R4B element `HealthcareService.coverageArea`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.serviceProvisionCode" ] ;
+       fhir:display [ fhir:v "serviceProvisionCode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.serviceProvisionCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.serviceProvisionCode` is mapped to FHIR R4B element `HealthcareService.serviceProvisionCode`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.eligibility" ] ;
+       fhir:display [ fhir:v "eligibility" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.eligibility" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.eligibility` is mapped to FHIR R4B element `HealthcareService.eligibility`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.eligibility.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.eligibility.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.eligibility.code` is mapped to FHIR R4B element `HealthcareService.eligibility.code`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.eligibility" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.eligibility.code` is mapped to FHIR STU3 element `HealthcareService.eligibility`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.eligibility.comment" ] ;
+       fhir:display [ fhir:v "comment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.eligibility.comment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.eligibility.comment` is mapped to FHIR R4B element `HealthcareService.eligibility.comment`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.eligibilityNote" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.eligibility.comment` is mapped to FHIR STU3 element `HealthcareService.eligibilityNote`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.program" ] ;
+       fhir:display [ fhir:v "program" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.program" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.program` is mapped to FHIR R4B element `HealthcareService.program`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-HealthcareService.program" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.program` is mapped to FHIR STU3 structure `HealthcareService`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.characteristic" ] ;
+       fhir:display [ fhir:v "characteristic" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.characteristic" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.characteristic` is mapped to FHIR R4B element `HealthcareService.characteristic`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.communication" ] ;
+       fhir:display [ fhir:v "communication" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.communication" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.communication` is mapped to FHIR R4B element `HealthcareService.communication`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-HealthcareService.communication" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.communication` is mapped to FHIR STU3 structure `HealthcareService`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.referralMethod" ] ;
+       fhir:display [ fhir:v "referralMethod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.referralMethod" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.referralMethod` is mapped to FHIR R4B element `HealthcareService.referralMethod`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.appointmentRequired" ] ;
+       fhir:display [ fhir:v "appointmentRequired" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.appointmentRequired" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.appointmentRequired` is mapped to FHIR R4B element `HealthcareService.appointmentRequired`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.availability" ] ;
+       fhir:display [ fhir:v "availability" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.availableTime" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.availability` is mapped to FHIR R4B element `HealthcareService.availableTime`.\nElement `HealthcareService.availability` is mapped to FHIR R4B element `HealthcareService.notAvailable`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.notAvailable" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.availability` is mapped to FHIR R4B element `HealthcareService.availableTime`.\nElement `HealthcareService.availability` is mapped to FHIR R4B element `HealthcareService.notAvailable`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.endpoint" ] ;
+       fhir:display [ fhir:v "endpoint" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.endpoint" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.endpoint` is mapped to FHIR R4B element `HealthcareService.endpoint`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-HealthcareService.endpoint" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.endpoint` is mapped to FHIR DSTU2 structure `HealthcareService`, but has no target element specified." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

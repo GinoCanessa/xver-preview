@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="modifiers"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://terminology.hl7.org/CodeSystem/modifiers</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">a<a name="modifiers-a"> </a></td><td>Repair of prior service or installation</td><td>Repair of prior service or installation.</td></tr><tr><td style="white-space:nowrap">b<a name="modifiers-b"> </a></td><td>Temporary service or installation</td><td>Temporary service or installation.</td></tr><tr><td style="white-space:nowrap">c<a name="modifiers-c"> </a></td><td>TMJ treatment</td><td>Treatment associated with TMJ.</td></tr><tr><td style="white-space:nowrap">e<a name="modifiers-e"> </a></td><td>Implant or associated with an implant</td><td>Implant or associated with an implant.</td></tr><tr><td style="white-space:nowrap">rooh<a name="modifiers-rooh"> </a></td><td>Rush or Outside of office hours</td><td>A Rush service or service performed outside of normal office hours.</td></tr><tr><td style="white-space:nowrap">x<a name="modifiers-x"> </a></td><td>None</td><td>None.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fm"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/modifiers"/>
+  <version value="0.1.0"/>
+  <name value="ModifierTypeCodes"/>
+  <title value="Modifier type Codes"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2023-02-25T12:07:30-06:00"/>
+  <publisher value="Financial Management"/>
+  <contact>
+    <name value="Financial Management"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fm"/>
+    </telecom>
+  </contact>
+  <description value="This value set includes sample Modifier type codes."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This is an example set."/>
+  <caseSensitive value="true"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/claim-modifiers|1.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="a"/>
+    <display value="Repair of prior service or installation"/>
+    <definition value="Repair of prior service or installation."/>
+  </concept>
+  <concept>
+    <code value="b"/>
+    <display value="Temporary service or installation"/>
+    <definition value="Temporary service or installation."/>
+  </concept>
+  <concept>
+    <code value="c"/>
+    <display value="TMJ treatment"/>
+    <definition value="Treatment associated with TMJ."/>
+  </concept>
+  <concept>
+    <code value="e"/>
+    <display value="Implant or associated with an implant"/>
+    <definition value="Implant or associated with an implant."/>
+  </concept>
+  <concept>
+    <code value="rooh"/>
+    <display value="Rush or Outside of office hours"/>
+    <definition value="A Rush service or service performed outside of normal office hours."/>
+  </concept>
+  <concept>
+    <code value="x"/>
+    <display value="None"/>
+    <definition value="None."/>
+  </concept>
+</CodeSystem>

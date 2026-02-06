@@ -1,0 +1,356 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-ResearchSubject-elements-for-R4-ResearchSubject> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-ResearchSubject-elements-for-R4-ResearchSubject"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-ResearchSubject-elements-for-R4-ResearchSubject</b></p><a name=\"ConceptMap-R5-ResearchSubject-elements-for-R4-ResearchSubject\"> </a><a name=\"hcConceptMap-R5-ResearchSubject-elements-for-R4-ResearchSubject\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ResearchSubject|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/ResearchSubject|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ResearchSubject</td><td style=\"border-left-width: 0px; border-bottom-style: none\">ResearchSubject</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `ResearchSubject` is representable via FHIR R4B Resource `ResearchSubject`.\nElement `ResearchSubject` is mapped to FHIR R4B element `ResearchSubject`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `ResearchSubject` is representable via FHIR DSTU2 Resource `Basic`.\nElement `ResearchSubject` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ResearchSubject.meta</td><td style=\"border-left-width: 0px; border-bottom-style: none\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject.meta</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.meta` is mapped to FHIR R4B element `ResearchSubject.meta`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.meta</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.meta`, use that element instead.\nElement `ResearchSubject.meta` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ResearchSubject.implicitRules</td><td style=\"border-left-width: 0px; border-bottom-style: none\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.implicitRules` is mapped to FHIR R4B element `ResearchSubject.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `ResearchSubject.implicitRules` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ResearchSubject.language</td><td style=\"border-left-width: 0px; border-bottom-style: none\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject.language</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.language` is mapped to FHIR R4B element `ResearchSubject.language`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.language</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.language`, use that element instead.\nElement `ResearchSubject.language` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ResearchSubject.text</td><td style=\"border-left-width: 0px; border-bottom-style: none\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject.text</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.text` is mapped to FHIR R4B element `ResearchSubject.text`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.text</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `ResearchSubject.text` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ResearchSubject.contained</td><td style=\"border-left-width: 0px; border-bottom-style: none\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject.contained</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.contained` is mapped to FHIR R4B element `ResearchSubject.contained`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.contained</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `ResearchSubject.contained` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ResearchSubject.identifier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.identifier` is mapped to FHIR R4B element `ResearchSubject.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.identifier</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `ResearchSubject.identifier` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ResearchSubject.status</td><td style=\"border-left-width: 0px; border-bottom-style: none\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject.status</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `ResearchSubject.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `ResearchSubject.status` is mapped to FHIR R4B element `ResearchSubject.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject:status</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.status` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ResearchSubject.progress</td><td style=\"border-left-width: 0px; border-bottom-style: none\">progress</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject.progress</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.progress` is mapped to FHIR R4B structure `ResearchSubject`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject:progress</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.progress` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ResearchSubject.progress.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject.progress:type</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.progress.type` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.type` is mapped to FHIR R4B structure `ResearchSubject`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject:progress:type</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.progress.type` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.type` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ResearchSubject.progress.subjectState</td><td style=\"border-left-width: 0px; border-bottom-style: none\">subjectState</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject.progress:subjectState</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.progress.subjectState` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.subjectState` is mapped to FHIR R4B structure `ResearchSubject`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject:progress:subjectState</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.progress.subjectState` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.subjectState` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ResearchSubject.progress.milestone</td><td style=\"border-left-width: 0px; border-bottom-style: none\">milestone</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject.progress:milestone</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.progress.milestone` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.milestone` is mapped to FHIR R4B structure `ResearchSubject`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject:progress:milestone</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.progress.milestone` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.milestone` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ResearchSubject.progress.reason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject.progress:reason</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.progress.reason` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.reason` is mapped to FHIR R4B structure `ResearchSubject`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject:progress:reason</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.progress.reason` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.reason` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ResearchSubject.progress.startDate</td><td style=\"border-left-width: 0px; border-bottom-style: none\">startDate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject.progress:startDate</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.progress.startDate` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.startDate` is mapped to FHIR R4B structure `ResearchSubject`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject:progress:startDate</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.progress.startDate` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.startDate` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ResearchSubject.progress.endDate</td><td style=\"border-left-width: 0px; border-bottom-style: none\">endDate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject.progress:endDate</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.progress.endDate` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.endDate` is mapped to FHIR R4B structure `ResearchSubject`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject:progress:endDate</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.progress.endDate` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.endDate` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ResearchSubject.period</td><td style=\"border-left-width: 0px; border-bottom-style: none\">period</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject.period</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.period` is mapped to FHIR R4B element `ResearchSubject.period`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject:period</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.period` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ResearchSubject.study</td><td style=\"border-left-width: 0px; border-bottom-style: none\">study</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject.study</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.study` is mapped to FHIR R4B element `ResearchSubject.study`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject:study</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.study` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ResearchSubject.subject</td><td style=\"border-left-width: 0px; border-bottom-style: none\">subject</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject.individual</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.subject`, use that element instead.\nElement `ResearchSubject.subject` is mapped to FHIR R4B element `ResearchSubject.individual`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.subject</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.subject`, use that element instead.\nElement `ResearchSubject.subject` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ResearchSubject.assignedComparisonGroup</td><td style=\"border-left-width: 0px; border-bottom-style: none\">assignedComparisonGroup</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject.assignedArm</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.assignedComparisonGroup` is mapped to FHIR R4B element `ResearchSubject.assignedArm`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject:assignedComparisonGroup</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.assignedComparisonGroup` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ResearchSubject.actualComparisonGroup</td><td style=\"border-left-width: 0px; border-bottom-style: none\">actualComparisonGroup</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject.actualArm</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.actualComparisonGroup` is mapped to FHIR R4B element `ResearchSubject.actualArm`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject:actualComparisonGroup</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.actualComparisonGroup` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ResearchSubject.consent</td><td style=\"border-left-width: 0px; border-bottom-style: none\">consent</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject.consent</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.consent` is mapped to FHIR R4B element `ResearchSubject.consent`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject:consent</td><td style=\"border-left-width: 0px\"/><td>Element `ResearchSubject.consent` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-ResearchSubject-elements-for-R4-ResearchSubject"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-ResearchSubject-elements-for-R4-ResearchSubject>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5ResearchSubjectElementsForR4ResearchSubject"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:34.1853243-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/ResearchSubject"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/ResearchSubject>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "ResearchSubject" ] ;
+       fhir:display [ fhir:v "ResearchSubject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `ResearchSubject` is representable via FHIR R4B Resource `ResearchSubject`.\nElement `ResearchSubject` is mapped to FHIR R4B element `ResearchSubject`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `ResearchSubject` is representable via FHIR DSTU2 Resource `Basic`.\nElement `ResearchSubject` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ResearchSubject.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.meta` is mapped to FHIR R4B element `ResearchSubject.meta`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `ResearchSubject.meta` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ResearchSubject.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.implicitRules` is mapped to FHIR R4B element `ResearchSubject.implicitRules`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `ResearchSubject.implicitRules` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ResearchSubject.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.language` is mapped to FHIR R4B element `ResearchSubject.language`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.language`, use that element instead.\nElement `ResearchSubject.language` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ResearchSubject.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.text` is mapped to FHIR R4B element `ResearchSubject.text`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `ResearchSubject.text` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ResearchSubject.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.contained` is mapped to FHIR R4B element `ResearchSubject.contained`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `ResearchSubject.contained` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ResearchSubject.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.identifier` is mapped to FHIR R4B element `ResearchSubject.identifier`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `ResearchSubject.identifier` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ResearchSubject.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `ResearchSubject.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `ResearchSubject.status` is mapped to FHIR R4B element `ResearchSubject.status`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject:status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.status` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ResearchSubject.progress" ] ;
+       fhir:display [ fhir:v "progress" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject.progress" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.progress` is mapped to FHIR R4B structure `ResearchSubject`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject:progress" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.progress` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ResearchSubject.progress.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject.progress:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.progress.type` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.type` is mapped to FHIR R4B structure `ResearchSubject`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject:progress:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.progress.type` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.type` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ResearchSubject.progress.subjectState" ] ;
+       fhir:display [ fhir:v "subjectState" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject.progress:subjectState" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.progress.subjectState` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.subjectState` is mapped to FHIR R4B structure `ResearchSubject`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject:progress:subjectState" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.progress.subjectState` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.subjectState` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ResearchSubject.progress.milestone" ] ;
+       fhir:display [ fhir:v "milestone" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject.progress:milestone" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.progress.milestone` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.milestone` is mapped to FHIR R4B structure `ResearchSubject`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject:progress:milestone" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.progress.milestone` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.milestone` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ResearchSubject.progress.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject.progress:reason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.progress.reason` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.reason` is mapped to FHIR R4B structure `ResearchSubject`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject:progress:reason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.progress.reason` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.reason` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ResearchSubject.progress.startDate" ] ;
+       fhir:display [ fhir:v "startDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject.progress:startDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.progress.startDate` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.startDate` is mapped to FHIR R4B structure `ResearchSubject`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject:progress:startDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.progress.startDate` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.startDate` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ResearchSubject.progress.endDate" ] ;
+       fhir:display [ fhir:v "endDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject.progress:endDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.progress.endDate` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.endDate` is mapped to FHIR R4B structure `ResearchSubject`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject:progress:endDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.progress.endDate` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.endDate` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ResearchSubject.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject.period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.period` is mapped to FHIR R4B element `ResearchSubject.period`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject:period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.period` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ResearchSubject.study" ] ;
+       fhir:display [ fhir:v "study" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject.study" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.study` is mapped to FHIR R4B element `ResearchSubject.study`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject:study" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.study` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ResearchSubject.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject.individual" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `ResearchSubject.subject` is mapped to FHIR R4B element `ResearchSubject.individual`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `ResearchSubject.subject` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ResearchSubject.assignedComparisonGroup" ] ;
+       fhir:display [ fhir:v "assignedComparisonGroup" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject.assignedArm" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.assignedComparisonGroup` is mapped to FHIR R4B element `ResearchSubject.assignedArm`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject:assignedComparisonGroup" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.assignedComparisonGroup` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ResearchSubject.actualComparisonGroup" ] ;
+       fhir:display [ fhir:v "actualComparisonGroup" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject.actualArm" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.actualComparisonGroup` is mapped to FHIR R4B element `ResearchSubject.actualArm`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject:actualComparisonGroup" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.actualComparisonGroup` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ResearchSubject.consent" ] ;
+       fhir:display [ fhir:v "consent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ResearchSubject#ResearchSubject.consent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.consent` is mapped to FHIR R4B element `ResearchSubject.consent`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject:consent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ResearchSubject.consent` is not mapped to FHIR DSTU2, since FHIR R5 `ResearchSubject` is not mapped." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ValueSet-R5-substance-structure-technique-for-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ValueSet-R5-substance-structure-technique-for-R4</b></p><a name="ValueSet-R5-substance-structure-technique-for-R4"> </a><a name="hcValueSet-R5-substance-structure-technique-for-R4"> </a><p>This value set expansion contains 5 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name="ValueSet-R5-substance-structure-technique-for-R4-http://hl7.org/fhir/substance-structure-technique-HPLC"> </a><code>http://hl7.org/fhir/substance-structure-technique</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-substance-structure-technique.html#substance-structure-technique-HPLC">HPLC</a></td><td>HPLC</td></tr><tr><td><a name="ValueSet-R5-substance-structure-technique-for-R4-http://hl7.org/fhir/substance-structure-technique-LigandBindingAssay"> </a><code>http://hl7.org/fhir/substance-structure-technique</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-substance-structure-technique.html#substance-structure-technique-LigandBindingAssay">LigandBindingAssay</a></td><td>Ligand binding assay</td></tr><tr><td><a name="ValueSet-R5-substance-structure-technique-for-R4-http://hl7.org/fhir/substance-structure-technique-NMR"> </a><code>http://hl7.org/fhir/substance-structure-technique</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-substance-structure-technique.html#substance-structure-technique-NMR">NMR</a></td><td>NMR</td></tr><tr><td><a name="ValueSet-R5-substance-structure-technique-for-R4-http://hl7.org/fhir/substance-structure-technique-PeptideMapping"> </a><code>http://hl7.org/fhir/substance-structure-technique</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-substance-structure-technique.html#substance-structure-technique-PeptideMapping">PeptideMapping</a></td><td>Peptide mapping</td></tr><tr><td><a name="ValueSet-R5-substance-structure-technique-for-R4-http://hl7.org/fhir/substance-structure-technique-X-Ray"> </a><code>http://hl7.org/fhir/substance-structure-technique</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-substance-structure-technique.html#substance-structure-technique-X-Ray">X-Ray</a></td><td>X-ray</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="brr"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-substance-structure-technique-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="ValueSetR5SubstanceStructureTechniqueForR4"/>
+  <title value="Cross-version ValueSet R5.StructureTechnique for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <publisher value="Biomedical Research and Regulation"/>
+  <contact>
+    <name value="Biomedical Research and Regulation"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/rcrim"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/substance-structure-technique|5.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/substance-structure-technique|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `SubstanceDefinition.characterization.technique` as Example&#xA;* `SubstanceDefinition.structure.technique` as Example&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the value set has been mapped as:&#xD;&#xA;* `http://hl7.org/fhir/ValueSet/substance-structure-technique|5.0.0`&#xA;* `http://hl7.org/fhir/ValueSet/substance-structure-technique|4.3.0`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;All concepts in the comparison are listed as identical.&#xA;The source and target value sets have the same number of active concepts (5)."/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/substance-structure-technique"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="HPLC"/>
+        <display value="HPLC"/>
+      </concept>
+      <concept>
+        <code value="LigandBindingAssay"/>
+        <display value="Ligand binding assay"/>
+      </concept>
+      <concept>
+        <code value="NMR"/>
+        <display value="NMR"/>
+      </concept>
+      <concept>
+        <code value="PeptideMapping"/>
+        <display value="Peptide mapping"/>
+      </concept>
+      <concept>
+        <code value="X-Ray"/>
+        <display value="X-ray"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-06T19:17:19.5427077+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/substance-structure-technique"/>
+      <version value="5.0.0"/>
+      <code value="HPLC"/>
+      <display value="HPLC"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/substance-structure-technique"/>
+      <version value="5.0.0"/>
+      <code value="LigandBindingAssay"/>
+      <display value="Ligand binding assay"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/substance-structure-technique"/>
+      <version value="5.0.0"/>
+      <code value="NMR"/>
+      <display value="NMR"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/substance-structure-technique"/>
+      <version value="5.0.0"/>
+      <code value="PeptideMapping"/>
+      <display value="Peptide mapping"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/substance-structure-technique"/>
+      <version value="5.0.0"/>
+      <code value="X-Ray"/>
+      <display value="X-ray"/>
+    </contains>
+  </expansion>
+</ValueSet>

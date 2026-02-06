@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="ConceptMap-R5-Ratio-elements-for-R4-Ratio"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap ConceptMap-R5-Ratio-elements-for-R4-Ratio</b></p><a name="ConceptMap-R5-Ratio-elements-for-R4-Ratio"> </a><a name="hcConceptMap-R5-Ratio-elements-for-R4-Ratio"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Ratio|5.0.0</code> to <code>unspecified code system</code></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Ratio</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Ratio#Ratio</td><td>FHIR R5 ComplexType `Ratio` is representable via FHIR R4B extensions.
+Element `Ratio` is mapped to FHIR R4B element `Ratio`.</td></tr><tr><td>Ratio.numerator (numerator)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Ratio#Ratio.numerator</td><td>Element `Ratio.numerator` is mapped to FHIR R4B element `Ratio.numerator`.</td></tr><tr><td>Ratio.denominator (denominator)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Ratio#Ratio.denominator</td><td>Element `Ratio.denominator` is mapped to FHIR R4B element `Ratio.denominator`.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Ratio-elements-for-R4-Ratio"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="ConceptMapR5RatioElementsForR4Ratio"/>
+  <title value="Cross-version ConceptMap for FHIR R5 resources in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-06T13:17:34.077134-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Ratio"/>
+    <sourceVersion value="5.0.0"/>
+    <element>
+      <code value="Ratio"/>
+      <display value="Ratio"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/Ratio#Ratio"/>
+        <equivalence value="relatedto"/>
+        <comment value="FHIR R5 ComplexType `Ratio` is representable via FHIR R4B extensions.&#xA;Element `Ratio` is mapped to FHIR R4B element `Ratio`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Ratio.numerator"/>
+      <display value="numerator"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/Ratio#Ratio.numerator"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `Ratio.numerator` is mapped to FHIR R4B element `Ratio.numerator`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Ratio.denominator"/>
+      <display value="denominator"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/Ratio#Ratio.denominator"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `Ratio.denominator` is mapped to FHIR R4B element `Ratio.denominator`."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

@@ -1,0 +1,432 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-Composition-elements-for-R4-Composition> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-Composition-elements-for-R4-Composition"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-Composition-elements-for-R4-Composition</b></p><a name=\"ConceptMap-R5-Composition-elements-for-R4-Composition\"> </a><a name=\"hcConceptMap-R5-Composition-elements-for-R4-Composition\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Composition|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Composition|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">Composition</td><td style=\"border-left-width: 0px\">Composition</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Composition` is representable via FHIR R4B Resource `Composition`.\nElement `Composition` is mapped to FHIR R4B element `Composition`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.meta</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.meta` is mapped to FHIR R4B element `Composition.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.implicitRules` is mapped to FHIR R4B element `Composition.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.language</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.language` is mapped to FHIR R4B element `Composition.language`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.text</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.text` is mapped to FHIR R4B element `Composition.text`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.contained</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.contained` is mapped to FHIR R4B element `Composition.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.url</td><td style=\"border-left-width: 0px\">url</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.url</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.url` is mapped to FHIR R4B structure `Composition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.identifier` is mapped to FHIR R4B element `Composition.identifier`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.version</td><td style=\"border-left-width: 0px\">version</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.version</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.version` is mapped to FHIR R4B structure `Composition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.status</td><td style=\"border-left-width: 0px\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.status</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Composition.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Composition.status` is mapped to FHIR R4B element `Composition.status`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.type</td><td style=\"border-left-width: 0px\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.type</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.type` is mapped to FHIR R4B element `Composition.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Composition.category</td><td style=\"border-left-width: 0px; border-bottom-style: none\">category</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.category</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.category` is mapped to FHIR R4B element `Composition.category`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.class</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.category` is mapped to FHIR STU3 element `Composition.class`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.subject</td><td style=\"border-left-width: 0px\">subject</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.subject</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.subject` is mapped to FHIR R4B element `Composition.subject`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.encounter</td><td style=\"border-left-width: 0px\">encounter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.encounter</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.encounter` is mapped to FHIR R4B element `Composition.encounter`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.date</td><td style=\"border-left-width: 0px\">date</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.date</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.date` is mapped to FHIR R4B element `Composition.date`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.useContext</td><td style=\"border-left-width: 0px\">useContext</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.useContext</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.useContext` is mapped to FHIR R4B structure `Composition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.author</td><td style=\"border-left-width: 0px\">author</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.author</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.author` is mapped to FHIR R4B element `Composition.author`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.name</td><td style=\"border-left-width: 0px\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.name</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.name` is mapped to FHIR R4B structure `Composition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.title</td><td style=\"border-left-width: 0px\">title</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.title</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.title` is mapped to FHIR R4B element `Composition.title`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.note</td><td style=\"border-left-width: 0px\">note</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.note</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.note` is mapped to FHIR R4B structure `Composition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.attester</td><td style=\"border-left-width: 0px\">attester</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.attester</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.attester` is mapped to FHIR R4B element `Composition.attester`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.attester.mode</td><td style=\"border-left-width: 0px\">mode</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.attester.mode</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.attester.mode` is mapped to FHIR R4B element `Composition.attester.mode`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.attester.time</td><td style=\"border-left-width: 0px\">time</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.attester.time</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.attester.time` is mapped to FHIR R4B element `Composition.attester.time`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.attester.party</td><td style=\"border-left-width: 0px\">party</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.attester.party</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.attester.party` is mapped to FHIR R4B element `Composition.attester.party`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.custodian</td><td style=\"border-left-width: 0px\">custodian</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.custodian</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.custodian` is mapped to FHIR R4B element `Composition.custodian`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Composition.relatesTo</td><td style=\"border-left-width: 0px; border-bottom-style: none\">relatesTo</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.relatesTo</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.relatesTo` is mapped to FHIR R4B element `Composition.relatesTo`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.relatesTo</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.relatesTo` is mapped to FHIR DSTU2 structure `Composition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.event</td><td style=\"border-left-width: 0px\">event</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.event</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.event` is mapped to FHIR R4B element `Composition.event`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.event.period</td><td style=\"border-left-width: 0px\">period</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.event.period</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.event.period` is mapped to FHIR R4B element `Composition.event.period`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.event.detail</td><td style=\"border-left-width: 0px\">detail</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.event.detail</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.event.detail` is mapped to FHIR R4B element `Composition.event.detail`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.section</td><td style=\"border-left-width: 0px\">section</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.section</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.section` is mapped to FHIR R4B element `Composition.section`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.section.title</td><td style=\"border-left-width: 0px\">title</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.section.title</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.section.title` is part of an existing definition because parent element `Composition.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `Composition.section.title` is mapped to FHIR R4B element `Composition.section.title`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.section.code</td><td style=\"border-left-width: 0px\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.section.code</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.section.code` is part of an existing definition because parent element `Composition.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `Composition.section.code` is mapped to FHIR R4B element `Composition.section.code`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Composition.section.author</td><td style=\"border-left-width: 0px; border-bottom-style: none\">author</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.section.author</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.section.author` is part of an existing definition because parent element `Composition.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `Composition.section.author` is mapped to FHIR R4B element `Composition.section.author`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.section.author</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.section.author` is part of an existing definition because parent element `Composition.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `Composition.section.author` is mapped to FHIR STU3 structure `Composition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Composition.section.focus</td><td style=\"border-left-width: 0px; border-bottom-style: none\">focus</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.section.focus</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.section.focus` is part of an existing definition because parent element `Composition.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `Composition.section.focus` is mapped to FHIR R4B element `Composition.section.focus`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.section.focus</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.section.focus` is part of an existing definition because parent element `Composition.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `Composition.section.focus` is mapped to FHIR STU3 structure `Composition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.section.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.section.text</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.section.text` is part of an existing definition because parent element `Composition.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `Composition.section.text` is mapped to FHIR R4B element `Composition.section.text`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.section.orderedBy</td><td style=\"border-left-width: 0px\">orderedBy</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.section.orderedBy</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.section.orderedBy` is part of an existing definition because parent element `Composition.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `Composition.section.orderedBy` is mapped to FHIR R4B element `Composition.section.orderedBy`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.section.entry</td><td style=\"border-left-width: 0px\">entry</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.section.entry</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.section.entry` is part of an existing definition because parent element `Composition.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `Composition.section.entry` is mapped to FHIR R4B element `Composition.section.entry`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.section.emptyReason</td><td style=\"border-left-width: 0px\">emptyReason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.section.emptyReason</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.section.emptyReason` is part of an existing definition because parent element `Composition.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `Composition.section.emptyReason` is mapped to FHIR R4B element `Composition.section.emptyReason`.</td></tr><tr><td style=\"border-right-width: 0px\">Composition.section.section</td><td style=\"border-left-width: 0px\">section</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Composition#Composition.section.section</td><td style=\"border-left-width: 0px\"/><td>Element `Composition.section.section` is part of an existing definition because parent element `Composition.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `Composition.section.section` is mapped to FHIR R4B element `Composition.section.section`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Composition-elements-for-R4-Composition"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Composition-elements-for-R4-Composition>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5CompositionElementsForR4Composition"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:31.7292037-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Composition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Composition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Composition" ] ;
+       fhir:display [ fhir:v "Composition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Composition` is representable via FHIR R4B Resource `Composition`.\nElement `Composition` is mapped to FHIR R4B element `Composition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.meta` is mapped to FHIR R4B element `Composition.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.implicitRules` is mapped to FHIR R4B element `Composition.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.language` is mapped to FHIR R4B element `Composition.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.text` is mapped to FHIR R4B element `Composition.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.contained` is mapped to FHIR R4B element `Composition.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.url" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.url` is mapped to FHIR R4B structure `Composition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.identifier` is mapped to FHIR R4B element `Composition.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.version" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.version` is mapped to FHIR R4B structure `Composition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Composition.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Composition.status` is mapped to FHIR R4B element `Composition.status`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.type` is mapped to FHIR R4B element `Composition.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.category` is mapped to FHIR R4B element `Composition.category`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.class" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.category` is mapped to FHIR STU3 element `Composition.class`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.subject` is mapped to FHIR R4B element `Composition.subject`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.encounter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.encounter` is mapped to FHIR R4B element `Composition.encounter`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.date` is mapped to FHIR R4B element `Composition.date`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.useContext" ] ;
+       fhir:display [ fhir:v "useContext" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.useContext" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.useContext` is mapped to FHIR R4B structure `Composition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.author" ] ;
+       fhir:display [ fhir:v "author" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.author" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.author` is mapped to FHIR R4B element `Composition.author`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.name` is mapped to FHIR R4B structure `Composition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.title" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.title` is mapped to FHIR R4B element `Composition.title`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.note` is mapped to FHIR R4B structure `Composition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.attester" ] ;
+       fhir:display [ fhir:v "attester" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.attester" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.attester` is mapped to FHIR R4B element `Composition.attester`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.attester.mode" ] ;
+       fhir:display [ fhir:v "mode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.attester.mode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.attester.mode` is mapped to FHIR R4B element `Composition.attester.mode`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.attester.time" ] ;
+       fhir:display [ fhir:v "time" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.attester.time" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.attester.time` is mapped to FHIR R4B element `Composition.attester.time`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.attester.party" ] ;
+       fhir:display [ fhir:v "party" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.attester.party" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.attester.party` is mapped to FHIR R4B element `Composition.attester.party`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.custodian" ] ;
+       fhir:display [ fhir:v "custodian" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.custodian" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.custodian` is mapped to FHIR R4B element `Composition.custodian`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.relatesTo" ] ;
+       fhir:display [ fhir:v "relatesTo" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.relatesTo" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.relatesTo` is mapped to FHIR R4B element `Composition.relatesTo`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.relatesTo" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.relatesTo` is mapped to FHIR DSTU2 structure `Composition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.event" ] ;
+       fhir:display [ fhir:v "event" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.event" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.event` is mapped to FHIR R4B element `Composition.event`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.event.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.event.period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.event.period` is mapped to FHIR R4B element `Composition.event.period`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.event.detail" ] ;
+       fhir:display [ fhir:v "detail" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.event.detail" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.event.detail` is mapped to FHIR R4B element `Composition.event.detail`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.section" ] ;
+       fhir:display [ fhir:v "section" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.section" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.section` is mapped to FHIR R4B element `Composition.section`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.section.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.section.title" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.section.title` is part of an existing definition because parent element `Composition.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `Composition.section.title` is mapped to FHIR R4B element `Composition.section.title`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.section.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.section.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.section.code` is part of an existing definition because parent element `Composition.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `Composition.section.code` is mapped to FHIR R4B element `Composition.section.code`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.section.author" ] ;
+       fhir:display [ fhir:v "author" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.section.author" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.section.author` is part of an existing definition because parent element `Composition.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `Composition.section.author` is mapped to FHIR R4B element `Composition.section.author`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.section.author" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.section.author` is part of an existing definition because parent element `Composition.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `Composition.section.author` is mapped to FHIR STU3 structure `Composition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.section.focus" ] ;
+       fhir:display [ fhir:v "focus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.section.focus" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.section.focus` is part of an existing definition because parent element `Composition.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `Composition.section.focus` is mapped to FHIR R4B element `Composition.section.focus`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.section.focus" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.section.focus` is part of an existing definition because parent element `Composition.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `Composition.section.focus` is mapped to FHIR STU3 structure `Composition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.section.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.section.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.section.text` is part of an existing definition because parent element `Composition.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `Composition.section.text` is mapped to FHIR R4B element `Composition.section.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.section.orderedBy" ] ;
+       fhir:display [ fhir:v "orderedBy" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.section.orderedBy" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.section.orderedBy` is part of an existing definition because parent element `Composition.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `Composition.section.orderedBy` is mapped to FHIR R4B element `Composition.section.orderedBy`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.section.entry" ] ;
+       fhir:display [ fhir:v "entry" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.section.entry" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.section.entry` is part of an existing definition because parent element `Composition.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `Composition.section.entry` is mapped to FHIR R4B element `Composition.section.entry`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.section.emptyReason" ] ;
+       fhir:display [ fhir:v "emptyReason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.section.emptyReason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.section.emptyReason` is part of an existing definition because parent element `Composition.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `Composition.section.emptyReason` is mapped to FHIR R4B element `Composition.section.emptyReason`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Composition.section.section" ] ;
+       fhir:display [ fhir:v "section" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Composition#Composition.section.section" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Composition.section.section` is part of an existing definition because parent element `Composition.section` requires a component extension (e.g., if this element is used as a content reference).\nElement `Composition.section.section` is mapped to FHIR R4B element `Composition.section.section`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

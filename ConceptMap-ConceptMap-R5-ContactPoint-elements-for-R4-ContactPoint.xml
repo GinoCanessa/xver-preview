@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="ConceptMap-R5-ContactPoint-elements-for-R4-ContactPoint"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap ConceptMap-R5-ContactPoint-elements-for-R4-ContactPoint</b></p><a name="ConceptMap-R5-ContactPoint-elements-for-R4-ContactPoint"> </a><a name="hcConceptMap-R5-ContactPoint-elements-for-R4-ContactPoint"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ContactPoint|5.0.0</code> to <code>unspecified code system</code></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ContactPoint</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/ContactPoint#ContactPoint</td><td>FHIR R5 ComplexType `ContactPoint` is representable via FHIR R4B extensions.
+Element `ContactPoint` is mapped to FHIR R4B element `ContactPoint`.</td></tr><tr><td>ContactPoint.system (system)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/ContactPoint#ContactPoint.system</td><td>Element `ContactPoint.system` is mapped to FHIR R4B element `ContactPoint.system`.</td></tr><tr><td>ContactPoint.value (value)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/ContactPoint#ContactPoint.value</td><td>Element `ContactPoint.value` is mapped to FHIR R4B element `ContactPoint.value`.</td></tr><tr><td>ContactPoint.use (use)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/ContactPoint#ContactPoint.use</td><td>Element `ContactPoint.use` is mapped to FHIR R4B element `ContactPoint.use`.</td></tr><tr><td>ContactPoint.rank (rank)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/ContactPoint#ContactPoint.rank</td><td>Element `ContactPoint.rank` is mapped to FHIR R4B element `ContactPoint.rank`.</td></tr><tr><td>ContactPoint.period (period)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/ContactPoint#ContactPoint.period</td><td>Element `ContactPoint.period` is mapped to FHIR R4B element `ContactPoint.period`.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-ContactPoint-elements-for-R4-ContactPoint"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="ConceptMapR5ContactPointElementsForR4ContactPoint"/>
+  <title value="Cross-version ConceptMap for FHIR R5 resources in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-06T13:17:31.8669805-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/ContactPoint"/>
+    <sourceVersion value="5.0.0"/>
+    <element>
+      <code value="ContactPoint"/>
+      <display value="ContactPoint"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/ContactPoint#ContactPoint"/>
+        <equivalence value="relatedto"/>
+        <comment value="FHIR R5 ComplexType `ContactPoint` is representable via FHIR R4B extensions.&#xA;Element `ContactPoint` is mapped to FHIR R4B element `ContactPoint`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ContactPoint.system"/>
+      <display value="system"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/ContactPoint#ContactPoint.system"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `ContactPoint.system` is mapped to FHIR R4B element `ContactPoint.system`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ContactPoint.value"/>
+      <display value="value"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/ContactPoint#ContactPoint.value"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `ContactPoint.value` is mapped to FHIR R4B element `ContactPoint.value`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ContactPoint.use"/>
+      <display value="use"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/ContactPoint#ContactPoint.use"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `ContactPoint.use` is mapped to FHIR R4B element `ContactPoint.use`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ContactPoint.rank"/>
+      <display value="rank"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/ContactPoint#ContactPoint.rank"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `ContactPoint.rank` is mapped to FHIR R4B element `ContactPoint.rank`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ContactPoint.period"/>
+      <display value="period"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/ContactPoint#ContactPoint.period"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `ContactPoint.period` is mapped to FHIR R4B element `ContactPoint.period`."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

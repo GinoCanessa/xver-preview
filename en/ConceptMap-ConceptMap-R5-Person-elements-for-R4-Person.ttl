@@ -1,0 +1,289 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-Person-elements-for-R4-Person> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-Person-elements-for-R4-Person"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-Person-elements-for-R4-Person</b></p><a name=\"ConceptMap-R5-Person-elements-for-R4-Person\"> </a><a name=\"hcConceptMap-R5-Person-elements-for-R4-Person\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Person|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Person</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Person#Person</td><td>FHIR R5 Resource `Person` is representable via FHIR R4B Resource `Person`.\nElement `Person` is mapped to FHIR R4B element `Person`.</td></tr><tr><td>Person.meta (meta)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Person#Person.meta</td><td>Element `Person.meta` is mapped to FHIR R4B element `Person.meta`.</td></tr><tr><td>Person.implicitRules (implicitRules)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Person#Person.implicitRules</td><td>Element `Person.implicitRules` is mapped to FHIR R4B element `Person.implicitRules`.</td></tr><tr><td>Person.language (language)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Person#Person.language</td><td>Element `Person.language` is mapped to FHIR R4B element `Person.language`.</td></tr><tr><td>Person.text (text)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Person#Person.text</td><td>Element `Person.text` is mapped to FHIR R4B element `Person.text`.</td></tr><tr><td>Person.contained (contained)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Person#Person.contained</td><td>Element `Person.contained` is mapped to FHIR R4B element `Person.contained`.</td></tr><tr><td>Person.identifier (identifier)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Person#Person.identifier</td><td>Element `Person.identifier` is mapped to FHIR R4B element `Person.identifier`.</td></tr><tr><td>Person.active (active)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Person#Person.active</td><td>Element `Person.active` is mapped to FHIR R4B element `Person.active`.</td></tr><tr><td>Person.name (name)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Person#Person.name</td><td>Element `Person.name` is mapped to FHIR R4B element `Person.name`.</td></tr><tr><td>Person.telecom (telecom)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Person#Person.telecom</td><td>Element `Person.telecom` is mapped to FHIR R4B element `Person.telecom`.</td></tr><tr><td>Person.gender (gender)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Person#Person.gender</td><td>Element `Person.gender` is mapped to FHIR R4B element `Person.gender`.</td></tr><tr><td>Person.birthDate (birthDate)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Person#Person.birthDate</td><td>Element `Person.birthDate` is mapped to FHIR R4B element `Person.birthDate`.</td></tr><tr><td>Person.deceased[x] (deceased[x])</td><td>:(equivalent)</td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.deceased</td><td>Element `Person.deceased[x]` is mapped to FHIR R4B structure `Person`, but has no target element specified.</td></tr><tr><td>Person.address (address)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Person#Person.address</td><td>Element `Person.address` is mapped to FHIR R4B element `Person.address`.</td></tr><tr><td>Person.maritalStatus (maritalStatus)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.maritalStatus</td><td>Element `Person.maritalStatus` is mapped to FHIR R4B structure `Person`, but has no target element specified.</td></tr><tr><td>Person.photo (photo)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Person#Person.photo</td><td>Element `Person.photo` is mapped to FHIR R4B element `Person.photo`.</td></tr><tr><td>Person.communication (communication)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.communication</td><td>Element `Person.communication` is mapped to FHIR R4B structure `Person`, but has no target element specified.</td></tr><tr><td>Person.communication.language (language)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.communication:language</td><td>Element `Person.communication.language` is part of an existing definition because parent element `Person.communication` requires a cross-version extension.\nElement `Person.communication.language` is mapped to FHIR R4B structure `Person`, but has no target element specified.</td></tr><tr><td>Person.communication.preferred (preferred)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.communication:preferred</td><td>Element `Person.communication.preferred` is part of an existing definition because parent element `Person.communication` requires a cross-version extension.\nElement `Person.communication.preferred` is mapped to FHIR R4B structure `Person`, but has no target element specified.</td></tr><tr><td>Person.managingOrganization (managingOrganization)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Person#Person.managingOrganization</td><td>Element `Person.managingOrganization` is mapped to FHIR R4B element `Person.managingOrganization`.</td></tr><tr><td>Person.link (link)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Person#Person.link</td><td>Element `Person.link` is mapped to FHIR R4B element `Person.link`.</td></tr><tr><td>Person.link.target (target)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Person#Person.link.target</td><td>Element `Person.link.target` is mapped to FHIR R4B element `Person.link.target`.</td></tr><tr><td>Person.link.assurance (assurance)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Person#Person.link.assurance</td><td>Element `Person.link.assurance` is mapped to FHIR R4B element `Person.link.assurance`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Person-elements-for-R4-Person"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Person-elements-for-R4-Person>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5PersonElementsForR4Person"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:33.9177249-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Person"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Person>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Person" ] ;
+       fhir:display [ fhir:v "Person" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Person#Person" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Person` is representable via FHIR R4B Resource `Person`.\nElement `Person` is mapped to FHIR R4B element `Person`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Person.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Person#Person.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Person.meta` is mapped to FHIR R4B element `Person.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Person.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Person#Person.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Person.implicitRules` is mapped to FHIR R4B element `Person.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Person.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Person#Person.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Person.language` is mapped to FHIR R4B element `Person.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Person.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Person#Person.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Person.text` is mapped to FHIR R4B element `Person.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Person.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Person#Person.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Person.contained` is mapped to FHIR R4B element `Person.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Person.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Person#Person.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Person.identifier` is mapped to FHIR R4B element `Person.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Person.active" ] ;
+       fhir:display [ fhir:v "active" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Person#Person.active" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Person.active` is mapped to FHIR R4B element `Person.active`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Person.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Person#Person.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Person.name` is mapped to FHIR R4B element `Person.name`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Person.telecom" ] ;
+       fhir:display [ fhir:v "telecom" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Person#Person.telecom" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Person.telecom` is mapped to FHIR R4B element `Person.telecom`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Person.gender" ] ;
+       fhir:display [ fhir:v "gender" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Person#Person.gender" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Person.gender` is mapped to FHIR R4B element `Person.gender`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Person.birthDate" ] ;
+       fhir:display [ fhir:v "birthDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Person#Person.birthDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Person.birthDate` is mapped to FHIR R4B element `Person.birthDate`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Person.deceased[x]" ] ;
+       fhir:display [ fhir:v "deceased[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.deceased" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Person.deceased[x]` is mapped to FHIR R4B structure `Person`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Person.address" ] ;
+       fhir:display [ fhir:v "address" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Person#Person.address" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Person.address` is mapped to FHIR R4B element `Person.address`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Person.maritalStatus" ] ;
+       fhir:display [ fhir:v "maritalStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.maritalStatus" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Person.maritalStatus` is mapped to FHIR R4B structure `Person`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Person.photo" ] ;
+       fhir:display [ fhir:v "photo" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Person#Person.photo" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Person.photo` is mapped to FHIR R4B element `Person.photo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Person.communication" ] ;
+       fhir:display [ fhir:v "communication" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.communication" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Person.communication` is mapped to FHIR R4B structure `Person`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Person.communication.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.communication:language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Person.communication.language` is part of an existing definition because parent element `Person.communication` requires a cross-version extension.\nElement `Person.communication.language` is mapped to FHIR R4B structure `Person`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Person.communication.preferred" ] ;
+       fhir:display [ fhir:v "preferred" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.communication:preferred" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Person.communication.preferred` is part of an existing definition because parent element `Person.communication` requires a cross-version extension.\nElement `Person.communication.preferred` is mapped to FHIR R4B structure `Person`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Person.managingOrganization" ] ;
+       fhir:display [ fhir:v "managingOrganization" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Person#Person.managingOrganization" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Person.managingOrganization` is mapped to FHIR R4B element `Person.managingOrganization`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Person.link" ] ;
+       fhir:display [ fhir:v "link" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Person#Person.link" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Person.link` is mapped to FHIR R4B element `Person.link`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Person.link.target" ] ;
+       fhir:display [ fhir:v "target" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Person#Person.link.target" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Person.link.target` is mapped to FHIR R4B element `Person.link.target`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Person.link.assurance" ] ;
+       fhir:display [ fhir:v "assurance" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Person#Person.link.assurance" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Person.link.assurance` is mapped to FHIR R4B element `Person.link.assurance`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="product-category"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/product-category</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">organ
+                  <a name="product-category-organ"> </a>
+                </td>
+                <td>Organ</td>
+                <td>A collection of tissues joined in a structural unit to serve a common function.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">tissue
+                  <a name="product-category-tissue"> </a>
+                </td>
+                <td>Tissue</td>
+                <td>An ensemble of similar cells and their extracellular matrix from the same origin that together carry out a specific function.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">fluid
+                  <a name="product-category-fluid"> </a>
+                </td>
+                <td>Fluid</td>
+                <td>Body fluid.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">cells
+                  <a name="product-category-cells"> </a>
+                </td>
+                <td>Cells</td>
+                <td>Collection of cells.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">biologicalAgent
+                  <a name="product-category-biologicalAgent"> </a>
+                </td>
+                <td>BiologicalAgent</td>
+                <td>Biological agent of unspecified type.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo"/>
+  </extension>
+  <url value="http://hl7.org/fhir/product-category"/>
+  <version value="5.0.0"/>
+  <name value="BiologicallyDerivedProductCategory"/>
+  <title value="Biologically Derived Product Category"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Orders and Observations"/>
+  <contact>
+    <name value="Orders and Observations"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/orders"/>
+    </telecom>
+  </contact>
+  <description value="Biologically Derived Product Category."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/product-category|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="organ"/>
+    <display value="Organ"/>
+    <definition value="A collection of tissues joined in a structural unit to serve a common function."/>
+  </concept>
+  <concept>
+    <code value="tissue"/>
+    <display value="Tissue"/>
+    <definition value="An ensemble of similar cells and their extracellular matrix from the same origin that together carry out a specific function."/>
+  </concept>
+  <concept>
+    <code value="fluid"/>
+    <display value="Fluid"/>
+    <definition value="Body fluid."/>
+  </concept>
+  <concept>
+    <code value="cells"/>
+    <display value="Cells"/>
+    <definition value="Collection of cells."/>
+  </concept>
+  <concept>
+    <code value="biologicalAgent"/>
+    <display value="BiologicalAgent"/>
+    <definition value="Biological agent of unspecified type."/>
+  </concept>
+</CodeSystem>

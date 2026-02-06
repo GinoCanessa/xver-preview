@@ -1,0 +1,144 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/primary-source-type> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "primary-source-type"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://terminology.hl7.org/CodeSystem/primary-source-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">lic-board<a name=\"primary-source-type-lic-board\"> </a></td><td>License Board</td></tr><tr><td style=\"white-space:nowrap\">prim<a name=\"primary-source-type-prim\"> </a></td><td>Primary Education</td></tr><tr><td style=\"white-space:nowrap\">cont-ed<a name=\"primary-source-type-cont-ed\"> </a></td><td>Continuing Education</td></tr><tr><td style=\"white-space:nowrap\">post-serv<a name=\"primary-source-type-post-serv\"> </a></td><td>Postal Service</td></tr><tr><td style=\"white-space:nowrap\">rel-own<a name=\"primary-source-type-rel-own\"> </a></td><td>Relationship owner</td></tr><tr><td style=\"white-space:nowrap\">reg-auth<a name=\"primary-source-type-reg-auth\"> </a></td><td>Registration Authority</td></tr><tr><td style=\"white-space:nowrap\">legal<a name=\"primary-source-type-legal\"> </a></td><td>Legal source</td></tr><tr><td style=\"white-space:nowrap\">issuer<a name=\"primary-source-type-issuer\"> </a></td><td>Issuing source</td></tr><tr><td style=\"white-space:nowrap\">auth-source<a name=\"primary-source-type-auth-source\"> </a></td><td>Authoritative source</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "pa"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/primary-source-type"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/primary-source-type>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "Primary_source_type"] ; # 
+  fhir:title [ fhir:v "Primary-source-type"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2018-06-05T09:06:02-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Patient Administration"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7.org/fhir" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "fhir@lists.hl7.org" ]
+     ] )
+  ] [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7.org/fhir" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "fhir@lists.hl7.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Type of the validation primary source"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/verificationresult-primary-source-type|1.0.1"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/verificationresult-primary-source-type?version=1.0.1>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "lic-board" ] ;
+     fhir:display [ fhir:v "License Board" ]
+  ] [
+     fhir:code [ fhir:v "prim" ] ;
+     fhir:display [ fhir:v "Primary Education" ]
+  ] [
+     fhir:code [ fhir:v "cont-ed" ] ;
+     fhir:display [ fhir:v "Continuing Education" ]
+  ] [
+     fhir:code [ fhir:v "post-serv" ] ;
+     fhir:display [ fhir:v "Postal Service" ]
+  ] [
+     fhir:code [ fhir:v "rel-own" ] ;
+     fhir:display [ fhir:v "Relationship owner" ]
+  ] [
+     fhir:code [ fhir:v "reg-auth" ] ;
+     fhir:display [ fhir:v "Registration Authority" ]
+  ] [
+     fhir:code [ fhir:v "legal" ] ;
+     fhir:display [ fhir:v "Legal source" ]
+  ] [
+     fhir:code [ fhir:v "issuer" ] ;
+     fhir:display [ fhir:v "Issuing source" ]
+  ] [
+     fhir:code [ fhir:v "auth-source" ] ;
+     fhir:display [ fhir:v "Authoritative source" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,279 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/ValueSet-R5-assert-response-code-types-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ValueSet-R5-assert-response-code-types-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ValueSet-R5-assert-response-code-types-for-R4</b></p><a name=\"ValueSet-R5-assert-response-code-types-for-R4\"> </a><a name=\"hcValueSet-R5-assert-response-code-types-for-R4\"> </a><p>This value set expansion contains 13 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"ValueSet-R5-assert-response-code-types-for-R4-http://hl7.org/fhir/assert-response-code-types-accepted\"> </a><code>http://hl7.org/fhir/assert-response-code-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-assert-response-code-types.html#assert-response-code-types-accepted\">accepted</a></td><td>Accepted</td><td>Response code is 202.</td></tr><tr><td><a name=\"ValueSet-R5-assert-response-code-types-for-R4-http://hl7.org/fhir/assert-response-code-types-continue\"> </a><code>http://hl7.org/fhir/assert-response-code-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-assert-response-code-types.html#assert-response-code-types-continue\">continue</a></td><td>Continue</td><td>Response code is 100.</td></tr><tr><td><a name=\"ValueSet-R5-assert-response-code-types-for-R4-http://hl7.org/fhir/assert-response-code-types-found\"> </a><code>http://hl7.org/fhir/assert-response-code-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-assert-response-code-types.html#assert-response-code-types-found\">found</a></td><td>Found</td><td>Response code is 302.</td></tr><tr><td><a name=\"ValueSet-R5-assert-response-code-types-for-R4-http://hl7.org/fhir/assert-response-code-types-multipleChoices\"> </a><code>http://hl7.org/fhir/assert-response-code-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-assert-response-code-types.html#assert-response-code-types-multipleChoices\">multipleChoices</a></td><td>Multiple Choices</td><td>Response code is 300.</td></tr><tr><td><a name=\"ValueSet-R5-assert-response-code-types-for-R4-http://hl7.org/fhir/assert-response-code-types-nonAuthoritativeInformation\"> </a><code>http://hl7.org/fhir/assert-response-code-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-assert-response-code-types.html#assert-response-code-types-nonAuthoritativeInformation\">nonAuthoritativeInformation</a></td><td>Non-Authoritative Information</td><td>Response code is 203.</td></tr><tr><td><a name=\"ValueSet-R5-assert-response-code-types-for-R4-http://hl7.org/fhir/assert-response-code-types-okay\"> </a><code>http://hl7.org/fhir/assert-response-code-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-assert-response-code-types.html#assert-response-code-types-okay\">okay</a></td><td>OK</td><td>Response code is 200.</td></tr><tr><td><a name=\"ValueSet-R5-assert-response-code-types-for-R4-http://hl7.org/fhir/assert-response-code-types-partialContent\"> </a><code>http://hl7.org/fhir/assert-response-code-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-assert-response-code-types.html#assert-response-code-types-partialContent\">partialContent</a></td><td>Partial Content</td><td>Response code is 206.</td></tr><tr><td><a name=\"ValueSet-R5-assert-response-code-types-for-R4-http://hl7.org/fhir/assert-response-code-types-permanentRedirect\"> </a><code>http://hl7.org/fhir/assert-response-code-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-assert-response-code-types.html#assert-response-code-types-permanentRedirect\">permanentRedirect</a></td><td>Permanent Redirect</td><td>Response code is 308.</td></tr><tr><td><a name=\"ValueSet-R5-assert-response-code-types-for-R4-http://hl7.org/fhir/assert-response-code-types-resetContent\"> </a><code>http://hl7.org/fhir/assert-response-code-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-assert-response-code-types.html#assert-response-code-types-resetContent\">resetContent</a></td><td>Reset Content</td><td>Response code is 205.</td></tr><tr><td><a name=\"ValueSet-R5-assert-response-code-types-for-R4-http://hl7.org/fhir/assert-response-code-types-seeOther\"> </a><code>http://hl7.org/fhir/assert-response-code-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-assert-response-code-types.html#assert-response-code-types-seeOther\">seeOther</a></td><td>See Other</td><td>Response code is 303.</td></tr><tr><td><a name=\"ValueSet-R5-assert-response-code-types-for-R4-http://hl7.org/fhir/assert-response-code-types-switchingProtocols\"> </a><code>http://hl7.org/fhir/assert-response-code-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-assert-response-code-types.html#assert-response-code-types-switchingProtocols\">switchingProtocols</a></td><td>Switching Protocols</td><td>Response code is 101.</td></tr><tr><td><a name=\"ValueSet-R5-assert-response-code-types-for-R4-http://hl7.org/fhir/assert-response-code-types-temporaryRedirect\"> </a><code>http://hl7.org/fhir/assert-response-code-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-assert-response-code-types.html#assert-response-code-types-temporaryRedirect\">temporaryRedirect</a></td><td>Temporary Redirect</td><td>Response code is 307.</td></tr><tr><td><a name=\"ValueSet-R5-assert-response-code-types-for-R4-http://hl7.org/fhir/assert-response-code-types-useProxy\"> </a><code>http://hl7.org/fhir/assert-response-code-types</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-assert-response-code-types.html#assert-response-code-types-useProxy\">useProxy</a></td><td>Use Proxy</td><td>Response code is 305.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 4
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-assert-response-code-types-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-assert-response-code-types-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ValueSetR5AssertResponseCodeTypesForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.AssertionResponseTypes for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from http://hl7.org/fhir/ValueSet/assert-response-code-types|5.0.0 for use in FHIR R4 that is appropriate for use but unavailable in `http://hl7.org/fhir/ValueSet/assert-response-code-types|4.0.1`."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/assert-response-code-types|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `TestScript.setup.action.assert.response` as Required\n* `TestScript.test.action.assert.response` as Required\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/assert-response-code-types|5.0.0`\n* `http://hl7.org/fhir/ValueSet/assert-response-code-types|4.3.0`\n* `http://hl7.org/fhir/ValueSet/assert-response-code-types|4.0.1`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* `http://hl7.org/fhir/assert-response-code-types#badGateway`\n* `http://hl7.org/fhir/assert-response-code-types#badRequest`\n* `http://hl7.org/fhir/assert-response-code-types#conflict`\n* `http://hl7.org/fhir/assert-response-code-types#contentTooLarge`\n* `http://hl7.org/fhir/assert-response-code-types#created`\n* `http://hl7.org/fhir/assert-response-code-types#expectationFailed`\n* `http://hl7.org/fhir/assert-response-code-types#forbidden`\n* `http://hl7.org/fhir/assert-response-code-types#gatewayTimeout`\n* `http://hl7.org/fhir/assert-response-code-types#gone`\n* `http://hl7.org/fhir/assert-response-code-types#httpVersionNotSupported`\n* `http://hl7.org/fhir/assert-response-code-types#internalServerError`\n* `http://hl7.org/fhir/assert-response-code-types#lengthRequired`\n* `http://hl7.org/fhir/assert-response-code-types#methodNotAllowed`\n* `http://hl7.org/fhir/assert-response-code-types#misdirectedRequest`\n* `http://hl7.org/fhir/assert-response-code-types#movedPermanently`\n* `http://hl7.org/fhir/assert-response-code-types#noContent`\n* `http://hl7.org/fhir/assert-response-code-types#notAcceptable`\n* `http://hl7.org/fhir/assert-response-code-types#notFound`\n* `http://hl7.org/fhir/assert-response-code-types#notImplemented`\n* `http://hl7.org/fhir/assert-response-code-types#notModified`\n* `http://hl7.org/fhir/assert-response-code-types#paymentRequired`\n* `http://hl7.org/fhir/assert-response-code-types#preconditionFailed`\n* `http://hl7.org/fhir/assert-response-code-types#preconditionFailed`\n* `http://hl7.org/fhir/assert-response-code-types#proxyAuthenticationRequired`\n* `http://hl7.org/fhir/assert-response-code-types#rangeNotSatisfiable`\n* `http://hl7.org/fhir/assert-response-code-types#requestTimeout`\n* `http://hl7.org/fhir/assert-response-code-types#serviceUnavailable`\n* `http://hl7.org/fhir/assert-response-code-types#unauthorized`\n* `http://hl7.org/fhir/assert-response-code-types#unprocessableContent`\n* `http://hl7.org/fhir/assert-response-code-types#unsupportedMediaType`\n* `http://hl7.org/fhir/assert-response-code-types#upgradeRequired`\n* `http://hl7.org/fhir/assert-response-code-types#uriTooLong`\r\n\r\nFollowing are the generation technical comments:\r\nOne or more source concepts are either not mapped or broader than their targets, so the value set relationship is broadened.\nOne or more source concepts are narrower than their targets, so the value set relationship is narrowed.\nThe source value set has more active concepts (44) than the target (12), so the source is broader than the target.\nAll concepts in the comparison are listed as identical.\nThe source and target value sets have the same number of active concepts (12).\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/assert-response-code-types|5.0.0` to `http://hl7.org/fhir/ValueSet/assert-response-code-types|4.0.1` in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-AssertResponseCodeTypes-R4-AssertResponseCodeTypes` (`ConceptMap-R5-AssertResponseCodeTypes-R4-AssertResponseCodeTypes.json`)"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/assert-response-code-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/assert-response-code-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "accepted" ] ;
+         fhir:display [ fhir:v "Accepted" ]
+       ] [
+         fhir:code [ fhir:v "continue" ] ;
+         fhir:display [ fhir:v "Continue" ]
+       ] [
+         fhir:code [ fhir:v "found" ] ;
+         fhir:display [ fhir:v "Found" ]
+       ] [
+         fhir:code [ fhir:v "multipleChoices" ] ;
+         fhir:display [ fhir:v "Multiple Choices" ]
+       ] [
+         fhir:code [ fhir:v "nonAuthoritativeInformation" ] ;
+         fhir:display [ fhir:v "Non-Authoritative Information" ]
+       ] [
+         fhir:code [ fhir:v "okay" ] ;
+         fhir:display [ fhir:v "OK" ]
+       ] [
+         fhir:code [ fhir:v "partialContent" ] ;
+         fhir:display [ fhir:v "Partial Content" ]
+       ] [
+         fhir:code [ fhir:v "permanentRedirect" ] ;
+         fhir:display [ fhir:v "Permanent Redirect" ]
+       ] [
+         fhir:code [ fhir:v "resetContent" ] ;
+         fhir:display [ fhir:v "Reset Content" ]
+       ] [
+         fhir:code [ fhir:v "seeOther" ] ;
+         fhir:display [ fhir:v "See Other" ]
+       ] [
+         fhir:code [ fhir:v "switchingProtocols" ] ;
+         fhir:display [ fhir:v "Switching Protocols" ]
+       ] [
+         fhir:code [ fhir:v "temporaryRedirect" ] ;
+         fhir:display [ fhir:v "Temporary Redirect" ]
+       ] [
+         fhir:code [ fhir:v "useProxy" ] ;
+         fhir:display [ fhir:v "Use Proxy" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/assert-response-code-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/assert-response-code-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "accepted" ] ;
+       fhir:display [ fhir:v "Accepted" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/assert-response-code-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/assert-response-code-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "continue" ] ;
+       fhir:display [ fhir:v "Continue" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/assert-response-code-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/assert-response-code-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "found" ] ;
+       fhir:display [ fhir:v "Found" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/assert-response-code-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/assert-response-code-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "multipleChoices" ] ;
+       fhir:display [ fhir:v "Multiple Choices" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/assert-response-code-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/assert-response-code-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "nonAuthoritativeInformation" ] ;
+       fhir:display [ fhir:v "Non-Authoritative Information" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/assert-response-code-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/assert-response-code-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "okay" ] ;
+       fhir:display [ fhir:v "OK" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/assert-response-code-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/assert-response-code-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "partialContent" ] ;
+       fhir:display [ fhir:v "Partial Content" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/assert-response-code-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/assert-response-code-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "permanentRedirect" ] ;
+       fhir:display [ fhir:v "Permanent Redirect" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/assert-response-code-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/assert-response-code-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "resetContent" ] ;
+       fhir:display [ fhir:v "Reset Content" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/assert-response-code-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/assert-response-code-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "seeOther" ] ;
+       fhir:display [ fhir:v "See Other" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/assert-response-code-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/assert-response-code-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "switchingProtocols" ] ;
+       fhir:display [ fhir:v "Switching Protocols" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/assert-response-code-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/assert-response-code-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "temporaryRedirect" ] ;
+       fhir:display [ fhir:v "Temporary Redirect" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/assert-response-code-types"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/assert-response-code-types>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "useProxy" ] ;
+       fhir:display [ fhir:v "Use Proxy" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

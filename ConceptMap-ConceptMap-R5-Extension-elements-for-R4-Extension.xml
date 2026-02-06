@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="ConceptMap-R5-Extension-elements-for-R4-Extension"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap ConceptMap-R5-Extension-elements-for-R4-Extension</b></p><a name="ConceptMap-R5-Extension-elements-for-R4-Extension"> </a><a name="hcConceptMap-R5-Extension-elements-for-R4-Extension"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Extension|5.0.0</code> to <code>unspecified code system</code></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Extension.url (url)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Extension#Extension.url</td><td>Element `Extension.url` is mapped to FHIR R4B element `Extension.url`.</td></tr><tr><td>Extension.value[x] (value[x])</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Extension#Extension.value[x]</td><td>Note that the target element context `Extension.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Extension`.
+Element `Extension.value[x]` is mapped to FHIR R4B element `Extension.value[x]`.
+Note that the target element context `Extension.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Extension`.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Extension-elements-for-R4-Extension"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="ConceptMapR5ExtensionElementsForR4Extension"/>
+  <title value="Cross-version ConceptMap for FHIR R5 resources in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-06T13:17:32.8539102-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
+    <sourceVersion value="5.0.0"/>
+    <element>
+      <code value="Extension.url"/>
+      <display value="url"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/Extension#Extension.url"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `Extension.url` is mapped to FHIR R4B element `Extension.url`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Extension.value[x]"/>
+      <display value="value[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/Extension#Extension.value[x]"/>
+        <equivalence value="relatedto"/>
+        <comment value="Note that the target element context `Extension.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Extension`.&#xA;Element `Extension.value[x]` is mapped to FHIR R4B element `Extension.value[x]`.&#xA;Note that the target element context `Extension.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Extension`."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

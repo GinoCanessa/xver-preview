@@ -1,0 +1,246 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/ValueSet-R5-therapy-relationship-type-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ValueSet-R5-therapy-relationship-type-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ValueSet-R5-therapy-relationship-type-for-R4</b></p><a name=\"ValueSet-R5-therapy-relationship-type-for-R4\"> </a><a name=\"hcValueSet-R5-therapy-relationship-type-for-R4\"> </a><p>This value set expansion contains 10 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"ValueSet-R5-therapy-relationship-type-for-R4-http://hl7.org/fhir/therapy-relationship-type-contraindicated-except-with\"> </a><code>http://hl7.org/fhir/therapy-relationship-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-therapy-relationship-type.html#therapy-relationship-type-contraindicated-except-with\">contraindicated-except-with</a></td><td>Contraindicated unless the other therapy is given</td><td>Contraindicated unless the other therapy is given</td></tr><tr><td><a name=\"ValueSet-R5-therapy-relationship-type-for-R4-http://hl7.org/fhir/therapy-relationship-type-contraindicated-only-with\"> </a><code>http://hl7.org/fhir/therapy-relationship-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-therapy-relationship-type.html#therapy-relationship-type-contraindicated-only-with\">contraindicated-only-with</a></td><td>Only contraindicated if the other therapy is given</td><td>Only contraindicated if the other therapy is given</td></tr><tr><td><a name=\"ValueSet-R5-therapy-relationship-type-for-R4-http://hl7.org/fhir/therapy-relationship-type-indicated-except-with\"> </a><code>http://hl7.org/fhir/therapy-relationship-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-therapy-relationship-type.html#therapy-relationship-type-indicated-except-with\">indicated-except-with</a></td><td>Indicated except when the other therapy is given</td><td>Indicated except when the other therapy is given</td></tr><tr><td><a name=\"ValueSet-R5-therapy-relationship-type-for-R4-http://hl7.org/fhir/therapy-relationship-type-indicated-only-after\"> </a><code>http://hl7.org/fhir/therapy-relationship-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-therapy-relationship-type.html#therapy-relationship-type-indicated-only-after\">indicated-only-after</a></td><td>Indicated only if the other therapy is planned to be given afterwards (prep)</td><td>Indicated only if the other therapy is planned to be given afterwards (prep)</td></tr><tr><td><a name=\"ValueSet-R5-therapy-relationship-type-for-R4-http://hl7.org/fhir/therapy-relationship-type-indicated-only-before\"> </a><code>http://hl7.org/fhir/therapy-relationship-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-therapy-relationship-type.html#therapy-relationship-type-indicated-only-before\">indicated-only-before</a></td><td>Indicated only if the other therapy was given before (follow-up)</td><td>Indicated only if the other therapy was given before (follow-up)</td></tr><tr><td><a name=\"ValueSet-R5-therapy-relationship-type-for-R4-http://hl7.org/fhir/therapy-relationship-type-indicated-only-with\"> </a><code>http://hl7.org/fhir/therapy-relationship-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-therapy-relationship-type.html#therapy-relationship-type-indicated-only-with\">indicated-only-with</a></td><td>Indicated only when the other therapy is given (co-occurrent)</td><td>Indicated only when the other therapy is given (co-occurrent)</td></tr><tr><td><a name=\"ValueSet-R5-therapy-relationship-type-for-R4-http://hl7.org/fhir/therapy-relationship-type-replace-other-therapy\"> </a><code>http://hl7.org/fhir/therapy-relationship-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-therapy-relationship-type.html#therapy-relationship-type-replace-other-therapy\">replace-other-therapy</a></td><td>Indicated to replace the other therapy</td><td>Indicated to replace the other therapy</td></tr><tr><td><a name=\"ValueSet-R5-therapy-relationship-type-for-R4-http://hl7.org/fhir/therapy-relationship-type-replace-other-therapy-contraindicated\"> </a><code>http://hl7.org/fhir/therapy-relationship-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-therapy-relationship-type.html#therapy-relationship-type-replace-other-therapy-contraindicated\">replace-other-therapy-contraindicated</a></td><td>Indicated to replace the other contraindicated therapy</td><td>Indicated to replace the other contraindicated therapy.</td></tr><tr><td><a name=\"ValueSet-R5-therapy-relationship-type-for-R4-http://hl7.org/fhir/therapy-relationship-type-replace-other-therapy-not-effective\"> </a><code>http://hl7.org/fhir/therapy-relationship-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-therapy-relationship-type.html#therapy-relationship-type-replace-other-therapy-not-effective\">replace-other-therapy-not-effective</a></td><td>Indicated to replace the other therapy not effective on patient</td><td>Indicated to replace the other therapy not effective on patient</td></tr><tr><td><a name=\"ValueSet-R5-therapy-relationship-type-for-R4-http://hl7.org/fhir/therapy-relationship-type-replace-other-therapy-not-tolerated\"> </a><code>http://hl7.org/fhir/therapy-relationship-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-therapy-relationship-type.html#therapy-relationship-type-replace-other-therapy-not-tolerated\">replace-other-therapy-not-tolerated</a></td><td>Indicated to replace the other therapy not well tolerated by patient</td><td>Indicated to replace the other therapy not well tolerated by patient</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "brr"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-therapy-relationship-type-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-therapy-relationship-type-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ValueSetR5TherapyRelationshipTypeForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.TherapyRelationshipType for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Biomedical Research and Regulation"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Biomedical Research and Regulation" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/rcrim" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/therapy-relationship-type|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/therapy-relationship-type|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `ClinicalUseDefinition.contraindication.otherTherapy.relationshipType` as Preferred\n* `ClinicalUseDefinition.indication.otherTherapy.relationshipType` as Preferred\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/therapy-relationship-type|5.0.0`\n* `http://hl7.org/fhir/ValueSet/therapy-relationship-type|4.3.0`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\nAll concepts in the comparison are have code literals listed as identical.\nThe source value set has more active concepts (10) than the target (9), so the source is broader than the target."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/therapy-relationship-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/therapy-relationship-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "contraindicated-except-with" ] ;
+         fhir:display [ fhir:v "Contraindicated unless the other therapy is given" ]
+       ] [
+         fhir:code [ fhir:v "contraindicated-only-with" ] ;
+         fhir:display [ fhir:v "Only contraindicated if the other therapy is given" ]
+       ] [
+         fhir:code [ fhir:v "indicated-except-with" ] ;
+         fhir:display [ fhir:v "Indicated except when the other therapy is given" ]
+       ] [
+         fhir:code [ fhir:v "indicated-only-after" ] ;
+         fhir:display [ fhir:v "Indicated only if the other therapy is planned to be given afterwards (prep)" ]
+       ] [
+         fhir:code [ fhir:v "indicated-only-before" ] ;
+         fhir:display [ fhir:v "Indicated only if the other therapy was given before (follow-up)" ]
+       ] [
+         fhir:code [ fhir:v "indicated-only-with" ] ;
+         fhir:display [ fhir:v "Indicated only when the other therapy is given (co-occurrent)" ]
+       ] [
+         fhir:code [ fhir:v "replace-other-therapy" ] ;
+         fhir:display [ fhir:v "Indicated to replace the other therapy" ]
+       ] [
+         fhir:code [ fhir:v "replace-other-therapy-contraindicated" ] ;
+         fhir:display [ fhir:v "Indicated to replace the other contraindicated therapy" ]
+       ] [
+         fhir:code [ fhir:v "replace-other-therapy-not-effective" ] ;
+         fhir:display [ fhir:v "Indicated to replace the other therapy not effective on patient" ]
+       ] [
+         fhir:code [ fhir:v "replace-other-therapy-not-tolerated" ] ;
+         fhir:display [ fhir:v "Indicated to replace the other therapy not well tolerated by patient" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/therapy-relationship-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/therapy-relationship-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "contraindicated-except-with" ] ;
+       fhir:display [ fhir:v "Contraindicated unless the other therapy is given" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/therapy-relationship-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/therapy-relationship-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "contraindicated-only-with" ] ;
+       fhir:display [ fhir:v "Only contraindicated if the other therapy is given" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/therapy-relationship-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/therapy-relationship-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "indicated-except-with" ] ;
+       fhir:display [ fhir:v "Indicated except when the other therapy is given" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/therapy-relationship-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/therapy-relationship-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "indicated-only-after" ] ;
+       fhir:display [ fhir:v "Indicated only if the other therapy is planned to be given afterwards (prep)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/therapy-relationship-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/therapy-relationship-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "indicated-only-before" ] ;
+       fhir:display [ fhir:v "Indicated only if the other therapy was given before (follow-up)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/therapy-relationship-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/therapy-relationship-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "indicated-only-with" ] ;
+       fhir:display [ fhir:v "Indicated only when the other therapy is given (co-occurrent)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/therapy-relationship-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/therapy-relationship-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "replace-other-therapy" ] ;
+       fhir:display [ fhir:v "Indicated to replace the other therapy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/therapy-relationship-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/therapy-relationship-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "replace-other-therapy-contraindicated" ] ;
+       fhir:display [ fhir:v "Indicated to replace the other contraindicated therapy" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/therapy-relationship-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/therapy-relationship-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "replace-other-therapy-not-effective" ] ;
+       fhir:display [ fhir:v "Indicated to replace the other therapy not effective on patient" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/therapy-relationship-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/therapy-relationship-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "replace-other-therapy-not-tolerated" ] ;
+       fhir:display [ fhir:v "Indicated to replace the other therapy not well tolerated by patient" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

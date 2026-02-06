@@ -1,0 +1,1448 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/v2-0371> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "v2-0371"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>status</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#status</td><td>code</td><td>Status of the concept</td></tr><tr><td>deprecated</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated</td><td>code</td><td>Version of HL7 in which the code was deprecated</td></tr><tr><td>v2-concComment</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-concComment</td><td>string</td><td>V2 Concept Comment</td></tr><tr><td>v2-concCommentAsPub</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-concCommentAsPub</td><td>string</td><td>V2 Concept Comment As Published</td></tr></table><p><b>Concepts</b></p><p>This code system <code>http://terminology.hl7.org/CodeSystem/v2-0371</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>V2 Concept Comment</b></td><td><b>V2 Concept Comment As Published</b></td></tr><tr><td style=\"white-space:nowrap\">F10<a name=\"v2-0371-F10\"> </a></td><td>10% Formalin</td><td>10% Formalin</td><td>Tissue preservative</td><td>Tissue preservative</td></tr><tr><td style=\"white-space:nowrap\">C32<a name=\"v2-0371-C32\"> </a></td><td>3.2%  Citrate</td><td>3.2%  Citrate</td><td>Blue top tube</td><td>Blue top tube</td></tr><tr><td style=\"white-space:nowrap\">C38<a name=\"v2-0371-C38\"> </a></td><td>3.8% Citrate</td><td>3.8% Citrate</td><td>Blue top tube</td><td>Blue top tube</td></tr><tr><td style=\"white-space:nowrap\">HCL6<a name=\"v2-0371-HCL6\"> </a></td><td>6N HCL</td><td>6N HCL</td><td>24 HR Urine Additive</td><td>24 HR Urine Additive</td></tr><tr><td style=\"white-space:nowrap\">ACDA<a name=\"v2-0371-ACDA\"> </a></td><td>ACD Solution A</td><td>ACD Solution A</td><td>Yellow top tube</td><td>Yellow top tube</td></tr><tr><td style=\"white-space:nowrap\">ACDB<a name=\"v2-0371-ACDB\"> </a></td><td>ACD Solution B</td><td>ACD Solution B</td><td>Yellow top tube</td><td>Yellow top tube</td></tr><tr><td style=\"white-space:nowrap\">ACET<a name=\"v2-0371-ACET\"> </a></td><td>Acetic Acid</td><td>Acetic Acid</td><td>Urine preservative</td><td>Urine preservative</td></tr><tr><td style=\"white-space:nowrap\">AMIES<a name=\"v2-0371-AMIES\"> </a></td><td>Amies transport medium</td><td>Amies transport medium</td><td>Protozoa</td><td>Protozoa</td></tr><tr><td style=\"white-space:nowrap\">HEPA<a name=\"v2-0371-HEPA\"> </a></td><td>Ammonium heparin</td><td>Ammonium heparin</td><td>Green top tube</td><td>Green top tube</td></tr><tr><td style=\"white-space:nowrap\">BACTM<a name=\"v2-0371-BACTM\"> </a></td><td>Bacterial Transport medium</td><td>Bacterial Transport medium</td><td>Microbiological culture</td><td>Microbiological culture</td></tr><tr><td style=\"white-space:nowrap\">BOR<a name=\"v2-0371-BOR\"> </a></td><td>Borate Boric Acid</td><td>Borate Boric Acid</td><td>24HR Urine Additive</td><td>24HR Urine Additive</td></tr><tr><td style=\"white-space:nowrap\">BOUIN<a name=\"v2-0371-BOUIN\"> </a></td><td>Bouin's solution</td><td>Bouin's solution</td><td>Tissue</td><td>Tissue</td></tr><tr><td style=\"white-space:nowrap\">BF10<a name=\"v2-0371-BF10\"> </a></td><td>Buffered 10% formalin</td><td>Buffered 10% formalin</td><td>Tissue</td><td>Tissue</td></tr><tr><td style=\"white-space:nowrap\">WEST<a name=\"v2-0371-WEST\"> </a></td><td>Buffered Citrate (Westergren Sedimentation Rate)</td><td>Buffered Citrate (Westergren Sedimentation Rate)</td><td>Black top tube</td><td>Black top tube</td></tr><tr><td style=\"white-space:nowrap\">BSKM<a name=\"v2-0371-BSKM\"> </a></td><td>Buffered skim milk</td><td>Buffered skim milk</td><td>Viral isolation</td><td>Viral isolation</td></tr><tr><td style=\"white-space:nowrap\">CARS<a name=\"v2-0371-CARS\"> </a></td><td>Carson's Modified 10% formalin</td><td>Carson's Modified 10% formalin</td><td>Tissue</td><td>Tissue</td></tr><tr><td style=\"white-space:nowrap\">CARY<a name=\"v2-0371-CARY\"> </a></td><td>Cary Blair Medium</td><td>Cary Blair Medium</td><td>Stool Cultures</td><td>Stool Cultures</td></tr><tr><td style=\"white-space:nowrap\">CHLTM<a name=\"v2-0371-CHLTM\"> </a></td><td>Chlamydia transport medium</td><td>Chlamydia transport medium</td><td>Chlamydia culture</td><td>Chlamydia culture</td></tr><tr><td style=\"white-space:nowrap\">CTAD<a name=\"v2-0371-CTAD\"> </a></td><td>CTAD (this should be spelled out if not universally understood)</td><td>CTAD (this should be spelled out if not universally understood)</td><td>Blue top tube</td><td>Blue top tube</td></tr><tr><td style=\"white-space:nowrap\">ENT<a name=\"v2-0371-ENT\"> </a></td><td>Enteric bacteria transport medium</td><td>Enteric bacteria transport medium</td><td>Bacterial culture</td><td>Bacterial culture</td></tr><tr><td style=\"white-space:nowrap\">ENT+<a name=\"v2-0371-ENT.43\"> </a></td><td>Enteric plus</td><td>Enteric plus</td><td>Stool Cultures</td><td>Stool Cultures</td></tr><tr><td style=\"white-space:nowrap\">JKM<a name=\"v2-0371-JKM\"> </a></td><td>Jones Kendrick Medium</td><td>Jones Kendrick Medium</td><td>Bordetella pertussis</td><td>Bordetella pertussis</td></tr><tr><td style=\"white-space:nowrap\">KARN<a name=\"v2-0371-KARN\"> </a></td><td>Karnovsky's fixative</td><td>Karnovsky's fixative</td><td>Tissue</td><td>Tissue</td></tr><tr><td style=\"white-space:nowrap\">LIA<a name=\"v2-0371-LIA\"> </a></td><td>Lithium iodoacetate</td><td>Lithium iodoacetate</td><td>Gray top tube</td><td>Gray top tube</td></tr><tr><td style=\"white-space:nowrap\">HEPL<a name=\"v2-0371-HEPL\"> </a></td><td>Lithium/Li  Heparin</td><td>Lithium/Li  Heparin</td><td>Green top tube</td><td>Green top tube</td></tr><tr><td style=\"white-space:nowrap\">M4<a name=\"v2-0371-M4\"> </a></td><td>M4</td><td>M4</td><td>Microbiological culture</td><td>Microbiological culture</td></tr><tr><td style=\"white-space:nowrap\">M4RT<a name=\"v2-0371-M4RT\"> </a></td><td>M4-RT</td><td>M4-RT</td><td>Microbiological culture</td><td>Microbiological culture</td></tr><tr><td style=\"white-space:nowrap\">M5<a name=\"v2-0371-M5\"> </a></td><td>M5</td><td>M5</td><td>Microbiological culture</td><td>Microbiological culture</td></tr><tr><td style=\"white-space:nowrap\">MICHTM<a name=\"v2-0371-MICHTM\"> </a></td><td>Michel's transport medium</td><td>Michel's transport medium</td><td>IF tests</td><td>IF tests</td></tr><tr><td style=\"white-space:nowrap\">MMDTM<a name=\"v2-0371-MMDTM\"> </a></td><td>MMD transport medium</td><td>MMD transport medium</td><td>Immunofluorescence</td><td>Immunofluorescence</td></tr><tr><td style=\"white-space:nowrap\">HNO3<a name=\"v2-0371-HNO3\"> </a></td><td>Nitric Acid</td><td>Nitric Acid</td><td>Urine</td><td>Urine</td></tr><tr><td style=\"white-space:nowrap\">NONE<a name=\"v2-0371-NONE\"> </a></td><td>None</td><td>None</td><td>Red or Pink top tube</td><td>Red or Pink top tube</td></tr><tr><td style=\"white-space:nowrap\">PAGE<a name=\"v2-0371-PAGE\"> </a></td><td>Pages's Saline</td><td>Pages's Saline</td><td>Acanthaoemba</td><td>Acanthaoemba</td></tr><tr><td style=\"white-space:nowrap\">PHENOL<a name=\"v2-0371-PHENOL\"> </a></td><td>Phenol</td><td>Phenol</td><td>24 Hr Urine Additive</td><td>24 Hr Urine Additive</td></tr><tr><td style=\"white-space:nowrap\">KOX<a name=\"v2-0371-KOX\"> </a></td><td>Potassium Oxalate</td><td>Potassium Oxalate</td><td>Gray top tube</td><td>Gray top tube</td></tr><tr><td style=\"white-space:nowrap\">EDTK<a name=\"v2-0371-EDTK\"> </a></td><td>Potassium/K EDTA</td><td>Potassium/K EDTA</td><td>Deprecated. Replaced by EDTK15 and EDTK75</td><td>Deprecated. Replaced by EDTK15 and EDTK75</td></tr><tr><td style=\"white-space:nowrap\">EDTK15<a name=\"v2-0371-EDTK15\"> </a></td><td>Potassium/K EDTA 15%</td><td>Potassium/K EDTA 15%</td><td>Purple top tube</td><td>Purple top tube</td></tr><tr><td style=\"white-space:nowrap\">EDTK75<a name=\"v2-0371-EDTK75\"> </a></td><td>Potassium/K EDTA 7.5%</td><td>Potassium/K EDTA 7.5%</td><td>Purple top tube</td><td>Purple top tube</td></tr><tr><td style=\"white-space:nowrap\">PVA<a name=\"v2-0371-PVA\"> </a></td><td>PVA (polyvinylalcohol)</td><td>PVA (polyvinylalcohol)</td><td>O&amp;P</td><td>O&amp;P</td></tr><tr><td style=\"white-space:nowrap\">RLM<a name=\"v2-0371-RLM\"> </a></td><td>Reagan Lowe Medium</td><td>Reagan Lowe Medium</td><td>Bordetella pertussis cultures</td><td>Bordetella pertussis cultures</td></tr><tr><td style=\"white-space:nowrap\">SST<a name=\"v2-0371-SST\"> </a></td><td>Serum Separator Tube (Polymer Gel)</td><td>Serum Separator Tube (Polymer Gel)</td><td>'Tiger' Top tube</td><td>'Tiger' Top tube</td></tr><tr><td style=\"white-space:nowrap\">SILICA<a name=\"v2-0371-SILICA\"> </a></td><td>Siliceous earth, 12 mg</td><td>Siliceous earth, 12 mg</td><td>Gray top tube</td><td>Gray top tube</td></tr><tr><td style=\"white-space:nowrap\">NAF<a name=\"v2-0371-NAF\"> </a></td><td>Sodium Fluoride</td><td>Sodium Fluoride</td><td>Gray top tube</td><td>Gray top tube</td></tr><tr><td style=\"white-space:nowrap\">FL100<a name=\"v2-0371-FL100\"> </a></td><td>Sodium Fluoride, 100mg</td><td>Sodium Fluoride, 100mg</td><td>Urine</td><td>Urine</td></tr><tr><td style=\"white-space:nowrap\">FL10<a name=\"v2-0371-FL10\"> </a></td><td>Sodium Fluoride, 10mg</td><td>Sodium Fluoride, 10mg</td><td>Urine</td><td>Urine</td></tr><tr><td style=\"white-space:nowrap\">NAPS<a name=\"v2-0371-NAPS\"> </a></td><td>Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride</td><td>Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride</td><td>Yellow (Blood Culture)</td><td>Yellow (Blood Culture)</td></tr><tr><td style=\"white-space:nowrap\">HEPN<a name=\"v2-0371-HEPN\"> </a></td><td>Sodium/Na  Heparin</td><td>Sodium/Na  Heparin</td><td>Green top tube</td><td>Green top tube</td></tr><tr><td style=\"white-space:nowrap\">EDTN<a name=\"v2-0371-EDTN\"> </a></td><td>Sodium/Na EDTA</td><td>Sodium/Na EDTA</td><td>Dark Blue top tube</td><td>Dark Blue top tube</td></tr><tr><td style=\"white-space:nowrap\">SPS<a name=\"v2-0371-SPS\"> </a></td><td>SPS(this should be spelled out if not universally understood)</td><td>SPS(this should be spelled out if not universally understood)</td><td>Anticoagulant w/o bacteriocidal properties</td><td>Anticoagulant w/o bacteriocidal properties</td></tr><tr><td style=\"white-space:nowrap\">STUTM<a name=\"v2-0371-STUTM\"> </a></td><td>Stuart transport medium</td><td>Stuart transport medium</td><td>Bacterial culture</td><td>Bacterial culture</td></tr><tr><td style=\"white-space:nowrap\">THROM<a name=\"v2-0371-THROM\"> </a></td><td>Thrombin</td><td>Thrombin</td><td>Orange or Grey/Yellow (STAT Chem)</td><td>Orange or Grey/Yellow (STAT Chem)</td></tr><tr><td style=\"white-space:nowrap\">FDP<a name=\"v2-0371-FDP\"> </a></td><td>Thrombin NIH; soybean trypsin inhibitor (Fibrin Degradation Products)</td><td>Thrombin NIH; soybean trypsin inhibitor (Fibrin Degradation Products)</td><td>Dark Blue top tube</td><td>Dark Blue top tube</td></tr><tr><td style=\"white-space:nowrap\">THYMOL<a name=\"v2-0371-THYMOL\"> </a></td><td>Thymol</td><td>Thymol</td><td>24 Hr Urine Additive</td><td>24 Hr Urine Additive</td></tr><tr><td style=\"white-space:nowrap\">THYO<a name=\"v2-0371-THYO\"> </a></td><td>Thyoglycollate broth</td><td>Thyoglycollate broth</td><td>Bacterial Isolation</td><td>Bacterial Isolation</td></tr><tr><td style=\"white-space:nowrap\">TOLU<a name=\"v2-0371-TOLU\"> </a></td><td>Toluene</td><td>Toluene</td><td>24 Hr Urine Additive</td><td>24 Hr Urine Additive</td></tr><tr><td style=\"white-space:nowrap\">URETM<a name=\"v2-0371-URETM\"> </a></td><td>Ureaplasma transport medium</td><td>Ureaplasma transport medium</td><td>Ureaplasma culture</td><td>Ureaplasma culture</td></tr><tr><td style=\"white-space:nowrap\">VIRTM<a name=\"v2-0371-VIRTM\"> </a></td><td>Viral Transport medium</td><td>Viral Transport medium</td><td>Virus cultures</td><td>Virus cultures</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "oo"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/v2-0371"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/v2-0371>
+  ] ; # 
+  fhir:version [ fhir:v "2.1.0"] ; # 
+  fhir:name [ fhir:v "AdditivePreservative"] ; # 
+  fhir:title [ fhir:v "additivePreservative"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2019-11-30T18:00:00-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Orders and Observations"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Orders and Observations" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/orders" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "HL7-defined code system of concepts specifying any additive introduced to the specimen before or at the time of collection.  These additives may be introduced in order to preserve, maintain or enhance the particular nature or component of the specimen.  Used in HL7 Version 2.x messaging in the SPM and SAC segments."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "Underlying Master Code System for V2 table 0371 (Additive/Preservative)"] ; # 
+  fhir:copyright [ fhir:v "Copyright HL7. Licensed under creative commons public domain"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/v2-0371|2.0.0"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/v2-0371?version=2.0.0>
+  ] ; # 
+  fhir:hierarchyMeaning [ fhir:v "is-a"] ; # 
+  fhir:compositional [ fhir:v false] ; # 
+  fhir:versionNeeded [ fhir:v false] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "status" ] ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/CodeSystem/utg-concept-properties#status"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/utg-concept-properties#status>
+     ] ;
+     fhir:description [ fhir:v "Status of the concept" ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "deprecated" ] ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated>
+     ] ;
+     fhir:description [ fhir:v "Version of HL7 in which the code was deprecated" ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "v2-concComment" ] ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-concComment"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-concComment>
+     ] ;
+     fhir:description [ fhir:v "V2 Concept Comment" ] ;
+     fhir:type [ fhir:v "string" ]
+  ] [
+     fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-concCommentAsPub"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-concCommentAsPub>
+     ] ;
+     fhir:description [ fhir:v "V2 Concept Comment As Published" ] ;
+     fhir:type [ fhir:v "string" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "F10" ] ;
+     fhir:display [ fhir:v "10% Formalin" ] ;
+     fhir:definition [ fhir:v "10% Formalin" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Tissue preservative"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Tissue preservative"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "C32" ] ;
+     fhir:display [ fhir:v "3.2%  Citrate" ] ;
+     fhir:definition [ fhir:v "3.2%  Citrate" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Blue top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Blue top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "C38" ] ;
+     fhir:display [ fhir:v "3.8% Citrate" ] ;
+     fhir:definition [ fhir:v "3.8% Citrate" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Blue top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Blue top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "HCL6" ] ;
+     fhir:display [ fhir:v "6N HCL" ] ;
+     fhir:definition [ fhir:v "6N HCL" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "24 HR Urine Additive"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "24 HR Urine Additive"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ACDA" ] ;
+     fhir:display [ fhir:v "ACD Solution A" ] ;
+     fhir:definition [ fhir:v "ACD Solution A" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Yellow top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Yellow top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ACDB" ] ;
+     fhir:display [ fhir:v "ACD Solution B" ] ;
+     fhir:definition [ fhir:v "ACD Solution B" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Yellow top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Yellow top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ACET" ] ;
+     fhir:display [ fhir:v "Acetic Acid" ] ;
+     fhir:definition [ fhir:v "Acetic Acid" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Urine preservative"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Urine preservative"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "AMIES" ] ;
+     fhir:display [ fhir:v "Amies transport medium" ] ;
+     fhir:definition [ fhir:v "Amies transport medium" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Protozoa"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Protozoa"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "HEPA" ] ;
+     fhir:display [ fhir:v "Ammonium heparin" ] ;
+     fhir:definition [ fhir:v "Ammonium heparin" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Green top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Green top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BACTM" ] ;
+     fhir:display [ fhir:v "Bacterial Transport medium" ] ;
+     fhir:definition [ fhir:v "Bacterial Transport medium" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Microbiological culture"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Microbiological culture"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BOR" ] ;
+     fhir:display [ fhir:v "Borate Boric Acid" ] ;
+     fhir:definition [ fhir:v "Borate Boric Acid" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "24HR Urine Additive"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "24HR Urine Additive"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BOUIN" ] ;
+     fhir:display [ fhir:v "Bouin's solution" ] ;
+     fhir:definition [ fhir:v "Bouin's solution" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Tissue"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Tissue"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BF10" ] ;
+     fhir:display [ fhir:v "Buffered 10% formalin" ] ;
+     fhir:definition [ fhir:v "Buffered 10% formalin" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Tissue"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Tissue"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "WEST" ] ;
+     fhir:display [ fhir:v "Buffered Citrate (Westergren Sedimentation Rate)" ] ;
+     fhir:definition [ fhir:v "Buffered Citrate (Westergren Sedimentation Rate)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Black top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Black top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BSKM" ] ;
+     fhir:display [ fhir:v "Buffered skim milk" ] ;
+     fhir:definition [ fhir:v "Buffered skim milk" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Viral isolation"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Viral isolation"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CARS" ] ;
+     fhir:display [ fhir:v "Carson's Modified 10% formalin" ] ;
+     fhir:definition [ fhir:v "Carson's Modified 10% formalin" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Tissue"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Tissue"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CARY" ] ;
+     fhir:display [ fhir:v "Cary Blair Medium" ] ;
+     fhir:definition [ fhir:v "Cary Blair Medium" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Stool Cultures"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Stool Cultures"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CHLTM" ] ;
+     fhir:display [ fhir:v "Chlamydia transport medium" ] ;
+     fhir:definition [ fhir:v "Chlamydia transport medium" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Chlamydia culture"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Chlamydia culture"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CTAD" ] ;
+     fhir:display [ fhir:v "CTAD (this should be spelled out if not universally understood)" ] ;
+     fhir:definition [ fhir:v "CTAD (this should be spelled out if not universally understood)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Blue top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Blue top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ENT" ] ;
+     fhir:display [ fhir:v "Enteric bacteria transport medium" ] ;
+     fhir:definition [ fhir:v "Enteric bacteria transport medium" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Bacterial culture"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Bacterial culture"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ENT+" ] ;
+     fhir:display [ fhir:v "Enteric plus" ] ;
+     fhir:definition [ fhir:v "Enteric plus" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Stool Cultures"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Stool Cultures"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "JKM" ] ;
+     fhir:display [ fhir:v "Jones Kendrick Medium" ] ;
+     fhir:definition [ fhir:v "Jones Kendrick Medium" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Bordetella pertussis"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Bordetella pertussis"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "KARN" ] ;
+     fhir:display [ fhir:v "Karnovsky's fixative" ] ;
+     fhir:definition [ fhir:v "Karnovsky's fixative" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Tissue"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Tissue"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "LIA" ] ;
+     fhir:display [ fhir:v "Lithium iodoacetate" ] ;
+     fhir:definition [ fhir:v "Lithium iodoacetate" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Gray top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Gray top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "HEPL" ] ;
+     fhir:display [ fhir:v "Lithium/Li  Heparin" ] ;
+     fhir:definition [ fhir:v "Lithium/Li  Heparin" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Green top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Green top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "M4" ] ;
+     fhir:display [ fhir:v "M4" ] ;
+     fhir:definition [ fhir:v "M4" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Microbiological culture"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Microbiological culture"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "M4RT" ] ;
+     fhir:display [ fhir:v "M4-RT" ] ;
+     fhir:definition [ fhir:v "M4-RT" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Microbiological culture"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Microbiological culture"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "M5" ] ;
+     fhir:display [ fhir:v "M5" ] ;
+     fhir:definition [ fhir:v "M5" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Microbiological culture"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Microbiological culture"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MICHTM" ] ;
+     fhir:display [ fhir:v "Michel's transport medium" ] ;
+     fhir:definition [ fhir:v "Michel's transport medium" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "IF tests"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "IF tests"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "MMDTM" ] ;
+     fhir:display [ fhir:v "MMD transport medium" ] ;
+     fhir:definition [ fhir:v "MMD transport medium" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Immunofluorescence"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Immunofluorescence"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "HNO3" ] ;
+     fhir:display [ fhir:v "Nitric Acid" ] ;
+     fhir:definition [ fhir:v "Nitric Acid" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Urine"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Urine"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "NONE" ] ;
+     fhir:display [ fhir:v "None" ] ;
+     fhir:definition [ fhir:v "None" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Red or Pink top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Red or Pink top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PAGE" ] ;
+     fhir:display [ fhir:v "Pages's Saline" ] ;
+     fhir:definition [ fhir:v "Pages's Saline" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Acanthaoemba"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Acanthaoemba"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PHENOL" ] ;
+     fhir:display [ fhir:v "Phenol" ] ;
+     fhir:definition [ fhir:v "Phenol" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "24 Hr Urine Additive"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "24 Hr Urine Additive"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "KOX" ] ;
+     fhir:display [ fhir:v "Potassium Oxalate" ] ;
+     fhir:definition [ fhir:v "Potassium Oxalate" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Gray top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Gray top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "EDTK" ] ;
+     fhir:display [ fhir:v "Potassium/K EDTA" ] ;
+     fhir:definition [ fhir:v "Potassium/K EDTA" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Deprecated. Replaced by EDTK15 and EDTK75"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Deprecated. Replaced by EDTK15 and EDTK75"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "EDTK15" ] ;
+     fhir:display [ fhir:v "Potassium/K EDTA 15%" ] ;
+     fhir:definition [ fhir:v "Potassium/K EDTA 15%" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Purple top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Purple top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "EDTK75" ] ;
+     fhir:display [ fhir:v "Potassium/K EDTA 7.5%" ] ;
+     fhir:definition [ fhir:v "Potassium/K EDTA 7.5%" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Purple top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Purple top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PVA" ] ;
+     fhir:display [ fhir:v "PVA (polyvinylalcohol)" ] ;
+     fhir:definition [ fhir:v "PVA (polyvinylalcohol)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "O&P"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "O&P"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "RLM" ] ;
+     fhir:display [ fhir:v "Reagan Lowe Medium" ] ;
+     fhir:definition [ fhir:v "Reagan Lowe Medium" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Bordetella pertussis cultures"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Bordetella pertussis cultures"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SST" ] ;
+     fhir:display [ fhir:v "Serum Separator Tube (Polymer Gel)" ] ;
+     fhir:definition [ fhir:v "Serum Separator Tube (Polymer Gel)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "'Tiger' Top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "'Tiger' Top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SILICA" ] ;
+     fhir:display [ fhir:v "Siliceous earth, 12 mg" ] ;
+     fhir:definition [ fhir:v "Siliceous earth, 12 mg" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Gray top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Gray top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "NAF" ] ;
+     fhir:display [ fhir:v "Sodium Fluoride" ] ;
+     fhir:definition [ fhir:v "Sodium Fluoride" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Gray top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Gray top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FL100" ] ;
+     fhir:display [ fhir:v "Sodium Fluoride, 100mg" ] ;
+     fhir:definition [ fhir:v "Sodium Fluoride, 100mg" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Urine"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Urine"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FL10" ] ;
+     fhir:display [ fhir:v "Sodium Fluoride, 10mg" ] ;
+     fhir:definition [ fhir:v "Sodium Fluoride, 10mg" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Urine"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Urine"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "NAPS" ] ;
+     fhir:display [ fhir:v "Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride" ] ;
+     fhir:definition [ fhir:v "Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Yellow (Blood Culture)"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Yellow (Blood Culture)"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "HEPN" ] ;
+     fhir:display [ fhir:v "Sodium/Na  Heparin" ] ;
+     fhir:definition [ fhir:v "Sodium/Na  Heparin" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Green top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Green top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "EDTN" ] ;
+     fhir:display [ fhir:v "Sodium/Na EDTA" ] ;
+     fhir:definition [ fhir:v "Sodium/Na EDTA" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Dark Blue top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Dark Blue top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SPS" ] ;
+     fhir:display [ fhir:v "SPS(this should be spelled out if not universally understood)" ] ;
+     fhir:definition [ fhir:v "SPS(this should be spelled out if not universally understood)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Anticoagulant w/o bacteriocidal properties"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Anticoagulant w/o bacteriocidal properties"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "STUTM" ] ;
+     fhir:display [ fhir:v "Stuart transport medium" ] ;
+     fhir:definition [ fhir:v "Stuart transport medium" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Bacterial culture"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Bacterial culture"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "THROM" ] ;
+     fhir:display [ fhir:v "Thrombin" ] ;
+     fhir:definition [ fhir:v "Thrombin" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Orange or Grey/Yellow (STAT Chem)"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Orange or Grey/Yellow (STAT Chem)"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FDP" ] ;
+     fhir:display [ fhir:v "Thrombin NIH; soybean trypsin inhibitor (Fibrin Degradation Products)" ] ;
+     fhir:definition [ fhir:v "Thrombin NIH; soybean trypsin inhibitor (Fibrin Degradation Products)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Dark Blue top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Dark Blue top tube"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "THYMOL" ] ;
+     fhir:display [ fhir:v "Thymol" ] ;
+     fhir:definition [ fhir:v "Thymol" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "24 Hr Urine Additive"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "24 Hr Urine Additive"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "THYO" ] ;
+     fhir:display [ fhir:v "Thyoglycollate broth" ] ;
+     fhir:definition [ fhir:v "Thyoglycollate broth" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Bacterial Isolation"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Bacterial Isolation"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "TOLU" ] ;
+     fhir:display [ fhir:v "Toluene" ] ;
+     fhir:definition [ fhir:v "Toluene" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "24 Hr Urine Additive"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "24 Hr Urine Additive"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "URETM" ] ;
+     fhir:display [ fhir:v "Ureaplasma transport medium" ] ;
+     fhir:definition [ fhir:v "Ureaplasma transport medium" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Ureaplasma culture"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Ureaplasma culture"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "VIRTM" ] ;
+     fhir:display [ fhir:v "Viral Transport medium" ] ;
+     fhir:definition [ fhir:v "Viral Transport medium" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Virus cultures"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Virus cultures"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="permitted-data-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/permitted-data-type</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">Quantity
+                  <a name="permitted-data-type-Quantity"> </a>
+                </td>
+                <td>A measured amount.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">CodeableConcept
+                  <a name="permitted-data-type-CodeableConcept"> </a>
+                </td>
+                <td>A coded concept from a reference terminology and/or text.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">string
+                  <a name="permitted-data-type-string"> </a>
+                </td>
+                <td>A sequence of Unicode characters.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">boolean
+                  <a name="permitted-data-type-boolean"> </a>
+                </td>
+                <td>true or false.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">integer
+                  <a name="permitted-data-type-integer"> </a>
+                </td>
+                <td>A signed integer.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">Range
+                  <a name="permitted-data-type-Range"> </a>
+                </td>
+                <td>A set of values bounded by low and high.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">Ratio
+                  <a name="permitted-data-type-Ratio"> </a>
+                </td>
+                <td>A ratio of two Quantity values - a numerator and a denominator.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">SampledData
+                  <a name="permitted-data-type-SampledData"> </a>
+                </td>
+                <td>A series of measurements taken by a device.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">time
+                  <a name="permitted-data-type-time"> </a>
+                </td>
+                <td>A time during the day, in the format hh:mm:ss.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">dateTime
+                  <a name="permitted-data-type-dateTime"> </a>
+                </td>
+                <td>A date, date-time or partial date (e.g. just year or year + month) as used in human communication.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">Period
+                  <a name="permitted-data-type-Period"> </a>
+                </td>
+                <td>A time range defined by start and end date/time.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo"/>
+  </extension>
+  <url value="http://hl7.org/fhir/permitted-data-type"/>
+  <version value="5.0.0"/>
+  <name value="ObservationDataType"/>
+  <title value="Observation Data Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Orders and Observations"/>
+  <contact>
+    <name value="Orders and Observations"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/orders"/>
+    </telecom>
+  </contact>
+  <description value="Permitted data type for observation value."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/permitted-data-type|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="Quantity"/>
+    <display value="Quantity"/>
+    <definition value="A measured amount."/>
+  </concept>
+  <concept>
+    <code value="CodeableConcept"/>
+    <display value="CodeableConcept"/>
+    <definition value="A coded concept from a reference terminology and/or text."/>
+  </concept>
+  <concept>
+    <code value="string"/>
+    <display value="string"/>
+    <definition value="A sequence of Unicode characters."/>
+  </concept>
+  <concept>
+    <code value="boolean"/>
+    <display value="boolean"/>
+    <definition value="true or false."/>
+  </concept>
+  <concept>
+    <code value="integer"/>
+    <display value="integer"/>
+    <definition value="A signed integer."/>
+  </concept>
+  <concept>
+    <code value="Range"/>
+    <display value="Range"/>
+    <definition value="A set of values bounded by low and high."/>
+  </concept>
+  <concept>
+    <code value="Ratio"/>
+    <display value="Ratio"/>
+    <definition value="A ratio of two Quantity values - a numerator and a denominator."/>
+  </concept>
+  <concept>
+    <code value="SampledData"/>
+    <display value="SampledData"/>
+    <definition value="A series of measurements taken by a device."/>
+  </concept>
+  <concept>
+    <code value="time"/>
+    <display value="time"/>
+    <definition value="A time during the day, in the format hh:mm:ss."/>
+  </concept>
+  <concept>
+    <code value="dateTime"/>
+    <display value="dateTime"/>
+    <definition value="A date, date-time or partial date (e.g. just year or year + month) as used in human communication."/>
+  </concept>
+  <concept>
+    <code value="Period"/>
+    <display value="Period"/>
+    <definition value="A time range defined by start and end date/time."/>
+  </concept>
+</CodeSystem>

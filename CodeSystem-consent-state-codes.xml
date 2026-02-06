@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="consent-state-codes"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/consent-state-codes</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">draft
+                  <a name="consent-state-codes-draft"> </a>
+                </td>
+                <td>Pending</td>
+                <td>The consent is in development or awaiting use but is not yet intended to be acted upon.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">active
+                  <a name="consent-state-codes-active"> </a>
+                </td>
+                <td>Active</td>
+                <td>The consent is to be followed and enforced.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">inactive
+                  <a name="consent-state-codes-inactive"> </a>
+                </td>
+                <td>Inactive</td>
+                <td>The consent is terminated or replaced.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">not-done
+                  <a name="consent-state-codes-not-done"> </a>
+                </td>
+                <td>Abandoned</td>
+                <td>The consent development has been terminated prior to completion.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">entered-in-error
+                  <a name="consent-state-codes-entered-in-error"> </a>
+                </td>
+                <td>Entered in Error</td>
+                <td>The consent was created wrongly (e.g. wrong patient) and should be ignored.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">unknown
+                  <a name="consent-state-codes-unknown"> </a>
+                </td>
+                <td>Unknown</td>
+                <td>The resource is in an indeterminate state.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="cbcc"/>
+  </extension>
+  <url value="http://hl7.org/fhir/consent-state-codes"/>
+  <version value="5.0.0"/>
+  <name value="ConsentState"/>
+  <title value="Consent State"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Community Based Collaborative Care"/>
+  <contact>
+    <name value="Community Based Collaborative Care"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/cbcc"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the state of the consent."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="draft"/>
+    <display value="Pending"/>
+    <definition value="The consent is in development or awaiting use but is not yet intended to be acted upon."/>
+  </concept>
+  <concept>
+    <code value="active"/>
+    <display value="Active"/>
+    <definition value="The consent is to be followed and enforced."/>
+  </concept>
+  <concept>
+    <code value="inactive"/>
+    <display value="Inactive"/>
+    <definition value="The consent is terminated or replaced."/>
+  </concept>
+  <concept>
+    <code value="not-done"/>
+    <display value="Abandoned"/>
+    <definition value="The consent development has been terminated prior to completion."/>
+  </concept>
+  <concept>
+    <code value="entered-in-error"/>
+    <display value="Entered in Error"/>
+    <definition value="The consent was created wrongly (e.g. wrong patient) and should be ignored."/>
+  </concept>
+  <concept>
+    <code value="unknown"/>
+    <display value="Unknown"/>
+    <definition value="The resource is in an indeterminate state."/>
+  </concept>
+</CodeSystem>

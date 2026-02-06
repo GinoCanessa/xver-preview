@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="name-use"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/name-use</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td>
+                  <b>Lvl</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td style="white-space:nowrap">usual
+                  <a name="name-use-usual"> </a>
+                </td>
+                <td>Usual</td>
+                <td>Known as/conventional/the one you normally use.</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td style="white-space:nowrap">official
+                  <a name="name-use-official"> </a>
+                </td>
+                <td>Official</td>
+                <td>The formal name as registered in an official (government) registry, but which name might not be commonly used. May be called &quot;legal name&quot;.</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td style="white-space:nowrap">temp
+                  <a name="name-use-temp"> </a>
+                </td>
+                <td>Temp</td>
+                <td>A temporary name. Name.period can provide more detailed information. This may also be used for temporary names assigned at birth or in emergency situations.</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td style="white-space:nowrap">nickname
+                  <a name="name-use-nickname"> </a>
+                </td>
+                <td>Nickname</td>
+                <td>A name that is used to address the person in an informal manner, but is not part of their formal or usual name.</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td style="white-space:nowrap">anonymous
+                  <a name="name-use-anonymous"> </a>
+                </td>
+                <td>Anonymous</td>
+                <td>Anonymous assigned name, alias, or pseudonym (used to protect a person's identity for privacy reasons).</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td style="white-space:nowrap">old
+                  <a name="name-use-old"> </a>
+                </td>
+                <td>Old</td>
+                <td>This name is no longer in use (or was never correct, but retained for records).</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td style="white-space:nowrap">  maiden
+                  <a name="name-use-maiden"> </a>
+                </td>
+                <td>Name changed for Marriage</td>
+                <td>A name used prior to changing name because of marriage. This name use is for use by applications that collect and store names that were used prior to a marriage. Marriage naming customs vary greatly around the world, and are constantly changing. This term is not gender specific. The use of this term does not imply any particular history for a person's name.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="normative"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+    <valueCode value="4.0.0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="5"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <url value="http://hl7.org/fhir/name-use"/>
+  <version value="5.0.0"/>
+  <name value="NameUse"/>
+  <title value="NameUse"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-03-25T23:21:02-05:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="The use of a human name."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/name-use|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="usual"/>
+    <display value="Usual"/>
+    <definition value="Known as/conventional/the one you normally use."/>
+  </concept>
+  <concept>
+    <code value="official"/>
+    <display value="Official"/>
+    <definition value="The formal name as registered in an official (government) registry, but which name might not be commonly used. May be called &quot;legal name&quot;."/>
+  </concept>
+  <concept>
+    <code value="temp"/>
+    <display value="Temp"/>
+    <definition value="A temporary name. Name.period can provide more detailed information. This may also be used for temporary names assigned at birth or in emergency situations."/>
+  </concept>
+  <concept>
+    <code value="nickname"/>
+    <display value="Nickname"/>
+    <definition value="A name that is used to address the person in an informal manner, but is not part of their formal or usual name."/>
+  </concept>
+  <concept>
+    <code value="anonymous"/>
+    <display value="Anonymous"/>
+    <definition value="Anonymous assigned name, alias, or pseudonym (used to protect a person's identity for privacy reasons)."/>
+  </concept>
+  <concept>
+    <code value="old"/>
+    <display value="Old"/>
+    <definition value="This name is no longer in use (or was never correct, but retained for records)."/>
+    <concept>
+      <code value="maiden"/>
+      <display value="Name changed for Marriage"/>
+      <definition value="A name used prior to changing name because of marriage. This name use is for use by applications that collect and store names that were used prior to a marriage. Marriage naming customs vary greatly around the world, and are constantly changing. This term is not gender specific. The use of this term does not imply any particular history for a person's name."/>
+    </concept>
+  </concept>
+</CodeSystem>

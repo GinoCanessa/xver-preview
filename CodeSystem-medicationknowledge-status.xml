@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="medicationknowledge-status"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/CodeSystem/medicationknowledge-status</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">active
+                  <a name="medicationknowledge-status-active"> </a>
+                </td>
+                <td>Active</td>
+                <td>The medication referred to by this MedicationKnowledge is in active use within the drug database or inventory system.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">entered-in-error
+                  <a name="medicationknowledge-status-entered-in-error"> </a>
+                </td>
+                <td>Entered in Error</td>
+                <td>The medication referred to by this MedicationKnowledge was entered in error within the drug database or inventory system.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">inactive
+                  <a name="medicationknowledge-status-inactive"> </a>
+                </td>
+                <td>Inactive</td>
+                <td>The medication referred to by this MedicationKnowledge is not in active use within the drug database or inventory system.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="phx"/>
+  </extension>
+  <url value="http://hl7.org/fhir/CodeSystem/medicationknowledge-status"/>
+  <version value="5.0.0"/>
+  <name value="MedicationKnowledgeStatusCodes"/>
+  <title value="MedicationKnowledge Status Codes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-06T13:22:22-06:00"/>
+  <publisher value="Pharmacy"/>
+  <contact>
+    <name value="Pharmacy"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/medication"/>
+    </telecom>
+  </contact>
+  <description value="MedicationKnowledge Status Codes"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/medicationknowledge-status|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="active"/>
+    <display value="Active"/>
+    <definition value="The medication referred to by this MedicationKnowledge is in active use within the drug database or inventory system."/>
+  </concept>
+  <concept>
+    <code value="entered-in-error"/>
+    <display value="Entered in Error"/>
+    <definition value="The medication referred to by this MedicationKnowledge was entered in error within the drug database or inventory system."/>
+  </concept>
+  <concept>
+    <code value="inactive"/>
+    <display value="Inactive"/>
+    <definition value="The medication referred to by this MedicationKnowledge is not in active use within the drug database or inventory system."/>
+  </concept>
+</CodeSystem>

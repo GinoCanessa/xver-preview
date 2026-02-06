@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="claiminformationcategory"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://terminology.hl7.org/CodeSystem/claiminformationcategory</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">info<a name="claiminformationcategory-info"> </a></td><td>Information</td><td>Codes conveying additional situation and condition information.</td></tr><tr><td style="white-space:nowrap">discharge<a name="claiminformationcategory-discharge"> </a></td><td>Discharge</td><td>Discharge status and discharge to locations.</td></tr><tr><td style="white-space:nowrap">onset<a name="claiminformationcategory-onset"> </a></td><td>Onset</td><td>Period, start or end dates of aspects of the Condition.</td></tr><tr><td style="white-space:nowrap">related<a name="claiminformationcategory-related"> </a></td><td>Related Services</td><td>Nature and date of the related event e.g. Last exam, service, X-ray etc.</td></tr><tr><td style="white-space:nowrap">exception<a name="claiminformationcategory-exception"> </a></td><td>Exception</td><td>Insurance policy exceptions.</td></tr><tr><td style="white-space:nowrap">material<a name="claiminformationcategory-material"> </a></td><td>Materials Forwarded</td><td>Materials being forwarded, e.g. Models, molds, images, documents.</td></tr><tr><td style="white-space:nowrap">attachment<a name="claiminformationcategory-attachment"> </a></td><td>Attachment</td><td>Materials attached such as images, documents and resources.</td></tr><tr><td style="white-space:nowrap">missingtooth<a name="claiminformationcategory-missingtooth"> </a></td><td>Missing Tooth</td><td>Teeth which are missing for any reason, for example: prior extraction, never developed.</td></tr><tr><td style="white-space:nowrap">prosthesis<a name="claiminformationcategory-prosthesis"> </a></td><td>Prosthesis</td><td>The type of prosthesis and date of supply if a previously supplied prosthesis.</td></tr><tr><td style="white-space:nowrap">other<a name="claiminformationcategory-other"> </a></td><td>Other</td><td>Other information identified by the type.system.</td></tr><tr><td style="white-space:nowrap">hospitalized<a name="claiminformationcategory-hospitalized"> </a></td><td>Hospitalized</td><td>An indication that the patient was hospitalized, the period if known otherwise a Yes/No (boolean).</td></tr><tr><td style="white-space:nowrap">employmentimpacted<a name="claiminformationcategory-employmentimpacted"> </a></td><td>EmploymentImpacted</td><td>An indication that the patient was unable to work, the period if known otherwise a Yes/No (boolean).</td></tr><tr><td style="white-space:nowrap">externalcause<a name="claiminformationcategory-externalcause"> </a></td><td>External Caause</td><td>The external cause of an illness or injury.</td></tr><tr><td style="white-space:nowrap">patientreasonforvisit<a name="claiminformationcategory-patientreasonforvisit"> </a></td><td>Patient Reason for Visit</td><td>The reason for the patient visit.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fm"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/claiminformationcategory"/>
+  <version value="0.1.0"/>
+  <name value="ClaimInformationCategoryCodes"/>
+  <title value="Claim Information Category Codes"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2023-02-25T12:07:30-06:00"/>
+  <publisher value="Financial Management"/>
+  <contact>
+    <name value="Financial Management"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fm"/>
+    </telecom>
+  </contact>
+  <description value="This value set includes sample Information Category codes."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This is an example set."/>
+  <caseSensitive value="true"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/claim-informationcategory|1.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="info"/>
+    <display value="Information"/>
+    <definition value="Codes conveying additional situation and condition information."/>
+  </concept>
+  <concept>
+    <code value="discharge"/>
+    <display value="Discharge"/>
+    <definition value="Discharge status and discharge to locations."/>
+  </concept>
+  <concept>
+    <code value="onset"/>
+    <display value="Onset"/>
+    <definition value="Period, start or end dates of aspects of the Condition."/>
+  </concept>
+  <concept>
+    <code value="related"/>
+    <display value="Related Services"/>
+    <definition value="Nature and date of the related event e.g. Last exam, service, X-ray etc."/>
+  </concept>
+  <concept>
+    <code value="exception"/>
+    <display value="Exception"/>
+    <definition value="Insurance policy exceptions."/>
+  </concept>
+  <concept>
+    <code value="material"/>
+    <display value="Materials Forwarded"/>
+    <definition value="Materials being forwarded, e.g. Models, molds, images, documents."/>
+  </concept>
+  <concept>
+    <code value="attachment"/>
+    <display value="Attachment"/>
+    <definition value="Materials attached such as images, documents and resources."/>
+  </concept>
+  <concept>
+    <code value="missingtooth"/>
+    <display value="Missing Tooth"/>
+    <definition value="Teeth which are missing for any reason, for example: prior extraction, never developed."/>
+  </concept>
+  <concept>
+    <code value="prosthesis"/>
+    <display value="Prosthesis"/>
+    <definition value="The type of prosthesis and date of supply if a previously supplied prosthesis."/>
+  </concept>
+  <concept>
+    <code value="other"/>
+    <display value="Other"/>
+    <definition value="Other information identified by the type.system."/>
+  </concept>
+  <concept>
+    <code value="hospitalized"/>
+    <display value="Hospitalized"/>
+    <definition value="An indication that the patient was hospitalized, the period if known otherwise a Yes/No (boolean)."/>
+  </concept>
+  <concept>
+    <code value="employmentimpacted"/>
+    <display value="EmploymentImpacted"/>
+    <definition value="An indication that the patient was unable to work, the period if known otherwise a Yes/No (boolean)."/>
+  </concept>
+  <concept>
+    <code value="externalcause"/>
+    <display value="External Caause"/>
+    <definition value="The external cause of an illness or injury."/>
+  </concept>
+  <concept>
+    <code value="patientreasonforvisit"/>
+    <display value="Patient Reason for Visit"/>
+    <definition value="The reason for the patient visit."/>
+  </concept>
+</CodeSystem>

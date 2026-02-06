@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ValueSet-R5-filter-operator-for-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ValueSet-R5-filter-operator-for-R4</b></p><a name="ValueSet-R5-filter-operator-for-R4"> </a><a name="hcValueSet-R5-filter-operator-for-R4"> </a><p>This value set expansion contains 2 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="ValueSet-R5-filter-operator-for-R4-http://hl7.org/fhir/filter-operator-child-of"> </a><code>http://hl7.org/fhir/filter-operator</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-filter-operator.html#filter-operator-child-of">child-of</a></td><td>Child Of</td><td>Only concepts with a direct hierarchical relationship to the index code and no other concepts. This does not include the index code in the output.</td></tr><tr><td><a name="ValueSet-R5-filter-operator-for-R4-http://hl7.org/fhir/filter-operator-descendent-leaf"> </a><code>http://hl7.org/fhir/filter-operator</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-filter-operator.html#filter-operator-descendent-leaf">descendent-leaf</a></td><td>Descendent Leaf</td><td>Includes concept ids that have a transitive is-a relationship with the concept Id provided as the value, but which do not have any concept ids with transitive is-a relationships with themselves.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="5"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="vocab"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-filter-operator-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="ValueSetR5FilterOperatorForR4"/>
+  <title value="Cross-version ValueSet R5.FilterOperator for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <publisher value="HL7 International / Terminology Infrastructure"/>
+  <contact>
+    <name value="HL7 International / Terminology Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/Vocab"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from http://hl7.org/fhir/ValueSet/filter-operator|5.0.0 for use in FHIR R4 that is appropriate for use but unavailable in `http://hl7.org/fhir/ValueSet/filter-operator|4.0.1`."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/filter-operator|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `CodeSystem.filter.operator` as Required&#xA;* `ValueSet.compose.exclude.filter.op` as Required&#xA;* `ValueSet.compose.include.filter.op` as Required&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the value set has been mapped as:&#xD;&#xA;* `http://hl7.org/fhir/ValueSet/filter-operator|5.0.0`&#xA;* `http://hl7.org/fhir/ValueSet/filter-operator|4.3.0`&#xA;* `http://hl7.org/fhir/ValueSet/filter-operator|4.0.1`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* `http://hl7.org/fhir/filter-operator#=`&#xA;* `http://hl7.org/fhir/filter-operator#descendent-of`&#xA;* `http://hl7.org/fhir/filter-operator#exists`&#xA;* `http://hl7.org/fhir/filter-operator#generalizes`&#xA;* `http://hl7.org/fhir/filter-operator#in`&#xA;* `http://hl7.org/fhir/filter-operator#is-a`&#xA;* `http://hl7.org/fhir/filter-operator#is-not-a`&#xA;* `http://hl7.org/fhir/filter-operator#not-in`&#xA;* `http://hl7.org/fhir/filter-operator#regex`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;One or more source concepts are either not mapped or broader than their targets, so the value set relationship is broadened.&#xA;The source value set has more active concepts (11) than the target (9), so the source is broader than the target.&#xA;All concepts in the comparison are listed as identical.&#xA;The source and target value sets have the same number of active concepts (9).&#xA;Using explicit mapping from `http://hl7.org/fhir/ValueSet/filter-operator|5.0.0` to `http://hl7.org/fhir/ValueSet/filter-operator|4.0.1` in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-FilterOperator-R4-FilterOperator` (`ConceptMap-R5-FilterOperator-R4-FilterOperator.json`)"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/filter-operator"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="child-of"/>
+        <display value="Child Of"/>
+      </concept>
+      <concept>
+        <code value="descendent-leaf"/>
+        <display value="Descendent Leaf"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-06T19:17:19.5427077+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/filter-operator"/>
+      <version value="5.0.0"/>
+      <code value="child-of"/>
+      <display value="Child Of"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/filter-operator"/>
+      <version value="5.0.0"/>
+      <code value="descendent-leaf"/>
+      <display value="Descendent Leaf"/>
+    </contains>
+  </expansion>
+</ValueSet>

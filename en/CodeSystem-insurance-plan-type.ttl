@@ -1,0 +1,154 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/insurance-plan-type> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "insurance-plan-type"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://terminology.hl7.org/CodeSystem/insurance-plan-type</code> defines many codes, of which the following are a subset:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">medical<a name=\"insurance-plan-type-medical\"> </a></td><td>Medical</td></tr><tr><td style=\"white-space:nowrap\">dental<a name=\"insurance-plan-type-dental\"> </a></td><td>Dental</td></tr><tr><td style=\"white-space:nowrap\">mental<a name=\"insurance-plan-type-mental\"> </a></td><td>Mental Health</td></tr><tr><td style=\"white-space:nowrap\">subst-ab<a name=\"insurance-plan-type-subst-ab\"> </a></td><td>Substance Abuse</td></tr><tr><td style=\"white-space:nowrap\">vision<a name=\"insurance-plan-type-vision\"> </a></td><td>Vision</td></tr><tr><td style=\"white-space:nowrap\">drug<a name=\"insurance-plan-type-drug\"> </a></td><td>Drug</td></tr><tr><td style=\"white-space:nowrap\">short-term<a name=\"insurance-plan-type-short-term\"> </a></td><td>Short Term</td></tr><tr><td style=\"white-space:nowrap\">long-term<a name=\"insurance-plan-type-long-term\"> </a></td><td>Long Term Care</td></tr><tr><td style=\"white-space:nowrap\">hospice<a name=\"insurance-plan-type-hospice\"> </a></td><td>Hospice</td></tr><tr><td style=\"white-space:nowrap\">home<a name=\"insurance-plan-type-home\"> </a></td><td>Home Health</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">Drug<a name=\"insurance-plan-type-Drug\"> </a></td><td>Drug</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "pa"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/insurance-plan-type"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/insurance-plan-type>
+  ] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "InsurancePlanType"] ; # 
+  fhir:title [ fhir:v "Insurance plan type"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2023-02-25T12:07:30-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Patient Administration"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Patient Administration" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/pafm" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This example value set defines a set of codes that can be used to indicate a type of insurance plan."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/insuranceplan-type|1.0.1"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/insuranceplan-type?version=1.0.1>
+  ] ; # 
+  fhir:content [ fhir:v "fragment"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "medical" ] ;
+     fhir:display [ fhir:v "Medical" ]
+  ] [
+     fhir:code [ fhir:v "dental" ] ;
+     fhir:display [ fhir:v "Dental" ]
+  ] [
+     fhir:code [ fhir:v "mental" ] ;
+     fhir:display [ fhir:v "Mental Health" ]
+  ] [
+     fhir:code [ fhir:v "subst-ab" ] ;
+     fhir:display [ fhir:v "Substance Abuse" ]
+  ] [
+     fhir:code [ fhir:v "vision" ] ;
+     fhir:display [ fhir:v "Vision" ]
+  ] [
+     fhir:code [ fhir:v "drug" ] ;
+     fhir:display [ fhir:v "Drug" ]
+  ] [
+     fhir:code [ fhir:v "short-term" ] ;
+     fhir:display [ fhir:v "Short Term" ]
+  ] [
+     fhir:code [ fhir:v "long-term" ] ;
+     fhir:display [ fhir:v "Long Term Care" ]
+  ] [
+     fhir:code [ fhir:v "hospice" ] ;
+     fhir:display [ fhir:v "Hospice" ]
+  ] [
+     fhir:code [ fhir:v "home" ] ;
+     fhir:display [ fhir:v "Home Health" ]
+  ] [
+     fhir:code [ fhir:v "Drug" ] ;
+     fhir:display [ fhir:v "Drug" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "retired"
+       ]
+     ] [
+       fhir:code [ fhir:v "inactive" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "true"
+       ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

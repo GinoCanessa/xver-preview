@@ -1,0 +1,132 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/servicerequest-orderdetail-parameter-code> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "servicerequest-orderdetail-parameter-code"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <p>This code system \n              <code>http://hl7.org/fhir/servicerequest-orderdetail-parameter-code</code> defines the following codes:\n            </p>\n            <table class=\"codes\">\n              <tr>\n                <td style=\"white-space:nowrap\">\n                  <b>Code</b>\n                </td>\n                <td>\n                  <b>Display</b>\n                </td>\n                <td>\n                  <b>Definition</b>\n                </td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">catheter-insertion\n                  <a name=\"servicerequest-orderdetail-parameter-code-catheter-insertion\"> </a>\n                </td>\n                <td>Catheter Insertion</td>\n                <td>Describes insertion instructions.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">body-elevation\n                  <a name=\"servicerequest-orderdetail-parameter-code-body-elevation\"> </a>\n                </td>\n                <td>Body Elevation</td>\n                <td>Describes elevation instructions.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">device-configuration\n                  <a name=\"servicerequest-orderdetail-parameter-code-device-configuration\"> </a>\n                </td>\n                <td>Device Configuration</td>\n                <td>Describes configuration details</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">device-settings\n                  <a name=\"servicerequest-orderdetail-parameter-code-device-settings\"> </a>\n                </td>\n                <td>Device Settings</td>\n                <td>Describes setting details.</td>\n              </tr>\n            </table>\n          </div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "oo"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/servicerequest-orderdetail-parameter-code"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/servicerequest-orderdetail-parameter-code>
+  ] ; # 
+  fhir:version [ fhir:v "5.0.0"] ; # 
+  fhir:name [ fhir:v "ServiceRequestOrderDetailParameterCode"] ; # 
+  fhir:title [ fhir:v "Service Request Order Detail Parameter Code"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2021-01-04T17:01:24-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Orders and Observations"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Orders and Observations" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/orders" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codes providing the parameter codes for service request details."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://hl7.org/fhir/ValueSet/servicerequest-orderdetail-parameter-code"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/servicerequest-orderdetail-parameter-code>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "catheter-insertion" ] ;
+     fhir:display [ fhir:v "Catheter Insertion" ] ;
+     fhir:definition [ fhir:v "Describes insertion instructions." ]
+  ] [
+     fhir:code [ fhir:v "body-elevation" ] ;
+     fhir:display [ fhir:v "Body Elevation" ] ;
+     fhir:definition [ fhir:v "Describes elevation instructions." ]
+  ] [
+     fhir:code [ fhir:v "device-configuration" ] ;
+     fhir:display [ fhir:v "Device Configuration" ] ;
+     fhir:definition [ fhir:v "Describes configuration details" ]
+  ] [
+     fhir:code [ fhir:v "device-settings" ] ;
+     fhir:display [ fhir:v "Device Settings" ] ;
+     fhir:definition [ fhir:v "Describes setting details." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

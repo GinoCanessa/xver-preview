@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v3-ActSite"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>Specializes</td><td/><td>Coding</td><td>The child code is a more narrow version of the concept represented by the parent code.  I.e. Every child concept is also a valid parent concept.  Used to allow determination of subsumption.  Must be transitive, irreflexive, antisymmetric.</td></tr><tr><td>Generalizes</td><td/><td>Coding</td><td>Inverse of Specializes.  Only included as a derived relationship.</td></tr><tr><td>internalId</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id</td><td>code</td><td>The internal identifier for the concept in the HL7 Access database repository.</td></tr><tr><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>Designation of a concept's state.  Normally is not populated unless the state is retired..</td></tr><tr><td>notSelectable</td><td>http://hl7.org/fhir/concept-properties#notSelectable</td><td>boolean</td><td>Indicates that the code is abstract - only intended to be used as a selector for other concepts</td></tr></table><p><b>Concepts</b></p><p>This code system <code>http://terminology.hl7.org/CodeSystem/v3-ActSite</code> defines the following codes:</p><table class="codes"><tr><td><b>Lvl</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>internalId</b></td><td><b>status</b></td><td><b>Not Selectable</b></td></tr><tr><td>1</td><td style="white-space:nowrap">_HumanActSite<a name="v3-ActSite-_HumanActSite"> </a></td><td>HumanActSite</td><td>An anatomical location on a human which can be the focus of an act.</td><td>20948</td><td>active</td><td>true</td></tr><tr><td>2</td><td style="white-space:nowrap">  _HumanSubstanceAdministrationSite<a name="v3-ActSite-_HumanSubstanceAdministrationSite"> </a></td><td>HumanSubstanceAdministrationSite</td><td>The set of body locations to or through which a drug product may be administered.</td><td>21534</td><td>active</td><td>true</td></tr><tr><td>3</td><td style="white-space:nowrap">    BE<a name="v3-ActSite-BE"> </a></td><td>bilateral ears</td><td/><td>21759</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    BN<a name="v3-ActSite-BN"> </a></td><td>bilateral nares</td><td/><td>21760</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    BU<a name="v3-ActSite-BU"> </a></td><td>buttock</td><td/><td>21761</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    LA<a name="v3-ActSite-LA"> </a></td><td>left arm</td><td/><td>21762</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    LAC<a name="v3-ActSite-LAC"> </a></td><td>left anterior chest</td><td/><td>21763</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    LACF<a name="v3-ActSite-LACF"> </a></td><td>left antecubital fossa</td><td/><td>21764</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    LD<a name="v3-ActSite-LD"> </a></td><td>left deltoid</td><td/><td>21765</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    LE<a name="v3-ActSite-LE"> </a></td><td>left ear</td><td/><td>21766</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    LEJ<a name="v3-ActSite-LEJ"> </a></td><td>left external jugular</td><td/><td>21767</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    LF<a name="v3-ActSite-LF"> </a></td><td>left foot</td><td/><td>21768</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    LG<a name="v3-ActSite-LG"> </a></td><td>left gluteus medius</td><td/><td>21769</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    LH<a name="v3-ActSite-LH"> </a></td><td>left hand</td><td/><td>21770</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    LIJ<a name="v3-ActSite-LIJ"> </a></td><td>left internal jugular</td><td/><td>21771</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    LLAQ<a name="v3-ActSite-LLAQ"> </a></td><td>left lower abd quadrant</td><td/><td>21772</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    LLFA<a name="v3-ActSite-LLFA"> </a></td><td>left lower forearm</td><td/><td>21773</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    LMFA<a name="v3-ActSite-LMFA"> </a></td><td>left mid forearm</td><td/><td>21774</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    LN<a name="v3-ActSite-LN"> </a></td><td>left naris</td><td/><td>21775</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    LPC<a name="v3-ActSite-LPC"> </a></td><td>left posterior chest</td><td/><td>21776</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    LSC<a name="v3-ActSite-LSC"> </a></td><td>left subclavian</td><td/><td>21777</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    LT<a name="v3-ActSite-LT"> </a></td><td>left thigh</td><td/><td>21778</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    LUA<a name="v3-ActSite-LUA"> </a></td><td>left upper arm</td><td/><td>21779</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    LUAQ<a name="v3-ActSite-LUAQ"> </a></td><td>left upper abd quadrant</td><td/><td>21780</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    LUFA<a name="v3-ActSite-LUFA"> </a></td><td>left upper forearm</td><td/><td>21781</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    LVG<a name="v3-ActSite-LVG"> </a></td><td>left ventragluteal</td><td/><td>21782</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    LVL<a name="v3-ActSite-LVL"> </a></td><td>left vastus lateralis</td><td/><td>21783</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    OD<a name="v3-ActSite-OD"> </a></td><td>right eye</td><td/><td>21784</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    OS<a name="v3-ActSite-OS"> </a></td><td>left eye</td><td/><td>21785</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    OU<a name="v3-ActSite-OU"> </a></td><td>bilateral eyes</td><td/><td>21786</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    PA<a name="v3-ActSite-PA"> </a></td><td>perianal</td><td/><td>21787</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    PERIN<a name="v3-ActSite-PERIN"> </a></td><td>perineal</td><td/><td>21788</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    RA<a name="v3-ActSite-RA"> </a></td><td>right arm</td><td/><td>21789</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    RAC<a name="v3-ActSite-RAC"> </a></td><td>right anterior chest</td><td/><td>21790</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    RACF<a name="v3-ActSite-RACF"> </a></td><td>right antecubital fossa</td><td/><td>21791</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    RD<a name="v3-ActSite-RD"> </a></td><td>right deltoid</td><td/><td>21792</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    RE<a name="v3-ActSite-RE"> </a></td><td>right ear</td><td/><td>21793</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    REJ<a name="v3-ActSite-REJ"> </a></td><td>right external jugular</td><td/><td>21794</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    RF<a name="v3-ActSite-RF"> </a></td><td>right foot</td><td/><td>21795</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    RG<a name="v3-ActSite-RG"> </a></td><td>right gluteus medius</td><td/><td>21796</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    RH<a name="v3-ActSite-RH"> </a></td><td>right hand</td><td/><td>21797</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    RIJ<a name="v3-ActSite-RIJ"> </a></td><td>right internal jugular</td><td/><td>21798</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    RLAQ<a name="v3-ActSite-RLAQ"> </a></td><td>right lower abd quadrant</td><td/><td>21799</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    RLFA<a name="v3-ActSite-RLFA"> </a></td><td>right lower forearm</td><td/><td>21800</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    RMFA<a name="v3-ActSite-RMFA"> </a></td><td>right mid forearm</td><td/><td>21801</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    RN<a name="v3-ActSite-RN"> </a></td><td>right naris</td><td/><td>23250</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    RPC<a name="v3-ActSite-RPC"> </a></td><td>right posterior chest</td><td/><td>21802</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    RSC<a name="v3-ActSite-RSC"> </a></td><td>right subclavian</td><td/><td>21803</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    RT<a name="v3-ActSite-RT"> </a></td><td>right thigh</td><td/><td>21804</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    RUA<a name="v3-ActSite-RUA"> </a></td><td>right upper arm</td><td/><td>21805</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    RUAQ<a name="v3-ActSite-RUAQ"> </a></td><td>right upper abd quadrant</td><td/><td>21806</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    RUFA<a name="v3-ActSite-RUFA"> </a></td><td>right upper forearm</td><td/><td>21807</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    RVG<a name="v3-ActSite-RVG"> </a></td><td>right ventragluteal</td><td/><td>21808</td><td>active</td><td/></tr><tr><td>3</td><td style="white-space:nowrap">    RVL<a name="v3-ActSite-RVL"> </a></td><td>right vastus lateralis</td><td/><td>21809</td><td>active</td><td/></tr><tr style="background-color: #ffeeee"><td>2</td><td style="white-space:nowrap">  _InjuryActSite<a name="v3-ActSite-_InjuryActSite"> </a></td><td>InjuryActSite</td><td>An anatomical location on a human of an injury or disease which is the focus of an act.</td><td>20949</td><td>retired</td><td>true</td></tr><tr style="background-color: #ffeeee"><td>1</td><td style="white-space:nowrap">_AnimalActSite<a name="v3-ActSite-_AnimalActSite"> </a></td><td>AnimalActSite</td><td>An anatomical location on a non-human animal which can be the focus of an act.</td><td>20947</td><td>retired</td><td>true</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/v3-ActSite"/>
+  <version value="2.1.0"/>
+  <name value="ActSite"/>
+  <title value="ActSite"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2019-03-19T19:00:00-05:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="An anatomical location on an organism which can be the focus of an act."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <hierarchyMeaning value="is-a"/>
+  <content value="complete"/>
+  <property>
+    <code value="Specializes"/>
+    <description value="The child code is a more narrow version of the concept represented by the parent code.  I.e. Every child concept is also a valid parent concept.  Used to allow determination of subsumption.  Must be transitive, irreflexive, antisymmetric."/>
+    <type value="Coding"/>
+  </property>
+  <property>
+    <code value="Generalizes"/>
+    <description value="Inverse of Specializes.  Only included as a derived relationship."/>
+    <type value="Coding"/>
+  </property>
+  <property>
+    <code value="internalId"/>
+    <uri value="http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id"/>
+    <description value="The internal identifier for the concept in the HL7 Access database repository."/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="status"/>
+    <uri value="http://hl7.org/fhir/concept-properties#status"/>
+    <description value="Designation of a concept's state.  Normally is not populated unless the state is retired.."/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="notSelectable"/>
+    <uri value="http://hl7.org/fhir/concept-properties#notSelectable"/>
+    <description value="Indicates that the code is abstract - only intended to be used as a selector for other concepts"/>
+    <type value="boolean"/>
+  </property>
+  <concept>
+    <code value="_HumanActSite"/>
+    <display value="HumanActSite"/>
+    <definition value="An anatomical location on a human which can be the focus of an act."/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="20948"/>
+    </property>
+    <concept>
+      <code value="_HumanSubstanceAdministrationSite"/>
+      <display value="HumanSubstanceAdministrationSite"/>
+      <definition value="The set of body locations to or through which a drug product may be administered."/>
+      <property>
+        <code value="notSelectable"/>
+        <valueBoolean value="true"/>
+      </property>
+      <property>
+        <code value="status"/>
+        <valueCode value="active"/>
+      </property>
+      <property>
+        <code value="internalId"/>
+        <valueCode value="21534"/>
+      </property>
+      <concept>
+        <code value="BE"/>
+        <display value="bilateral ears"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21759"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="BN"/>
+        <display value="bilateral nares"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21760"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="BU"/>
+        <display value="buttock"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21761"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="LA"/>
+        <display value="left arm"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21762"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="LAC"/>
+        <display value="left anterior chest"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21763"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="LACF"/>
+        <display value="left antecubital fossa"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21764"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="LD"/>
+        <display value="left deltoid"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21765"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="LE"/>
+        <display value="left ear"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21766"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="LEJ"/>
+        <display value="left external jugular"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21767"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="LF"/>
+        <display value="left foot"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21768"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="LG"/>
+        <display value="left gluteus medius"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21769"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="LH"/>
+        <display value="left hand"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21770"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="LIJ"/>
+        <display value="left internal jugular"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21771"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="LLAQ"/>
+        <display value="left lower abd quadrant"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21772"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="LLFA"/>
+        <display value="left lower forearm"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21773"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="LMFA"/>
+        <display value="left mid forearm"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21774"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="LN"/>
+        <display value="left naris"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21775"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="LPC"/>
+        <display value="left posterior chest"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21776"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="LSC"/>
+        <display value="left subclavian"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21777"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="LT"/>
+        <display value="left thigh"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21778"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="LUA"/>
+        <display value="left upper arm"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21779"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="LUAQ"/>
+        <display value="left upper abd quadrant"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21780"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="LUFA"/>
+        <display value="left upper forearm"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21781"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="LVG"/>
+        <display value="left ventragluteal"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21782"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="LVL"/>
+        <display value="left vastus lateralis"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21783"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="OD"/>
+        <display value="right eye"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21784"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="OS"/>
+        <display value="left eye"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21785"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="OU"/>
+        <display value="bilateral eyes"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21786"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="PA"/>
+        <display value="perianal"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21787"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="PERIN"/>
+        <display value="perineal"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21788"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="RA"/>
+        <display value="right arm"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21789"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="RAC"/>
+        <display value="right anterior chest"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21790"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="RACF"/>
+        <display value="right antecubital fossa"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21791"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="RD"/>
+        <display value="right deltoid"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21792"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="RE"/>
+        <display value="right ear"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21793"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="REJ"/>
+        <display value="right external jugular"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21794"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="RF"/>
+        <display value="right foot"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21795"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="RG"/>
+        <display value="right gluteus medius"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21796"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="RH"/>
+        <display value="right hand"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21797"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="RIJ"/>
+        <display value="right internal jugular"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21798"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="RLAQ"/>
+        <display value="right lower abd quadrant"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21799"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="RLFA"/>
+        <display value="right lower forearm"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21800"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="RMFA"/>
+        <display value="right mid forearm"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21801"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="RN"/>
+        <display value="right naris"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="23250"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="RPC"/>
+        <display value="right posterior chest"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21802"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="RSC"/>
+        <display value="right subclavian"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21803"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="RT"/>
+        <display value="right thigh"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21804"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="RUA"/>
+        <display value="right upper arm"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21805"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="RUAQ"/>
+        <display value="right upper abd quadrant"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21806"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="RUFA"/>
+        <display value="right upper forearm"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21807"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="RVG"/>
+        <display value="right ventragluteal"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21808"/>
+        </property>
+      </concept>
+      <concept>
+        <code value="RVL"/>
+        <display value="right vastus lateralis"/>
+        <property>
+          <code value="status"/>
+          <valueCode value="active"/>
+        </property>
+        <property>
+          <code value="internalId"/>
+          <valueCode value="21809"/>
+        </property>
+      </concept>
+    </concept>
+    <concept>
+      <code value="_InjuryActSite"/>
+      <display value="InjuryActSite"/>
+      <definition value="An anatomical location on a human of an injury or disease which is the focus of an act."/>
+      <property>
+        <code value="notSelectable"/>
+        <valueBoolean value="true"/>
+      </property>
+      <property>
+        <code value="status"/>
+        <valueCode value="retired"/>
+      </property>
+      <property>
+        <code value="internalId"/>
+        <valueCode value="20949"/>
+      </property>
+    </concept>
+  </concept>
+  <concept>
+    <code value="_AnimalActSite"/>
+    <display value="AnimalActSite"/>
+    <definition value="An anatomical location on a non-human animal which can be the focus of an act."/>
+    <property>
+      <code value="notSelectable"/>
+      <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+    <property>
+      <code value="internalId"/>
+      <valueCode value="20947"/>
+    </property>
+  </concept>
+</CodeSystem>

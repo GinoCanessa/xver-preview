@@ -1,0 +1,127 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/synthesis-type> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "synthesis-type"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://terminology.hl7.org/CodeSystem/synthesis-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">std-MA<a name=\"synthesis-type-std-MA\"> </a></td><td>summary data meta-analysis</td><td>A meta-analysis of the summary data of estimates from individual studies or data sets.</td></tr><tr><td style=\"white-space:nowrap\">IPD-MA<a name=\"synthesis-type-IPD-MA\"> </a></td><td>individual patient data meta-analysis</td><td>A meta-analysis of the individual participant data from individual studies or data sets.</td></tr><tr><td style=\"white-space:nowrap\">indirect-NMA<a name=\"synthesis-type-indirect-NMA\"> </a></td><td>indirect network meta-analysis</td><td>An indirect meta-analysis derived from 2 or more direct comparisons in a network meta-analysis.</td></tr><tr><td style=\"white-space:nowrap\">combined-NMA<a name=\"synthesis-type-combined-NMA\"> </a></td><td>combined direct plus indirect network meta-analysis</td><td>An composite meta-analysis derived from direct comparisons and indirect comparisons in a network meta-analysis.</td></tr><tr><td style=\"white-space:nowrap\">range<a name=\"synthesis-type-range\"> </a></td><td>range of results</td><td>A range of results across a body of evidence.</td></tr><tr><td style=\"white-space:nowrap\">classification<a name=\"synthesis-type-classification\"> </a></td><td>classifcation of results</td><td>An approach describing a body of evidence by categorically classifying individual studies (eg 3 studies showed beneft and 2 studied found no effect).</td></tr><tr><td style=\"white-space:nowrap\">pooled<a name=\"synthesis-type-pooled\"> </a></td><td>pooled rates</td><td>An unweighted average.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/synthesis-type"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/synthesis-type>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "StatisticSynthesisType"] ; # 
+  fhir:title [ fhir:v "StatisticSynthesisType"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2020-04-09T16:10:28-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Types of combining results from a body of evidence (eg. summary data meta-analysis)."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/synthesis-type|1.0.0"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/synthesis-type?version=1.0.0>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "std-MA" ] ;
+     fhir:display [ fhir:v "summary data meta-analysis" ] ;
+     fhir:definition [ fhir:v "A meta-analysis of the summary data of estimates from individual studies or data sets." ]
+  ] [
+     fhir:code [ fhir:v "IPD-MA" ] ;
+     fhir:display [ fhir:v "individual patient data meta-analysis" ] ;
+     fhir:definition [ fhir:v "A meta-analysis of the individual participant data from individual studies or data sets." ]
+  ] [
+     fhir:code [ fhir:v "indirect-NMA" ] ;
+     fhir:display [ fhir:v "indirect network meta-analysis" ] ;
+     fhir:definition [ fhir:v "An indirect meta-analysis derived from 2 or more direct comparisons in a network meta-analysis." ]
+  ] [
+     fhir:code [ fhir:v "combined-NMA" ] ;
+     fhir:display [ fhir:v "combined direct plus indirect network meta-analysis" ] ;
+     fhir:definition [ fhir:v "An composite meta-analysis derived from direct comparisons and indirect comparisons in a network meta-analysis." ]
+  ] [
+     fhir:code [ fhir:v "range" ] ;
+     fhir:display [ fhir:v "range of results" ] ;
+     fhir:definition [ fhir:v "A range of results across a body of evidence." ]
+  ] [
+     fhir:code [ fhir:v "classification" ] ;
+     fhir:display [ fhir:v "classifcation of results" ] ;
+     fhir:definition [ fhir:v "An approach describing a body of evidence by categorically classifying individual studies (eg 3 studies showed beneft and 2 studied found no effect)." ]
+  ] [
+     fhir:code [ fhir:v "pooled" ] ;
+     fhir:display [ fhir:v "pooled rates" ] ;
+     fhir:definition [ fhir:v "An unweighted average." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

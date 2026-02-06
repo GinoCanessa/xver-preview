@@ -1,0 +1,325 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-EpisodeOfCare-elements-for-R4-EpisodeOfCare> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-EpisodeOfCare-elements-for-R4-EpisodeOfCare"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-EpisodeOfCare-elements-for-R4-EpisodeOfCare</b></p><a name=\"ConceptMap-R5-EpisodeOfCare-elements-for-R4-EpisodeOfCare\"> </a><a name=\"hcConceptMap-R5-EpisodeOfCare-elements-for-R4-EpisodeOfCare\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/EpisodeOfCare|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/EpisodeOfCare|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">EpisodeOfCare</td><td style=\"border-left-width: 0px\">EpisodeOfCare</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `EpisodeOfCare` is representable via FHIR R4B Resource `EpisodeOfCare`.\nElement `EpisodeOfCare` is mapped to FHIR R4B element `EpisodeOfCare`.</td></tr><tr><td style=\"border-right-width: 0px\">EpisodeOfCare.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.meta</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.meta` is mapped to FHIR R4B element `EpisodeOfCare.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">EpisodeOfCare.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.implicitRules` is mapped to FHIR R4B element `EpisodeOfCare.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">EpisodeOfCare.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.language</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.language` is mapped to FHIR R4B element `EpisodeOfCare.language`.</td></tr><tr><td style=\"border-right-width: 0px\">EpisodeOfCare.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.text</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.text` is mapped to FHIR R4B element `EpisodeOfCare.text`.</td></tr><tr><td style=\"border-right-width: 0px\">EpisodeOfCare.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.contained</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.contained` is mapped to FHIR R4B element `EpisodeOfCare.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">EpisodeOfCare.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.identifier` is mapped to FHIR R4B element `EpisodeOfCare.identifier`.</td></tr><tr><td style=\"border-right-width: 0px\">EpisodeOfCare.status</td><td style=\"border-left-width: 0px\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.status</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.status` is mapped to FHIR R4B element `EpisodeOfCare.status`.</td></tr><tr><td style=\"border-right-width: 0px\">EpisodeOfCare.statusHistory</td><td style=\"border-left-width: 0px\">statusHistory</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.statusHistory</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.statusHistory` is mapped to FHIR R4B element `EpisodeOfCare.statusHistory`.</td></tr><tr><td style=\"border-right-width: 0px\">EpisodeOfCare.statusHistory.status</td><td style=\"border-left-width: 0px\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.statusHistory.status</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.statusHistory.status` is mapped to FHIR R4B element `EpisodeOfCare.statusHistory.status`.</td></tr><tr><td style=\"border-right-width: 0px\">EpisodeOfCare.statusHistory.period</td><td style=\"border-left-width: 0px\">period</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.statusHistory.period</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.statusHistory.period` is mapped to FHIR R4B element `EpisodeOfCare.statusHistory.period`.</td></tr><tr><td style=\"border-right-width: 0px\">EpisodeOfCare.type</td><td style=\"border-left-width: 0px\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.type</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.type` is mapped to FHIR R4B element `EpisodeOfCare.type`.</td></tr><tr><td style=\"border-right-width: 0px\">EpisodeOfCare.reason</td><td style=\"border-left-width: 0px\">reason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.reason</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.reason` is mapped to FHIR R4B structure `EpisodeOfCare`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">EpisodeOfCare.reason.use</td><td style=\"border-left-width: 0px\">use</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.reason:use</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.reason.use` is part of an existing definition because parent element `EpisodeOfCare.reason` requires a cross-version extension.\nElement `EpisodeOfCare.reason.use` is mapped to FHIR R4B structure `EpisodeOfCare`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">EpisodeOfCare.reason.value</td><td style=\"border-left-width: 0px\">value</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.reason:value</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.reason.value` is part of an existing definition because parent element `EpisodeOfCare.reason` requires a cross-version extension.\nElement `EpisodeOfCare.reason.value` is mapped to FHIR R4B structure `EpisodeOfCare`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EpisodeOfCare.diagnosis</td><td style=\"border-left-width: 0px; border-bottom-style: none\">diagnosis</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.diagnosis</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.diagnosis` is mapped to FHIR R4B element `EpisodeOfCare.diagnosis`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.diagnosis</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.diagnosis` is mapped to FHIR DSTU2 structure `EpisodeOfCare`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EpisodeOfCare.diagnosis.condition</td><td style=\"border-left-width: 0px; border-bottom-style: none\">condition</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.diagnosis.condition</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.diagnosis.condition` is mapped to FHIR R4B element `EpisodeOfCare.diagnosis.condition`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.condition</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.diagnosis.condition` is part of an existing definition because parent element `EpisodeOfCare.diagnosis` requires a cross-version extension.\nElement `EpisodeOfCare.diagnosis.condition` is mapped to FHIR DSTU2 element `EpisodeOfCare.condition`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EpisodeOfCare.diagnosis.use</td><td style=\"border-left-width: 0px; border-bottom-style: none\">use</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.diagnosis.role</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.diagnosis.use` is mapped to FHIR R4B element `EpisodeOfCare.diagnosis.role`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.diagnosis:use</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.diagnosis.use` is part of an existing definition because parent element `EpisodeOfCare.diagnosis` requires a cross-version extension.\nElement `EpisodeOfCare.diagnosis.use` is mapped to FHIR DSTU2 structure `EpisodeOfCare`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">EpisodeOfCare.patient</td><td style=\"border-left-width: 0px\">patient</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.patient</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.patient` is mapped to FHIR R4B element `EpisodeOfCare.patient`.</td></tr><tr><td style=\"border-right-width: 0px\">EpisodeOfCare.managingOrganization</td><td style=\"border-left-width: 0px\">managingOrganization</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.managingOrganization</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.managingOrganization` is mapped to FHIR R4B element `EpisodeOfCare.managingOrganization`.</td></tr><tr><td style=\"border-right-width: 0px\">EpisodeOfCare.period</td><td style=\"border-left-width: 0px\">period</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.period</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.period` is mapped to FHIR R4B element `EpisodeOfCare.period`.</td></tr><tr><td style=\"border-right-width: 0px\">EpisodeOfCare.referralRequest</td><td style=\"border-left-width: 0px\">referralRequest</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.referralRequest</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.referralRequest` is mapped to FHIR R4B element `EpisodeOfCare.referralRequest`.</td></tr><tr><td style=\"border-right-width: 0px\">EpisodeOfCare.careManager</td><td style=\"border-left-width: 0px\">careManager</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.careManager</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.careManager` is mapped to FHIR R4B element `EpisodeOfCare.careManager`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EpisodeOfCare.careTeam</td><td style=\"border-left-width: 0px; border-bottom-style: none\">careTeam</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.team</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.careTeam` is mapped to FHIR R4B element `EpisodeOfCare.team`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.careTeam</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.careTeam` is mapped to FHIR DSTU2 element `EpisodeOfCare.careTeam`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EpisodeOfCare.account</td><td style=\"border-left-width: 0px; border-bottom-style: none\">account</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.account</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.account` is mapped to FHIR R4B element `EpisodeOfCare.account`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.account</td><td style=\"border-left-width: 0px\"/><td>Element `EpisodeOfCare.account` is mapped to FHIR DSTU2 structure `EpisodeOfCare`, but has no target element specified.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-EpisodeOfCare-elements-for-R4-EpisodeOfCare"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-EpisodeOfCare-elements-for-R4-EpisodeOfCare>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5EpisodeOfCareElementsForR4EpisodeOfCare"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:32.4534332-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/EpisodeOfCare>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "EpisodeOfCare" ] ;
+       fhir:display [ fhir:v "EpisodeOfCare" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `EpisodeOfCare` is representable via FHIR R4B Resource `EpisodeOfCare`.\nElement `EpisodeOfCare` is mapped to FHIR R4B element `EpisodeOfCare`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EpisodeOfCare.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.meta` is mapped to FHIR R4B element `EpisodeOfCare.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EpisodeOfCare.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.implicitRules` is mapped to FHIR R4B element `EpisodeOfCare.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EpisodeOfCare.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.language` is mapped to FHIR R4B element `EpisodeOfCare.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EpisodeOfCare.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.text` is mapped to FHIR R4B element `EpisodeOfCare.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EpisodeOfCare.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.contained` is mapped to FHIR R4B element `EpisodeOfCare.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EpisodeOfCare.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.identifier` is mapped to FHIR R4B element `EpisodeOfCare.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EpisodeOfCare.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.status` is mapped to FHIR R4B element `EpisodeOfCare.status`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EpisodeOfCare.statusHistory" ] ;
+       fhir:display [ fhir:v "statusHistory" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.statusHistory" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.statusHistory` is mapped to FHIR R4B element `EpisodeOfCare.statusHistory`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EpisodeOfCare.statusHistory.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.statusHistory.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.statusHistory.status` is mapped to FHIR R4B element `EpisodeOfCare.statusHistory.status`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EpisodeOfCare.statusHistory.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.statusHistory.period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.statusHistory.period` is mapped to FHIR R4B element `EpisodeOfCare.statusHistory.period`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EpisodeOfCare.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.type` is mapped to FHIR R4B element `EpisodeOfCare.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EpisodeOfCare.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.reason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.reason` is mapped to FHIR R4B structure `EpisodeOfCare`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EpisodeOfCare.reason.use" ] ;
+       fhir:display [ fhir:v "use" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.reason:use" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.reason.use` is part of an existing definition because parent element `EpisodeOfCare.reason` requires a cross-version extension.\nElement `EpisodeOfCare.reason.use` is mapped to FHIR R4B structure `EpisodeOfCare`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EpisodeOfCare.reason.value" ] ;
+       fhir:display [ fhir:v "value" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.reason:value" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.reason.value` is part of an existing definition because parent element `EpisodeOfCare.reason` requires a cross-version extension.\nElement `EpisodeOfCare.reason.value` is mapped to FHIR R4B structure `EpisodeOfCare`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EpisodeOfCare.diagnosis" ] ;
+       fhir:display [ fhir:v "diagnosis" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.diagnosis" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.diagnosis` is mapped to FHIR R4B element `EpisodeOfCare.diagnosis`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.diagnosis" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.diagnosis` is mapped to FHIR DSTU2 structure `EpisodeOfCare`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EpisodeOfCare.diagnosis.condition" ] ;
+       fhir:display [ fhir:v "condition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.diagnosis.condition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.diagnosis.condition` is mapped to FHIR R4B element `EpisodeOfCare.diagnosis.condition`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.condition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.diagnosis.condition` is part of an existing definition because parent element `EpisodeOfCare.diagnosis` requires a cross-version extension.\nElement `EpisodeOfCare.diagnosis.condition` is mapped to FHIR DSTU2 element `EpisodeOfCare.condition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EpisodeOfCare.diagnosis.use" ] ;
+       fhir:display [ fhir:v "use" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.diagnosis.role" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.diagnosis.use` is mapped to FHIR R4B element `EpisodeOfCare.diagnosis.role`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.diagnosis:use" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.diagnosis.use` is part of an existing definition because parent element `EpisodeOfCare.diagnosis` requires a cross-version extension.\nElement `EpisodeOfCare.diagnosis.use` is mapped to FHIR DSTU2 structure `EpisodeOfCare`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EpisodeOfCare.patient" ] ;
+       fhir:display [ fhir:v "patient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.patient" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.patient` is mapped to FHIR R4B element `EpisodeOfCare.patient`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EpisodeOfCare.managingOrganization" ] ;
+       fhir:display [ fhir:v "managingOrganization" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.managingOrganization" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.managingOrganization` is mapped to FHIR R4B element `EpisodeOfCare.managingOrganization`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EpisodeOfCare.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.period` is mapped to FHIR R4B element `EpisodeOfCare.period`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EpisodeOfCare.referralRequest" ] ;
+       fhir:display [ fhir:v "referralRequest" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.referralRequest" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.referralRequest` is mapped to FHIR R4B element `EpisodeOfCare.referralRequest`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EpisodeOfCare.careManager" ] ;
+       fhir:display [ fhir:v "careManager" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.careManager" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.careManager` is mapped to FHIR R4B element `EpisodeOfCare.careManager`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EpisodeOfCare.careTeam" ] ;
+       fhir:display [ fhir:v "careTeam" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.team" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.careTeam` is mapped to FHIR R4B element `EpisodeOfCare.team`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.careTeam" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.careTeam` is mapped to FHIR DSTU2 element `EpisodeOfCare.careTeam`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EpisodeOfCare.account" ] ;
+       fhir:display [ fhir:v "account" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare#EpisodeOfCare.account" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.account` is mapped to FHIR R4B element `EpisodeOfCare.account`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.account" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EpisodeOfCare.account` is mapped to FHIR DSTU2 structure `EpisodeOfCare`, but has no target element specified." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

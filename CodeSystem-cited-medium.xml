@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cited-medium"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/cited-medium</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">internet
+                  <a name="cited-medium-internet"> </a>
+                </td>
+                <td>Internet</td>
+                <td>Online publication in a periodic release. Used to match NLM JournalIssue CitedMedium code for online version.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">print
+                  <a name="cited-medium-print"> </a>
+                </td>
+                <td>Print</td>
+                <td>Print publication in a periodic release. Used to match NLM JournalIssue CitedMedium code for print version.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">offline-digital-storage
+                  <a name="cited-medium-offline-digital-storage"> </a>
+                </td>
+                <td>Offline Digital Storage</td>
+                <td>Publication in a physical device for electronic data storage, organized in issues for periodic release.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">internet-without-issue
+                  <a name="cited-medium-internet-without-issue"> </a>
+                </td>
+                <td>Internet without issue</td>
+                <td>Online publication without any periodic release. Used for article specific publication date which could be the same as or different from journal issue publication date.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">print-without-issue
+                  <a name="cited-medium-print-without-issue"> </a>
+                </td>
+                <td>Print without issue</td>
+                <td>Print publication without any periodic release.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">offline-digital-storage-without-issue
+                  <a name="cited-medium-offline-digital-storage-without-issue"> </a>
+                </td>
+                <td>Offline Digital Storage without issue</td>
+                <td>Publication in a physical device for electronic data storage, without any periodic release.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="cds"/>
+  </extension>
+  <url value="http://hl7.org/fhir/cited-medium"/>
+  <version value="5.0.0"/>
+  <name value="CitedMedium"/>
+  <title value="Cited Medium"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2020-12-27T23:55:11-06:00"/>
+  <publisher value="Clinical Decision Support"/>
+  <contact>
+    <name value="Clinical Decision Support"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/dss"/>
+    </telecom>
+  </contact>
+  <description value="NLM codes Internet or Print."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/cited-medium"/>
+  <content value="complete"/>
+  <concept>
+    <code value="internet"/>
+    <display value="Internet"/>
+    <definition value="Online publication in a periodic release. Used to match NLM JournalIssue CitedMedium code for online version."/>
+  </concept>
+  <concept>
+    <code value="print"/>
+    <display value="Print"/>
+    <definition value="Print publication in a periodic release. Used to match NLM JournalIssue CitedMedium code for print version."/>
+  </concept>
+  <concept>
+    <code value="offline-digital-storage"/>
+    <display value="Offline Digital Storage"/>
+    <definition value="Publication in a physical device for electronic data storage, organized in issues for periodic release."/>
+  </concept>
+  <concept>
+    <code value="internet-without-issue"/>
+    <display value="Internet without issue"/>
+    <definition value="Online publication without any periodic release. Used for article specific publication date which could be the same as or different from journal issue publication date."/>
+  </concept>
+  <concept>
+    <code value="print-without-issue"/>
+    <display value="Print without issue"/>
+    <definition value="Print publication without any periodic release."/>
+  </concept>
+  <concept>
+    <code value="offline-digital-storage-without-issue"/>
+    <display value="Offline Digital Storage without issue"/>
+    <definition value="Publication in a physical device for electronic data storage, without any periodic release."/>
+  </concept>
+</CodeSystem>

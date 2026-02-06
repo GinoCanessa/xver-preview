@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="verificationresult-status"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/CodeSystem/verificationresult-status</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">attested
+                  <a name="verificationresult-status-attested"> </a>
+                </td>
+                <td>Attested</td>
+                <td>***TODO***</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">validated
+                  <a name="verificationresult-status-validated"> </a>
+                </td>
+                <td>Validated</td>
+                <td>***TODO***</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">in-process
+                  <a name="verificationresult-status-in-process"> </a>
+                </td>
+                <td>In process</td>
+                <td>***TODO***</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">req-revalid
+                  <a name="verificationresult-status-req-revalid"> </a>
+                </td>
+                <td>Requires revalidation</td>
+                <td>***TODO***</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">val-fail
+                  <a name="verificationresult-status-val-fail"> </a>
+                </td>
+                <td>Validation failed</td>
+                <td>***TODO***</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">reval-fail
+                  <a name="verificationresult-status-reval-fail"> </a>
+                </td>
+                <td>Re-Validation failed</td>
+                <td>***TODO***</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">entered-in-error
+                  <a name="verificationresult-status-entered-in-error"> </a>
+                </td>
+                <td>Entered in Error</td>
+                <td>The VerificationResult record was created erroneously and is not appropriated for use.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pa"/>
+  </extension>
+  <url value="http://hl7.org/fhir/CodeSystem/verificationresult-status"/>
+  <version value="5.0.0"/>
+  <name value="Status"/>
+  <title value="status"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2018-06-05T09:06:02-05:00"/>
+  <publisher value="Patient Administration"/>
+  <contact>
+    <name value="Patient Administration"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pafm"/>
+    </telecom>
+  </contact>
+  <description value="The validation status of the target"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/status"/>
+  <content value="complete"/>
+  <concept>
+    <code value="attested"/>
+    <display value="Attested"/>
+    <definition value="***TODO***"/>
+  </concept>
+  <concept>
+    <code value="validated"/>
+    <display value="Validated"/>
+    <definition value="***TODO***"/>
+  </concept>
+  <concept>
+    <code value="in-process"/>
+    <display value="In process"/>
+    <definition value="***TODO***"/>
+  </concept>
+  <concept>
+    <code value="req-revalid"/>
+    <display value="Requires revalidation"/>
+    <definition value="***TODO***"/>
+  </concept>
+  <concept>
+    <code value="val-fail"/>
+    <display value="Validation failed"/>
+    <definition value="***TODO***"/>
+  </concept>
+  <concept>
+    <code value="reval-fail"/>
+    <display value="Re-Validation failed"/>
+    <definition value="***TODO***"/>
+  </concept>
+  <concept>
+    <code value="entered-in-error"/>
+    <display value="Entered in Error"/>
+    <definition value="The VerificationResult record was created erroneously and is not appropriated for use."/>
+  </concept>
+</CodeSystem>

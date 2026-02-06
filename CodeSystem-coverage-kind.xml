@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="coverage-kind"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/coverage-kind</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">insurance
+                  <a name="coverage-kind-insurance"> </a>
+                </td>
+                <td>Insurance</td>
+                <td>The Coverage provides the identifiers and card-level details of an insurance policy.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">self-pay
+                  <a name="coverage-kind-self-pay"> </a>
+                </td>
+                <td>Self-pay</td>
+                <td>One or more persons and/or organizations are paying for the services rendered.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">other
+                  <a name="coverage-kind-other"> </a>
+                </td>
+                <td>Other</td>
+                <td>Some other organization is paying for the service.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fm"/>
+  </extension>
+  <url value="http://hl7.org/fhir/coverage-kind"/>
+  <version value="5.0.0"/>
+  <name value="Kind"/>
+  <title value="Kind"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Financial Management"/>
+  <contact>
+    <name value="Financial Management"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fm"/>
+    </telecom>
+  </contact>
+  <description value="The nature of the Coverage details which convey who is paying potentially for health services."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/coverage-kind"/>
+  <content value="complete"/>
+  <concept>
+    <code value="insurance"/>
+    <display value="Insurance"/>
+    <definition value="The Coverage provides the identifiers and card-level details of an insurance policy."/>
+  </concept>
+  <concept>
+    <code value="self-pay"/>
+    <display value="Self-pay"/>
+    <definition value="One or more persons and/or organizations are paying for the services rendered."/>
+  </concept>
+  <concept>
+    <code value="other"/>
+    <display value="Other"/>
+    <definition value="Some other organization is paying for the service."/>
+  </concept>
+</CodeSystem>

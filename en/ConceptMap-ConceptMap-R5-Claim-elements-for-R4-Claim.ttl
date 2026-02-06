@@ -1,0 +1,1493 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-Claim-elements-for-R4-Claim> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-Claim-elements-for-R4-Claim"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-Claim-elements-for-R4-Claim</b></p><a name=\"ConceptMap-R5-Claim-elements-for-R4-Claim\"> </a><a name=\"hcConceptMap-R5-Claim-elements-for-R4-Claim\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Claim|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Claim|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">Claim</td><td style=\"border-left-width: 0px\">Claim</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Claim` is representable via FHIR R4B Resource `Claim`.\nElement `Claim` is mapped to FHIR R4B element `Claim`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.meta</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.meta` is mapped to FHIR R4B element `Claim.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.implicitRules` is mapped to FHIR R4B element `Claim.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.language</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.language` is mapped to FHIR R4B element `Claim.language`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.text</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.text` is mapped to FHIR R4B element `Claim.text`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.contained</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.contained` is mapped to FHIR R4B element `Claim.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.identifier` is mapped to FHIR R4B element `Claim.identifier`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.traceNumber</td><td style=\"border-left-width: 0px\">traceNumber</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.traceNumber</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.traceNumber` is mapped to FHIR R4B structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.status</td><td style=\"border-left-width: 0px; border-bottom-style: none\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.status</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.status` is mapped to FHIR R4B element `Claim.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.status</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.status` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.type</td><td style=\"border-left-width: 0px\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.type</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.type` is mapped to FHIR R4B element `Claim.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.subType</td><td style=\"border-left-width: 0px; border-bottom-style: none\">subType</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.subType</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.subType` is mapped to FHIR R4B element `Claim.subType`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.subType</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.subType` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.use</td><td style=\"border-left-width: 0px\">use</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.use</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.use` is mapped to FHIR R4B element `Claim.use`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.patient</td><td style=\"border-left-width: 0px\">patient</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.patient</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.patient` is mapped to FHIR R4B element `Claim.patient`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.billablePeriod</td><td style=\"border-left-width: 0px; border-bottom-style: none\">billablePeriod</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.billablePeriod</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.billablePeriod` is mapped to FHIR R4B element `Claim.billablePeriod`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.billablePeriod</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.billablePeriod` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.created</td><td style=\"border-left-width: 0px\">created</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.created</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.created` is mapped to FHIR R4B element `Claim.created`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.enterer</td><td style=\"border-left-width: 0px\">enterer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.enterer</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.enterer` is mapped to FHIR R4B element `Claim.enterer`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.insurer</td><td style=\"border-left-width: 0px; border-bottom-style: none\">insurer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.insurer</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.insurer` is mapped to FHIR R4B element `Claim.insurer`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.target</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.insurer` is mapped to FHIR DSTU2 element `Claim.target`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.provider</td><td style=\"border-left-width: 0px\">provider</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.provider</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.provider` is mapped to FHIR R4B element `Claim.provider`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.priority</td><td style=\"border-left-width: 0px\">priority</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.priority</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.priority` is mapped to FHIR R4B element `Claim.priority`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.fundsReserve</td><td style=\"border-left-width: 0px\">fundsReserve</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.fundsReserve</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.fundsReserve` is mapped to FHIR R4B element `Claim.fundsReserve`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.related</td><td style=\"border-left-width: 0px; border-bottom-style: none\">related</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.related</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.related` is mapped to FHIR R4B element `Claim.related`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.related</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.related` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.related.claim</td><td style=\"border-left-width: 0px; border-bottom-style: none\">claim</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.related.claim</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.related.claim` is mapped to FHIR R4B element `Claim.related.claim`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.related:claim</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.related.claim` is part of an existing definition because parent element `Claim.related` requires a cross-version extension.\nElement `Claim.related.claim` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.related.relationship</td><td style=\"border-left-width: 0px; border-bottom-style: none\">relationship</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.related.relationship</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.related.relationship` is mapped to FHIR R4B element `Claim.related.relationship`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.related:relationship</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.related.relationship` is part of an existing definition because parent element `Claim.related` requires a cross-version extension.\nElement `Claim.related.relationship` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.related.reference</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reference</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.related.reference</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.related.reference` is mapped to FHIR R4B element `Claim.related.reference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.related:reference</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.related.reference` is part of an existing definition because parent element `Claim.related` requires a cross-version extension.\nElement `Claim.related.reference` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.prescription</td><td style=\"border-left-width: 0px\">prescription</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.prescription</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.prescription` is mapped to FHIR R4B element `Claim.prescription`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.originalPrescription</td><td style=\"border-left-width: 0px\">originalPrescription</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.originalPrescription</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.originalPrescription` is mapped to FHIR R4B element `Claim.originalPrescription`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.payee</td><td style=\"border-left-width: 0px\">payee</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.payee</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.payee` is mapped to FHIR R4B element `Claim.payee`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.payee.type</td><td style=\"border-left-width: 0px\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.payee.type</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.payee.type` is mapped to FHIR R4B element `Claim.payee.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.payee.party</td><td style=\"border-left-width: 0px; border-bottom-style: none\">party</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.payee.party</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.payee.party` is mapped to FHIR R4B element `Claim.payee.party`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.payee.organization</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.payee.party` is mapped to FHIR DSTU2 element `Claim.payee.provider`.\nElement `Claim.payee.party` is mapped to FHIR DSTU2 element `Claim.payee.organization`.\nElement `Claim.payee.party` is mapped to FHIR DSTU2 element `Claim.payee.person`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.payee.person</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.payee.party` is mapped to FHIR DSTU2 element `Claim.payee.provider`.\nElement `Claim.payee.party` is mapped to FHIR DSTU2 element `Claim.payee.organization`.\nElement `Claim.payee.party` is mapped to FHIR DSTU2 element `Claim.payee.person`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.payee.provider</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.payee.party` is mapped to FHIR DSTU2 element `Claim.payee.provider`.\nElement `Claim.payee.party` is mapped to FHIR DSTU2 element `Claim.payee.organization`.\nElement `Claim.payee.party` is mapped to FHIR DSTU2 element `Claim.payee.person`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.referral</td><td style=\"border-left-width: 0px\">referral</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.referral</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.referral` is mapped to FHIR R4B element `Claim.referral`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.encounter</td><td style=\"border-left-width: 0px\">encounter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.encounter</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.encounter` is mapped to FHIR R4B structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.facility</td><td style=\"border-left-width: 0px\">facility</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.facility</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.facility` is mapped to FHIR R4B element `Claim.facility`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.diagnosisRelatedGroup</td><td style=\"border-left-width: 0px\">diagnosisRelatedGroup</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.diagnosisRelatedGroup</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.diagnosisRelatedGroup` is mapped to FHIR R4B structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.event</td><td style=\"border-left-width: 0px\">event</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.event</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.event` is mapped to FHIR R4B structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.event.type</td><td style=\"border-left-width: 0px\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.event:type</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.event.type` is part of an existing definition because parent element `Claim.event` requires a cross-version extension.\nElement `Claim.event.type` is mapped to FHIR R4B structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.event.when[x]</td><td style=\"border-left-width: 0px\">when[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.event:when</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.event.when[x]` is part of an existing definition because parent element `Claim.event` requires a cross-version extension.\nElement `Claim.event.when[x]` is mapped to FHIR R4B structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.careTeam</td><td style=\"border-left-width: 0px; border-bottom-style: none\">careTeam</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.careTeam</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.careTeam` is mapped to FHIR R4B element `Claim.careTeam`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.careTeam</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.careTeam` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.careTeam.sequence</td><td style=\"border-left-width: 0px; border-bottom-style: none\">sequence</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.careTeam.sequence</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.careTeam.sequence` is mapped to FHIR R4B element `Claim.careTeam.sequence`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.careTeam:sequence</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.careTeam.sequence` is part of an existing definition because parent element `Claim.careTeam` requires a cross-version extension.\nElement `Claim.careTeam.sequence` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.careTeam.provider</td><td style=\"border-left-width: 0px; border-bottom-style: none\">provider</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.careTeam.provider</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.careTeam.provider` is mapped to FHIR R4B element `Claim.careTeam.provider`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.careTeam:provider</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.careTeam.provider` is part of an existing definition because parent element `Claim.careTeam` requires a cross-version extension.\nElement `Claim.careTeam.provider` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.careTeam.responsible</td><td style=\"border-left-width: 0px; border-bottom-style: none\">responsible</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.careTeam.responsible</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.careTeam.responsible` is mapped to FHIR R4B element `Claim.careTeam.responsible`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.careTeam:responsible</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.careTeam.responsible` is part of an existing definition because parent element `Claim.careTeam` requires a cross-version extension.\nElement `Claim.careTeam.responsible` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.careTeam.role</td><td style=\"border-left-width: 0px; border-bottom-style: none\">role</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.careTeam.role</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.careTeam.role` is mapped to FHIR R4B element `Claim.careTeam.role`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.careTeam:role</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.careTeam.role` is part of an existing definition because parent element `Claim.careTeam` requires a cross-version extension.\nElement `Claim.careTeam.role` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.careTeam.specialty</td><td style=\"border-left-width: 0px; border-bottom-style: none\">specialty</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.careTeam.qualification</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.careTeam.specialty` is mapped to FHIR R4B element `Claim.careTeam.qualification`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.careTeam:specialty</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.careTeam.specialty` is part of an existing definition because parent element `Claim.careTeam` requires a cross-version extension.\nElement `Claim.careTeam.specialty` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.supportingInfo</td><td style=\"border-left-width: 0px; border-bottom-style: none\">supportingInfo</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.supportingInfo</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.supportingInfo` is mapped to FHIR R4B element `Claim.supportingInfo`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.information</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.supportingInfo` is mapped to FHIR STU3 element `Claim.information`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.supportingInfo</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.supportingInfo` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.supportingInfo.sequence</td><td style=\"border-left-width: 0px; border-bottom-style: none\">sequence</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.supportingInfo.sequence</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.supportingInfo.sequence` is mapped to FHIR R4B element `Claim.supportingInfo.sequence`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.information.sequence</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.supportingInfo.sequence` is mapped to FHIR STU3 element `Claim.information.sequence`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.supportingInfo:sequence</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.supportingInfo.sequence` is part of an existing definition because parent element `Claim.supportingInfo` requires a cross-version extension.\nElement `Claim.supportingInfo.sequence` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.supportingInfo.category</td><td style=\"border-left-width: 0px; border-bottom-style: none\">category</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.supportingInfo.category</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.supportingInfo.category` is mapped to FHIR R4B element `Claim.supportingInfo.category`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.information.category</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.supportingInfo.category` is mapped to FHIR STU3 element `Claim.information.category`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.supportingInfo:category</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.supportingInfo.category` is part of an existing definition because parent element `Claim.supportingInfo` requires a cross-version extension.\nElement `Claim.supportingInfo.category` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.supportingInfo.code</td><td style=\"border-left-width: 0px; border-bottom-style: none\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.supportingInfo.code</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.supportingInfo.code` is mapped to FHIR R4B element `Claim.supportingInfo.code`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.information.code</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.supportingInfo.code` is mapped to FHIR STU3 element `Claim.information.code`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.supportingInfo:code</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.supportingInfo.code` is part of an existing definition because parent element `Claim.supportingInfo` requires a cross-version extension.\nElement `Claim.supportingInfo.code` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.supportingInfo.timing[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">timing[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.supportingInfo.timing[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Claim.supportingInfo.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.supportingInfo`.\nElement `Claim.supportingInfo.timing[x]` is mapped to FHIR R4B element `Claim.supportingInfo.timing[x]`.\nNote that the target element context `Claim.supportingInfo.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.supportingInfo`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.information.timing[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Claim.information.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.information`.\nElement `Claim.supportingInfo.timing[x]` is mapped to FHIR STU3 element `Claim.information.timing[x]`.\nNote that the target element context `Claim.information.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.information`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.supportingInfo:timing</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.supportingInfo.timing[x]` is part of an existing definition because parent element `Claim.supportingInfo` requires a cross-version extension.\nElement `Claim.supportingInfo.timing[x]` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.supportingInfo.value[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">value[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.supportingInfo.value[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Claim.supportingInfo.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.supportingInfo`.\nElement `Claim.supportingInfo.value[x]` is mapped to FHIR R4B element `Claim.supportingInfo.value[x]`.\nNote that the target element context `Claim.supportingInfo.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.supportingInfo`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.information.value[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Claim.information.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.information`.\nElement `Claim.supportingInfo.value[x]` is mapped to FHIR STU3 element `Claim.information.value[x]`.\nNote that the target element context `Claim.information.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.information`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.supportingInfo:value</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.supportingInfo.value[x]` is part of an existing definition because parent element `Claim.supportingInfo` requires a cross-version extension.\nElement `Claim.supportingInfo.value[x]` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.supportingInfo.reason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.supportingInfo.reason</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.supportingInfo.reason` is mapped to FHIR R4B element `Claim.supportingInfo.reason`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.information.reason</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.supportingInfo.reason` is mapped to FHIR STU3 element `Claim.information.reason`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.supportingInfo:reason</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.supportingInfo.reason` is part of an existing definition because parent element `Claim.supportingInfo` requires a cross-version extension.\nElement `Claim.supportingInfo.reason` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.diagnosis</td><td style=\"border-left-width: 0px\">diagnosis</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.diagnosis</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.diagnosis` is mapped to FHIR R4B element `Claim.diagnosis`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.diagnosis.sequence</td><td style=\"border-left-width: 0px\">sequence</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.diagnosis.sequence</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.diagnosis.sequence` is mapped to FHIR R4B element `Claim.diagnosis.sequence`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.diagnosis.diagnosis[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">diagnosis[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.diagnosis.diagnosis[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Claim.diagnosis.diagnosis[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.diagnosis`.\nElement `Claim.diagnosis.diagnosis[x]` is mapped to FHIR R4B element `Claim.diagnosis.diagnosis[x]`.\nNote that the target element context `Claim.diagnosis.diagnosis[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.diagnosis`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.diagnosis.diagnosis</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.diagnosis.diagnosis[x]` is mapped to FHIR DSTU2 element `Claim.diagnosis.diagnosis`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.diagnosis.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.diagnosis.type</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.diagnosis.type` is mapped to FHIR R4B element `Claim.diagnosis.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.diagnosis.type</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.diagnosis.type` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.diagnosis.onAdmission</td><td style=\"border-left-width: 0px; border-bottom-style: none\">onAdmission</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.diagnosis.onAdmission</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.diagnosis.onAdmission` is mapped to FHIR R4B element `Claim.diagnosis.onAdmission`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.diagnosis.onAdmission</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.diagnosis.onAdmission` is mapped to FHIR STU3 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.procedure</td><td style=\"border-left-width: 0px; border-bottom-style: none\">procedure</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.procedure</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.procedure` is mapped to FHIR R4B element `Claim.procedure`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.procedure</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.procedure` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.procedure.sequence</td><td style=\"border-left-width: 0px; border-bottom-style: none\">sequence</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.procedure.sequence</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.procedure.sequence` is mapped to FHIR R4B element `Claim.procedure.sequence`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.procedure:sequence</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.procedure.sequence` is part of an existing definition because parent element `Claim.procedure` requires a cross-version extension.\nElement `Claim.procedure.sequence` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.procedure.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.procedure.type</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.procedure.type` is mapped to FHIR R4B element `Claim.procedure.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.procedure.type</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.procedure.type` is mapped to FHIR STU3 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.procedure:type</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.procedure.type` is part of an existing definition because parent element `Claim.procedure` requires a cross-version extension.\nElement `Claim.procedure.type` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.procedure.date</td><td style=\"border-left-width: 0px; border-bottom-style: none\">date</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.procedure.date</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.procedure.date` is mapped to FHIR R4B element `Claim.procedure.date`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.procedure:date</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.procedure.date` is part of an existing definition because parent element `Claim.procedure` requires a cross-version extension.\nElement `Claim.procedure.date` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.procedure.procedure[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">procedure[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.procedure.procedure[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Claim.procedure.procedure[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.procedure`.\nElement `Claim.procedure.procedure[x]` is mapped to FHIR R4B element `Claim.procedure.procedure[x]`.\nNote that the target element context `Claim.procedure.procedure[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.procedure`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.procedure:procedure</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.procedure.procedure[x]` is part of an existing definition because parent element `Claim.procedure` requires a cross-version extension.\nElement `Claim.procedure.procedure[x]` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.procedure.udi</td><td style=\"border-left-width: 0px; border-bottom-style: none\">udi</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.procedure.udi</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.procedure.udi` is mapped to FHIR R4B element `Claim.procedure.udi`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.procedure.udi</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.procedure.udi` is mapped to FHIR STU3 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.procedure:udi</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.procedure.udi` is part of an existing definition because parent element `Claim.procedure` requires a cross-version extension.\nElement `Claim.procedure.udi` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.insurance</td><td style=\"border-left-width: 0px; border-bottom-style: none\">insurance</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.insurance</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.insurance` is mapped to FHIR R4B element `Claim.insurance`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.coverage</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.insurance` is mapped to FHIR DSTU2 element `Claim.coverage`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.insurance.sequence</td><td style=\"border-left-width: 0px; border-bottom-style: none\">sequence</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.insurance.sequence</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.insurance.sequence` is mapped to FHIR R4B element `Claim.insurance.sequence`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.coverage.sequence</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.insurance.sequence` is mapped to FHIR DSTU2 element `Claim.coverage.sequence`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.insurance.focal</td><td style=\"border-left-width: 0px; border-bottom-style: none\">focal</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.insurance.focal</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.insurance.focal` is mapped to FHIR R4B element `Claim.insurance.focal`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.coverage.focal</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.insurance.focal` is mapped to FHIR DSTU2 element `Claim.coverage.focal`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.insurance.identifier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.insurance.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.insurance.identifier` is mapped to FHIR R4B element `Claim.insurance.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.insurance.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.insurance.identifier` is mapped to FHIR STU3 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.insurance.coverage</td><td style=\"border-left-width: 0px; border-bottom-style: none\">coverage</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.insurance.coverage</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.insurance.coverage` is mapped to FHIR R4B element `Claim.insurance.coverage`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.coverage.coverage</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.insurance.coverage` is mapped to FHIR DSTU2 element `Claim.coverage.coverage`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.insurance.businessArrangement</td><td style=\"border-left-width: 0px; border-bottom-style: none\">businessArrangement</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.insurance.businessArrangement</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.insurance.businessArrangement` is mapped to FHIR R4B element `Claim.insurance.businessArrangement`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.coverage.businessArrangement</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.insurance.businessArrangement` is mapped to FHIR DSTU2 element `Claim.coverage.businessArrangement`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.insurance.preAuthRef</td><td style=\"border-left-width: 0px; border-bottom-style: none\">preAuthRef</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.insurance.preAuthRef</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.insurance.preAuthRef` is mapped to FHIR R4B element `Claim.insurance.preAuthRef`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.coverage.preAuthRef</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.insurance.preAuthRef` is mapped to FHIR DSTU2 element `Claim.coverage.preAuthRef`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.insurance.claimResponse</td><td style=\"border-left-width: 0px; border-bottom-style: none\">claimResponse</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.insurance.claimResponse</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.insurance.claimResponse` is mapped to FHIR R4B element `Claim.insurance.claimResponse`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.coverage.claimResponse</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.insurance.claimResponse` is mapped to FHIR DSTU2 element `Claim.coverage.claimResponse`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.accident</td><td style=\"border-left-width: 0px\">accident</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.accident</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.accident` is mapped to FHIR R4B element `Claim.accident`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.accident.date</td><td style=\"border-left-width: 0px; border-bottom-style: none\">date</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.accident.date</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.accident.date` is mapped to FHIR R4B element `Claim.accident.date`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.accident</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.accident.date` is mapped to FHIR DSTU2 element `Claim.accident`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.accident.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.accident.type</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.accident.type` is mapped to FHIR R4B element `Claim.accident.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.accidentType</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.accident.type` is mapped to FHIR DSTU2 element `Claim.accidentType`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.accident.location[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">location[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.accident.location[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Claim.accident.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.accident`.\nElement `Claim.accident.location[x]` is mapped to FHIR R4B element `Claim.accident.location[x]`.\nNote that the target element context `Claim.accident.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.accident`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.accident.location</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.accident.location[x]` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.patientPaid</td><td style=\"border-left-width: 0px\">patientPaid</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.patientPaid</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.patientPaid` is mapped to FHIR R4B structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item</td><td style=\"border-left-width: 0px\">item</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item` is mapped to FHIR R4B element `Claim.item`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.sequence</td><td style=\"border-left-width: 0px\">sequence</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.sequence</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.sequence` is mapped to FHIR R4B element `Claim.item.sequence`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.traceNumber</td><td style=\"border-left-width: 0px\">traceNumber</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.traceNumber</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.traceNumber` is mapped to FHIR R4B structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.item.careTeamSequence</td><td style=\"border-left-width: 0px; border-bottom-style: none\">careTeamSequence</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.careTeamSequence</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.careTeamSequence` is mapped to FHIR R4B element `Claim.item.careTeamSequence`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.careTeamLinkId</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.careTeamSequence` is mapped to FHIR STU3 element `Claim.item.careTeamLinkId`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.careTeamSequence</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.careTeamSequence` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.item.diagnosisSequence</td><td style=\"border-left-width: 0px; border-bottom-style: none\">diagnosisSequence</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.diagnosisSequence</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.diagnosisSequence` is mapped to FHIR R4B element `Claim.item.diagnosisSequence`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.diagnosisLinkId</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.diagnosisSequence` is mapped to FHIR STU3 element `Claim.item.diagnosisLinkId`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.item.procedureSequence</td><td style=\"border-left-width: 0px; border-bottom-style: none\">procedureSequence</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.procedureSequence</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.procedureSequence` is mapped to FHIR R4B element `Claim.item.procedureSequence`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.procedureLinkId</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.procedureSequence` is mapped to FHIR STU3 element `Claim.item.procedureLinkId`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.procedureSequence</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.procedureSequence` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.item.informationSequence</td><td style=\"border-left-width: 0px; border-bottom-style: none\">informationSequence</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.informationSequence</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.informationSequence` is mapped to FHIR R4B element `Claim.item.informationSequence`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.informationLinkId</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.informationSequence` is mapped to FHIR STU3 element `Claim.item.informationLinkId`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.informationSequence</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.informationSequence` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.item.revenue</td><td style=\"border-left-width: 0px; border-bottom-style: none\">revenue</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.revenue</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.revenue` is mapped to FHIR R4B element `Claim.item.revenue`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.revenue</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.revenue` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.item.category</td><td style=\"border-left-width: 0px; border-bottom-style: none\">category</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.category</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.category` is mapped to FHIR R4B element `Claim.item.category`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.type</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.category` is mapped to FHIR DSTU2 element `Claim.item.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.item.productOrService</td><td style=\"border-left-width: 0px; border-bottom-style: none\">productOrService</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.productOrService</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.productOrService` is mapped to FHIR R4B element `Claim.item.productOrService`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.service</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.productOrService` is mapped to FHIR STU3 element `Claim.item.service`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.productOrServiceEnd</td><td style=\"border-left-width: 0px\">productOrServiceEnd</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.productOrServiceEnd</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.productOrServiceEnd` is mapped to FHIR R4B structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.request</td><td style=\"border-left-width: 0px\">request</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.request</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.request` is mapped to FHIR R4B structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.modifier</td><td style=\"border-left-width: 0px\">modifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.modifier</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.modifier` is mapped to FHIR R4B element `Claim.item.modifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.item.programCode</td><td style=\"border-left-width: 0px; border-bottom-style: none\">programCode</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.programCode</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.programCode` is mapped to FHIR R4B element `Claim.item.programCode`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.programCode</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.programCode` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.item.serviced[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">serviced[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.serviced[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Claim.item.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.item`.\nElement `Claim.item.serviced[x]` is mapped to FHIR R4B element `Claim.item.serviced[x]`.\nNote that the target element context `Claim.item.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.item`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.serviceDate</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.serviced[x]` is mapped to FHIR DSTU2 element `Claim.item.serviceDate`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.item.location[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">location[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.location[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Claim.item.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.item`.\nElement `Claim.item.location[x]` is mapped to FHIR R4B element `Claim.item.location[x]`.\nNote that the target element context `Claim.item.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.item`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.location</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.location[x]` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.patientPaid</td><td style=\"border-left-width: 0px\">patientPaid</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.patientPaid</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.patientPaid` is mapped to FHIR R4B structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.quantity</td><td style=\"border-left-width: 0px\">quantity</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.quantity</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.quantity` is mapped to FHIR R4B element `Claim.item.quantity`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.unitPrice</td><td style=\"border-left-width: 0px\">unitPrice</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.unitPrice</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.unitPrice` is mapped to FHIR R4B element `Claim.item.unitPrice`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.item.factor</td><td style=\"border-left-width: 0px; border-bottom-style: none\">factor</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.factor</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.factor` is mapped to FHIR R4B element `Claim.item.factor`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.points</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.factor` is mapped to FHIR DSTU2 element `Claim.item.points`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.tax</td><td style=\"border-left-width: 0px\">tax</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.tax</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.tax` is mapped to FHIR R4B structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.net</td><td style=\"border-left-width: 0px\">net</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.net</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.net` is mapped to FHIR R4B element `Claim.item.net`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.udi</td><td style=\"border-left-width: 0px\">udi</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.udi</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.udi` is mapped to FHIR R4B element `Claim.item.udi`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.bodySite</td><td style=\"border-left-width: 0px\">bodySite</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.bodySite</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.bodySite` is mapped to FHIR R4B element `Claim.item.bodySite`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.bodySite.site</td><td style=\"border-left-width: 0px\">site</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.bodySite.site` is mapped to FHIR R4B element `Claim.item`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.bodySite.subSite</td><td style=\"border-left-width: 0px\">subSite</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.subSite</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.bodySite.subSite` is mapped to FHIR R4B element `Claim.item.subSite`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.item.encounter</td><td style=\"border-left-width: 0px; border-bottom-style: none\">encounter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.encounter</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.encounter` is mapped to FHIR R4B element `Claim.item.encounter`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.encounter</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.encounter` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.detail</td><td style=\"border-left-width: 0px\">detail</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail` is mapped to FHIR R4B element `Claim.item.detail`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.detail.sequence</td><td style=\"border-left-width: 0px\">sequence</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.sequence</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.sequence` is mapped to FHIR R4B element `Claim.item.detail.sequence`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.detail.traceNumber</td><td style=\"border-left-width: 0px\">traceNumber</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.traceNumber</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.traceNumber` is mapped to FHIR R4B structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.item.detail.revenue</td><td style=\"border-left-width: 0px; border-bottom-style: none\">revenue</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.revenue</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.revenue` is mapped to FHIR R4B element `Claim.item.detail.revenue`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.revenue</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.revenue` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.item.detail.category</td><td style=\"border-left-width: 0px; border-bottom-style: none\">category</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.category</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.category` is mapped to FHIR R4B element `Claim.item.detail.category`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.type</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.category` is mapped to FHIR DSTU2 element `Claim.item.detail.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.item.detail.productOrService</td><td style=\"border-left-width: 0px; border-bottom-style: none\">productOrService</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.productOrService</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.productOrService` is mapped to FHIR R4B element `Claim.item.detail.productOrService`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.service</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.productOrService` is mapped to FHIR STU3 element `Claim.item.detail.service`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.detail.productOrServiceEnd</td><td style=\"border-left-width: 0px\">productOrServiceEnd</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.productOrServiceEnd</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.productOrServiceEnd` is mapped to FHIR R4B structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.item.detail.modifier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">modifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.modifier</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.modifier` is mapped to FHIR R4B element `Claim.item.detail.modifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.modifier</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.modifier` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.item.detail.programCode</td><td style=\"border-left-width: 0px; border-bottom-style: none\">programCode</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.programCode</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.programCode` is mapped to FHIR R4B element `Claim.item.detail.programCode`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.programCode</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.programCode` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.detail.patientPaid</td><td style=\"border-left-width: 0px\">patientPaid</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.patientPaid</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.patientPaid` is mapped to FHIR R4B structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.detail.quantity</td><td style=\"border-left-width: 0px\">quantity</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.quantity</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.quantity` is mapped to FHIR R4B element `Claim.item.detail.quantity`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.detail.unitPrice</td><td style=\"border-left-width: 0px\">unitPrice</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.unitPrice</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.unitPrice` is mapped to FHIR R4B element `Claim.item.detail.unitPrice`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.item.detail.factor</td><td style=\"border-left-width: 0px; border-bottom-style: none\">factor</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.factor</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.factor` is mapped to FHIR R4B element `Claim.item.detail.factor`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.points</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.factor` is mapped to FHIR DSTU2 element `Claim.item.detail.points`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.detail.tax</td><td style=\"border-left-width: 0px\">tax</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.tax</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.tax` is mapped to FHIR R4B structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.detail.net</td><td style=\"border-left-width: 0px\">net</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.net</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.net` is mapped to FHIR R4B element `Claim.item.detail.net`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.detail.udi</td><td style=\"border-left-width: 0px\">udi</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.udi</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.udi` is mapped to FHIR R4B element `Claim.item.detail.udi`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.detail.subDetail</td><td style=\"border-left-width: 0px\">subDetail</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.subDetail` is mapped to FHIR R4B element `Claim.item.detail.subDetail`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.detail.subDetail.sequence</td><td style=\"border-left-width: 0px\">sequence</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.sequence</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.subDetail.sequence` is mapped to FHIR R4B element `Claim.item.detail.subDetail.sequence`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.detail.subDetail.traceNumber</td><td style=\"border-left-width: 0px\">traceNumber</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.traceNumber</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.subDetail.traceNumber` is mapped to FHIR R4B structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.item.detail.subDetail.revenue</td><td style=\"border-left-width: 0px; border-bottom-style: none\">revenue</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.revenue</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.subDetail.revenue` is mapped to FHIR R4B element `Claim.item.detail.subDetail.revenue`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.revenue</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.subDetail.revenue` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.item.detail.subDetail.category</td><td style=\"border-left-width: 0px; border-bottom-style: none\">category</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.category</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.subDetail.category` is mapped to FHIR R4B element `Claim.item.detail.subDetail.category`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.type</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.subDetail.category` is mapped to FHIR DSTU2 element `Claim.item.detail.subDetail.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.item.detail.subDetail.productOrService</td><td style=\"border-left-width: 0px; border-bottom-style: none\">productOrService</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.productOrService</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.subDetail.productOrService` is mapped to FHIR R4B element `Claim.item.detail.subDetail.productOrService`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.service</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.subDetail.productOrService` is mapped to FHIR STU3 element `Claim.item.detail.subDetail.service`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.detail.subDetail.productOrServiceEnd</td><td style=\"border-left-width: 0px\">productOrServiceEnd</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.productOrServiceEnd</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.subDetail.productOrServiceEnd` is mapped to FHIR R4B structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.item.detail.subDetail.modifier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">modifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.modifier</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.subDetail.modifier` is mapped to FHIR R4B element `Claim.item.detail.subDetail.modifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.modifier</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.subDetail.modifier` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.item.detail.subDetail.programCode</td><td style=\"border-left-width: 0px; border-bottom-style: none\">programCode</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.programCode</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.subDetail.programCode` is mapped to FHIR R4B element `Claim.item.detail.subDetail.programCode`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.programCode</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.subDetail.programCode` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.detail.subDetail.patientPaid</td><td style=\"border-left-width: 0px\">patientPaid</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.patientPaid</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.subDetail.patientPaid` is mapped to FHIR R4B structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.detail.subDetail.quantity</td><td style=\"border-left-width: 0px\">quantity</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.quantity</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.subDetail.quantity` is mapped to FHIR R4B element `Claim.item.detail.subDetail.quantity`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.detail.subDetail.unitPrice</td><td style=\"border-left-width: 0px\">unitPrice</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.unitPrice</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.subDetail.unitPrice` is mapped to FHIR R4B element `Claim.item.detail.subDetail.unitPrice`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.item.detail.subDetail.factor</td><td style=\"border-left-width: 0px; border-bottom-style: none\">factor</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.factor</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.subDetail.factor` is mapped to FHIR R4B element `Claim.item.detail.subDetail.factor`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.points</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.subDetail.factor` is mapped to FHIR DSTU2 element `Claim.item.detail.subDetail.points`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.detail.subDetail.tax</td><td style=\"border-left-width: 0px\">tax</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.tax</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.subDetail.tax` is mapped to FHIR R4B structure `Claim`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.detail.subDetail.net</td><td style=\"border-left-width: 0px\">net</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.net</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.subDetail.net` is mapped to FHIR R4B element `Claim.item.detail.subDetail.net`.</td></tr><tr><td style=\"border-right-width: 0px\">Claim.item.detail.subDetail.udi</td><td style=\"border-left-width: 0px\">udi</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.udi</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.item.detail.subDetail.udi` is mapped to FHIR R4B element `Claim.item.detail.subDetail.udi`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Claim.total</td><td style=\"border-left-width: 0px; border-bottom-style: none\">total</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Claim#Claim.total</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.total` is mapped to FHIR R4B element `Claim.total`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.total</td><td style=\"border-left-width: 0px\"/><td>Element `Claim.total` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Claim-elements-for-R4-Claim"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Claim-elements-for-R4-Claim>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5ClaimElementsForR4Claim"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:31.3384455-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Claim"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Claim>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Claim" ] ;
+       fhir:display [ fhir:v "Claim" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Claim` is representable via FHIR R4B Resource `Claim`.\nElement `Claim` is mapped to FHIR R4B element `Claim`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.meta` is mapped to FHIR R4B element `Claim.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.implicitRules` is mapped to FHIR R4B element `Claim.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.language` is mapped to FHIR R4B element `Claim.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.text` is mapped to FHIR R4B element `Claim.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.contained` is mapped to FHIR R4B element `Claim.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.identifier` is mapped to FHIR R4B element `Claim.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.traceNumber" ] ;
+       fhir:display [ fhir:v "traceNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.traceNumber" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.traceNumber` is mapped to FHIR R4B structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.status` is mapped to FHIR R4B element `Claim.status`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.status` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.type` is mapped to FHIR R4B element `Claim.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.subType" ] ;
+       fhir:display [ fhir:v "subType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.subType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.subType` is mapped to FHIR R4B element `Claim.subType`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.subType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.subType` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.use" ] ;
+       fhir:display [ fhir:v "use" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.use" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.use` is mapped to FHIR R4B element `Claim.use`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.patient" ] ;
+       fhir:display [ fhir:v "patient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.patient" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.patient` is mapped to FHIR R4B element `Claim.patient`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.billablePeriod" ] ;
+       fhir:display [ fhir:v "billablePeriod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.billablePeriod" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.billablePeriod` is mapped to FHIR R4B element `Claim.billablePeriod`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.billablePeriod" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.billablePeriod` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.created" ] ;
+       fhir:display [ fhir:v "created" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.created" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.created` is mapped to FHIR R4B element `Claim.created`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.enterer" ] ;
+       fhir:display [ fhir:v "enterer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.enterer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.enterer` is mapped to FHIR R4B element `Claim.enterer`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.insurer" ] ;
+       fhir:display [ fhir:v "insurer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.insurer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurer` is mapped to FHIR R4B element `Claim.insurer`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.target" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurer` is mapped to FHIR DSTU2 element `Claim.target`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.provider" ] ;
+       fhir:display [ fhir:v "provider" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.provider" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.provider` is mapped to FHIR R4B element `Claim.provider`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.priority" ] ;
+       fhir:display [ fhir:v "priority" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.priority" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.priority` is mapped to FHIR R4B element `Claim.priority`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.fundsReserve" ] ;
+       fhir:display [ fhir:v "fundsReserve" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.fundsReserve" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.fundsReserve` is mapped to FHIR R4B element `Claim.fundsReserve`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.related" ] ;
+       fhir:display [ fhir:v "related" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.related" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.related` is mapped to FHIR R4B element `Claim.related`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.related" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.related` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.related.claim" ] ;
+       fhir:display [ fhir:v "claim" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.related.claim" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.related.claim` is mapped to FHIR R4B element `Claim.related.claim`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.related:claim" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.related.claim` is part of an existing definition because parent element `Claim.related` requires a cross-version extension.\nElement `Claim.related.claim` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.related.relationship" ] ;
+       fhir:display [ fhir:v "relationship" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.related.relationship" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.related.relationship` is mapped to FHIR R4B element `Claim.related.relationship`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.related:relationship" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.related.relationship` is part of an existing definition because parent element `Claim.related` requires a cross-version extension.\nElement `Claim.related.relationship` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.related.reference" ] ;
+       fhir:display [ fhir:v "reference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.related.reference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.related.reference` is mapped to FHIR R4B element `Claim.related.reference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.related:reference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.related.reference` is part of an existing definition because parent element `Claim.related` requires a cross-version extension.\nElement `Claim.related.reference` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.prescription" ] ;
+       fhir:display [ fhir:v "prescription" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.prescription" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.prescription` is mapped to FHIR R4B element `Claim.prescription`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.originalPrescription" ] ;
+       fhir:display [ fhir:v "originalPrescription" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.originalPrescription" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.originalPrescription` is mapped to FHIR R4B element `Claim.originalPrescription`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.payee" ] ;
+       fhir:display [ fhir:v "payee" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.payee" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.payee` is mapped to FHIR R4B element `Claim.payee`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.payee.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.payee.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.payee.type` is mapped to FHIR R4B element `Claim.payee.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.payee.party" ] ;
+       fhir:display [ fhir:v "party" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.payee.party" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.payee.party` is mapped to FHIR R4B element `Claim.payee.party`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.payee.organization" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.payee.party` is mapped to FHIR DSTU2 element `Claim.payee.provider`.\nElement `Claim.payee.party` is mapped to FHIR DSTU2 element `Claim.payee.organization`.\nElement `Claim.payee.party` is mapped to FHIR DSTU2 element `Claim.payee.person`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.payee.person" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.payee.party` is mapped to FHIR DSTU2 element `Claim.payee.provider`.\nElement `Claim.payee.party` is mapped to FHIR DSTU2 element `Claim.payee.organization`.\nElement `Claim.payee.party` is mapped to FHIR DSTU2 element `Claim.payee.person`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.payee.provider" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.payee.party` is mapped to FHIR DSTU2 element `Claim.payee.provider`.\nElement `Claim.payee.party` is mapped to FHIR DSTU2 element `Claim.payee.organization`.\nElement `Claim.payee.party` is mapped to FHIR DSTU2 element `Claim.payee.person`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.referral" ] ;
+       fhir:display [ fhir:v "referral" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.referral" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.referral` is mapped to FHIR R4B element `Claim.referral`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.encounter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.encounter` is mapped to FHIR R4B structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.facility" ] ;
+       fhir:display [ fhir:v "facility" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.facility" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.facility` is mapped to FHIR R4B element `Claim.facility`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.diagnosisRelatedGroup" ] ;
+       fhir:display [ fhir:v "diagnosisRelatedGroup" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.diagnosisRelatedGroup" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.diagnosisRelatedGroup` is mapped to FHIR R4B structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.event" ] ;
+       fhir:display [ fhir:v "event" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.event" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.event` is mapped to FHIR R4B structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.event.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.event:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.event.type` is part of an existing definition because parent element `Claim.event` requires a cross-version extension.\nElement `Claim.event.type` is mapped to FHIR R4B structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.event.when[x]" ] ;
+       fhir:display [ fhir:v "when[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.event:when" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.event.when[x]` is part of an existing definition because parent element `Claim.event` requires a cross-version extension.\nElement `Claim.event.when[x]` is mapped to FHIR R4B structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.careTeam" ] ;
+       fhir:display [ fhir:v "careTeam" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.careTeam" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.careTeam` is mapped to FHIR R4B element `Claim.careTeam`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.careTeam" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.careTeam` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.careTeam.sequence" ] ;
+       fhir:display [ fhir:v "sequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.careTeam.sequence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.careTeam.sequence` is mapped to FHIR R4B element `Claim.careTeam.sequence`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.careTeam:sequence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.careTeam.sequence` is part of an existing definition because parent element `Claim.careTeam` requires a cross-version extension.\nElement `Claim.careTeam.sequence` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.careTeam.provider" ] ;
+       fhir:display [ fhir:v "provider" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.careTeam.provider" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.careTeam.provider` is mapped to FHIR R4B element `Claim.careTeam.provider`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.careTeam:provider" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.careTeam.provider` is part of an existing definition because parent element `Claim.careTeam` requires a cross-version extension.\nElement `Claim.careTeam.provider` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.careTeam.responsible" ] ;
+       fhir:display [ fhir:v "responsible" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.careTeam.responsible" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.careTeam.responsible` is mapped to FHIR R4B element `Claim.careTeam.responsible`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.careTeam:responsible" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.careTeam.responsible` is part of an existing definition because parent element `Claim.careTeam` requires a cross-version extension.\nElement `Claim.careTeam.responsible` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.careTeam.role" ] ;
+       fhir:display [ fhir:v "role" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.careTeam.role" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.careTeam.role` is mapped to FHIR R4B element `Claim.careTeam.role`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.careTeam:role" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.careTeam.role` is part of an existing definition because parent element `Claim.careTeam` requires a cross-version extension.\nElement `Claim.careTeam.role` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.careTeam.specialty" ] ;
+       fhir:display [ fhir:v "specialty" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.careTeam.qualification" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.careTeam.specialty` is mapped to FHIR R4B element `Claim.careTeam.qualification`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.careTeam:specialty" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.careTeam.specialty` is part of an existing definition because parent element `Claim.careTeam` requires a cross-version extension.\nElement `Claim.careTeam.specialty` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.supportingInfo" ] ;
+       fhir:display [ fhir:v "supportingInfo" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.supportingInfo" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.supportingInfo` is mapped to FHIR R4B element `Claim.supportingInfo`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.information" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.supportingInfo` is mapped to FHIR STU3 element `Claim.information`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.supportingInfo" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.supportingInfo` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.supportingInfo.sequence" ] ;
+       fhir:display [ fhir:v "sequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.supportingInfo.sequence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.supportingInfo.sequence` is mapped to FHIR R4B element `Claim.supportingInfo.sequence`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.information.sequence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.supportingInfo.sequence` is mapped to FHIR STU3 element `Claim.information.sequence`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.supportingInfo:sequence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.supportingInfo.sequence` is part of an existing definition because parent element `Claim.supportingInfo` requires a cross-version extension.\nElement `Claim.supportingInfo.sequence` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.supportingInfo.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.supportingInfo.category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.supportingInfo.category` is mapped to FHIR R4B element `Claim.supportingInfo.category`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.information.category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.supportingInfo.category` is mapped to FHIR STU3 element `Claim.information.category`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.supportingInfo:category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.supportingInfo.category` is part of an existing definition because parent element `Claim.supportingInfo` requires a cross-version extension.\nElement `Claim.supportingInfo.category` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.supportingInfo.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.supportingInfo.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.supportingInfo.code` is mapped to FHIR R4B element `Claim.supportingInfo.code`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.information.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.supportingInfo.code` is mapped to FHIR STU3 element `Claim.information.code`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.supportingInfo:code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.supportingInfo.code` is part of an existing definition because parent element `Claim.supportingInfo` requires a cross-version extension.\nElement `Claim.supportingInfo.code` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.supportingInfo.timing[x]" ] ;
+       fhir:display [ fhir:v "timing[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.supportingInfo.timing[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Claim.supportingInfo.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.supportingInfo`.\nElement `Claim.supportingInfo.timing[x]` is mapped to FHIR R4B element `Claim.supportingInfo.timing[x]`.\nNote that the target element context `Claim.supportingInfo.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.supportingInfo`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.information.timing[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Claim.information.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.information`.\nElement `Claim.supportingInfo.timing[x]` is mapped to FHIR STU3 element `Claim.information.timing[x]`.\nNote that the target element context `Claim.information.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.information`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.supportingInfo:timing" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.supportingInfo.timing[x]` is part of an existing definition because parent element `Claim.supportingInfo` requires a cross-version extension.\nElement `Claim.supportingInfo.timing[x]` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.supportingInfo.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.supportingInfo.value[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Claim.supportingInfo.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.supportingInfo`.\nElement `Claim.supportingInfo.value[x]` is mapped to FHIR R4B element `Claim.supportingInfo.value[x]`.\nNote that the target element context `Claim.supportingInfo.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.supportingInfo`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.information.value[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Claim.information.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.information`.\nElement `Claim.supportingInfo.value[x]` is mapped to FHIR STU3 element `Claim.information.value[x]`.\nNote that the target element context `Claim.information.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.information`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.supportingInfo:value" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.supportingInfo.value[x]` is part of an existing definition because parent element `Claim.supportingInfo` requires a cross-version extension.\nElement `Claim.supportingInfo.value[x]` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.supportingInfo.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.supportingInfo.reason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.supportingInfo.reason` is mapped to FHIR R4B element `Claim.supportingInfo.reason`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.information.reason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.supportingInfo.reason` is mapped to FHIR STU3 element `Claim.information.reason`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.supportingInfo:reason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.supportingInfo.reason` is part of an existing definition because parent element `Claim.supportingInfo` requires a cross-version extension.\nElement `Claim.supportingInfo.reason` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.diagnosis" ] ;
+       fhir:display [ fhir:v "diagnosis" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.diagnosis" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.diagnosis` is mapped to FHIR R4B element `Claim.diagnosis`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.diagnosis.sequence" ] ;
+       fhir:display [ fhir:v "sequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.diagnosis.sequence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.diagnosis.sequence` is mapped to FHIR R4B element `Claim.diagnosis.sequence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.diagnosis.diagnosis[x]" ] ;
+       fhir:display [ fhir:v "diagnosis[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.diagnosis.diagnosis[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Claim.diagnosis.diagnosis[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.diagnosis`.\nElement `Claim.diagnosis.diagnosis[x]` is mapped to FHIR R4B element `Claim.diagnosis.diagnosis[x]`.\nNote that the target element context `Claim.diagnosis.diagnosis[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.diagnosis`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.diagnosis.diagnosis" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.diagnosis.diagnosis[x]` is mapped to FHIR DSTU2 element `Claim.diagnosis.diagnosis`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.diagnosis.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.diagnosis.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.diagnosis.type` is mapped to FHIR R4B element `Claim.diagnosis.type`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.diagnosis.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.diagnosis.type` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.diagnosis.onAdmission" ] ;
+       fhir:display [ fhir:v "onAdmission" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.diagnosis.onAdmission" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.diagnosis.onAdmission` is mapped to FHIR R4B element `Claim.diagnosis.onAdmission`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.diagnosis.onAdmission" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.diagnosis.onAdmission` is mapped to FHIR STU3 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.procedure" ] ;
+       fhir:display [ fhir:v "procedure" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.procedure" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.procedure` is mapped to FHIR R4B element `Claim.procedure`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.procedure" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.procedure` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.procedure.sequence" ] ;
+       fhir:display [ fhir:v "sequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.procedure.sequence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.procedure.sequence` is mapped to FHIR R4B element `Claim.procedure.sequence`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.procedure:sequence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.procedure.sequence` is part of an existing definition because parent element `Claim.procedure` requires a cross-version extension.\nElement `Claim.procedure.sequence` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.procedure.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.procedure.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.procedure.type` is mapped to FHIR R4B element `Claim.procedure.type`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.procedure.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.procedure.type` is mapped to FHIR STU3 structure `Claim`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.procedure:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.procedure.type` is part of an existing definition because parent element `Claim.procedure` requires a cross-version extension.\nElement `Claim.procedure.type` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.procedure.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.procedure.date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.procedure.date` is mapped to FHIR R4B element `Claim.procedure.date`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.procedure:date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.procedure.date` is part of an existing definition because parent element `Claim.procedure` requires a cross-version extension.\nElement `Claim.procedure.date` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.procedure.procedure[x]" ] ;
+       fhir:display [ fhir:v "procedure[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.procedure.procedure[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Claim.procedure.procedure[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.procedure`.\nElement `Claim.procedure.procedure[x]` is mapped to FHIR R4B element `Claim.procedure.procedure[x]`.\nNote that the target element context `Claim.procedure.procedure[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.procedure`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.procedure:procedure" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.procedure.procedure[x]` is part of an existing definition because parent element `Claim.procedure` requires a cross-version extension.\nElement `Claim.procedure.procedure[x]` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.procedure.udi" ] ;
+       fhir:display [ fhir:v "udi" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.procedure.udi" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.procedure.udi` is mapped to FHIR R4B element `Claim.procedure.udi`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.procedure.udi" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.procedure.udi` is mapped to FHIR STU3 structure `Claim`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.procedure:udi" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.procedure.udi` is part of an existing definition because parent element `Claim.procedure` requires a cross-version extension.\nElement `Claim.procedure.udi` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.insurance" ] ;
+       fhir:display [ fhir:v "insurance" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.insurance" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurance` is mapped to FHIR R4B element `Claim.insurance`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.coverage" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurance` is mapped to FHIR DSTU2 element `Claim.coverage`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.insurance.sequence" ] ;
+       fhir:display [ fhir:v "sequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.insurance.sequence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurance.sequence` is mapped to FHIR R4B element `Claim.insurance.sequence`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.coverage.sequence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurance.sequence` is mapped to FHIR DSTU2 element `Claim.coverage.sequence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.insurance.focal" ] ;
+       fhir:display [ fhir:v "focal" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.insurance.focal" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurance.focal` is mapped to FHIR R4B element `Claim.insurance.focal`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.coverage.focal" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurance.focal` is mapped to FHIR DSTU2 element `Claim.coverage.focal`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.insurance.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.insurance.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurance.identifier` is mapped to FHIR R4B element `Claim.insurance.identifier`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.insurance.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurance.identifier` is mapped to FHIR STU3 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.insurance.coverage" ] ;
+       fhir:display [ fhir:v "coverage" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.insurance.coverage" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurance.coverage` is mapped to FHIR R4B element `Claim.insurance.coverage`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.coverage.coverage" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurance.coverage` is mapped to FHIR DSTU2 element `Claim.coverage.coverage`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.insurance.businessArrangement" ] ;
+       fhir:display [ fhir:v "businessArrangement" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.insurance.businessArrangement" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurance.businessArrangement` is mapped to FHIR R4B element `Claim.insurance.businessArrangement`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.coverage.businessArrangement" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurance.businessArrangement` is mapped to FHIR DSTU2 element `Claim.coverage.businessArrangement`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.insurance.preAuthRef" ] ;
+       fhir:display [ fhir:v "preAuthRef" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.insurance.preAuthRef" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurance.preAuthRef` is mapped to FHIR R4B element `Claim.insurance.preAuthRef`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.coverage.preAuthRef" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurance.preAuthRef` is mapped to FHIR DSTU2 element `Claim.coverage.preAuthRef`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.insurance.claimResponse" ] ;
+       fhir:display [ fhir:v "claimResponse" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.insurance.claimResponse" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurance.claimResponse` is mapped to FHIR R4B element `Claim.insurance.claimResponse`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.coverage.claimResponse" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurance.claimResponse` is mapped to FHIR DSTU2 element `Claim.coverage.claimResponse`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.accident" ] ;
+       fhir:display [ fhir:v "accident" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.accident" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.accident` is mapped to FHIR R4B element `Claim.accident`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.accident.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.accident.date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.accident.date` is mapped to FHIR R4B element `Claim.accident.date`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.accident" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.accident.date` is mapped to FHIR DSTU2 element `Claim.accident`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.accident.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.accident.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.accident.type` is mapped to FHIR R4B element `Claim.accident.type`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.accidentType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.accident.type` is mapped to FHIR DSTU2 element `Claim.accidentType`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.accident.location[x]" ] ;
+       fhir:display [ fhir:v "location[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.accident.location[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Claim.accident.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.accident`.\nElement `Claim.accident.location[x]` is mapped to FHIR R4B element `Claim.accident.location[x]`.\nNote that the target element context `Claim.accident.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.accident`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.accident.location" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.accident.location[x]` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.patientPaid" ] ;
+       fhir:display [ fhir:v "patientPaid" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.patientPaid" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.patientPaid` is mapped to FHIR R4B structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item" ] ;
+       fhir:display [ fhir:v "item" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item` is mapped to FHIR R4B element `Claim.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.sequence" ] ;
+       fhir:display [ fhir:v "sequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.sequence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.sequence` is mapped to FHIR R4B element `Claim.item.sequence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.traceNumber" ] ;
+       fhir:display [ fhir:v "traceNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.traceNumber" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.traceNumber` is mapped to FHIR R4B structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.careTeamSequence" ] ;
+       fhir:display [ fhir:v "careTeamSequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.careTeamSequence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.careTeamSequence` is mapped to FHIR R4B element `Claim.item.careTeamSequence`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.careTeamLinkId" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.careTeamSequence` is mapped to FHIR STU3 element `Claim.item.careTeamLinkId`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.careTeamSequence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.careTeamSequence` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.diagnosisSequence" ] ;
+       fhir:display [ fhir:v "diagnosisSequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.diagnosisSequence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.diagnosisSequence` is mapped to FHIR R4B element `Claim.item.diagnosisSequence`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.diagnosisLinkId" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.diagnosisSequence` is mapped to FHIR STU3 element `Claim.item.diagnosisLinkId`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.procedureSequence" ] ;
+       fhir:display [ fhir:v "procedureSequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.procedureSequence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.procedureSequence` is mapped to FHIR R4B element `Claim.item.procedureSequence`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.procedureLinkId" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.procedureSequence` is mapped to FHIR STU3 element `Claim.item.procedureLinkId`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.procedureSequence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.procedureSequence` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.informationSequence" ] ;
+       fhir:display [ fhir:v "informationSequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.informationSequence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.informationSequence` is mapped to FHIR R4B element `Claim.item.informationSequence`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.informationLinkId" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.informationSequence` is mapped to FHIR STU3 element `Claim.item.informationLinkId`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.informationSequence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.informationSequence` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.revenue" ] ;
+       fhir:display [ fhir:v "revenue" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.revenue" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.revenue` is mapped to FHIR R4B element `Claim.item.revenue`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.revenue" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.revenue` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.category` is mapped to FHIR R4B element `Claim.item.category`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.category` is mapped to FHIR DSTU2 element `Claim.item.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.productOrService" ] ;
+       fhir:display [ fhir:v "productOrService" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.productOrService" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.productOrService` is mapped to FHIR R4B element `Claim.item.productOrService`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.service" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.productOrService` is mapped to FHIR STU3 element `Claim.item.service`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.productOrServiceEnd" ] ;
+       fhir:display [ fhir:v "productOrServiceEnd" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.productOrServiceEnd" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.productOrServiceEnd` is mapped to FHIR R4B structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.request" ] ;
+       fhir:display [ fhir:v "request" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.request" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.request` is mapped to FHIR R4B structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.modifier" ] ;
+       fhir:display [ fhir:v "modifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.modifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.modifier` is mapped to FHIR R4B element `Claim.item.modifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.programCode" ] ;
+       fhir:display [ fhir:v "programCode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.programCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.programCode` is mapped to FHIR R4B element `Claim.item.programCode`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.programCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.programCode` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.serviced[x]" ] ;
+       fhir:display [ fhir:v "serviced[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.serviced[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Claim.item.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.item`.\nElement `Claim.item.serviced[x]` is mapped to FHIR R4B element `Claim.item.serviced[x]`.\nNote that the target element context `Claim.item.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.item`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.serviceDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.serviced[x]` is mapped to FHIR DSTU2 element `Claim.item.serviceDate`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.location[x]" ] ;
+       fhir:display [ fhir:v "location[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.location[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Claim.item.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.item`.\nElement `Claim.item.location[x]` is mapped to FHIR R4B element `Claim.item.location[x]`.\nNote that the target element context `Claim.item.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.item`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.location" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.location[x]` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.patientPaid" ] ;
+       fhir:display [ fhir:v "patientPaid" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.patientPaid" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.patientPaid` is mapped to FHIR R4B structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.quantity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.quantity` is mapped to FHIR R4B element `Claim.item.quantity`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.unitPrice" ] ;
+       fhir:display [ fhir:v "unitPrice" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.unitPrice" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.unitPrice` is mapped to FHIR R4B element `Claim.item.unitPrice`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.factor" ] ;
+       fhir:display [ fhir:v "factor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.factor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.factor` is mapped to FHIR R4B element `Claim.item.factor`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.points" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.factor` is mapped to FHIR DSTU2 element `Claim.item.points`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.tax" ] ;
+       fhir:display [ fhir:v "tax" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.tax" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.tax` is mapped to FHIR R4B structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.net" ] ;
+       fhir:display [ fhir:v "net" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.net" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.net` is mapped to FHIR R4B element `Claim.item.net`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.udi" ] ;
+       fhir:display [ fhir:v "udi" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.udi" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.udi` is mapped to FHIR R4B element `Claim.item.udi`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.bodySite" ] ;
+       fhir:display [ fhir:v "bodySite" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.bodySite" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.bodySite` is mapped to FHIR R4B element `Claim.item.bodySite`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.bodySite.site" ] ;
+       fhir:display [ fhir:v "site" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.bodySite.site` is mapped to FHIR R4B element `Claim.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.bodySite.subSite" ] ;
+       fhir:display [ fhir:v "subSite" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.subSite" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.bodySite.subSite` is mapped to FHIR R4B element `Claim.item.subSite`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.encounter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.encounter` is mapped to FHIR R4B element `Claim.item.encounter`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.encounter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.encounter` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail" ] ;
+       fhir:display [ fhir:v "detail" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail` is mapped to FHIR R4B element `Claim.item.detail`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.sequence" ] ;
+       fhir:display [ fhir:v "sequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.sequence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.sequence` is mapped to FHIR R4B element `Claim.item.detail.sequence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.traceNumber" ] ;
+       fhir:display [ fhir:v "traceNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.traceNumber" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.traceNumber` is mapped to FHIR R4B structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.revenue" ] ;
+       fhir:display [ fhir:v "revenue" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.revenue" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.revenue` is mapped to FHIR R4B element `Claim.item.detail.revenue`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.revenue" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.revenue` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.category` is mapped to FHIR R4B element `Claim.item.detail.category`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.category` is mapped to FHIR DSTU2 element `Claim.item.detail.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.productOrService" ] ;
+       fhir:display [ fhir:v "productOrService" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.productOrService" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.productOrService` is mapped to FHIR R4B element `Claim.item.detail.productOrService`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.service" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.productOrService` is mapped to FHIR STU3 element `Claim.item.detail.service`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.productOrServiceEnd" ] ;
+       fhir:display [ fhir:v "productOrServiceEnd" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.productOrServiceEnd" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.productOrServiceEnd` is mapped to FHIR R4B structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.modifier" ] ;
+       fhir:display [ fhir:v "modifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.modifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.modifier` is mapped to FHIR R4B element `Claim.item.detail.modifier`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.modifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.modifier` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.programCode" ] ;
+       fhir:display [ fhir:v "programCode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.programCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.programCode` is mapped to FHIR R4B element `Claim.item.detail.programCode`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.programCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.programCode` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.patientPaid" ] ;
+       fhir:display [ fhir:v "patientPaid" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.patientPaid" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.patientPaid` is mapped to FHIR R4B structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.quantity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.quantity` is mapped to FHIR R4B element `Claim.item.detail.quantity`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.unitPrice" ] ;
+       fhir:display [ fhir:v "unitPrice" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.unitPrice" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.unitPrice` is mapped to FHIR R4B element `Claim.item.detail.unitPrice`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.factor" ] ;
+       fhir:display [ fhir:v "factor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.factor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.factor` is mapped to FHIR R4B element `Claim.item.detail.factor`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.points" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.factor` is mapped to FHIR DSTU2 element `Claim.item.detail.points`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.tax" ] ;
+       fhir:display [ fhir:v "tax" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.tax" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.tax` is mapped to FHIR R4B structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.net" ] ;
+       fhir:display [ fhir:v "net" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.net" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.net` is mapped to FHIR R4B element `Claim.item.detail.net`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.udi" ] ;
+       fhir:display [ fhir:v "udi" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.udi" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.udi` is mapped to FHIR R4B element `Claim.item.detail.udi`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail" ] ;
+       fhir:display [ fhir:v "subDetail" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail` is mapped to FHIR R4B element `Claim.item.detail.subDetail`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.sequence" ] ;
+       fhir:display [ fhir:v "sequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.sequence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.sequence` is mapped to FHIR R4B element `Claim.item.detail.subDetail.sequence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.traceNumber" ] ;
+       fhir:display [ fhir:v "traceNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.traceNumber" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.traceNumber` is mapped to FHIR R4B structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.revenue" ] ;
+       fhir:display [ fhir:v "revenue" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.revenue" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.revenue` is mapped to FHIR R4B element `Claim.item.detail.subDetail.revenue`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.revenue" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.revenue` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.category` is mapped to FHIR R4B element `Claim.item.detail.subDetail.category`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.category` is mapped to FHIR DSTU2 element `Claim.item.detail.subDetail.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.productOrService" ] ;
+       fhir:display [ fhir:v "productOrService" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.productOrService" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.productOrService` is mapped to FHIR R4B element `Claim.item.detail.subDetail.productOrService`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.service" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.productOrService` is mapped to FHIR STU3 element `Claim.item.detail.subDetail.service`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.productOrServiceEnd" ] ;
+       fhir:display [ fhir:v "productOrServiceEnd" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.productOrServiceEnd" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.productOrServiceEnd` is mapped to FHIR R4B structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.modifier" ] ;
+       fhir:display [ fhir:v "modifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.modifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.modifier` is mapped to FHIR R4B element `Claim.item.detail.subDetail.modifier`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.modifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.modifier` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.programCode" ] ;
+       fhir:display [ fhir:v "programCode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.programCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.programCode` is mapped to FHIR R4B element `Claim.item.detail.subDetail.programCode`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.programCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.programCode` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.patientPaid" ] ;
+       fhir:display [ fhir:v "patientPaid" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.patientPaid" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.patientPaid` is mapped to FHIR R4B structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.quantity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.quantity` is mapped to FHIR R4B element `Claim.item.detail.subDetail.quantity`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.unitPrice" ] ;
+       fhir:display [ fhir:v "unitPrice" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.unitPrice" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.unitPrice` is mapped to FHIR R4B element `Claim.item.detail.subDetail.unitPrice`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.factor" ] ;
+       fhir:display [ fhir:v "factor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.factor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.factor` is mapped to FHIR R4B element `Claim.item.detail.subDetail.factor`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.points" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.factor` is mapped to FHIR DSTU2 element `Claim.item.detail.subDetail.points`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.tax" ] ;
+       fhir:display [ fhir:v "tax" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.tax" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.tax` is mapped to FHIR R4B structure `Claim`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.net" ] ;
+       fhir:display [ fhir:v "net" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.net" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.net` is mapped to FHIR R4B element `Claim.item.detail.subDetail.net`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.udi" ] ;
+       fhir:display [ fhir:v "udi" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.item.detail.subDetail.udi" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.udi` is mapped to FHIR R4B element `Claim.item.detail.subDetail.udi`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.total" ] ;
+       fhir:display [ fhir:v "total" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Claim#Claim.total" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.total` is mapped to FHIR R4B element `Claim.total`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.total" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Claim.total` is mapped to FHIR DSTU2 structure `Claim`, but has no target element specified." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

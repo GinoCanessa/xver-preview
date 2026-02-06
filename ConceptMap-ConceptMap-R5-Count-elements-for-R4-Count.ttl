@@ -1,0 +1,176 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-Count-elements-for-R4-Count> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-Count-elements-for-R4-Count"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-Count-elements-for-R4-Count</b></p><a name=\"ConceptMap-R5-Count-elements-for-R4-Count\"> </a><a name=\"hcConceptMap-R5-Count-elements-for-R4-Count\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Count|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Count|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Count</td><td style=\"border-left-width: 0px; border-bottom-style: none\">Count</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Count#Count</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 ComplexType `Count` is representable via FHIR R4B extensions.\nElement `Count` is mapped to FHIR R4B element `Count`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Count#Quantity</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 ComplexType `Count` is representable via FHIR DSTU2 extensions.\nElement `Count` is mapped to FHIR DSTU2 element `Quantity`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Count.value</td><td style=\"border-left-width: 0px; border-bottom-style: none\">value</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Count#Count.value</td><td style=\"border-left-width: 0px\"/><td>Element `Count.value` is mapped to FHIR R4B element `Count.value`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Count#Quantity.value</td><td style=\"border-left-width: 0px\"/><td>Element `Count.value` is mapped to FHIR DSTU2 element `Quantity.value`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Count.comparator</td><td style=\"border-left-width: 0px; border-bottom-style: none\">comparator</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Count#Count.comparator</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Count.comparator` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Count.comparator` is mapped to FHIR R4B element `Count.comparator`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Count#Quantity.comparator</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Quantity.comparator` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Count.comparator` is mapped to FHIR DSTU2 element `Quantity.comparator`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Count.unit</td><td style=\"border-left-width: 0px; border-bottom-style: none\">unit</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Count#Count.unit</td><td style=\"border-left-width: 0px\"/><td>Element `Count.unit` is mapped to FHIR R4B element `Count.unit`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Count#Quantity.unit</td><td style=\"border-left-width: 0px\"/><td>Element `Count.unit` is mapped to FHIR DSTU2 element `Quantity.unit`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Count.system</td><td style=\"border-left-width: 0px; border-bottom-style: none\">system</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Count#Count.system</td><td style=\"border-left-width: 0px\"/><td>Element `Count.system` is mapped to FHIR R4B element `Count.system`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Count#Quantity.system</td><td style=\"border-left-width: 0px\"/><td>Element `Count.system` is mapped to FHIR DSTU2 element `Quantity.system`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Count.code</td><td style=\"border-left-width: 0px; border-bottom-style: none\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Count#Count.code</td><td style=\"border-left-width: 0px\"/><td>Element `Count.code` is mapped to FHIR R4B element `Count.code`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Count#Quantity.code</td><td style=\"border-left-width: 0px\"/><td>Element `Count.code` is mapped to FHIR DSTU2 element `Quantity.code`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Count-elements-for-R4-Count"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Count-elements-for-R4-Count>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5CountElementsForR4Count"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:31.9430884-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Count"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Count>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Count" ] ;
+       fhir:display [ fhir:v "Count" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Count#Count" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 ComplexType `Count` is representable via FHIR R4B extensions.\nElement `Count` is mapped to FHIR R4B element `Count`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Count#Quantity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 ComplexType `Count` is representable via FHIR DSTU2 extensions.\nElement `Count` is mapped to FHIR DSTU2 element `Quantity`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Count.value" ] ;
+       fhir:display [ fhir:v "value" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Count#Count.value" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Count.value` is mapped to FHIR R4B element `Count.value`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Count#Quantity.value" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Count.value` is mapped to FHIR DSTU2 element `Quantity.value`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Count.comparator" ] ;
+       fhir:display [ fhir:v "comparator" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Count#Count.comparator" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Count.comparator` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Count.comparator` is mapped to FHIR R4B element `Count.comparator`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Count#Quantity.comparator" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Quantity.comparator` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Count.comparator` is mapped to FHIR DSTU2 element `Quantity.comparator`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Count.unit" ] ;
+       fhir:display [ fhir:v "unit" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Count#Count.unit" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Count.unit` is mapped to FHIR R4B element `Count.unit`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Count#Quantity.unit" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Count.unit` is mapped to FHIR DSTU2 element `Quantity.unit`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Count.system" ] ;
+       fhir:display [ fhir:v "system" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Count#Count.system" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Count.system` is mapped to FHIR R4B element `Count.system`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Count#Quantity.system" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Count.system` is mapped to FHIR DSTU2 element `Quantity.system`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Count.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Count#Count.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Count.code` is mapped to FHIR R4B element `Count.code`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Count#Quantity.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Count.code` is mapped to FHIR DSTU2 element `Quantity.code`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

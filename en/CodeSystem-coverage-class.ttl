@@ -1,0 +1,157 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/coverage-class> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "coverage-class"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://terminology.hl7.org/CodeSystem/coverage-class</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">group<a name=\"coverage-class-group\"> </a></td><td>Group</td><td>An employee group</td></tr><tr><td style=\"white-space:nowrap\">subgroup<a name=\"coverage-class-subgroup\"> </a></td><td>SubGroup</td><td>A sub-group of an employee group</td></tr><tr><td style=\"white-space:nowrap\">plan<a name=\"coverage-class-plan\"> </a></td><td>Plan</td><td>A specific suite of benefits.</td></tr><tr><td style=\"white-space:nowrap\">subplan<a name=\"coverage-class-subplan\"> </a></td><td>SubPlan</td><td>A subset of a specific suite of benefits.</td></tr><tr><td style=\"white-space:nowrap\">class<a name=\"coverage-class-class\"> </a></td><td>Class</td><td>A class of benefits.</td></tr><tr><td style=\"white-space:nowrap\">subclass<a name=\"coverage-class-subclass\"> </a></td><td>SubClass</td><td>A subset of a class of benefits.</td></tr><tr><td style=\"white-space:nowrap\">sequence<a name=\"coverage-class-sequence\"> </a></td><td>Sequence</td><td>A sequence number associated with a short-term continuance of the coverage.</td></tr><tr><td style=\"white-space:nowrap\">rxbin<a name=\"coverage-class-rxbin\"> </a></td><td>RX BIN</td><td>Pharmacy benefit manager's Business Identification Number.</td></tr><tr><td style=\"white-space:nowrap\">rxpcn<a name=\"coverage-class-rxpcn\"> </a></td><td>RX PCN</td><td>A Pharmacy Benefit Manager specified Processor Control Number.</td></tr><tr><td style=\"white-space:nowrap\">rxid<a name=\"coverage-class-rxid\"> </a></td><td>RX Id</td><td>A Pharmacy Benefit Manager specified Member ID.</td></tr><tr><td style=\"white-space:nowrap\">rxgroup<a name=\"coverage-class-rxgroup\"> </a></td><td>RX Group</td><td>A Pharmacy Benefit Manager specified Group number.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 2
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fm"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/coverage-class"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/coverage-class>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "CoverageClassCodes"] ; # 
+  fhir:title [ fhir:v "Coverage Class Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2023-02-25T12:07:30-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Financial Management"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7.org/fhir" ]
+     ] )
+  ] [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7.org/fhir" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This value set includes Coverage Class codes."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:copyright [ fhir:v "HL7 Inc."] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/coverage-class|1.0.1"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/coverage-class?version=1.0.1>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "group" ] ;
+     fhir:display [ fhir:v "Group" ] ;
+     fhir:definition [ fhir:v "An employee group" ]
+  ] [
+     fhir:code [ fhir:v "subgroup" ] ;
+     fhir:display [ fhir:v "SubGroup" ] ;
+     fhir:definition [ fhir:v "A sub-group of an employee group" ]
+  ] [
+     fhir:code [ fhir:v "plan" ] ;
+     fhir:display [ fhir:v "Plan" ] ;
+     fhir:definition [ fhir:v "A specific suite of benefits." ]
+  ] [
+     fhir:code [ fhir:v "subplan" ] ;
+     fhir:display [ fhir:v "SubPlan" ] ;
+     fhir:definition [ fhir:v "A subset of a specific suite of benefits." ]
+  ] [
+     fhir:code [ fhir:v "class" ] ;
+     fhir:display [ fhir:v "Class" ] ;
+     fhir:definition [ fhir:v "A class of benefits." ]
+  ] [
+     fhir:code [ fhir:v "subclass" ] ;
+     fhir:display [ fhir:v "SubClass" ] ;
+     fhir:definition [ fhir:v "A subset of a class of benefits." ]
+  ] [
+     fhir:code [ fhir:v "sequence" ] ;
+     fhir:display [ fhir:v "Sequence" ] ;
+     fhir:definition [ fhir:v "A sequence number associated with a short-term continuance of the coverage." ]
+  ] [
+     fhir:code [ fhir:v "rxbin" ] ;
+     fhir:display [ fhir:v "RX BIN" ] ;
+     fhir:definition [ fhir:v "Pharmacy benefit manager's Business Identification Number." ]
+  ] [
+     fhir:code [ fhir:v "rxpcn" ] ;
+     fhir:display [ fhir:v "RX PCN" ] ;
+     fhir:definition [ fhir:v "A Pharmacy Benefit Manager specified Processor Control Number." ]
+  ] [
+     fhir:code [ fhir:v "rxid" ] ;
+     fhir:display [ fhir:v "RX Id" ] ;
+     fhir:definition [ fhir:v "A Pharmacy Benefit Manager specified Member ID." ]
+  ] [
+     fhir:code [ fhir:v "rxgroup" ] ;
+     fhir:display [ fhir:v "RX Group" ] ;
+     fhir:definition [ fhir:v "A Pharmacy Benefit Manager specified Group number." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

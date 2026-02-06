@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="code-search-support"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/code-search-support</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">in-compose
+                  <a name="code-search-support-in-compose"> </a>
+                </td>
+                <td>In Compose</td>
+                <td>The search for code on ValueSet returns ValueSet resources where the code is included in the extensional definition of the ValueSet.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">in-expansion
+                  <a name="code-search-support-in-expansion"> </a>
+                </td>
+                <td>In Expansion</td>
+                <td>The search for code on ValueSet returns ValueSet resources where the code is contained in the  ValueSet expansion.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">in-compose-or-expansion
+                  <a name="code-search-support-in-compose-or-expansion"> </a>
+                </td>
+                <td>In Compose Or Expansion</td>
+                <td>The search for code on ValueSet returns ValueSet resources where the code is included in the extensional definition or contained in the ValueSet expansion.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="vocab"/>
+  </extension>
+  <url value="http://hl7.org/fhir/code-search-support"/>
+  <version value="5.0.0"/>
+  <name value="CodeSearchSupport"/>
+  <title value="Code Search Support"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2022-08-30T19:21:22-05:00"/>
+  <publisher value="HL7 International / Terminology Infrastructure"/>
+  <contact>
+    <name value="HL7 International / Terminology Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/Vocab"/>
+    </telecom>
+  </contact>
+  <description value="The degree to which the server supports the code search parameter on ValueSet, if it is supported."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/code-search-support|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="in-compose"/>
+    <display value="In Compose"/>
+    <definition value="The search for code on ValueSet returns ValueSet resources where the code is included in the extensional definition of the ValueSet."/>
+  </concept>
+  <concept>
+    <code value="in-expansion"/>
+    <display value="In Expansion"/>
+    <definition value="The search for code on ValueSet returns ValueSet resources where the code is contained in the  ValueSet expansion."/>
+  </concept>
+  <concept>
+    <code value="in-compose-or-expansion"/>
+    <display value="In Compose Or Expansion"/>
+    <definition value="The search for code on ValueSet returns ValueSet resources where the code is included in the extensional definition or contained in the ValueSet expansion."/>
+  </concept>
+</CodeSystem>

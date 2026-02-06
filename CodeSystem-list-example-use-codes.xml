@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="list-example-use-codes"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://terminology.hl7.org/CodeSystem/list-example-use-codes</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">alerts<a name="list-example-use-codes-alerts"> </a></td><td>Alerts</td><td>A list of alerts for the patient.</td></tr><tr><td style="white-space:nowrap">adverserxns<a name="list-example-use-codes-adverserxns"> </a></td><td>Adverse Reactions</td><td>A list of part adverse reactions.</td></tr><tr><td style="white-space:nowrap">allergies<a name="list-example-use-codes-allergies"> </a></td><td>Allergies</td><td>A list of Allergies for the patient.</td></tr><tr><td style="white-space:nowrap">medications<a name="list-example-use-codes-medications"> </a></td><td>Medication List</td><td>A list of medication statements for the patient.</td></tr><tr><td style="white-space:nowrap">problems<a name="list-example-use-codes-problems"> </a></td><td>Problem List</td><td>A list of problems that the patient is known of have (or have had in the past).</td></tr><tr><td style="white-space:nowrap">worklist<a name="list-example-use-codes-worklist"> </a></td><td>Worklist</td><td>A list of items that constitute a set of work to be performed (typically this code would be specialized for more specific uses, such as a ward round list).</td></tr><tr><td style="white-space:nowrap">waiting<a name="list-example-use-codes-waiting"> </a></td><td>Waiting List</td><td>A list of items waiting for an event (perhaps a surgical patient waiting list).</td></tr><tr><td style="white-space:nowrap">protocols<a name="list-example-use-codes-protocols"> </a></td><td>Protocols</td><td>A set of protocols to be followed.</td></tr><tr><td style="white-space:nowrap">plans<a name="list-example-use-codes-plans"> </a></td><td>Care Plans</td><td>A set of care plans that apply in a particular context of care.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/list-example-use-codes"/>
+  <version value="0.1.0"/>
+  <name value="ExampleUseCodesForList"/>
+  <title value="Example Use Codes for List"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2023-02-25T12:07:30-06:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="Example use codes for the List resource - typical kinds of use."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/list-example-codes|1.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="alerts"/>
+    <display value="Alerts"/>
+    <definition value="A list of alerts for the patient."/>
+  </concept>
+  <concept>
+    <code value="adverserxns"/>
+    <display value="Adverse Reactions"/>
+    <definition value="A list of part adverse reactions."/>
+  </concept>
+  <concept>
+    <code value="allergies"/>
+    <display value="Allergies"/>
+    <definition value="A list of Allergies for the patient."/>
+  </concept>
+  <concept>
+    <code value="medications"/>
+    <display value="Medication List"/>
+    <definition value="A list of medication statements for the patient."/>
+  </concept>
+  <concept>
+    <code value="problems"/>
+    <display value="Problem List"/>
+    <definition value="A list of problems that the patient is known of have (or have had in the past)."/>
+  </concept>
+  <concept>
+    <code value="worklist"/>
+    <display value="Worklist"/>
+    <definition value="A list of items that constitute a set of work to be performed (typically this code would be specialized for more specific uses, such as a ward round list)."/>
+  </concept>
+  <concept>
+    <code value="waiting"/>
+    <display value="Waiting List"/>
+    <definition value="A list of items waiting for an event (perhaps a surgical patient waiting list)."/>
+  </concept>
+  <concept>
+    <code value="protocols"/>
+    <display value="Protocols"/>
+    <definition value="A set of protocols to be followed."/>
+  </concept>
+  <concept>
+    <code value="plans"/>
+    <display value="Care Plans"/>
+    <definition value="A set of care plans that apply in a particular context of care."/>
+  </concept>
+</CodeSystem>

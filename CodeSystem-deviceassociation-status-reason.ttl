@@ -1,0 +1,118 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/deviceassociation-status-reason> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "deviceassociation-status-reason"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <p>This code system \n              <code>http://hl7.org/fhir/deviceassociation-status-reason</code> defines the following codes:\n            </p>\n            <table class=\"codes\">\n              <tr>\n                <td style=\"white-space:nowrap\">\n                  <b>Code</b>\n                </td>\n                <td>\n                  <b>Display</b>\n                </td>\n                <td>\n                  <b>Definition</b>\n                </td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">attached\n                  <a name=\"deviceassociation-status-reason-attached\"> </a>\n                </td>\n                <td>Attached</td>\n                <td>The device is connected to the patient.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">disconnected\n                  <a name=\"deviceassociation-status-reason-disconnected\"> </a>\n                </td>\n                <td>Disconnected</td>\n                <td>The device is no longer connected.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">failed\n                  <a name=\"deviceassociation-status-reason-failed\"> </a>\n                </td>\n                <td>Failed</td>\n                <td>The device has failed to work, or continue to function.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">placed\n                  <a name=\"deviceassociation-status-reason-placed\"> </a>\n                </td>\n                <td>placed</td>\n                <td>The device was placed in the patient.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">replaced\n                  <a name=\"deviceassociation-status-reason-replaced\"> </a>\n                </td>\n                <td>Replaced</td>\n                <td>The device was updated with a new device or device part.</td>\n              </tr>\n            </table>\n          </div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "oo"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/deviceassociation-status-reason"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/deviceassociation-status-reason>
+  ] ; # 
+  fhir:version [ fhir:v "5.0.0"] ; # 
+  fhir:name [ fhir:v "DeviceassociationStatusReason"] ; # 
+  fhir:title [ fhir:v "DeviceAssociation Status Reason Codes"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:22:22-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Orders and Observations"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Orders and Observations" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/orders" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "DeviceAssociation Status Reason Codes"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://hl7.org/fhir/ValueSet/deviceassociation-status-reason"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/deviceassociation-status-reason>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "attached" ] ;
+     fhir:display [ fhir:v "Attached" ] ;
+     fhir:definition [ fhir:v "The device is connected to the patient." ]
+  ] [
+     fhir:code [ fhir:v "disconnected" ] ;
+     fhir:display [ fhir:v "Disconnected" ] ;
+     fhir:definition [ fhir:v "The device is no longer connected." ]
+  ] [
+     fhir:code [ fhir:v "failed" ] ;
+     fhir:display [ fhir:v "Failed" ] ;
+     fhir:definition [ fhir:v "The device has failed to work, or continue to function." ]
+  ] [
+     fhir:code [ fhir:v "placed" ] ;
+     fhir:display [ fhir:v "placed" ] ;
+     fhir:definition [ fhir:v "The device was placed in the patient." ]
+  ] [
+     fhir:code [ fhir:v "replaced" ] ;
+     fhir:display [ fhir:v "Replaced" ] ;
+     fhir:definition [ fhir:v "The device was updated with a new device or device part." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

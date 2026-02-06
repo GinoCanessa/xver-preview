@@ -1,0 +1,377 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-ClinicalImpression-elements-for-R4-ClinicalImpression> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-ClinicalImpression-elements-for-R4-ClinicalImpression"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-ClinicalImpression-elements-for-R4-ClinicalImpression</b></p><a name=\"ConceptMap-R5-ClinicalImpression-elements-for-R4-ClinicalImpression\"> </a><a name=\"hcConceptMap-R5-ClinicalImpression-elements-for-R4-ClinicalImpression\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ClinicalImpression|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/ClinicalImpression|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">ClinicalImpression</td><td style=\"border-left-width: 0px\">ClinicalImpression</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `ClinicalImpression` is representable via FHIR R4B Resource `ClinicalImpression`.\nElement `ClinicalImpression` is mapped to FHIR R4B element `ClinicalImpression`.</td></tr><tr><td style=\"border-right-width: 0px\">ClinicalImpression.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.meta</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.meta` is mapped to FHIR R4B element `ClinicalImpression.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">ClinicalImpression.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.implicitRules` is mapped to FHIR R4B element `ClinicalImpression.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">ClinicalImpression.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.language</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.language` is mapped to FHIR R4B element `ClinicalImpression.language`.</td></tr><tr><td style=\"border-right-width: 0px\">ClinicalImpression.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.text</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.text` is mapped to FHIR R4B element `ClinicalImpression.text`.</td></tr><tr><td style=\"border-right-width: 0px\">ClinicalImpression.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.contained</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.contained` is mapped to FHIR R4B element `ClinicalImpression.contained`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ClinicalImpression.identifier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.identifier` is mapped to FHIR R4B element `ClinicalImpression.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.identifier</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `ClinicalImpression.identifier` is mapped to FHIR DSTU2 structure `ClinicalImpression`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">ClinicalImpression.status</td><td style=\"border-left-width: 0px\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.status</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `ClinicalImpression.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `ClinicalImpression.status` is mapped to FHIR R4B element `ClinicalImpression.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ClinicalImpression.statusReason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">statusReason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.statusReason</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.statusReason` is mapped to FHIR R4B element `ClinicalImpression.statusReason`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ClinicalImpression.statusReason</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.statusReason` is mapped to FHIR STU3 structure `ClinicalImpression`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">ClinicalImpression.description</td><td style=\"border-left-width: 0px\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.description</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.description` is mapped to FHIR R4B element `ClinicalImpression.description`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ClinicalImpression.subject</td><td style=\"border-left-width: 0px; border-bottom-style: none\">subject</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.subject</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.subject` is mapped to FHIR R4B element `ClinicalImpression.subject`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.patient</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.subject`, use that element instead.\nElement `ClinicalImpression.subject` is mapped to FHIR DSTU2 element `ClinicalImpression.patient`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ClinicalImpression.encounter</td><td style=\"border-left-width: 0px; border-bottom-style: none\">encounter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.encounter</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.encounter` is mapped to FHIR R4B element `ClinicalImpression.encounter`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.context</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.encounter` is mapped to FHIR STU3 element `ClinicalImpression.context`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ClinicalImpression.encounter</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.encounter` is mapped to FHIR DSTU2 structure `ClinicalImpression`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ClinicalImpression.effective[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">effective[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.effective[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `ClinicalImpression.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClinicalImpression`.\nElement `ClinicalImpression.effective[x]` is mapped to FHIR R4B element `ClinicalImpression.effective[x]`.\nNote that the target element context `ClinicalImpression.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClinicalImpression`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ClinicalImpression.effective</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.effective[x]` is mapped to FHIR DSTU2 structure `ClinicalImpression`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">ClinicalImpression.date</td><td style=\"border-left-width: 0px\">date</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.date</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.date` is mapped to FHIR R4B element `ClinicalImpression.date`.</td></tr><tr><td style=\"border-right-width: 0px\">ClinicalImpression.performer</td><td style=\"border-left-width: 0px\">performer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.assessor</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.performer` is mapped to FHIR R4B element `ClinicalImpression.assessor`.</td></tr><tr><td style=\"border-right-width: 0px\">ClinicalImpression.previous</td><td style=\"border-left-width: 0px\">previous</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.previous</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.previous` is mapped to FHIR R4B element `ClinicalImpression.previous`.</td></tr><tr><td style=\"border-right-width: 0px\">ClinicalImpression.problem</td><td style=\"border-left-width: 0px\">problem</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.problem</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.problem` is mapped to FHIR R4B element `ClinicalImpression.problem`.</td></tr><tr><td style=\"border-right-width: 0px\">ClinicalImpression.changePattern</td><td style=\"border-left-width: 0px\">changePattern</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ClinicalImpression.changePattern</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.changePattern` is mapped to FHIR R4B structure `ClinicalImpression`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">ClinicalImpression.protocol</td><td style=\"border-left-width: 0px\">protocol</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.protocol</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.protocol` is mapped to FHIR R4B element `ClinicalImpression.protocol`.</td></tr><tr><td style=\"border-right-width: 0px\">ClinicalImpression.summary</td><td style=\"border-left-width: 0px\">summary</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.summary</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.summary` is mapped to FHIR R4B element `ClinicalImpression.summary`.</td></tr><tr><td style=\"border-right-width: 0px\">ClinicalImpression.finding</td><td style=\"border-left-width: 0px\">finding</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.finding</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.finding` is mapped to FHIR R4B element `ClinicalImpression.finding`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ClinicalImpression.finding.item</td><td style=\"border-left-width: 0px; border-bottom-style: none\">item</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.finding.itemCodeableConcept</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.finding.item` is mapped to FHIR R4B element `ClinicalImpression.finding.itemCodeableConcept`.\nElement `ClinicalImpression.finding.item` is mapped to FHIR R4B element `ClinicalImpression.finding.itemReference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.finding.itemReference</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.finding.item` is mapped to FHIR R4B element `ClinicalImpression.finding.itemCodeableConcept`.\nElement `ClinicalImpression.finding.item` is mapped to FHIR R4B element `ClinicalImpression.finding.itemReference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.finding.item[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `ClinicalImpression.finding.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClinicalImpression.finding`.\nElement `ClinicalImpression.finding.item` is mapped to FHIR STU3 element `ClinicalImpression.finding.item[x]`.\nNote that the target element context `ClinicalImpression.finding.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClinicalImpression.finding`.\nElement `ClinicalImpression.finding.item` is mapped to FHIR STU3 element `ClinicalImpression.finding.item[x]`.\nNote that the target element context `ClinicalImpression.finding.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClinicalImpression.finding`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.finding.item</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.finding.item` is mapped to FHIR DSTU2 element `ClinicalImpression.finding.item`.\nElement `ClinicalImpression.finding.item` is mapped to FHIR DSTU2 element `ClinicalImpression.finding.item`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ClinicalImpression.finding.basis</td><td style=\"border-left-width: 0px; border-bottom-style: none\">basis</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.finding.basis</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.finding.basis` is mapped to FHIR R4B element `ClinicalImpression.finding.basis`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.finding.cause</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.finding.basis` is mapped to FHIR DSTU2 element `ClinicalImpression.finding.cause`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ClinicalImpression.prognosisCodeableConcept</td><td style=\"border-left-width: 0px; border-bottom-style: none\">prognosisCodeableConcept</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.prognosisCodeableConcept</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.prognosisCodeableConcept` is mapped to FHIR R4B element `ClinicalImpression.prognosisCodeableConcept`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ClinicalImpression.prognosisCodeableConcept</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.prognosisCodeableConcept` is mapped to FHIR DSTU2 structure `ClinicalImpression`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ClinicalImpression.prognosisReference</td><td style=\"border-left-width: 0px; border-bottom-style: none\">prognosisReference</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.prognosisReference</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.prognosisReference` is mapped to FHIR R4B element `ClinicalImpression.prognosisReference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ClinicalImpression.prognosisReference</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.prognosisReference` is mapped to FHIR DSTU2 structure `ClinicalImpression`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ClinicalImpression.supportingInfo</td><td style=\"border-left-width: 0px; border-bottom-style: none\">supportingInfo</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.supportingInfo</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.supportingInfo` is mapped to FHIR R4B element `ClinicalImpression.supportingInfo`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ClinicalImpression.supportingInfo</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.supportingInfo` is mapped to FHIR STU3 structure `ClinicalImpression`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ClinicalImpression.note</td><td style=\"border-left-width: 0px; border-bottom-style: none\">note</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.note</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.note` is mapped to FHIR R4B element `ClinicalImpression.note`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ClinicalImpression.note</td><td style=\"border-left-width: 0px\"/><td>Element `ClinicalImpression.note` is mapped to FHIR DSTU2 structure `ClinicalImpression`, but has no target element specified.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-ClinicalImpression-elements-for-R4-ClinicalImpression"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-ClinicalImpression-elements-for-R4-ClinicalImpression>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5ClinicalImpressionElementsForR4ClinicalImpression"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:31.5697803-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/ClinicalImpression>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "ClinicalImpression" ] ;
+       fhir:display [ fhir:v "ClinicalImpression" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `ClinicalImpression` is representable via FHIR R4B Resource `ClinicalImpression`.\nElement `ClinicalImpression` is mapped to FHIR R4B element `ClinicalImpression`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ClinicalImpression.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.meta` is mapped to FHIR R4B element `ClinicalImpression.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ClinicalImpression.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.implicitRules` is mapped to FHIR R4B element `ClinicalImpression.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ClinicalImpression.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.language` is mapped to FHIR R4B element `ClinicalImpression.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ClinicalImpression.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.text` is mapped to FHIR R4B element `ClinicalImpression.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ClinicalImpression.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.contained` is mapped to FHIR R4B element `ClinicalImpression.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ClinicalImpression.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.identifier` is mapped to FHIR R4B element `ClinicalImpression.identifier`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `ClinicalImpression.identifier` is mapped to FHIR DSTU2 structure `ClinicalImpression`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ClinicalImpression.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `ClinicalImpression.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `ClinicalImpression.status` is mapped to FHIR R4B element `ClinicalImpression.status`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ClinicalImpression.statusReason" ] ;
+       fhir:display [ fhir:v "statusReason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.statusReason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.statusReason` is mapped to FHIR R4B element `ClinicalImpression.statusReason`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClinicalImpression.statusReason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.statusReason` is mapped to FHIR STU3 structure `ClinicalImpression`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ClinicalImpression.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.description` is mapped to FHIR R4B element `ClinicalImpression.description`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ClinicalImpression.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.subject` is mapped to FHIR R4B element `ClinicalImpression.subject`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.patient" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `ClinicalImpression.subject` is mapped to FHIR DSTU2 element `ClinicalImpression.patient`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ClinicalImpression.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.encounter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.encounter` is mapped to FHIR R4B element `ClinicalImpression.encounter`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.context" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.encounter` is mapped to FHIR STU3 element `ClinicalImpression.context`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClinicalImpression.encounter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.encounter` is mapped to FHIR DSTU2 structure `ClinicalImpression`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ClinicalImpression.effective[x]" ] ;
+       fhir:display [ fhir:v "effective[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.effective[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `ClinicalImpression.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClinicalImpression`.\nElement `ClinicalImpression.effective[x]` is mapped to FHIR R4B element `ClinicalImpression.effective[x]`.\nNote that the target element context `ClinicalImpression.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClinicalImpression`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClinicalImpression.effective" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.effective[x]` is mapped to FHIR DSTU2 structure `ClinicalImpression`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ClinicalImpression.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.date` is mapped to FHIR R4B element `ClinicalImpression.date`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ClinicalImpression.performer" ] ;
+       fhir:display [ fhir:v "performer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.assessor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.performer` is mapped to FHIR R4B element `ClinicalImpression.assessor`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ClinicalImpression.previous" ] ;
+       fhir:display [ fhir:v "previous" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.previous" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.previous` is mapped to FHIR R4B element `ClinicalImpression.previous`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ClinicalImpression.problem" ] ;
+       fhir:display [ fhir:v "problem" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.problem" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.problem` is mapped to FHIR R4B element `ClinicalImpression.problem`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ClinicalImpression.changePattern" ] ;
+       fhir:display [ fhir:v "changePattern" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClinicalImpression.changePattern" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.changePattern` is mapped to FHIR R4B structure `ClinicalImpression`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ClinicalImpression.protocol" ] ;
+       fhir:display [ fhir:v "protocol" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.protocol" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.protocol` is mapped to FHIR R4B element `ClinicalImpression.protocol`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ClinicalImpression.summary" ] ;
+       fhir:display [ fhir:v "summary" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.summary" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.summary` is mapped to FHIR R4B element `ClinicalImpression.summary`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ClinicalImpression.finding" ] ;
+       fhir:display [ fhir:v "finding" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.finding" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.finding` is mapped to FHIR R4B element `ClinicalImpression.finding`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ClinicalImpression.finding.item" ] ;
+       fhir:display [ fhir:v "item" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.finding.itemCodeableConcept" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.finding.item` is mapped to FHIR R4B element `ClinicalImpression.finding.itemCodeableConcept`.\nElement `ClinicalImpression.finding.item` is mapped to FHIR R4B element `ClinicalImpression.finding.itemReference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.finding.itemReference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.finding.item` is mapped to FHIR R4B element `ClinicalImpression.finding.itemCodeableConcept`.\nElement `ClinicalImpression.finding.item` is mapped to FHIR R4B element `ClinicalImpression.finding.itemReference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.finding.item[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `ClinicalImpression.finding.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClinicalImpression.finding`.\nElement `ClinicalImpression.finding.item` is mapped to FHIR STU3 element `ClinicalImpression.finding.item[x]`.\nNote that the target element context `ClinicalImpression.finding.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClinicalImpression.finding`.\nElement `ClinicalImpression.finding.item` is mapped to FHIR STU3 element `ClinicalImpression.finding.item[x]`.\nNote that the target element context `ClinicalImpression.finding.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClinicalImpression.finding`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.finding.item" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.finding.item` is mapped to FHIR DSTU2 element `ClinicalImpression.finding.item`.\nElement `ClinicalImpression.finding.item` is mapped to FHIR DSTU2 element `ClinicalImpression.finding.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ClinicalImpression.finding.basis" ] ;
+       fhir:display [ fhir:v "basis" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.finding.basis" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.finding.basis` is mapped to FHIR R4B element `ClinicalImpression.finding.basis`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.finding.cause" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.finding.basis` is mapped to FHIR DSTU2 element `ClinicalImpression.finding.cause`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ClinicalImpression.prognosisCodeableConcept" ] ;
+       fhir:display [ fhir:v "prognosisCodeableConcept" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.prognosisCodeableConcept" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.prognosisCodeableConcept` is mapped to FHIR R4B element `ClinicalImpression.prognosisCodeableConcept`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClinicalImpression.prognosisCodeableConcept" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.prognosisCodeableConcept` is mapped to FHIR DSTU2 structure `ClinicalImpression`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ClinicalImpression.prognosisReference" ] ;
+       fhir:display [ fhir:v "prognosisReference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.prognosisReference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.prognosisReference` is mapped to FHIR R4B element `ClinicalImpression.prognosisReference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClinicalImpression.prognosisReference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.prognosisReference` is mapped to FHIR DSTU2 structure `ClinicalImpression`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ClinicalImpression.supportingInfo" ] ;
+       fhir:display [ fhir:v "supportingInfo" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.supportingInfo" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.supportingInfo` is mapped to FHIR R4B element `ClinicalImpression.supportingInfo`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClinicalImpression.supportingInfo" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.supportingInfo` is mapped to FHIR STU3 structure `ClinicalImpression`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ClinicalImpression.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.note` is mapped to FHIR R4B element `ClinicalImpression.note`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClinicalImpression.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ClinicalImpression.note` is mapped to FHIR DSTU2 structure `ClinicalImpression`, but has no target element specified." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

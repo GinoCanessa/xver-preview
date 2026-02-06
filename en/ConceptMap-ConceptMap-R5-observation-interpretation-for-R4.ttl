@@ -1,0 +1,515 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-observation-interpretation-for-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-observation-interpretation-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-observation-interpretation-for-R4</b></p><a name=\"ConceptMap-R5-observation-interpretation-for-R4\"> </a><a name=\"hcConceptMap-R5-observation-interpretation-for-R4\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-ObservationInterpretation.html\">ObservationInterpretationversion: 3.0.0)</a> to <a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-ObservationInterpretation.html\">ObservationInterpretationversion: 3.0.0)</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from <a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-ObservationInterpretation.html\" title=\"http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation|3.0.0\">ObservationInterpretation</a></td><td colspan=\"2\"><b>Codes</b> from <a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-ObservationInterpretation.html\" title=\"http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation|3.0.0\">ObservationInterpretation</a></td><td/></tr><tr><td style=\"border-right-width: 0px\">&lt;</td><td style=\"border-left-width: 0px\">Off scale low</td><td style=\"border-right-width: 0px\">&lt;</td><td style=\"border-left-width: 0px\">Off scale low</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">&gt;</td><td style=\"border-left-width: 0px\">Off scale high</td><td style=\"border-right-width: 0px\">&gt;</td><td style=\"border-left-width: 0px\">Off scale high</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">A</td><td style=\"border-left-width: 0px\">Abnormal</td><td style=\"border-right-width: 0px\">A</td><td style=\"border-left-width: 0px\">Abnormal</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">AA</td><td style=\"border-left-width: 0px\">Critical abnormal</td><td style=\"border-right-width: 0px\">AA</td><td style=\"border-left-width: 0px\">Critical abnormal</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">B</td><td style=\"border-left-width: 0px\">Better</td><td style=\"border-right-width: 0px\">B</td><td style=\"border-left-width: 0px\">Better</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">CAR</td><td style=\"border-left-width: 0px\">Carrier</td><td style=\"border-right-width: 0px\">CAR</td><td style=\"border-left-width: 0px\">Carrier</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">D</td><td style=\"border-left-width: 0px\">Significant change down</td><td style=\"border-right-width: 0px\">D</td><td style=\"border-left-width: 0px\">Significant change down</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">DET</td><td style=\"border-left-width: 0px\">Detected</td><td style=\"border-right-width: 0px\">DET</td><td style=\"border-left-width: 0px\">Detected</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">E</td><td style=\"border-left-width: 0px\">Equivocal</td><td style=\"border-right-width: 0px\">E</td><td style=\"border-left-width: 0px\">Equivocal</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">EX</td><td style=\"border-left-width: 0px\">outside threshold</td><td style=\"border-right-width: 0px\">EX</td><td style=\"border-left-width: 0px\">outside threshold</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">EXP</td><td style=\"border-left-width: 0px\">Expected</td><td style=\"border-right-width: 0px\">EXP</td><td style=\"border-left-width: 0px\">Expected</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">H</td><td style=\"border-left-width: 0px\">High</td><td style=\"border-right-width: 0px\">H</td><td style=\"border-left-width: 0px\">High</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">HH</td><td style=\"border-left-width: 0px\">Critical high</td><td style=\"border-right-width: 0px\">HH</td><td style=\"border-left-width: 0px\">Critical high</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">HU</td><td style=\"border-left-width: 0px\">Significantly high</td><td style=\"border-right-width: 0px\">HU</td><td style=\"border-left-width: 0px\">Significantly high</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">HX</td><td style=\"border-left-width: 0px\">above high threshold</td><td style=\"border-right-width: 0px\">HX</td><td style=\"border-left-width: 0px\">above high threshold</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">I</td><td style=\"border-left-width: 0px\">Intermediate</td><td style=\"border-right-width: 0px\">I</td><td style=\"border-left-width: 0px\">Intermediate</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">IE</td><td style=\"border-left-width: 0px\">Insufficient evidence</td><td style=\"border-right-width: 0px\">IE</td><td style=\"border-left-width: 0px\">Insufficient evidence</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">IND</td><td style=\"border-left-width: 0px\">Indeterminate</td><td style=\"border-right-width: 0px\">IND</td><td style=\"border-left-width: 0px\">Indeterminate</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">L</td><td style=\"border-left-width: 0px\">Low</td><td style=\"border-right-width: 0px\">L</td><td style=\"border-left-width: 0px\">Low</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">LL</td><td style=\"border-left-width: 0px\">Critical low</td><td style=\"border-right-width: 0px\">LL</td><td style=\"border-left-width: 0px\">Critical low</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">LU</td><td style=\"border-left-width: 0px\">Significantly low</td><td style=\"border-right-width: 0px\">LU</td><td style=\"border-left-width: 0px\">Significantly low</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">LX</td><td style=\"border-left-width: 0px\">below low threshold</td><td style=\"border-right-width: 0px\">LX</td><td style=\"border-left-width: 0px\">below low threshold</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">N</td><td style=\"border-left-width: 0px\">Normal</td><td style=\"border-right-width: 0px\">N</td><td style=\"border-left-width: 0px\">Normal</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">NCL</td><td style=\"border-left-width: 0px\">No CLSI defined breakpoint</td><td style=\"border-right-width: 0px\">NCL</td><td style=\"border-left-width: 0px\">No CLSI defined breakpoint</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">ND</td><td style=\"border-left-width: 0px\">Not detected</td><td style=\"border-right-width: 0px\">ND</td><td style=\"border-left-width: 0px\">Not detected</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">NEG</td><td style=\"border-left-width: 0px\">Negative</td><td style=\"border-right-width: 0px\">NEG</td><td style=\"border-left-width: 0px\">Negative</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">NR</td><td style=\"border-left-width: 0px\">Non-reactive</td><td style=\"border-right-width: 0px\">NR</td><td style=\"border-left-width: 0px\">Non-reactive</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">NS</td><td style=\"border-left-width: 0px\">Non-susceptible</td><td style=\"border-right-width: 0px\">NS</td><td style=\"border-left-width: 0px\">Non-susceptible</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">POS</td><td style=\"border-left-width: 0px\">Positive</td><td style=\"border-right-width: 0px\">POS</td><td style=\"border-left-width: 0px\">Positive</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">R</td><td style=\"border-left-width: 0px\">Resistant</td><td style=\"border-right-width: 0px\">R</td><td style=\"border-left-width: 0px\">Resistant</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">RR</td><td style=\"border-left-width: 0px\">Reactive</td><td style=\"border-right-width: 0px\">RR</td><td style=\"border-left-width: 0px\">Reactive</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">S</td><td style=\"border-left-width: 0px\">Susceptible</td><td style=\"border-right-width: 0px\">S</td><td style=\"border-left-width: 0px\">Susceptible</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">SDD</td><td style=\"border-left-width: 0px\">Susceptible-dose dependent</td><td style=\"border-right-width: 0px\">SDD</td><td style=\"border-left-width: 0px\">Susceptible-dose dependent</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">SYN-R</td><td style=\"border-left-width: 0px\">Synergy - resistant</td><td style=\"border-right-width: 0px\">SYN-R</td><td style=\"border-left-width: 0px\">Synergy - resistant</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">SYN-S</td><td style=\"border-left-width: 0px\">Synergy - susceptible</td><td style=\"border-right-width: 0px\">SYN-S</td><td style=\"border-left-width: 0px\">Synergy - susceptible</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">U</td><td style=\"border-left-width: 0px\">Significant change up</td><td style=\"border-right-width: 0px\">U</td><td style=\"border-left-width: 0px\">Significant change up</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">UNE</td><td style=\"border-left-width: 0px\">Unexpected</td><td style=\"border-right-width: 0px\">UNE</td><td style=\"border-left-width: 0px\">Unexpected</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">W</td><td style=\"border-left-width: 0px\">Worse</td><td style=\"border-right-width: 0px\">W</td><td style=\"border-left-width: 0px\">Worse</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr><tr><td style=\"border-right-width: 0px\">WR</td><td style=\"border-left-width: 0px\">Weakly reactive</td><td style=\"border-right-width: 0px\">WR</td><td style=\"border-left-width: 0px\">Weakly reactive</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ValueSet-R5-observation-interpretation-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ValueSet-R5-observation-interpretation-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5ObservationInterpretationForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for ValueSet ValueSet-R5-observation-interpretation-for-R4 from FHIR R5 to FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:24.0002161-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of concepts from ValueSet `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+     ] ;
+     fhir:sourceVersion [ fhir:v "3.0.0" ] ;
+     fhir:target [
+       fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+     ] ;
+     fhir:targetVersion [ fhir:v "3.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "<" ] ;
+       fhir:display [ fhir:v "Off scale low" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "<" ] ;
+         fhir:display [ fhir:v "Off scale low" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v ">" ] ;
+       fhir:display [ fhir:v "Off scale high" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v ">" ] ;
+         fhir:display [ fhir:v "Off scale high" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "A" ] ;
+       fhir:display [ fhir:v "Abnormal" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "A" ] ;
+         fhir:display [ fhir:v "Abnormal" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AA" ] ;
+       fhir:display [ fhir:v "Critical abnormal" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AA" ] ;
+         fhir:display [ fhir:v "Critical abnormal" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "B" ] ;
+       fhir:display [ fhir:v "Better" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "B" ] ;
+         fhir:display [ fhir:v "Better" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CAR" ] ;
+       fhir:display [ fhir:v "Carrier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "CAR" ] ;
+         fhir:display [ fhir:v "Carrier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "D" ] ;
+       fhir:display [ fhir:v "Significant change down" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "D" ] ;
+         fhir:display [ fhir:v "Significant change down" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DET" ] ;
+       fhir:display [ fhir:v "Detected" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DET" ] ;
+         fhir:display [ fhir:v "Detected" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "E" ] ;
+       fhir:display [ fhir:v "Equivocal" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "E" ] ;
+         fhir:display [ fhir:v "Equivocal" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EX" ] ;
+       fhir:display [ fhir:v "outside threshold" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "EX" ] ;
+         fhir:display [ fhir:v "outside threshold" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EXP" ] ;
+       fhir:display [ fhir:v "Expected" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "EXP" ] ;
+         fhir:display [ fhir:v "Expected" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "H" ] ;
+       fhir:display [ fhir:v "High" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "H" ] ;
+         fhir:display [ fhir:v "High" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HH" ] ;
+       fhir:display [ fhir:v "Critical high" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HH" ] ;
+         fhir:display [ fhir:v "Critical high" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HU" ] ;
+       fhir:display [ fhir:v "Significantly high" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HU" ] ;
+         fhir:display [ fhir:v "Significantly high" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HX" ] ;
+       fhir:display [ fhir:v "above high threshold" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HX" ] ;
+         fhir:display [ fhir:v "above high threshold" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "I" ] ;
+       fhir:display [ fhir:v "Intermediate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "I" ] ;
+         fhir:display [ fhir:v "Intermediate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "IE" ] ;
+       fhir:display [ fhir:v "Insufficient evidence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "IE" ] ;
+         fhir:display [ fhir:v "Insufficient evidence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "IND" ] ;
+       fhir:display [ fhir:v "Indeterminate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "IND" ] ;
+         fhir:display [ fhir:v "Indeterminate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "L" ] ;
+       fhir:display [ fhir:v "Low" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "L" ] ;
+         fhir:display [ fhir:v "Low" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "LL" ] ;
+       fhir:display [ fhir:v "Critical low" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "LL" ] ;
+         fhir:display [ fhir:v "Critical low" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "LU" ] ;
+       fhir:display [ fhir:v "Significantly low" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "LU" ] ;
+         fhir:display [ fhir:v "Significantly low" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "LX" ] ;
+       fhir:display [ fhir:v "below low threshold" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "LX" ] ;
+         fhir:display [ fhir:v "below low threshold" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "N" ] ;
+       fhir:display [ fhir:v "Normal" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "N" ] ;
+         fhir:display [ fhir:v "Normal" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NCL" ] ;
+       fhir:display [ fhir:v "No CLSI defined breakpoint" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "NCL" ] ;
+         fhir:display [ fhir:v "No CLSI defined breakpoint" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ND" ] ;
+       fhir:display [ fhir:v "Not detected" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ND" ] ;
+         fhir:display [ fhir:v "Not detected" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NEG" ] ;
+       fhir:display [ fhir:v "Negative" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "NEG" ] ;
+         fhir:display [ fhir:v "Negative" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NR" ] ;
+       fhir:display [ fhir:v "Non-reactive" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "NR" ] ;
+         fhir:display [ fhir:v "Non-reactive" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NS" ] ;
+       fhir:display [ fhir:v "Non-susceptible" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "NS" ] ;
+         fhir:display [ fhir:v "Non-susceptible" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "POS" ] ;
+       fhir:display [ fhir:v "Positive" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "POS" ] ;
+         fhir:display [ fhir:v "Positive" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "R" ] ;
+       fhir:display [ fhir:v "Resistant" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "R" ] ;
+         fhir:display [ fhir:v "Resistant" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "RR" ] ;
+       fhir:display [ fhir:v "Reactive" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "RR" ] ;
+         fhir:display [ fhir:v "Reactive" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "S" ] ;
+       fhir:display [ fhir:v "Susceptible" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "S" ] ;
+         fhir:display [ fhir:v "Susceptible" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SDD" ] ;
+       fhir:display [ fhir:v "Susceptible-dose dependent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SDD" ] ;
+         fhir:display [ fhir:v "Susceptible-dose dependent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SYN-R" ] ;
+       fhir:display [ fhir:v "Synergy - resistant" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SYN-R" ] ;
+         fhir:display [ fhir:v "Synergy - resistant" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SYN-S" ] ;
+       fhir:display [ fhir:v "Synergy - susceptible" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SYN-S" ] ;
+         fhir:display [ fhir:v "Synergy - susceptible" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "U" ] ;
+       fhir:display [ fhir:v "Significant change up" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "U" ] ;
+         fhir:display [ fhir:v "Significant change up" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "UNE" ] ;
+       fhir:display [ fhir:v "Unexpected" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "UNE" ] ;
+         fhir:display [ fhir:v "Unexpected" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "W" ] ;
+       fhir:display [ fhir:v "Worse" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "W" ] ;
+         fhir:display [ fhir:v "Worse" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "WR" ] ;
+       fhir:display [ fhir:v "Weakly reactive" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "WR" ] ;
+         fhir:display [ fhir:v "Weakly reactive" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ObservationInterpretation-R4B-ObservationInterpretation` (`ConceptMap-R5-ObservationInterpretation-R4B-ObservationInterpretation.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationInterpretation-R4-ObservationInterpretation` (`ConceptMap-R4B-ObservationInterpretation-R4-ObservationInterpretation.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AC" ] ;
+       fhir:display [ fhir:v "Anti-complementary substances present" ]
+     ] [
+       fhir:code [ fhir:v "Carrier" ] ;
+       fhir:display [ fhir:v "Carrier" ]
+     ] [
+       fhir:code [ fhir:v "H>" ] ;
+       fhir:display [ fhir:v "Significantly high" ]
+     ] [
+       fhir:code [ fhir:v "HM" ] ;
+       fhir:display [ fhir:v "Hold for Medical Review" ]
+     ] [
+       fhir:code [ fhir:v "L<" ] ;
+       fhir:display [ fhir:v "Significantly low" ]
+     ] [
+       fhir:code [ fhir:v "MS" ] ;
+       fhir:display [ fhir:v "moderately susceptible" ]
+     ] [
+       fhir:code [ fhir:v "OBX" ] ;
+       fhir:display [ fhir:v "Interpretation qualifiers in separate OBX segments" ]
+     ] [
+       fhir:code [ fhir:v "ObservationInterpretationDetection" ] ;
+       fhir:display [ fhir:v "ObservationInterpretationDetection" ]
+     ] [
+       fhir:code [ fhir:v "ObservationInterpretationExpectation" ] ;
+       fhir:display [ fhir:v "ObservationInterpretationExpectation" ]
+     ] [
+       fhir:code [ fhir:v "QCF" ] ;
+       fhir:display [ fhir:v "Quality control failure" ]
+     ] [
+       fhir:code [ fhir:v "ReactivityObservationInterpretation" ] ;
+       fhir:display [ fhir:v "ReactivityObservationInterpretation" ]
+     ] [
+       fhir:code [ fhir:v "TOX" ] ;
+       fhir:display [ fhir:v "Cytotoxic substance present" ]
+     ] [
+       fhir:code [ fhir:v "VS" ] ;
+       fhir:display [ fhir:v "very susceptible" ]
+     ] [
+       fhir:code [ fhir:v "_GeneticObservationInterpretation" ] ;
+       fhir:display [ fhir:v "GeneticObservationInterpretation" ]
+     ] [
+       fhir:code [ fhir:v "_ObservationInterpretationChange" ] ;
+       fhir:display [ fhir:v "ObservationInterpretationChange" ]
+     ] [
+       fhir:code [ fhir:v "_ObservationInterpretationExceptions" ] ;
+       fhir:display [ fhir:v "ObservationInterpretationExceptions" ]
+     ] [
+       fhir:code [ fhir:v "_ObservationInterpretationNormality" ] ;
+       fhir:display [ fhir:v "ObservationInterpretationNormality" ]
+     ] [
+       fhir:code [ fhir:v "_ObservationInterpretationSusceptibility" ] ;
+       fhir:display [ fhir:v "ObservationInterpretationSusceptibility" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

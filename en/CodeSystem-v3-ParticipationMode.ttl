@@ -1,0 +1,448 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/v3-ParticipationMode> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "v3-ParticipationMode"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>Specializes</td><td/><td>Coding</td><td>The child code is a more narrow version of the concept represented by the parent code.  I.e. Every child concept is also a valid parent concept.  Used to allow determination of subsumption.  Must be transitive, irreflexive, antisymmetric.</td></tr><tr><td>Generalizes</td><td/><td>Coding</td><td>Inverse of Specializes.  Only included as a derived relationship.</td></tr><tr><td>internalId</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id</td><td>code</td><td>The internal identifier for the concept in the HL7 Access database repository.</td></tr><tr><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>Designation of a concept's state. Normally is not populated unless the state is retired.</td></tr></table><p><b>Concepts</b></p><p>This code system <code>http://terminology.hl7.org/CodeSystem/v3-ParticipationMode</code> defines the following codes:</p><table class=\"codes\"><tr><td><b>Lvl</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>internalId</b></td><td><b>status</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">ELECTRONIC<a name=\"v3-ParticipationMode-ELECTRONIC\"> </a></td><td>electronic data</td><td>Participation by non-human-languaged based electronic signal</td><td>16554</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">PHYSICAL<a name=\"v3-ParticipationMode-PHYSICAL\"> </a></td><td>physical presence</td><td>Participation by direct action where subject and actor are in the same location. (The participation involves more than communication.)</td><td>16556</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">REMOTE<a name=\"v3-ParticipationMode-REMOTE\"> </a></td><td>remote presence</td><td>Participation by direct action where subject and actor are in separate locations, and the actions of the actor are transmitted by electronic or mechanical means. (The participation involves more than communication.)</td><td>16557</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">VERBAL<a name=\"v3-ParticipationMode-VERBAL\"> </a></td><td>verbal</td><td>Participation by voice communication</td><td>16544</td><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  DICTATE<a name=\"v3-ParticipationMode-DICTATE\"> </a></td><td>dictated</td><td>Participation by pre-recorded voice. Communication is limited to one direction (from the recorder to recipient).</td><td>16547</td><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  FACE<a name=\"v3-ParticipationMode-FACE\"> </a></td><td>face-to-face</td><td>Participation by voice communication where parties speak to each other directly.</td><td>16545</td><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  PHONE<a name=\"v3-ParticipationMode-PHONE\"> </a></td><td>telephone</td><td>Participation by voice communication where the voices of the communicating parties are transported over an electronic medium</td><td>16546</td><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  VIDEOCONF<a name=\"v3-ParticipationMode-VIDEOCONF\"> </a></td><td>videoconferencing</td><td>Participation by voice and visual communication where the voices and images of the communicating parties are transported over an electronic medium</td><td>16548</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">WRITTEN<a name=\"v3-ParticipationMode-WRITTEN\"> </a></td><td>written</td><td>Participation by human language recorded on a physical material</td><td>16549</td><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  FAXWRIT<a name=\"v3-ParticipationMode-FAXWRIT\"> </a></td><td>telefax</td><td>Participation by text or diagrams printed on paper that have been transmitted over a fax device</td><td>16552</td><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  HANDWRIT<a name=\"v3-ParticipationMode-HANDWRIT\"> </a></td><td>handwritten</td><td>Participation by text or diagrams printed on paper or other recording medium</td><td>16550</td><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  MAILWRIT<a name=\"v3-ParticipationMode-MAILWRIT\"> </a></td><td>mail</td><td>Participation by text or diagrams printed on paper transmitted physically (e.g. by courier service, postal service).</td><td>23720</td><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  ONLINEWRIT<a name=\"v3-ParticipationMode-ONLINEWRIT\"> </a></td><td>online written</td><td>Participation by text or diagrams submitted by computer network, e.g. online survey.</td><td>23719</td><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    EMAILWRIT<a name=\"v3-ParticipationMode-EMAILWRIT\"> </a></td><td>email</td><td>Participation by text or diagrams transmitted over an electronic mail system.</td><td>16553</td><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  TYPEWRIT<a name=\"v3-ParticipationMode-TYPEWRIT\"> </a></td><td>typewritten</td><td>Participation by text or diagrams printed on paper or other recording medium where the recording was performed using a typewriter, typesetter, computer or similar mechanism.</td><td>16551</td><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  MSGWRIT<a name=\"v3-ParticipationMode-MSGWRIT\"> </a></td><td>messaging</td><td>Participation by messaging typically from a mobile phone or mobile device through a cellular network or Internet. Includes secured or unsecured messaging transmission and includes online chat. Also includes submission of photos or other images.</td><td>116551</td><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    SMSWRIT<a name=\"v3-ParticipationMode-SMSWRIT\"> </a></td><td>SMS message</td><td>Participation by text or diagrams transmitted by an SMS message.</td><td>116552</td><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    MMSWRIT<a name=\"v3-ParticipationMode-MMSWRIT\"> </a></td><td>MMS message</td><td>Participation by text or diagrams transmitted by an MMS message.</td><td>116553</td><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    APPWRIT<a name=\"v3-ParticipationMode-APPWRIT\"> </a></td><td>messaging app</td><td>Participation by text or diagrams transmitted over an online app, e.g. Facebook Messenger, WhatsApp, or similar web app.</td><td>116554</td><td>active</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/v3-ParticipationMode"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/v3-ParticipationMode>
+  ] ; # 
+  fhir:version [ fhir:v "3.1.0"] ; # 
+  fhir:name [ fhir:v "ParticipationMode"] ; # 
+  fhir:title [ fhir:v "ParticipationMode"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2021-08-09T19:00:00-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "A set of codes specifying the modality by which the Entity playing the Role is participating in the Act.\r\n\r\n*Examples:* Physically present, over the telephone, written communication.\r\n\r\n*Rationale:* Particularly for author (originator) participants this is used to specify whether the information represented by the act was initially provided verbally, (hand-)written, or electronically.\r\n\r\n*Open Issue:* There needs to be a reexamination of the hierarchies as there seems to be some muddling between ELECTRONIC and other concepts that involve electronic communication that are in other hierarchies."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:hierarchyMeaning [ fhir:v "is-a"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "Specializes" ] ;
+     fhir:description [ fhir:v "The child code is a more narrow version of the concept represented by the parent code.  I.e. Every child concept is also a valid parent concept.  Used to allow determination of subsumption.  Must be transitive, irreflexive, antisymmetric." ] ;
+     fhir:type [ fhir:v "Coding" ]
+  ] [
+     fhir:code [ fhir:v "Generalizes" ] ;
+     fhir:description [ fhir:v "Inverse of Specializes.  Only included as a derived relationship." ] ;
+     fhir:type [ fhir:v "Coding" ]
+  ] [
+     fhir:code [ fhir:v "internalId" ] ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id>
+     ] ;
+     fhir:description [ fhir:v "The internal identifier for the concept in the HL7 Access database repository." ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "status" ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#status>
+     ] ;
+     fhir:description [ fhir:v "Designation of a concept's state. Normally is not populated unless the state is retired." ] ;
+     fhir:type [ fhir:v "code" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "ELECTRONIC" ] ;
+     fhir:display [ fhir:v "electronic data" ] ;
+     fhir:definition [ fhir:v "Participation by non-human-languaged based electronic signal" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "16554"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PHYSICAL" ] ;
+     fhir:display [ fhir:v "physical presence" ] ;
+     fhir:definition [ fhir:v "Participation by direct action where subject and actor are in the same location. (The participation involves more than communication.)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "16556"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "REMOTE" ] ;
+     fhir:display [ fhir:v "remote presence" ] ;
+     fhir:definition [ fhir:v "Participation by direct action where subject and actor are in separate locations, and the actions of the actor are transmitted by electronic or mechanical means. (The participation involves more than communication.)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "16557"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "VERBAL" ] ;
+     fhir:display [ fhir:v "verbal" ] ;
+     fhir:definition [ fhir:v "Participation by voice communication" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "16544"
+       ]
+     ] ) ;
+     fhir:concept ( [
+       fhir:code [ fhir:v "DICTATE" ] ;
+       fhir:display [ fhir:v "dictated" ] ;
+       fhir:definition [ fhir:v "Participation by pre-recorded voice. Communication is limited to one direction (from the recorder to recipient)." ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "status" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "active"
+         ]
+       ] [
+         fhir:code [ fhir:v "internalId" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "16547"
+         ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FACE" ] ;
+       fhir:display [ fhir:v "face-to-face" ] ;
+       fhir:definition [ fhir:v "Participation by voice communication where parties speak to each other directly." ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "status" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "active"
+         ]
+       ] [
+         fhir:code [ fhir:v "internalId" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "16545"
+         ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PHONE" ] ;
+       fhir:display [ fhir:v "telephone" ] ;
+       fhir:definition [ fhir:v "Participation by voice communication where the voices of the communicating parties are transported over an electronic medium" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "status" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "active"
+         ]
+       ] [
+         fhir:code [ fhir:v "internalId" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "16546"
+         ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VIDEOCONF" ] ;
+       fhir:display [ fhir:v "videoconferencing" ] ;
+       fhir:definition [ fhir:v "Participation by voice and visual communication where the voices and images of the communicating parties are transported over an electronic medium" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "status" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "active"
+         ]
+       ] [
+         fhir:code [ fhir:v "internalId" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "16548"
+         ]
+       ] )
+     ] )
+  ] [
+     fhir:code [ fhir:v "WRITTEN" ] ;
+     fhir:display [ fhir:v "written" ] ;
+     fhir:definition [ fhir:v "Participation by human language recorded on a physical material" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "16549"
+       ]
+     ] ) ;
+     fhir:concept ( [
+       fhir:code [ fhir:v "FAXWRIT" ] ;
+       fhir:display [ fhir:v "telefax" ] ;
+       fhir:definition [ fhir:v "Participation by text or diagrams printed on paper that have been transmitted over a fax device" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "status" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "active"
+         ]
+       ] [
+         fhir:code [ fhir:v "internalId" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "16552"
+         ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HANDWRIT" ] ;
+       fhir:display [ fhir:v "handwritten" ] ;
+       fhir:definition [ fhir:v "Participation by text or diagrams printed on paper or other recording medium" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "status" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "active"
+         ]
+       ] [
+         fhir:code [ fhir:v "internalId" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "16550"
+         ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MAILWRIT" ] ;
+       fhir:display [ fhir:v "mail" ] ;
+       fhir:definition [ fhir:v "Participation by text or diagrams printed on paper transmitted physically (e.g. by courier service, postal service)." ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "status" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "active"
+         ]
+       ] [
+         fhir:code [ fhir:v "internalId" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "23720"
+         ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ONLINEWRIT" ] ;
+       fhir:display [ fhir:v "online written" ] ;
+       fhir:definition [ fhir:v "Participation by text or diagrams submitted by computer network, e.g. online survey." ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "status" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "active"
+         ]
+       ] [
+         fhir:code [ fhir:v "internalId" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "23719"
+         ]
+       ] ) ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "EMAILWRIT" ] ;
+         fhir:display [ fhir:v "email" ] ;
+         fhir:definition [ fhir:v "Participation by text or diagrams transmitted over an electronic mail system." ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "16553"
+           ]
+         ] )
+       ] )
+     ] [
+       fhir:code [ fhir:v "TYPEWRIT" ] ;
+       fhir:display [ fhir:v "typewritten" ] ;
+       fhir:definition [ fhir:v "Participation by text or diagrams printed on paper or other recording medium where the recording was performed using a typewriter, typesetter, computer or similar mechanism." ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "status" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "active"
+         ]
+       ] [
+         fhir:code [ fhir:v "internalId" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "16551"
+         ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MSGWRIT" ] ;
+       fhir:display [ fhir:v "messaging" ] ;
+       fhir:definition [ fhir:v "Participation by messaging typically from a mobile phone or mobile device through a cellular network or Internet. Includes secured or unsecured messaging transmission and includes online chat. Also includes submission of photos or other images." ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "status" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "active"
+         ]
+       ] [
+         fhir:code [ fhir:v "internalId" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "116551"
+         ]
+       ] ) ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "SMSWRIT" ] ;
+         fhir:display [ fhir:v "SMS message" ] ;
+         fhir:definition [ fhir:v "Participation by text or diagrams transmitted by an SMS message." ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "116552"
+           ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "MMSWRIT" ] ;
+         fhir:display [ fhir:v "MMS message" ] ;
+         fhir:definition [ fhir:v "Participation by text or diagrams transmitted by an MMS message." ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "116553"
+           ]
+         ] )
+       ] [
+         fhir:code [ fhir:v "APPWRIT" ] ;
+         fhir:display [ fhir:v "messaging app" ] ;
+         fhir:definition [ fhir:v "Participation by text or diagrams transmitted over an online app, e.g. Facebook Messenger, WhatsApp, or similar web app." ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "116554"
+           ]
+         ] )
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="devicedispense-status-reason"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/CodeSystem/devicedispense-status-reason</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">out-of-stock
+                  <a name="devicedispense-status-reason-out-of-stock"> </a>
+                </td>
+                <td>Out of Stock</td>
+                <td>The device was not dispensed because it was not available.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">off-market
+                  <a name="devicedispense-status-reason-off-market"> </a>
+                </td>
+                <td>Off market</td>
+                <td>The device was not dispensed because it is of-market - for example not authorized, withdrawn or recalled.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">contraindication
+                  <a name="devicedispense-status-reason-contraindication"> </a>
+                </td>
+                <td>Contraindication</td>
+                <td>The device was not dispensed because a contraindication was found - for example pregnancy, allergy to a device component...</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">incompatible-device
+                  <a name="devicedispense-status-reason-incompatible-device"> </a>
+                </td>
+                <td>Incompatible device</td>
+                <td>The device was not dispensed because an incompatibility has been found with the device or between the device and other devices being used in the same context.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">order-expired
+                  <a name="devicedispense-status-reason-order-expired"> </a>
+                </td>
+                <td>Order expired</td>
+                <td>The device was not dispensed because the order has expired or been invalidated.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">verbal-order
+                  <a name="devicedispense-status-reason-verbal-order"> </a>
+                </td>
+                <td>Verbal order</td>
+                <td>The device not dispensed because there was a verbal order.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo"/>
+  </extension>
+  <url value="http://hl7.org/fhir/CodeSystem/devicedispense-status-reason"/>
+  <version value="5.0.0"/>
+  <name value="DeviceDispenseStatusReasonCodes"/>
+  <title value="DeviceDispense Status Reason Codes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-06T13:22:22-06:00"/>
+  <publisher value="Orders and Observations"/>
+  <contact>
+    <name value="Orders and Observations"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/orders"/>
+    </telecom>
+  </contact>
+  <description value="DeviceDispense Status Reason Codes"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="out-of-stock"/>
+    <display value="Out of Stock"/>
+    <definition value="The device was not dispensed because it was not available."/>
+  </concept>
+  <concept>
+    <code value="off-market"/>
+    <display value="Off market"/>
+    <definition value="The device was not dispensed because it is of-market - for example not authorized, withdrawn or recalled."/>
+  </concept>
+  <concept>
+    <code value="contraindication"/>
+    <display value="Contraindication"/>
+    <definition value="The device was not dispensed because a contraindication was found - for example pregnancy, allergy to a device component..."/>
+  </concept>
+  <concept>
+    <code value="incompatible-device"/>
+    <display value="Incompatible device"/>
+    <definition value="The device was not dispensed because an incompatibility has been found with the device or between the device and other devices being used in the same context."/>
+  </concept>
+  <concept>
+    <code value="order-expired"/>
+    <display value="Order expired"/>
+    <definition value="The device was not dispensed because the order has expired or been invalidated."/>
+  </concept>
+  <concept>
+    <code value="verbal-order"/>
+    <display value="Verbal order"/>
+    <definition value="The device not dispensed because there was a verbal order."/>
+  </concept>
+</CodeSystem>

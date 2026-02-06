@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ValueSet-R5-ingredient-manufacturer-role-for-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ValueSet-R5-ingredient-manufacturer-role-for-R4</b></p><a name="ValueSet-R5-ingredient-manufacturer-role-for-R4"> </a><a name="hcValueSet-R5-ingredient-manufacturer-role-for-R4"> </a><p>This value set expansion contains 3 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name="ValueSet-R5-ingredient-manufacturer-role-for-R4-http://hl7.org/fhir/ingredient-manufacturer-role-actual"> </a><code>http://hl7.org/fhir/ingredient-manufacturer-role</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-ingredient-manufacturer-role.html#ingredient-manufacturer-role-actual">actual</a></td><td>Manufacturer actually makes this particular ingredient</td></tr><tr><td><a name="ValueSet-R5-ingredient-manufacturer-role-for-R4-http://hl7.org/fhir/ingredient-manufacturer-role-allowed"> </a><code>http://hl7.org/fhir/ingredient-manufacturer-role</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-ingredient-manufacturer-role.html#ingredient-manufacturer-role-allowed">allowed</a></td><td>Manufacturer is specifically allowed for this ingredient</td></tr><tr><td><a name="ValueSet-R5-ingredient-manufacturer-role-for-R4-http://hl7.org/fhir/ingredient-manufacturer-role-possible"> </a><code>http://hl7.org/fhir/ingredient-manufacturer-role</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-ingredient-manufacturer-role.html#ingredient-manufacturer-role-possible">possible</a></td><td>Manufacturer is known to make this ingredient in general</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="brr"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-ingredient-manufacturer-role-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="ValueSetR5IngredientManufacturerRoleForR4"/>
+  <title value="Cross-version ValueSet R5.IngredientManufacturerRole for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <publisher value="Biomedical Research and Regulation"/>
+  <contact>
+    <name value="Biomedical Research and Regulation"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/rcrim"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/ingredient-manufacturer-role|5.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/ingredient-manufacturer-role|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `Ingredient.manufacturer.role` as Required&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the value set has been mapped as:&#xD;&#xA;* `http://hl7.org/fhir/ValueSet/ingredient-manufacturer-role|5.0.0`&#xA;* `http://hl7.org/fhir/ValueSet/ingredient-manufacturer-role|4.3.0`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;All concepts in the comparison are listed as identical.&#xA;The source and target value sets have the same number of active concepts (3)."/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/ingredient-manufacturer-role"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="actual"/>
+        <display value="Manufacturer actually makes this particular ingredient"/>
+      </concept>
+      <concept>
+        <code value="allowed"/>
+        <display value="Manufacturer is specifically allowed for this ingredient"/>
+      </concept>
+      <concept>
+        <code value="possible"/>
+        <display value="Manufacturer is known to make this ingredient in general"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-06T19:17:19.5427077+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/ingredient-manufacturer-role"/>
+      <version value="5.0.0"/>
+      <code value="actual"/>
+      <display value="Manufacturer actually makes this particular ingredient"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/ingredient-manufacturer-role"/>
+      <version value="5.0.0"/>
+      <code value="allowed"/>
+      <display value="Manufacturer is specifically allowed for this ingredient"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/ingredient-manufacturer-role"/>
+      <version value="5.0.0"/>
+      <code value="possible"/>
+      <display value="Manufacturer is known to make this ingredient in general"/>
+    </contains>
+  </expansion>
+</ValueSet>

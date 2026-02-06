@@ -1,0 +1,373 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-AllergyIntolerance-elements-for-R4-AllergyIntolerance> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-AllergyIntolerance-elements-for-R4-AllergyIntolerance"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-AllergyIntolerance-elements-for-R4-AllergyIntolerance</b></p><a name=\"ConceptMap-R5-AllergyIntolerance-elements-for-R4-AllergyIntolerance\"> </a><a name=\"hcConceptMap-R5-AllergyIntolerance-elements-for-R4-AllergyIntolerance\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/AllergyIntolerance|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/AllergyIntolerance|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">AllergyIntolerance</td><td style=\"border-left-width: 0px\">AllergyIntolerance</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `AllergyIntolerance` is representable via FHIR R4B Resource `AllergyIntolerance`.\nElement `AllergyIntolerance` is mapped to FHIR R4B element `AllergyIntolerance`.</td></tr><tr><td style=\"border-right-width: 0px\">AllergyIntolerance.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.meta</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.meta` is mapped to FHIR R4B element `AllergyIntolerance.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">AllergyIntolerance.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.implicitRules` is mapped to FHIR R4B element `AllergyIntolerance.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">AllergyIntolerance.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.language</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.language` is mapped to FHIR R4B element `AllergyIntolerance.language`.</td></tr><tr><td style=\"border-right-width: 0px\">AllergyIntolerance.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.text</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.text` is mapped to FHIR R4B element `AllergyIntolerance.text`.</td></tr><tr><td style=\"border-right-width: 0px\">AllergyIntolerance.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.contained</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.contained` is mapped to FHIR R4B element `AllergyIntolerance.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">AllergyIntolerance.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.identifier` is mapped to FHIR R4B element `AllergyIntolerance.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AllergyIntolerance.clinicalStatus</td><td style=\"border-left-width: 0px; border-bottom-style: none\">clinicalStatus</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.clinicalStatus</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.clinicalStatus` is mapped to FHIR R4B element `AllergyIntolerance.clinicalStatus`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.status</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `AllergyIntolerance.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `AllergyIntolerance.clinicalStatus` is mapped to FHIR DSTU2 element `AllergyIntolerance.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AllergyIntolerance.verificationStatus</td><td style=\"border-left-width: 0px; border-bottom-style: none\">verificationStatus</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.verificationStatus</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `AllergyIntolerance.verificationStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `AllergyIntolerance.verificationStatus` is mapped to FHIR R4B element `AllergyIntolerance.verificationStatus`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.status</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `AllergyIntolerance.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `AllergyIntolerance.verificationStatus` is mapped to FHIR DSTU2 element `AllergyIntolerance.status`.</td></tr><tr><td style=\"border-right-width: 0px\">AllergyIntolerance.type</td><td style=\"border-left-width: 0px\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.type</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.type` is mapped to FHIR R4B element `AllergyIntolerance.type`.</td></tr><tr><td style=\"border-right-width: 0px\">AllergyIntolerance.category</td><td style=\"border-left-width: 0px\">category</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.category</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.category` is mapped to FHIR R4B element `AllergyIntolerance.category`.</td></tr><tr><td style=\"border-right-width: 0px\">AllergyIntolerance.criticality</td><td style=\"border-left-width: 0px\">criticality</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.criticality</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.criticality` is mapped to FHIR R4B element `AllergyIntolerance.criticality`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AllergyIntolerance.code</td><td style=\"border-left-width: 0px; border-bottom-style: none\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.code</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.code` is mapped to FHIR R4B element `AllergyIntolerance.code`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.substance</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.code` is mapped to FHIR DSTU2 element `AllergyIntolerance.substance`.</td></tr><tr><td style=\"border-right-width: 0px\">AllergyIntolerance.patient</td><td style=\"border-left-width: 0px\">patient</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.patient</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.patient` is mapped to FHIR R4B element `AllergyIntolerance.patient`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AllergyIntolerance.encounter</td><td style=\"border-left-width: 0px; border-bottom-style: none\">encounter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.encounter</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.encounter` is mapped to FHIR R4B element `AllergyIntolerance.encounter`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AllergyIntolerance.encounter</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.encounter` is mapped to FHIR STU3 structure `AllergyIntolerance`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AllergyIntolerance.onset[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">onset[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.onset[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `AllergyIntolerance.onset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `AllergyIntolerance`.\nElement `AllergyIntolerance.onset[x]` is mapped to FHIR R4B element `AllergyIntolerance.onset[x]`.\nNote that the target element context `AllergyIntolerance.onset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `AllergyIntolerance`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.onset</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.onset[x]` is mapped to FHIR DSTU2 element `AllergyIntolerance.onset`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AllergyIntolerance.recordedDate</td><td style=\"border-left-width: 0px; border-bottom-style: none\">recordedDate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.recordedDate</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.recordedDate` is mapped to FHIR R4B element `AllergyIntolerance.recordedDate`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.assertedDate</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.recordedDate` is mapped to FHIR STU3 element `AllergyIntolerance.assertedDate`.</td></tr><tr><td style=\"border-right-width: 0px\">AllergyIntolerance.participant</td><td style=\"border-left-width: 0px\">participant</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AllergyIntolerance.participant</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.participant` is mapped to FHIR R4B structure `AllergyIntolerance`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">AllergyIntolerance.participant.function</td><td style=\"border-left-width: 0px\">function</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AllergyIntolerance.participant:function</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.participant.function` is part of an existing definition because parent element `AllergyIntolerance.participant` requires a cross-version extension.\nElement `AllergyIntolerance.participant.function` is mapped to FHIR R4B structure `AllergyIntolerance`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">AllergyIntolerance.participant.actor</td><td style=\"border-left-width: 0px\">actor</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AllergyIntolerance.participant:actor</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.participant.actor` is part of an existing definition because parent element `AllergyIntolerance.participant` requires a cross-version extension.\nElement `AllergyIntolerance.participant.actor` is mapped to FHIR R4B structure `AllergyIntolerance`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AllergyIntolerance.lastOccurrence</td><td style=\"border-left-width: 0px; border-bottom-style: none\">lastOccurrence</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.lastOccurrence</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.lastOccurrence` is mapped to FHIR R4B element `AllergyIntolerance.lastOccurrence`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.lastOccurence</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.lastOccurrence` is mapped to FHIR DSTU2 element `AllergyIntolerance.lastOccurence`.</td></tr><tr><td style=\"border-right-width: 0px\">AllergyIntolerance.note</td><td style=\"border-left-width: 0px\">note</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.note</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.note` is mapped to FHIR R4B element `AllergyIntolerance.note`.</td></tr><tr><td style=\"border-right-width: 0px\">AllergyIntolerance.reaction</td><td style=\"border-left-width: 0px\">reaction</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.reaction</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.reaction` is mapped to FHIR R4B element `AllergyIntolerance.reaction`.</td></tr><tr><td style=\"border-right-width: 0px\">AllergyIntolerance.reaction.substance</td><td style=\"border-left-width: 0px\">substance</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.reaction.substance</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.reaction.substance` is mapped to FHIR R4B element `AllergyIntolerance.reaction.substance`.</td></tr><tr><td style=\"border-right-width: 0px\">AllergyIntolerance.reaction.manifestation</td><td style=\"border-left-width: 0px\">manifestation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.reaction.manifestation</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.reaction.manifestation` is mapped to FHIR R4B element `AllergyIntolerance.reaction.manifestation`.</td></tr><tr><td style=\"border-right-width: 0px\">AllergyIntolerance.reaction.description</td><td style=\"border-left-width: 0px\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.reaction.description</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.reaction.description` is mapped to FHIR R4B element `AllergyIntolerance.reaction.description`.</td></tr><tr><td style=\"border-right-width: 0px\">AllergyIntolerance.reaction.onset</td><td style=\"border-left-width: 0px\">onset</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.reaction.onset</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.reaction.onset` is mapped to FHIR R4B element `AllergyIntolerance.reaction.onset`.</td></tr><tr><td style=\"border-right-width: 0px\">AllergyIntolerance.reaction.severity</td><td style=\"border-left-width: 0px\">severity</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.reaction.severity</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.reaction.severity` is mapped to FHIR R4B element `AllergyIntolerance.reaction.severity`.</td></tr><tr><td style=\"border-right-width: 0px\">AllergyIntolerance.reaction.exposureRoute</td><td style=\"border-left-width: 0px\">exposureRoute</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.reaction.exposureRoute</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.reaction.exposureRoute` is mapped to FHIR R4B element `AllergyIntolerance.reaction.exposureRoute`.</td></tr><tr><td style=\"border-right-width: 0px\">AllergyIntolerance.reaction.note</td><td style=\"border-left-width: 0px\">note</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.reaction.note</td><td style=\"border-left-width: 0px\"/><td>Element `AllergyIntolerance.reaction.note` is mapped to FHIR R4B element `AllergyIntolerance.reaction.note`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-AllergyIntolerance-elements-for-R4-AllergyIntolerance"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-AllergyIntolerance-elements-for-R4-AllergyIntolerance>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5AllergyIntoleranceElementsForR4AllergyIntolerance"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:30.9706813-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/AllergyIntolerance>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "AllergyIntolerance" ] ;
+       fhir:display [ fhir:v "AllergyIntolerance" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `AllergyIntolerance` is representable via FHIR R4B Resource `AllergyIntolerance`.\nElement `AllergyIntolerance` is mapped to FHIR R4B element `AllergyIntolerance`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.meta` is mapped to FHIR R4B element `AllergyIntolerance.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.implicitRules` is mapped to FHIR R4B element `AllergyIntolerance.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.language` is mapped to FHIR R4B element `AllergyIntolerance.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.text` is mapped to FHIR R4B element `AllergyIntolerance.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.contained` is mapped to FHIR R4B element `AllergyIntolerance.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.identifier` is mapped to FHIR R4B element `AllergyIntolerance.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.clinicalStatus" ] ;
+       fhir:display [ fhir:v "clinicalStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.clinicalStatus" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.clinicalStatus` is mapped to FHIR R4B element `AllergyIntolerance.clinicalStatus`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `AllergyIntolerance.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `AllergyIntolerance.clinicalStatus` is mapped to FHIR DSTU2 element `AllergyIntolerance.status`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.verificationStatus" ] ;
+       fhir:display [ fhir:v "verificationStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.verificationStatus" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `AllergyIntolerance.verificationStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `AllergyIntolerance.verificationStatus` is mapped to FHIR R4B element `AllergyIntolerance.verificationStatus`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `AllergyIntolerance.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `AllergyIntolerance.verificationStatus` is mapped to FHIR DSTU2 element `AllergyIntolerance.status`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.type` is mapped to FHIR R4B element `AllergyIntolerance.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.category` is mapped to FHIR R4B element `AllergyIntolerance.category`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.criticality" ] ;
+       fhir:display [ fhir:v "criticality" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.criticality" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.criticality` is mapped to FHIR R4B element `AllergyIntolerance.criticality`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.code` is mapped to FHIR R4B element `AllergyIntolerance.code`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.substance" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.code` is mapped to FHIR DSTU2 element `AllergyIntolerance.substance`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.patient" ] ;
+       fhir:display [ fhir:v "patient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.patient" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.patient` is mapped to FHIR R4B element `AllergyIntolerance.patient`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.encounter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.encounter` is mapped to FHIR R4B element `AllergyIntolerance.encounter`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AllergyIntolerance.encounter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.encounter` is mapped to FHIR STU3 structure `AllergyIntolerance`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.onset[x]" ] ;
+       fhir:display [ fhir:v "onset[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.onset[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `AllergyIntolerance.onset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `AllergyIntolerance`.\nElement `AllergyIntolerance.onset[x]` is mapped to FHIR R4B element `AllergyIntolerance.onset[x]`.\nNote that the target element context `AllergyIntolerance.onset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `AllergyIntolerance`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.onset" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.onset[x]` is mapped to FHIR DSTU2 element `AllergyIntolerance.onset`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.recordedDate" ] ;
+       fhir:display [ fhir:v "recordedDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.recordedDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.recordedDate` is mapped to FHIR R4B element `AllergyIntolerance.recordedDate`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.assertedDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.recordedDate` is mapped to FHIR STU3 element `AllergyIntolerance.assertedDate`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.participant" ] ;
+       fhir:display [ fhir:v "participant" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AllergyIntolerance.participant" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.participant` is mapped to FHIR R4B structure `AllergyIntolerance`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.participant.function" ] ;
+       fhir:display [ fhir:v "function" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AllergyIntolerance.participant:function" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.participant.function` is part of an existing definition because parent element `AllergyIntolerance.participant` requires a cross-version extension.\nElement `AllergyIntolerance.participant.function` is mapped to FHIR R4B structure `AllergyIntolerance`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.participant.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AllergyIntolerance.participant:actor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.participant.actor` is part of an existing definition because parent element `AllergyIntolerance.participant` requires a cross-version extension.\nElement `AllergyIntolerance.participant.actor` is mapped to FHIR R4B structure `AllergyIntolerance`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.lastOccurrence" ] ;
+       fhir:display [ fhir:v "lastOccurrence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.lastOccurrence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.lastOccurrence` is mapped to FHIR R4B element `AllergyIntolerance.lastOccurrence`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.lastOccurence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.lastOccurrence` is mapped to FHIR DSTU2 element `AllergyIntolerance.lastOccurence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.note` is mapped to FHIR R4B element `AllergyIntolerance.note`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.reaction" ] ;
+       fhir:display [ fhir:v "reaction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.reaction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.reaction` is mapped to FHIR R4B element `AllergyIntolerance.reaction`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.reaction.substance" ] ;
+       fhir:display [ fhir:v "substance" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.reaction.substance" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.reaction.substance` is mapped to FHIR R4B element `AllergyIntolerance.reaction.substance`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.reaction.manifestation" ] ;
+       fhir:display [ fhir:v "manifestation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.reaction.manifestation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.reaction.manifestation` is mapped to FHIR R4B element `AllergyIntolerance.reaction.manifestation`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.reaction.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.reaction.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.reaction.description` is mapped to FHIR R4B element `AllergyIntolerance.reaction.description`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.reaction.onset" ] ;
+       fhir:display [ fhir:v "onset" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.reaction.onset" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.reaction.onset` is mapped to FHIR R4B element `AllergyIntolerance.reaction.onset`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.reaction.severity" ] ;
+       fhir:display [ fhir:v "severity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.reaction.severity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.reaction.severity` is mapped to FHIR R4B element `AllergyIntolerance.reaction.severity`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.reaction.exposureRoute" ] ;
+       fhir:display [ fhir:v "exposureRoute" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.reaction.exposureRoute" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.reaction.exposureRoute` is mapped to FHIR R4B element `AllergyIntolerance.reaction.exposureRoute`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AllergyIntolerance.reaction.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.reaction.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AllergyIntolerance.reaction.note` is mapped to FHIR R4B element `AllergyIntolerance.reaction.note`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

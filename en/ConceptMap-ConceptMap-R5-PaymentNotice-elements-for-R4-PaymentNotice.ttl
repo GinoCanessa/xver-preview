@@ -1,0 +1,281 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-PaymentNotice-elements-for-R4-PaymentNotice> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-PaymentNotice-elements-for-R4-PaymentNotice"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-PaymentNotice-elements-for-R4-PaymentNotice</b></p><a name=\"ConceptMap-R5-PaymentNotice-elements-for-R4-PaymentNotice\"> </a><a name=\"hcConceptMap-R5-PaymentNotice-elements-for-R4-PaymentNotice\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/PaymentNotice|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/PaymentNotice|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">PaymentNotice</td><td style=\"border-left-width: 0px\">PaymentNotice</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `PaymentNotice` is representable via FHIR R4B Resource `PaymentNotice`.\nElement `PaymentNotice` is mapped to FHIR R4B element `PaymentNotice`.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentNotice.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.meta</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentNotice.meta` is mapped to FHIR R4B element `PaymentNotice.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentNotice.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentNotice.implicitRules` is mapped to FHIR R4B element `PaymentNotice.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentNotice.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.language</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentNotice.language` is mapped to FHIR R4B element `PaymentNotice.language`.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentNotice.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.text</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentNotice.text` is mapped to FHIR R4B element `PaymentNotice.text`.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentNotice.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.contained</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentNotice.contained` is mapped to FHIR R4B element `PaymentNotice.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentNotice.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentNotice.identifier` is mapped to FHIR R4B element `PaymentNotice.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">PaymentNotice.status</td><td style=\"border-left-width: 0px; border-bottom-style: none\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.status</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentNotice.status` is mapped to FHIR R4B element `PaymentNotice.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentNotice.status</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentNotice.status` is mapped to FHIR DSTU2 structure `PaymentNotice`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentNotice.request</td><td style=\"border-left-width: 0px\">request</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.request</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentNotice.request` is mapped to FHIR R4B element `PaymentNotice.request`.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentNotice.response</td><td style=\"border-left-width: 0px\">response</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.response</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentNotice.response` is mapped to FHIR R4B element `PaymentNotice.response`.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentNotice.created</td><td style=\"border-left-width: 0px\">created</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.created</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentNotice.created` is mapped to FHIR R4B element `PaymentNotice.created`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">PaymentNotice.reporter</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reporter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.provider</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentNotice.reporter` is mapped to FHIR R4B element `PaymentNotice.provider`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.organization</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentNotice.reporter` is mapped to FHIR STU3 element `PaymentNotice.provider`.\nElement `PaymentNotice.reporter` is mapped to FHIR STU3 element `PaymentNotice.organization`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">PaymentNotice.payment</td><td style=\"border-left-width: 0px; border-bottom-style: none\">payment</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.payment</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentNotice.payment` is mapped to FHIR R4B element `PaymentNotice.payment`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentNotice.payment</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentNotice.payment` is mapped to FHIR STU3 structure `PaymentNotice`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">PaymentNotice.paymentDate</td><td style=\"border-left-width: 0px; border-bottom-style: none\">paymentDate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.paymentDate</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentNotice.paymentDate` is mapped to FHIR R4B element `PaymentNotice.paymentDate`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.statusDate</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentNotice.paymentDate` is mapped to FHIR STU3 element `PaymentNotice.statusDate`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentNotice.paymentDate</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentNotice.paymentDate` is mapped to FHIR DSTU2 structure `PaymentNotice`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">PaymentNotice.payee</td><td style=\"border-left-width: 0px; border-bottom-style: none\">payee</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.payee</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentNotice.payee` is mapped to FHIR R4B element `PaymentNotice.payee`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentNotice.payee</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentNotice.payee` is mapped to FHIR STU3 structure `PaymentNotice`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">PaymentNotice.recipient</td><td style=\"border-left-width: 0px; border-bottom-style: none\">recipient</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.recipient</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentNotice.recipient` is mapped to FHIR R4B element `PaymentNotice.recipient`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.target</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentNotice.recipient` is mapped to FHIR STU3 element `PaymentNotice.target`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">PaymentNotice.amount</td><td style=\"border-left-width: 0px; border-bottom-style: none\">amount</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.amount</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentNotice.amount` is mapped to FHIR R4B element `PaymentNotice.amount`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentNotice.amount</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentNotice.amount` is mapped to FHIR STU3 structure `PaymentNotice`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentNotice.paymentStatus</td><td style=\"border-left-width: 0px\">paymentStatus</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.paymentStatus</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentNotice.paymentStatus` is mapped to FHIR R4B element `PaymentNotice.paymentStatus`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-PaymentNotice-elements-for-R4-PaymentNotice"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-PaymentNotice-elements-for-R4-PaymentNotice>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5PaymentNoticeElementsForR4PaymentNotice"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:33.8735755-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentNotice"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/PaymentNotice>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "PaymentNotice" ] ;
+       fhir:display [ fhir:v "PaymentNotice" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `PaymentNotice` is representable via FHIR R4B Resource `PaymentNotice`.\nElement `PaymentNotice` is mapped to FHIR R4B element `PaymentNotice`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.meta` is mapped to FHIR R4B element `PaymentNotice.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.implicitRules` is mapped to FHIR R4B element `PaymentNotice.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.language` is mapped to FHIR R4B element `PaymentNotice.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.text` is mapped to FHIR R4B element `PaymentNotice.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.contained` is mapped to FHIR R4B element `PaymentNotice.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.identifier` is mapped to FHIR R4B element `PaymentNotice.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.status` is mapped to FHIR R4B element `PaymentNotice.status`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentNotice.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.status` is mapped to FHIR DSTU2 structure `PaymentNotice`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.request" ] ;
+       fhir:display [ fhir:v "request" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.request" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.request` is mapped to FHIR R4B element `PaymentNotice.request`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.response" ] ;
+       fhir:display [ fhir:v "response" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.response" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.response` is mapped to FHIR R4B element `PaymentNotice.response`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.created" ] ;
+       fhir:display [ fhir:v "created" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.created" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.created` is mapped to FHIR R4B element `PaymentNotice.created`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.reporter" ] ;
+       fhir:display [ fhir:v "reporter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.provider" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.reporter` is mapped to FHIR R4B element `PaymentNotice.provider`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.organization" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.reporter` is mapped to FHIR STU3 element `PaymentNotice.provider`.\nElement `PaymentNotice.reporter` is mapped to FHIR STU3 element `PaymentNotice.organization`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.payment" ] ;
+       fhir:display [ fhir:v "payment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.payment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.payment` is mapped to FHIR R4B element `PaymentNotice.payment`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentNotice.payment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.payment` is mapped to FHIR STU3 structure `PaymentNotice`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.paymentDate" ] ;
+       fhir:display [ fhir:v "paymentDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.paymentDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.paymentDate` is mapped to FHIR R4B element `PaymentNotice.paymentDate`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.statusDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.paymentDate` is mapped to FHIR STU3 element `PaymentNotice.statusDate`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentNotice.paymentDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.paymentDate` is mapped to FHIR DSTU2 structure `PaymentNotice`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.payee" ] ;
+       fhir:display [ fhir:v "payee" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.payee" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.payee` is mapped to FHIR R4B element `PaymentNotice.payee`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentNotice.payee" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.payee` is mapped to FHIR STU3 structure `PaymentNotice`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.recipient" ] ;
+       fhir:display [ fhir:v "recipient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.recipient" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.recipient` is mapped to FHIR R4B element `PaymentNotice.recipient`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.target" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.recipient` is mapped to FHIR STU3 element `PaymentNotice.target`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.amount" ] ;
+       fhir:display [ fhir:v "amount" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.amount" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.amount` is mapped to FHIR R4B element `PaymentNotice.amount`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentNotice.amount" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.amount` is mapped to FHIR STU3 structure `PaymentNotice`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.paymentStatus" ] ;
+       fhir:display [ fhir:v "paymentStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.paymentStatus" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.paymentStatus` is mapped to FHIR R4B element `PaymentNotice.paymentStatus`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,336 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-DetectedIssue-elements-for-R4-DetectedIssue> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-DetectedIssue-elements-for-R4-DetectedIssue"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-DetectedIssue-elements-for-R4-DetectedIssue</b></p><a name=\"ConceptMap-R5-DetectedIssue-elements-for-R4-DetectedIssue\"> </a><a name=\"hcConceptMap-R5-DetectedIssue-elements-for-R4-DetectedIssue\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/DetectedIssue|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/DetectedIssue|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">DetectedIssue</td><td style=\"border-left-width: 0px\">DetectedIssue</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `DetectedIssue` is representable via FHIR R4B Resource `DetectedIssue`.\nElement `DetectedIssue` is mapped to FHIR R4B element `DetectedIssue`.</td></tr><tr><td style=\"border-right-width: 0px\">DetectedIssue.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.meta</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.meta` is mapped to FHIR R4B element `DetectedIssue.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">DetectedIssue.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.implicitRules` is mapped to FHIR R4B element `DetectedIssue.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">DetectedIssue.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.language</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.language` is mapped to FHIR R4B element `DetectedIssue.language`.</td></tr><tr><td style=\"border-right-width: 0px\">DetectedIssue.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.text</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.text` is mapped to FHIR R4B element `DetectedIssue.text`.</td></tr><tr><td style=\"border-right-width: 0px\">DetectedIssue.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.contained</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.contained` is mapped to FHIR R4B element `DetectedIssue.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">DetectedIssue.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.identifier` is mapped to FHIR R4B element `DetectedIssue.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DetectedIssue.status</td><td style=\"border-left-width: 0px; border-bottom-style: none\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.status</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `DetectedIssue.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `DetectedIssue.status` is mapped to FHIR R4B element `DetectedIssue.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.status</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.status` is mapped to FHIR DSTU2 structure `DetectedIssue`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">DetectedIssue.category</td><td style=\"border-left-width: 0px\">category</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.category</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.category` is mapped to FHIR R4B structure `DetectedIssue`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DetectedIssue.code</td><td style=\"border-left-width: 0px; border-bottom-style: none\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.code</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.code` is mapped to FHIR R4B element `DetectedIssue.code`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.category</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.code` is mapped to FHIR STU3 element `DetectedIssue.category`.</td></tr><tr><td style=\"border-right-width: 0px\">DetectedIssue.severity</td><td style=\"border-left-width: 0px\">severity</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.severity</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.severity` is mapped to FHIR R4B element `DetectedIssue.severity`.</td></tr><tr><td style=\"border-right-width: 0px\">DetectedIssue.subject</td><td style=\"border-left-width: 0px\">subject</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.patient</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.subject`, use that element instead.\nElement `DetectedIssue.subject` is mapped to FHIR R4B element `DetectedIssue.patient`.</td></tr><tr><td style=\"border-right-width: 0px\">DetectedIssue.encounter</td><td style=\"border-left-width: 0px\">encounter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.encounter</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.encounter` is mapped to FHIR R4B structure `DetectedIssue`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DetectedIssue.identified[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">identified[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.identified[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `DetectedIssue.identified[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DetectedIssue`.\nElement `DetectedIssue.identified[x]` is mapped to FHIR R4B element `DetectedIssue.identified[x]`.\nNote that the target element context `DetectedIssue.identified[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DetectedIssue`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.date</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.identified[x]` is mapped to FHIR STU3 element `DetectedIssue.date`.</td></tr><tr><td style=\"border-right-width: 0px\">DetectedIssue.author</td><td style=\"border-left-width: 0px\">author</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.author</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.author`, use that element instead.\nElement `DetectedIssue.author` is mapped to FHIR R4B element `DetectedIssue.author`.</td></tr><tr><td style=\"border-right-width: 0px\">DetectedIssue.implicated</td><td style=\"border-left-width: 0px\">implicated</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.implicated</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.implicated` is mapped to FHIR R4B element `DetectedIssue.implicated`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DetectedIssue.evidence</td><td style=\"border-left-width: 0px; border-bottom-style: none\">evidence</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.evidence</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.evidence` is mapped to FHIR R4B element `DetectedIssue.evidence`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.evidence</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.evidence` is mapped to FHIR STU3 structure `DetectedIssue`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DetectedIssue.evidence.code</td><td style=\"border-left-width: 0px; border-bottom-style: none\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.evidence.code</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.evidence.code` is mapped to FHIR R4B element `DetectedIssue.evidence.code`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.evidence:code</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.evidence.code` is part of an existing definition because parent element `DetectedIssue.evidence` requires a cross-version extension.\nElement `DetectedIssue.evidence.code` is mapped to FHIR STU3 structure `DetectedIssue`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DetectedIssue.evidence.detail</td><td style=\"border-left-width: 0px; border-bottom-style: none\">detail</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.evidence.detail</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.evidence.detail` is mapped to FHIR R4B element `DetectedIssue.evidence.detail`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.evidence:detail</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.evidence.detail` is part of an existing definition because parent element `DetectedIssue.evidence` requires a cross-version extension.\nElement `DetectedIssue.evidence.detail` is mapped to FHIR STU3 structure `DetectedIssue`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">DetectedIssue.detail</td><td style=\"border-left-width: 0px\">detail</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.detail</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.detail` is mapped to FHIR R4B element `DetectedIssue.detail`.</td></tr><tr><td style=\"border-right-width: 0px\">DetectedIssue.reference</td><td style=\"border-left-width: 0px\">reference</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.reference</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.reference` is mapped to FHIR R4B element `DetectedIssue.reference`.</td></tr><tr><td style=\"border-right-width: 0px\">DetectedIssue.mitigation</td><td style=\"border-left-width: 0px\">mitigation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.mitigation</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.mitigation` is mapped to FHIR R4B element `DetectedIssue.mitigation`.</td></tr><tr><td style=\"border-right-width: 0px\">DetectedIssue.mitigation.action</td><td style=\"border-left-width: 0px\">action</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.mitigation.action</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.mitigation.action` is mapped to FHIR R4B element `DetectedIssue.mitigation.action`.</td></tr><tr><td style=\"border-right-width: 0px\">DetectedIssue.mitigation.date</td><td style=\"border-left-width: 0px\">date</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.mitigation.date</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.mitigation.date` is mapped to FHIR R4B element `DetectedIssue.mitigation.date`.</td></tr><tr><td style=\"border-right-width: 0px\">DetectedIssue.mitigation.author</td><td style=\"border-left-width: 0px\">author</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.mitigation.author</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.mitigation.author` is mapped to FHIR R4B element `DetectedIssue.mitigation.author`.</td></tr><tr><td style=\"border-right-width: 0px\">DetectedIssue.mitigation.note</td><td style=\"border-left-width: 0px\">note</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.mitigation.note</td><td style=\"border-left-width: 0px\"/><td>Element `DetectedIssue.mitigation.note` is mapped to FHIR R4B structure `DetectedIssue`, but has no target element specified.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-DetectedIssue-elements-for-R4-DetectedIssue"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-DetectedIssue-elements-for-R4-DetectedIssue>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5DetectedIssueElementsForR4DetectedIssue"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:32.0547915-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/DetectedIssue"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/DetectedIssue>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "DetectedIssue" ] ;
+       fhir:display [ fhir:v "DetectedIssue" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `DetectedIssue` is representable via FHIR R4B Resource `DetectedIssue`.\nElement `DetectedIssue` is mapped to FHIR R4B element `DetectedIssue`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DetectedIssue.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.meta` is mapped to FHIR R4B element `DetectedIssue.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DetectedIssue.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.implicitRules` is mapped to FHIR R4B element `DetectedIssue.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DetectedIssue.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.language` is mapped to FHIR R4B element `DetectedIssue.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DetectedIssue.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.text` is mapped to FHIR R4B element `DetectedIssue.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DetectedIssue.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.contained` is mapped to FHIR R4B element `DetectedIssue.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DetectedIssue.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.identifier` is mapped to FHIR R4B element `DetectedIssue.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DetectedIssue.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `DetectedIssue.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `DetectedIssue.status` is mapped to FHIR R4B element `DetectedIssue.status`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.status` is mapped to FHIR DSTU2 structure `DetectedIssue`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DetectedIssue.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.category` is mapped to FHIR R4B structure `DetectedIssue`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DetectedIssue.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.code` is mapped to FHIR R4B element `DetectedIssue.code`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.code` is mapped to FHIR STU3 element `DetectedIssue.category`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DetectedIssue.severity" ] ;
+       fhir:display [ fhir:v "severity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.severity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.severity` is mapped to FHIR R4B element `DetectedIssue.severity`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DetectedIssue.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.patient" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `DetectedIssue.subject` is mapped to FHIR R4B element `DetectedIssue.patient`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DetectedIssue.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.encounter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.encounter` is mapped to FHIR R4B structure `DetectedIssue`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DetectedIssue.identified[x]" ] ;
+       fhir:display [ fhir:v "identified[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.identified[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `DetectedIssue.identified[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DetectedIssue`.\nElement `DetectedIssue.identified[x]` is mapped to FHIR R4B element `DetectedIssue.identified[x]`.\nNote that the target element context `DetectedIssue.identified[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DetectedIssue`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.identified[x]` is mapped to FHIR STU3 element `DetectedIssue.date`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DetectedIssue.author" ] ;
+       fhir:display [ fhir:v "author" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.author" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.author`, use that element instead.\nElement `DetectedIssue.author` is mapped to FHIR R4B element `DetectedIssue.author`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DetectedIssue.implicated" ] ;
+       fhir:display [ fhir:v "implicated" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.implicated" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.implicated` is mapped to FHIR R4B element `DetectedIssue.implicated`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DetectedIssue.evidence" ] ;
+       fhir:display [ fhir:v "evidence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.evidence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.evidence` is mapped to FHIR R4B element `DetectedIssue.evidence`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.evidence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.evidence` is mapped to FHIR STU3 structure `DetectedIssue`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DetectedIssue.evidence.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.evidence.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.evidence.code` is mapped to FHIR R4B element `DetectedIssue.evidence.code`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.evidence:code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.evidence.code` is part of an existing definition because parent element `DetectedIssue.evidence` requires a cross-version extension.\nElement `DetectedIssue.evidence.code` is mapped to FHIR STU3 structure `DetectedIssue`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DetectedIssue.evidence.detail" ] ;
+       fhir:display [ fhir:v "detail" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.evidence.detail" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.evidence.detail` is mapped to FHIR R4B element `DetectedIssue.evidence.detail`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.evidence:detail" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.evidence.detail` is part of an existing definition because parent element `DetectedIssue.evidence` requires a cross-version extension.\nElement `DetectedIssue.evidence.detail` is mapped to FHIR STU3 structure `DetectedIssue`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DetectedIssue.detail" ] ;
+       fhir:display [ fhir:v "detail" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.detail" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.detail` is mapped to FHIR R4B element `DetectedIssue.detail`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DetectedIssue.reference" ] ;
+       fhir:display [ fhir:v "reference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.reference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.reference` is mapped to FHIR R4B element `DetectedIssue.reference`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DetectedIssue.mitigation" ] ;
+       fhir:display [ fhir:v "mitigation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.mitigation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.mitigation` is mapped to FHIR R4B element `DetectedIssue.mitigation`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DetectedIssue.mitigation.action" ] ;
+       fhir:display [ fhir:v "action" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.mitigation.action" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.mitigation.action` is mapped to FHIR R4B element `DetectedIssue.mitigation.action`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DetectedIssue.mitigation.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.mitigation.date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.mitigation.date` is mapped to FHIR R4B element `DetectedIssue.mitigation.date`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DetectedIssue.mitigation.author" ] ;
+       fhir:display [ fhir:v "author" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DetectedIssue#DetectedIssue.mitigation.author" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.mitigation.author` is mapped to FHIR R4B element `DetectedIssue.mitigation.author`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DetectedIssue.mitigation.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.mitigation.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DetectedIssue.mitigation.note` is mapped to FHIR R4B structure `DetectedIssue`, but has no target element specified." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

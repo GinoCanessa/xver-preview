@@ -1,0 +1,177 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-Expression-elements-for-R4-Expression> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-Expression-elements-for-R4-Expression"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-Expression-elements-for-R4-Expression</b></p><a name=\"ConceptMap-R5-Expression-elements-for-R4-Expression\"> </a><a name=\"hcConceptMap-R5-Expression-elements-for-R4-Expression\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Expression|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Expression|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Expression</td><td style=\"border-left-width: 0px; border-bottom-style: none\">Expression</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Expression#Expression</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 ComplexType `Expression` is representable via FHIR R4B extensions.\nElement `Expression` is mapped to FHIR R4B element `Expression`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Expression</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 ComplexType `Expression` is representable via FHIR STU3 extensions.\nElement `Expression` is not mapped to FHIR STU3, since FHIR R5 `Expression` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Expression.description</td><td style=\"border-left-width: 0px; border-bottom-style: none\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Expression#Expression.description</td><td style=\"border-left-width: 0px\"/><td>Element `Expression.description` is mapped to FHIR R4B element `Expression.description`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Expression:description</td><td style=\"border-left-width: 0px\"/><td>Element `Expression.description` is not mapped to FHIR STU3, since FHIR R5 `Expression` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Expression.name</td><td style=\"border-left-width: 0px; border-bottom-style: none\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Expression#Expression.name</td><td style=\"border-left-width: 0px\"/><td>Element `Expression.name` is mapped to FHIR R4B element `Expression.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Expression:name</td><td style=\"border-left-width: 0px\"/><td>Element `Expression.name` is not mapped to FHIR STU3, since FHIR R5 `Expression` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Expression.language</td><td style=\"border-left-width: 0px; border-bottom-style: none\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Expression#Expression.language</td><td style=\"border-left-width: 0px\"/><td>Element `Expression.language` is mapped to FHIR R4B element `Expression.language`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.language</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.language`, use that element instead.\nElement `Expression.language` is not mapped to FHIR STU3, since FHIR R5 `Expression` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Expression.expression</td><td style=\"border-left-width: 0px; border-bottom-style: none\">expression</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Expression#Expression.expression</td><td style=\"border-left-width: 0px\"/><td>Element `Expression.expression` is mapped to FHIR R4B element `Expression.expression`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Expression:expression</td><td style=\"border-left-width: 0px\"/><td>Element `Expression.expression` is not mapped to FHIR STU3, since FHIR R5 `Expression` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Expression.reference</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reference</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Expression#Expression.reference</td><td style=\"border-left-width: 0px\"/><td>Element `Expression.reference` is mapped to FHIR R4B element `Expression.reference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Expression:reference</td><td style=\"border-left-width: 0px\"/><td>Element `Expression.reference` is not mapped to FHIR STU3, since FHIR R5 `Expression` is not mapped.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Expression-elements-for-R4-Expression"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Expression-elements-for-R4-Expression>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5ExpressionElementsForR4Expression"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:32.844074-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Expression"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Expression>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Expression" ] ;
+       fhir:display [ fhir:v "Expression" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Expression#Expression" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 ComplexType `Expression` is representable via FHIR R4B extensions.\nElement `Expression` is mapped to FHIR R4B element `Expression`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Expression" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 ComplexType `Expression` is representable via FHIR STU3 extensions.\nElement `Expression` is not mapped to FHIR STU3, since FHIR R5 `Expression` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Expression.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Expression#Expression.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Expression.description` is mapped to FHIR R4B element `Expression.description`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Expression:description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Expression.description` is not mapped to FHIR STU3, since FHIR R5 `Expression` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Expression.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Expression#Expression.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Expression.name` is mapped to FHIR R4B element `Expression.name`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Expression:name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Expression.name` is not mapped to FHIR STU3, since FHIR R5 `Expression` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Expression.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Expression#Expression.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Expression.language` is mapped to FHIR R4B element `Expression.language`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.language`, use that element instead.\nElement `Expression.language` is not mapped to FHIR STU3, since FHIR R5 `Expression` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Expression.expression" ] ;
+       fhir:display [ fhir:v "expression" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Expression#Expression.expression" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Expression.expression` is mapped to FHIR R4B element `Expression.expression`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Expression:expression" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Expression.expression` is not mapped to FHIR STU3, since FHIR R5 `Expression` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Expression.reference" ] ;
+       fhir:display [ fhir:v "reference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Expression#Expression.reference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Expression.reference` is mapped to FHIR R4B element `Expression.reference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Expression:reference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Expression.reference` is not mapped to FHIR STU3, since FHIR R5 `Expression` is not mapped." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

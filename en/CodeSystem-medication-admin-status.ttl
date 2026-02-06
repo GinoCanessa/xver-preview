@@ -1,0 +1,127 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/medication-admin-status> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "medication-admin-status"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <p>This code system \n              <code>http://hl7.org/fhir/CodeSystem/medication-admin-status</code> defines the following codes:\n            </p>\n            <table class=\"codes\">\n              <tr>\n                <td style=\"white-space:nowrap\">\n                  <b>Code</b>\n                </td>\n                <td>\n                  <b>Display</b>\n                </td>\n                <td>\n                  <b>Definition</b>\n                </td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">in-progress\n                  <a name=\"medication-admin-status-in-progress\"> </a>\n                </td>\n                <td>In Progress</td>\n                <td>The administration has started but has not yet completed.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">not-done\n                  <a name=\"medication-admin-status-not-done\"> </a>\n                </td>\n                <td>Not Done</td>\n                <td>The administration was terminated prior to any impact on the subject (though preparatory actions may have been taken)</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">on-hold\n                  <a name=\"medication-admin-status-on-hold\"> </a>\n                </td>\n                <td>On Hold</td>\n                <td>Actions implied by the administration have been temporarily halted, but are expected to continue later. May also be called 'suspended'.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">completed\n                  <a name=\"medication-admin-status-completed\"> </a>\n                </td>\n                <td>Completed</td>\n                <td>All actions that are implied by the administration have occurred.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">entered-in-error\n                  <a name=\"medication-admin-status-entered-in-error\"> </a>\n                </td>\n                <td>Entered in Error</td>\n                <td>The administration was entered in error and therefore nullified.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">stopped\n                  <a name=\"medication-admin-status-stopped\"> </a>\n                </td>\n                <td>Stopped</td>\n                <td>Actions implied by the administration have been permanently halted, before all of them occurred.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">unknown\n                  <a name=\"medication-admin-status-unknown\"> </a>\n                </td>\n                <td>Unknown</td>\n                <td>The authoring system does not know which of the status values currently applies for this request. Note: This concept is not to be used for 'other' - one of the listed statuses is presumed to apply, it's just not known which one.</td>\n              </tr>\n            </table>\n          </div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "phx"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/CodeSystem/medication-admin-status"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/CodeSystem/medication-admin-status>
+  ] ; # 
+  fhir:version [ fhir:v "5.0.0"] ; # 
+  fhir:name [ fhir:v "MedicationAdministrationStatusCodes"] ; # 
+  fhir:title [ fhir:v "MedicationAdministration Status Codes"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:22:22-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Pharmacy"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Pharmacy" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/medication" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "MedicationAdministration Status Codes"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://hl7.org/fhir/ValueSet/medication-admin-status|4.0.1"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/medication-admin-status?version=4.0.1>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "in-progress" ] ;
+     fhir:display [ fhir:v "In Progress" ] ;
+     fhir:definition [ fhir:v "The administration has started but has not yet completed." ]
+  ] [
+     fhir:code [ fhir:v "not-done" ] ;
+     fhir:display [ fhir:v "Not Done" ] ;
+     fhir:definition [ fhir:v "The administration was terminated prior to any impact on the subject (though preparatory actions may have been taken)" ]
+  ] [
+     fhir:code [ fhir:v "on-hold" ] ;
+     fhir:display [ fhir:v "On Hold" ] ;
+     fhir:definition [ fhir:v "Actions implied by the administration have been temporarily halted, but are expected to continue later. May also be called 'suspended'." ]
+  ] [
+     fhir:code [ fhir:v "completed" ] ;
+     fhir:display [ fhir:v "Completed" ] ;
+     fhir:definition [ fhir:v "All actions that are implied by the administration have occurred." ]
+  ] [
+     fhir:code [ fhir:v "entered-in-error" ] ;
+     fhir:display [ fhir:v "Entered in Error" ] ;
+     fhir:definition [ fhir:v "The administration was entered in error and therefore nullified." ]
+  ] [
+     fhir:code [ fhir:v "stopped" ] ;
+     fhir:display [ fhir:v "Stopped" ] ;
+     fhir:definition [ fhir:v "Actions implied by the administration have been permanently halted, before all of them occurred." ]
+  ] [
+     fhir:code [ fhir:v "unknown" ] ;
+     fhir:display [ fhir:v "Unknown" ] ;
+     fhir:definition [ fhir:v "The authoring system does not know which of the status values currently applies for this request. Note: This concept is not to be used for 'other' - one of the listed statuses is presumed to apply, it's just not known which one." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

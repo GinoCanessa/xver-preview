@@ -1,0 +1,224 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-EnrollmentRequest-elements-for-R4-EnrollmentRequest> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-EnrollmentRequest-elements-for-R4-EnrollmentRequest"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-EnrollmentRequest-elements-for-R4-EnrollmentRequest</b></p><a name=\"ConceptMap-R5-EnrollmentRequest-elements-for-R4-EnrollmentRequest\"> </a><a name=\"hcConceptMap-R5-EnrollmentRequest-elements-for-R4-EnrollmentRequest\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/EnrollmentRequest|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/EnrollmentRequest|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">EnrollmentRequest</td><td style=\"border-left-width: 0px\">EnrollmentRequest</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `EnrollmentRequest` is representable via FHIR R4B Resource `EnrollmentRequest`.\nElement `EnrollmentRequest` is mapped to FHIR R4B element `EnrollmentRequest`.</td></tr><tr><td style=\"border-right-width: 0px\">EnrollmentRequest.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.meta</td><td style=\"border-left-width: 0px\"/><td>Element `EnrollmentRequest.meta` is mapped to FHIR R4B element `EnrollmentRequest.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">EnrollmentRequest.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `EnrollmentRequest.implicitRules` is mapped to FHIR R4B element `EnrollmentRequest.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">EnrollmentRequest.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.language</td><td style=\"border-left-width: 0px\"/><td>Element `EnrollmentRequest.language` is mapped to FHIR R4B element `EnrollmentRequest.language`.</td></tr><tr><td style=\"border-right-width: 0px\">EnrollmentRequest.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.text</td><td style=\"border-left-width: 0px\"/><td>Element `EnrollmentRequest.text` is mapped to FHIR R4B element `EnrollmentRequest.text`.</td></tr><tr><td style=\"border-right-width: 0px\">EnrollmentRequest.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.contained</td><td style=\"border-left-width: 0px\"/><td>Element `EnrollmentRequest.contained` is mapped to FHIR R4B element `EnrollmentRequest.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">EnrollmentRequest.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `EnrollmentRequest.identifier` is mapped to FHIR R4B element `EnrollmentRequest.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EnrollmentRequest.status</td><td style=\"border-left-width: 0px; border-bottom-style: none\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.status</td><td style=\"border-left-width: 0px\"/><td>Element `EnrollmentRequest.status` is mapped to FHIR R4B element `EnrollmentRequest.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EnrollmentRequest.status</td><td style=\"border-left-width: 0px\"/><td>Element `EnrollmentRequest.status` is mapped to FHIR DSTU2 structure `EnrollmentRequest`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">EnrollmentRequest.created</td><td style=\"border-left-width: 0px\">created</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.created</td><td style=\"border-left-width: 0px\"/><td>Element `EnrollmentRequest.created` is mapped to FHIR R4B element `EnrollmentRequest.created`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EnrollmentRequest.insurer</td><td style=\"border-left-width: 0px; border-bottom-style: none\">insurer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.insurer</td><td style=\"border-left-width: 0px\"/><td>Element `EnrollmentRequest.insurer` is mapped to FHIR R4B element `EnrollmentRequest.insurer`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.target</td><td style=\"border-left-width: 0px\"/><td>Element `EnrollmentRequest.insurer` is mapped to FHIR DSTU2 element `EnrollmentRequest.target`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EnrollmentRequest.provider</td><td style=\"border-left-width: 0px; border-bottom-style: none\">provider</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.provider</td><td style=\"border-left-width: 0px\"/><td>Element `EnrollmentRequest.provider` is mapped to FHIR R4B element `EnrollmentRequest.provider`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.organization</td><td style=\"border-left-width: 0px\"/><td>Element `EnrollmentRequest.provider` is mapped to FHIR STU3 element `EnrollmentRequest.provider`.\nElement `EnrollmentRequest.provider` is mapped to FHIR STU3 element `EnrollmentRequest.organization`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EnrollmentRequest.candidate</td><td style=\"border-left-width: 0px; border-bottom-style: none\">candidate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.candidate</td><td style=\"border-left-width: 0px\"/><td>Element `EnrollmentRequest.candidate` is mapped to FHIR R4B element `EnrollmentRequest.candidate`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.subject</td><td style=\"border-left-width: 0px\"/><td>Element `EnrollmentRequest.candidate` is mapped to FHIR STU3 element `EnrollmentRequest.subject`.</td></tr><tr><td style=\"border-right-width: 0px\">EnrollmentRequest.coverage</td><td style=\"border-left-width: 0px\">coverage</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.coverage</td><td style=\"border-left-width: 0px\"/><td>Element `EnrollmentRequest.coverage` is mapped to FHIR R4B element `EnrollmentRequest.coverage`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-EnrollmentRequest-elements-for-R4-EnrollmentRequest"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-EnrollmentRequest-elements-for-R4-EnrollmentRequest>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5EnrollmentRequestElementsForR4EnrollmentRequest"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:32.4302582-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/EnrollmentRequest>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "EnrollmentRequest" ] ;
+       fhir:display [ fhir:v "EnrollmentRequest" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `EnrollmentRequest` is representable via FHIR R4B Resource `EnrollmentRequest`.\nElement `EnrollmentRequest` is mapped to FHIR R4B element `EnrollmentRequest`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EnrollmentRequest.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentRequest.meta` is mapped to FHIR R4B element `EnrollmentRequest.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EnrollmentRequest.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentRequest.implicitRules` is mapped to FHIR R4B element `EnrollmentRequest.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EnrollmentRequest.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentRequest.language` is mapped to FHIR R4B element `EnrollmentRequest.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EnrollmentRequest.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentRequest.text` is mapped to FHIR R4B element `EnrollmentRequest.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EnrollmentRequest.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentRequest.contained` is mapped to FHIR R4B element `EnrollmentRequest.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EnrollmentRequest.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentRequest.identifier` is mapped to FHIR R4B element `EnrollmentRequest.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EnrollmentRequest.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentRequest.status` is mapped to FHIR R4B element `EnrollmentRequest.status`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EnrollmentRequest.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentRequest.status` is mapped to FHIR DSTU2 structure `EnrollmentRequest`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EnrollmentRequest.created" ] ;
+       fhir:display [ fhir:v "created" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.created" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentRequest.created` is mapped to FHIR R4B element `EnrollmentRequest.created`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EnrollmentRequest.insurer" ] ;
+       fhir:display [ fhir:v "insurer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.insurer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentRequest.insurer` is mapped to FHIR R4B element `EnrollmentRequest.insurer`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.target" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentRequest.insurer` is mapped to FHIR DSTU2 element `EnrollmentRequest.target`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EnrollmentRequest.provider" ] ;
+       fhir:display [ fhir:v "provider" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.provider" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentRequest.provider` is mapped to FHIR R4B element `EnrollmentRequest.provider`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.organization" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentRequest.provider` is mapped to FHIR STU3 element `EnrollmentRequest.provider`.\nElement `EnrollmentRequest.provider` is mapped to FHIR STU3 element `EnrollmentRequest.organization`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EnrollmentRequest.candidate" ] ;
+       fhir:display [ fhir:v "candidate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.candidate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentRequest.candidate` is mapped to FHIR R4B element `EnrollmentRequest.candidate`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentRequest.candidate` is mapped to FHIR STU3 element `EnrollmentRequest.subject`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EnrollmentRequest.coverage" ] ;
+       fhir:display [ fhir:v "coverage" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EnrollmentRequest#EnrollmentRequest.coverage" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentRequest.coverage` is mapped to FHIR R4B element `EnrollmentRequest.coverage`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

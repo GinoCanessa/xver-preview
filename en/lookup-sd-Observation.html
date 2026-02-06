@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Lookup for ProfileObservation - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"3.105"}
+    h3,h4,h5,h6{--heading-prefix:"3.105"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" data-no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img alt="International flag" src="../assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='lookup-sd.html'><b>Structure Lookup</b></a></li><li><b>Lookup for ProfileObservation</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="lookup-sd-NutritionProduct.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="lookup-sd-ObservationDefinition.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Lookup for ProfileObservation</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+</div>
+<h3 id="lookup-for-fhir-r5-observation-for-use-in-fhir-r4">Lookup for <a href="https://hl7.org/fhir/R5/">FHIR R5</a> <a href="https://hl7.org/fhir/R5/Observation.html">Observation</a> for use in <a href="https://hl7.org/fhir/R4/">FHIR R4</a></h3>
+
+<p>The FHIR R5 resource is represented in FHIR R4 via the Observation resource.</p>
+
+<p>Note that there is a profile defined to simplify use of this cross-version resource representation:<a href="StructureDefinition-profile-Observation.html">Profile: Observation</a></p>
+
+<p>A computable version of the following element information is available in: <a href="ConceptMap-ConceptMap-R5-Observation-elements-for-R4-Observation.html">ConceptMapR5ObservationElementsForR4Observation</a></p>
+
+<table class="grid">
+  <thead>
+    <tr>
+      <th>Source Element (FHIR R5)</th>
+      <th>Target(s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.meta</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.meta</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.implicitRules</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.implicitRules</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.language</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.language</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.text</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.text</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.contained</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.contained</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.identifier</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.identifier</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.instantiates[x]</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-Observation.instantiates.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.instantiates</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.basedOn</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.basedOn</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.triggeredBy</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-Observation.triggeredBy.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.triggeredBy.observation</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-Observation.triggeredBy.html">Extension slice: observation</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.triggeredBy.type</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-Observation.triggeredBy.html">Extension slice: type</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.triggeredBy.reason</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-Observation.triggeredBy.html">Extension slice: reason</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.partOf</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.partOf</a><br /><a href="StructureDefinition-ext-R5-Observation.partOf.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.partOf</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.status</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.status</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.category</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.category</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.code</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.code</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.subject</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.subject</a><br /><a href="https://hl7.org/fhir/R4/Basic.html#resource">Basic.subject</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.focus</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.focus</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.encounter</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.encounter</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.effective[x]</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.effective[x]</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.issued</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.issued</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.performer</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.performer</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.value[x]</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.value[x]</a><br /><a href="StructureDefinition-ext-R5-Observation.value.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.value</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.dataAbsentReason</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.dataAbsentReason</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.interpretation</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.interpretation</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.note</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.note</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.bodySite</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.bodySite</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.bodyStructure</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-Observation.bodyStructure.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.bodyStructure</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.method</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.method</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.specimen</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.specimen</a><br /><a href="StructureDefinition-ext-R5-Observation.specimen.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.specimen</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.device</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.device</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.referenceRange</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.referenceRange</a><br /><a href="StructureDefinition-ext-R5-Observation.referenceRange.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.referenceRange</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.referenceRange.low</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.referenceRange.low</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.referenceRange.high</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.referenceRange.high</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.referenceRange.normalValue</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-Observation.ref.normalValue.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.referenceRange.normalValue</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.referenceRange.type</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.referenceRange.type</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.referenceRange.appliesTo</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.referenceRange.appliesTo</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.referenceRange.age</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.referenceRange.age</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.referenceRange.text</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.referenceRange.text</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.hasMember</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.hasMember</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.derivedFrom</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.derivedFrom</a><br /><a href="StructureDefinition-ext-R5-Observation.derivedFrom.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.derivedFrom</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.component</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.component</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.component.code</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.component.code</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.component.value[x]</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.component.value[x]</a><br /><a href="StructureDefinition-ext-R5-Observation.com.value.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.component.value</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.component.dataAbsentReason</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.component.dataAbsentReason</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.component.interpretation</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.component.interpretation</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.component.referenceRange</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.component.referenceRange</a><br /><a href="StructureDefinition-ext-R5-Observation.com.referenceRange.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.component.referenceRange</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.component.referenceRange.low</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.component.referenceRange.low</a><br /><a href="StructureDefinition-ext-R5-Observation.com.referenceRange.html">Extension slice: low</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.component.referenceRange.high</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.component.referenceRange.high</a><br /><a href="StructureDefinition-ext-R5-Observation.com.referenceRange.html">Extension slice: high</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.component.referenceRange.normalValue</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-Observation.com.referenceRange.html">Extension slice: normalValue</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.component.referenceRange.type</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.component.referenceRange.type</a><br /><a href="StructureDefinition-ext-R5-Observation.com.referenceRange.html">Extension slice: type</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.component.referenceRange.appliesTo</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.component.referenceRange.appliesTo</a><br /><a href="StructureDefinition-ext-R5-Observation.com.referenceRange.html">Extension slice: appliesTo</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.component.referenceRange.age</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.component.referenceRange.age</a><br /><a href="StructureDefinition-ext-R5-Observation.com.referenceRange.html">Extension slice: age</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/Observation.html#resource"><code class="language-plaintext highlighter-rouge">Observation.component.referenceRange.text</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/Observation.html#resource">Observation.component.referenceRange.text</a><br /><a href="StructureDefinition-ext-R5-Observation.com.referenceRange.html">Extension slice: text</a></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="lookup-sd-NutritionProduct.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="lookup-sd-ObservationDefinition.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-06 13:22:00 -0600">
+    2026-02-06
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir/uv/xver/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

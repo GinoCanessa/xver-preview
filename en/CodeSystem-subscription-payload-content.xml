@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="subscription-payload-content"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/subscription-payload-content</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">empty
+                  <a name="subscription-payload-content-empty"> </a>
+                </td>
+                <td>Empty</td>
+                <td>No resource content is transacted in the notification payload.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">id-only
+                  <a name="subscription-payload-content-id-only"> </a>
+                </td>
+                <td>Id-only</td>
+                <td>Only the resource id is transacted in the notification payload.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">full-resource
+                  <a name="subscription-payload-content-full-resource"> </a>
+                </td>
+                <td>Full-resource</td>
+                <td>The entire resource is transacted in the notification payload.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <url value="http://hl7.org/fhir/subscription-payload-content"/>
+  <version value="5.0.0"/>
+  <name value="SubscriptionPayloadContent"/>
+  <title value="Subscription Payload Content"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="Codes to represent how much resource content to send in the notification payload."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/subscription-payload-content"/>
+  <content value="complete"/>
+  <concept>
+    <code value="empty"/>
+    <display value="Empty"/>
+    <definition value="No resource content is transacted in the notification payload."/>
+  </concept>
+  <concept>
+    <code value="id-only"/>
+    <display value="Id-only"/>
+    <definition value="Only the resource id is transacted in the notification payload."/>
+  </concept>
+  <concept>
+    <code value="full-resource"/>
+    <display value="Full-resource"/>
+    <definition value="The entire resource is transacted in the notification payload."/>
+  </concept>
+</CodeSystem>

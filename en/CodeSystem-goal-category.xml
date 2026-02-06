@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="goal-category"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://terminology.hl7.org/CodeSystem/goal-category</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">dietary<a name="goal-category-dietary"> </a></td><td>Dietary</td><td>Goals related to the consumption of food and/or beverages.</td></tr><tr><td style="white-space:nowrap">safety<a name="goal-category-safety"> </a></td><td>Safety</td><td>Goals related to the personal protection of the subject.</td></tr><tr><td style="white-space:nowrap">behavioral<a name="goal-category-behavioral"> </a></td><td>Behavioral</td><td>Goals related to the manner in which the subject acts.</td></tr><tr><td style="white-space:nowrap">nursing<a name="goal-category-nursing"> </a></td><td>Nursing</td><td>Goals related to the practice of nursing or established by nurses.</td></tr><tr><td style="white-space:nowrap">physiotherapy<a name="goal-category-physiotherapy"> </a></td><td>Physiotherapy</td><td>Goals related to the mobility and/or motor capability of the subject.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pc"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/goal-category"/>
+  <version value="0.1.0"/>
+  <name value="GoalCategory"/>
+  <title value="Goal category"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2023-02-25T12:07:30-06:00"/>
+  <publisher value="Patient Care"/>
+  <contact>
+    <name value="Patient Care"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="Example codes for grouping goals to use for filtering or presentation."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/goal-category|1.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="dietary"/>
+    <display value="Dietary"/>
+    <definition value="Goals related to the consumption of food and/or beverages."/>
+  </concept>
+  <concept>
+    <code value="safety"/>
+    <display value="Safety"/>
+    <definition value="Goals related to the personal protection of the subject."/>
+  </concept>
+  <concept>
+    <code value="behavioral"/>
+    <display value="Behavioral"/>
+    <definition value="Goals related to the manner in which the subject acts."/>
+  </concept>
+  <concept>
+    <code value="nursing"/>
+    <display value="Nursing"/>
+    <definition value="Goals related to the practice of nursing or established by nurses."/>
+  </concept>
+  <concept>
+    <code value="physiotherapy"/>
+    <display value="Physiotherapy"/>
+    <definition value="Goals related to the mobility and/or motor capability of the subject."/>
+  </concept>
+</CodeSystem>

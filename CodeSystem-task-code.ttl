@@ -1,0 +1,130 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/task-code> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "task-code"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <p>This code system \n              <code>http://hl7.org/fhir/CodeSystem/task-code</code> defines the following codes:\n            </p>\n            <table class=\"codes\">\n              <tr>\n                <td style=\"white-space:nowrap\">\n                  <b>Code</b>\n                </td>\n                <td>\n                  <b>Display</b>\n                </td>\n                <td>\n                  <b>Definition</b>\n                </td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">approve\n                  <a name=\"task-code-approve\"> </a>\n                </td>\n                <td>Activate/approve the focal resource</td>\n                <td>Take what actions are needed to transition the focus resource from 'draft' to 'active' or 'in-progress', as appropriate for the resource type.  This may involve additing additional content, approval, validation, etc.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">fulfill\n                  <a name=\"task-code-fulfill\"> </a>\n                </td>\n                <td>Fulfill the focal request</td>\n                <td>Act to perform the actions described in the focus request.  This might result in a 'more assertive' request (order for a plan or proposal, filler order for a placer order), but is intend to eventually result in events.  The degree of fulfillment requested might be limited by Task.restriction.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">instantiate\n                  <a name=\"task-code-instantiate\"> </a>\n                </td>\n                <td>Instantiate the focal definition</td>\n                <td>Act to perform the actions defined in the focus definition resource (ActivityDefinition, PlanDefinition, Questionnaire, etc.)  For PlanDefinition or ActivityDefinition, this might result in a 'more assertive' request (order for a plan or proposal, filler order for a placer order), but is intend to eventually result in events.  For Questionnaire, this would result in a QuestionnaireResponse - and possibly resources constructed using data extracted from the response.  The degree of fulfillment requested might be limited by Task.restriction.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">abort\n                  <a name=\"task-code-abort\"> </a>\n                </td>\n                <td>Mark the focal resource as no longer active</td>\n                <td>Abort, cancel or withdraw the focal resource, as appropriate for the type of resource.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">replace\n                  <a name=\"task-code-replace\"> </a>\n                </td>\n                <td>Replace the focal resource with the input resource</td>\n                <td>Replace the focal resource with the specified input resource</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">change\n                  <a name=\"task-code-change\"> </a>\n                </td>\n                <td>Change the focal resource</td>\n                <td>Update the focal resource of the owning system to reflect the content specified as the Task.focus</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">suspend\n                  <a name=\"task-code-suspend\"> </a>\n                </td>\n                <td>Suspend the focal resource</td>\n                <td>Transition the focal resource from 'active' or 'in-progress' to 'suspended'</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">resume\n                  <a name=\"task-code-resume\"> </a>\n                </td>\n                <td>Re-activate the focal resource</td>\n                <td>Transition the focal resource from 'suspended' to 'active' or 'in-progress' as appropriate for the resource type.</td>\n              </tr>\n            </table>\n          </div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "oo"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/CodeSystem/task-code"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/CodeSystem/task-code>
+  ] ; # 
+  fhir:version [ fhir:v "5.0.0"] ; # 
+  fhir:name [ fhir:v "TaskCode"] ; # 
+  fhir:title [ fhir:v "Task Codes"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:22:22-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Orders and Observations"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Orders and Observations" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/orders" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codes indicating the type of action that is expected to be performed"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://hl7.org/fhir/ValueSet/task-code.html"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/task-code.html>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "approve" ] ;
+     fhir:display [ fhir:v "Activate/approve the focal resource" ] ;
+     fhir:definition [ fhir:v "Take what actions are needed to transition the focus resource from 'draft' to 'active' or 'in-progress', as appropriate for the resource type.  This may involve additing additional content, approval, validation, etc." ]
+  ] [
+     fhir:code [ fhir:v "fulfill" ] ;
+     fhir:display [ fhir:v "Fulfill the focal request" ] ;
+     fhir:definition [ fhir:v "Act to perform the actions described in the focus request.  This might result in a 'more assertive' request (order for a plan or proposal, filler order for a placer order), but is intend to eventually result in events.  The degree of fulfillment requested might be limited by Task.restriction." ]
+  ] [
+     fhir:code [ fhir:v "instantiate" ] ;
+     fhir:display [ fhir:v "Instantiate the focal definition" ] ;
+     fhir:definition [ fhir:v "Act to perform the actions defined in the focus definition resource (ActivityDefinition, PlanDefinition, Questionnaire, etc.)  For PlanDefinition or ActivityDefinition, this might result in a 'more assertive' request (order for a plan or proposal, filler order for a placer order), but is intend to eventually result in events.  For Questionnaire, this would result in a QuestionnaireResponse - and possibly resources constructed using data extracted from the response.  The degree of fulfillment requested might be limited by Task.restriction." ]
+  ] [
+     fhir:code [ fhir:v "abort" ] ;
+     fhir:display [ fhir:v "Mark the focal resource as no longer active" ] ;
+     fhir:definition [ fhir:v "Abort, cancel or withdraw the focal resource, as appropriate for the type of resource." ]
+  ] [
+     fhir:code [ fhir:v "replace" ] ;
+     fhir:display [ fhir:v "Replace the focal resource with the input resource" ] ;
+     fhir:definition [ fhir:v "Replace the focal resource with the specified input resource" ]
+  ] [
+     fhir:code [ fhir:v "change" ] ;
+     fhir:display [ fhir:v "Change the focal resource" ] ;
+     fhir:definition [ fhir:v "Update the focal resource of the owning system to reflect the content specified as the Task.focus" ]
+  ] [
+     fhir:code [ fhir:v "suspend" ] ;
+     fhir:display [ fhir:v "Suspend the focal resource" ] ;
+     fhir:definition [ fhir:v "Transition the focal resource from 'active' or 'in-progress' to 'suspended'" ]
+  ] [
+     fhir:code [ fhir:v "resume" ] ;
+     fhir:display [ fhir:v "Re-activate the focal resource" ] ;
+     fhir:definition [ fhir:v "Transition the focal resource from 'suspended' to 'active' or 'in-progress' as appropriate for the resource type." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

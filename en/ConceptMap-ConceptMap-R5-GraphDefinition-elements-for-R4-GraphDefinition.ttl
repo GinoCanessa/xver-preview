@@ -1,0 +1,629 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-GraphDefinition-elements-for-R4-GraphDefinition> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-GraphDefinition-elements-for-R4-GraphDefinition"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-GraphDefinition-elements-for-R4-GraphDefinition</b></p><a name=\"ConceptMap-R5-GraphDefinition-elements-for-R4-GraphDefinition\"> </a><a name=\"hcConceptMap-R5-GraphDefinition-elements-for-R4-GraphDefinition\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/GraphDefinition|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/GraphDefinition|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition</td><td style=\"border-left-width: 0px; border-bottom-style: none\">GraphDefinition</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `GraphDefinition` is representable via FHIR R4B Resource `GraphDefinition`.\nElement `GraphDefinition` is mapped to FHIR R4B element `GraphDefinition`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `GraphDefinition` is representable via FHIR DSTU2 Resource `Basic`.\nElement `GraphDefinition` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.meta</td><td style=\"border-left-width: 0px; border-bottom-style: none\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.meta</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.meta` is mapped to FHIR R4B element `GraphDefinition.meta`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.meta</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.meta`, use that element instead.\nElement `GraphDefinition.meta` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.implicitRules</td><td style=\"border-left-width: 0px; border-bottom-style: none\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.implicitRules` is mapped to FHIR R4B element `GraphDefinition.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `GraphDefinition.implicitRules` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.language</td><td style=\"border-left-width: 0px; border-bottom-style: none\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.language</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.language` is mapped to FHIR R4B element `GraphDefinition.language`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.language</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.language`, use that element instead.\nElement `GraphDefinition.language` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.text</td><td style=\"border-left-width: 0px; border-bottom-style: none\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.text</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.text` is mapped to FHIR R4B element `GraphDefinition.text`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.text</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `GraphDefinition.text` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.contained</td><td style=\"border-left-width: 0px; border-bottom-style: none\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.contained</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.contained` is mapped to FHIR R4B element `GraphDefinition.contained`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.contained</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `GraphDefinition.contained` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.url</td><td style=\"border-left-width: 0px; border-bottom-style: none\">url</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.url</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.url` is mapped to FHIR R4B element `GraphDefinition.url`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:url</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.url` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">GraphDefinition.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">Basic.identifier</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `GraphDefinition.identifier` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.version</td><td style=\"border-left-width: 0px; border-bottom-style: none\">version</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.version</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.version` is mapped to FHIR R4B element `GraphDefinition.version`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:version</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.version` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.versionAlgorithm[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">versionAlgorithm[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.versionAlgorithm</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.versionAlgorithm[x]` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:versionAlgorithm</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.versionAlgorithm[x]` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.name</td><td style=\"border-left-width: 0px; border-bottom-style: none\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.name</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.name` is mapped to FHIR R4B element `GraphDefinition.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:name</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.name` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.title</td><td style=\"border-left-width: 0px; border-bottom-style: none\">title</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.title</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.title` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:title</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.title` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.status</td><td style=\"border-left-width: 0px; border-bottom-style: none\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.status</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.status` is mapped to FHIR R4B element `GraphDefinition.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:status</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.status` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.experimental</td><td style=\"border-left-width: 0px; border-bottom-style: none\">experimental</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.experimental</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.experimental` is mapped to FHIR R4B element `GraphDefinition.experimental`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:experimental</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.experimental` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.date</td><td style=\"border-left-width: 0px; border-bottom-style: none\">date</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.date</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.date` is mapped to FHIR R4B element `GraphDefinition.date`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:date</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.date` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.publisher</td><td style=\"border-left-width: 0px; border-bottom-style: none\">publisher</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.publisher</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.publisher` is mapped to FHIR R4B element `GraphDefinition.publisher`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:publisher</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.publisher` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.contact</td><td style=\"border-left-width: 0px; border-bottom-style: none\">contact</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.contact</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.contact` is mapped to FHIR R4B element `GraphDefinition.contact`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:contact</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.contact` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.description</td><td style=\"border-left-width: 0px; border-bottom-style: none\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.description</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.description` is mapped to FHIR R4B element `GraphDefinition.description`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:description</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.description` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.useContext</td><td style=\"border-left-width: 0px; border-bottom-style: none\">useContext</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.useContext</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.useContext` is mapped to FHIR R4B element `GraphDefinition.useContext`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:useContext</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.useContext` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.jurisdiction</td><td style=\"border-left-width: 0px; border-bottom-style: none\">jurisdiction</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.jurisdiction</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.jurisdiction` is mapped to FHIR R4B element `GraphDefinition.jurisdiction`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:jurisdiction</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.jurisdiction` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.purpose</td><td style=\"border-left-width: 0px; border-bottom-style: none\">purpose</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.purpose</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.purpose` is mapped to FHIR R4B element `GraphDefinition.purpose`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:purpose</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.purpose` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.copyright</td><td style=\"border-left-width: 0px; border-bottom-style: none\">copyright</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.copyright</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.copyright` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:copyright</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.copyright` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.copyrightLabel</td><td style=\"border-left-width: 0px; border-bottom-style: none\">copyrightLabel</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.copyrightLabel</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.copyrightLabel` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:copyrightLabel</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.copyrightLabel` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.start</td><td style=\"border-left-width: 0px; border-bottom-style: none\">start</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.start</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.start` is mapped to FHIR R4B element `GraphDefinition.start`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:start</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.start` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.node</td><td style=\"border-left-width: 0px; border-bottom-style: none\">node</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.node</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.node` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:node</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.node` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.node.nodeId</td><td style=\"border-left-width: 0px; border-bottom-style: none\">nodeId</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.node:nodeId</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.node.nodeId` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.nodeId` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:node:nodeId</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.node.nodeId` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.nodeId` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.node.description</td><td style=\"border-left-width: 0px; border-bottom-style: none\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.node:description</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.node.description` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.description` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:node:description</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.node.description` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.description` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.node.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.node:type</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.node.type` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.type` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:node:type</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.node.type` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.type` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.node.profile</td><td style=\"border-left-width: 0px; border-bottom-style: none\">profile</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.node:profile</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.node.profile` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.profile` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:node:profile</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.node.profile` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.profile` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.link</td><td style=\"border-left-width: 0px; border-bottom-style: none\">link</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link` is mapped to FHIR R4B element `GraphDefinition.link`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.link.description</td><td style=\"border-left-width: 0px; border-bottom-style: none\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link.description</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.description` is mapped to FHIR R4B element `GraphDefinition.link.description`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:description</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.description` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.description` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.link.min</td><td style=\"border-left-width: 0px; border-bottom-style: none\">min</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link.min</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.min` is mapped to FHIR R4B element `GraphDefinition.link.min`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:min</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.min` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.min` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.link.max</td><td style=\"border-left-width: 0px; border-bottom-style: none\">max</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link.max</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.max` is mapped to FHIR R4B element `GraphDefinition.link.max`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:max</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.max` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.max` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.link.sourceId</td><td style=\"border-left-width: 0px; border-bottom-style: none\">sourceId</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.sourceId</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.sourceId` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:sourceId</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.sourceId` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.sourceId` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.link.path</td><td style=\"border-left-width: 0px; border-bottom-style: none\">path</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link.path</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.path` is mapped to FHIR R4B element `GraphDefinition.link.path`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:path</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.path` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.path` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.link.sliceName</td><td style=\"border-left-width: 0px; border-bottom-style: none\">sliceName</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link.sliceName</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.sliceName` is mapped to FHIR R4B element `GraphDefinition.link.sliceName`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:sliceName</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.sliceName` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.sliceName` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.link.targetId</td><td style=\"border-left-width: 0px; border-bottom-style: none\">targetId</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.targetId</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.targetId` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:targetId</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.targetId` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.targetId` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.link.params</td><td style=\"border-left-width: 0px; border-bottom-style: none\">params</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.params</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.params` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:params</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.params` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.params` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.link.compartment</td><td style=\"border-left-width: 0px; border-bottom-style: none\">compartment</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.compartment</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.compartment` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:compartment</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.compartment` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.compartment` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.link.compartment.use</td><td style=\"border-left-width: 0px; border-bottom-style: none\">use</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.compartment:use</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.compartment.use` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.use` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:compartment:use</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.compartment.use` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.use` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.link.compartment.rule</td><td style=\"border-left-width: 0px; border-bottom-style: none\">rule</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.compartment:rule</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.compartment.rule` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.rule` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:compartment:rule</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.compartment.rule` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.rule` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.link.compartment.code</td><td style=\"border-left-width: 0px; border-bottom-style: none\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.compartment:code</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.compartment.code` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.code` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:compartment:code</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.compartment.code` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.code` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.link.compartment.expression</td><td style=\"border-left-width: 0px; border-bottom-style: none\">expression</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.compartment:expression</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.compartment.expression` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.expression` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:compartment:expression</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.compartment.expression` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.expression` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GraphDefinition.link.compartment.description</td><td style=\"border-left-width: 0px; border-bottom-style: none\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.compartment:description</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.compartment.description` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.description` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:compartment:description</td><td style=\"border-left-width: 0px\"/><td>Element `GraphDefinition.link.compartment.description` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.description` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-GraphDefinition-elements-for-R4-GraphDefinition"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-GraphDefinition-elements-for-R4-GraphDefinition>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5GraphDefinitionElementsForR4GraphDefinition"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:32.9227048-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/GraphDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "GraphDefinition" ] ;
+       fhir:display [ fhir:v "GraphDefinition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `GraphDefinition` is representable via FHIR R4B Resource `GraphDefinition`.\nElement `GraphDefinition` is mapped to FHIR R4B element `GraphDefinition`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `GraphDefinition` is representable via FHIR DSTU2 Resource `Basic`.\nElement `GraphDefinition` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.meta` is mapped to FHIR R4B element `GraphDefinition.meta`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `GraphDefinition.meta` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.implicitRules` is mapped to FHIR R4B element `GraphDefinition.implicitRules`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `GraphDefinition.implicitRules` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.language` is mapped to FHIR R4B element `GraphDefinition.language`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.language`, use that element instead.\nElement `GraphDefinition.language` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.text` is mapped to FHIR R4B element `GraphDefinition.text`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `GraphDefinition.text` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.contained` is mapped to FHIR R4B element `GraphDefinition.contained`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `GraphDefinition.contained` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.url" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.url` is mapped to FHIR R4B element `GraphDefinition.url`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:url" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.url` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `GraphDefinition.identifier` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.version" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.version` is mapped to FHIR R4B element `GraphDefinition.version`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:version" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.version` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.versionAlgorithm[x]" ] ;
+       fhir:display [ fhir:v "versionAlgorithm[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.versionAlgorithm" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.versionAlgorithm[x]` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:versionAlgorithm" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.versionAlgorithm[x]` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.name` is mapped to FHIR R4B element `GraphDefinition.name`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.name` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.title" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.title` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:title" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.title` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.status` is mapped to FHIR R4B element `GraphDefinition.status`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.status` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.experimental" ] ;
+       fhir:display [ fhir:v "experimental" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.experimental" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.experimental` is mapped to FHIR R4B element `GraphDefinition.experimental`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:experimental" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.experimental` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.date` is mapped to FHIR R4B element `GraphDefinition.date`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.date` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.publisher" ] ;
+       fhir:display [ fhir:v "publisher" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.publisher" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.publisher` is mapped to FHIR R4B element `GraphDefinition.publisher`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:publisher" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.publisher` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.contact" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.contact` is mapped to FHIR R4B element `GraphDefinition.contact`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:contact" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.contact` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.description` is mapped to FHIR R4B element `GraphDefinition.description`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.description` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.useContext" ] ;
+       fhir:display [ fhir:v "useContext" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.useContext" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.useContext` is mapped to FHIR R4B element `GraphDefinition.useContext`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:useContext" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.useContext` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.jurisdiction` is mapped to FHIR R4B element `GraphDefinition.jurisdiction`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.jurisdiction` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.purpose" ] ;
+       fhir:display [ fhir:v "purpose" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.purpose" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.purpose` is mapped to FHIR R4B element `GraphDefinition.purpose`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:purpose" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.purpose` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.copyright" ] ;
+       fhir:display [ fhir:v "copyright" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.copyright" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.copyright` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:copyright" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.copyright` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.copyrightLabel" ] ;
+       fhir:display [ fhir:v "copyrightLabel" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.copyrightLabel" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.copyrightLabel` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:copyrightLabel" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.copyrightLabel` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.start" ] ;
+       fhir:display [ fhir:v "start" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.start" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.start` is mapped to FHIR R4B element `GraphDefinition.start`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:start" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.start` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.node" ] ;
+       fhir:display [ fhir:v "node" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.node" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.node` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:node" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.node` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.node.nodeId" ] ;
+       fhir:display [ fhir:v "nodeId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.node:nodeId" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.node.nodeId` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.nodeId` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:node:nodeId" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.node.nodeId` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.nodeId` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.node.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.node:description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.node.description` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.description` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:node:description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.node.description` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.description` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.node.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.node:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.node.type` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.type` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:node:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.node.type` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.type` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.node.profile" ] ;
+       fhir:display [ fhir:v "profile" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.node:profile" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.node.profile` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.profile` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:node:profile" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.node.profile` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.profile` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link" ] ;
+       fhir:display [ fhir:v "link" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link` is mapped to FHIR R4B element `GraphDefinition.link`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.description` is mapped to FHIR R4B element `GraphDefinition.link.description`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.description` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.description` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.min" ] ;
+       fhir:display [ fhir:v "min" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link.min" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.min` is mapped to FHIR R4B element `GraphDefinition.link.min`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:min" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.min` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.min` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.max" ] ;
+       fhir:display [ fhir:v "max" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link.max" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.max` is mapped to FHIR R4B element `GraphDefinition.link.max`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:max" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.max` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.max` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.sourceId" ] ;
+       fhir:display [ fhir:v "sourceId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.sourceId" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.sourceId` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:sourceId" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.sourceId` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.sourceId` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.path" ] ;
+       fhir:display [ fhir:v "path" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link.path" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.path` is mapped to FHIR R4B element `GraphDefinition.link.path`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:path" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.path` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.path` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.sliceName" ] ;
+       fhir:display [ fhir:v "sliceName" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link.sliceName" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.sliceName` is mapped to FHIR R4B element `GraphDefinition.link.sliceName`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:sliceName" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.sliceName` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.sliceName` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.targetId" ] ;
+       fhir:display [ fhir:v "targetId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.targetId" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.targetId` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:targetId" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.targetId` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.targetId` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.params" ] ;
+       fhir:display [ fhir:v "params" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.params" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.params` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:params" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.params` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.params` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.compartment" ] ;
+       fhir:display [ fhir:v "compartment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.compartment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.compartment` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:compartment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.compartment` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.compartment` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.compartment.use" ] ;
+       fhir:display [ fhir:v "use" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.compartment:use" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.compartment.use` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.use` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:compartment:use" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.compartment.use` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.use` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.compartment.rule" ] ;
+       fhir:display [ fhir:v "rule" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.compartment:rule" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.compartment.rule` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.rule` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:compartment:rule" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.compartment.rule` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.rule` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.compartment.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.compartment:code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.compartment.code` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.code` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:compartment:code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.compartment.code` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.code` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.compartment.expression" ] ;
+       fhir:display [ fhir:v "expression" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.compartment:expression" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.compartment.expression` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.expression` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:compartment:expression" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.compartment.expression` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.expression` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.compartment.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.compartment:description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.compartment.description` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.description` is mapped to FHIR R4B structure `GraphDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition:link:compartment:description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.compartment.description` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.description` is not mapped to FHIR DSTU2, since FHIR R5 `GraphDefinition` is not mapped." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

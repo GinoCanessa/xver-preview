@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="resource-status"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/resource-status</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">error
+                  <a name="resource-status-error"> </a>
+                </td>
+                <td>The resource was created in error, and should not be treated as valid (note: in many cases, for various data integrity related reasons, the information cannot be removed from the record)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">proposed
+                  <a name="resource-status-proposed"> </a>
+                </td>
+                <td>The resource describes an action or plan that is proposed, and not yet approved by the participants</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">planned
+                  <a name="resource-status-planned"> </a>
+                </td>
+                <td>The resource describes a course of action that is planned and agreed/approved, but at the time of recording was still future</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">draft
+                  <a name="resource-status-draft"> </a>
+                </td>
+                <td>The information in the resource is still being prepared and edited</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">requested
+                  <a name="resource-status-requested"> </a>
+                </td>
+                <td>A fulfiller has been asked to perform this action, but it has not yet occurred</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">received
+                  <a name="resource-status-received"> </a>
+                </td>
+                <td>The fulfiller has received the request, but not yet agreed to carry out the action</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">declined
+                  <a name="resource-status-declined"> </a>
+                </td>
+                <td>The fulfiller chose not to perform the action</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">accepted
+                  <a name="resource-status-accepted"> </a>
+                </td>
+                <td>The fulfiller has decided to perform the action, and plans are in train to do this in the future</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">arrived
+                  <a name="resource-status-arrived"> </a>
+                </td>
+                <td>The pre-conditions for the action are all fulfilled, and it is imminent</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">active
+                  <a name="resource-status-active"> </a>
+                </td>
+                <td>The resource describes information that is currently valid or a process that is presently occuring</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">suspended
+                  <a name="resource-status-suspended"> </a>
+                </td>
+                <td>The process described/requested in this resource has been halted for some reason</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">failed
+                  <a name="resource-status-failed"> </a>
+                </td>
+                <td>The process described/requested in the resource could not be completed, and no further action is planned</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">replaced
+                  <a name="resource-status-replaced"> </a>
+                </td>
+                <td>The information in this resource has been replaced by information in another resource</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">complete
+                  <a name="resource-status-complete"> </a>
+                </td>
+                <td>The process described/requested in the resource has been completed, and no further action is planned</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">inactive
+                  <a name="resource-status-inactive"> </a>
+                </td>
+                <td>The resource describes information that is no longer valid or a process that is stopped occurring</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">abandoned
+                  <a name="resource-status-abandoned"> </a>
+                </td>
+                <td>The process described/requested in the resource did not complete - usually due to some workflow error, and no further action is planned</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">unknown
+                  <a name="resource-status-unknown"> </a>
+                </td>
+                <td>Authoring system does not know the status</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">unconfirmed
+                  <a name="resource-status-unconfirmed"> </a>
+                </td>
+                <td>The information in this resource is not yet approved</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">confirmed
+                  <a name="resource-status-confirmed"> </a>
+                </td>
+                <td>The information in this resource is approved</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">resolved
+                  <a name="resource-status-resolved"> </a>
+                </td>
+                <td>The issue identified by this resource is no longer of concern</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">refuted
+                  <a name="resource-status-refuted"> </a>
+                </td>
+                <td>This information has been ruled out by testing and evaluation</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">differential
+                  <a name="resource-status-differential"> </a>
+                </td>
+                <td>Potentially true?</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">partial
+                  <a name="resource-status-partial"> </a>
+                </td>
+                <td>This information is still being assembled</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">busy-unavailable
+                  <a name="resource-status-busy-unavailable"> </a>
+                </td>
+                <td>not available at this time/location</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">free
+                  <a name="resource-status-free"> </a>
+                </td>
+                <td>Free for scheduling</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">on-target
+                  <a name="resource-status-on-target"> </a>
+                </td>
+                <td>Ready to act</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">ahead-of-target
+                  <a name="resource-status-ahead-of-target"> </a>
+                </td>
+                <td>Ahead of the planned timelines</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">behind-target
+                  <a name="resource-status-behind-target"> </a>
+                </td>
+                <td>Behind the planned timelines</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">not-ready
+                  <a name="resource-status-not-ready"> </a>
+                </td>
+                <td>Not ready to act</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">transduc-discon
+                  <a name="resource-status-transduc-discon"> </a>
+                </td>
+                <td>The device transducer is disconnected</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">hw-discon
+                  <a name="resource-status-hw-discon"> </a>
+                </td>
+                <td>The hardware is disconnected</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="3"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <url value="http://hl7.org/fhir/resource-status"/>
+  <version value="5.0.0"/>
+  <name value="FHIRCanonicalStatusCodes"/>
+  <title value="Canonical Status Codes for FHIR Resources"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2026-02-06T13:22:22-06:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="The master set of status codes used throughout FHIR. All status codes are mapped to one of these codes."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/resource-status|4.0.1"/>
+  <hierarchyMeaning value="is-a"/>
+  <content value="complete"/>
+  <concept>
+    <code value="error"/>
+    <display value="error"/>
+    <definition value="The resource was created in error, and should not be treated as valid (note: in many cases, for various data integrity related reasons, the information cannot be removed from the record)"/>
+  </concept>
+  <concept>
+    <code value="proposed"/>
+    <display value="proposed"/>
+    <definition value="The resource describes an action or plan that is proposed, and not yet approved by the participants"/>
+  </concept>
+  <concept>
+    <code value="planned"/>
+    <display value="planned"/>
+    <definition value="The resource describes a course of action that is planned and agreed/approved, but at the time of recording was still future"/>
+  </concept>
+  <concept>
+    <code value="draft"/>
+    <display value="draft"/>
+    <definition value="The information in the resource is still being prepared and edited"/>
+  </concept>
+  <concept>
+    <code value="requested"/>
+    <display value="requested"/>
+    <definition value="A fulfiller has been asked to perform this action, but it has not yet occurred"/>
+  </concept>
+  <concept>
+    <code value="received"/>
+    <display value="received"/>
+    <definition value="The fulfiller has received the request, but not yet agreed to carry out the action"/>
+  </concept>
+  <concept>
+    <code value="declined"/>
+    <display value="declined"/>
+    <definition value="The fulfiller chose not to perform the action"/>
+  </concept>
+  <concept>
+    <code value="accepted"/>
+    <display value="accepted"/>
+    <definition value="The fulfiller has decided to perform the action, and plans are in train to do this in the future"/>
+  </concept>
+  <concept>
+    <code value="arrived"/>
+    <display value="arrived"/>
+    <definition value="The pre-conditions for the action are all fulfilled, and it is imminent"/>
+  </concept>
+  <concept>
+    <code value="active"/>
+    <display value="active"/>
+    <definition value="The resource describes information that is currently valid or a process that is presently occuring"/>
+  </concept>
+  <concept>
+    <code value="suspended"/>
+    <display value="suspended"/>
+    <definition value="The process described/requested in this resource has been halted for some reason"/>
+  </concept>
+  <concept>
+    <code value="failed"/>
+    <display value="failed"/>
+    <definition value="The process described/requested in the resource could not be completed, and no further action is planned"/>
+  </concept>
+  <concept>
+    <code value="replaced"/>
+    <display value="replaced"/>
+    <definition value="The information in this resource has been replaced by information in another resource"/>
+  </concept>
+  <concept>
+    <code value="complete"/>
+    <display value="complete"/>
+    <definition value="The process described/requested in the resource has been completed, and no further action is planned"/>
+  </concept>
+  <concept>
+    <code value="inactive"/>
+    <display value="inactive"/>
+    <definition value="The resource describes information that is no longer valid or a process that is stopped occurring"/>
+  </concept>
+  <concept>
+    <code value="abandoned"/>
+    <display value="abandoned"/>
+    <definition value="The process described/requested in the resource did not complete - usually due to some workflow error, and no further action is planned"/>
+  </concept>
+  <concept>
+    <code value="unknown"/>
+    <display value="unknown"/>
+    <definition value="Authoring system does not know the status"/>
+  </concept>
+  <concept>
+    <code value="unconfirmed"/>
+    <display value="unconfirmed"/>
+    <definition value="The information in this resource is not yet approved"/>
+  </concept>
+  <concept>
+    <code value="confirmed"/>
+    <display value="confirmed"/>
+    <definition value="The information in this resource is approved"/>
+  </concept>
+  <concept>
+    <code value="resolved"/>
+    <display value="resolved"/>
+    <definition value="The issue identified by this resource is no longer of concern"/>
+  </concept>
+  <concept>
+    <code value="refuted"/>
+    <display value="refuted"/>
+    <definition value="This information has been ruled out by testing and evaluation"/>
+  </concept>
+  <concept>
+    <code value="differential"/>
+    <display value="differential"/>
+    <definition value="Potentially true?"/>
+  </concept>
+  <concept>
+    <code value="partial"/>
+    <display value="partial"/>
+    <definition value="This information is still being assembled"/>
+  </concept>
+  <concept>
+    <code value="busy-unavailable"/>
+    <display value="busy-unavailable"/>
+    <definition value="not available at this time/location"/>
+  </concept>
+  <concept>
+    <code value="free"/>
+    <display value="free"/>
+    <definition value="Free for scheduling"/>
+  </concept>
+  <concept>
+    <code value="on-target"/>
+    <display value="on-target"/>
+    <definition value="Ready to act"/>
+  </concept>
+  <concept>
+    <code value="ahead-of-target"/>
+    <display value="ahead-of-target"/>
+    <definition value="Ahead of the planned timelines"/>
+  </concept>
+  <concept>
+    <code value="behind-target"/>
+    <display value="behind-target"/>
+    <definition value="Behind the planned timelines"/>
+  </concept>
+  <concept>
+    <code value="not-ready"/>
+    <display value="not-ready"/>
+    <definition value="Not ready to act"/>
+  </concept>
+  <concept>
+    <code value="transduc-discon"/>
+    <display value="transduc-discon"/>
+    <definition value="The device transducer is disconnected"/>
+  </concept>
+  <concept>
+    <code value="hw-discon"/>
+    <display value="hw-discon"/>
+    <definition value="The hardware is disconnected"/>
+  </concept>
+</CodeSystem>

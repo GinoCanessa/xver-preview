@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="history-absent-reason"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://terminology.hl7.org/CodeSystem/history-absent-reason</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">subject-unknown<a name="history-absent-reason-subject-unknown"> </a></td><td>Subject Unknown</td><td>Patient does not know the subject, e.g. the biological parent of an adopted patient.</td></tr><tr><td style="white-space:nowrap">withheld<a name="history-absent-reason-withheld"> </a></td><td>Information Withheld</td><td>The patient withheld or refused to share the information.</td></tr><tr><td style="white-space:nowrap">unable-to-obtain<a name="history-absent-reason-unable-to-obtain"> </a></td><td>Unable To Obtain</td><td>Information cannot be obtained; e.g. unconscious patient.</td></tr><tr><td style="white-space:nowrap">deferred<a name="history-absent-reason-deferred"> </a></td><td>Deferred</td><td>Patient does not have the information now, but can provide the information at a later date.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pc"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/history-absent-reason"/>
+  <version value="0.1.0"/>
+  <name value="FamilyHistoryAbsentReason"/>
+  <title value="FamilyHistoryAbsentReason"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2020-04-09T16:10:28-05:00"/>
+  <publisher value="Patient Care"/>
+  <contact>
+    <name value="Patient Care"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="Codes describing the reason why a family member's history is not available."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/history-absent-reason|1.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="subject-unknown"/>
+    <display value="Subject Unknown"/>
+    <definition value="Patient does not know the subject, e.g. the biological parent of an adopted patient."/>
+  </concept>
+  <concept>
+    <code value="withheld"/>
+    <display value="Information Withheld"/>
+    <definition value="The patient withheld or refused to share the information."/>
+  </concept>
+  <concept>
+    <code value="unable-to-obtain"/>
+    <display value="Unable To Obtain"/>
+    <definition value="Information cannot be obtained; e.g. unconscious patient."/>
+  </concept>
+  <concept>
+    <code value="deferred"/>
+    <display value="Deferred"/>
+    <definition value="Patient does not have the information now, but can provide the information at a later date."/>
+  </concept>
+</CodeSystem>

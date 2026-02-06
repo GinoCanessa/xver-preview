@@ -1,0 +1,337 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-Location-elements-for-R4-Location> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-Location-elements-for-R4-Location"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-Location-elements-for-R4-Location</b></p><a name=\"ConceptMap-R5-Location-elements-for-R4-Location\"> </a><a name=\"hcConceptMap-R5-Location-elements-for-R4-Location\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Location|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Location|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">Location</td><td style=\"border-left-width: 0px\">Location</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Location#Location</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Location` is representable via FHIR R4B Resource `Location`.\nElement `Location` is mapped to FHIR R4B element `Location`.</td></tr><tr><td style=\"border-right-width: 0px\">Location.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Location#Location.meta</td><td style=\"border-left-width: 0px\"/><td>Element `Location.meta` is mapped to FHIR R4B element `Location.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">Location.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Location#Location.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `Location.implicitRules` is mapped to FHIR R4B element `Location.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">Location.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Location#Location.language</td><td style=\"border-left-width: 0px\"/><td>Element `Location.language` is mapped to FHIR R4B element `Location.language`.</td></tr><tr><td style=\"border-right-width: 0px\">Location.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Location#Location.text</td><td style=\"border-left-width: 0px\"/><td>Element `Location.text` is mapped to FHIR R4B element `Location.text`.</td></tr><tr><td style=\"border-right-width: 0px\">Location.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Location#Location.contained</td><td style=\"border-left-width: 0px\"/><td>Element `Location.contained` is mapped to FHIR R4B element `Location.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">Location.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Location#Location.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `Location.identifier` is mapped to FHIR R4B element `Location.identifier`.</td></tr><tr><td style=\"border-right-width: 0px\">Location.status</td><td style=\"border-left-width: 0px\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Location#Location.status</td><td style=\"border-left-width: 0px\"/><td>Element `Location.status` is mapped to FHIR R4B element `Location.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Location.operationalStatus</td><td style=\"border-left-width: 0px; border-bottom-style: none\">operationalStatus</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Location#Location.operationalStatus</td><td style=\"border-left-width: 0px\"/><td>Element `Location.operationalStatus` is mapped to FHIR R4B element `Location.operationalStatus`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.operationalStatus</td><td style=\"border-left-width: 0px\"/><td>Element `Location.operationalStatus` is mapped to FHIR DSTU2 structure `Location`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Location.name</td><td style=\"border-left-width: 0px\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Location#Location.name</td><td style=\"border-left-width: 0px\"/><td>Element `Location.name` is mapped to FHIR R4B element `Location.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Location.alias</td><td style=\"border-left-width: 0px; border-bottom-style: none\">alias</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Location#Location.alias</td><td style=\"border-left-width: 0px\"/><td>Element `Location.alias` is mapped to FHIR R4B element `Location.alias`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.alias</td><td style=\"border-left-width: 0px\"/><td>Element `Location.alias` is mapped to FHIR DSTU2 structure `Location`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Location.description</td><td style=\"border-left-width: 0px\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Location#Location.description</td><td style=\"border-left-width: 0px\"/><td>Element `Location.description` is mapped to FHIR R4B element `Location.description`.</td></tr><tr><td style=\"border-right-width: 0px\">Location.mode</td><td style=\"border-left-width: 0px\">mode</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Location#Location.mode</td><td style=\"border-left-width: 0px\"/><td>Element `Location.mode` is mapped to FHIR R4B element `Location.mode`.</td></tr><tr><td style=\"border-right-width: 0px\">Location.type</td><td style=\"border-left-width: 0px\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Location#Location.type</td><td style=\"border-left-width: 0px\"/><td>Element `Location.type` is mapped to FHIR R4B element `Location.type`.</td></tr><tr><td style=\"border-right-width: 0px\">Location.contact</td><td style=\"border-left-width: 0px\">contact</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.contact</td><td style=\"border-left-width: 0px\"/><td>Element `Location.contact` is mapped to FHIR R4B structure `Location`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Location.address</td><td style=\"border-left-width: 0px\">address</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Location#Location.address</td><td style=\"border-left-width: 0px\"/><td>Element `Location.address` is mapped to FHIR R4B element `Location.address`.</td></tr><tr><td style=\"border-right-width: 0px\">Location.form</td><td style=\"border-left-width: 0px\">form</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Location#Location.physicalType</td><td style=\"border-left-width: 0px\"/><td>Element `Location.form` is mapped to FHIR R4B element `Location.physicalType`.</td></tr><tr><td style=\"border-right-width: 0px\">Location.position</td><td style=\"border-left-width: 0px\">position</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Location#Location.position</td><td style=\"border-left-width: 0px\"/><td>Element `Location.position` is mapped to FHIR R4B element `Location.position`.</td></tr><tr><td style=\"border-right-width: 0px\">Location.position.longitude</td><td style=\"border-left-width: 0px\">longitude</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Location#Location.position.longitude</td><td style=\"border-left-width: 0px\"/><td>Element `Location.position.longitude` is mapped to FHIR R4B element `Location.position.longitude`.</td></tr><tr><td style=\"border-right-width: 0px\">Location.position.latitude</td><td style=\"border-left-width: 0px\">latitude</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Location#Location.position.latitude</td><td style=\"border-left-width: 0px\"/><td>Element `Location.position.latitude` is mapped to FHIR R4B element `Location.position.latitude`.</td></tr><tr><td style=\"border-right-width: 0px\">Location.position.altitude</td><td style=\"border-left-width: 0px\">altitude</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Location#Location.position.altitude</td><td style=\"border-left-width: 0px\"/><td>Element `Location.position.altitude` is mapped to FHIR R4B element `Location.position.altitude`.</td></tr><tr><td style=\"border-right-width: 0px\">Location.managingOrganization</td><td style=\"border-left-width: 0px\">managingOrganization</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Location#Location.managingOrganization</td><td style=\"border-left-width: 0px\"/><td>Element `Location.managingOrganization` is mapped to FHIR R4B element `Location.managingOrganization`.</td></tr><tr><td style=\"border-right-width: 0px\">Location.partOf</td><td style=\"border-left-width: 0px\">partOf</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Location#Location.partOf</td><td style=\"border-left-width: 0px\"/><td>Element `Location.partOf` is mapped to FHIR R4B element `Location.partOf`.</td></tr><tr><td style=\"border-right-width: 0px\">Location.characteristic</td><td style=\"border-left-width: 0px\">characteristic</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.characteristic</td><td style=\"border-left-width: 0px\"/><td>Element `Location.characteristic` is mapped to FHIR R4B structure `Location`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Location.hoursOfOperation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">hoursOfOperation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Location#Location.hoursOfOperation</td><td style=\"border-left-width: 0px\"/><td>Element `Location.hoursOfOperation` is mapped to FHIR R4B element `Location.hoursOfOperation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.hoursOfOperation</td><td style=\"border-left-width: 0px\"/><td>Element `Location.hoursOfOperation` is mapped to FHIR STU3 structure `Location`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Location.virtualService</td><td style=\"border-left-width: 0px\">virtualService</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.virtualService</td><td style=\"border-left-width: 0px\"/><td>Element `Location.virtualService` is mapped to FHIR R4B structure `Location`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Location.endpoint</td><td style=\"border-left-width: 0px; border-bottom-style: none\">endpoint</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Location#Location.endpoint</td><td style=\"border-left-width: 0px\"/><td>Element `Location.endpoint` is mapped to FHIR R4B element `Location.endpoint`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.endpoint</td><td style=\"border-left-width: 0px\"/><td>Element `Location.endpoint` is mapped to FHIR DSTU2 structure `Location`, but has no target element specified.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Location-elements-for-R4-Location"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Location-elements-for-R4-Location>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5LocationElementsForR4Location"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:33.2264709-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Location"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Location>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Location" ] ;
+       fhir:display [ fhir:v "Location" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Location#Location" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Location` is representable via FHIR R4B Resource `Location`.\nElement `Location` is mapped to FHIR R4B element `Location`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Location.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Location#Location.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.meta` is mapped to FHIR R4B element `Location.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Location.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Location#Location.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.implicitRules` is mapped to FHIR R4B element `Location.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Location.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Location#Location.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.language` is mapped to FHIR R4B element `Location.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Location.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Location#Location.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.text` is mapped to FHIR R4B element `Location.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Location.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Location#Location.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.contained` is mapped to FHIR R4B element `Location.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Location.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Location#Location.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.identifier` is mapped to FHIR R4B element `Location.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Location.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Location#Location.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.status` is mapped to FHIR R4B element `Location.status`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Location.operationalStatus" ] ;
+       fhir:display [ fhir:v "operationalStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Location#Location.operationalStatus" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.operationalStatus` is mapped to FHIR R4B element `Location.operationalStatus`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.operationalStatus" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.operationalStatus` is mapped to FHIR DSTU2 structure `Location`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Location.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Location#Location.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.name` is mapped to FHIR R4B element `Location.name`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Location.alias" ] ;
+       fhir:display [ fhir:v "alias" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Location#Location.alias" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.alias` is mapped to FHIR R4B element `Location.alias`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.alias" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.alias` is mapped to FHIR DSTU2 structure `Location`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Location.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Location#Location.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.description` is mapped to FHIR R4B element `Location.description`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Location.mode" ] ;
+       fhir:display [ fhir:v "mode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Location#Location.mode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.mode` is mapped to FHIR R4B element `Location.mode`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Location.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Location#Location.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.type` is mapped to FHIR R4B element `Location.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Location.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.contact" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.contact` is mapped to FHIR R4B structure `Location`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Location.address" ] ;
+       fhir:display [ fhir:v "address" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Location#Location.address" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.address` is mapped to FHIR R4B element `Location.address`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Location.form" ] ;
+       fhir:display [ fhir:v "form" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Location#Location.physicalType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.form` is mapped to FHIR R4B element `Location.physicalType`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Location.position" ] ;
+       fhir:display [ fhir:v "position" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Location#Location.position" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.position` is mapped to FHIR R4B element `Location.position`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Location.position.longitude" ] ;
+       fhir:display [ fhir:v "longitude" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Location#Location.position.longitude" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.position.longitude` is mapped to FHIR R4B element `Location.position.longitude`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Location.position.latitude" ] ;
+       fhir:display [ fhir:v "latitude" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Location#Location.position.latitude" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.position.latitude` is mapped to FHIR R4B element `Location.position.latitude`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Location.position.altitude" ] ;
+       fhir:display [ fhir:v "altitude" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Location#Location.position.altitude" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.position.altitude` is mapped to FHIR R4B element `Location.position.altitude`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Location.managingOrganization" ] ;
+       fhir:display [ fhir:v "managingOrganization" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Location#Location.managingOrganization" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.managingOrganization` is mapped to FHIR R4B element `Location.managingOrganization`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Location.partOf" ] ;
+       fhir:display [ fhir:v "partOf" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Location#Location.partOf" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.partOf` is mapped to FHIR R4B element `Location.partOf`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Location.characteristic" ] ;
+       fhir:display [ fhir:v "characteristic" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.characteristic" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.characteristic` is mapped to FHIR R4B structure `Location`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Location.hoursOfOperation" ] ;
+       fhir:display [ fhir:v "hoursOfOperation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Location#Location.hoursOfOperation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.hoursOfOperation` is mapped to FHIR R4B element `Location.hoursOfOperation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.hoursOfOperation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.hoursOfOperation` is mapped to FHIR STU3 structure `Location`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Location.virtualService" ] ;
+       fhir:display [ fhir:v "virtualService" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.virtualService" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.virtualService` is mapped to FHIR R4B structure `Location`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Location.endpoint" ] ;
+       fhir:display [ fhir:v "endpoint" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Location#Location.endpoint" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.endpoint` is mapped to FHIR R4B element `Location.endpoint`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.endpoint" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Location.endpoint` is mapped to FHIR DSTU2 structure `Location`, but has no target element specified." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,425 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-VisionPrescription-elements-for-R4-VisionPrescription> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-VisionPrescription-elements-for-R4-VisionPrescription"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-VisionPrescription-elements-for-R4-VisionPrescription</b></p><a name=\"ConceptMap-R5-VisionPrescription-elements-for-R4-VisionPrescription\"> </a><a name=\"hcConceptMap-R5-VisionPrescription-elements-for-R4-VisionPrescription\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/VisionPrescription|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/VisionPrescription|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">VisionPrescription</td><td style=\"border-left-width: 0px\">VisionPrescription</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `VisionPrescription` is representable via FHIR R4B Resource `VisionPrescription`.\nElement `VisionPrescription` is mapped to FHIR R4B element `VisionPrescription`.</td></tr><tr><td style=\"border-right-width: 0px\">VisionPrescription.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.meta</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.meta` is mapped to FHIR R4B element `VisionPrescription.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">VisionPrescription.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.implicitRules` is mapped to FHIR R4B element `VisionPrescription.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">VisionPrescription.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.language</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.language` is mapped to FHIR R4B element `VisionPrescription.language`.</td></tr><tr><td style=\"border-right-width: 0px\">VisionPrescription.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.text</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.text` is mapped to FHIR R4B element `VisionPrescription.text`.</td></tr><tr><td style=\"border-right-width: 0px\">VisionPrescription.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.contained</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.contained` is mapped to FHIR R4B element `VisionPrescription.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">VisionPrescription.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.identifier` is mapped to FHIR R4B element `VisionPrescription.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">VisionPrescription.status</td><td style=\"border-left-width: 0px; border-bottom-style: none\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.status</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.status` is mapped to FHIR R4B element `VisionPrescription.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-VisionPrescription.status</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.status` is mapped to FHIR DSTU2 structure `VisionPrescription`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">VisionPrescription.created</td><td style=\"border-left-width: 0px; border-bottom-style: none\">created</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.created</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.created` is mapped to FHIR R4B element `VisionPrescription.created`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-VisionPrescription.created</td><td style=\"border-left-width: 0px\"/><td>Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `dateTime`:1..1 -&gt; basic: `date`:0..1).\nElement `VisionPrescription.created` is mapped to FHIR STU3 structure `VisionPrescription`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">VisionPrescription.patient</td><td style=\"border-left-width: 0px\">patient</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.patient</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.patient` is mapped to FHIR R4B element `VisionPrescription.patient`.</td></tr><tr><td style=\"border-right-width: 0px\">VisionPrescription.encounter</td><td style=\"border-left-width: 0px\">encounter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.encounter</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.encounter` is mapped to FHIR R4B element `VisionPrescription.encounter`.</td></tr><tr><td style=\"border-right-width: 0px\">VisionPrescription.dateWritten</td><td style=\"border-left-width: 0px\">dateWritten</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dateWritten</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.dateWritten` is mapped to FHIR R4B element `VisionPrescription.dateWritten`.</td></tr><tr><td style=\"border-right-width: 0px\">VisionPrescription.prescriber</td><td style=\"border-left-width: 0px\">prescriber</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.prescriber</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.prescriber` is mapped to FHIR R4B element `VisionPrescription.prescriber`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">VisionPrescription.lensSpecification</td><td style=\"border-left-width: 0px; border-bottom-style: none\">lensSpecification</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification` is mapped to FHIR R4B element `VisionPrescription.lensSpecification`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification` is mapped to FHIR STU3 element `VisionPrescription.dispense`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">VisionPrescription.lensSpecification.product</td><td style=\"border-left-width: 0px; border-bottom-style: none\">product</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.product</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.product` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.product`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.product</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.product` is mapped to FHIR STU3 element `VisionPrescription.dispense.product`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">VisionPrescription.lensSpecification.eye</td><td style=\"border-left-width: 0px; border-bottom-style: none\">eye</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.eye</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.eye` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.eye`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.eye</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.eye` is mapped to FHIR STU3 element `VisionPrescription.dispense.eye`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">VisionPrescription.lensSpecification.sphere</td><td style=\"border-left-width: 0px; border-bottom-style: none\">sphere</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.sphere</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.sphere` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.sphere`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.sphere</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.sphere` is mapped to FHIR STU3 element `VisionPrescription.dispense.sphere`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">VisionPrescription.lensSpecification.cylinder</td><td style=\"border-left-width: 0px; border-bottom-style: none\">cylinder</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.cylinder</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.cylinder` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.cylinder`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.cylinder</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.cylinder` is mapped to FHIR STU3 element `VisionPrescription.dispense.cylinder`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">VisionPrescription.lensSpecification.axis</td><td style=\"border-left-width: 0px; border-bottom-style: none\">axis</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.axis</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.axis` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.axis`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.axis</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.axis` is mapped to FHIR STU3 element `VisionPrescription.dispense.axis`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">VisionPrescription.lensSpecification.prism</td><td style=\"border-left-width: 0px; border-bottom-style: none\">prism</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.prism</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.prism` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.prism`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-VisionPrescription.lensSpecification.prism</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.prism` is mapped to FHIR STU3 structure `VisionPrescription`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">VisionPrescription.lensSpecification.prism.amount</td><td style=\"border-left-width: 0px; border-bottom-style: none\">amount</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.prism.amount</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.prism.amount` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.prism.amount`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.prism</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.prism.amount` is part of an existing definition because parent element `VisionPrescription.lensSpecification.prism` requires a cross-version extension.\nElement `VisionPrescription.lensSpecification.prism.amount` is mapped to FHIR STU3 element `VisionPrescription.dispense.prism`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">VisionPrescription.lensSpecification.prism.base</td><td style=\"border-left-width: 0px; border-bottom-style: none\">base</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.prism.base</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.prism.base` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.prism.base`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.base</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.prism.base` is part of an existing definition because parent element `VisionPrescription.lensSpecification.prism` requires a cross-version extension.\nElement `VisionPrescription.lensSpecification.prism.base` is mapped to FHIR STU3 element `VisionPrescription.dispense.base`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">VisionPrescription.lensSpecification.add</td><td style=\"border-left-width: 0px; border-bottom-style: none\">add</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.add</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.add` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.add`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.add</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.add` is mapped to FHIR STU3 element `VisionPrescription.dispense.add`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">VisionPrescription.lensSpecification.power</td><td style=\"border-left-width: 0px; border-bottom-style: none\">power</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.power</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.power` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.power`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.power</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.power` is mapped to FHIR STU3 element `VisionPrescription.dispense.power`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">VisionPrescription.lensSpecification.backCurve</td><td style=\"border-left-width: 0px; border-bottom-style: none\">backCurve</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.backCurve</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.backCurve` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.backCurve`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.backCurve</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.backCurve` is mapped to FHIR STU3 element `VisionPrescription.dispense.backCurve`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">VisionPrescription.lensSpecification.diameter</td><td style=\"border-left-width: 0px; border-bottom-style: none\">diameter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.diameter</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.diameter` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.diameter`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.diameter</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.diameter` is mapped to FHIR STU3 element `VisionPrescription.dispense.diameter`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">VisionPrescription.lensSpecification.duration</td><td style=\"border-left-width: 0px; border-bottom-style: none\">duration</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.duration</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.duration` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.duration`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.duration</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.duration` is mapped to FHIR STU3 element `VisionPrescription.dispense.duration`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">VisionPrescription.lensSpecification.color</td><td style=\"border-left-width: 0px; border-bottom-style: none\">color</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.color</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.color` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.color`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.color</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.color` is mapped to FHIR STU3 element `VisionPrescription.dispense.color`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">VisionPrescription.lensSpecification.brand</td><td style=\"border-left-width: 0px; border-bottom-style: none\">brand</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.brand</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.brand` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.brand`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.brand</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.brand` is mapped to FHIR STU3 element `VisionPrescription.dispense.brand`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">VisionPrescription.lensSpecification.note</td><td style=\"border-left-width: 0px; border-bottom-style: none\">note</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.note</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.note` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.note`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.note</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.note` is mapped to FHIR STU3 element `VisionPrescription.dispense.note`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-VisionPrescription.lensSpecification.note</td><td style=\"border-left-width: 0px\"/><td>Element `VisionPrescription.lensSpecification.note` is mapped to FHIR DSTU2 structure `VisionPrescription`, but has no target element specified.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-VisionPrescription-elements-for-R4-VisionPrescription"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-VisionPrescription-elements-for-R4-VisionPrescription>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5VisionPrescriptionElementsForR4VisionPrescription"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:34.9235474-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/VisionPrescription>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "VisionPrescription" ] ;
+       fhir:display [ fhir:v "VisionPrescription" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `VisionPrescription` is representable via FHIR R4B Resource `VisionPrescription`.\nElement `VisionPrescription` is mapped to FHIR R4B element `VisionPrescription`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.meta` is mapped to FHIR R4B element `VisionPrescription.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.implicitRules` is mapped to FHIR R4B element `VisionPrescription.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.language` is mapped to FHIR R4B element `VisionPrescription.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.text` is mapped to FHIR R4B element `VisionPrescription.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.contained` is mapped to FHIR R4B element `VisionPrescription.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.identifier` is mapped to FHIR R4B element `VisionPrescription.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.status` is mapped to FHIR R4B element `VisionPrescription.status`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-VisionPrescription.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.status` is mapped to FHIR DSTU2 structure `VisionPrescription`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.created" ] ;
+       fhir:display [ fhir:v "created" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.created" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.created` is mapped to FHIR R4B element `VisionPrescription.created`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-VisionPrescription.created" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `dateTime`:1..1 -> basic: `date`:0..1).\nElement `VisionPrescription.created` is mapped to FHIR STU3 structure `VisionPrescription`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.patient" ] ;
+       fhir:display [ fhir:v "patient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.patient" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.patient` is mapped to FHIR R4B element `VisionPrescription.patient`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.encounter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.encounter` is mapped to FHIR R4B element `VisionPrescription.encounter`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.dateWritten" ] ;
+       fhir:display [ fhir:v "dateWritten" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dateWritten" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.dateWritten` is mapped to FHIR R4B element `VisionPrescription.dateWritten`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.prescriber" ] ;
+       fhir:display [ fhir:v "prescriber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.prescriber" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.prescriber` is mapped to FHIR R4B element `VisionPrescription.prescriber`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification" ] ;
+       fhir:display [ fhir:v "lensSpecification" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification` is mapped to FHIR R4B element `VisionPrescription.lensSpecification`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification` is mapped to FHIR STU3 element `VisionPrescription.dispense`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.product" ] ;
+       fhir:display [ fhir:v "product" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.product" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.product` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.product`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.product" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.product` is mapped to FHIR STU3 element `VisionPrescription.dispense.product`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.eye" ] ;
+       fhir:display [ fhir:v "eye" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.eye" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.eye` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.eye`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.eye" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.eye` is mapped to FHIR STU3 element `VisionPrescription.dispense.eye`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.sphere" ] ;
+       fhir:display [ fhir:v "sphere" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.sphere" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.sphere` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.sphere`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.sphere" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.sphere` is mapped to FHIR STU3 element `VisionPrescription.dispense.sphere`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.cylinder" ] ;
+       fhir:display [ fhir:v "cylinder" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.cylinder" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.cylinder` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.cylinder`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.cylinder" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.cylinder` is mapped to FHIR STU3 element `VisionPrescription.dispense.cylinder`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.axis" ] ;
+       fhir:display [ fhir:v "axis" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.axis" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.axis` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.axis`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.axis" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.axis` is mapped to FHIR STU3 element `VisionPrescription.dispense.axis`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.prism" ] ;
+       fhir:display [ fhir:v "prism" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.prism" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.prism` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.prism`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-VisionPrescription.lensSpecification.prism" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.prism` is mapped to FHIR STU3 structure `VisionPrescription`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.prism.amount" ] ;
+       fhir:display [ fhir:v "amount" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.prism.amount" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.prism.amount` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.prism.amount`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.prism" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.prism.amount` is part of an existing definition because parent element `VisionPrescription.lensSpecification.prism` requires a cross-version extension.\nElement `VisionPrescription.lensSpecification.prism.amount` is mapped to FHIR STU3 element `VisionPrescription.dispense.prism`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.prism.base" ] ;
+       fhir:display [ fhir:v "base" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.prism.base" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.prism.base` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.prism.base`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.base" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.prism.base` is part of an existing definition because parent element `VisionPrescription.lensSpecification.prism` requires a cross-version extension.\nElement `VisionPrescription.lensSpecification.prism.base` is mapped to FHIR STU3 element `VisionPrescription.dispense.base`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.add" ] ;
+       fhir:display [ fhir:v "add" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.add" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.add` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.add`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.add" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.add` is mapped to FHIR STU3 element `VisionPrescription.dispense.add`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.power" ] ;
+       fhir:display [ fhir:v "power" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.power" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.power` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.power`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.power" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.power` is mapped to FHIR STU3 element `VisionPrescription.dispense.power`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.backCurve" ] ;
+       fhir:display [ fhir:v "backCurve" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.backCurve" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.backCurve` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.backCurve`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.backCurve" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.backCurve` is mapped to FHIR STU3 element `VisionPrescription.dispense.backCurve`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.diameter" ] ;
+       fhir:display [ fhir:v "diameter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.diameter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.diameter` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.diameter`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.diameter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.diameter` is mapped to FHIR STU3 element `VisionPrescription.dispense.diameter`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.duration" ] ;
+       fhir:display [ fhir:v "duration" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.duration" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.duration` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.duration`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.duration" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.duration` is mapped to FHIR STU3 element `VisionPrescription.dispense.duration`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.color" ] ;
+       fhir:display [ fhir:v "color" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.color" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.color` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.color`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.color" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.color` is mapped to FHIR STU3 element `VisionPrescription.dispense.color`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.brand" ] ;
+       fhir:display [ fhir:v "brand" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.brand" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.brand` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.brand`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.brand" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.brand` is mapped to FHIR STU3 element `VisionPrescription.dispense.brand`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.lensSpecification.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.note` is mapped to FHIR R4B element `VisionPrescription.lensSpecification.note`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription#VisionPrescription.dispense.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.note` is mapped to FHIR STU3 element `VisionPrescription.dispense.note`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-VisionPrescription.lensSpecification.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.note` is mapped to FHIR DSTU2 structure `VisionPrescription`, but has no target element specified." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="artifact-contribution-instance-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/artifact-contribution-instance-type</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">reviewed
+                  <a name="artifact-contribution-instance-type-reviewed"> </a>
+                </td>
+                <td>Reviewed</td>
+                <td>Reviewed</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">approved
+                  <a name="artifact-contribution-instance-type-approved"> </a>
+                </td>
+                <td>Approved</td>
+                <td>Approved</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">edited
+                  <a name="artifact-contribution-instance-type-edited"> </a>
+                </td>
+                <td>Edited</td>
+                <td>Edited</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="cds"/>
+  </extension>
+  <url value="http://hl7.org/fhir/artifact-contribution-instance-type"/>
+  <version value="5.0.0"/>
+  <name value="ArtifactContributionInstanceType"/>
+  <title value="Artifact Contribution Instance Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-03-10T17:55:11.085-06:00"/>
+  <publisher value="Clinical Decision Support"/>
+  <contact>
+    <name value="Clinical Decision Support"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/dss"/>
+    </telecom>
+  </contact>
+  <description value="Artifact Contribution Instance Type"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/artifact-contribution-instance-type"/>
+  <content value="complete"/>
+  <concept>
+    <code value="reviewed"/>
+    <display value="Reviewed"/>
+    <definition value="Reviewed"/>
+  </concept>
+  <concept>
+    <code value="approved"/>
+    <display value="Approved"/>
+    <definition value="Approved"/>
+  </concept>
+  <concept>
+    <code value="edited"/>
+    <display value="Edited"/>
+    <definition value="Edited"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ValueSet-R5-subscriptiontopic-cr-behavior-for-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ValueSet-R5-subscriptiontopic-cr-behavior-for-R4</b></p><a name="ValueSet-R5-subscriptiontopic-cr-behavior-for-R4"> </a><a name="hcValueSet-R5-subscriptiontopic-cr-behavior-for-R4"> </a><p>This value set expansion contains 2 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="ValueSet-R5-subscriptiontopic-cr-behavior-for-R4-http://hl7.org/fhir/subscriptiontopic-cr-behavior-test-fails"> </a><code>http://hl7.org/fhir/subscriptiontopic-cr-behavior</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-subscriptiontopic-cr-behavior.html#subscriptiontopic-cr-behavior-test-fails">test-fails</a></td><td>Test fails</td><td>The requested conditional statement will fail if a matching state does not exist (e.g., previous state during create).</td></tr><tr><td><a name="ValueSet-R5-subscriptiontopic-cr-behavior-for-R4-http://hl7.org/fhir/subscriptiontopic-cr-behavior-test-passes"> </a><code>http://hl7.org/fhir/subscriptiontopic-cr-behavior</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-subscriptiontopic-cr-behavior.html#subscriptiontopic-cr-behavior-test-passes">test-passes</a></td><td>Test passes</td><td>The requested conditional statement will pass if a matching state does not exist (e.g., previous state during create).</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-subscriptiontopic-cr-behavior-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="ValueSetR5SubscriptiontopicCrBehaviorForR4"/>
+  <title value="Cross-version ValueSet R5.CriteriaNotExistsBehavior for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/subscriptiontopic-cr-behavior|5.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/subscriptiontopic-cr-behavior|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `SubscriptionTopic.resourceTrigger.queryCriteria.resultForCreate` as Required&#xA;* `SubscriptionTopic.resourceTrigger.queryCriteria.resultForDelete` as Required&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the value set has been mapped as:&#xD;&#xA;* `http://hl7.org/fhir/ValueSet/subscriptiontopic-cr-behavior|5.0.0`&#xA;* `http://hl7.org/fhir/ValueSet/subscriptiontopic-cr-behavior|4.3.0`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;All concepts in the comparison are have code literals listed as identical.&#xA;The source and target value sets have the same number of active concepts (2)."/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/subscriptiontopic-cr-behavior"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="test-fails"/>
+        <display value="Test fails"/>
+      </concept>
+      <concept>
+        <code value="test-passes"/>
+        <display value="Test passes"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-06T19:17:19.5427077+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/subscriptiontopic-cr-behavior"/>
+      <version value="5.0.0"/>
+      <code value="test-fails"/>
+      <display value="Test fails"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/subscriptiontopic-cr-behavior"/>
+      <version value="5.0.0"/>
+      <code value="test-passes"/>
+      <display value="Test passes"/>
+    </contains>
+  </expansion>
+</ValueSet>

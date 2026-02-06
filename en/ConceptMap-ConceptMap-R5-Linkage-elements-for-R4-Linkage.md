@@ -1,0 +1,262 @@
+# ConceptMapR5LinkageElementsForR4Linkage - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## ConceptMap: ConceptMapR5LinkageElementsForR4Linkage 
+
+ 
+This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4. 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ConceptMap",
+  "id" : "ConceptMap-R5-Linkage-elements-for-R4-Linkage",
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "fhir"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger" : 0,
+      "_valueInteger" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode" : "trial-use",
+      "_valueCode" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    }
+  ],
+  "url" : "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Linkage-elements-for-R4-Linkage",
+  "version" : "0.0.1-snapshot-3",
+  "name" : "ConceptMapR5LinkageElementsForR4Linkage",
+  "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-02-06T13:17:33.2121855-06:00",
+  "contact" : [
+    {
+      "name" : "FHIR Infrastructure",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/fiwg"
+        }
+      ]
+    }
+  ],
+  "description" : "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }
+      ]
+    }
+  ],
+  "group" : [
+    {
+      "source" : "http://hl7.org/fhir/StructureDefinition/Linkage",
+      "sourceVersion" : "5.0.0",
+      "element" : [
+        {
+          "code" : "Linkage",
+          "display" : "Linkage",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Linkage#Linkage",
+              "equivalence" : "relatedto",
+              "comment" : "FHIR R5 Resource `Linkage` is representable via FHIR R4B Resource `Linkage`.\nElement `Linkage` is mapped to FHIR R4B element `Linkage`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Linkage",
+              "equivalence" : "relatedto",
+              "comment" : "FHIR R5 Resource `Linkage` is representable via FHIR DSTU2 Resource `Basic`.\nElement `Linkage` is not mapped to FHIR DSTU2, since FHIR R5 `Linkage` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Linkage.meta",
+          "display" : "meta",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Linkage#Linkage.meta",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Linkage.meta` is mapped to FHIR R4B element `Linkage.meta`."
+            },
+            {
+              "code" : "Basic.meta",
+              "equivalence" : "relatedto",
+              "comment" : "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `Linkage.meta` is not mapped to FHIR DSTU2, since FHIR R5 `Linkage` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Linkage.implicitRules",
+          "display" : "implicitRules",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Linkage#Linkage.implicitRules",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Linkage.implicitRules` is mapped to FHIR R4B element `Linkage.implicitRules`."
+            },
+            {
+              "code" : "Basic.implicitRules",
+              "equivalence" : "relatedto",
+              "comment" : "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `Linkage.implicitRules` is not mapped to FHIR DSTU2, since FHIR R5 `Linkage` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Linkage.language",
+          "display" : "language",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Linkage#Linkage.language",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Linkage.language` is mapped to FHIR R4B element `Linkage.language`."
+            },
+            {
+              "code" : "Basic.language",
+              "equivalence" : "relatedto",
+              "comment" : "Element matches Basic element path `Resource.language`, use that element instead.\nElement `Linkage.language` is not mapped to FHIR DSTU2, since FHIR R5 `Linkage` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Linkage.text",
+          "display" : "text",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Linkage#Linkage.text",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Linkage.text` is mapped to FHIR R4B element `Linkage.text`."
+            },
+            {
+              "code" : "Basic.text",
+              "equivalence" : "relatedto",
+              "comment" : "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `Linkage.text` is not mapped to FHIR DSTU2, since FHIR R5 `Linkage` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Linkage.contained",
+          "display" : "contained",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Linkage#Linkage.contained",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Linkage.contained` is mapped to FHIR R4B element `Linkage.contained`."
+            },
+            {
+              "code" : "Basic.contained",
+              "equivalence" : "relatedto",
+              "comment" : "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `Linkage.contained` is not mapped to FHIR DSTU2, since FHIR R5 `Linkage` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Linkage.active",
+          "display" : "active",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Linkage#Linkage.active",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Linkage.active` is mapped to FHIR R4B element `Linkage.active`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Linkage:active",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Linkage.active` is not mapped to FHIR DSTU2, since FHIR R5 `Linkage` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Linkage.author",
+          "display" : "author",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Linkage#Linkage.author",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Linkage.author` is mapped to FHIR R4B element `Linkage.author`."
+            },
+            {
+              "code" : "Basic.author",
+              "equivalence" : "relatedto",
+              "comment" : "Element matches Basic element path `Basic.author`, use that element instead.\nElement `Linkage.author` is not mapped to FHIR DSTU2, since FHIR R5 `Linkage` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Linkage.item",
+          "display" : "item",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Linkage#Linkage.item",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Linkage.item` is mapped to FHIR R4B element `Linkage.item`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Linkage:item",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Linkage.item` is not mapped to FHIR DSTU2, since FHIR R5 `Linkage` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Linkage.item.type",
+          "display" : "type",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Linkage#Linkage.item.type",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Linkage.item.type` is mapped to FHIR R4B element `Linkage.item.type`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Linkage:item:type",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Linkage.item.type` is part of an existing definition because parent element `Linkage.item` requires a cross-version extension.\nElement `Linkage.item.type` is not mapped to FHIR DSTU2, since FHIR R5 `Linkage` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "Linkage.item.resource",
+          "display" : "resource",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Linkage#Linkage.item.resource",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Linkage.item.resource` is mapped to FHIR R4B element `Linkage.item.resource`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Linkage:item:resource",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Linkage.item.resource` is part of an existing definition because parent element `Linkage.item` requires a cross-version extension.\nElement `Linkage.item.resource` is not mapped to FHIR DSTU2, since FHIR R5 `Linkage` is not mapped."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+```

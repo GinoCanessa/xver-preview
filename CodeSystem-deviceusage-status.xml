@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="deviceusage-status"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/deviceusage-status</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">active
+                  <a name="deviceusage-status-active"> </a>
+                </td>
+                <td>Active</td>
+                <td>The device is still being used.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">completed
+                  <a name="deviceusage-status-completed"> </a>
+                </td>
+                <td>Completed</td>
+                <td>The device is no longer being used.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">not-done
+                  <a name="deviceusage-status-not-done"> </a>
+                </td>
+                <td>Not done</td>
+                <td>The device was not used.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">entered-in-error
+                  <a name="deviceusage-status-entered-in-error"> </a>
+                </td>
+                <td>Entered in Error</td>
+                <td>The statement was recorded incorrectly.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">intended
+                  <a name="deviceusage-status-intended"> </a>
+                </td>
+                <td>Intended</td>
+                <td>The device may be used at some time in the future.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">stopped
+                  <a name="deviceusage-status-stopped"> </a>
+                </td>
+                <td>Stopped</td>
+                <td>Actions implied by the statement have been permanently halted, before all of them occurred.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">on-hold
+                  <a name="deviceusage-status-on-hold"> </a>
+                </td>
+                <td>On Hold</td>
+                <td>Actions implied by the statement have been temporarily halted, but are expected to continue later. May also be called &quot;suspended&quot;.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo"/>
+  </extension>
+  <url value="http://hl7.org/fhir/deviceusage-status"/>
+  <version value="5.0.0"/>
+  <name value="DeviceUsageStatus"/>
+  <title value="Device Usage Status"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Orders and Observations"/>
+  <contact>
+    <name value="Orders and Observations"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/orders"/>
+    </telecom>
+  </contact>
+  <description value="A coded concept indicating the current status of the Device Usage."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/deviceusage-status"/>
+  <content value="complete"/>
+  <concept>
+    <code value="active"/>
+    <display value="Active"/>
+    <definition value="The device is still being used."/>
+  </concept>
+  <concept>
+    <code value="completed"/>
+    <display value="Completed"/>
+    <definition value="The device is no longer being used."/>
+  </concept>
+  <concept>
+    <code value="not-done"/>
+    <display value="Not done"/>
+    <definition value="The device was not used."/>
+  </concept>
+  <concept>
+    <code value="entered-in-error"/>
+    <display value="Entered in Error"/>
+    <definition value="The statement was recorded incorrectly."/>
+  </concept>
+  <concept>
+    <code value="intended"/>
+    <display value="Intended"/>
+    <definition value="The device may be used at some time in the future."/>
+  </concept>
+  <concept>
+    <code value="stopped"/>
+    <display value="Stopped"/>
+    <definition value="Actions implied by the statement have been permanently halted, before all of them occurred."/>
+  </concept>
+  <concept>
+    <code value="on-hold"/>
+    <display value="On Hold"/>
+    <definition value="Actions implied by the statement have been temporarily halted, but are expected to continue later. May also be called &quot;suspended&quot;."/>
+  </concept>
+</CodeSystem>

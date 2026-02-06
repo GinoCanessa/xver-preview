@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="account-aggregate"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/account-aggregate</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">patient
+                  <a name="account-aggregate-patient"> </a>
+                </td>
+                <td>Patient</td>
+                <td>This (aggregated) balance is expected to be paid by the Patient</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">insurance
+                  <a name="account-aggregate-insurance"> </a>
+                </td>
+                <td>Insurance</td>
+                <td>This (aggregated) balance is expected to be paid by Insurance coverage(s)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">total
+                  <a name="account-aggregate-total"> </a>
+                </td>
+                <td>Total</td>
+                <td>There is no aggregation on this balance</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pa"/>
+  </extension>
+  <url value="http://hl7.org/fhir/account-aggregate"/>
+  <version value="5.0.0"/>
+  <name value="AccountAggregate"/>
+  <title value="Account Aggregate"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Patient Administration"/>
+  <contact>
+    <name value="Patient Administration"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pafm"/>
+    </telecom>
+  </contact>
+  <description value="Indicates who is expected to pay a part of the account balance."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/account-aggregate"/>
+  <content value="complete"/>
+  <concept>
+    <code value="patient"/>
+    <display value="Patient"/>
+    <definition value="This (aggregated) balance is expected to be paid by the Patient"/>
+  </concept>
+  <concept>
+    <code value="insurance"/>
+    <display value="Insurance"/>
+    <definition value="This (aggregated) balance is expected to be paid by Insurance coverage(s)"/>
+  </concept>
+  <concept>
+    <code value="total"/>
+    <display value="Total"/>
+    <definition value="There is no aggregation on this balance"/>
+  </concept>
+</CodeSystem>

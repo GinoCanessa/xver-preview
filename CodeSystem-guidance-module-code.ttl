@@ -1,0 +1,140 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/guidance-module-code> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "guidance-module-code"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <p>This code system \n              <code>http://hl7.org/fhir/guidance-module-code</code> defines the following codes:\n            </p>\n            <table class=\"codes\">\n              <tr>\n                <td style=\"white-space:nowrap\">\n                  <b>Code</b>\n                </td>\n                <td>\n                  <b>Display</b>\n                </td>\n                <td>\n                  <b>Definition</b>\n                </td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">bmi-calculator\n                  <a name=\"guidance-module-code-bmi-calculator\"> </a>\n                </td>\n                <td>BMI Calculator</td>\n                <td>A Body Mass Index (BMI) calculator.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">mme-calculator\n                  <a name=\"guidance-module-code-mme-calculator\"> </a>\n                </td>\n                <td>MME Calculator</td>\n                <td>A Morphine Milligram Equivalent (MME) calculator.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">opioid-cds\n                  <a name=\"guidance-module-code-opioid-cds\"> </a>\n                </td>\n                <td>Opioid CDS</td>\n                <td>Clinical Decision Support for Opioid Prescribing.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">anc-cds\n                  <a name=\"guidance-module-code-anc-cds\"> </a>\n                </td>\n                <td>ANC CDS</td>\n                <td>Clinical Decision Support for Antenatal Care.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">chf-pathway\n                  <a name=\"guidance-module-code-chf-pathway\"> </a>\n                </td>\n                <td>CHF Pathway</td>\n                <td>Congestive Heart Failure Pathway</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">covid-19-severity\n                  <a name=\"guidance-module-code-covid-19-severity\"> </a>\n                </td>\n                <td>COVID-19 Severity Score</td>\n                <td>A COVID-19 Severity Score Calculator.</td>\n              </tr>\n            </table>\n          </div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 2
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "cds"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/guidance-module-code"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/guidance-module-code>
+  ] ; # 
+  fhir:version [ fhir:v "5.0.0"] ; # 
+  fhir:name [ fhir:v "GuidanceModuleCode"] ; # 
+  fhir:title [ fhir:v "Guidance Module Code"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2021-01-04T17:01:24-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Clinical Decision Support"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Clinical Decision Support" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/dss" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Example guidance module codes."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://hl7.org/fhir/ValueSet/guidance-module-code"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/guidance-module-code>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "bmi-calculator" ] ;
+     fhir:display [ fhir:v "BMI Calculator" ] ;
+     fhir:definition [ fhir:v "A Body Mass Index (BMI) calculator." ]
+  ] [
+     fhir:code [ fhir:v "mme-calculator" ] ;
+     fhir:display [ fhir:v "MME Calculator" ] ;
+     fhir:definition [ fhir:v "A Morphine Milligram Equivalent (MME) calculator." ]
+  ] [
+     fhir:code [ fhir:v "opioid-cds" ] ;
+     fhir:display [ fhir:v "Opioid CDS" ] ;
+     fhir:definition [ fhir:v "Clinical Decision Support for Opioid Prescribing." ]
+  ] [
+     fhir:code [ fhir:v "anc-cds" ] ;
+     fhir:display [ fhir:v "ANC CDS" ] ;
+     fhir:definition [ fhir:v "Clinical Decision Support for Antenatal Care." ]
+  ] [
+     fhir:code [ fhir:v "chf-pathway" ] ;
+     fhir:display [ fhir:v "CHF Pathway" ] ;
+     fhir:definition [ fhir:v "Congestive Heart Failure Pathway" ]
+  ] [
+     fhir:code [ fhir:v "covid-19-severity" ] ;
+     fhir:display [ fhir:v "COVID-19 Severity Score" ] ;
+     fhir:definition [ fhir:v "A COVID-19 Severity Score Calculator." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

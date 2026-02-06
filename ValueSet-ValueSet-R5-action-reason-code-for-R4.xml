@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ValueSet-R5-action-reason-code-for-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ValueSet-R5-action-reason-code-for-R4</b></p><a name="ValueSet-R5-action-reason-code-for-R4"> </a><a name="hcValueSet-R5-action-reason-code-for-R4"> </a><p>This value set expansion contains 5 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="ValueSet-R5-action-reason-code-for-R4-http://hl7.org/fhir/action-reason-code-care-gap"> </a><code>http://hl7.org/fhir/action-reason-code</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-action-reason-code.html#action-reason-code-care-gap">care-gap</a></td><td>Care gap detected</td><td>The action should be performed to address a detected care gap.</td></tr><tr><td><a name="ValueSet-R5-action-reason-code-for-R4-http://hl7.org/fhir/action-reason-code-drug-drug-interaction"> </a><code>http://hl7.org/fhir/action-reason-code</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-action-reason-code.html#action-reason-code-drug-drug-interaction">drug-drug-interaction</a></td><td>Drug-drug interaction</td><td>The action should be performed to address a detected potential drug-drug interaction.</td></tr><tr><td><a name="ValueSet-R5-action-reason-code-for-R4-http://hl7.org/fhir/action-reason-code-off-pathway"> </a><code>http://hl7.org/fhir/action-reason-code</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-action-reason-code.html#action-reason-code-off-pathway">off-pathway</a></td><td>Off pathway</td><td>The action should be performed because the patient was determined to be off pathway.</td></tr><tr><td><a name="ValueSet-R5-action-reason-code-for-R4-http://hl7.org/fhir/action-reason-code-quality-measure"> </a><code>http://hl7.org/fhir/action-reason-code</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-action-reason-code.html#action-reason-code-quality-measure">quality-measure</a></td><td>Quality measure</td><td>The action should be performed to bring the patient's care in line with a quality measure.</td></tr><tr><td><a name="ValueSet-R5-action-reason-code-for-R4-http://hl7.org/fhir/action-reason-code-risk-assessment"> </a><code>http://hl7.org/fhir/action-reason-code</code></td><td>5.0.0</td><td style="white-space:nowrap">  <a href="CodeSystem-action-reason-code.html#action-reason-code-risk-assessment">risk-assessment</a></td><td>Risk assessment</td><td>The action should be performed based on a particular risk assessment.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="cds"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-action-reason-code-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="ValueSetR5ActionReasonCodeForR4"/>
+  <title value="Cross-version ValueSet R5.ActionReasonCode for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <publisher value="Clinical Decision Support"/>
+  <contact>
+    <name value="Clinical Decision Support"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/dss"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/action-reason-code|5.0.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/action-reason-code|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `PlanDefinition.action.reason` as Example&#xA;* `RequestOrchestration.reason` as Example&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the value set has been mapped as:&#xD;&#xA;* `http://hl7.org/fhir/ValueSet/action-reason-code|5.0.0`&#xA;* `http://hl7.org/fhir/ValueSet/action-reason-code|4.3.0`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* _no concepts_&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;All concepts in the comparison are listed as identical.&#xA;The source and target value sets have the same number of active concepts (5)."/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/action-reason-code"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="care-gap"/>
+        <display value="Care gap detected"/>
+      </concept>
+      <concept>
+        <code value="drug-drug-interaction"/>
+        <display value="Drug-drug interaction"/>
+      </concept>
+      <concept>
+        <code value="off-pathway"/>
+        <display value="Off pathway"/>
+      </concept>
+      <concept>
+        <code value="quality-measure"/>
+        <display value="Quality measure"/>
+      </concept>
+      <concept>
+        <code value="risk-assessment"/>
+        <display value="Risk assessment"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-06T19:17:19.5427077+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/action-reason-code"/>
+      <version value="5.0.0"/>
+      <code value="care-gap"/>
+      <display value="Care gap detected"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/action-reason-code"/>
+      <version value="5.0.0"/>
+      <code value="drug-drug-interaction"/>
+      <display value="Drug-drug interaction"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/action-reason-code"/>
+      <version value="5.0.0"/>
+      <code value="off-pathway"/>
+      <display value="Off pathway"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/action-reason-code"/>
+      <version value="5.0.0"/>
+      <code value="quality-measure"/>
+      <display value="Quality measure"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/action-reason-code"/>
+      <version value="5.0.0"/>
+      <code value="risk-assessment"/>
+      <display value="Risk assessment"/>
+    </contains>
+  </expansion>
+</ValueSet>

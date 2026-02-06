@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="service-mode"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/service-mode</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">in-person
+                  <a name="service-mode-in-person"> </a>
+                </td>
+                <td>In Person</td>
+                <td>The service will be provided in person</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">telephone
+                  <a name="service-mode-telephone"> </a>
+                </td>
+                <td>Telephone</td>
+                <td>The service will be provided by a teleconferencing facility or regular telephone</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">videoconference
+                  <a name="service-mode-videoconference"> </a>
+                </td>
+                <td>Video Conference</td>
+                <td>The service will be provided over a video-conference facility</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">chat
+                  <a name="service-mode-chat"> </a>
+                </td>
+                <td>Chat/Messaging</td>
+                <td>This service will be provided via a realtime chat/messaging conversation</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pa"/>
+  </extension>
+  <url value="http://hl7.org/fhir/service-mode"/>
+  <version value="5.0.0"/>
+  <name value="ServiceMode"/>
+  <title value="Service Mode"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2023-02-19T18:00:00-06:00"/>
+  <publisher value="Patient Administration"/>
+  <contact>
+    <name value="Patient Administration"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pafm"/>
+    </telecom>
+  </contact>
+  <description value="An example set of Service Modes that could be applicable to use to characterize HealthcareServices or PractitionerRoles while searching"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/service-mode"/>
+  <content value="complete"/>
+  <concept>
+    <code value="in-person"/>
+    <display value="In Person"/>
+    <definition value="The service will be provided in person"/>
+  </concept>
+  <concept>
+    <code value="telephone"/>
+    <display value="Telephone"/>
+    <definition value="The service will be provided by a teleconferencing facility or regular telephone"/>
+  </concept>
+  <concept>
+    <code value="videoconference"/>
+    <display value="Video Conference"/>
+    <definition value="The service will be provided over a video-conference facility"/>
+  </concept>
+  <concept>
+    <code value="chat"/>
+    <display value="Chat/Messaging"/>
+    <definition value="This service will be provided via a realtime chat/messaging conversation"/>
+  </concept>
+</CodeSystem>

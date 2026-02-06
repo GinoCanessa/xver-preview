@@ -1,0 +1,147 @@
+# PublicationStatus - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## CodeSystem: PublicationStatus 
+
+ 
+The lifecycle status of an artifact. 
+
+This Code system is referenced in the definition of the following value sets:
+
+* This CodeSystem is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
+
+-------
+
+ [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "CodeSystem",
+  "id" : "publication-status",
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode" : "normative"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger" : 5
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
+      "valueCode" : "4.0.0"
+    },
+    {
+      "extension" : [
+        {
+          "url" : "packageId",
+          "valueId" : "hl7.fhir.uv.xver-r5.r4"
+        },
+        {
+          "url" : "version",
+          "valueString" : "0.0.1-snapshot-3"
+        },
+        {
+          "url" : "uri",
+          "valueUri" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+        }
+      ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/package-source"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "cds"
+    }
+  ],
+  "url" : "http://hl7.org/fhir/publication-status",
+  "version" : "5.0.0",
+  "name" : "PublicationStatus",
+  "title" : "PublicationStatus",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-03-25T23:21:02-05:00",
+  "publisher" : "Clinical Decision Support",
+  "contact" : [
+    {
+      "name" : "Clinical Decision Support",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/dss"
+        }
+      ]
+    }
+  ],
+  "description" : "The lifecycle status of an artifact.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }
+      ]
+    }
+  ],
+  "caseSensitive" : true,
+  "valueSet" : "http://hl7.org/fhir/ValueSet/publication-status|4.0.1",
+  "content" : "complete",
+  "concept" : [
+    {
+      "code" : "draft",
+      "display" : "Draft",
+      "definition" : "This resource is still under development and is not yet considered to be ready for normal use.",
+      "designation" : [
+        {
+          "language" : "ru",
+          "value" : "черновик"
+        },
+        {
+          "language" : "nl",
+          "value" : "ontwerp"
+        }
+      ]
+    },
+    {
+      "code" : "active",
+      "display" : "Active",
+      "definition" : "This resource is ready for normal use.",
+      "designation" : [
+        {
+          "language" : "ru",
+          "value" : "активный"
+        },
+        {
+          "language" : "nl",
+          "value" : "actief"
+        }
+      ]
+    },
+    {
+      "code" : "retired",
+      "display" : "Retired",
+      "definition" : "This resource has been withdrawn or superseded and should no longer be used.",
+      "designation" : [
+        {
+          "language" : "ru",
+          "value" : "удалён"
+        },
+        {
+          "language" : "nl",
+          "value" : "verouderd"
+        }
+      ]
+    },
+    {
+      "code" : "unknown",
+      "display" : "Unknown",
+      "definition" : "The authoring system does not know which of the status values currently applies for this resource.  Note: This concept is not to be used for \"other\" - one of the listed statuses is presumed to apply, it's just not known which one."
+    }
+  ]
+}
+
+```

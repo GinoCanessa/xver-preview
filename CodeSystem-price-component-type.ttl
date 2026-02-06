@@ -1,0 +1,140 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/price-component-type> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "price-component-type"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <p>This code system \n              <code>http://hl7.org/fhir/price-component-type</code> defines the following codes:\n            </p>\n            <table class=\"codes\">\n              <tr>\n                <td style=\"white-space:nowrap\">\n                  <b>Code</b>\n                </td>\n                <td>\n                  <b>Display</b>\n                </td>\n                <td>\n                  <b>Definition</b>\n                </td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">base\n                  <a name=\"price-component-type-base\"> </a>\n                </td>\n                <td>base price</td>\n                <td>the amount is the base price used for calculating the total price before applying surcharges, discount or taxes.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">surcharge\n                  <a name=\"price-component-type-surcharge\"> </a>\n                </td>\n                <td>surcharge</td>\n                <td>the amount is a surcharge applied on the base price.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">deduction\n                  <a name=\"price-component-type-deduction\"> </a>\n                </td>\n                <td>deduction</td>\n                <td>the amount is a deduction applied on the base price.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">discount\n                  <a name=\"price-component-type-discount\"> </a>\n                </td>\n                <td>discount</td>\n                <td>the amount is a discount applied on the base price.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">tax\n                  <a name=\"price-component-type-tax\"> </a>\n                </td>\n                <td>tax</td>\n                <td>the amount is the tax component of the total price.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">informational\n                  <a name=\"price-component-type-informational\"> </a>\n                </td>\n                <td>informational</td>\n                <td>the amount is of informational character, it has not been applied in the calculation of the total price.</td>\n              </tr>\n            </table>\n          </div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 5
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "pa"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/price-component-type"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/price-component-type>
+  ] ; # 
+  fhir:version [ fhir:v "5.0.0"] ; # 
+  fhir:name [ fhir:v "PriceComponentType"] ; # 
+  fhir:title [ fhir:v "Price Component Type"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2021-01-04T17:01:24-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Patient Administration"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Patient Administration" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/pafm" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codes indicating the kind of the price component."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://hl7.org/fhir/ValueSet/price-component-type"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/price-component-type>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "base" ] ;
+     fhir:display [ fhir:v "base price" ] ;
+     fhir:definition [ fhir:v "the amount is the base price used for calculating the total price before applying surcharges, discount or taxes." ]
+  ] [
+     fhir:code [ fhir:v "surcharge" ] ;
+     fhir:display [ fhir:v "surcharge" ] ;
+     fhir:definition [ fhir:v "the amount is a surcharge applied on the base price." ]
+  ] [
+     fhir:code [ fhir:v "deduction" ] ;
+     fhir:display [ fhir:v "deduction" ] ;
+     fhir:definition [ fhir:v "the amount is a deduction applied on the base price." ]
+  ] [
+     fhir:code [ fhir:v "discount" ] ;
+     fhir:display [ fhir:v "discount" ] ;
+     fhir:definition [ fhir:v "the amount is a discount applied on the base price." ]
+  ] [
+     fhir:code [ fhir:v "tax" ] ;
+     fhir:display [ fhir:v "tax" ] ;
+     fhir:definition [ fhir:v "the amount is the tax component of the total price." ]
+  ] [
+     fhir:code [ fhir:v "informational" ] ;
+     fhir:display [ fhir:v "informational" ] ;
+     fhir:definition [ fhir:v "the amount is of informational character, it has not been applied in the calculation of the total price." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

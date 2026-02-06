@@ -1,0 +1,163 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-consent-state-codes-for-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-consent-state-codes-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-consent-state-codes-for-R4</b></p><a name=\"ConceptMap-R5-consent-state-codes-for-R4\"> </a><a name=\"hcConceptMap-R5-consent-state-codes-for-R4\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <a href=\"CodeSystem-consent-state-codes.html\">Consent Stateversion: 5.0.0)</a> to <a href=\"CodeSystem-consent-state-codes.html\">Consent Stateversion: 5.0.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>active</td><td>:(equivalent)</td><td>active</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ConsentStateCodes-R4B-ConsentStateCodes` (`ConceptMap-R5-ConsentStateCodes-R4B-ConsentStateCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ConsentStateCodes-R4-ConsentStateCodes` (`ConceptMap-R4B-ConsentStateCodes-R4-ConsentStateCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0#active` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1#active` as Equivalent in `ConceptMap-R5-ConsentStateCodes-R4-ConsentStateCodes.json`, which results in Equivalent.</td></tr><tr><td>draft (Pending)</td><td>:(equivalent)</td><td>draft (Pending)</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ConsentStateCodes-R4B-ConsentStateCodes` (`ConceptMap-R5-ConsentStateCodes-R4B-ConsentStateCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ConsentStateCodes-R4-ConsentStateCodes` (`ConceptMap-R4B-ConsentStateCodes-R4-ConsentStateCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0#draft` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1#draft` as Equivalent in `ConceptMap-R5-ConsentStateCodes-R4-ConsentStateCodes.json`, which results in Equivalent.</td></tr><tr><td>entered-in-error</td><td>:(equivalent)</td><td>entered-in-error</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ConsentStateCodes-R4B-ConsentStateCodes` (`ConceptMap-R5-ConsentStateCodes-R4B-ConsentStateCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ConsentStateCodes-R4-ConsentStateCodes` (`ConceptMap-R4B-ConsentStateCodes-R4-ConsentStateCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0#entered-in-error` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1#entered-in-error` as Equivalent in `ConceptMap-R5-ConsentStateCodes-R4-ConsentStateCodes.json`, which results in Equivalent.</td></tr><tr><td>inactive</td><td>:(equivalent)</td><td>inactive</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ConsentStateCodes-R4B-ConsentStateCodes` (`ConceptMap-R5-ConsentStateCodes-R4B-ConsentStateCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ConsentStateCodes-R4-ConsentStateCodes` (`ConceptMap-R4B-ConsentStateCodes-R4-ConsentStateCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0#inactive` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1#inactive` as Equivalent in `ConceptMap-R5-ConsentStateCodes-R4-ConsentStateCodes.json`, which results in Equivalent.</td></tr><tr><td>not-done (Abandoned)</td><td>:(equivalent)</td><td>rejected</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.3.0` as SourceIsBroaderThanTarget in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ConsentStateCodes-R4B-ConsentStateCodes` (`ConceptMap-R5-ConsentStateCodes-R4B-ConsentStateCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ConsentStateCodes-R4-ConsentStateCodes` (`ConceptMap-R4B-ConsentStateCodes-R4-ConsentStateCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0#not-done` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1#rejected` as Equivalent in `ConceptMap-R5-ConsentStateCodes-R4-ConsentStateCodes.json`, which results in SourceIsBroaderThanTarget.</td></tr><tr><td>unknown</td><td>:(equivalent)</td><td>proposed</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ConsentStateCodes-R4B-ConsentStateCodes` (`ConceptMap-R5-ConsentStateCodes-R4B-ConsentStateCodes.json`)\nSince source concept `unknown` is flagged as an 'escape-valve' code and mapped to a non-escape-valve code (`proposed`), the source is broader than the target.\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ConsentStateCodes-R4-ConsentStateCodes` (`ConceptMap-R4B-ConsentStateCodes-R4-ConsentStateCodes.json`)\nValue Set Relationship of SourceIsBroaderThanTarget applied to 'escape-valve' mapping.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ValueSet-R5-consent-state-codes-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ValueSet-R5-consent-state-codes-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5ConsentStateCodesForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for ValueSet ValueSet-R5-consent-state-codes-for-R4 from FHIR R5 to FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:23.935688-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of concepts from ValueSet `http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/consent-state-codes"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/consent-state-codes>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/consent-state-codes"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/consent-state-codes>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "active" ] ;
+       fhir:display [ fhir:v "Active" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "active" ] ;
+         fhir:display [ fhir:v "Active" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ConsentStateCodes-R4B-ConsentStateCodes` (`ConceptMap-R5-ConsentStateCodes-R4B-ConsentStateCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ConsentStateCodes-R4-ConsentStateCodes` (`ConceptMap-R4B-ConsentStateCodes-R4-ConsentStateCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0#active` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1#active` as Equivalent in `ConceptMap-R5-ConsentStateCodes-R4-ConsentStateCodes.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "draft" ] ;
+       fhir:display [ fhir:v "Pending" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "draft" ] ;
+         fhir:display [ fhir:v "Pending" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ConsentStateCodes-R4B-ConsentStateCodes` (`ConceptMap-R5-ConsentStateCodes-R4B-ConsentStateCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ConsentStateCodes-R4-ConsentStateCodes` (`ConceptMap-R4B-ConsentStateCodes-R4-ConsentStateCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0#draft` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1#draft` as Equivalent in `ConceptMap-R5-ConsentStateCodes-R4-ConsentStateCodes.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "entered-in-error" ] ;
+       fhir:display [ fhir:v "Entered in Error" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "entered-in-error" ] ;
+         fhir:display [ fhir:v "Entered in Error" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ConsentStateCodes-R4B-ConsentStateCodes` (`ConceptMap-R5-ConsentStateCodes-R4B-ConsentStateCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ConsentStateCodes-R4-ConsentStateCodes` (`ConceptMap-R4B-ConsentStateCodes-R4-ConsentStateCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0#entered-in-error` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1#entered-in-error` as Equivalent in `ConceptMap-R5-ConsentStateCodes-R4-ConsentStateCodes.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "inactive" ] ;
+       fhir:display [ fhir:v "Inactive" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "inactive" ] ;
+         fhir:display [ fhir:v "Inactive" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ConsentStateCodes-R4B-ConsentStateCodes` (`ConceptMap-R5-ConsentStateCodes-R4B-ConsentStateCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ConsentStateCodes-R4-ConsentStateCodes` (`ConceptMap-R4B-ConsentStateCodes-R4-ConsentStateCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0#inactive` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1#inactive` as Equivalent in `ConceptMap-R5-ConsentStateCodes-R4-ConsentStateCodes.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "not-done" ] ;
+       fhir:display [ fhir:v "Abandoned" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "rejected" ] ;
+         fhir:display [ fhir:v "Rejected" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.3.0` as SourceIsBroaderThanTarget in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ConsentStateCodes-R4B-ConsentStateCodes` (`ConceptMap-R5-ConsentStateCodes-R4B-ConsentStateCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ConsentStateCodes-R4-ConsentStateCodes` (`ConceptMap-R4B-ConsentStateCodes-R4-ConsentStateCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0#not-done` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1#rejected` as Equivalent in `ConceptMap-R5-ConsentStateCodes-R4-ConsentStateCodes.json`, which results in SourceIsBroaderThanTarget." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "unknown" ] ;
+       fhir:display [ fhir:v "Unknown" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "proposed" ] ;
+         fhir:display [ fhir:v "Proposed" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ConsentStateCodes-R4B-ConsentStateCodes` (`ConceptMap-R5-ConsentStateCodes-R4B-ConsentStateCodes.json`)\nSince source concept `unknown` is flagged as an 'escape-valve' code and mapped to a non-escape-valve code (`proposed`), the source is broader than the target.\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/consent-state-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/consent-state-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ConsentStateCodes-R4-ConsentStateCodes` (`ConceptMap-R4B-ConsentStateCodes-R4-ConsentStateCodes.json`)\nValue Set Relationship of SourceIsBroaderThanTarget applied to 'escape-valve' mapping." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

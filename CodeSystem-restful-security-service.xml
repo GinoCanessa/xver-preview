@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="restful-security-service"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/restful-security-service</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">OAuth
+                  <a name="restful-security-service-OAuth"> </a>
+                </td>
+                <td>OAuth (unspecified version see oauth.net).</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">SMART-on-FHIR
+                  <a name="restful-security-service-SMART-on-FHIR"> </a>
+                </td>
+                <td>OAuth2 using SMART-on-FHIR profile (see http://docs.smarthealthit.org/).</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">NTLM
+                  <a name="restful-security-service-NTLM"> </a>
+                </td>
+                <td>Microsoft NTLM Authentication.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">Basic
+                  <a name="restful-security-service-Basic"> </a>
+                </td>
+                <td>Basic authentication defined in HTTP specification.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">Kerberos
+                  <a name="restful-security-service-Kerberos"> </a>
+                </td>
+                <td>see http://www.ietf.org/rfc/rfc4120.txt.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">Certificates
+                  <a name="restful-security-service-Certificates"> </a>
+                </td>
+                <td>SSL where client must have a certificate registered with the server.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="normative"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+    <valueCode value="4.0.0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="5"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <url value="http://hl7.org/fhir/restful-security-service"/>
+  <version value="5.0.0"/>
+  <name value="RestfulSecurityService"/>
+  <title value="Restful Security Service"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2020-12-27T23:55:11-06:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="Types of security services used with FHIR."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/restful-security-service|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="OAuth"/>
+    <display value="OAuth"/>
+    <definition value="OAuth (unspecified version see oauth.net)."/>
+  </concept>
+  <concept>
+    <code value="SMART-on-FHIR"/>
+    <display value="SMART-on-FHIR"/>
+    <definition value="OAuth2 using SMART-on-FHIR profile (see http://docs.smarthealthit.org/)."/>
+  </concept>
+  <concept>
+    <code value="NTLM"/>
+    <display value="NTLM"/>
+    <definition value="Microsoft NTLM Authentication."/>
+  </concept>
+  <concept>
+    <code value="Basic"/>
+    <display value="Basic"/>
+    <definition value="Basic authentication defined in HTTP specification."/>
+  </concept>
+  <concept>
+    <code value="Kerberos"/>
+    <display value="Kerberos"/>
+    <definition value="see http://www.ietf.org/rfc/rfc4120.txt."/>
+  </concept>
+  <concept>
+    <code value="Certificates"/>
+    <display value="Certificates"/>
+    <definition value="SSL where client must have a certificate registered with the server."/>
+  </concept>
+</CodeSystem>

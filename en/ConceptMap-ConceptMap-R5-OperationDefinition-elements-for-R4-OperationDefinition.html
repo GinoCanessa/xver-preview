@@ -1,0 +1,419 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>ConceptMapR5OperationDefinitionElementsForR4OperationDefinition - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"7.2230"}
+    h3,h4,h5,h6{--heading-prefix:"7.2230"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" data-no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.0.1-snapshot-3 - STU
+
+
+
+  <img alt="International flag" src="../assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="faqs.html">FAQs</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+  </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ConceptMapR5OperationDefinitionElementsForR4OperationDefinition</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="ConceptMap-ConceptMap-R5-ObservationDefinition-elements-for-R4-ObservationDefinition.ttl.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="ConceptMap-ConceptMap-R5-OperationDefinition-elements-for-R4-OperationDefinition-testing.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<!-- layouts\layout-canonical -->
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="ConceptMap-ConceptMap-R5-OperationDefinition-elements-for-R4-OperationDefinition.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ConceptMap-ConceptMap-R5-OperationDefinition-elements-for-R4-OperationDefinition.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ConceptMap-ConceptMap-R5-OperationDefinition-elements-for-R4-OperationDefinition.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+
+
+  <h2 id="root">ConceptMap: ConceptMapR5OperationDefinitionElementsForR4OperationDefinition
+
+  </h2>
+
+  <table class="colsd" data-fhir="generated">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-OperationDefinition-elements-for-R4-OperationDefinition<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-OperationDefinition-elements-for-R4-OperationDefinition"/></span>
+      </td>
+      <td><i>Version</i>:
+      <td id="toggle-change-display" style="text-align: right;border-left-style: hidden" title="Enable this to see changes since the last official release">
+        <label style="margin:0;font-weight:normal" for="showChanges">Highlight text changes?</label>
+  
+        <input style="margin:0" type="checkbox" id="showChanges" onchange="toggleChanges()"/>
+  
+      </td>
+      <span class="copy-text">0.0.1-snapshot-3<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-OperationDefinition-elements-for-R4-OperationDefinition|0.0.1-snapshot-3"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="2">
+        
+          <i>
+            
+            Standards status:
+          </i> <a href="http://hl7.org/fhir/R4/versions.html#std-process" title="Standards Status">Trial-use</a>
+          
+          
+          Active
+          
+
+            as of 
+2026-02-06
+
+          
+        
+      </td>
+
+      <td>
+        <a href="http://hl7.org/fhir/versions.html#maturity">Maturity Level</a>: 0
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">ConceptMapR5OperationDefinitionElementsForR4OperationDefinition</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+
+<p>
+<p>This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4.</p>
+
+</p>
+
+
+  <!-- insert intro if present -->
+  
+
+
+
+<!--  <p>
+  Formats: <a href="ConceptMap-ConceptMap-R5-OperationDefinition-elements-for-R4-OperationDefinition.xml.html">XML</a>, <a href="ConceptMap-ConceptMap-R5-OperationDefinition-elements-for-R4-OperationDefinition.json.html">JSON</a>, <a href="ConceptMap-ConceptMap-R5-OperationDefinition-elements-for-R4-OperationDefinition.ttl.html">Turtle</a>
+  </p>-->
+
+  
+
+
+  <div data-fhir="generated"><p class="res-header-id"/><a name="ConceptMap-R5-OperationDefinition-elements-for-R4-OperationDefinition"> </a><a name="hcConceptMap-R5-OperationDefinition-elements-for-R4-OperationDefinition"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p></div><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/OperationDefinition|5.0.0</code> to <code>unspecified code system</code></p><table class="grid"><tr><td colspan="2"><b>Source Concept Details</b></td><td colspan="2"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan="2"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/OperationDefinition|5.0.0</td><td colspan="2"><b>Codes</b> from </td><td/></tr><tr><td style="border-right-width: 0px">OperationDefinition</td><td style="border-left-width: 0px">OperationDefinition</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition</td><td style="border-left-width: 0px"></td><td>FHIR R5 Resource `OperationDefinition` is representable via FHIR R4B Resource `OperationDefinition`.
+Element `OperationDefinition` is mapped to FHIR R4B element `OperationDefinition`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.meta</td><td style="border-left-width: 0px">meta</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.meta</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.meta` is mapped to FHIR R4B element `OperationDefinition.meta`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.implicitRules</td><td style="border-left-width: 0px">implicitRules</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.implicitRules</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.implicitRules` is mapped to FHIR R4B element `OperationDefinition.implicitRules`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.language</td><td style="border-left-width: 0px">language</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.language</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.language` is mapped to FHIR R4B element `OperationDefinition.language`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.text</td><td style="border-left-width: 0px">text</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.text</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.text` is mapped to FHIR R4B element `OperationDefinition.text`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.contained</td><td style="border-left-width: 0px">contained</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.contained</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.contained` is mapped to FHIR R4B element `OperationDefinition.contained`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.url</td><td style="border-left-width: 0px">url</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.url</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.url` is mapped to FHIR R4B element `OperationDefinition.url`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.identifier</td><td style="border-left-width: 0px">identifier</td><td style="border-right-width: 0px">Basic.identifier</td><td style="border-left-width: 0px"></td><td>Element matches Basic element path `Basic.identifier`, use that element instead.
+Element `OperationDefinition.identifier` is mapped to FHIR R4B structure `OperationDefinition`, but has no target element specified.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.version</td><td style="border-left-width: 0px">version</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.version</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.version` is mapped to FHIR R4B element `OperationDefinition.version`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.versionAlgorithm[x]</td><td style="border-left-width: 0px">versionAlgorithm[x]</td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.versionAlgorithm</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.versionAlgorithm[x]` is mapped to FHIR R4B structure `OperationDefinition`, but has no target element specified.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.name</td><td style="border-left-width: 0px">name</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.name</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.name` is mapped to FHIR R4B element `OperationDefinition.name`.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">OperationDefinition.title</td><td style="border-left-width: 0px; border-bottom-style: none">title</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.title</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.title` is mapped to FHIR R4B element `OperationDefinition.title`.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.title</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.title` is mapped to FHIR STU3 structure `OperationDefinition`, but has no target element specified.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.status</td><td style="border-left-width: 0px">status</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.status</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.status` is mapped to FHIR R4B element `OperationDefinition.status`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.kind</td><td style="border-left-width: 0px">kind</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.kind</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.kind` is mapped to FHIR R4B element `OperationDefinition.kind`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.experimental</td><td style="border-left-width: 0px">experimental</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.experimental</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.experimental` is mapped to FHIR R4B element `OperationDefinition.experimental`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.date</td><td style="border-left-width: 0px">date</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.date</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.date` is mapped to FHIR R4B element `OperationDefinition.date`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.publisher</td><td style="border-left-width: 0px">publisher</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.publisher</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.publisher` is mapped to FHIR R4B element `OperationDefinition.publisher`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.contact</td><td style="border-left-width: 0px">contact</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.contact</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.contact` is mapped to FHIR R4B element `OperationDefinition.contact`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.description</td><td style="border-left-width: 0px">description</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.description</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.description` is mapped to FHIR R4B element `OperationDefinition.description`.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">OperationDefinition.useContext</td><td style="border-left-width: 0px; border-bottom-style: none">useContext</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.useContext</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.useContext` is mapped to FHIR R4B element `OperationDefinition.useContext`.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.useContext</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.useContext` is mapped to FHIR DSTU2 structure `OperationDefinition`, but has no target element specified.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">OperationDefinition.jurisdiction</td><td style="border-left-width: 0px; border-bottom-style: none">jurisdiction</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.jurisdiction</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.jurisdiction` is mapped to FHIR R4B element `OperationDefinition.jurisdiction`.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.jurisdiction</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.jurisdiction` is mapped to FHIR DSTU2 structure `OperationDefinition`, but has no target element specified.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">OperationDefinition.purpose</td><td style="border-left-width: 0px; border-bottom-style: none">purpose</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.purpose</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.purpose` is mapped to FHIR R4B element `OperationDefinition.purpose`.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.requirements</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.purpose` is mapped to FHIR DSTU2 element `OperationDefinition.requirements`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.copyright</td><td style="border-left-width: 0px">copyright</td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.copyright</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.copyright` is mapped to FHIR R4B structure `OperationDefinition`, but has no target element specified.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.copyrightLabel</td><td style="border-left-width: 0px">copyrightLabel</td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.copyrightLabel</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.copyrightLabel` is mapped to FHIR R4B structure `OperationDefinition`, but has no target element specified.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">OperationDefinition.affectsState</td><td style="border-left-width: 0px; border-bottom-style: none">affectsState</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.affectsState</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.affectsState` is mapped to FHIR R4B element `OperationDefinition.affectsState`.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.idempotent</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.affectsState` is mapped to FHIR STU3 element `OperationDefinition.idempotent`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.code</td><td style="border-left-width: 0px">code</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.code</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.code` is mapped to FHIR R4B element `OperationDefinition.code`.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">OperationDefinition.comment</td><td style="border-left-width: 0px; border-bottom-style: none">comment</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.comment</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.comment` is mapped to FHIR R4B element `OperationDefinition.comment`.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.notes</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.comment` is mapped to FHIR DSTU2 element `OperationDefinition.notes`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.base</td><td style="border-left-width: 0px">base</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.base</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.base` is mapped to FHIR R4B element `OperationDefinition.base`.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">OperationDefinition.resource</td><td style="border-left-width: 0px; border-bottom-style: none">resource</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.resource</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.resource` is mapped to FHIR R4B element `OperationDefinition.resource`.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.type</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.resource` is mapped to FHIR DSTU2 element `OperationDefinition.type`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.system</td><td style="border-left-width: 0px">system</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.system</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.system` is mapped to FHIR R4B element `OperationDefinition.system`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.type</td><td style="border-left-width: 0px">type</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.type</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.type` is mapped to FHIR R4B element `OperationDefinition.type`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.instance</td><td style="border-left-width: 0px">instance</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.instance</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.instance` is mapped to FHIR R4B element `OperationDefinition.instance`.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">OperationDefinition.inputProfile</td><td style="border-left-width: 0px; border-bottom-style: none">inputProfile</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.inputProfile</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.inputProfile` is mapped to FHIR R4B element `OperationDefinition.inputProfile`.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.inputProfile</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.inputProfile` is mapped to FHIR STU3 structure `OperationDefinition`, but has no target element specified.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">OperationDefinition.outputProfile</td><td style="border-left-width: 0px; border-bottom-style: none">outputProfile</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.outputProfile</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.outputProfile` is mapped to FHIR R4B element `OperationDefinition.outputProfile`.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.outputProfile</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.outputProfile` is mapped to FHIR STU3 structure `OperationDefinition`, but has no target element specified.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.parameter</td><td style="border-left-width: 0px">parameter</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.parameter` is mapped to FHIR R4B element `OperationDefinition.parameter`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.parameter.name</td><td style="border-left-width: 0px">name</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.name</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.parameter.name` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).
+Element `OperationDefinition.parameter.name` is mapped to FHIR R4B element `OperationDefinition.parameter.name`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.parameter.use</td><td style="border-left-width: 0px">use</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.use</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.parameter.use` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).
+Element `OperationDefinition.parameter.use` is mapped to FHIR R4B element `OperationDefinition.parameter.use`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.parameter.scope</td><td style="border-left-width: 0px">scope</td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.parameter.scope</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.parameter.scope` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).
+Element `OperationDefinition.parameter.scope` is mapped to FHIR R4B structure `OperationDefinition`, but has no target element specified.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.parameter.min</td><td style="border-left-width: 0px">min</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.min</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.parameter.min` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).
+Element `OperationDefinition.parameter.min` is mapped to FHIR R4B element `OperationDefinition.parameter.min`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.parameter.max</td><td style="border-left-width: 0px">max</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.max</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.parameter.max` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).
+Element `OperationDefinition.parameter.max` is mapped to FHIR R4B element `OperationDefinition.parameter.max`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.parameter.documentation</td><td style="border-left-width: 0px">documentation</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.documentation</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.parameter.documentation` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).
+Element `OperationDefinition.parameter.documentation` is mapped to FHIR R4B element `OperationDefinition.parameter.documentation`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.parameter.type</td><td style="border-left-width: 0px">type</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.type</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.parameter.type` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).
+Element `OperationDefinition.parameter.type` is mapped to FHIR R4B element `OperationDefinition.parameter.type`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.parameter.allowedType</td><td style="border-left-width: 0px">allowedType</td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.parameter.allowedType</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.parameter.allowedType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).
+Element `OperationDefinition.parameter.allowedType` is mapped to FHIR R4B structure `OperationDefinition`, but has no target element specified.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">OperationDefinition.parameter.targetProfile</td><td style="border-left-width: 0px; border-bottom-style: none">targetProfile</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.targetProfile</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.parameter.targetProfile` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).
+Element `OperationDefinition.parameter.targetProfile` is mapped to FHIR R4B element `OperationDefinition.parameter.targetProfile`.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.profile</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.parameter.targetProfile` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).
+Element `OperationDefinition.parameter.targetProfile` is mapped to FHIR STU3 element `OperationDefinition.parameter.profile`.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">OperationDefinition.parameter.searchType</td><td style="border-left-width: 0px; border-bottom-style: none">searchType</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.searchType</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.parameter.searchType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).
+Element `OperationDefinition.parameter.searchType` is mapped to FHIR R4B element `OperationDefinition.parameter.searchType`.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.type</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.parameter.searchType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).
+Element `OperationDefinition.parameter.searchType` is mapped to FHIR DSTU2 element `OperationDefinition.parameter.type`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.parameter.binding</td><td style="border-left-width: 0px">binding</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.binding</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.parameter.binding` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).
+Element `OperationDefinition.parameter.binding` is mapped to FHIR R4B element `OperationDefinition.parameter.binding`.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.parameter.binding.strength</td><td style="border-left-width: 0px">strength</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.binding.strength</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.parameter.binding.strength` is mapped to FHIR R4B element `OperationDefinition.parameter.binding.strength`.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">OperationDefinition.parameter.binding.valueSet</td><td style="border-left-width: 0px; border-bottom-style: none">valueSet</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.binding.valueSet</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.parameter.binding.valueSet` is mapped to FHIR R4B element `OperationDefinition.parameter.binding.valueSet`.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.binding.valueSet[x]</td><td style="border-left-width: 0px"></td><td>Note that the target element context `OperationDefinition.parameter.binding.valueSet[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `OperationDefinition.parameter.binding`.
+Element `OperationDefinition.parameter.binding.valueSet` is mapped to FHIR STU3 element `OperationDefinition.parameter.binding.valueSet[x]`.
+Note that the target element context `OperationDefinition.parameter.binding.valueSet[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `OperationDefinition.parameter.binding`.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">OperationDefinition.parameter.referencedFrom</td><td style="border-left-width: 0px; border-bottom-style: none">referencedFrom</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.referencedFrom</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.parameter.referencedFrom` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).
+Element `OperationDefinition.parameter.referencedFrom` is mapped to FHIR R4B element `OperationDefinition.parameter.referencedFrom`.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.parameter.referencedFrom</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.parameter.referencedFrom` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).
+Element `OperationDefinition.parameter.referencedFrom` is mapped to FHIR STU3 structure `OperationDefinition`, but has no target element specified.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">OperationDefinition.parameter.referencedFrom.source</td><td style="border-left-width: 0px; border-bottom-style: none">source</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.referencedFrom.source</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.parameter.referencedFrom.source` is mapped to FHIR R4B element `OperationDefinition.parameter.referencedFrom.source`.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.parameter.referencedFrom:source</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.parameter.referencedFrom.source` is part of an existing definition because parent element `OperationDefinition.parameter.referencedFrom` requires a cross-version extension.
+Element `OperationDefinition.parameter.referencedFrom.source` is mapped to FHIR STU3 structure `OperationDefinition`, but has no target element specified.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">OperationDefinition.parameter.referencedFrom.sourceId</td><td style="border-left-width: 0px; border-bottom-style: none">sourceId</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.referencedFrom.sourceId</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.parameter.referencedFrom.sourceId` is mapped to FHIR R4B element `OperationDefinition.parameter.referencedFrom.sourceId`.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.parameter.referencedFrom:sourceId</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.parameter.referencedFrom.sourceId` is part of an existing definition because parent element `OperationDefinition.parameter.referencedFrom` requires a cross-version extension.
+Element `OperationDefinition.parameter.referencedFrom.sourceId` is mapped to FHIR STU3 structure `OperationDefinition`, but has no target element specified.</td></tr><tr><td style="border-right-width: 0px">OperationDefinition.parameter.part</td><td style="border-left-width: 0px">part</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.parameter.part</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.parameter.part` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).
+Element `OperationDefinition.parameter.part` is mapped to FHIR R4B element `OperationDefinition.parameter.part`.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">OperationDefinition.overload</td><td style="border-left-width: 0px; border-bottom-style: none">overload</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.overload</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.overload` is mapped to FHIR R4B element `OperationDefinition.overload`.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.overload</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.overload` is mapped to FHIR DSTU2 structure `OperationDefinition`, but has no target element specified.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">OperationDefinition.overload.parameterName</td><td style="border-left-width: 0px; border-bottom-style: none">parameterName</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.overload.parameterName</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.overload.parameterName` is mapped to FHIR R4B element `OperationDefinition.overload.parameterName`.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.overload:parameterName</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.overload.parameterName` is part of an existing definition because parent element `OperationDefinition.overload` requires a cross-version extension.
+Element `OperationDefinition.overload.parameterName` is mapped to FHIR DSTU2 structure `OperationDefinition`, but has no target element specified.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">OperationDefinition.overload.comment</td><td style="border-left-width: 0px; border-bottom-style: none">comment</td><td style="border-right-width: 0px">http://hl7.org/fhir/StructureDefinition/OperationDefinition#OperationDefinition.overload.comment</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.overload.comment` is mapped to FHIR R4B element `OperationDefinition.overload.comment`.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.overload:comment</td><td style="border-left-width: 0px"></td><td>Element `OperationDefinition.overload.comment` is part of an existing definition because parent element `OperationDefinition.overload` requires a cross-version extension.
+Element `OperationDefinition.overload.comment` is mapped to FHIR DSTU2 structure `OperationDefinition`, but has no target element specified.</td></tr></table></div>
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="ConceptMap-ConceptMap-R5-ObservationDefinition-elements-for-R4-ObservationDefinition.ttl.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="ConceptMap-ConceptMap-R5-OperationDefinition-elements-for-R4-OperationDefinition-testing.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-02-06 13:22:00 -0600">
+    2026-02-06
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir/uv/xver/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

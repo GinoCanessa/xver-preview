@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="observation-range-category"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/observation-range-category</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">reference
+                  <a name="observation-range-category-reference"> </a>
+                </td>
+                <td>reference range</td>
+                <td>Reference (Normal) Range for Ordinal and Continuous Observations.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">critical
+                  <a name="observation-range-category-critical"> </a>
+                </td>
+                <td>critical range</td>
+                <td>Critical Range for Ordinal and Continuous Observations. Results outside this range are critical.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">absolute
+                  <a name="observation-range-category-absolute"> </a>
+                </td>
+                <td>absolute range</td>
+                <td>Absolute Range for Ordinal and Continuous Observations. Results outside this range are not possible.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo"/>
+  </extension>
+  <url value="http://hl7.org/fhir/observation-range-category"/>
+  <version value="5.0.0"/>
+  <name value="ObservationRangeCategory"/>
+  <title value="Observation Range Category"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Orders and Observations"/>
+  <contact>
+    <name value="Orders and Observations"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/orders"/>
+    </telecom>
+  </contact>
+  <description value="Codes identifying the category of observation range."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/observation-range-category|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="reference"/>
+    <display value="reference range"/>
+    <definition value="Reference (Normal) Range for Ordinal and Continuous Observations."/>
+  </concept>
+  <concept>
+    <code value="critical"/>
+    <display value="critical range"/>
+    <definition value="Critical Range for Ordinal and Continuous Observations. Results outside this range are critical."/>
+  </concept>
+  <concept>
+    <code value="absolute"/>
+    <display value="absolute range"/>
+    <definition value="Absolute Range for Ordinal and Continuous Observations. Results outside this range are not possible."/>
+  </concept>
+</CodeSystem>

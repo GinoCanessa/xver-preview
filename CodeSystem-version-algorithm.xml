@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="version-algorithm"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/version-algorithm</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">semver
+                  <a name="version-algorithm-semver"> </a>
+                </td>
+                <td>SemVer</td>
+                <td>Uses the semantic versioning scheme as defined in [semver.org](http://semver.org).</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">integer
+                  <a name="version-algorithm-integer"> </a>
+                </td>
+                <td>Integer</td>
+                <td>Versions are integers and ordered numerically</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">alpha
+                  <a name="version-algorithm-alpha"> </a>
+                </td>
+                <td>Alphabetical</td>
+                <td>Simple alphabetic sort on a case-insensitive and accent-insensitive basis.  (Sorting of different cases or accented versions of a character is indeterminate)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">date
+                  <a name="version-algorithm-date"> </a>
+                </td>
+                <td>Date</td>
+                <td>Versions are expressed as an ISO date/time syntax (including syntaxes with only portions of a date)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">natural
+                  <a name="version-algorithm-natural"> </a>
+                </td>
+                <td>Natural</td>
+                <td>Sorted according to the algorithm defined here: [naturalordersort.org](http://www.naturalordersort.org/)</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <url value="http://hl7.org/fhir/version-algorithm"/>
+  <version value="5.0.0"/>
+  <name value="VersionAlgorithm"/>
+  <title value="Version Algorithm"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="Indicates the mechanism used to compare versions to determine which is more current."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/version-algorithm|5.0.0"/>
+  <content value="complete"/>
+  <concept>
+    <code value="semver"/>
+    <display value="SemVer"/>
+    <definition value="Uses the semantic versioning scheme as defined in [semver.org](http://semver.org)."/>
+  </concept>
+  <concept>
+    <code value="integer"/>
+    <display value="Integer"/>
+    <definition value="Versions are integers and ordered numerically"/>
+  </concept>
+  <concept>
+    <code value="alpha"/>
+    <display value="Alphabetical"/>
+    <definition value="Simple alphabetic sort on a case-insensitive and accent-insensitive basis.  (Sorting of different cases or accented versions of a character is indeterminate)"/>
+  </concept>
+  <concept>
+    <code value="date"/>
+    <display value="Date"/>
+    <definition value="Versions are expressed as an ISO date/time syntax (including syntaxes with only portions of a date)"/>
+  </concept>
+  <concept>
+    <code value="natural"/>
+    <display value="Natural"/>
+    <definition value="Sorted according to the algorithm defined here: [naturalordersort.org](http://www.naturalordersort.org/)"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,408 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/v2-0131> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "v2-0131"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>status</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#status</td><td>code</td><td>Status of the concept</td></tr><tr><td>deprecated</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated</td><td>code</td><td>Version of HL7 in which the code was deprecated</td></tr></table><p><b>Concepts</b></p><p>This code system <code>http://terminology.hl7.org/CodeSystem/v2-0131</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>deprecated</b></td></tr><tr><td style=\"white-space:nowrap\">BP<a name=\"v2-0131-BP\"> </a></td><td>Billing contact person</td><td>Billing contact person</td><td>2.9</td></tr><tr><td style=\"white-space:nowrap\">CP<a name=\"v2-0131-CP\"> </a></td><td>Contact person</td><td>Contact person</td><td>2.9</td></tr><tr><td style=\"white-space:nowrap\">EP<a name=\"v2-0131-EP\"> </a></td><td>Emergency contact person</td><td>Emergency contact person</td><td>2.9</td></tr><tr><td style=\"white-space:nowrap\">PR<a name=\"v2-0131-PR\"> </a></td><td>Person preparing referral</td><td>Person preparing referral</td><td>2.9</td></tr><tr><td style=\"white-space:nowrap\">E<a name=\"v2-0131-E\"> </a></td><td>Employer</td><td>Employer</td><td/></tr><tr><td style=\"white-space:nowrap\">C<a name=\"v2-0131-C\"> </a></td><td>Emergency Contact</td><td>Emergency Contact</td><td/></tr><tr><td style=\"white-space:nowrap\">F<a name=\"v2-0131-F\"> </a></td><td>Federal Agency</td><td>Federal Agency</td><td/></tr><tr><td style=\"white-space:nowrap\">I<a name=\"v2-0131-I\"> </a></td><td>Insurance Company</td><td>Insurance Company</td><td/></tr><tr><td style=\"white-space:nowrap\">N<a name=\"v2-0131-N\"> </a></td><td>Next-of-Kin</td><td>Next-of-Kin</td><td/></tr><tr><td style=\"white-space:nowrap\">S<a name=\"v2-0131-S\"> </a></td><td>State Agency</td><td>State Agency</td><td/></tr><tr><td style=\"white-space:nowrap\">O<a name=\"v2-0131-O\"> </a></td><td>Other</td><td>Other</td><td/></tr><tr><td style=\"white-space:nowrap\">U<a name=\"v2-0131-U\"> </a></td><td>Unknown</td><td>Unknown</td><td/></tr></table><p><b>Additional Language Displays</b></p><table class=\"codes\"><tr><td><b>Code</b></td><td><b>Deutsch (German, de)</b></td></tr><tr><td>BP</td><td>Kontaktperson für Abrechnung</td></tr><tr><td>CP</td><td>Kontaktperson</td></tr><tr><td>EP</td><td>Kontaktperson für Notfälle</td></tr><tr><td>PR</td><td>Person, die die Überweisung vorbereitet</td></tr><tr><td>E</td><td>Arbeitgeber</td></tr><tr><td>C</td><td>Ansprechpartner in Notfällen</td></tr><tr><td>F</td><td>Bundesbehörde</td></tr><tr><td>I</td><td>Versicherung</td></tr><tr><td>N</td><td>Kontaktperson</td></tr><tr><td>S</td><td>Landesbehörde</td></tr><tr><td>O</td><td>andere</td></tr><tr><td>U</td><td>unbekannt</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "pa"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/v2-0131"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/v2-0131>
+  ] ; # 
+  fhir:version [ fhir:v "2.1.0"] ; # 
+  fhir:name [ fhir:v "ContactRole2"] ; # 
+  fhir:title [ fhir:v "contactRole2"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2019-11-30T18:00:00-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Patient Administration"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Patient Administration" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/pafm" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Code system of concepts which specify a relationship role that the next of kin/associated parties plays with regard to the patient. Also used in referrals, for example, it may be necessary to identify the contact representative at the clinic that sent a referral. Used in HL7 Version 2 messaging in the NK1 and CTD segments after 2.5, when it replace 2.16.840.1.113883.18.57."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "Underlying Master Code System for V2 table 0131 (Contact Role)"] ; # 
+  fhir:copyright [ fhir:v "Copyright HL7. Licensed under creative commons public domain"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/v2-0131|2.0.0"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/v2-0131?version=2.0.0>
+  ] ; # 
+  fhir:hierarchyMeaning [ fhir:v "is-a"] ; # 
+  fhir:compositional [ fhir:v false] ; # 
+  fhir:versionNeeded [ fhir:v false] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "status" ] ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/CodeSystem/utg-concept-properties#status"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/utg-concept-properties#status>
+     ] ;
+     fhir:description [ fhir:v "Status of the concept" ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "deprecated" ] ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated>
+     ] ;
+     fhir:description [ fhir:v "Version of HL7 in which the code was deprecated" ] ;
+     fhir:type [ fhir:v "code" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "BP" ] ;
+     fhir:display [ fhir:v "Billing contact person" ] ;
+     fhir:definition [ fhir:v "Billing contact person" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "de" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Kontaktperson für Abrechnung" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "deprecated" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "2.9"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CP" ] ;
+     fhir:display [ fhir:v "Contact person" ] ;
+     fhir:definition [ fhir:v "Contact person" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "de" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Kontaktperson" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "deprecated" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "2.9"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "EP" ] ;
+     fhir:display [ fhir:v "Emergency contact person" ] ;
+     fhir:definition [ fhir:v "Emergency contact person" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "de" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Kontaktperson für Notfälle" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "deprecated" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "2.9"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PR" ] ;
+     fhir:display [ fhir:v "Person preparing referral" ] ;
+     fhir:definition [ fhir:v "Person preparing referral" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "de" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Person, die die Überweisung vorbereitet" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "deprecated" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "2.9"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "E" ] ;
+     fhir:display [ fhir:v "Employer" ] ;
+     fhir:definition [ fhir:v "Employer" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "de" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Arbeitgeber" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "C" ] ;
+     fhir:display [ fhir:v "Emergency Contact" ] ;
+     fhir:definition [ fhir:v "Emergency Contact" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "de" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Ansprechpartner in Notfällen" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "F" ] ;
+     fhir:display [ fhir:v "Federal Agency" ] ;
+     fhir:definition [ fhir:v "Federal Agency" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "de" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Bundesbehörde" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "I" ] ;
+     fhir:display [ fhir:v "Insurance Company" ] ;
+     fhir:definition [ fhir:v "Insurance Company" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "de" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Versicherung" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "N" ] ;
+     fhir:display [ fhir:v "Next-of-Kin" ] ;
+     fhir:definition [ fhir:v "Next-of-Kin" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "de" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Kontaktperson" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "S" ] ;
+     fhir:display [ fhir:v "State Agency" ] ;
+     fhir:definition [ fhir:v "State Agency" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "de" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Landesbehörde" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "O" ] ;
+     fhir:display [ fhir:v "Other" ] ;
+     fhir:definition [ fhir:v "Other" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "de" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "andere" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "U" ] ;
+     fhir:display [ fhir:v "Unknown" ] ;
+     fhir:definition [ fhir:v "Unknown" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "de" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "unbekannt" ]
+     ] ) ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

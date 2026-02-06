@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="deviceassociation-operationstatus"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/deviceassociation-operationstatus</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">on
+                  <a name="deviceassociation-operationstatus-on"> </a>
+                </td>
+                <td>On</td>
+                <td>The device is working or switched on, i.e. active.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">off
+                  <a name="deviceassociation-operationstatus-off"> </a>
+                </td>
+                <td>Off</td>
+                <td>The device is inactive, switched off, or deactivated.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">standby
+                  <a name="deviceassociation-operationstatus-standby"> </a>
+                </td>
+                <td>Stand By</td>
+                <td>The device is in stand-by mode i.e. not actively working but not powered off.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">defective
+                  <a name="deviceassociation-operationstatus-defective"> </a>
+                </td>
+                <td>Stand By</td>
+                <td>The device is defective or for maintenance and is not available or working.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">unknown
+                  <a name="deviceassociation-operationstatus-unknown"> </a>
+                </td>
+                <td>Unknown</td>
+                <td>The operational status of the device has not been determined.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo"/>
+  </extension>
+  <url value="http://hl7.org/fhir/deviceassociation-operationstatus"/>
+  <version value="5.0.0"/>
+  <name value="FHIRDeviceAssociationOperationStatus"/>
+  <title value="FHIR DeviceAssociation Operation Status"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Orders and Observations"/>
+  <contact>
+    <name value="Orders and Observations"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/orders"/>
+    </telecom>
+  </contact>
+  <description value="The operational status of the device."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/deviceassociation-operationstatus"/>
+  <content value="complete"/>
+  <concept>
+    <code value="on"/>
+    <display value="On"/>
+    <definition value="The device is working or switched on, i.e. active."/>
+  </concept>
+  <concept>
+    <code value="off"/>
+    <display value="Off"/>
+    <definition value="The device is inactive, switched off, or deactivated."/>
+  </concept>
+  <concept>
+    <code value="standby"/>
+    <display value="Stand By"/>
+    <definition value="The device is in stand-by mode i.e. not actively working but not powered off."/>
+  </concept>
+  <concept>
+    <code value="defective"/>
+    <display value="Stand By"/>
+    <definition value="The device is defective or for maintenance and is not available or working."/>
+  </concept>
+  <concept>
+    <code value="unknown"/>
+    <display value="Unknown"/>
+    <definition value="The operational status of the device has not been determined."/>
+  </concept>
+</CodeSystem>

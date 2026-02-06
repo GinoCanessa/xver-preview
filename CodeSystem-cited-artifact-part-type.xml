@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cited-artifact-part-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/cited-artifact-part-type</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">pages
+                  <a name="cited-artifact-part-type-pages"> </a>
+                </td>
+                <td>pages</td>
+                <td>Denotes specific page or pages of an article or artifact.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">sections
+                  <a name="cited-artifact-part-type-sections"> </a>
+                </td>
+                <td>sections</td>
+                <td>Denotes specific section or sections of an article or artifact.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">paragraphs
+                  <a name="cited-artifact-part-type-paragraphs"> </a>
+                </td>
+                <td>paragraphs</td>
+                <td>Denotes specific paragraph or paragraphs of an article or artifact.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">lines
+                  <a name="cited-artifact-part-type-lines"> </a>
+                </td>
+                <td>lines</td>
+                <td>Denotes specific line or lines of an article or artifact.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">tables
+                  <a name="cited-artifact-part-type-tables"> </a>
+                </td>
+                <td>tables</td>
+                <td>Denotes specific table or tables of an article or artifact.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">figures
+                  <a name="cited-artifact-part-type-figures"> </a>
+                </td>
+                <td>figures</td>
+                <td>Denotes specific figure or figures of an article or artifact.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">supplement
+                  <a name="cited-artifact-part-type-supplement"> </a>
+                </td>
+                <td>Supplement or Appendix</td>
+                <td>Used to denote a supplementary file, appendix, or additional part that is not a subpart of the primary article.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">supplement-subpart
+                  <a name="cited-artifact-part-type-supplement-subpart"> </a>
+                </td>
+                <td>Supplement or Appendix Subpart</td>
+                <td>Used to denote a subpart within a supplementary file or appendix.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">article-set
+                  <a name="cited-artifact-part-type-article-set"> </a>
+                </td>
+                <td>Part of an article set</td>
+                <td>Used to distinguish an individual article within an article set where the article set is a base citation.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="cds"/>
+  </extension>
+  <url value="http://hl7.org/fhir/cited-artifact-part-type"/>
+  <version value="5.0.0"/>
+  <name value="CitedArtifactPartType"/>
+  <title value="Cited Artifact Part Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2020-12-27T23:55:11-06:00"/>
+  <publisher value="Clinical Decision Support"/>
+  <contact>
+    <name value="Clinical Decision Support"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/dss"/>
+    </telecom>
+  </contact>
+  <description value="To describe the reason for the variant citation, such as version number or subpart specification."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/cited-artifact-part-type"/>
+  <content value="complete"/>
+  <concept>
+    <code value="pages"/>
+    <display value="pages"/>
+    <definition value="Denotes specific page or pages of an article or artifact."/>
+  </concept>
+  <concept>
+    <code value="sections"/>
+    <display value="sections"/>
+    <definition value="Denotes specific section or sections of an article or artifact."/>
+  </concept>
+  <concept>
+    <code value="paragraphs"/>
+    <display value="paragraphs"/>
+    <definition value="Denotes specific paragraph or paragraphs of an article or artifact."/>
+  </concept>
+  <concept>
+    <code value="lines"/>
+    <display value="lines"/>
+    <definition value="Denotes specific line or lines of an article or artifact."/>
+  </concept>
+  <concept>
+    <code value="tables"/>
+    <display value="tables"/>
+    <definition value="Denotes specific table or tables of an article or artifact."/>
+  </concept>
+  <concept>
+    <code value="figures"/>
+    <display value="figures"/>
+    <definition value="Denotes specific figure or figures of an article or artifact."/>
+  </concept>
+  <concept>
+    <code value="supplement"/>
+    <display value="Supplement or Appendix"/>
+    <definition value="Used to denote a supplementary file, appendix, or additional part that is not a subpart of the primary article."/>
+  </concept>
+  <concept>
+    <code value="supplement-subpart"/>
+    <display value="Supplement or Appendix Subpart"/>
+    <definition value="Used to denote a subpart within a supplementary file or appendix."/>
+  </concept>
+  <concept>
+    <code value="article-set"/>
+    <display value="Part of an article set"/>
+    <definition value="Used to distinguish an individual article within an article set where the article set is a base citation."/>
+  </concept>
+</CodeSystem>

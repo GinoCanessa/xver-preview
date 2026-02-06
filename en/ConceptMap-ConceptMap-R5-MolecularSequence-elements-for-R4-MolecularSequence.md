@@ -1,0 +1,733 @@
+# ConceptMapR5MolecularSequenceElementsForR4MolecularSequence - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## ConceptMap: ConceptMapR5MolecularSequenceElementsForR4MolecularSequence 
+
+ 
+This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4. 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ConceptMap",
+  "id" : "ConceptMap-R5-MolecularSequence-elements-for-R4-MolecularSequence",
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "fhir"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger" : 0,
+      "_valueInteger" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode" : "trial-use",
+      "_valueCode" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    }
+  ],
+  "url" : "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-MolecularSequence-elements-for-R4-MolecularSequence",
+  "version" : "0.0.1-snapshot-3",
+  "name" : "ConceptMapR5MolecularSequenceElementsForR4MolecularSequence",
+  "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-02-06T13:17:33.564665-06:00",
+  "contact" : [
+    {
+      "name" : "FHIR Infrastructure",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/fiwg"
+        }
+      ]
+    }
+  ],
+  "description" : "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }
+      ]
+    }
+  ],
+  "group" : [
+    {
+      "source" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence",
+      "sourceVersion" : "5.0.0",
+      "element" : [
+        {
+          "code" : "MolecularSequence",
+          "display" : "MolecularSequence",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence",
+              "equivalence" : "relatedto",
+              "comment" : "FHIR R5 Resource `MolecularSequence` is representable via FHIR R4B Resource `MolecularSequence`.\nElement `MolecularSequence` is mapped to FHIR R4B element `MolecularSequence`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#Sequence",
+              "equivalence" : "relatedto",
+              "comment" : "FHIR R5 Resource `MolecularSequence` is representable via FHIR STU3 Resource `Sequence`.\nElement `MolecularSequence` is mapped to FHIR STU3 element `Sequence`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence",
+              "equivalence" : "relatedto",
+              "comment" : "FHIR R5 Resource `MolecularSequence` is representable via FHIR DSTU2 Resource `Basic`.\nElement `MolecularSequence` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.meta",
+          "display" : "meta",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.meta",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.meta` is mapped to FHIR R4B element `MolecularSequence.meta`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#Sequence.meta",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.meta` is mapped to FHIR STU3 element `Sequence.meta`."
+            },
+            {
+              "code" : "Basic.meta",
+              "equivalence" : "relatedto",
+              "comment" : "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `MolecularSequence.meta` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.implicitRules",
+          "display" : "implicitRules",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.implicitRules",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.implicitRules` is mapped to FHIR R4B element `MolecularSequence.implicitRules`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#Sequence.implicitRules",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.implicitRules` is mapped to FHIR STU3 element `Sequence.implicitRules`."
+            },
+            {
+              "code" : "Basic.implicitRules",
+              "equivalence" : "relatedto",
+              "comment" : "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `MolecularSequence.implicitRules` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.language",
+          "display" : "language",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.language",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.language` is mapped to FHIR R4B element `MolecularSequence.language`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#Sequence.language",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.language` is mapped to FHIR STU3 element `Sequence.language`."
+            },
+            {
+              "code" : "Basic.language",
+              "equivalence" : "relatedto",
+              "comment" : "Element matches Basic element path `Resource.language`, use that element instead.\nElement `MolecularSequence.language` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.text",
+          "display" : "text",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.text",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.text` is mapped to FHIR R4B element `MolecularSequence.text`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#Sequence.text",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.text` is mapped to FHIR STU3 element `Sequence.text`."
+            },
+            {
+              "code" : "Basic.text",
+              "equivalence" : "relatedto",
+              "comment" : "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `MolecularSequence.text` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.contained",
+          "display" : "contained",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.contained",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.contained` is mapped to FHIR R4B element `MolecularSequence.contained`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#Sequence.contained",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.contained` is mapped to FHIR STU3 element `Sequence.contained`."
+            },
+            {
+              "code" : "Basic.contained",
+              "equivalence" : "relatedto",
+              "comment" : "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `MolecularSequence.contained` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.identifier",
+          "display" : "identifier",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.identifier",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.identifier` is mapped to FHIR R4B element `MolecularSequence.identifier`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#Sequence.identifier",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.identifier` is mapped to FHIR STU3 element `Sequence.identifier`."
+            },
+            {
+              "code" : "Basic.identifier",
+              "equivalence" : "relatedto",
+              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `MolecularSequence.identifier` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.type",
+          "display" : "type",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.type",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.type` is mapped to FHIR R4B element `MolecularSequence.type`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#Sequence.type",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.type` is mapped to FHIR STU3 element `Sequence.type`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence:type",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.type` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.subject",
+          "display" : "subject",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.patient",
+              "equivalence" : "relatedto",
+              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `MolecularSequence.subject` is mapped to FHIR R4B element `MolecularSequence.patient`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#Sequence.patient",
+              "equivalence" : "relatedto",
+              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `MolecularSequence.subject` is mapped to FHIR STU3 element `Sequence.patient`."
+            },
+            {
+              "code" : "Basic.subject",
+              "equivalence" : "relatedto",
+              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `MolecularSequence.subject` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.focus",
+          "display" : "focus",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence.focus",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.focus` is mapped to FHIR R4B structure `MolecularSequence`, but has no target element specified."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence:focus",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.focus` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.specimen",
+          "display" : "specimen",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.specimen",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.specimen` is mapped to FHIR R4B element `MolecularSequence.specimen`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#Sequence.specimen",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.specimen` is mapped to FHIR STU3 element `Sequence.specimen`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence:specimen",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.specimen` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.device",
+          "display" : "device",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.device",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.device` is mapped to FHIR R4B element `MolecularSequence.device`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#Sequence.device",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.device` is mapped to FHIR STU3 element `Sequence.device`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence:device",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.device` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.performer",
+          "display" : "performer",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.performer",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.performer` is mapped to FHIR R4B element `MolecularSequence.performer`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#Sequence.performer",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.performer` is mapped to FHIR STU3 element `Sequence.performer`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence:performer",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.performer` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.literal",
+          "display" : "literal",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.observedSeq",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.literal` is mapped to FHIR R4B element `MolecularSequence.observedSeq`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#Sequence.observedSeq",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.literal` is mapped to FHIR STU3 element `Sequence.observedSeq`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence:literal",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.literal` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.formatted",
+          "display" : "formatted",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence.formatted",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.formatted` is mapped to FHIR R4B structure `MolecularSequence`, but has no target element specified."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence:formatted",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.formatted` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.relative",
+          "display" : "relative",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.referenceSeq",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative` is mapped to FHIR R4B element `MolecularSequence.referenceSeq`.\nElement `MolecularSequence.relative` is mapped to FHIR R4B element `MolecularSequence.variant`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.variant",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative` is mapped to FHIR R4B element `MolecularSequence.referenceSeq`.\nElement `MolecularSequence.relative` is mapped to FHIR R4B element `MolecularSequence.variant`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#Sequence.referenceSeq",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative` is mapped to FHIR STU3 element `Sequence.referenceSeq`.\nElement `MolecularSequence.relative` is mapped to FHIR STU3 element `Sequence.variant`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#Sequence.variant",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative` is mapped to FHIR STU3 element `Sequence.referenceSeq`.\nElement `MolecularSequence.relative` is mapped to FHIR STU3 element `Sequence.variant`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence:relative",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.relative.coordinateSystem",
+          "display" : "coordinateSystem",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence.relative.coordinateSystem",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.coordinateSystem` is mapped to FHIR R4B structure `MolecularSequence`, but has no target element specified."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence:relative:coordinateSystem",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.coordinateSystem` is part of an existing definition because parent element `MolecularSequence.relative` requires a cross-version extension.\nElement `MolecularSequence.relative.coordinateSystem` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.relative.ordinalPosition",
+          "display" : "ordinalPosition",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence.relative.ordinalPosition",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.ordinalPosition` is mapped to FHIR R4B structure `MolecularSequence`, but has no target element specified."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence:relative:ordinalPosition",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.ordinalPosition` is part of an existing definition because parent element `MolecularSequence.relative` requires a cross-version extension.\nElement `MolecularSequence.relative.ordinalPosition` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.relative.sequenceRange",
+          "display" : "sequenceRange",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence.relative.sequenceRange",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.sequenceRange` is mapped to FHIR R4B structure `MolecularSequence`, but has no target element specified."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence:relative:sequenceRange",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.sequenceRange` is part of an existing definition because parent element `MolecularSequence.relative` requires a cross-version extension.\nElement `MolecularSequence.relative.sequenceRange` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.relative.startingSequence",
+          "display" : "startingSequence",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.referenceSeq",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.startingSequence` is mapped to FHIR R4B element `MolecularSequence.referenceSeq`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#Sequence.referenceSeq",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.startingSequence` is mapped to FHIR STU3 element `Sequence.referenceSeq`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence:relative:startingSequence",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.startingSequence` is part of an existing definition because parent element `MolecularSequence.relative` requires a cross-version extension.\nElement `MolecularSequence.relative.startingSequence` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.relative.startingSequence.genomeAssembly",
+          "display" : "genomeAssembly",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence.relative.startingSequence.genomeAssembly",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.startingSequence.genomeAssembly` is mapped to FHIR R4B structure `MolecularSequence`, but has no target element specified."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence:relative:startingSequence:genomeAssembly",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.startingSequence.genomeAssembly` is part of an existing definition because parent element `MolecularSequence.relative.startingSequence` requires a cross-version extension.\nElement `MolecularSequence.relative.startingSequence.genomeAssembly` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.relative.startingSequence.chromosome",
+          "display" : "chromosome",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.referenceSeq.chromosome",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.startingSequence.chromosome` is mapped to FHIR R4B element `MolecularSequence.referenceSeq.chromosome`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#Sequence.referenceSeq.chromosome",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.startingSequence.chromosome` is mapped to FHIR STU3 element `Sequence.referenceSeq.chromosome`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence:relative:startingSequence:chromosome",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.startingSequence.chromosome` is part of an existing definition because parent element `MolecularSequence.relative.startingSequence` requires a cross-version extension.\nElement `MolecularSequence.relative.startingSequence.chromosome` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.relative.startingSequence.sequence[x]",
+          "display" : "sequence[x]",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.referenceSeq.referenceSeqString",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.startingSequence.sequence[x]` is mapped to FHIR R4B element `MolecularSequence.referenceSeq.referenceSeqString`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#Sequence.referenceSeq.referenceSeqString",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.startingSequence.sequence[x]` is mapped to FHIR STU3 element `Sequence.referenceSeq.referenceSeqString`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence:relative:startingSequence:sequence",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.startingSequence.sequence[x]` is part of an existing definition because parent element `MolecularSequence.relative.startingSequence` requires a cross-version extension.\nElement `MolecularSequence.relative.startingSequence.sequence[x]` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.relative.startingSequence.windowStart",
+          "display" : "windowStart",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.referenceSeq.windowStart",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.startingSequence.windowStart` is mapped to FHIR R4B element `MolecularSequence.referenceSeq.windowStart`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#Sequence.referenceSeq.windowStart",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.startingSequence.windowStart` is mapped to FHIR STU3 element `Sequence.referenceSeq.windowStart`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence:relative:startingSequence:windowStart",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.startingSequence.windowStart` is part of an existing definition because parent element `MolecularSequence.relative.startingSequence` requires a cross-version extension.\nElement `MolecularSequence.relative.startingSequence.windowStart` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.relative.startingSequence.windowEnd",
+          "display" : "windowEnd",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.referenceSeq.windowEnd",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.startingSequence.windowEnd` is mapped to FHIR R4B element `MolecularSequence.referenceSeq.windowEnd`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#Sequence.referenceSeq.windowEnd",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.startingSequence.windowEnd` is mapped to FHIR STU3 element `Sequence.referenceSeq.windowEnd`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence:relative:startingSequence:windowEnd",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.startingSequence.windowEnd` is part of an existing definition because parent element `MolecularSequence.relative.startingSequence` requires a cross-version extension.\nElement `MolecularSequence.relative.startingSequence.windowEnd` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.relative.startingSequence.orientation",
+          "display" : "orientation",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.referenceSeq.orientation",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.startingSequence.orientation` is mapped to FHIR R4B element `MolecularSequence.referenceSeq.orientation`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence.relative.startingSequence.orientation",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.startingSequence.orientation` is mapped to FHIR STU3 structure `Sequence`, but has no target element specified."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence:relative:startingSequence:orientation",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.startingSequence.orientation` is part of an existing definition because parent element `MolecularSequence.relative.startingSequence` requires a cross-version extension.\nElement `MolecularSequence.relative.startingSequence.orientation` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.relative.startingSequence.strand",
+          "display" : "strand",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.referenceSeq.strand",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.startingSequence.strand` is mapped to FHIR R4B element `MolecularSequence.referenceSeq.strand`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#Sequence.referenceSeq.strand",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.startingSequence.strand` is mapped to FHIR STU3 element `Sequence.referenceSeq.strand`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence:relative:startingSequence:strand",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.startingSequence.strand` is part of an existing definition because parent element `MolecularSequence.relative.startingSequence` requires a cross-version extension.\nElement `MolecularSequence.relative.startingSequence.strand` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.relative.edit",
+          "display" : "edit",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.variant",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.edit` is mapped to FHIR R4B element `MolecularSequence.variant`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#Sequence.variant",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.edit` is mapped to FHIR STU3 element `Sequence.variant`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence:relative:edit",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.edit` is part of an existing definition because parent element `MolecularSequence.relative` requires a cross-version extension.\nElement `MolecularSequence.relative.edit` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.relative.edit.start",
+          "display" : "start",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence.relative.edit.start",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.edit.start` is mapped to FHIR R4B structure `MolecularSequence`, but has no target element specified."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence:relative:edit:start",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.edit.start` is part of an existing definition because parent element `MolecularSequence.relative.edit` requires a cross-version extension.\nElement `MolecularSequence.relative.edit.start` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.relative.edit.end",
+          "display" : "end",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.variant.end",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.edit.end` is mapped to FHIR R4B element `MolecularSequence.variant.end`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#Sequence.variant.end",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.edit.end` is mapped to FHIR STU3 element `Sequence.variant.end`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence:relative:edit:end",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.edit.end` is part of an existing definition because parent element `MolecularSequence.relative.edit` requires a cross-version extension.\nElement `MolecularSequence.relative.edit.end` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.relative.edit.replacementSequence",
+          "display" : "replacementSequence",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.variant.observedAllele",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.edit.replacementSequence` is mapped to FHIR R4B element `MolecularSequence.variant.observedAllele`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#Sequence.variant.observedAllele",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.edit.replacementSequence` is mapped to FHIR STU3 element `Sequence.variant.observedAllele`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence:relative:edit:replacementSequence",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.edit.replacementSequence` is part of an existing definition because parent element `MolecularSequence.relative.edit` requires a cross-version extension.\nElement `MolecularSequence.relative.edit.replacementSequence` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        },
+        {
+          "code" : "MolecularSequence.relative.edit.replacedSequence",
+          "display" : "replacedSequence",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.variant.referenceAllele",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.edit.replacedSequence` is mapped to FHIR R4B element `MolecularSequence.variant.referenceAllele`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#Sequence.variant.referenceAllele",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.edit.replacedSequence` is mapped to FHIR STU3 element `Sequence.variant.referenceAllele`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence:relative:edit:replacedSequence",
+              "equivalence" : "relatedto",
+              "comment" : "Element `MolecularSequence.relative.edit.replacedSequence` is part of an existing definition because parent element `MolecularSequence.relative.edit` requires a cross-version extension.\nElement `MolecularSequence.relative.edit.replacedSequence` is not mapped to FHIR DSTU2, since FHIR R5 `MolecularSequence` is not mapped."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+```

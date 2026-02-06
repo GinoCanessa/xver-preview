@@ -1,0 +1,252 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-DeviceAssociation-elements-for-R4-Device> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-DeviceAssociation-elements-for-R4-Device"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-DeviceAssociation-elements-for-R4-Device</b></p><a name=\"ConceptMap-R5-DeviceAssociation-elements-for-R4-Device\"> </a><a name=\"hcConceptMap-R5-DeviceAssociation-elements-for-R4-Device\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/DeviceAssociation|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/DeviceAssociation|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">DeviceAssociation</td><td style=\"border-left-width: 0px\">DeviceAssociation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `DeviceAssociation` is representable via FHIR R4B Resource `Device`.\nElement `DeviceAssociation` is mapped to FHIR R4B element `Device`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceAssociation.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.meta</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceAssociation.meta` is mapped to FHIR R4B element `Device.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceAssociation.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceAssociation.implicitRules` is mapped to FHIR R4B element `Device.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceAssociation.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.language</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceAssociation.language` is mapped to FHIR R4B element `Device.language`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceAssociation.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.text</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceAssociation.text` is mapped to FHIR R4B element `Device.text`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceAssociation.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.contained</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceAssociation.contained` is mapped to FHIR R4B element `Device.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceAssociation.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceAssociation.identifier` is mapped to FHIR R4B element `Device.identifier`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceAssociation.device</td><td style=\"border-left-width: 0px\">device</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.device</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceAssociation.device` is mapped to FHIR R4B structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceAssociation.category</td><td style=\"border-left-width: 0px\">category</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.category</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceAssociation.category` is mapped to FHIR R4B structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceAssociation.status</td><td style=\"border-left-width: 0px\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.status</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceAssociation.status` is mapped to FHIR R4B structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DeviceAssociation.statusReason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">statusReason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.statusReason</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceAssociation.statusReason` is mapped to FHIR R4B element `Device.statusReason`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.statusReason</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceAssociation.statusReason` is mapped to FHIR STU3 structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceAssociation.subject</td><td style=\"border-left-width: 0px\">subject</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Device#Device.patient</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.subject`, use that element instead.\nElement `DeviceAssociation.subject` is mapped to FHIR R4B element `Device.patient`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceAssociation.bodyStructure</td><td style=\"border-left-width: 0px\">bodyStructure</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.bodyStructure</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceAssociation.bodyStructure` is mapped to FHIR R4B structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceAssociation.period</td><td style=\"border-left-width: 0px\">period</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.period</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceAssociation.period` is mapped to FHIR R4B structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceAssociation.operation</td><td style=\"border-left-width: 0px\">operation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.operation</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceAssociation.operation` is mapped to FHIR R4B structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceAssociation.operation.status</td><td style=\"border-left-width: 0px\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.operation:status</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceAssociation.operation.status` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nElement `DeviceAssociation.operation.status` is mapped to FHIR R4B structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceAssociation.operation.operator</td><td style=\"border-left-width: 0px\">operator</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.operation:operator</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceAssociation.operation.operator` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nElement `DeviceAssociation.operation.operator` is mapped to FHIR R4B structure `Device`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceAssociation.operation.period</td><td style=\"border-left-width: 0px\">period</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.operation:period</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceAssociation.operation.period` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nElement `DeviceAssociation.operation.period` is mapped to FHIR R4B structure `Device`, but has no target element specified.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-DeviceAssociation-elements-for-R4-Device"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-DeviceAssociation-elements-for-R4-Device>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5DeviceAssociationElementsForR4Device"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:32.1262722-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/DeviceAssociation"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/DeviceAssociation>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "DeviceAssociation" ] ;
+       fhir:display [ fhir:v "DeviceAssociation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `DeviceAssociation` is representable via FHIR R4B Resource `Device`.\nElement `DeviceAssociation` is mapped to FHIR R4B element `Device`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceAssociation.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceAssociation.meta` is mapped to FHIR R4B element `Device.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceAssociation.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceAssociation.implicitRules` is mapped to FHIR R4B element `Device.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceAssociation.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceAssociation.language` is mapped to FHIR R4B element `Device.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceAssociation.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceAssociation.text` is mapped to FHIR R4B element `Device.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceAssociation.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceAssociation.contained` is mapped to FHIR R4B element `Device.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceAssociation.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceAssociation.identifier` is mapped to FHIR R4B element `Device.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceAssociation.device" ] ;
+       fhir:display [ fhir:v "device" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.device" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceAssociation.device` is mapped to FHIR R4B structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceAssociation.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceAssociation.category` is mapped to FHIR R4B structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceAssociation.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceAssociation.status` is mapped to FHIR R4B structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceAssociation.statusReason" ] ;
+       fhir:display [ fhir:v "statusReason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.statusReason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceAssociation.statusReason` is mapped to FHIR R4B element `Device.statusReason`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.statusReason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceAssociation.statusReason` is mapped to FHIR STU3 structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceAssociation.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Device#Device.patient" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `DeviceAssociation.subject` is mapped to FHIR R4B element `Device.patient`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceAssociation.bodyStructure" ] ;
+       fhir:display [ fhir:v "bodyStructure" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.bodyStructure" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceAssociation.bodyStructure` is mapped to FHIR R4B structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceAssociation.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceAssociation.period` is mapped to FHIR R4B structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceAssociation.operation" ] ;
+       fhir:display [ fhir:v "operation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.operation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceAssociation.operation` is mapped to FHIR R4B structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceAssociation.operation.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.operation:status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceAssociation.operation.status` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nElement `DeviceAssociation.operation.status` is mapped to FHIR R4B structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceAssociation.operation.operator" ] ;
+       fhir:display [ fhir:v "operator" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.operation:operator" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceAssociation.operation.operator` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nElement `DeviceAssociation.operation.operator` is mapped to FHIR R4B structure `Device`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceAssociation.operation.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceAssociation.operation:period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceAssociation.operation.period` is part of an existing definition because parent element `DeviceAssociation.operation` requires a cross-version extension.\nElement `DeviceAssociation.operation.period` is mapped to FHIR R4B structure `Device`, but has no target element specified." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

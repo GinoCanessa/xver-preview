@@ -1,0 +1,240 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-Schedule-elements-for-R4-Schedule> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-Schedule-elements-for-R4-Schedule"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-Schedule-elements-for-R4-Schedule</b></p><a name=\"ConceptMap-R5-Schedule-elements-for-R4-Schedule\"> </a><a name=\"hcConceptMap-R5-Schedule-elements-for-R4-Schedule\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Schedule|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Schedule|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">Schedule</td><td style=\"border-left-width: 0px\">Schedule</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Schedule#Schedule</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Schedule` is representable via FHIR R4B Resource `Schedule`.\nElement `Schedule` is mapped to FHIR R4B element `Schedule`.</td></tr><tr><td style=\"border-right-width: 0px\">Schedule.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.meta</td><td style=\"border-left-width: 0px\"/><td>Element `Schedule.meta` is mapped to FHIR R4B element `Schedule.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">Schedule.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `Schedule.implicitRules` is mapped to FHIR R4B element `Schedule.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">Schedule.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.language</td><td style=\"border-left-width: 0px\"/><td>Element `Schedule.language` is mapped to FHIR R4B element `Schedule.language`.</td></tr><tr><td style=\"border-right-width: 0px\">Schedule.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.text</td><td style=\"border-left-width: 0px\"/><td>Element `Schedule.text` is mapped to FHIR R4B element `Schedule.text`.</td></tr><tr><td style=\"border-right-width: 0px\">Schedule.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.contained</td><td style=\"border-left-width: 0px\"/><td>Element `Schedule.contained` is mapped to FHIR R4B element `Schedule.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">Schedule.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `Schedule.identifier` is mapped to FHIR R4B element `Schedule.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Schedule.active</td><td style=\"border-left-width: 0px; border-bottom-style: none\">active</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.active</td><td style=\"border-left-width: 0px\"/><td>Element `Schedule.active` is mapped to FHIR R4B element `Schedule.active`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Schedule.active</td><td style=\"border-left-width: 0px\"/><td>Element `Schedule.active` is mapped to FHIR DSTU2 structure `Schedule`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Schedule.serviceCategory</td><td style=\"border-left-width: 0px; border-bottom-style: none\">serviceCategory</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.serviceCategory</td><td style=\"border-left-width: 0px\"/><td>Element `Schedule.serviceCategory` is mapped to FHIR R4B element `Schedule.serviceCategory`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Schedule.serviceCategory</td><td style=\"border-left-width: 0px\"/><td>Element `Schedule.serviceCategory` is mapped to FHIR DSTU2 structure `Schedule`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Schedule.serviceType</td><td style=\"border-left-width: 0px; border-bottom-style: none\">serviceType</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.serviceType</td><td style=\"border-left-width: 0px\"/><td>Element `Schedule.serviceType` is mapped to FHIR R4B element `Schedule.serviceType`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.type</td><td style=\"border-left-width: 0px\"/><td>Element `Schedule.serviceType` is mapped to FHIR DSTU2 element `Schedule.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Schedule.specialty</td><td style=\"border-left-width: 0px; border-bottom-style: none\">specialty</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.specialty</td><td style=\"border-left-width: 0px\"/><td>Element `Schedule.specialty` is mapped to FHIR R4B element `Schedule.specialty`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Schedule.specialty</td><td style=\"border-left-width: 0px\"/><td>Element `Schedule.specialty` is mapped to FHIR DSTU2 structure `Schedule`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Schedule.name</td><td style=\"border-left-width: 0px\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Schedule.name</td><td style=\"border-left-width: 0px\"/><td>Element `Schedule.name` is mapped to FHIR R4B structure `Schedule`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Schedule.actor</td><td style=\"border-left-width: 0px\">actor</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.actor</td><td style=\"border-left-width: 0px\"/><td>Element `Schedule.actor` is mapped to FHIR R4B element `Schedule.actor`.</td></tr><tr><td style=\"border-right-width: 0px\">Schedule.planningHorizon</td><td style=\"border-left-width: 0px\">planningHorizon</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.planningHorizon</td><td style=\"border-left-width: 0px\"/><td>Element `Schedule.planningHorizon` is mapped to FHIR R4B element `Schedule.planningHorizon`.</td></tr><tr><td style=\"border-right-width: 0px\">Schedule.comment</td><td style=\"border-left-width: 0px\">comment</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.comment</td><td style=\"border-left-width: 0px\"/><td>Element `Schedule.comment` is mapped to FHIR R4B element `Schedule.comment`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Schedule-elements-for-R4-Schedule"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Schedule-elements-for-R4-Schedule>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5ScheduleElementsForR4Schedule"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:34.2166571-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Schedule"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Schedule>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Schedule" ] ;
+       fhir:display [ fhir:v "Schedule" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Schedule` is representable via FHIR R4B Resource `Schedule`.\nElement `Schedule` is mapped to FHIR R4B element `Schedule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Schedule.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Schedule.meta` is mapped to FHIR R4B element `Schedule.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Schedule.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Schedule.implicitRules` is mapped to FHIR R4B element `Schedule.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Schedule.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Schedule.language` is mapped to FHIR R4B element `Schedule.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Schedule.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Schedule.text` is mapped to FHIR R4B element `Schedule.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Schedule.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Schedule.contained` is mapped to FHIR R4B element `Schedule.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Schedule.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Schedule.identifier` is mapped to FHIR R4B element `Schedule.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Schedule.active" ] ;
+       fhir:display [ fhir:v "active" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.active" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Schedule.active` is mapped to FHIR R4B element `Schedule.active`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Schedule.active" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Schedule.active` is mapped to FHIR DSTU2 structure `Schedule`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Schedule.serviceCategory" ] ;
+       fhir:display [ fhir:v "serviceCategory" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.serviceCategory" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Schedule.serviceCategory` is mapped to FHIR R4B element `Schedule.serviceCategory`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Schedule.serviceCategory" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Schedule.serviceCategory` is mapped to FHIR DSTU2 structure `Schedule`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Schedule.serviceType" ] ;
+       fhir:display [ fhir:v "serviceType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.serviceType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Schedule.serviceType` is mapped to FHIR R4B element `Schedule.serviceType`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Schedule.serviceType` is mapped to FHIR DSTU2 element `Schedule.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Schedule.specialty" ] ;
+       fhir:display [ fhir:v "specialty" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.specialty" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Schedule.specialty` is mapped to FHIR R4B element `Schedule.specialty`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Schedule.specialty" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Schedule.specialty` is mapped to FHIR DSTU2 structure `Schedule`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Schedule.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Schedule.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Schedule.name` is mapped to FHIR R4B structure `Schedule`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Schedule.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.actor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Schedule.actor` is mapped to FHIR R4B element `Schedule.actor`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Schedule.planningHorizon" ] ;
+       fhir:display [ fhir:v "planningHorizon" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.planningHorizon" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Schedule.planningHorizon` is mapped to FHIR R4B element `Schedule.planningHorizon`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Schedule.comment" ] ;
+       fhir:display [ fhir:v "comment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.comment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Schedule.comment` is mapped to FHIR R4B element `Schedule.comment`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

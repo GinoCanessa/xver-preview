@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="medicinal-product-contact-type"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/medicinal-product-contact-type</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">ProposedMAH
+                  <a name="medicinal-product-contact-type-ProposedMAH"> </a>
+                </td>
+                <td>Proposed Marketing Authorization Holder/Person</td>
+                <td>Proposed Marketing Authorization Holder/Person</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">ProcedureContactDuring
+                  <a name="medicinal-product-contact-type-ProcedureContactDuring"> </a>
+                </td>
+                <td>Person/Company authorised for Communication during procedure</td>
+                <td>Person/Company authorised for Communication on behalf of the Applicant during the Procedure</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">ProcedureContactAfter
+                  <a name="medicinal-product-contact-type-ProcedureContactAfter"> </a>
+                </td>
+                <td>Person/Company authorised for Communication after procedure</td>
+                <td>Person/Company authorised for Communication between MAH and Authorities after Authorization</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">QPPV
+                  <a name="medicinal-product-contact-type-QPPV"> </a>
+                </td>
+                <td>Qualified Person Responsible for Pharmacovigilance</td>
+                <td>Qualified Person Responsible for Pharmacovigilance</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">PVEnquiries
+                  <a name="medicinal-product-contact-type-PVEnquiries"> </a>
+                </td>
+                <td>Pharmacovigilance Enquiry Information</td>
+                <td>Pharmacovigilance Enquiry Information</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="brr"/>
+  </extension>
+  <url value="http://hl7.org/fhir/medicinal-product-contact-type"/>
+  <version value="5.0.0"/>
+  <name value="ProductContactType"/>
+  <title value="Product Contact Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Biomedical Research and Regulation"/>
+  <contact>
+    <name value="Biomedical Research and Regulation"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/rcrim"/>
+    </telecom>
+  </contact>
+  <description value="Contact type for a Medicinal Product."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/medicinal-product-contact-type"/>
+  <content value="complete"/>
+  <concept>
+    <code value="ProposedMAH"/>
+    <display value="Proposed Marketing Authorization Holder/Person"/>
+    <definition value="Proposed Marketing Authorization Holder/Person"/>
+  </concept>
+  <concept>
+    <code value="ProcedureContactDuring"/>
+    <display value="Person/Company authorised for Communication during procedure"/>
+    <definition value="Person/Company authorised for Communication on behalf of the Applicant during the Procedure"/>
+  </concept>
+  <concept>
+    <code value="ProcedureContactAfter"/>
+    <display value="Person/Company authorised for Communication after procedure"/>
+    <definition value="Person/Company authorised for Communication between MAH and Authorities after Authorization"/>
+  </concept>
+  <concept>
+    <code value="QPPV"/>
+    <display value="Qualified Person Responsible for Pharmacovigilance"/>
+    <definition value="Qualified Person Responsible for Pharmacovigilance"/>
+  </concept>
+  <concept>
+    <code value="PVEnquiries"/>
+    <display value="Pharmacovigilance Enquiry Information"/>
+    <definition value="Pharmacovigilance Enquiry Information"/>
+  </concept>
+</CodeSystem>

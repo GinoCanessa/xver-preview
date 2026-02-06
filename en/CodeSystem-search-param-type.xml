@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="search-param-type"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/search-param-type</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">number
+                  <a name="search-param-type-number"> </a>
+                </td>
+                <td>Number</td>
+                <td>Search parameter SHALL be a number (a whole number, or a decimal).</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">date
+                  <a name="search-param-type-date"> </a>
+                </td>
+                <td>Date/DateTime</td>
+                <td>Search parameter is on a date/time. The date format is the standard XML format, though other formats may be supported.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">string
+                  <a name="search-param-type-string"> </a>
+                </td>
+                <td>String</td>
+                <td>Search parameter is a simple string, like a name part. Search is case-insensitive and accent-insensitive. May match just the start of a string. String parameters may contain spaces.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">token
+                  <a name="search-param-type-token"> </a>
+                </td>
+                <td>Token</td>
+                <td>Search parameter on a coded element or identifier. May be used to search through the text, display, code and code/codesystem (for codes) and label, system and key (for identifier). Its value is either a string or a pair of namespace and value, separated by a &quot;|&quot;, depending on the modifier used.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">reference
+                  <a name="search-param-type-reference"> </a>
+                </td>
+                <td>Reference</td>
+                <td>A reference to another resource (Reference or canonical).</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">composite
+                  <a name="search-param-type-composite"> </a>
+                </td>
+                <td>Composite</td>
+                <td>A composite search parameter that combines a search on two values together.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">quantity
+                  <a name="search-param-type-quantity"> </a>
+                </td>
+                <td>Quantity</td>
+                <td>A search parameter that searches on a quantity.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">uri
+                  <a name="search-param-type-uri"> </a>
+                </td>
+                <td>URI</td>
+                <td>A search parameter that searches on a URI (RFC 3986).</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">special
+                  <a name="search-param-type-special"> </a>
+                </td>
+                <td>Special</td>
+                <td>Special logic applies to this parameter per the description of the search parameter.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="normative"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+    <valueCode value="4.0.0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="5"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <url value="http://hl7.org/fhir/search-param-type"/>
+  <version value="5.0.0"/>
+  <name value="SearchParamType"/>
+  <title value="SearchParamType"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-03-25T23:21:02-05:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="Data types allowed to be used for search parameters."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/search-param-type|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="number"/>
+    <display value="Number"/>
+    <definition value="Search parameter SHALL be a number (a whole number, or a decimal)."/>
+  </concept>
+  <concept>
+    <code value="date"/>
+    <display value="Date/DateTime"/>
+    <definition value="Search parameter is on a date/time. The date format is the standard XML format, though other formats may be supported."/>
+  </concept>
+  <concept>
+    <code value="string"/>
+    <display value="String"/>
+    <definition value="Search parameter is a simple string, like a name part. Search is case-insensitive and accent-insensitive. May match just the start of a string. String parameters may contain spaces."/>
+  </concept>
+  <concept>
+    <code value="token"/>
+    <display value="Token"/>
+    <definition value="Search parameter on a coded element or identifier. May be used to search through the text, display, code and code/codesystem (for codes) and label, system and key (for identifier). Its value is either a string or a pair of namespace and value, separated by a &quot;|&quot;, depending on the modifier used."/>
+  </concept>
+  <concept>
+    <code value="reference"/>
+    <display value="Reference"/>
+    <definition value="A reference to another resource (Reference or canonical)."/>
+  </concept>
+  <concept>
+    <code value="composite"/>
+    <display value="Composite"/>
+    <definition value="A composite search parameter that combines a search on two values together."/>
+  </concept>
+  <concept>
+    <code value="quantity"/>
+    <display value="Quantity"/>
+    <definition value="A search parameter that searches on a quantity."/>
+  </concept>
+  <concept>
+    <code value="uri"/>
+    <display value="URI"/>
+    <definition value="A search parameter that searches on a URI (RFC 3986)."/>
+  </concept>
+  <concept>
+    <code value="special"/>
+    <display value="Special"/>
+    <definition value="Special logic applies to this parameter per the description of the search parameter."/>
+  </concept>
+</CodeSystem>

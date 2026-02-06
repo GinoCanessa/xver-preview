@@ -1,0 +1,344 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-Endpoint-elements-for-R4-Endpoint> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-Endpoint-elements-for-R4-Endpoint"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-Endpoint-elements-for-R4-Endpoint</b></p><a name=\"ConceptMap-R5-Endpoint-elements-for-R4-Endpoint\"> </a><a name=\"hcConceptMap-R5-Endpoint-elements-for-R4-Endpoint\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Endpoint|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Endpoint|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Endpoint</td><td style=\"border-left-width: 0px; border-bottom-style: none\">Endpoint</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Endpoint` is representable via FHIR R4B Resource `Endpoint`.\nElement `Endpoint` is mapped to FHIR R4B element `Endpoint`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Endpoint` is representable via FHIR DSTU2 Resource `Basic`.\nElement `Endpoint` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Endpoint.meta</td><td style=\"border-left-width: 0px; border-bottom-style: none\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.meta</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.meta` is mapped to FHIR R4B element `Endpoint.meta`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.meta</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.meta`, use that element instead.\nElement `Endpoint.meta` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Endpoint.implicitRules</td><td style=\"border-left-width: 0px; border-bottom-style: none\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.implicitRules` is mapped to FHIR R4B element `Endpoint.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `Endpoint.implicitRules` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Endpoint.language</td><td style=\"border-left-width: 0px; border-bottom-style: none\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.language</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.language` is mapped to FHIR R4B element `Endpoint.language`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.language</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.language`, use that element instead.\nElement `Endpoint.language` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Endpoint.text</td><td style=\"border-left-width: 0px; border-bottom-style: none\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.text</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.text` is mapped to FHIR R4B element `Endpoint.text`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.text</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `Endpoint.text` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Endpoint.contained</td><td style=\"border-left-width: 0px; border-bottom-style: none\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.contained</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.contained` is mapped to FHIR R4B element `Endpoint.contained`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.contained</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `Endpoint.contained` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Endpoint.identifier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.identifier` is mapped to FHIR R4B element `Endpoint.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.identifier</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `Endpoint.identifier` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Endpoint.status</td><td style=\"border-left-width: 0px; border-bottom-style: none\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.status</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.status` is mapped to FHIR R4B element `Endpoint.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint:status</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.status` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Endpoint.connectionType</td><td style=\"border-left-width: 0px; border-bottom-style: none\">connectionType</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.connectionType</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.connectionType` is mapped to FHIR R4B element `Endpoint.connectionType`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint:connectionType</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.connectionType` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Endpoint.name</td><td style=\"border-left-width: 0px; border-bottom-style: none\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.name</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.name` is mapped to FHIR R4B element `Endpoint.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint:name</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.name` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Endpoint.description</td><td style=\"border-left-width: 0px; border-bottom-style: none\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.description</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.description` is mapped to FHIR R4B structure `Endpoint`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint:description</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.description` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Endpoint.environmentType</td><td style=\"border-left-width: 0px; border-bottom-style: none\">environmentType</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.environmentType</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.environmentType` is mapped to FHIR R4B structure `Endpoint`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint:environmentType</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.environmentType` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Endpoint.managingOrganization</td><td style=\"border-left-width: 0px; border-bottom-style: none\">managingOrganization</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.managingOrganization</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.managingOrganization` is mapped to FHIR R4B element `Endpoint.managingOrganization`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint:managingOrganization</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.managingOrganization` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Endpoint.contact</td><td style=\"border-left-width: 0px; border-bottom-style: none\">contact</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.contact</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.contact` is mapped to FHIR R4B element `Endpoint.contact`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint:contact</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.contact` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Endpoint.period</td><td style=\"border-left-width: 0px; border-bottom-style: none\">period</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.period</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.period` is mapped to FHIR R4B element `Endpoint.period`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint:period</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.period` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Endpoint.payload</td><td style=\"border-left-width: 0px; border-bottom-style: none\">payload</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.payload` is mapped to FHIR R4B element `Endpoint`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint:payload</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.payload` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Endpoint.payload.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.payload.type</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.payload.type` is mapped to FHIR R4B structure `Endpoint`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint:payload:type</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.payload.type` is part of an existing definition because parent element `Endpoint.payload` requires a cross-version extension.\nElement `Endpoint.payload.type` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Endpoint.payload.mimeType</td><td style=\"border-left-width: 0px; border-bottom-style: none\">mimeType</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.payloadMimeType</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.payload.mimeType` is mapped to FHIR R4B structure `Endpoint`, but has no target element specified.\nElement `Endpoint.payload.mimeType` is mapped to FHIR R4B element `Endpoint.payloadMimeType`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint:payload:mimeType</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.payload.mimeType` is part of an existing definition because parent element `Endpoint.payload` requires a cross-version extension.\nElement `Endpoint.payload.mimeType` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Endpoint.address</td><td style=\"border-left-width: 0px; border-bottom-style: none\">address</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.address</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.address` is mapped to FHIR R4B element `Endpoint.address`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint:address</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.address` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Endpoint.header</td><td style=\"border-left-width: 0px; border-bottom-style: none\">header</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.header</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.header` is mapped to FHIR R4B element `Endpoint.header`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint:header</td><td style=\"border-left-width: 0px\"/><td>Element `Endpoint.header` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Endpoint-elements-for-R4-Endpoint"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Endpoint-elements-for-R4-Endpoint>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5EndpointElementsForR4Endpoint"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:32.4097814-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Endpoint"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Endpoint>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Endpoint" ] ;
+       fhir:display [ fhir:v "Endpoint" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Endpoint` is representable via FHIR R4B Resource `Endpoint`.\nElement `Endpoint` is mapped to FHIR R4B element `Endpoint`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Endpoint` is representable via FHIR DSTU2 Resource `Basic`.\nElement `Endpoint` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Endpoint.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.meta` is mapped to FHIR R4B element `Endpoint.meta`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `Endpoint.meta` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Endpoint.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.implicitRules` is mapped to FHIR R4B element `Endpoint.implicitRules`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `Endpoint.implicitRules` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Endpoint.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.language` is mapped to FHIR R4B element `Endpoint.language`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.language`, use that element instead.\nElement `Endpoint.language` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Endpoint.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.text` is mapped to FHIR R4B element `Endpoint.text`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `Endpoint.text` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Endpoint.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.contained` is mapped to FHIR R4B element `Endpoint.contained`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `Endpoint.contained` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Endpoint.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.identifier` is mapped to FHIR R4B element `Endpoint.identifier`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `Endpoint.identifier` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Endpoint.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.status` is mapped to FHIR R4B element `Endpoint.status`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint:status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.status` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Endpoint.connectionType" ] ;
+       fhir:display [ fhir:v "connectionType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.connectionType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.connectionType` is mapped to FHIR R4B element `Endpoint.connectionType`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint:connectionType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.connectionType` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Endpoint.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.name` is mapped to FHIR R4B element `Endpoint.name`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint:name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.name` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Endpoint.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.description` is mapped to FHIR R4B structure `Endpoint`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint:description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.description` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Endpoint.environmentType" ] ;
+       fhir:display [ fhir:v "environmentType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.environmentType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.environmentType` is mapped to FHIR R4B structure `Endpoint`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint:environmentType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.environmentType` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Endpoint.managingOrganization" ] ;
+       fhir:display [ fhir:v "managingOrganization" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.managingOrganization" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.managingOrganization` is mapped to FHIR R4B element `Endpoint.managingOrganization`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint:managingOrganization" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.managingOrganization` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Endpoint.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.contact" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.contact` is mapped to FHIR R4B element `Endpoint.contact`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint:contact" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.contact` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Endpoint.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.period` is mapped to FHIR R4B element `Endpoint.period`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint:period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.period` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Endpoint.payload" ] ;
+       fhir:display [ fhir:v "payload" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.payload` is mapped to FHIR R4B element `Endpoint`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint:payload" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.payload` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Endpoint.payload.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.payload.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.payload.type` is mapped to FHIR R4B structure `Endpoint`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint:payload:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.payload.type` is part of an existing definition because parent element `Endpoint.payload` requires a cross-version extension.\nElement `Endpoint.payload.type` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Endpoint.payload.mimeType" ] ;
+       fhir:display [ fhir:v "mimeType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.payloadMimeType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.payload.mimeType` is mapped to FHIR R4B structure `Endpoint`, but has no target element specified.\nElement `Endpoint.payload.mimeType` is mapped to FHIR R4B element `Endpoint.payloadMimeType`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint:payload:mimeType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.payload.mimeType` is part of an existing definition because parent element `Endpoint.payload` requires a cross-version extension.\nElement `Endpoint.payload.mimeType` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Endpoint.address" ] ;
+       fhir:display [ fhir:v "address" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.address" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.address` is mapped to FHIR R4B element `Endpoint.address`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint:address" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.address` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Endpoint.header" ] ;
+       fhir:display [ fhir:v "header" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Endpoint#Endpoint.header" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.header` is mapped to FHIR R4B element `Endpoint.header`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint:header" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Endpoint.header` is not mapped to FHIR DSTU2, since FHIR R5 `Endpoint` is not mapped." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

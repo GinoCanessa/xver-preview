@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="v2-0570"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class="grid"><tr><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>status</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#status</td><td>code</td><td>Status of the concept</td></tr><tr><td>deprecated</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated</td><td>code</td><td>Version of HL7 in which the code was deprecated</td></tr><tr><td>v2-concComment</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-concComment</td><td>string</td><td>V2 Concept Comment</td></tr><tr><td>v2-concCommentAsPub</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-concCommentAsPub</td><td>string</td><td>V2 Concept Comment As Published</td></tr></table><p><b>Concepts</b></p><p>This code system <code>http://terminology.hl7.org/CodeSystem/v2-0570</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>V2 Concept Comment</b></td><td><b>V2 Concept Comment As Published</b></td></tr><tr><td style="white-space:nowrap">CASH<a name="v2-0570-CASH"> </a></td><td>Cash</td><td>Cash</td><td/><td/></tr><tr><td style="white-space:nowrap">CCCA<a name="v2-0570-CCCA"> </a></td><td>Credit Card</td><td>Credit Card</td><td/><td/></tr><tr><td style="white-space:nowrap">CCHK<a name="v2-0570-CCHK"> </a></td><td>Cashier's Check</td><td>Cashier's Check</td><td/><td/></tr><tr><td style="white-space:nowrap">CDAC<a name="v2-0570-CDAC"> </a></td><td>Credit/Debit Account</td><td>Credit/Debit Account</td><td/><td/></tr><tr><td style="white-space:nowrap">CHCK<a name="v2-0570-CHCK"> </a></td><td>Check</td><td>Check</td><td/><td/></tr><tr><td style="white-space:nowrap">DDPO<a name="v2-0570-DDPO"> </a></td><td>Direct Deposit</td><td>Direct Deposit</td><td>EFT</td><td>EFT</td></tr><tr><td style="white-space:nowrap">DEBC<a name="v2-0570-DEBC"> </a></td><td>Debit Card</td><td>Debit Card</td><td/><td/></tr><tr><td style="white-space:nowrap">SWFT<a name="v2-0570-SWFT"> </a></td><td>Society for Worldwide Interbank Financial Telecommunications (S.W.I.F.T.)</td><td>Society for Worldwide Interbank Financial Telecommunications (S.W.I.F.T.)</td><td/><td/></tr><tr><td style="white-space:nowrap">TRAC<a name="v2-0570-TRAC"> </a></td><td>Traveler's Check</td><td>Traveler's Check</td><td/><td/></tr><tr><td style="white-space:nowrap">VISN<a name="v2-0570-VISN"> </a></td><td>VISA Special Electronic Funds Transfer Network</td><td>VISA Special Electronic Funds Transfer Network</td><td/><td/></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fm"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/v2-0570"/>
+  <version value="2.1.0"/>
+  <name value="PaymentMethod"/>
+  <title value="paymentMethod"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2019-11-30T18:00:00-06:00"/>
+  <publisher value="Financial Management"/>
+  <contact>
+    <name value="Financial Management"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fm"/>
+    </telecom>
+  </contact>
+  <description value="Code system of concepts used to specify the method for the movement of payment.  Used in the Payment Information (PMT) segment in HL7 Version 2.x messaging."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="Underlying Master Code System for V2 table 0570 (Payment Method Code)"/>
+  <copyright value="Copyright HL7. Licensed under creative commons public domain"/>
+  <caseSensitive value="true"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/v2-0570|2.0.0"/>
+  <hierarchyMeaning value="is-a"/>
+  <compositional value="false"/>
+  <versionNeeded value="false"/>
+  <content value="complete"/>
+  <property>
+    <code value="status"/>
+    <uri value="http://terminology.hl7.org/CodeSystem/utg-concept-properties#status"/>
+    <description value="Status of the concept"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="deprecated"/>
+    <uri value="http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated"/>
+    <description value="Version of HL7 in which the code was deprecated"/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="v2-concComment"/>
+    <uri value="http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-concComment"/>
+    <description value="V2 Concept Comment"/>
+    <type value="string"/>
+  </property>
+  <property>
+    <code value="v2-concCommentAsPub"/>
+    <uri value="http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-concCommentAsPub"/>
+    <description value="V2 Concept Comment As Published"/>
+    <type value="string"/>
+  </property>
+  <concept>
+    <code value="CASH"/>
+    <display value="Cash"/>
+    <definition value="Cash"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="A"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="CCCA"/>
+    <display value="Credit Card"/>
+    <definition value="Credit Card"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="A"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="CCHK"/>
+    <display value="Cashier's Check"/>
+    <definition value="Cashier's Check"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="A"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="CDAC"/>
+    <display value="Credit/Debit Account"/>
+    <definition value="Credit/Debit Account"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="A"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="CHCK"/>
+    <display value="Check"/>
+    <definition value="Check"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="A"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="DDPO"/>
+    <display value="Direct Deposit"/>
+    <definition value="Direct Deposit"/>
+    <property>
+      <code value="v2-concComment"/>
+      <valueString value="EFT"/>
+    </property>
+    <property>
+      <code value="v2-concCommentAsPub"/>
+      <valueString value="EFT"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="A"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="DEBC"/>
+    <display value="Debit Card"/>
+    <definition value="Debit Card"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="A"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="SWFT"/>
+    <display value="Society for Worldwide Interbank Financial Telecommunications (S.W.I.F.T.)"/>
+    <definition value="Society for Worldwide Interbank Financial Telecommunications (S.W.I.F.T.)"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="A"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="TRAC"/>
+    <display value="Traveler's Check"/>
+    <definition value="Traveler's Check"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="A"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="VISN"/>
+    <display value="VISA Special Electronic Funds Transfer Network"/>
+    <definition value="VISA Special Electronic Funds Transfer Network"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="A"/>
+    </property>
+  </concept>
+</CodeSystem>

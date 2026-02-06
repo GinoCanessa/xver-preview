@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="message-significance-category"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/message-significance-category</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">consequence
+                  <a name="message-significance-category-consequence"> </a>
+                </td>
+                <td>Consequence</td>
+                <td>The message represents/requests a change that should not be processed more than once; e.g., making a booking for an appointment.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">currency
+                  <a name="message-significance-category-currency"> </a>
+                </td>
+                <td>Currency</td>
+                <td>The message represents a response to query for current information. Retrospective processing is wrong and/or wasteful.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">notification
+                  <a name="message-significance-category-notification"> </a>
+                </td>
+                <td>Notification</td>
+                <td>The content is not necessarily intended to be current, and it can be reprocessed, though there may be version issues created by processing old notifications.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="inm"/>
+  </extension>
+  <url value="http://hl7.org/fhir/message-significance-category"/>
+  <version value="5.0.0"/>
+  <name value="MessageSignificanceCategory"/>
+  <title value="Message Significance Category"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Infrastructure And Messaging"/>
+  <contact>
+    <name value="Infrastructure And Messaging"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/inm"/>
+    </telecom>
+  </contact>
+  <description value="The impact of the content of a message."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/message-significance-category|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="consequence"/>
+    <display value="Consequence"/>
+    <definition value="The message represents/requests a change that should not be processed more than once; e.g., making a booking for an appointment."/>
+  </concept>
+  <concept>
+    <code value="currency"/>
+    <display value="Currency"/>
+    <definition value="The message represents a response to query for current information. Retrospective processing is wrong and/or wasteful."/>
+  </concept>
+  <concept>
+    <code value="notification"/>
+    <display value="Notification"/>
+    <definition value="The content is not necessarily intended to be current, and it can be reprocessed, though there may be version issues created by processing old notifications."/>
+  </concept>
+</CodeSystem>

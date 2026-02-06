@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="medicationrequest-course-of-therapy"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">continuous<a name="medicationrequest-course-of-therapy-continuous"> </a></td><td>Continuous long term therapy</td><td>A medication which is expected to be continued beyond the present order and which the patient should be assumed to be taking unless explicitly stopped.</td></tr><tr><td style="white-space:nowrap">acute<a name="medicationrequest-course-of-therapy-acute"> </a></td><td>Short course (acute) therapy</td><td>A medication which the patient is only expected to consume for the duration of the current order and which is not expected to be renewed.</td></tr><tr><td style="white-space:nowrap">seasonal<a name="medicationrequest-course-of-therapy-seasonal"> </a></td><td>Seasonal</td><td>A medication which is expected to be used on a part time basis at certain times of the year</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="phx"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/medicationrequest-course-of-therapy"/>
+  <version value="0.1.0"/>
+  <name value="MedicationRequestCourseOfTherapyCodes"/>
+  <title value="MedicationRequest Course of Therapy Codes"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2023-02-25T12:07:30-06:00"/>
+  <publisher value="Pharmacy"/>
+  <contact>
+    <name value="Pharmacy"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/medication"/>
+    </telecom>
+  </contact>
+  <description value="MedicationRequest Course of Therapy Codes"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/medicationrequest-course-of-therapy|1.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="continuous"/>
+    <display value="Continuous long term therapy"/>
+    <definition value="A medication which is expected to be continued beyond the present order and which the patient should be assumed to be taking unless explicitly stopped."/>
+  </concept>
+  <concept>
+    <code value="acute"/>
+    <display value="Short course (acute) therapy"/>
+    <definition value="A medication which the patient is only expected to consume for the duration of the current order and which is not expected to be renewed."/>
+  </concept>
+  <concept>
+    <code value="seasonal"/>
+    <display value="Seasonal"/>
+    <definition value="A medication which is expected to be used on a part time basis at certain times of the year"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,173 @@
+# ContributorSummaryStyle - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## CodeSystem: ContributorSummaryStyle 
+
+ 
+Used to code the format of the display string. 
+
+This Code system is referenced in the definition of the following value sets:
+
+* [ValueSetR5ContributorSummaryStyleForR4](ValueSet-ValueSet-R5-contributor-summary-style-for-R4.md)
+
+-------
+
+ [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "CodeSystem",
+  "id" : "contributor-summary-style",
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode" : "trial-use"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger" : 0
+    },
+    {
+      "extension" : [
+        {
+          "url" : "packageId",
+          "valueId" : "hl7.fhir.uv.xver-r5.r4"
+        },
+        {
+          "url" : "version",
+          "valueString" : "0.0.1-snapshot-3"
+        },
+        {
+          "url" : "uri",
+          "valueUri" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+        }
+      ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/package-source"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "cds"
+    }
+  ],
+  "url" : "http://hl7.org/fhir/contributor-summary-style",
+  "version" : "5.0.0",
+  "name" : "ContributorSummaryStyle",
+  "title" : "Contributor Summary Style",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2020-12-27T23:55:11-06:00",
+  "publisher" : "Clinical Decision Support",
+  "contact" : [
+    {
+      "name" : "Clinical Decision Support",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/dss"
+        }
+      ]
+    }
+  ],
+  "description" : "Used to code the format of the display string.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }
+      ]
+    }
+  ],
+  "caseSensitive" : true,
+  "valueSet" : "http://hl7.org/fhir/ValueSet/contributor-summary-style",
+  "content" : "complete",
+  "concept" : [
+    {
+      "code" : "a1full",
+      "display" : "First author (full name) et al",
+      "definition" : "Example: Jennifer Laskowski et al."
+    },
+    {
+      "code" : "a1init",
+      "display" : "First author (last name first initials) et al",
+      "definition" : "Example: Laskowski J et al."
+    },
+    {
+      "code" : "a3full",
+      "display" : "First 3 authors (full name) et al",
+      "definition" : "Example: Jennifer Laskowski, Brandon Renner, Matthew C. Pickering, et al."
+    },
+    {
+      "code" : "a3init",
+      "display" : "First 3 authors (last name first initials) et al",
+      "definition" : "Example:  Laskowski J, Renner B, Pickering MC, et al."
+    },
+    {
+      "code" : "a6full",
+      "display" : "First 6 authors (full name) et al",
+      "definition" : "Example: Jennifer Laskowski, Brandon Renner, Matthew C. Pickering, Natalie J. Serkova, Peter M. Smith-Jones, Eric T. Clambey, et al."
+    },
+    {
+      "code" : "a6init",
+      "display" : "First 6 authors (last name first initials) et al",
+      "definition" : "Example: Laskowski J, Renner B, Pickering MC, Serkova NJ, Smith-Jones PM, Clambey ET, et al."
+    },
+    {
+      "code" : "aallfull",
+      "display" : "All authors (full name)",
+      "definition" : "Example: Jennifer Laskowski, Brandon Renner, Matthew C. Pickering, Natalie J. Serkova, Peter M. Smith-Jones, Eric T. Clambey, Raphael A. Nemenoff, Joshua M. Thurman."
+    },
+    {
+      "code" : "aallfullwithand",
+      "display" : "All authors (full name) with and before last author",
+      "definition" : "Example: Jennifer Laskowski, Brandon Renner, Matthew C. Pickering, Natalie J. Serkova, Peter M. Smith-Jones, Eric T. Clambey, Raphael A. Nemenoff, and Joshua M. Thurman."
+    },
+    {
+      "code" : "aallfullwithampersand",
+      "display" : "All authors (full name) with an ampersand before last author",
+      "definition" : "Example: Jennifer Laskowski, Brandon Renner, Matthew C. Pickering, Natalie J. Serkova, Peter M. Smith-Jones, Eric T. Clambey, Raphael A. Nemenoff, & Joshua M. Thurman."
+    },
+    {
+      "code" : "aallinit",
+      "display" : "All authors (last name first initials)",
+      "definition" : "Example: Laskowski J, Renner B, Pickering MC, Serkova NJ, Smith-Jones PM, Clambey ET, Nemenoff RA, Thurman JM."
+    },
+    {
+      "code" : "aallinitwithand",
+      "display" : "All authors (last name first initials) with and before last author",
+      "definition" : "Example: Laskowski J, Renner B, Pickering MC, Serkova NJ, Smith-Jones PM, Clambey ET, Nemenoff RA, and Thurman JM."
+    },
+    {
+      "code" : "aallinitwithampersand",
+      "display" : "All authors (last name first initials) with an ampersand before last author",
+      "definition" : "Example: Laskowski J, Renner B, Pickering MC, Serkova NJ, Smith-Jones PM, Clambey ET, Nemenoff RA, & Thurman JM."
+    },
+    {
+      "code" : "contr-full-by-person",
+      "display" : "Contributorship statement listed by person with full names",
+      "definition" : "Jennnifer Laskowski designed project; developed and performed experiments; collected and analyzed data; wrote and revised manuscript. Brandon Renner performed critical review of manuscript. Matthew C. Pickering provided technical advice and contributed to study design. Natalie J. Serkova and Peter M. Smith-Jones performed PET imaging and associated analyses. Eric T. Clambey and Raphael A. Nemenoff provided conceptual and technical guidance and critical review of manuscript. Joshua M. Thurman contributed to experimental design and wrote manuscript."
+    },
+    {
+      "code" : "contr-init-by-person",
+      "display" : "Contributorship statement listed by person with initials",
+      "definition" : "J.L. designed project; developed and performed experiments; collected and analyzed data; wrote and revised manuscript. B.R. performed critical review of manuscript. M.C.P. provided technical advice and contributed to study design. N.J.S and P.M.S.-J. performed PET imaging and associated analyses. E.T.C. and R.A.N provided conceptual and technical guidance and critical review of manuscript. J.M.T contributed to experimental design and wrote manuscript."
+    },
+    {
+      "code" : "contr-full-by-contr",
+      "display" : "Contributorship statement listed by contribution with full names",
+      "definition" : "Project design by Jennnifer Laskowski (JL), Experiment design by JL and Joshua M. Thurman (JMT), technical advice and study design contribution by Matthew C. Pickering, experiments performed by JL, data collection and analysis by JL, PET imaging and associated analyses by Natalie J. Serkova and Peter M. Smith-Jones, conceptual and technical guidance by Eric T. Clambey (etc.) and Raphael A. Nemenoff (RAN), manuscript writing by JL and JMT, manuscript revised critically by JL, Brandon Renner, etc., and RAN."
+    },
+    {
+      "code" : "contr-init-by-contr",
+      "display" : "Contributorship statement listed by contribution with initials",
+      "definition" : "Project design by JL, Experiment design by JL and JMT, technical advice and study design contribution by MCP, experiments performed by JL, data collection and analysis by JL, PET imaging and associated analyses by NJS and PMS-J, conceptual and technical guidance by etc. and RAN, manuscript writing by JL and JMT, manuscript revised critically by JL, BR, etc., and RAN."
+    }
+  ]
+}
+
+```

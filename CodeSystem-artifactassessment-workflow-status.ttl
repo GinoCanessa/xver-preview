@@ -1,0 +1,156 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/artifactassessment-workflow-status> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "artifactassessment-workflow-status"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <p>This code system \n              <code>http://hl7.org/fhir/artifactassessment-workflow-status</code> defines the following codes:\n            </p>\n            <table class=\"codes\">\n              <tr>\n                <td style=\"white-space:nowrap\">\n                  <b>Code</b>\n                </td>\n                <td>\n                  <b>Display</b>\n                </td>\n                <td>\n                  <b>Definition</b>\n                </td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">submitted\n                  <a name=\"artifactassessment-workflow-status-submitted\"> </a>\n                </td>\n                <td>Submitted</td>\n                <td>The comment has been submitted, but the responsible party has not yet been determined, or the responsible party has not yet determined the next steps to be taken.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">triaged\n                  <a name=\"artifactassessment-workflow-status-triaged\"> </a>\n                </td>\n                <td>Triaged</td>\n                <td>The comment has been triaged, meaning the responsible party has been determined and next steps have been identified to address the comment.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">waiting-for-input\n                  <a name=\"artifactassessment-workflow-status-waiting-for-input\"> </a>\n                </td>\n                <td>Waiting for Input</td>\n                <td>The comment is waiting for input from a specific party before next steps can be taken.</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">resolved-no-change\n                  <a name=\"artifactassessment-workflow-status-resolved-no-change\"> </a>\n                </td>\n                <td>Resolved - No Change</td>\n                <td>The comment has been resolved and no changes resulted from the resolution</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">resolved-change-required\n                  <a name=\"artifactassessment-workflow-status-resolved-change-required\"> </a>\n                </td>\n                <td>Resolved - Change Required</td>\n                <td>The comment has been resolved and changes are required to address the comment</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">deferred\n                  <a name=\"artifactassessment-workflow-status-deferred\"> </a>\n                </td>\n                <td>Deferred</td>\n                <td>The comment is acceptable, but resolution of the comment and application of any associated changes have been deferred</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">duplicate\n                  <a name=\"artifactassessment-workflow-status-duplicate\"> </a>\n                </td>\n                <td>Duplicate</td>\n                <td>The comment is a duplicate of another comment already received</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">applied\n                  <a name=\"artifactassessment-workflow-status-applied\"> </a>\n                </td>\n                <td>Applied</td>\n                <td>The comment is resolved and any necessary changes have been applied</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">published\n                  <a name=\"artifactassessment-workflow-status-published\"> </a>\n                </td>\n                <td>Published</td>\n                <td>The necessary changes to the artifact have been published in a new version of the artifact</td>\n              </tr>\n              <tr>\n                <td style=\"white-space:nowrap\">entered-in-error\n                  <a name=\"artifactassessment-workflow-status-entered-in-error\"> </a>\n                </td>\n                <td>Entered in Error</td>\n                <td>The assessment was entered in error</td>\n              </tr>\n            </table>\n          </div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "cds"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/artifactassessment-workflow-status"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/artifactassessment-workflow-status>
+  ] ; # 
+  fhir:version [ fhir:v "5.0.0"] ; # 
+  fhir:name [ fhir:v "ArtifactAssessmentWorkflowStatus"] ; # 
+  fhir:title [ fhir:v "Artifact Assessment Workflow Status"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2021-01-04T17:01:24-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Clinical Decision Support"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Clinical Decision Support" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/dss" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Possible values for the workflow status of the comment or assessment, typically used to coordinate workflow around the process of accepting and rejecting changes and comments on the artifact."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://hl7.org/fhir/ValueSet/artifactassessment-workflow-status"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/artifactassessment-workflow-status>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "submitted" ] ;
+     fhir:display [ fhir:v "Submitted" ] ;
+     fhir:definition [ fhir:v "The comment has been submitted, but the responsible party has not yet been determined, or the responsible party has not yet determined the next steps to be taken." ]
+  ] [
+     fhir:code [ fhir:v "triaged" ] ;
+     fhir:display [ fhir:v "Triaged" ] ;
+     fhir:definition [ fhir:v "The comment has been triaged, meaning the responsible party has been determined and next steps have been identified to address the comment." ]
+  ] [
+     fhir:code [ fhir:v "waiting-for-input" ] ;
+     fhir:display [ fhir:v "Waiting for Input" ] ;
+     fhir:definition [ fhir:v "The comment is waiting for input from a specific party before next steps can be taken." ]
+  ] [
+     fhir:code [ fhir:v "resolved-no-change" ] ;
+     fhir:display [ fhir:v "Resolved - No Change" ] ;
+     fhir:definition [ fhir:v "The comment has been resolved and no changes resulted from the resolution" ]
+  ] [
+     fhir:code [ fhir:v "resolved-change-required" ] ;
+     fhir:display [ fhir:v "Resolved - Change Required" ] ;
+     fhir:definition [ fhir:v "The comment has been resolved and changes are required to address the comment" ]
+  ] [
+     fhir:code [ fhir:v "deferred" ] ;
+     fhir:display [ fhir:v "Deferred" ] ;
+     fhir:definition [ fhir:v "The comment is acceptable, but resolution of the comment and application of any associated changes have been deferred" ]
+  ] [
+     fhir:code [ fhir:v "duplicate" ] ;
+     fhir:display [ fhir:v "Duplicate" ] ;
+     fhir:definition [ fhir:v "The comment is a duplicate of another comment already received" ]
+  ] [
+     fhir:code [ fhir:v "applied" ] ;
+     fhir:display [ fhir:v "Applied" ] ;
+     fhir:definition [ fhir:v "The comment is resolved and any necessary changes have been applied" ]
+  ] [
+     fhir:code [ fhir:v "published" ] ;
+     fhir:display [ fhir:v "Published" ] ;
+     fhir:definition [ fhir:v "The necessary changes to the artifact have been published in a new version of the artifact" ]
+  ] [
+     fhir:code [ fhir:v "entered-in-error" ] ;
+     fhir:display [ fhir:v "Entered in Error" ] ;
+     fhir:definition [ fhir:v "The assessment was entered in error" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

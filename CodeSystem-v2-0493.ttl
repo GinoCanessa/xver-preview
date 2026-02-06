@@ -1,0 +1,258 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/v2-0493> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "v2-0493"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>status</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#status</td><td>code</td><td>Status of the concept</td></tr><tr><td>deprecated</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated</td><td>code</td><td>Version of HL7 in which the code was deprecated</td></tr><tr><td>v2-concComment</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-concComment</td><td>string</td><td>V2 Concept Comment</td></tr><tr><td>v2-concCommentAsPub</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-concCommentAsPub</td><td>string</td><td>V2 Concept Comment As Published</td></tr></table><p><b>Concepts</b></p><p>This code system <code>http://terminology.hl7.org/CodeSystem/v2-0493</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>V2 Concept Comment</b></td><td><b>V2 Concept Comment As Published</b></td></tr><tr><td style=\"white-space:nowrap\">AUT<a name=\"v2-0493-AUT\"> </a></td><td>Autolyzed</td><td>Autolyzed</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">CLOT<a name=\"v2-0493-CLOT\"> </a></td><td>Clotted</td><td>Clotted</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">CON<a name=\"v2-0493-CON\"> </a></td><td>Contaminated</td><td>Contaminated</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">COOL<a name=\"v2-0493-COOL\"> </a></td><td>Cool</td><td>Cool</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">FROZ<a name=\"v2-0493-FROZ\"> </a></td><td>Frozen</td><td>Frozen</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">HEM<a name=\"v2-0493-HEM\"> </a></td><td>Hemolyzed</td><td>Hemolyzed</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">LIVE<a name=\"v2-0493-LIVE\"> </a></td><td>Live</td><td>Live</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">ROOM<a name=\"v2-0493-ROOM\"> </a></td><td>Room temperature</td><td>Room temperature</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SNR<a name=\"v2-0493-SNR\"> </a></td><td>Sample not received</td><td>Sample not received</td><td>Deprecated in v 2.8</td><td>Deprecated in v 2.8</td></tr><tr><td style=\"white-space:nowrap\">CFU<a name=\"v2-0493-CFU\"> </a></td><td>Centrifuged</td><td>Centrifuged</td><td/><td/></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "oo"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/v2-0493"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/v2-0493>
+  ] ; # 
+  fhir:version [ fhir:v "2.2.0"] ; # 
+  fhir:name [ fhir:v "SpecimenCondition"] ; # 
+  fhir:title [ fhir:v "specimenCondition"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2019-11-30T18:00:00-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Orders and Observations"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Orders and Observations" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/orders" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Code system of concepts specifying a mode or state of being that describes the nature of the specimen.  Used in HL7 Version 2.x messaging in the SPM segment."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "Underlying Master Code System for V2 table 0493 (Specimen Condition)"] ; # 
+  fhir:copyright [ fhir:v "Copyright HL7. Licensed under creative commons public domain"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/v2-0493|2.0.0"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/v2-0493?version=2.0.0>
+  ] ; # 
+  fhir:hierarchyMeaning [ fhir:v "is-a"] ; # 
+  fhir:compositional [ fhir:v false] ; # 
+  fhir:versionNeeded [ fhir:v false] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "status" ] ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/CodeSystem/utg-concept-properties#status"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/utg-concept-properties#status>
+     ] ;
+     fhir:description [ fhir:v "Status of the concept" ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "deprecated" ] ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated>
+     ] ;
+     fhir:description [ fhir:v "Version of HL7 in which the code was deprecated" ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "v2-concComment" ] ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-concComment"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-concComment>
+     ] ;
+     fhir:description [ fhir:v "V2 Concept Comment" ] ;
+     fhir:type [ fhir:v "string" ]
+  ] [
+     fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-concCommentAsPub"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-concCommentAsPub>
+     ] ;
+     fhir:description [ fhir:v "V2 Concept Comment As Published" ] ;
+     fhir:type [ fhir:v "string" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "AUT" ] ;
+     fhir:display [ fhir:v "Autolyzed" ] ;
+     fhir:definition [ fhir:v "Autolyzed" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CLOT" ] ;
+     fhir:display [ fhir:v "Clotted" ] ;
+     fhir:definition [ fhir:v "Clotted" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CON" ] ;
+     fhir:display [ fhir:v "Contaminated" ] ;
+     fhir:definition [ fhir:v "Contaminated" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "COOL" ] ;
+     fhir:display [ fhir:v "Cool" ] ;
+     fhir:definition [ fhir:v "Cool" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "FROZ" ] ;
+     fhir:display [ fhir:v "Frozen" ] ;
+     fhir:definition [ fhir:v "Frozen" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "HEM" ] ;
+     fhir:display [ fhir:v "Hemolyzed" ] ;
+     fhir:definition [ fhir:v "Hemolyzed" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "LIVE" ] ;
+     fhir:display [ fhir:v "Live" ] ;
+     fhir:definition [ fhir:v "Live" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ROOM" ] ;
+     fhir:display [ fhir:v "Room temperature" ] ;
+     fhir:definition [ fhir:v "Room temperature" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "SNR" ] ;
+     fhir:display [ fhir:v "Sample not received" ] ;
+     fhir:definition [ fhir:v "Sample not received" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "v2-concComment" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Deprecated in v 2.8"
+       ]
+     ] [
+       fhir:code [ fhir:v "v2-concCommentAsPub" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "Deprecated in v 2.8"
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CFU" ] ;
+     fhir:display [ fhir:v "Centrifuged" ] ;
+     fhir:definition [ fhir:v "Centrifuged" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "A"
+       ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

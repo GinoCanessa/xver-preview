@@ -1,0 +1,304 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-Group-elements-for-R4-Group> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-Group-elements-for-R4-Group"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-Group-elements-for-R4-Group</b></p><a name=\"ConceptMap-R5-Group-elements-for-R4-Group\"> </a><a name=\"hcConceptMap-R5-Group-elements-for-R4-Group\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Group|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Group|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">Group</td><td style=\"border-left-width: 0px\">Group</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Group#Group</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Group` is representable via FHIR R4B Resource `Group`.\nElement `Group` is mapped to FHIR R4B element `Group`.</td></tr><tr><td style=\"border-right-width: 0px\">Group.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Group#Group.meta</td><td style=\"border-left-width: 0px\"/><td>Element `Group.meta` is mapped to FHIR R4B element `Group.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">Group.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Group#Group.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `Group.implicitRules` is mapped to FHIR R4B element `Group.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">Group.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Group#Group.language</td><td style=\"border-left-width: 0px\"/><td>Element `Group.language` is mapped to FHIR R4B element `Group.language`.</td></tr><tr><td style=\"border-right-width: 0px\">Group.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Group#Group.text</td><td style=\"border-left-width: 0px\"/><td>Element `Group.text` is mapped to FHIR R4B element `Group.text`.</td></tr><tr><td style=\"border-right-width: 0px\">Group.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Group#Group.contained</td><td style=\"border-left-width: 0px\"/><td>Element `Group.contained` is mapped to FHIR R4B element `Group.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">Group.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Group#Group.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `Group.identifier` is mapped to FHIR R4B element `Group.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Group.active</td><td style=\"border-left-width: 0px; border-bottom-style: none\">active</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Group#Group.active</td><td style=\"border-left-width: 0px\"/><td>Element `Group.active` is mapped to FHIR R4B element `Group.active`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.active</td><td style=\"border-left-width: 0px\"/><td>Element `Group.active` is mapped to FHIR DSTU2 structure `Group`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Group.type</td><td style=\"border-left-width: 0px\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Group#Group.type</td><td style=\"border-left-width: 0px\"/><td>Element `Group.type` is mapped to FHIR R4B element `Group.type`.</td></tr><tr><td style=\"border-right-width: 0px\">Group.membership</td><td style=\"border-left-width: 0px\">membership</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.membership</td><td style=\"border-left-width: 0px\"/><td>Element `Group.membership` is mapped to FHIR R4B structure `Group`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Group.code</td><td style=\"border-left-width: 0px\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Group#Group.code</td><td style=\"border-left-width: 0px\"/><td>Element `Group.code` is mapped to FHIR R4B element `Group.code`.</td></tr><tr><td style=\"border-right-width: 0px\">Group.name</td><td style=\"border-left-width: 0px\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Group#Group.name</td><td style=\"border-left-width: 0px\"/><td>Element `Group.name` is mapped to FHIR R4B element `Group.name`.</td></tr><tr><td style=\"border-right-width: 0px\">Group.description</td><td style=\"border-left-width: 0px\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.description</td><td style=\"border-left-width: 0px\"/><td>Element `Group.description` is mapped to FHIR R4B structure `Group`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Group.quantity</td><td style=\"border-left-width: 0px\">quantity</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Group#Group.quantity</td><td style=\"border-left-width: 0px\"/><td>Element `Group.quantity` is mapped to FHIR R4B element `Group.quantity`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Group.managingEntity</td><td style=\"border-left-width: 0px; border-bottom-style: none\">managingEntity</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Group#Group.managingEntity</td><td style=\"border-left-width: 0px\"/><td>Element `Group.managingEntity` is mapped to FHIR R4B element `Group.managingEntity`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.managingEntity</td><td style=\"border-left-width: 0px\"/><td>Element `Group.managingEntity` is mapped to FHIR STU3 structure `Group`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Group.characteristic</td><td style=\"border-left-width: 0px\">characteristic</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Group#Group.characteristic</td><td style=\"border-left-width: 0px\"/><td>Element `Group.characteristic` is mapped to FHIR R4B element `Group.characteristic`.</td></tr><tr><td style=\"border-right-width: 0px\">Group.characteristic.code</td><td style=\"border-left-width: 0px\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Group#Group.characteristic.code</td><td style=\"border-left-width: 0px\"/><td>Element `Group.characteristic.code` is mapped to FHIR R4B element `Group.characteristic.code`.</td></tr><tr><td style=\"border-right-width: 0px\">Group.characteristic.value[x]</td><td style=\"border-left-width: 0px\">value[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Group#Group.characteristic.value[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Group.characteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Group.characteristic`.\nElement `Group.characteristic.value[x]` is mapped to FHIR R4B element `Group.characteristic.value[x]`.\nNote that the target element context `Group.characteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Group.characteristic`.</td></tr><tr><td style=\"border-right-width: 0px\">Group.characteristic.exclude</td><td style=\"border-left-width: 0px\">exclude</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Group#Group.characteristic.exclude</td><td style=\"border-left-width: 0px\"/><td>Element `Group.characteristic.exclude` is mapped to FHIR R4B element `Group.characteristic.exclude`.</td></tr><tr><td style=\"border-right-width: 0px\">Group.characteristic.period</td><td style=\"border-left-width: 0px\">period</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Group#Group.characteristic.period</td><td style=\"border-left-width: 0px\"/><td>Element `Group.characteristic.period` is mapped to FHIR R4B element `Group.characteristic.period`.</td></tr><tr><td style=\"border-right-width: 0px\">Group.member</td><td style=\"border-left-width: 0px\">member</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Group#Group.member</td><td style=\"border-left-width: 0px\"/><td>Element `Group.member` is mapped to FHIR R4B element `Group.member`.</td></tr><tr><td style=\"border-right-width: 0px\">Group.member.entity</td><td style=\"border-left-width: 0px\">entity</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Group#Group.member.entity</td><td style=\"border-left-width: 0px\"/><td>Element `Group.member.entity` is mapped to FHIR R4B element `Group.member.entity`.</td></tr><tr><td style=\"border-right-width: 0px\">Group.member.period</td><td style=\"border-left-width: 0px\">period</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Group#Group.member.period</td><td style=\"border-left-width: 0px\"/><td>Element `Group.member.period` is mapped to FHIR R4B element `Group.member.period`.</td></tr><tr><td style=\"border-right-width: 0px\">Group.member.inactive</td><td style=\"border-left-width: 0px\">inactive</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Group#Group.member.inactive</td><td style=\"border-left-width: 0px\"/><td>Element `Group.member.inactive` is mapped to FHIR R4B element `Group.member.inactive`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Group-elements-for-R4-Group"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Group-elements-for-R4-Group>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5GroupElementsForR4Group"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:32.9447319-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Group"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Group>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Group" ] ;
+       fhir:display [ fhir:v "Group" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Group#Group" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Group` is representable via FHIR R4B Resource `Group`.\nElement `Group` is mapped to FHIR R4B element `Group`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Group#Group.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Group.meta` is mapped to FHIR R4B element `Group.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Group#Group.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Group.implicitRules` is mapped to FHIR R4B element `Group.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Group#Group.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Group.language` is mapped to FHIR R4B element `Group.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Group#Group.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Group.text` is mapped to FHIR R4B element `Group.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Group#Group.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Group.contained` is mapped to FHIR R4B element `Group.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Group#Group.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Group.identifier` is mapped to FHIR R4B element `Group.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.active" ] ;
+       fhir:display [ fhir:v "active" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Group#Group.active" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Group.active` is mapped to FHIR R4B element `Group.active`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.active" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Group.active` is mapped to FHIR DSTU2 structure `Group`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Group#Group.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Group.type` is mapped to FHIR R4B element `Group.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.membership" ] ;
+       fhir:display [ fhir:v "membership" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.membership" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Group.membership` is mapped to FHIR R4B structure `Group`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Group#Group.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Group.code` is mapped to FHIR R4B element `Group.code`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Group#Group.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Group.name` is mapped to FHIR R4B element `Group.name`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Group.description` is mapped to FHIR R4B structure `Group`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Group#Group.quantity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Group.quantity` is mapped to FHIR R4B element `Group.quantity`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.managingEntity" ] ;
+       fhir:display [ fhir:v "managingEntity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Group#Group.managingEntity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Group.managingEntity` is mapped to FHIR R4B element `Group.managingEntity`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.managingEntity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Group.managingEntity` is mapped to FHIR STU3 structure `Group`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.characteristic" ] ;
+       fhir:display [ fhir:v "characteristic" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Group#Group.characteristic" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Group.characteristic` is mapped to FHIR R4B element `Group.characteristic`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.characteristic.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Group#Group.characteristic.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Group.characteristic.code` is mapped to FHIR R4B element `Group.characteristic.code`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.characteristic.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Group#Group.characteristic.value[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Group.characteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Group.characteristic`.\nElement `Group.characteristic.value[x]` is mapped to FHIR R4B element `Group.characteristic.value[x]`.\nNote that the target element context `Group.characteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Group.characteristic`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.characteristic.exclude" ] ;
+       fhir:display [ fhir:v "exclude" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Group#Group.characteristic.exclude" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Group.characteristic.exclude` is mapped to FHIR R4B element `Group.characteristic.exclude`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.characteristic.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Group#Group.characteristic.period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Group.characteristic.period` is mapped to FHIR R4B element `Group.characteristic.period`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.member" ] ;
+       fhir:display [ fhir:v "member" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Group#Group.member" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Group.member` is mapped to FHIR R4B element `Group.member`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.member.entity" ] ;
+       fhir:display [ fhir:v "entity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Group#Group.member.entity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Group.member.entity` is mapped to FHIR R4B element `Group.member.entity`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.member.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Group#Group.member.period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Group.member.period` is mapped to FHIR R4B element `Group.member.period`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.member.inactive" ] ;
+       fhir:display [ fhir:v "inactive" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Group#Group.member.inactive" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Group.member.inactive` is mapped to FHIR R4B element `Group.member.inactive`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

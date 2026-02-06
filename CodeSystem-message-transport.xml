@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="message-transport"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/message-transport</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">http
+                  <a name="message-transport-http"> </a>
+                </td>
+                <td>HTTP</td>
+                <td>The application sends or receives messages using HTTP POST (may be over http: or https:).</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">ftp
+                  <a name="message-transport-ftp"> </a>
+                </td>
+                <td>FTP</td>
+                <td>The application sends or receives messages using File Transfer Protocol.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">mllp
+                  <a name="message-transport-mllp"> </a>
+                </td>
+                <td>MLLP</td>
+                <td>The application sends or receives messages using HL7's Minimal Lower Level Protocol.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="normative"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+    <valueCode value="4.0.0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="5"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <url value="http://hl7.org/fhir/message-transport"/>
+  <version value="5.0.0"/>
+  <name value="MessageTransport"/>
+  <title value="Message Transport"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2020-12-27T23:55:11-06:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="The protocol used for message transport."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/message-transport|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="http"/>
+    <display value="HTTP"/>
+    <definition value="The application sends or receives messages using HTTP POST (may be over http: or https:)."/>
+  </concept>
+  <concept>
+    <code value="ftp"/>
+    <display value="FTP"/>
+    <definition value="The application sends or receives messages using File Transfer Protocol."/>
+  </concept>
+  <concept>
+    <code value="mllp"/>
+    <display value="MLLP"/>
+    <definition value="The application sends or receives messages using HL7's Minimal Lower Level Protocol."/>
+  </concept>
+</CodeSystem>

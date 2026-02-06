@@ -1,0 +1,81 @@
+# Lookup for ProfileAppointment - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## Lookup for ProfileAppointment
+
+### Lookup for FHIR R5 Appointment for use in FHIR R4
+
+The FHIR R5 resource is represented in FHIR R4 via the Appointment resource.
+
+Note that there is a profile defined to simplify use of this cross-version resource representation:[Profile: Appointment](StructureDefinition-profile-Appointment.md)
+
+A computable version of the following element information is available in: [ConceptMapR5AppointmentElementsForR4Appointment](ConceptMap-ConceptMap-R5-Appointment-elements-for-R4-Appointment.md)
+
+| | |
+| :--- | :--- |
+| [`Appointment`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment](https://hl7.org/fhir/R4/Appointment.html#resource) |
+| [`Appointment.meta`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.meta](https://hl7.org/fhir/R4/Appointment.html#resource) |
+| [`Appointment.implicitRules`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.implicitRules](https://hl7.org/fhir/R4/Appointment.html#resource) |
+| [`Appointment.language`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.language](https://hl7.org/fhir/R4/Appointment.html#resource) |
+| [`Appointment.text`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.text](https://hl7.org/fhir/R4/Appointment.html#resource) |
+| [`Appointment.contained`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.contained](https://hl7.org/fhir/R4/Appointment.html#resource) |
+| [`Appointment.identifier`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.identifier](https://hl7.org/fhir/R4/Appointment.html#resource) |
+| [`Appointment.status`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.status](https://hl7.org/fhir/R4/Appointment.html#resource) |
+| [`Appointment.cancellationReason`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.cancelationReason](https://hl7.org/fhir/R4/Appointment.html#resource) |
+| [`Appointment.class`](https://hl7.org/fhir/R5/Appointment.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.class](StructureDefinition-ext-R5-Appointment.class.md) |
+| [`Appointment.serviceCategory`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.serviceCategory](https://hl7.org/fhir/R4/Appointment.html#resource) |
+| [`Appointment.serviceType`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.serviceType](https://hl7.org/fhir/R4/Appointment.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.serviceType](StructureDefinition-ext-R5-Appointment.serviceType.md) |
+| [`Appointment.specialty`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.specialty](https://hl7.org/fhir/R4/Appointment.html#resource) |
+| [`Appointment.appointmentType`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.appointmentType](https://hl7.org/fhir/R4/Appointment.html#resource) |
+| [`Appointment.reason`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.reasonCode](https://hl7.org/fhir/R4/Appointment.html#resource)[Appointment.reasonReference](https://hl7.org/fhir/R4/Appointment.html#resource) |
+| [`Appointment.priority`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.priority](https://hl7.org/fhir/R4/Appointment.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.priority](StructureDefinition-ext-R5-Appointment.priority.md) |
+| [`Appointment.description`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.description](https://hl7.org/fhir/R4/Appointment.html#resource) |
+| [`Appointment.replaces`](https://hl7.org/fhir/R5/Appointment.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.replaces](StructureDefinition-ext-R5-Appointment.replaces.md) |
+| [`Appointment.virtualService`](https://hl7.org/fhir/R5/Appointment.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.virtualService](StructureDefinition-ext-R5-Appointment.virtualService.md) |
+| [`Appointment.supportingInformation`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.supportingInformation](https://hl7.org/fhir/R4/Appointment.html#resource) |
+| [`Appointment.previousAppointment`](https://hl7.org/fhir/R5/Appointment.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.previousAppointment](StructureDefinition-ext-R5-Appointment.previousAppointment.md) |
+| [`Appointment.originatingAppointment`](https://hl7.org/fhir/R5/Appointment.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.originatingAppointment](StructureDefinition-ext-R5-Appointment.originatingAppointment.md) |
+| [`Appointment.start`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.start](https://hl7.org/fhir/R4/Appointment.html#resource) |
+| [`Appointment.end`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.end](https://hl7.org/fhir/R4/Appointment.html#resource) |
+| [`Appointment.minutesDuration`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.minutesDuration](https://hl7.org/fhir/R4/Appointment.html#resource) |
+| [`Appointment.requestedPeriod`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.requestedPeriod](https://hl7.org/fhir/R4/Appointment.html#resource) |
+| [`Appointment.slot`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.slot](https://hl7.org/fhir/R4/Appointment.html#resource) |
+| [`Appointment.account`](https://hl7.org/fhir/R5/Appointment.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.account](StructureDefinition-ext-R5-Appointment.account.md) |
+| [`Appointment.created`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.created](https://hl7.org/fhir/R4/Appointment.html#resource) |
+| [`Appointment.cancellationDate`](https://hl7.org/fhir/R5/Appointment.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.cancellationDate](StructureDefinition-ext-R5-Appointment.cancellationDate.md) |
+| [`Appointment.note`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.comment](https://hl7.org/fhir/R4/Appointment.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.note](StructureDefinition-ext-R5-Appointment.note.md) |
+| [`Appointment.patientInstruction`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.patientInstruction](https://hl7.org/fhir/R4/Appointment.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.patientInstruction](StructureDefinition-ext-R5-Appointment.patientInstruction.md) |
+| [`Appointment.basedOn`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.basedOn](https://hl7.org/fhir/R4/Appointment.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.basedOn](StructureDefinition-ext-R5-Appointment.basedOn.md) |
+| [`Appointment.subject`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Basic.subject](https://hl7.org/fhir/R4/Basic.html#resource) |
+| [`Appointment.participant`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.participant](https://hl7.org/fhir/R4/Appointment.html#resource) |
+| [`Appointment.participant.type`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.participant.type](https://hl7.org/fhir/R4/Appointment.html#resource) |
+| [`Appointment.participant.period`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.participant.period](https://hl7.org/fhir/R4/Appointment.html#resource) |
+| [`Appointment.participant.actor`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.participant.actor](https://hl7.org/fhir/R4/Appointment.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.participant.actor](StructureDefinition-ext-R5-Appointment.par.actor.md) |
+| [`Appointment.participant.required`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.participant.required](https://hl7.org/fhir/R4/Appointment.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.participant.required](StructureDefinition-ext-R5-Appointment.par.required.md) |
+| [`Appointment.participant.status`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Appointment.participant.status](https://hl7.org/fhir/R4/Appointment.html#resource) |
+| [`Appointment.recurrenceId`](https://hl7.org/fhir/R5/Appointment.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceId](StructureDefinition-ext-R5-Appointment.recurrenceId.md) |
+| [`Appointment.occurrenceChanged`](https://hl7.org/fhir/R5/Appointment.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.occurrenceChanged](StructureDefinition-ext-R5-Appointment.occurrenceChanged.md) |
+| [`Appointment.recurrenceTemplate`](https://hl7.org/fhir/R5/Appointment.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate](StructureDefinition-ext-R5-Appointment.recurrenceTemplate.md) |
+| [`Appointment.recurrenceTemplate.timezone`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Extension slice: timezone](StructureDefinition-ext-R5-Appointment.recurrenceTemplate.md) |
+| [`Appointment.recurrenceTemplate.recurrenceType`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Extension slice: recurrenceType](StructureDefinition-ext-R5-Appointment.recurrenceTemplate.md) |
+| [`Appointment.recurrenceTemplate.lastOccurrenceDate`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Extension slice: lastOccurrenceDate](StructureDefinition-ext-R5-Appointment.recurrenceTemplate.md) |
+| [`Appointment.recurrenceTemplate.occurrenceCount`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Extension slice: occurrenceCount](StructureDefinition-ext-R5-Appointment.recurrenceTemplate.md) |
+| [`Appointment.recurrenceTemplate.occurrenceDate`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Extension slice: occurrenceDate](StructureDefinition-ext-R5-Appointment.recurrenceTemplate.md) |
+| [`Appointment.recurrenceTemplate.weeklyTemplate`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Extension slice: http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate](StructureDefinition-ext-R5-Appointment.recurrenceTemplate.md) |
+| [`Appointment.recurrenceTemplate.weeklyTemplate.monday`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Extension slice: monday](StructureDefinition-ext-R5-Appointment.recurrenceTemplate.md) |
+| [`Appointment.recurrenceTemplate.weeklyTemplate.tuesday`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Extension slice: tuesday](StructureDefinition-ext-R5-Appointment.recurrenceTemplate.md) |
+| [`Appointment.recurrenceTemplate.weeklyTemplate.wednesday`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Extension slice: wednesday](StructureDefinition-ext-R5-Appointment.recurrenceTemplate.md) |
+| [`Appointment.recurrenceTemplate.weeklyTemplate.thursday`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Extension slice: thursday](StructureDefinition-ext-R5-Appointment.recurrenceTemplate.md) |
+| [`Appointment.recurrenceTemplate.weeklyTemplate.friday`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Extension slice: friday](StructureDefinition-ext-R5-Appointment.recurrenceTemplate.md) |
+| [`Appointment.recurrenceTemplate.weeklyTemplate.saturday`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Extension slice: saturday](StructureDefinition-ext-R5-Appointment.recurrenceTemplate.md) |
+| [`Appointment.recurrenceTemplate.weeklyTemplate.sunday`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Extension slice: sunday](StructureDefinition-ext-R5-Appointment.recurrenceTemplate.md) |
+| [`Appointment.recurrenceTemplate.weeklyTemplate.weekInterval`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Extension slice: weekInterval](StructureDefinition-ext-R5-Appointment.recurrenceTemplate.md) |
+| [`Appointment.recurrenceTemplate.monthlyTemplate`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Extension slice: http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate](StructureDefinition-ext-R5-Appointment.recurrenceTemplate.md) |
+| [`Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Extension slice: dayOfMonth](StructureDefinition-ext-R5-Appointment.recurrenceTemplate.md) |
+| [`Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Extension slice: nthWeekOfMonth](StructureDefinition-ext-R5-Appointment.recurrenceTemplate.md) |
+| [`Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Extension slice: dayOfWeek](StructureDefinition-ext-R5-Appointment.recurrenceTemplate.md) |
+| [`Appointment.recurrenceTemplate.monthlyTemplate.monthInterval`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Extension slice: monthInterval](StructureDefinition-ext-R5-Appointment.recurrenceTemplate.md) |
+| [`Appointment.recurrenceTemplate.yearlyTemplate`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Extension slice: http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.yearlyTemplate](StructureDefinition-ext-R5-Appointment.recurrenceTemplate.md) |
+| [`Appointment.recurrenceTemplate.yearlyTemplate.yearInterval`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Extension slice: yearInterval](StructureDefinition-ext-R5-Appointment.recurrenceTemplate.md) |
+| [`Appointment.recurrenceTemplate.excludingDate`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Extension slice: excludingDate](StructureDefinition-ext-R5-Appointment.recurrenceTemplate.md) |
+| [`Appointment.recurrenceTemplate.excludingRecurrenceId`](https://hl7.org/fhir/R5/Appointment.html#resource) | [Extension slice: excludingRecurrenceId](StructureDefinition-ext-R5-Appointment.recurrenceTemplate.md) |
+

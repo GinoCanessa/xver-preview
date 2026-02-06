@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="metric-calibration-state"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/metric-calibration-state</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">not-calibrated
+                  <a name="metric-calibration-state-not-calibrated"> </a>
+                </td>
+                <td>Not Calibrated</td>
+                <td>The metric has not been calibrated.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">calibration-required
+                  <a name="metric-calibration-state-calibration-required"> </a>
+                </td>
+                <td>Calibration Required</td>
+                <td>The metric needs to be calibrated.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">calibrated
+                  <a name="metric-calibration-state-calibrated"> </a>
+                </td>
+                <td>Calibrated</td>
+                <td>The metric has been calibrated.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">unspecified
+                  <a name="metric-calibration-state-unspecified"> </a>
+                </td>
+                <td>Unspecified</td>
+                <td>The state of calibration of this metric is unspecified.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="dev"/>
+  </extension>
+  <url value="http://hl7.org/fhir/metric-calibration-state"/>
+  <version value="5.0.0"/>
+  <name value="DeviceMetricCalibrationState"/>
+  <title value="Device Metric Calibration State"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Health Care Devices"/>
+  <contact>
+    <name value="Health Care Devices"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/healthcaredevices"/>
+    </telecom>
+  </contact>
+  <description value="Describes the state of a metric calibration."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/metric-calibration-state|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="not-calibrated"/>
+    <display value="Not Calibrated"/>
+    <definition value="The metric has not been calibrated."/>
+  </concept>
+  <concept>
+    <code value="calibration-required"/>
+    <display value="Calibration Required"/>
+    <definition value="The metric needs to be calibrated."/>
+  </concept>
+  <concept>
+    <code value="calibrated"/>
+    <display value="Calibrated"/>
+    <definition value="The metric has been calibrated."/>
+  </concept>
+  <concept>
+    <code value="unspecified"/>
+    <display value="Unspecified"/>
+    <definition value="The state of calibration of this metric is unspecified."/>
+  </concept>
+</CodeSystem>

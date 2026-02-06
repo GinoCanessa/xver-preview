@@ -1,0 +1,178 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/data-absent-reason> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "data-absent-reason"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://terminology.hl7.org/CodeSystem/data-absent-reason</code> defines the following codes:</p><table class=\"codes\"><tr><td><b>Lvl</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>Comments</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">unknown<a name=\"data-absent-reason-unknown\"> </a></td><td>Unknown</td><td>The value is expected to exist but is not known.</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  asked-unknown<a name=\"data-absent-reason-asked-unknown\"> </a></td><td>Asked But Unknown</td><td>The source was asked but does not know the value.</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  temp-unknown<a name=\"data-absent-reason-temp-unknown\"> </a></td><td>Temporarily Unknown</td><td>There is reason to expect (from the workflow) that the value may become known.</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  not-asked<a name=\"data-absent-reason-not-asked\"> </a></td><td>Not Asked</td><td>The workflow didn't lead to this value being known.</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  asked-declined<a name=\"data-absent-reason-asked-declined\"> </a></td><td>Asked But Declined</td><td>The source was asked but declined to answer.</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">masked<a name=\"data-absent-reason-masked\"> </a></td><td>Masked</td><td>The information is not available due to security, privacy or related reasons.</td><td>Using \"masked\" may be breach of security or confidentiality, but there are times        when its use is required to support alternate workflows for gaining access to denied information.</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">not-applicable<a name=\"data-absent-reason-not-applicable\"> </a></td><td>Not Applicable</td><td>There is no proper value for this element (e.g. last menstrual period for a male).</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">unsupported<a name=\"data-absent-reason-unsupported\"> </a></td><td>Unsupported</td><td>The source system wasn't capable of supporting this element.</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">as-text<a name=\"data-absent-reason-as-text\"> </a></td><td>As Text</td><td>The content of the data is represented in the resource narrative.</td><td>It may be linked by internal references (e.g. xml:id). This usually implies that the value        could not be represented in the correct format - this may be due to system limitations,        or this particular data value.</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">error<a name=\"data-absent-reason-error\"> </a></td><td>Error</td><td>Some system or workflow process error means that the information is not available.</td><td/></tr><tr><td>2</td><td style=\"white-space:nowrap\">  not-a-number<a name=\"data-absent-reason-not-a-number\"> </a></td><td>Not a Number (NaN)</td><td>The numeric value is undefined or unrepresentable due to a floating point processing error.</td><td>This is sometimes an output value from measuring devices.</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  negative-infinity<a name=\"data-absent-reason-negative-infinity\"> </a></td><td>Negative Infinity (NINF)</td><td>The numeric value is excessively low and unrepresentable due to a floating point processing        error.</td><td>This is sometimes an output value from measuring devices.</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  positive-infinity<a name=\"data-absent-reason-positive-infinity\"> </a></td><td>Positive Infinity (PINF)</td><td>The numeric value is excessively high and unrepresentable due to a floating point processing        error.</td><td>This is sometimes an output value from measuring devices.</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">not-performed<a name=\"data-absent-reason-not-performed\"> </a></td><td>Not Performed</td><td>The value is not available because the observation procedure (test, etc.) was not performed.</td><td/></tr><tr><td>1</td><td style=\"white-space:nowrap\">not-permitted<a name=\"data-absent-reason-not-permitted\"> </a></td><td>Not Permitted</td><td>The value is not permitted in this context (e.g. due to profiles, or the base data types).</td><td>This is most often associated with required bindings that do not include the actual code        used, but may be used with other data types.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "4.0.0"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 5
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "oo"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/data-absent-reason"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/data-absent-reason>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "DataAbsentReason"] ; # 
+  fhir:title [ fhir:v "DataAbsentReason"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2019-10-31T17:29:23-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Orders and Observations"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Orders and Observations" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/orders" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Used to specify why the normally expected content of the data element is missing."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://hl7.org/fhir/ValueSet/data-absent-reason|4.0.1"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/data-absent-reason?version=4.0.1>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "unknown" ] ;
+     fhir:display [ fhir:v "Unknown" ] ;
+     fhir:definition [ fhir:v "The value is expected to exist but is not known." ] ;
+     fhir:concept ( [
+       fhir:code [ fhir:v "asked-unknown" ] ;
+       fhir:display [ fhir:v "Asked But Unknown" ] ;
+       fhir:definition [ fhir:v "The source was asked but does not know the value." ]
+     ] [
+       fhir:code [ fhir:v "temp-unknown" ] ;
+       fhir:display [ fhir:v "Temporarily Unknown" ] ;
+       fhir:definition [ fhir:v "There is reason to expect (from the workflow) that the value may become known." ]
+     ] [
+       fhir:code [ fhir:v "not-asked" ] ;
+       fhir:display [ fhir:v "Not Asked" ] ;
+       fhir:definition [ fhir:v "The workflow didn't lead to this value being known." ]
+     ] [
+       fhir:code [ fhir:v "asked-declined" ] ;
+       fhir:display [ fhir:v "Asked But Declined" ] ;
+       fhir:definition [ fhir:v "The source was asked but declined to answer." ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "masked" ] ;
+     fhir:display [ fhir:v "Masked" ] ;
+     fhir:definition [ fhir:v "The information is not available due to security, privacy or related reasons." ]
+  ] [
+     fhir:code [ fhir:v "not-applicable" ] ;
+     fhir:display [ fhir:v "Not Applicable" ] ;
+     fhir:definition [ fhir:v "There is no proper value for this element (e.g. last menstrual period for a male)." ]
+  ] [
+     fhir:code [ fhir:v "unsupported" ] ;
+     fhir:display [ fhir:v "Unsupported" ] ;
+     fhir:definition [ fhir:v "The source system wasn't capable of supporting this element." ]
+  ] [
+     fhir:code [ fhir:v "as-text" ] ;
+     fhir:display [ fhir:v "As Text" ] ;
+     fhir:definition [ fhir:v "The content of the data is represented in the resource narrative." ]
+  ] [
+     fhir:code [ fhir:v "error" ] ;
+     fhir:display [ fhir:v "Error" ] ;
+     fhir:definition [ fhir:v "Some system or workflow process error means that the information is not available." ] ;
+     fhir:concept ( [
+       fhir:code [ fhir:v "not-a-number" ] ;
+       fhir:display [ fhir:v "Not a Number (NaN)" ] ;
+       fhir:definition [ fhir:v "The numeric value is undefined or unrepresentable due to a floating point processing error." ]
+     ] [
+       fhir:code [ fhir:v "negative-infinity" ] ;
+       fhir:display [ fhir:v "Negative Infinity (NINF)" ] ;
+       fhir:definition [ fhir:v "The numeric value is excessively low and unrepresentable due to a floating point processing        error." ]
+     ] [
+       fhir:code [ fhir:v "positive-infinity" ] ;
+       fhir:display [ fhir:v "Positive Infinity (PINF)" ] ;
+       fhir:definition [ fhir:v "The numeric value is excessively high and unrepresentable due to a floating point processing        error." ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "not-performed" ] ;
+     fhir:display [ fhir:v "Not Performed" ] ;
+     fhir:definition [ fhir:v "The value is not available because the observation procedure (test, etc.) was not performed." ]
+  ] [
+     fhir:code [ fhir:v "not-permitted" ] ;
+     fhir:display [ fhir:v "Not Permitted" ] ;
+     fhir:definition [ fhir:v "The value is not permitted in this context (e.g. due to profiles, or the base data types)." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

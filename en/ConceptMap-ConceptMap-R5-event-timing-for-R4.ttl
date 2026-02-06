@@ -1,0 +1,366 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-event-timing-for-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-event-timing-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-event-timing-for-R4</b></p><a name=\"ConceptMap-R5-event-timing-for-R4\"> </a><a name=\"hcConceptMap-R5-event-timing-for-R4\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <a href=\"CodeSystem-event-timing.html\">EventTimingversion: 5.0.0)</a> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from <a href=\"CodeSystem-event-timing.html\" title=\"http://hl7.org/fhir/event-timing|5.0.0\">EventTiming</a></td><td colspan=\"2\"><b>Codes</b> from </td></tr></table><hr/><p><b>Group 2 </b>Mapping from <a href=\"CodeSystem-event-timing.html\">EventTimingversion: 5.0.0)</a> to <a href=\"CodeSystem-event-timing.html\">EventTimingversion: 5.0.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>AFT (Afternoon)</td><td>:(equivalent)</td><td>AFT (Afternoon)</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)</td></tr><tr><td>AFT.early (Early Afternoon)</td><td>:(equivalent)</td><td>AFT.early (Early Afternoon)</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)</td></tr><tr><td>AFT.late (Late Afternoon)</td><td>:(equivalent)</td><td>AFT.late (Late Afternoon)</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)</td></tr><tr><td>EVE (Evening)</td><td>:(equivalent)</td><td>EVE (Evening)</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)</td></tr><tr><td>EVE.early (Early Evening)</td><td>:(equivalent)</td><td>EVE.early (Early Evening)</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)</td></tr><tr><td>EVE.late (Late Evening)</td><td>:(equivalent)</td><td>EVE.late (Late Evening)</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)</td></tr><tr><td>MORN (Morning)</td><td>:(equivalent)</td><td>MORN (Morning)</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)</td></tr><tr><td>MORN.early (Early Morning)</td><td>:(equivalent)</td><td>MORN.early (Early Morning)</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)</td></tr><tr><td>MORN.late (Late Morning)</td><td>:(equivalent)</td><td>MORN.late (Late Morning)</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)</td></tr><tr><td>NIGHT</td><td>:(equivalent)</td><td>NIGHT</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)</td></tr><tr><td>NOON</td><td>:(equivalent)</td><td>NOON</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)</td></tr><tr><td>PHS (After Sleep)</td><td>:(equivalent)</td><td>PHS (After Sleep)</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-TimingEvent.html\">TimingEventversion: 3.0.0)</a> to <a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-v3-TimingEvent.html\">TimingEventversion: 3.0.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>AC</td><td>:(equivalent)</td><td>AC</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)</td></tr><tr><td>ACD</td><td>:(equivalent)</td><td>ACD</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)</td></tr><tr><td>ACM</td><td>:(equivalent)</td><td>ACM</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)</td></tr><tr><td>ACV</td><td>:(equivalent)</td><td>ACV</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)</td></tr><tr><td>C</td><td>:(equivalent)</td><td>C</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)</td></tr><tr><td>CD</td><td>:(equivalent)</td><td>CD</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)</td></tr><tr><td>CM</td><td>:(equivalent)</td><td>CM</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)</td></tr><tr><td>CV</td><td>:(equivalent)</td><td>CV</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)</td></tr><tr><td>HS</td><td>:(equivalent)</td><td>HS</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)</td></tr><tr><td>PC</td><td>:(equivalent)</td><td>PC</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)</td></tr><tr><td>PCD</td><td>:(equivalent)</td><td>PCD</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)</td></tr><tr><td>PCM</td><td>:(equivalent)</td><td>PCM</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)</td></tr><tr><td>PCV</td><td>:(equivalent)</td><td>PCV</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)</td></tr><tr><td>WAKE</td><td>:(equivalent)</td><td>WAKE</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ValueSet-R5-event-timing-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ValueSet-R5-event-timing-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5EventTimingForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for ValueSet ValueSet-R5-event-timing-for-R4 from FHIR R5 to FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:23.9685435-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of concepts from ValueSet `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/event-timing"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/event-timing>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "IMD" ] ;
+       fhir:display [ fhir:v "Immediate" ]
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/event-timing"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/event-timing>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/event-timing"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/event-timing>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "AFT" ] ;
+       fhir:display [ fhir:v "Afternoon" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AFT" ] ;
+         fhir:display [ fhir:v "Afternoon" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AFT.early" ] ;
+       fhir:display [ fhir:v "Early Afternoon" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AFT.early" ] ;
+         fhir:display [ fhir:v "Early Afternoon" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AFT.late" ] ;
+       fhir:display [ fhir:v "Late Afternoon" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AFT.late" ] ;
+         fhir:display [ fhir:v "Late Afternoon" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EVE" ] ;
+       fhir:display [ fhir:v "Evening" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "EVE" ] ;
+         fhir:display [ fhir:v "Evening" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EVE.early" ] ;
+       fhir:display [ fhir:v "Early Evening" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "EVE.early" ] ;
+         fhir:display [ fhir:v "Early Evening" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EVE.late" ] ;
+       fhir:display [ fhir:v "Late Evening" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "EVE.late" ] ;
+         fhir:display [ fhir:v "Late Evening" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MORN" ] ;
+       fhir:display [ fhir:v "Morning" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MORN" ] ;
+         fhir:display [ fhir:v "Morning" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MORN.early" ] ;
+       fhir:display [ fhir:v "Early Morning" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MORN.early" ] ;
+         fhir:display [ fhir:v "Early Morning" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MORN.late" ] ;
+       fhir:display [ fhir:v "Late Morning" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MORN.late" ] ;
+         fhir:display [ fhir:v "Late Morning" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NIGHT" ] ;
+       fhir:display [ fhir:v "Night" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "NIGHT" ] ;
+         fhir:display [ fhir:v "Night" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NOON" ] ;
+       fhir:display [ fhir:v "Noon" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "NOON" ] ;
+         fhir:display [ fhir:v "Noon" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PHS" ] ;
+       fhir:display [ fhir:v "After Sleep" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PHS" ] ;
+         fhir:display [ fhir:v "After Sleep" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)" ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://terminology.hl7.org/CodeSystem/v3-TimingEvent"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/v3-TimingEvent>
+     ] ;
+     fhir:sourceVersion [ fhir:v "3.0.0" ] ;
+     fhir:target [
+       fhir:v "http://terminology.hl7.org/CodeSystem/v3-TimingEvent"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/v3-TimingEvent>
+     ] ;
+     fhir:targetVersion [ fhir:v "3.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "AC" ] ;
+       fhir:display [ fhir:v "AC" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AC" ] ;
+         fhir:display [ fhir:v "AC" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ACD" ] ;
+       fhir:display [ fhir:v "ACD" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ACD" ] ;
+         fhir:display [ fhir:v "ACD" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ACM" ] ;
+       fhir:display [ fhir:v "ACM" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ACM" ] ;
+         fhir:display [ fhir:v "ACM" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ACV" ] ;
+       fhir:display [ fhir:v "ACV" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ACV" ] ;
+         fhir:display [ fhir:v "ACV" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "C" ] ;
+       fhir:display [ fhir:v "C" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "C" ] ;
+         fhir:display [ fhir:v "C" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CD" ] ;
+       fhir:display [ fhir:v "CD" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "CD" ] ;
+         fhir:display [ fhir:v "CD" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CM" ] ;
+       fhir:display [ fhir:v "CM" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "CM" ] ;
+         fhir:display [ fhir:v "CM" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CV" ] ;
+       fhir:display [ fhir:v "CV" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "CV" ] ;
+         fhir:display [ fhir:v "CV" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HS" ] ;
+       fhir:display [ fhir:v "HS" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HS" ] ;
+         fhir:display [ fhir:v "HS" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PC" ] ;
+       fhir:display [ fhir:v "PC" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PC" ] ;
+         fhir:display [ fhir:v "PC" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PCD" ] ;
+       fhir:display [ fhir:v "PCD" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PCD" ] ;
+         fhir:display [ fhir:v "PCD" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PCM" ] ;
+       fhir:display [ fhir:v "PCM" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PCM" ] ;
+         fhir:display [ fhir:v "PCM" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PCV" ] ;
+       fhir:display [ fhir:v "PCV" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PCV" ] ;
+         fhir:display [ fhir:v "PCV" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "WAKE" ] ;
+       fhir:display [ fhir:v "WAKE" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "WAKE" ] ;
+         fhir:display [ fhir:v "WAKE" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|5.0.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-EventTiming-R4B-EventTiming` (`ConceptMap-R5-EventTiming-R4B-EventTiming.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/event-timing|4.3.0` to `http://hl7.org/fhir/ValueSet/event-timing|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-EventTiming-R4-EventTiming` (`ConceptMap-R4B-EventTiming-R4-EventTiming.json`)" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

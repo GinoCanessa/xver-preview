@@ -1,0 +1,65 @@
+# Lookup for ProfilePaymentReconciliation - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## Lookup for ProfilePaymentReconciliation
+
+### Lookup for FHIR R5 PaymentReconciliation for use in FHIR R4
+
+The FHIR R5 resource is represented in FHIR R4 via the PaymentReconciliation resource.
+
+Note that there is a profile defined to simplify use of this cross-version resource representation:[Profile: PaymentReconciliation](StructureDefinition-profile-PaymentReconciliation.md)
+
+A computable version of the following element information is available in: [ConceptMapR5PaymentReconciliationElementsForR4PaymentReconciliation](ConceptMap-ConceptMap-R5-PaymentReconciliation-elements-for-R4-PaymentReconciliation.md)
+
+| | |
+| :--- | :--- |
+| [`PaymentReconciliation`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.meta`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.meta](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.implicitRules`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.implicitRules](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.language`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.language](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.text`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.text](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.contained`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.contained](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.identifier`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.identifier](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.type`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.type](StructureDefinition-ext-R5-PaymentReconciliation.type.md) |
+| [`PaymentReconciliation.status`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.status](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.kind`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.kind](StructureDefinition-ext-R5-PaymentReconciliation.kind.md) |
+| [`PaymentReconciliation.period`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.period](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.created`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.created](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.enterer`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.enterer](StructureDefinition-ext-R5-PaymentReconciliation.enterer.md) |
+| [`PaymentReconciliation.issuerType`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.issuerType](StructureDefinition-ext-R5-PaymentReconciliation.issuerType.md) |
+| [`PaymentReconciliation.paymentIssuer`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.paymentIssuer](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.paymentIssuer](StructureDefinition-ext-R5-PaymentReconciliation.paymentIssuer.md) |
+| [`PaymentReconciliation.request`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.request](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.requestor`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.requestor](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.outcome`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.outcome](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.disposition`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.disposition](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.date`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.paymentDate](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.location`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.location](StructureDefinition-ext-R5-PaymentReconciliation.location.md) |
+| [`PaymentReconciliation.method`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.method](StructureDefinition-ext-R5-PaymentReconciliation.method.md) |
+| [`PaymentReconciliation.cardBrand`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.cardBrand](StructureDefinition-ext-R5-PaymentReconciliation.cardBrand.md) |
+| [`PaymentReconciliation.accountNumber`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.accountNumber](StructureDefinition-ext-R5-PaymentReconciliation.accountNumber.md) |
+| [`PaymentReconciliation.expirationDate`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.expirationDate](StructureDefinition-ext-R5-PaymentReconciliation.expirationDate.md) |
+| [`PaymentReconciliation.processor`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.processor](StructureDefinition-ext-R5-PaymentReconciliation.processor.md) |
+| [`PaymentReconciliation.referenceNumber`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.referenceNumber](StructureDefinition-ext-R5-PaymentReconciliation.referenceNumber.md) |
+| [`PaymentReconciliation.authorization`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.authorization](StructureDefinition-ext-R5-PaymentReconciliation.authorization.md) |
+| [`PaymentReconciliation.tenderedAmount`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.tenderedAmount](StructureDefinition-ext-R5-PaymentReconciliation.tenderedAmount.md) |
+| [`PaymentReconciliation.returnedAmount`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.returnedAmount](StructureDefinition-ext-R5-PaymentReconciliation.returnedAmount.md) |
+| [`PaymentReconciliation.amount`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.paymentAmount](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.paymentIdentifier`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.paymentIdentifier](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.allocation`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.detail](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.allocation.identifier`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.detail.identifier](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.allocation.predecessor`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.detail.predecessor](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.allocation.target`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.target](StructureDefinition-ext-R5-PR.all.target.md) |
+| [`PaymentReconciliation.allocation.targetItem[x]`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.targetItem](StructureDefinition-ext-R5-PR.all.targetItem.md) |
+| [`PaymentReconciliation.allocation.encounter`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.encounter](StructureDefinition-ext-R5-PR.all.encounter.md) |
+| [`PaymentReconciliation.allocation.account`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.account](StructureDefinition-ext-R5-PR.all.account.md) |
+| [`PaymentReconciliation.allocation.type`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.detail.type](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.allocation.submitter`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.detail.submitter](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.allocation.response`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.detail.response](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.response](StructureDefinition-ext-R5-PR.all.response.md) |
+| [`PaymentReconciliation.allocation.date`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.detail.date](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.allocation.responsible`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.detail.responsible](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.allocation.payee`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.detail.payee](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.allocation.amount`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.detail.amount](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.formCode`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.formCode](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.processNote`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.processNote](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.processNote.type`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.processNote.type](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+| [`PaymentReconciliation.processNote.text`](https://hl7.org/fhir/R5/PaymentReconciliation.html#resource) | [PaymentReconciliation.processNote.text](https://hl7.org/fhir/R4/PaymentReconciliation.html#resource) |
+

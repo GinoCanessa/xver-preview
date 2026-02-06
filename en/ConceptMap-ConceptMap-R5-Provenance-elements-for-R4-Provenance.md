@@ -1,0 +1,496 @@
+# ConceptMapR5ProvenanceElementsForR4Provenance - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## ConceptMap: ConceptMapR5ProvenanceElementsForR4Provenance 
+
+ 
+This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4. 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ConceptMap",
+  "id" : "ConceptMap-R5-Provenance-elements-for-R4-Provenance",
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "fhir"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger" : 0,
+      "_valueInteger" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode" : "trial-use",
+      "_valueCode" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    }
+  ],
+  "url" : "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Provenance-elements-for-R4-Provenance",
+  "version" : "0.0.1-snapshot-3",
+  "name" : "ConceptMapR5ProvenanceElementsForR4Provenance",
+  "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-02-06T13:17:34.0215657-06:00",
+  "contact" : [
+    {
+      "name" : "FHIR Infrastructure",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/fiwg"
+        }
+      ]
+    }
+  ],
+  "description" : "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }
+      ]
+    }
+  ],
+  "group" : [
+    {
+      "source" : "http://hl7.org/fhir/StructureDefinition/Provenance",
+      "sourceVersion" : "5.0.0",
+      "element" : [
+        {
+          "code" : "Provenance",
+          "display" : "Provenance",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance",
+              "equivalence" : "relatedto",
+              "comment" : "FHIR R5 Resource `Provenance` is representable via FHIR R4B Resource `Provenance`.\nElement `Provenance` is mapped to FHIR R4B element `Provenance`."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.meta",
+          "display" : "meta",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.meta",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.meta` is mapped to FHIR R4B element `Provenance.meta`."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.implicitRules",
+          "display" : "implicitRules",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.implicitRules",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.implicitRules` is mapped to FHIR R4B element `Provenance.implicitRules`."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.language",
+          "display" : "language",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.language",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.language` is mapped to FHIR R4B element `Provenance.language`."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.text",
+          "display" : "text",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.text",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.text` is mapped to FHIR R4B element `Provenance.text`."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.contained",
+          "display" : "contained",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.contained",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.contained` is mapped to FHIR R4B element `Provenance.contained`."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.target",
+          "display" : "target",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.target",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.target` is mapped to FHIR R4B element `Provenance.target`."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.occurred[x]",
+          "display" : "occurred[x]",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.occurred[x]",
+              "equivalence" : "relatedto",
+              "comment" : "Note that the target element context `Provenance.occurred[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Provenance`.\nElement `Provenance.occurred[x]` is mapped to FHIR R4B element `Provenance.occurred[x]`.\nNote that the target element context `Provenance.occurred[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Provenance`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.period",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.occurred[x]` is mapped to FHIR STU3 element `Provenance.period`."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.recorded",
+          "display" : "recorded",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.recorded",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.recorded` is mapped to FHIR R4B element `Provenance.recorded`."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.policy",
+          "display" : "policy",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.policy",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.policy` is mapped to FHIR R4B element `Provenance.policy`."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.location",
+          "display" : "location",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.location",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.location` is mapped to FHIR R4B element `Provenance.location`."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.authorization",
+          "display" : "authorization",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.reason",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.authorization` is mapped to FHIR R4B element `Provenance.reason`."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.activity",
+          "display" : "activity",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.activity",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.activity` is mapped to FHIR R4B element `Provenance.activity`."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.basedOn",
+          "display" : "basedOn",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.basedOn",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.basedOn` is mapped to FHIR R4B structure `Provenance`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.patient",
+          "display" : "patient",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.patient",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.patient` is mapped to FHIR R4B structure `Provenance`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.encounter",
+          "display" : "encounter",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.encounter",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.encounter` is mapped to FHIR R4B structure `Provenance`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.agent",
+          "display" : "agent",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.agent",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.agent` is mapped to FHIR R4B element `Provenance.agent`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.agent.relatedAgent",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.agent` is mapped to FHIR DSTU2 element `Provenance.agent`.\nElement `Provenance.agent` is mapped to FHIR DSTU2 element `Provenance.agent.relatedAgent`."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.agent.type",
+          "display" : "type",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.agent.type",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.agent.type` is part of an existing definition because parent element `Provenance.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `Provenance.agent.type` is mapped to FHIR R4B element `Provenance.agent.type`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.agent.relatedAgentType",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.agent.type` is part of an existing definition because parent element `Provenance.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `Provenance.agent.type` is mapped to FHIR STU3 element `Provenance.agent.relatedAgentType`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.agent.relatedAgent.type",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.agent.type` is part of an existing definition because parent element `Provenance.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `Provenance.agent.type` is mapped to FHIR DSTU2 element `Provenance.agent.relatedAgent.type`."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.agent.role",
+          "display" : "role",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.agent.role",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.agent.role` is part of an existing definition because parent element `Provenance.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `Provenance.agent.role` is mapped to FHIR R4B element `Provenance.agent.role`."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.agent.who",
+          "display" : "who",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.agent.who",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.agent.who` is part of an existing definition because parent element `Provenance.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `Provenance.agent.who` is mapped to FHIR R4B element `Provenance.agent.who`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.agent.who[x]",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.agent.who` is part of an existing definition because parent element `Provenance.agent` requires a component extension (e.g., if this element is used as a content reference).\nNote that the target element context `Provenance.agent.who[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Provenance.agent`.\nElement `Provenance.agent.who` is mapped to FHIR STU3 element `Provenance.agent.who[x]`.\nNote that the target element context `Provenance.agent.who[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Provenance.agent`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.agent.actor",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.agent.who` is part of an existing definition because parent element `Provenance.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `Provenance.agent.who` is mapped to FHIR DSTU2 element `Provenance.agent.actor`."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.agent.onBehalfOf",
+          "display" : "onBehalfOf",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.agent.onBehalfOf",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.agent.onBehalfOf` is part of an existing definition because parent element `Provenance.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `Provenance.agent.onBehalfOf` is mapped to FHIR R4B element `Provenance.agent.onBehalfOf`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.agent.onBehalfOf[x]",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.agent.onBehalfOf` is part of an existing definition because parent element `Provenance.agent` requires a component extension (e.g., if this element is used as a content reference).\nNote that the target element context `Provenance.agent.onBehalfOf[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Provenance.agent`.\nElement `Provenance.agent.onBehalfOf` is mapped to FHIR STU3 element `Provenance.agent.onBehalfOf[x]`.\nNote that the target element context `Provenance.agent.onBehalfOf[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Provenance.agent`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.agent.onBehalfOf",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.agent.onBehalfOf` is part of an existing definition because parent element `Provenance.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `Provenance.agent.onBehalfOf` is mapped to FHIR DSTU2 structure `Provenance`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.entity",
+          "display" : "entity",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.entity",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.entity` is mapped to FHIR R4B element `Provenance.entity`."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.entity.role",
+          "display" : "role",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.entity.role",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.entity.role` is mapped to FHIR R4B element `Provenance.entity.role`."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.entity.what",
+          "display" : "what",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.entity.what",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.entity.what` is mapped to FHIR R4B element `Provenance.entity.what`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.entity.what[x]",
+              "equivalence" : "relatedto",
+              "comment" : "Note that the target element context `Provenance.entity.what[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Provenance.entity`.\nElement `Provenance.entity.what` is mapped to FHIR STU3 element `Provenance.entity.what[x]`.\nNote that the target element context `Provenance.entity.what[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Provenance.entity`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.entity.reference",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.entity.what` is mapped to FHIR DSTU2 element `Provenance.entity.reference`."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.entity.agent",
+          "display" : "agent",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.entity.agent",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.entity.agent` is mapped to FHIR R4B element `Provenance.entity.agent`."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.entity.agent.type",
+          "display" : "type",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.entity.agent.type",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.entity.agent.type` is mapped to FHIR R4B element `Provenance.entity.agent.type`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.entity.agent.relatedAgentType",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.entity.agent.type` is mapped to FHIR STU3 element `Provenance.entity.agent.relatedAgentType`."
+            },
+            {
+              "code" : "type",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.entity.agent.type` is part of an existing definition because parent element `Provenance.entity.agent` requires a cross-version extension.\nElement `Provenance.entity.agent.type` is mapped to FHIR DSTU2 structure `Provenance`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.entity.agent.role",
+          "display" : "role",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.entity.agent.role",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.entity.agent.role` is mapped to FHIR R4B element `Provenance.entity.agent.role`."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.entity.agent.who",
+          "display" : "who",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.entity.agent.who",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.entity.agent.who` is mapped to FHIR R4B element `Provenance.entity.agent.who`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.entity.agent.who[x]",
+              "equivalence" : "relatedto",
+              "comment" : "Note that the target element context `Provenance.entity.agent.who[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Provenance.entity.agent`.\nElement `Provenance.entity.agent.who` is mapped to FHIR STU3 element `Provenance.entity.agent.who[x]`.\nNote that the target element context `Provenance.entity.agent.who[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Provenance.entity.agent`."
+            },
+            {
+              "code" : "who",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.entity.agent.who` is part of an existing definition because parent element `Provenance.entity.agent` requires a cross-version extension.\nElement `Provenance.entity.agent.who` is mapped to FHIR DSTU2 structure `Provenance`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.entity.agent.onBehalfOf",
+          "display" : "onBehalfOf",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.entity.agent.onBehalfOf",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.entity.agent.onBehalfOf` is mapped to FHIR R4B element `Provenance.entity.agent.onBehalfOf`."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.entity.agent.onBehalfOf[x]",
+              "equivalence" : "relatedto",
+              "comment" : "Note that the target element context `Provenance.entity.agent.onBehalfOf[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Provenance.entity.agent`.\nElement `Provenance.entity.agent.onBehalfOf` is mapped to FHIR STU3 element `Provenance.entity.agent.onBehalfOf[x]`.\nNote that the target element context `Provenance.entity.agent.onBehalfOf[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Provenance.entity.agent`."
+            },
+            {
+              "code" : "onBehalfOf",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.entity.agent.onBehalfOf` is part of an existing definition because parent element `Provenance.entity.agent` requires a cross-version extension.\nElement `Provenance.entity.agent.onBehalfOf` is mapped to FHIR DSTU2 structure `Provenance`, but has no target element specified."
+            }
+          ]
+        },
+        {
+          "code" : "Provenance.signature",
+          "display" : "signature",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/Provenance#Provenance.signature",
+              "equivalence" : "relatedto",
+              "comment" : "Element `Provenance.signature` is mapped to FHIR R4B element `Provenance.signature`."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+```

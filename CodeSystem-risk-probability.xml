@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="risk-probability"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://terminology.hl7.org/CodeSystem/risk-probability</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">negligible<a name="risk-probability-negligible"> </a></td><td>Negligible likelihood</td><td>The specified outcome is exceptionally unlikely.</td></tr><tr><td style="white-space:nowrap">low<a name="risk-probability-low"> </a></td><td>Low likelihood</td><td>The specified outcome is possible but unlikely.</td></tr><tr><td style="white-space:nowrap">moderate<a name="risk-probability-moderate"> </a></td><td>Moderate likelihood</td><td>The specified outcome has a reasonable likelihood of occurrence.</td></tr><tr><td style="white-space:nowrap">high<a name="risk-probability-high"> </a></td><td>High likelihood</td><td>The specified outcome is more likely to occur than not.</td></tr><tr><td style="white-space:nowrap">certain<a name="risk-probability-certain"> </a></td><td>Certain</td><td>The specified outcome is effectively guaranteed.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="cds"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/risk-probability"/>
+  <version value="0.1.0"/>
+  <name value="RiskProbability"/>
+  <title value="Risk Probability"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2023-02-25T12:07:30-06:00"/>
+  <publisher value="Clinical Decision Support"/>
+  <contact>
+    <name value="Clinical Decision Support"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/dss"/>
+    </telecom>
+  </contact>
+  <description value="Codes representing the likelihood of a particular outcome in a risk assessment."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/risk-probability|1.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="negligible"/>
+    <display value="Negligible likelihood"/>
+    <definition value="The specified outcome is exceptionally unlikely."/>
+  </concept>
+  <concept>
+    <code value="low"/>
+    <display value="Low likelihood"/>
+    <definition value="The specified outcome is possible but unlikely."/>
+  </concept>
+  <concept>
+    <code value="moderate"/>
+    <display value="Moderate likelihood"/>
+    <definition value="The specified outcome has a reasonable likelihood of occurrence."/>
+  </concept>
+  <concept>
+    <code value="high"/>
+    <display value="High likelihood"/>
+    <definition value="The specified outcome is more likely to occur than not."/>
+  </concept>
+  <concept>
+    <code value="certain"/>
+    <display value="Certain"/>
+    <definition value="The specified outcome is effectively guaranteed."/>
+  </concept>
+</CodeSystem>

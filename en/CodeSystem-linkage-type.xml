@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="linkage-type"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/linkage-type</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">source
+                  <a name="linkage-type-source"> </a>
+                </td>
+                <td>Source of Truth</td>
+                <td>The resource represents the &quot;source of truth&quot; (from the perspective of this Linkage resource) for the underlying event/condition/etc.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">alternate
+                  <a name="linkage-type-alternate"> </a>
+                </td>
+                <td>Alternate Record</td>
+                <td>The resource represents an alternative view of the underlying event/condition/etc.  The resource may still be actively maintained, even though it is not considered to be the source of truth.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">historical
+                  <a name="linkage-type-historical"> </a>
+                </td>
+                <td>Historical/Obsolete Record</td>
+                <td>The resource represents an obsolete record of the underlying event/condition/etc.  It is not expected to be actively maintained.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pc"/>
+  </extension>
+  <url value="http://hl7.org/fhir/linkage-type"/>
+  <version value="5.0.0"/>
+  <name value="LinkageType"/>
+  <title value="Linkage Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Patient Care"/>
+  <contact>
+    <name value="Patient Care"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/patientcare"/>
+    </telecom>
+  </contact>
+  <description value="Used to distinguish different roles a resource can play within a set of linked resources."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/linkage-type|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="source"/>
+    <display value="Source of Truth"/>
+    <definition value="The resource represents the &quot;source of truth&quot; (from the perspective of this Linkage resource) for the underlying event/condition/etc."/>
+  </concept>
+  <concept>
+    <code value="alternate"/>
+    <display value="Alternate Record"/>
+    <definition value="The resource represents an alternative view of the underlying event/condition/etc.  The resource may still be actively maintained, even though it is not considered to be the source of truth."/>
+  </concept>
+  <concept>
+    <code value="historical"/>
+    <display value="Historical/Obsolete Record"/>
+    <definition value="The resource represents an obsolete record of the underlying event/condition/etc.  It is not expected to be actively maintained."/>
+  </concept>
+</CodeSystem>

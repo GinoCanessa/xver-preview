@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ingredient-manufacturer-role"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/ingredient-manufacturer-role</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">allowed
+                  <a name="ingredient-manufacturer-role-allowed"> </a>
+                </td>
+                <td>Manufacturer is specifically allowed for this ingredient</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">possible
+                  <a name="ingredient-manufacturer-role-possible"> </a>
+                </td>
+                <td>Manufacturer is known to make this ingredient in general</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">actual
+                  <a name="ingredient-manufacturer-role-actual"> </a>
+                </td>
+                <td>Manufacturer actually makes this particular ingredient</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="brr"/>
+  </extension>
+  <url value="http://hl7.org/fhir/ingredient-manufacturer-role"/>
+  <version value="5.0.0"/>
+  <name value="IngredientManufacturerRole"/>
+  <title value="Ingredient Manufacturer Role"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Biomedical Research and Regulation"/>
+  <contact>
+    <name value="Biomedical Research and Regulation"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/rcrim"/>
+    </telecom>
+  </contact>
+  <description value="The way in which this manufacturer is associated with the ingredient. For example whether it is a possible one (others allowed), or an exclusive authorized one for this ingredient. Note that this is not the manufacturing process role"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/ingredient-manufacturer-role"/>
+  <content value="complete"/>
+  <concept>
+    <code value="allowed"/>
+    <display value="Manufacturer is specifically allowed for this ingredient"/>
+  </concept>
+  <concept>
+    <code value="possible"/>
+    <display value="Manufacturer is known to make this ingredient in general"/>
+  </concept>
+  <concept>
+    <code value="actual"/>
+    <display value="Manufacturer actually makes this particular ingredient"/>
+  </concept>
+</CodeSystem>

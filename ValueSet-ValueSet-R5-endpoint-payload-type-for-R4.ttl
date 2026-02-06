@@ -1,0 +1,802 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/ValueSet-R5-endpoint-payload-type-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ValueSet-R5-endpoint-payload-type-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ValueSet-R5-endpoint-payload-type-for-R4</b></p><a name=\"ValueSet-R5-endpoint-payload-type-for-R4\"> </a><a name=\"hcValueSet-R5-endpoint-payload-type-for-R4\"> </a><p>This value set expansion contains 60 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:hl7-org:sdwg:ccda-nonXMLBody:1.1\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:hl7-org:sdwg:ccda-nonXMLBody:1.1</td><td>For documents following C-CDA 1.1 constraints using a non structured body.</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:hl7-org:sdwg:ccda-nonXMLBody:2.1\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:hl7-org:sdwg:ccda-nonXMLBody:2.1</td><td>For documents following C-CDA 2.1 constraints using a non structured body.</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:hl7-org:sdwg:ccda-structuredBody:1.1\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:hl7-org:sdwg:ccda-structuredBody:1.1</td><td>For documents following C-CDA 1.1 constraints using a structured body.</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:hl7-org:sdwg:ccda-structuredBody:2.1\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:hl7-org:sdwg:ccda-structuredBody:2.1</td><td>For documents following C-CDA 2.1 constraints using a structured body.</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe.palm:apsr:2016\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe.palm:apsr:2016</td><td>PALM APSR</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:card:CPN:2017\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:card:CPN:2017</td><td>CARD CPN</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:iti:appc:2016:consent\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:iti:appc:2016:consent</td><td>ITI APPC</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:iti:xds:2017:mimeTypeSufficient\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:iti:xds:2017:mimeTypeSufficient</td><td>mimeType Sufficient</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:pcc:360x:hl7:OMG:O19:2017\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:pcc:360x:hl7:OMG:O19:2017</td><td>PCC 360X Referral Request</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:pcc:360x:hl7:OSU:O51:2017\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:pcc:360x:hl7:OSU:O51:2017</td><td>PCC 360X Referral Status Update</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:pcc:360x:hl7:SIU:S12:2017\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:pcc:360x:hl7:SIU:S12:2017</td><td>PCC 360X Appointment Notification</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:pcc:360x:hl7:SIU:S13:2017\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:pcc:360x:hl7:SIU:S13:2017</td><td>PCC 360X Appointment Reschedule Notification</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:pcc:360x:hl7:SIU:S15:2017\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:pcc:360x:hl7:SIU:S15:2017</td><td>PCC 360X Appointment Cancel Notification</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:pcc:360x:hl7:SIU:S26:2017\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:pcc:360x:hl7:SIU:S26:2017</td><td>PCC 360X Appointment No-show Notification</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:pcc:ic:2008\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:pcc:ic:2008</td><td>Immunization Registry Content (IRC)</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:pcc:ips:2020\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:pcc:ips:2020</td><td>PCC IPS</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:pcc:pcs-cr:2018\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:pcc:pcs-cr:2018</td><td>PCC PCS-CR</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:pcc:pcs-cs:2018\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:pcc:pcs-cs:2018</td><td>PCC PCS-CS</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:pcc:ript:2017\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:pcc:ript:2017</td><td>PCC RIPT</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:pharm:cma:2017\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:pharm:cma:2017</td><td>Pharmacy CMA</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:pharm:mtp:2015\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:pharm:mtp:2015</td><td>Pharmacy MTP</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:qrph:BFDR-Birth:2014\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:qrph:BFDR-Birth:2014</td><td>QRPH BFDR Birth CDA document</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:qrph:BFDR-FDeath:2014\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:qrph:BFDR-FDeath:2014</td><td>QRPH BFDR Death CDA document</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:qrph:HPoCUS:2014\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:qrph:HPoCUS:2014</td><td>QRPH HPoC US</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:qrph:HPoCUV:2014\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:qrph:HPoCUV:2014</td><td>QRPH HPoC UV</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:qrph:LDS-VR:2013\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:qrph:LDS-VR:2013</td><td>QRPH LDS-VR</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:qrph:NHS-CatIII-UV:2015\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:qrph:NHS-CatIII-UV:2015</td><td>QRPH EHDI NHS Cat III</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:qrph:NHS-Catl-UV:2015\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:qrph:NHS-Catl-UV:2015</td><td>QRPH EHDI NHS Cat I</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:qrph:bfdr:2011\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:qrph:bfdr:2011</td><td>QRPH BFDR</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:qrph:crd:2008\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:qrph:crd:2008</td><td>QRPH CRD</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:qrph:crpc:2012\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:qrph:crpc:2012</td><td>QRPH CRPC</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:qrph:dsc:2008\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:qrph:dsc:2008</td><td>QRPH DSC</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:qrph:ehcp:2010\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:qrph:ehcp:2010</td><td>QRPH EHCP</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:qrph:ehdi:2014\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:qrph:ehdi:2014</td><td>QRPH EHDI</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:qrph:ehdiwd:2013\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:qrph:ehdiwd:2013</td><td>QRPH EHDI-WD</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:qrph:fp:2014\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:qrph:fp:2014</td><td>QRPH FP</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:qrph:fp:2017\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:qrph:fp:2017</td><td>QRPH FP V2</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:qrph:hbs:2009\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:qrph:hbs:2009</td><td>QRPH HBS</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:qrph:hw:2013\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:qrph:hw:2013</td><td>QRPH HW</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:qrph:mch:2009\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:qrph:mch:2009</td><td>QRPH MCH</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:qrph:ms-vrdr:2013\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:qrph:ms-vrdr:2013</td><td>QRPH MS-VRDR</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:qrph:prph:2009\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:qrph:prph:2009</td><td>QRPH PRPH-Ca</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:qrph:prq:2019\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:qrph:prq:2019</td><td>QRPH PRQ</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:qrph:qmd-eh:2010\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:qrph:qmd-eh:2010</td><td>QRPH QMD-EH</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:qrph:qme-eh:2010\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:qrph:qme-eh:2010</td><td>QRPH QME-EH</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode-urn:ihe:qrph:vrdr:2013\"> </a><code>http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  urn:ihe:qrph:vrdr:2013</td><td>QRPH VRDR</td><td/></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes-urn:hl7-org:sdwg:ccda-nonXMLBody:1.1\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-HL7DocumentFormatCodes.html#v3-HL7DocumentFormatCodes-urn.58hl7-org.58sdwg.58ccda-nonXMLBody.581.461\">urn:hl7-org:sdwg:ccda-nonXMLBody:1.1</a></td><td>ccda-nonXMLBody:1.1</td><td>C-CDA 1.1 constraints using a non structured body</td></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes-urn:hl7-org:sdwg:ccda-nonXMLBody:2.1\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-HL7DocumentFormatCodes.html#v3-HL7DocumentFormatCodes-urn.58hl7-org.58sdwg.58ccda-nonXMLBody.582.461\">urn:hl7-org:sdwg:ccda-nonXMLBody:2.1</a></td><td>ccda-nonXMLBody:2.1</td><td>C-CDA 2.1 constraints using a non structured body</td></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes-urn:hl7-org:sdwg:ccda-nonXMLBody:2.2\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-HL7DocumentFormatCodes.html#v3-HL7DocumentFormatCodes-urn.58hl7-org.58sdwg.58ccda-nonXMLBody.582.462\">urn:hl7-org:sdwg:ccda-nonXMLBody:2.2</a></td><td>ccda-nonXMLBody:2.2</td><td>C-CDA 2.2 constraints using a non structured body</td></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes-urn:hl7-org:sdwg:ccda-structuredBody:1.1\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-HL7DocumentFormatCodes.html#v3-HL7DocumentFormatCodes-urn.58hl7-org.58sdwg.58ccda-structuredBody.581.461\">urn:hl7-org:sdwg:ccda-structuredBody:1.1</a></td><td>ccda-structuredBody:1.1</td><td>C-CDA 1.1 constraints using a structured body</td></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes-urn:hl7-org:sdwg:ccda-structuredBody:2.1\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-HL7DocumentFormatCodes.html#v3-HL7DocumentFormatCodes-urn.58hl7-org.58sdwg.58ccda-structuredBody.582.461\">urn:hl7-org:sdwg:ccda-structuredBody:2.1</a></td><td>ccda-structuredBody:2.1</td><td>C-CDA 2.1 constraints using a structured body</td></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes-urn:hl7-org:sdwg:ccda-structuredBody:2.2\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-HL7DocumentFormatCodes.html#v3-HL7DocumentFormatCodes-urn.58hl7-org.58sdwg.58ccda-structuredBody.582.462\">urn:hl7-org:sdwg:ccda-structuredBody:2.2</a></td><td>ccda-structuredBody:2.2</td><td>C-CDA 2.2 constraints using a structured body</td></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes-urn:hl7-org:sdwg:pacp-nonXMLBody:1.0\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-HL7DocumentFormatCodes.html#v3-HL7DocumentFormatCodes-urn.58hl7-org.58sdwg.58pacp-nonXMLBody.581.460\">urn:hl7-org:sdwg:pacp-nonXMLBody:1.0</a></td><td>pacp-nonXMLBody:1.0</td><td>PACP 1.0 constraints using a non structured body</td></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes-urn:hl7-org:sdwg:pacp-nonXMLBody:1.1\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-HL7DocumentFormatCodes.html#v3-HL7DocumentFormatCodes-urn.58hl7-org.58sdwg.58pacp-nonXMLBody.581.461\">urn:hl7-org:sdwg:pacp-nonXMLBody:1.1</a></td><td>pacp-nonXMLBody:1.1</td><td>PACP 1.1 constraints using a non structured body</td></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes-urn:hl7-org:sdwg:pacp-nonXMLBody:1.2\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-HL7DocumentFormatCodes.html#v3-HL7DocumentFormatCodes-urn.58hl7-org.58sdwg.58pacp-nonXMLBody.581.462\">urn:hl7-org:sdwg:pacp-nonXMLBody:1.2</a></td><td>pacp-nonXMLBody:1.2</td><td>PACP 1.2 constraints using a non structured body</td></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes-urn:hl7-org:sdwg:pacp-nonXMLBody:1.3\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-HL7DocumentFormatCodes.html#v3-HL7DocumentFormatCodes-urn.58hl7-org.58sdwg.58pacp-nonXMLBody.581.463\">urn:hl7-org:sdwg:pacp-nonXMLBody:1.3</a></td><td>pacp-nonXMLBody:1.3</td><td>PACP 1.3 constraints using a non structured body</td></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes-urn:hl7-org:sdwg:pacp-structuredBody:1.0\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-HL7DocumentFormatCodes.html#v3-HL7DocumentFormatCodes-urn.58hl7-org.58sdwg.58pacp-structuredBody.581.460\">urn:hl7-org:sdwg:pacp-structuredBody:1.0</a></td><td>pacp-structuredBody:1.0</td><td>PACP 1.0 constraints using a structured body</td></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes-urn:hl7-org:sdwg:pacp-structuredBody:1.1\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-HL7DocumentFormatCodes.html#v3-HL7DocumentFormatCodes-urn.58hl7-org.58sdwg.58pacp-structuredBody.581.461\">urn:hl7-org:sdwg:pacp-structuredBody:1.1</a></td><td>pacp-structuredBody:1.1</td><td>PACP 1.1 constraints using a structured body</td></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes-urn:hl7-org:sdwg:pacp-structuredBody:1.2\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-HL7DocumentFormatCodes.html#v3-HL7DocumentFormatCodes-urn.58hl7-org.58sdwg.58pacp-structuredBody.581.462\">urn:hl7-org:sdwg:pacp-structuredBody:1.2</a></td><td>pacp-structuredBody:1.2</td><td>PACP 1.2 constraints using a structured body</td></tr><tr><td><a name=\"ValueSet-R5-endpoint-payload-type-for-R4-http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes-urn:hl7-org:sdwg:pacp-structuredBody:1.3\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes</code></td><td>3.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-v3-HL7DocumentFormatCodes.html#v3-HL7DocumentFormatCodes-urn.58hl7-org.58sdwg.58pacp-structuredBody.581.463\">urn:hl7-org:sdwg:pacp-structuredBody:1.3</a></td><td>pacp-structuredBody:1.3</td><td>PACP 1.3 constraints using a structured body</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "pa"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-endpoint-payload-type-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-endpoint-payload-type-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ValueSetR5EndpointPayloadTypeForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.EndpointPayloadType for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Patient Administration"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Patient Administration" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/pafm" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from http://hl7.org/fhir/ValueSet/endpoint-payload-type|5.0.0 for use in FHIR R4 that is appropriate for use but unavailable in `http://hl7.org/fhir/ValueSet/endpoint-payload-type|4.0.1`."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/endpoint-payload-type|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `Endpoint.payload.type` as Example\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/endpoint-payload-type|5.0.0`\n* `http://hl7.org/fhir/ValueSet/endpoint-payload-type|4.3.0`\n* `http://hl7.org/fhir/ValueSet/endpoint-payload-type|4.0.1`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:card:CRC:2012`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:card:EPRC-IE:2014`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:card:imaging:2011`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:dent:CDA:ImagingReportStructuredHeadings:2013`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:dent:PDF`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:dent:TEXT`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:bppc-sd:2007`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:bppc:2007`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:dsg:detached:2014`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:dsg:enveloping:2014`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds-sd:pdf:2008`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xds-sd:text:2008`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:iti:xdw:2011:workflowDoc`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:lab:xd-lab:2008`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pcc:apr:edu:2008`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pcc:apr:handp:2008`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pcc:apr:lab:2008`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pcc:aps:2007`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pcc:cm:2008`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pcc:crc:2008`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pcc:ctn:2007`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pcc:edes:2007`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pcc:edpn:2007`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pcc:edr:2007`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pcc:ets:2011`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pcc:hp:2008`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pcc:its:2011`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pcc:ldhp:2009`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pcc:lds:2009`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pcc:mds:2009`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pcc:nds:2010`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pcc:nn:2007`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pcc:ppvs:2010`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pcc:tn:2007`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pcc:trs:2011`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pcc:xds-ms:2007`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pcc:xphr:2007`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pharm:dis:2010`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pharm:padv:2010`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pharm:pml:2013`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:pharm:pre:2010`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:rad:CDA:ImagingReportStructuredHeadings:2013`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:rad:PDF`\n* `http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode#urn:ihe:rad:TEXT`\n* `http://terminology.hl7.org/CodeSystem/endpoint-payload-type#any`\n* `http://terminology.hl7.org/CodeSystem/endpoint-payload-type#none`\r\n\r\nFollowing are the generation technical comments:\r\nAll concepts in the comparison are have code literals listed as identical.\nThe source value set has more active concepts (106) than the target (73), so the source is broader than the target.\nAll concepts in the comparison are listed as identical.\nThe source and target value sets have the same number of active concepts (73)."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-nonXMLBody:1.1" ] ;
+         fhir:display [ fhir:v "For documents following C-CDA 1.1 constraints using a non structured body." ]
+       ] [
+         fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-nonXMLBody:2.1" ] ;
+         fhir:display [ fhir:v "For documents following C-CDA 2.1 constraints using a non structured body." ]
+       ] [
+         fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-structuredBody:1.1" ] ;
+         fhir:display [ fhir:v "For documents following C-CDA 1.1 constraints using a structured body." ]
+       ] [
+         fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-structuredBody:2.1" ] ;
+         fhir:display [ fhir:v "For documents following C-CDA 2.1 constraints using a structured body." ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe.palm:apsr:2016" ] ;
+         fhir:display [ fhir:v "PALM APSR" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:card:CPN:2017" ] ;
+         fhir:display [ fhir:v "CARD CPN" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:iti:appc:2016:consent" ] ;
+         fhir:display [ fhir:v "ITI APPC" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:iti:xds:2017:mimeTypeSufficient" ] ;
+         fhir:display [ fhir:v "mimeType Sufficient" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pcc:360x:hl7:OMG:O19:2017" ] ;
+         fhir:display [ fhir:v "PCC 360X Referral Request" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pcc:360x:hl7:OSU:O51:2017" ] ;
+         fhir:display [ fhir:v "PCC 360X Referral Status Update" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pcc:360x:hl7:SIU:S12:2017" ] ;
+         fhir:display [ fhir:v "PCC 360X Appointment Notification" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pcc:360x:hl7:SIU:S13:2017" ] ;
+         fhir:display [ fhir:v "PCC 360X Appointment Reschedule Notification" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pcc:360x:hl7:SIU:S15:2017" ] ;
+         fhir:display [ fhir:v "PCC 360X Appointment Cancel Notification" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pcc:360x:hl7:SIU:S26:2017" ] ;
+         fhir:display [ fhir:v "PCC 360X Appointment No-show Notification" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pcc:ic:2008" ] ;
+         fhir:display [ fhir:v "Immunization Registry Content (IRC)" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pcc:ips:2020" ] ;
+         fhir:display [ fhir:v "PCC IPS" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pcc:pcs-cr:2018" ] ;
+         fhir:display [ fhir:v "PCC PCS-CR" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pcc:pcs-cs:2018" ] ;
+         fhir:display [ fhir:v "PCC PCS-CS" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pcc:ript:2017" ] ;
+         fhir:display [ fhir:v "PCC RIPT" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pharm:cma:2017" ] ;
+         fhir:display [ fhir:v "Pharmacy CMA" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:pharm:mtp:2015" ] ;
+         fhir:display [ fhir:v "Pharmacy MTP" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:qrph:BFDR-Birth:2014" ] ;
+         fhir:display [ fhir:v "QRPH BFDR Birth CDA document" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:qrph:BFDR-FDeath:2014" ] ;
+         fhir:display [ fhir:v "QRPH BFDR Death CDA document" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:qrph:HPoCUS:2014" ] ;
+         fhir:display [ fhir:v "QRPH HPoC US" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:qrph:HPoCUV:2014" ] ;
+         fhir:display [ fhir:v "QRPH HPoC UV" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:qrph:LDS-VR:2013" ] ;
+         fhir:display [ fhir:v "QRPH LDS-VR" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:qrph:NHS-CatIII-UV:2015" ] ;
+         fhir:display [ fhir:v "QRPH EHDI NHS Cat III" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:qrph:NHS-Catl-UV:2015" ] ;
+         fhir:display [ fhir:v "QRPH EHDI NHS Cat I" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:qrph:bfdr:2011" ] ;
+         fhir:display [ fhir:v "QRPH BFDR" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:qrph:crd:2008" ] ;
+         fhir:display [ fhir:v "QRPH CRD" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:qrph:crpc:2012" ] ;
+         fhir:display [ fhir:v "QRPH CRPC" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:qrph:dsc:2008" ] ;
+         fhir:display [ fhir:v "QRPH DSC" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:qrph:ehcp:2010" ] ;
+         fhir:display [ fhir:v "QRPH EHCP" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:qrph:ehdi:2014" ] ;
+         fhir:display [ fhir:v "QRPH EHDI" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:qrph:ehdiwd:2013" ] ;
+         fhir:display [ fhir:v "QRPH EHDI-WD" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:qrph:fp:2014" ] ;
+         fhir:display [ fhir:v "QRPH FP" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:qrph:fp:2017" ] ;
+         fhir:display [ fhir:v "QRPH FP V2" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:qrph:hbs:2009" ] ;
+         fhir:display [ fhir:v "QRPH HBS" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:qrph:hw:2013" ] ;
+         fhir:display [ fhir:v "QRPH HW" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:qrph:mch:2009" ] ;
+         fhir:display [ fhir:v "QRPH MCH" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:qrph:ms-vrdr:2013" ] ;
+         fhir:display [ fhir:v "QRPH MS-VRDR" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:qrph:prph:2009" ] ;
+         fhir:display [ fhir:v "QRPH PRPH-Ca" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:qrph:prq:2019" ] ;
+         fhir:display [ fhir:v "QRPH PRQ" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:qrph:qmd-eh:2010" ] ;
+         fhir:display [ fhir:v "QRPH QMD-EH" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:qrph:qme-eh:2010" ] ;
+         fhir:display [ fhir:v "QRPH QME-EH" ]
+       ] [
+         fhir:code [ fhir:v "urn:ihe:qrph:vrdr:2013" ] ;
+         fhir:display [ fhir:v "QRPH VRDR" ]
+       ] )
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-nonXMLBody:1.1" ] ;
+         fhir:display [ fhir:v "ccda-nonXMLBody:1.1" ]
+       ] [
+         fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-nonXMLBody:2.1" ] ;
+         fhir:display [ fhir:v "ccda-nonXMLBody:2.1" ]
+       ] [
+         fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-nonXMLBody:2.2" ] ;
+         fhir:display [ fhir:v "ccda-nonXMLBody:2.2" ]
+       ] [
+         fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-structuredBody:1.1" ] ;
+         fhir:display [ fhir:v "ccda-structuredBody:1.1" ]
+       ] [
+         fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-structuredBody:2.1" ] ;
+         fhir:display [ fhir:v "ccda-structuredBody:2.1" ]
+       ] [
+         fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-structuredBody:2.2" ] ;
+         fhir:display [ fhir:v "ccda-structuredBody:2.2" ]
+       ] [
+         fhir:code [ fhir:v "urn:hl7-org:sdwg:pacp-nonXMLBody:1.0" ] ;
+         fhir:display [ fhir:v "pacp-nonXMLBody:1.0" ]
+       ] [
+         fhir:code [ fhir:v "urn:hl7-org:sdwg:pacp-nonXMLBody:1.1" ] ;
+         fhir:display [ fhir:v "pacp-nonXMLBody:1.1" ]
+       ] [
+         fhir:code [ fhir:v "urn:hl7-org:sdwg:pacp-nonXMLBody:1.2" ] ;
+         fhir:display [ fhir:v "pacp-nonXMLBody:1.2" ]
+       ] [
+         fhir:code [ fhir:v "urn:hl7-org:sdwg:pacp-nonXMLBody:1.3" ] ;
+         fhir:display [ fhir:v "pacp-nonXMLBody:1.3" ]
+       ] [
+         fhir:code [ fhir:v "urn:hl7-org:sdwg:pacp-structuredBody:1.0" ] ;
+         fhir:display [ fhir:v "pacp-structuredBody:1.0" ]
+       ] [
+         fhir:code [ fhir:v "urn:hl7-org:sdwg:pacp-structuredBody:1.1" ] ;
+         fhir:display [ fhir:v "pacp-structuredBody:1.1" ]
+       ] [
+         fhir:code [ fhir:v "urn:hl7-org:sdwg:pacp-structuredBody:1.2" ] ;
+         fhir:display [ fhir:v "pacp-structuredBody:1.2" ]
+       ] [
+         fhir:code [ fhir:v "urn:hl7-org:sdwg:pacp-structuredBody:1.3" ] ;
+         fhir:display [ fhir:v "pacp-structuredBody:1.3" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-nonXMLBody:1.1" ] ;
+       fhir:display [ fhir:v "For documents following C-CDA 1.1 constraints using a non structured body." ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-nonXMLBody:2.1" ] ;
+       fhir:display [ fhir:v "For documents following C-CDA 2.1 constraints using a non structured body." ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-structuredBody:1.1" ] ;
+       fhir:display [ fhir:v "For documents following C-CDA 1.1 constraints using a structured body." ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-structuredBody:2.1" ] ;
+       fhir:display [ fhir:v "For documents following C-CDA 2.1 constraints using a structured body." ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe.palm:apsr:2016" ] ;
+       fhir:display [ fhir:v "PALM APSR" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:card:CPN:2017" ] ;
+       fhir:display [ fhir:v "CARD CPN" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:iti:appc:2016:consent" ] ;
+       fhir:display [ fhir:v "ITI APPC" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:iti:xds:2017:mimeTypeSufficient" ] ;
+       fhir:display [ fhir:v "mimeType Sufficient" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:pcc:360x:hl7:OMG:O19:2017" ] ;
+       fhir:display [ fhir:v "PCC 360X Referral Request" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:pcc:360x:hl7:OSU:O51:2017" ] ;
+       fhir:display [ fhir:v "PCC 360X Referral Status Update" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:pcc:360x:hl7:SIU:S12:2017" ] ;
+       fhir:display [ fhir:v "PCC 360X Appointment Notification" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:pcc:360x:hl7:SIU:S13:2017" ] ;
+       fhir:display [ fhir:v "PCC 360X Appointment Reschedule Notification" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:pcc:360x:hl7:SIU:S15:2017" ] ;
+       fhir:display [ fhir:v "PCC 360X Appointment Cancel Notification" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:pcc:360x:hl7:SIU:S26:2017" ] ;
+       fhir:display [ fhir:v "PCC 360X Appointment No-show Notification" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:pcc:ic:2008" ] ;
+       fhir:display [ fhir:v "Immunization Registry Content (IRC)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:pcc:ips:2020" ] ;
+       fhir:display [ fhir:v "PCC IPS" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:pcc:pcs-cr:2018" ] ;
+       fhir:display [ fhir:v "PCC PCS-CR" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:pcc:pcs-cs:2018" ] ;
+       fhir:display [ fhir:v "PCC PCS-CS" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:pcc:ript:2017" ] ;
+       fhir:display [ fhir:v "PCC RIPT" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:pharm:cma:2017" ] ;
+       fhir:display [ fhir:v "Pharmacy CMA" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:pharm:mtp:2015" ] ;
+       fhir:display [ fhir:v "Pharmacy MTP" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:qrph:BFDR-Birth:2014" ] ;
+       fhir:display [ fhir:v "QRPH BFDR Birth CDA document" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:qrph:BFDR-FDeath:2014" ] ;
+       fhir:display [ fhir:v "QRPH BFDR Death CDA document" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:qrph:HPoCUS:2014" ] ;
+       fhir:display [ fhir:v "QRPH HPoC US" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:qrph:HPoCUV:2014" ] ;
+       fhir:display [ fhir:v "QRPH HPoC UV" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:qrph:LDS-VR:2013" ] ;
+       fhir:display [ fhir:v "QRPH LDS-VR" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:qrph:NHS-CatIII-UV:2015" ] ;
+       fhir:display [ fhir:v "QRPH EHDI NHS Cat III" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:qrph:NHS-Catl-UV:2015" ] ;
+       fhir:display [ fhir:v "QRPH EHDI NHS Cat I" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:qrph:bfdr:2011" ] ;
+       fhir:display [ fhir:v "QRPH BFDR" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:qrph:crd:2008" ] ;
+       fhir:display [ fhir:v "QRPH CRD" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:qrph:crpc:2012" ] ;
+       fhir:display [ fhir:v "QRPH CRPC" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:qrph:dsc:2008" ] ;
+       fhir:display [ fhir:v "QRPH DSC" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:qrph:ehcp:2010" ] ;
+       fhir:display [ fhir:v "QRPH EHCP" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:qrph:ehdi:2014" ] ;
+       fhir:display [ fhir:v "QRPH EHDI" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:qrph:ehdiwd:2013" ] ;
+       fhir:display [ fhir:v "QRPH EHDI-WD" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:qrph:fp:2014" ] ;
+       fhir:display [ fhir:v "QRPH FP" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:qrph:fp:2017" ] ;
+       fhir:display [ fhir:v "QRPH FP V2" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:qrph:hbs:2009" ] ;
+       fhir:display [ fhir:v "QRPH HBS" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:qrph:hw:2013" ] ;
+       fhir:display [ fhir:v "QRPH HW" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:qrph:mch:2009" ] ;
+       fhir:display [ fhir:v "QRPH MCH" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:qrph:ms-vrdr:2013" ] ;
+       fhir:display [ fhir:v "QRPH MS-VRDR" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:qrph:prph:2009" ] ;
+       fhir:display [ fhir:v "QRPH PRPH-Ca" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:qrph:prq:2019" ] ;
+       fhir:display [ fhir:v "QRPH PRQ" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:qrph:qmd-eh:2010" ] ;
+       fhir:display [ fhir:v "QRPH QMD-EH" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:qrph:qme-eh:2010" ] ;
+       fhir:display [ fhir:v "QRPH QME-EH" ]
+     ] [
+       fhir:system [
+         fhir:v "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"^^xsd:anyURI ;
+         fhir:l <http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "urn:ihe:qrph:vrdr:2013" ] ;
+       fhir:display [ fhir:v "QRPH VRDR" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-nonXMLBody:1.1" ] ;
+       fhir:display [ fhir:v "ccda-nonXMLBody:1.1" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-nonXMLBody:2.1" ] ;
+       fhir:display [ fhir:v "ccda-nonXMLBody:2.1" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-nonXMLBody:2.2" ] ;
+       fhir:display [ fhir:v "ccda-nonXMLBody:2.2" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-structuredBody:1.1" ] ;
+       fhir:display [ fhir:v "ccda-structuredBody:1.1" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-structuredBody:2.1" ] ;
+       fhir:display [ fhir:v "ccda-structuredBody:2.1" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:ccda-structuredBody:2.2" ] ;
+       fhir:display [ fhir:v "ccda-structuredBody:2.2" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:pacp-nonXMLBody:1.0" ] ;
+       fhir:display [ fhir:v "pacp-nonXMLBody:1.0" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:pacp-nonXMLBody:1.1" ] ;
+       fhir:display [ fhir:v "pacp-nonXMLBody:1.1" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:pacp-nonXMLBody:1.2" ] ;
+       fhir:display [ fhir:v "pacp-nonXMLBody:1.2" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:pacp-nonXMLBody:1.3" ] ;
+       fhir:display [ fhir:v "pacp-nonXMLBody:1.3" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:pacp-structuredBody:1.0" ] ;
+       fhir:display [ fhir:v "pacp-structuredBody:1.0" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:pacp-structuredBody:1.1" ] ;
+       fhir:display [ fhir:v "pacp-structuredBody:1.1" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:pacp-structuredBody:1.2" ] ;
+       fhir:display [ fhir:v "pacp-structuredBody:1.2" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes>
+       ] ;
+       fhir:version [ fhir:v "3.0.0" ] ;
+       fhir:code [ fhir:v "urn:hl7-org:sdwg:pacp-structuredBody:1.3" ] ;
+       fhir:display [ fhir:v "pacp-structuredBody:1.3" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

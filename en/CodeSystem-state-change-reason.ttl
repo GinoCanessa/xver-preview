@@ -1,0 +1,184 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/state-change-reason> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "state-change-reason"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://terminology.hl7.org/CodeSystem/state-change-reason</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">adverseEvent<a name=\"state-change-reason-adverseEvent\"> </a></td><td>adverse event</td><td>adverse event.</td></tr><tr><td style=\"white-space:nowrap\">death<a name=\"state-change-reason-death\"> </a></td><td>death (adverse event)</td><td>death (adverse event).</td></tr><tr><td style=\"white-space:nowrap\">notEligible<a name=\"state-change-reason-notEligible\"> </a></td><td>did not meet eligibility criteria</td><td>did not meet eligibility criteria.</td></tr><tr><td style=\"white-space:nowrap\">eligibleButNo<a name=\"state-change-reason-eligibleButNo\"> </a></td><td>eligible but unwilling or unable to participate</td><td>eligible but unwilling or unable to participate.</td></tr><tr><td style=\"white-space:nowrap\">enrolled<a name=\"state-change-reason-enrolled\"> </a></td><td>enrolled or registered</td><td>enrolled or registered.</td></tr><tr><td style=\"white-space:nowrap\">exclusion<a name=\"state-change-reason-exclusion\"> </a></td><td>exclusion</td><td>exclusion.</td></tr><tr><td style=\"white-space:nowrap\">followUpComplete<a name=\"state-change-reason-followUpComplete\"> </a></td><td>follow-up complete</td><td>follow-up complete.</td></tr><tr><td style=\"white-space:nowrap\">inclusion<a name=\"state-change-reason-inclusion\"> </a></td><td>inclusion</td><td>inclusion.</td></tr><tr><td style=\"white-space:nowrap\">informedConsentSigned<a name=\"state-change-reason-informedConsentSigned\"> </a></td><td>Informed consent signed</td><td>Informed consent signed.</td></tr><tr><td style=\"white-space:nowrap\">intOrObsComplete<a name=\"state-change-reason-intOrObsComplete\"> </a></td><td>intervention or observation complete</td><td>intervention or observation complete.</td></tr><tr><td style=\"white-space:nowrap\">nonCompliance<a name=\"state-change-reason-nonCompliance\"> </a></td><td>non-compliance</td><td>non-compliance.</td></tr><tr><td style=\"white-space:nowrap\">preReg<a name=\"state-change-reason-preReg\"> </a></td><td>pre-registered or slot reserved</td><td>pre-registered or slot reserved.</td></tr><tr><td style=\"white-space:nowrap\">refuseConsent<a name=\"state-change-reason-refuseConsent\"> </a></td><td>refuse consent</td><td>refuse consent.</td></tr><tr><td style=\"white-space:nowrap\">screenFailure<a name=\"state-change-reason-screenFailure\"> </a></td><td>screen failure</td><td>screen failure.</td></tr><tr><td style=\"white-space:nowrap\">studyClosed<a name=\"state-change-reason-studyClosed\"> </a></td><td>study permanently closed to accrual</td><td>study permanently closed to accrual.</td></tr><tr><td style=\"white-space:nowrap\">studyTerminated<a name=\"state-change-reason-studyTerminated\"> </a></td><td>study terminated</td><td>study terminated.</td></tr><tr><td style=\"white-space:nowrap\">subjectRefusal<a name=\"state-change-reason-subjectRefusal\"> </a></td><td>subject refusal</td><td>subject refusal.</td></tr><tr><td style=\"white-space:nowrap\">unwillingOrUnable<a name=\"state-change-reason-unwillingOrUnable\"> </a></td><td>unwilling or unable to participate</td><td>unwilling or unable to participate.</td></tr><tr><td style=\"white-space:nowrap\">withdrawnConsent<a name=\"state-change-reason-withdrawnConsent\"> </a></td><td>withdrawn consent</td><td>withdrawn consent.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "brr"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/state-change-reason"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/state-change-reason>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "StateChangeReason"] ; # 
+  fhir:title [ fhir:v "StateChangeReason"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2020-04-09T16:10:28-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Biomedical Research and Regulation"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Biomedical Research and Regulation" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/rcrim" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Indicates why the state of the subject changed."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/state-change-reason|1.0.0"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/state-change-reason?version=1.0.0>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "adverseEvent" ] ;
+     fhir:display [ fhir:v "adverse event" ] ;
+     fhir:definition [ fhir:v "adverse event." ]
+  ] [
+     fhir:code [ fhir:v "death" ] ;
+     fhir:display [ fhir:v "death (adverse event)" ] ;
+     fhir:definition [ fhir:v "death (adverse event)." ]
+  ] [
+     fhir:code [ fhir:v "notEligible" ] ;
+     fhir:display [ fhir:v "did not meet eligibility criteria" ] ;
+     fhir:definition [ fhir:v "did not meet eligibility criteria." ]
+  ] [
+     fhir:code [ fhir:v "eligibleButNo" ] ;
+     fhir:display [ fhir:v "eligible but unwilling or unable to participate" ] ;
+     fhir:definition [ fhir:v "eligible but unwilling or unable to participate." ]
+  ] [
+     fhir:code [ fhir:v "enrolled" ] ;
+     fhir:display [ fhir:v "enrolled or registered" ] ;
+     fhir:definition [ fhir:v "enrolled or registered." ]
+  ] [
+     fhir:code [ fhir:v "exclusion" ] ;
+     fhir:display [ fhir:v "exclusion" ] ;
+     fhir:definition [ fhir:v "exclusion." ]
+  ] [
+     fhir:code [ fhir:v "followUpComplete" ] ;
+     fhir:display [ fhir:v "follow-up complete" ] ;
+     fhir:definition [ fhir:v "follow-up complete." ]
+  ] [
+     fhir:code [ fhir:v "inclusion" ] ;
+     fhir:display [ fhir:v "inclusion" ] ;
+     fhir:definition [ fhir:v "inclusion." ]
+  ] [
+     fhir:code [ fhir:v "informedConsentSigned" ] ;
+     fhir:display [ fhir:v "Informed consent signed" ] ;
+     fhir:definition [ fhir:v "Informed consent signed." ]
+  ] [
+     fhir:code [ fhir:v "intOrObsComplete" ] ;
+     fhir:display [ fhir:v "intervention or observation complete" ] ;
+     fhir:definition [ fhir:v "intervention or observation complete." ]
+  ] [
+     fhir:code [ fhir:v "nonCompliance" ] ;
+     fhir:display [ fhir:v "non-compliance" ] ;
+     fhir:definition [ fhir:v "non-compliance." ]
+  ] [
+     fhir:code [ fhir:v "preReg" ] ;
+     fhir:display [ fhir:v "pre-registered or slot reserved" ] ;
+     fhir:definition [ fhir:v "pre-registered or slot reserved." ]
+  ] [
+     fhir:code [ fhir:v "refuseConsent" ] ;
+     fhir:display [ fhir:v "refuse consent" ] ;
+     fhir:definition [ fhir:v "refuse consent." ]
+  ] [
+     fhir:code [ fhir:v "screenFailure" ] ;
+     fhir:display [ fhir:v "screen failure" ] ;
+     fhir:definition [ fhir:v "screen failure." ]
+  ] [
+     fhir:code [ fhir:v "studyClosed" ] ;
+     fhir:display [ fhir:v "study permanently closed to accrual" ] ;
+     fhir:definition [ fhir:v "study permanently closed to accrual." ]
+  ] [
+     fhir:code [ fhir:v "studyTerminated" ] ;
+     fhir:display [ fhir:v "study terminated" ] ;
+     fhir:definition [ fhir:v "study terminated." ]
+  ] [
+     fhir:code [ fhir:v "subjectRefusal" ] ;
+     fhir:display [ fhir:v "subject refusal" ] ;
+     fhir:definition [ fhir:v "subject refusal." ]
+  ] [
+     fhir:code [ fhir:v "unwillingOrUnable" ] ;
+     fhir:display [ fhir:v "unwilling or unable to participate" ] ;
+     fhir:definition [ fhir:v "unwilling or unable to participate." ]
+  ] [
+     fhir:code [ fhir:v "withdrawnConsent" ] ;
+     fhir:display [ fhir:v "withdrawn consent" ] ;
+     fhir:definition [ fhir:v "withdrawn consent." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

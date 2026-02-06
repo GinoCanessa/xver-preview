@@ -1,0 +1,440 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-ImagingSelection-elements-for-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-ImagingSelection-elements-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-ImagingSelection-elements-for-R4</b></p><a name=\"ConceptMap-R5-ImagingSelection-elements-for-R4\"> </a><a name=\"hcConceptMap-R5-ImagingSelection-elements-for-R4\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ImagingSelection|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/ImagingSelection|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">ImagingSelection</td><td style=\"border-left-width: 0px\">ImagingSelection</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `ImagingSelection` is representable via FHIR R4B Resource `Basic`.\nElement `ImagingSelection` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">ImagingSelection.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">Basic.meta</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.meta`, use that element instead.\nElement `ImagingSelection.meta` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">ImagingSelection.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">Basic.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `ImagingSelection.implicitRules` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">ImagingSelection.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">Basic.language</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.language`, use that element instead.\nElement `ImagingSelection.language` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">ImagingSelection.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">Basic.text</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `ImagingSelection.text` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">ImagingSelection.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">Basic.contained</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `ImagingSelection.contained` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">ImagingSelection.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">Basic.identifier</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `ImagingSelection.identifier` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">ImagingSelection.status</td><td style=\"border-left-width: 0px\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:status</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.status` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">ImagingSelection.subject</td><td style=\"border-left-width: 0px\">subject</td><td style=\"border-right-width: 0px\">Basic.subject</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.subject`, use that element instead.\nElement `ImagingSelection.subject` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">ImagingSelection.issued</td><td style=\"border-left-width: 0px\">issued</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:issued</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.issued` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ImagingSelection.performer</td><td style=\"border-left-width: 0px; border-bottom-style: none\">performer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:performer</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.performer` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.performer</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.performer` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ImagingSelection.performer.function</td><td style=\"border-left-width: 0px; border-bottom-style: none\">function</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:performer:function</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.performer.function` is part of an existing definition because parent element `ImagingSelection.performer` requires a cross-version extension.\nElement `ImagingSelection.performer.function` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.performer:function</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.performer.function` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ImagingSelection.performer.actor</td><td style=\"border-left-width: 0px; border-bottom-style: none\">actor</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:performer:actor</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.performer.actor` is part of an existing definition because parent element `ImagingSelection.performer` requires a cross-version extension.\nElement `ImagingSelection.performer.actor` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.performer:actor</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.performer.actor` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">ImagingSelection.basedOn</td><td style=\"border-left-width: 0px\">basedOn</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:basedOn</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.basedOn` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">ImagingSelection.category</td><td style=\"border-left-width: 0px\">category</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:category</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.category` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">ImagingSelection.code</td><td style=\"border-left-width: 0px\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:code</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.code` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">ImagingSelection.studyUid</td><td style=\"border-left-width: 0px\">studyUid</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:studyUid</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.studyUid` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">ImagingSelection.derivedFrom</td><td style=\"border-left-width: 0px\">derivedFrom</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:derivedFrom</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.derivedFrom` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">ImagingSelection.endpoint</td><td style=\"border-left-width: 0px\">endpoint</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:endpoint</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.endpoint` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">ImagingSelection.seriesUid</td><td style=\"border-left-width: 0px\">seriesUid</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:seriesUid</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.seriesUid` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">ImagingSelection.seriesNumber</td><td style=\"border-left-width: 0px\">seriesNumber</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:seriesNumber</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.seriesNumber` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">ImagingSelection.frameOfReferenceUid</td><td style=\"border-left-width: 0px\">frameOfReferenceUid</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:frameOfReferenceUid</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.frameOfReferenceUid` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">ImagingSelection.bodySite</td><td style=\"border-left-width: 0px\">bodySite</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:bodySite</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.bodySite` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">ImagingSelection.focus</td><td style=\"border-left-width: 0px\">focus</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:focus</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.focus` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ImagingSelection.instance</td><td style=\"border-left-width: 0px; border-bottom-style: none\">instance</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:instance</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.instance` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.instance` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ImagingSelection.instance.uid</td><td style=\"border-left-width: 0px; border-bottom-style: none\">uid</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:instance:uid</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.instance.uid` is part of an existing definition because parent element `ImagingSelection.instance` requires a cross-version extension.\nElement `ImagingSelection.instance.uid` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:uid</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.instance.uid` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ImagingSelection.instance.number</td><td style=\"border-left-width: 0px; border-bottom-style: none\">number</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:instance:number</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.instance.number` is part of an existing definition because parent element `ImagingSelection.instance` requires a cross-version extension.\nElement `ImagingSelection.instance.number` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:number</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.instance.number` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ImagingSelection.instance.sopClass</td><td style=\"border-left-width: 0px; border-bottom-style: none\">sopClass</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:instance:sopClass</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.instance.sopClass` is part of an existing definition because parent element `ImagingSelection.instance` requires a cross-version extension.\nElement `ImagingSelection.instance.sopClass` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:sopClass</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.instance.sopClass` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ImagingSelection.instance.subset</td><td style=\"border-left-width: 0px; border-bottom-style: none\">subset</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:instance:subset</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.instance.subset` is part of an existing definition because parent element `ImagingSelection.instance` requires a cross-version extension.\nElement `ImagingSelection.instance.subset` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:subset</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.instance.subset` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ImagingSelection.instance.imageRegion2D</td><td style=\"border-left-width: 0px; border-bottom-style: none\">imageRegion2D</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:instance:imageRegion2D</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.instance.imageRegion2D` is part of an existing definition because parent element `ImagingSelection.instance` requires a cross-version extension.\nElement `ImagingSelection.instance.imageRegion2D` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion2D</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.instance.imageRegion2D` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ImagingSelection.instance.imageRegion2D.regionType</td><td style=\"border-left-width: 0px; border-bottom-style: none\">regionType</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:instance:imageRegion2D:regionType</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.instance.imageRegion2D.regionType` is part of an existing definition because parent element `ImagingSelection.instance.imageRegion2D` requires a cross-version extension.\nElement `ImagingSelection.instance.imageRegion2D.regionType` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion2D:regionType</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.instance.imageRegion2D.regionType` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ImagingSelection.instance.imageRegion2D.coordinate</td><td style=\"border-left-width: 0px; border-bottom-style: none\">coordinate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:instance:imageRegion2D:coordinate</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.instance.imageRegion2D.coordinate` is part of an existing definition because parent element `ImagingSelection.instance.imageRegion2D` requires a cross-version extension.\nElement `ImagingSelection.instance.imageRegion2D.coordinate` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion2D:coordinate</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.instance.imageRegion2D.coordinate` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ImagingSelection.instance.imageRegion3D</td><td style=\"border-left-width: 0px; border-bottom-style: none\">imageRegion3D</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:instance:imageRegion3D</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.instance.imageRegion3D` is part of an existing definition because parent element `ImagingSelection.instance` requires a cross-version extension.\nElement `ImagingSelection.instance.imageRegion3D` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion3D</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.instance.imageRegion3D` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ImagingSelection.instance.imageRegion3D.regionType</td><td style=\"border-left-width: 0px; border-bottom-style: none\">regionType</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:instance:imageRegion3D:regionType</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.instance.imageRegion3D.regionType` is part of an existing definition because parent element `ImagingSelection.instance.imageRegion3D` requires a cross-version extension.\nElement `ImagingSelection.instance.imageRegion3D.regionType` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion3D:regionType</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.instance.imageRegion3D.regionType` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ImagingSelection.instance.imageRegion3D.coordinate</td><td style=\"border-left-width: 0px; border-bottom-style: none\">coordinate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:instance:imageRegion3D:coordinate</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.instance.imageRegion3D.coordinate` is part of an existing definition because parent element `ImagingSelection.instance.imageRegion3D` requires a cross-version extension.\nElement `ImagingSelection.instance.imageRegion3D.coordinate` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion3D:coordinate</td><td style=\"border-left-width: 0px\"/><td>Element `ImagingSelection.instance.imageRegion3D.coordinate` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-ImagingSelection-elements-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-ImagingSelection-elements-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5ImagingSelectionElementsForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:32.9897309-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/ImagingSelection"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/ImagingSelection>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "ImagingSelection" ] ;
+       fhir:display [ fhir:v "ImagingSelection" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `ImagingSelection` is representable via FHIR R4B Resource `Basic`.\nElement `ImagingSelection` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `ImagingSelection.meta` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `ImagingSelection.implicitRules` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.language`, use that element instead.\nElement `ImagingSelection.language` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `ImagingSelection.text` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `ImagingSelection.contained` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `ImagingSelection.identifier` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.status` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `ImagingSelection.subject` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.issued" ] ;
+       fhir:display [ fhir:v "issued" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:issued" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.issued` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.performer" ] ;
+       fhir:display [ fhir:v "performer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:performer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.performer` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.performer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.performer` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.performer.function" ] ;
+       fhir:display [ fhir:v "function" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:performer:function" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.performer.function` is part of an existing definition because parent element `ImagingSelection.performer` requires a cross-version extension.\nElement `ImagingSelection.performer.function` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.performer:function" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.performer.function` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.performer.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:performer:actor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.performer.actor` is part of an existing definition because parent element `ImagingSelection.performer` requires a cross-version extension.\nElement `ImagingSelection.performer.actor` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.performer:actor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.performer.actor` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.basedOn" ] ;
+       fhir:display [ fhir:v "basedOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:basedOn" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.basedOn` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.category` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.code` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.studyUid" ] ;
+       fhir:display [ fhir:v "studyUid" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:studyUid" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.studyUid` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.derivedFrom" ] ;
+       fhir:display [ fhir:v "derivedFrom" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:derivedFrom" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.derivedFrom` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.endpoint" ] ;
+       fhir:display [ fhir:v "endpoint" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:endpoint" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.endpoint` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.seriesUid" ] ;
+       fhir:display [ fhir:v "seriesUid" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:seriesUid" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.seriesUid` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.seriesNumber" ] ;
+       fhir:display [ fhir:v "seriesNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:seriesNumber" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.seriesNumber` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.frameOfReferenceUid" ] ;
+       fhir:display [ fhir:v "frameOfReferenceUid" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:frameOfReferenceUid" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.frameOfReferenceUid` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.bodySite" ] ;
+       fhir:display [ fhir:v "bodySite" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:bodySite" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.bodySite` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.focus" ] ;
+       fhir:display [ fhir:v "focus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:focus" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.focus` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.instance" ] ;
+       fhir:display [ fhir:v "instance" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:instance" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.instance` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.instance` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.instance.uid" ] ;
+       fhir:display [ fhir:v "uid" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:instance:uid" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.instance.uid` is part of an existing definition because parent element `ImagingSelection.instance` requires a cross-version extension.\nElement `ImagingSelection.instance.uid` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:uid" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.instance.uid` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.instance.number" ] ;
+       fhir:display [ fhir:v "number" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:instance:number" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.instance.number` is part of an existing definition because parent element `ImagingSelection.instance` requires a cross-version extension.\nElement `ImagingSelection.instance.number` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:number" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.instance.number` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.instance.sopClass" ] ;
+       fhir:display [ fhir:v "sopClass" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:instance:sopClass" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.instance.sopClass` is part of an existing definition because parent element `ImagingSelection.instance` requires a cross-version extension.\nElement `ImagingSelection.instance.sopClass` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:sopClass" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.instance.sopClass` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.instance.subset" ] ;
+       fhir:display [ fhir:v "subset" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:instance:subset" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.instance.subset` is part of an existing definition because parent element `ImagingSelection.instance` requires a cross-version extension.\nElement `ImagingSelection.instance.subset` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:subset" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.instance.subset` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.instance.imageRegion2D" ] ;
+       fhir:display [ fhir:v "imageRegion2D" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:instance:imageRegion2D" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.instance.imageRegion2D` is part of an existing definition because parent element `ImagingSelection.instance` requires a cross-version extension.\nElement `ImagingSelection.instance.imageRegion2D` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion2D" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.instance.imageRegion2D` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.instance.imageRegion2D.regionType" ] ;
+       fhir:display [ fhir:v "regionType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:instance:imageRegion2D:regionType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.instance.imageRegion2D.regionType` is part of an existing definition because parent element `ImagingSelection.instance.imageRegion2D` requires a cross-version extension.\nElement `ImagingSelection.instance.imageRegion2D.regionType` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion2D:regionType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.instance.imageRegion2D.regionType` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.instance.imageRegion2D.coordinate" ] ;
+       fhir:display [ fhir:v "coordinate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:instance:imageRegion2D:coordinate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.instance.imageRegion2D.coordinate` is part of an existing definition because parent element `ImagingSelection.instance.imageRegion2D` requires a cross-version extension.\nElement `ImagingSelection.instance.imageRegion2D.coordinate` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion2D:coordinate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.instance.imageRegion2D.coordinate` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.instance.imageRegion3D" ] ;
+       fhir:display [ fhir:v "imageRegion3D" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:instance:imageRegion3D" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.instance.imageRegion3D` is part of an existing definition because parent element `ImagingSelection.instance` requires a cross-version extension.\nElement `ImagingSelection.instance.imageRegion3D` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion3D" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.instance.imageRegion3D` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.instance.imageRegion3D.regionType" ] ;
+       fhir:display [ fhir:v "regionType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:instance:imageRegion3D:regionType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.instance.imageRegion3D.regionType` is part of an existing definition because parent element `ImagingSelection.instance.imageRegion3D` requires a cross-version extension.\nElement `ImagingSelection.instance.imageRegion3D.regionType` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion3D:regionType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.instance.imageRegion3D.regionType` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImagingSelection.instance.imageRegion3D.coordinate" ] ;
+       fhir:display [ fhir:v "coordinate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:instance:imageRegion3D:coordinate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.instance.imageRegion3D.coordinate` is part of an existing definition because parent element `ImagingSelection.instance.imageRegion3D` requires a cross-version extension.\nElement `ImagingSelection.instance.imageRegion3D.coordinate` is not mapped to FHIR R4B, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion3D:coordinate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImagingSelection.instance.imageRegion3D.coordinate` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

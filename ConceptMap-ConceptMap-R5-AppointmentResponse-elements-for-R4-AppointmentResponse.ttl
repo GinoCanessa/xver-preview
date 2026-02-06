@@ -1,0 +1,248 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-AppointmentResponse-elements-for-R4-AppointmentResponse> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-AppointmentResponse-elements-for-R4-AppointmentResponse"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-AppointmentResponse-elements-for-R4-AppointmentResponse</b></p><a name=\"ConceptMap-R5-AppointmentResponse-elements-for-R4-AppointmentResponse\"> </a><a name=\"hcConceptMap-R5-AppointmentResponse-elements-for-R4-AppointmentResponse\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/AppointmentResponse|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>AppointmentResponse</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse</td><td>FHIR R5 Resource `AppointmentResponse` is representable via FHIR R4B Resource `AppointmentResponse`.\nElement `AppointmentResponse` is mapped to FHIR R4B element `AppointmentResponse`.</td></tr><tr><td>AppointmentResponse.meta (meta)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.meta</td><td>Element `AppointmentResponse.meta` is mapped to FHIR R4B element `AppointmentResponse.meta`.</td></tr><tr><td>AppointmentResponse.implicitRules (implicitRules)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.implicitRules</td><td>Element `AppointmentResponse.implicitRules` is mapped to FHIR R4B element `AppointmentResponse.implicitRules`.</td></tr><tr><td>AppointmentResponse.language (language)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.language</td><td>Element `AppointmentResponse.language` is mapped to FHIR R4B element `AppointmentResponse.language`.</td></tr><tr><td>AppointmentResponse.text (text)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.text</td><td>Element `AppointmentResponse.text` is mapped to FHIR R4B element `AppointmentResponse.text`.</td></tr><tr><td>AppointmentResponse.contained (contained)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.contained</td><td>Element `AppointmentResponse.contained` is mapped to FHIR R4B element `AppointmentResponse.contained`.</td></tr><tr><td>AppointmentResponse.identifier (identifier)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.identifier</td><td>Element `AppointmentResponse.identifier` is mapped to FHIR R4B element `AppointmentResponse.identifier`.</td></tr><tr><td>AppointmentResponse.appointment (appointment)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.appointment</td><td>Element `AppointmentResponse.appointment` is mapped to FHIR R4B element `AppointmentResponse.appointment`.</td></tr><tr><td>AppointmentResponse.proposedNewTime (proposedNewTime)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.proposedNewTime</td><td>Element `AppointmentResponse.proposedNewTime` is mapped to FHIR R4B structure `AppointmentResponse`, but has no target element specified.</td></tr><tr><td>AppointmentResponse.start (start)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.start</td><td>Element `AppointmentResponse.start` is mapped to FHIR R4B element `AppointmentResponse.start`.</td></tr><tr><td>AppointmentResponse.end (end)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.end</td><td>Element `AppointmentResponse.end` is mapped to FHIR R4B element `AppointmentResponse.end`.</td></tr><tr><td>AppointmentResponse.participantType (participantType)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.participantType</td><td>Element `AppointmentResponse.participantType` is mapped to FHIR R4B element `AppointmentResponse.participantType`.</td></tr><tr><td>AppointmentResponse.actor (actor)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.actor</td><td>Element `AppointmentResponse.actor` is mapped to FHIR R4B element `AppointmentResponse.actor`.</td></tr><tr><td>AppointmentResponse.participantStatus (participantStatus)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.participantStatus</td><td>Note that the target element context `AppointmentResponse.participantStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `AppointmentResponse.participantStatus` is mapped to FHIR R4B element `AppointmentResponse.participantStatus`.</td></tr><tr><td>AppointmentResponse.comment (comment)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.comment</td><td>Element `AppointmentResponse.comment` is mapped to FHIR R4B element `AppointmentResponse.comment`.</td></tr><tr><td>AppointmentResponse.recurring (recurring)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.recurring</td><td>Element `AppointmentResponse.recurring` is mapped to FHIR R4B structure `AppointmentResponse`, but has no target element specified.</td></tr><tr><td>AppointmentResponse.occurrenceDate (occurrenceDate)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.occurrenceDate</td><td>Element `AppointmentResponse.occurrenceDate` is mapped to FHIR R4B structure `AppointmentResponse`, but has no target element specified.</td></tr><tr><td>AppointmentResponse.recurrenceId (recurrenceId)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.recurrenceId</td><td>Element `AppointmentResponse.recurrenceId` is mapped to FHIR R4B structure `AppointmentResponse`, but has no target element specified.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-AppointmentResponse-elements-for-R4-AppointmentResponse"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-AppointmentResponse-elements-for-R4-AppointmentResponse>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5AppointmentResponseElementsForR4AppointmentResponse"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:31.0234421-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/AppointmentResponse"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/AppointmentResponse>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "AppointmentResponse" ] ;
+       fhir:display [ fhir:v "AppointmentResponse" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `AppointmentResponse` is representable via FHIR R4B Resource `AppointmentResponse`.\nElement `AppointmentResponse` is mapped to FHIR R4B element `AppointmentResponse`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.meta` is mapped to FHIR R4B element `AppointmentResponse.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.implicitRules` is mapped to FHIR R4B element `AppointmentResponse.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.language` is mapped to FHIR R4B element `AppointmentResponse.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.text` is mapped to FHIR R4B element `AppointmentResponse.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.contained` is mapped to FHIR R4B element `AppointmentResponse.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.identifier` is mapped to FHIR R4B element `AppointmentResponse.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.appointment" ] ;
+       fhir:display [ fhir:v "appointment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.appointment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.appointment` is mapped to FHIR R4B element `AppointmentResponse.appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.proposedNewTime" ] ;
+       fhir:display [ fhir:v "proposedNewTime" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.proposedNewTime" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.proposedNewTime` is mapped to FHIR R4B structure `AppointmentResponse`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.start" ] ;
+       fhir:display [ fhir:v "start" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.start" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.start` is mapped to FHIR R4B element `AppointmentResponse.start`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.end" ] ;
+       fhir:display [ fhir:v "end" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.end" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.end` is mapped to FHIR R4B element `AppointmentResponse.end`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.participantType" ] ;
+       fhir:display [ fhir:v "participantType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.participantType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.participantType` is mapped to FHIR R4B element `AppointmentResponse.participantType`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.actor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.actor` is mapped to FHIR R4B element `AppointmentResponse.actor`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.participantStatus" ] ;
+       fhir:display [ fhir:v "participantStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.participantStatus" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `AppointmentResponse.participantStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `AppointmentResponse.participantStatus` is mapped to FHIR R4B element `AppointmentResponse.participantStatus`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.comment" ] ;
+       fhir:display [ fhir:v "comment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AppointmentResponse#AppointmentResponse.comment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.comment` is mapped to FHIR R4B element `AppointmentResponse.comment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.recurring" ] ;
+       fhir:display [ fhir:v "recurring" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.recurring" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.recurring` is mapped to FHIR R4B structure `AppointmentResponse`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.occurrenceDate" ] ;
+       fhir:display [ fhir:v "occurrenceDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.occurrenceDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.occurrenceDate` is mapped to FHIR R4B structure `AppointmentResponse`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.recurrenceId" ] ;
+       fhir:display [ fhir:v "recurrenceId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.recurrenceId" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.recurrenceId` is mapped to FHIR R4B structure `AppointmentResponse`, but has no target element specified." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

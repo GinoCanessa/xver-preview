@@ -1,0 +1,345 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-Goal-elements-for-R4-Goal> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-Goal-elements-for-R4-Goal"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-Goal-elements-for-R4-Goal</b></p><a name=\"ConceptMap-R5-Goal-elements-for-R4-Goal\"> </a><a name=\"hcConceptMap-R5-Goal-elements-for-R4-Goal\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Goal|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Goal|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Goal</td><td style=\"border-left-width: 0px; border-bottom-style: none\">Goal</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Goal` is representable via FHIR R4B Resource `Goal`.\nElement `Goal` is mapped to FHIR R4B element `Goal`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.outcome</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Goal` is representable via FHIR DSTU2 Resource `Goal`.\nElement `Goal` is mapped to FHIR DSTU2 element `Goal.outcome`.</td></tr><tr><td style=\"border-right-width: 0px\">Goal.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.meta</td><td style=\"border-left-width: 0px\"/><td>Element `Goal.meta` is mapped to FHIR R4B element `Goal.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">Goal.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `Goal.implicitRules` is mapped to FHIR R4B element `Goal.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">Goal.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.language</td><td style=\"border-left-width: 0px\"/><td>Element `Goal.language` is mapped to FHIR R4B element `Goal.language`.</td></tr><tr><td style=\"border-right-width: 0px\">Goal.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.text</td><td style=\"border-left-width: 0px\"/><td>Element `Goal.text` is mapped to FHIR R4B element `Goal.text`.</td></tr><tr><td style=\"border-right-width: 0px\">Goal.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.contained</td><td style=\"border-left-width: 0px\"/><td>Element `Goal.contained` is mapped to FHIR R4B element `Goal.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">Goal.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `Goal.identifier` is mapped to FHIR R4B element `Goal.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Goal.lifecycleStatus</td><td style=\"border-left-width: 0px; border-bottom-style: none\">lifecycleStatus</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.lifecycleStatus</td><td style=\"border-left-width: 0px\"/><td>Element `Goal.lifecycleStatus` is mapped to FHIR R4B element `Goal.lifecycleStatus`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.status</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Goal.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Goal.lifecycleStatus` is mapped to FHIR STU3 element `Goal.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Goal.achievementStatus</td><td style=\"border-left-width: 0px; border-bottom-style: none\">achievementStatus</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.achievementStatus</td><td style=\"border-left-width: 0px\"/><td>Element `Goal.achievementStatus` is mapped to FHIR R4B element `Goal.achievementStatus`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.status</td><td style=\"border-left-width: 0px\"/><td>Element `Goal.achievementStatus` is mapped to FHIR STU3 element `Goal.status`.</td></tr><tr><td style=\"border-right-width: 0px\">Goal.category</td><td style=\"border-left-width: 0px\">category</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.category</td><td style=\"border-left-width: 0px\"/><td>Element `Goal.category` is mapped to FHIR R4B element `Goal.category`.</td></tr><tr><td style=\"border-right-width: 0px\">Goal.continuous</td><td style=\"border-left-width: 0px\">continuous</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Goal.continuous</td><td style=\"border-left-width: 0px\"/><td>Element `Goal.continuous` is mapped to FHIR R4B structure `Goal`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Goal.priority</td><td style=\"border-left-width: 0px\">priority</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.priority</td><td style=\"border-left-width: 0px\"/><td>Element `Goal.priority` is mapped to FHIR R4B element `Goal.priority`.</td></tr><tr><td style=\"border-right-width: 0px\">Goal.description</td><td style=\"border-left-width: 0px\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.description</td><td style=\"border-left-width: 0px\"/><td>Element `Goal.description` is mapped to FHIR R4B element `Goal.description`.</td></tr><tr><td style=\"border-right-width: 0px\">Goal.subject</td><td style=\"border-left-width: 0px\">subject</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.subject</td><td style=\"border-left-width: 0px\"/><td>Element `Goal.subject` is mapped to FHIR R4B element `Goal.subject`.</td></tr><tr><td style=\"border-right-width: 0px\">Goal.start[x]</td><td style=\"border-left-width: 0px\">start[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.start[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Goal.start[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`.\nElement `Goal.start[x]` is mapped to FHIR R4B element `Goal.start[x]`.\nNote that the target element context `Goal.start[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Goal.target</td><td style=\"border-left-width: 0px; border-bottom-style: none\">target</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.target</td><td style=\"border-left-width: 0px\"/><td>Element `Goal.target` is mapped to FHIR R4B element `Goal.target`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.target[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Goal.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`.\nElement `Goal.target` is mapped to FHIR DSTU2 element `Goal.target[x]`.\nNote that the target element context `Goal.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Goal.target.measure</td><td style=\"border-left-width: 0px; border-bottom-style: none\">measure</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.target.measure</td><td style=\"border-left-width: 0px\"/><td>Element `Goal.target.measure` is mapped to FHIR R4B element `Goal.target.measure`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.target[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Goal.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`.\nElement `Goal.target.measure` is mapped to FHIR DSTU2 element `Goal.target[x]`.\nNote that the target element context `Goal.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Goal.target.detail[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">detail[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.target.detail[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Goal.target.detail[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal.target`.\nElement `Goal.target.detail[x]` is mapped to FHIR R4B element `Goal.target.detail[x]`.\nNote that the target element context `Goal.target.detail[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal.target`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.target[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Goal.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`.\nElement `Goal.target.detail[x]` is mapped to FHIR DSTU2 element `Goal.target[x]`.\nNote that the target element context `Goal.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Goal.target.due[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">due[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.target.due[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Goal.target.due[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal.target`.\nElement `Goal.target.due[x]` is mapped to FHIR R4B element `Goal.target.due[x]`.\nNote that the target element context `Goal.target.due[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal.target`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.target[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Goal.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`.\nElement `Goal.target.due[x]` is mapped to FHIR DSTU2 element `Goal.target[x]`.\nNote that the target element context `Goal.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`.</td></tr><tr><td style=\"border-right-width: 0px\">Goal.statusDate</td><td style=\"border-left-width: 0px\">statusDate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.statusDate</td><td style=\"border-left-width: 0px\"/><td>Element `Goal.statusDate` is mapped to FHIR R4B element `Goal.statusDate`.</td></tr><tr><td style=\"border-right-width: 0px\">Goal.statusReason</td><td style=\"border-left-width: 0px\">statusReason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.statusReason</td><td style=\"border-left-width: 0px\"/><td>Element `Goal.statusReason` is mapped to FHIR R4B element `Goal.statusReason`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Goal.source</td><td style=\"border-left-width: 0px; border-bottom-style: none\">source</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.expressedBy</td><td style=\"border-left-width: 0px\"/><td>Element `Goal.source` is mapped to FHIR R4B element `Goal.expressedBy`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.author</td><td style=\"border-left-width: 0px\"/><td>Element `Goal.source` is mapped to FHIR DSTU2 element `Goal.author`.</td></tr><tr><td style=\"border-right-width: 0px\">Goal.addresses</td><td style=\"border-left-width: 0px\">addresses</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.addresses</td><td style=\"border-left-width: 0px\"/><td>Element `Goal.addresses` is mapped to FHIR R4B element `Goal.addresses`.</td></tr><tr><td style=\"border-right-width: 0px\">Goal.note</td><td style=\"border-left-width: 0px\">note</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.note</td><td style=\"border-left-width: 0px\"/><td>Element `Goal.note` is mapped to FHIR R4B element `Goal.note`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Goal.outcome</td><td style=\"border-left-width: 0px; border-bottom-style: none\">outcome</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.outcomeCode</td><td style=\"border-left-width: 0px\"/><td>Element `Goal.outcome` is mapped to FHIR R4B element `Goal.outcomeCode`.\nElement `Goal.outcome` is mapped to FHIR R4B element `Goal.outcomeReference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.outcomeReference</td><td style=\"border-left-width: 0px\"/><td>Element `Goal.outcome` is mapped to FHIR R4B element `Goal.outcomeCode`.\nElement `Goal.outcome` is mapped to FHIR R4B element `Goal.outcomeReference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Goal#Goal.outcome.result[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Goal.outcome.result[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal.outcome`.\nElement `Goal.outcome` is mapped to FHIR DSTU2 element `Goal.outcome.result[x]`.\nNote that the target element context `Goal.outcome.result[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal.outcome`.\nElement `Goal.outcome` is mapped to FHIR DSTU2 element `Goal.outcome.result[x]`.\nNote that the target element context `Goal.outcome.result[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal.outcome`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Goal-elements-for-R4-Goal"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Goal-elements-for-R4-Goal>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5GoalElementsForR4Goal"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:32.9101555-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Goal"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Goal>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Goal" ] ;
+       fhir:display [ fhir:v "Goal" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Goal` is representable via FHIR R4B Resource `Goal`.\nElement `Goal` is mapped to FHIR R4B element `Goal`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.outcome" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Goal` is representable via FHIR DSTU2 Resource `Goal`.\nElement `Goal` is mapped to FHIR DSTU2 element `Goal.outcome`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Goal.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Goal.meta` is mapped to FHIR R4B element `Goal.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Goal.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Goal.implicitRules` is mapped to FHIR R4B element `Goal.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Goal.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Goal.language` is mapped to FHIR R4B element `Goal.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Goal.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Goal.text` is mapped to FHIR R4B element `Goal.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Goal.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Goal.contained` is mapped to FHIR R4B element `Goal.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Goal.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Goal.identifier` is mapped to FHIR R4B element `Goal.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Goal.lifecycleStatus" ] ;
+       fhir:display [ fhir:v "lifecycleStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.lifecycleStatus" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Goal.lifecycleStatus` is mapped to FHIR R4B element `Goal.lifecycleStatus`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Goal.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Goal.lifecycleStatus` is mapped to FHIR STU3 element `Goal.status`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Goal.achievementStatus" ] ;
+       fhir:display [ fhir:v "achievementStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.achievementStatus" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Goal.achievementStatus` is mapped to FHIR R4B element `Goal.achievementStatus`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Goal.achievementStatus` is mapped to FHIR STU3 element `Goal.status`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Goal.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Goal.category` is mapped to FHIR R4B element `Goal.category`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Goal.continuous" ] ;
+       fhir:display [ fhir:v "continuous" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Goal.continuous" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Goal.continuous` is mapped to FHIR R4B structure `Goal`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Goal.priority" ] ;
+       fhir:display [ fhir:v "priority" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.priority" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Goal.priority` is mapped to FHIR R4B element `Goal.priority`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Goal.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Goal.description` is mapped to FHIR R4B element `Goal.description`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Goal.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Goal.subject` is mapped to FHIR R4B element `Goal.subject`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Goal.start[x]" ] ;
+       fhir:display [ fhir:v "start[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.start[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Goal.start[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`.\nElement `Goal.start[x]` is mapped to FHIR R4B element `Goal.start[x]`.\nNote that the target element context `Goal.start[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Goal.target" ] ;
+       fhir:display [ fhir:v "target" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.target" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Goal.target` is mapped to FHIR R4B element `Goal.target`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.target[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Goal.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`.\nElement `Goal.target` is mapped to FHIR DSTU2 element `Goal.target[x]`.\nNote that the target element context `Goal.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Goal.target.measure" ] ;
+       fhir:display [ fhir:v "measure" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.target.measure" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Goal.target.measure` is mapped to FHIR R4B element `Goal.target.measure`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.target[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Goal.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`.\nElement `Goal.target.measure` is mapped to FHIR DSTU2 element `Goal.target[x]`.\nNote that the target element context `Goal.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Goal.target.detail[x]" ] ;
+       fhir:display [ fhir:v "detail[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.target.detail[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Goal.target.detail[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal.target`.\nElement `Goal.target.detail[x]` is mapped to FHIR R4B element `Goal.target.detail[x]`.\nNote that the target element context `Goal.target.detail[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal.target`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.target[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Goal.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`.\nElement `Goal.target.detail[x]` is mapped to FHIR DSTU2 element `Goal.target[x]`.\nNote that the target element context `Goal.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Goal.target.due[x]" ] ;
+       fhir:display [ fhir:v "due[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.target.due[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Goal.target.due[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal.target`.\nElement `Goal.target.due[x]` is mapped to FHIR R4B element `Goal.target.due[x]`.\nNote that the target element context `Goal.target.due[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal.target`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.target[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Goal.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`.\nElement `Goal.target.due[x]` is mapped to FHIR DSTU2 element `Goal.target[x]`.\nNote that the target element context `Goal.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Goal.statusDate" ] ;
+       fhir:display [ fhir:v "statusDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.statusDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Goal.statusDate` is mapped to FHIR R4B element `Goal.statusDate`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Goal.statusReason" ] ;
+       fhir:display [ fhir:v "statusReason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.statusReason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Goal.statusReason` is mapped to FHIR R4B element `Goal.statusReason`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Goal.source" ] ;
+       fhir:display [ fhir:v "source" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.expressedBy" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Goal.source` is mapped to FHIR R4B element `Goal.expressedBy`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.author" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Goal.source` is mapped to FHIR DSTU2 element `Goal.author`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Goal.addresses" ] ;
+       fhir:display [ fhir:v "addresses" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.addresses" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Goal.addresses` is mapped to FHIR R4B element `Goal.addresses`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Goal.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Goal.note` is mapped to FHIR R4B element `Goal.note`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Goal.outcome" ] ;
+       fhir:display [ fhir:v "outcome" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.outcomeCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Goal.outcome` is mapped to FHIR R4B element `Goal.outcomeCode`.\nElement `Goal.outcome` is mapped to FHIR R4B element `Goal.outcomeReference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.outcomeReference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Goal.outcome` is mapped to FHIR R4B element `Goal.outcomeCode`.\nElement `Goal.outcome` is mapped to FHIR R4B element `Goal.outcomeReference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Goal#Goal.outcome.result[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Goal.outcome.result[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal.outcome`.\nElement `Goal.outcome` is mapped to FHIR DSTU2 element `Goal.outcome.result[x]`.\nNote that the target element context `Goal.outcome.result[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal.outcome`.\nElement `Goal.outcome` is mapped to FHIR DSTU2 element `Goal.outcome.result[x]`.\nNote that the target element context `Goal.outcome.result[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Goal.outcome`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

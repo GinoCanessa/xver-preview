@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="ConceptMap-R5-Range-elements-for-R4-Range"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap ConceptMap-R5-Range-elements-for-R4-Range</b></p><a name="ConceptMap-R5-Range-elements-for-R4-Range"> </a><a name="hcConceptMap-R5-Range-elements-for-R4-Range"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Range|5.0.0</code> to <code>unspecified code system</code></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Range</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Range#Range</td><td>FHIR R5 ComplexType `Range` is representable via FHIR R4B extensions.
+Element `Range` is mapped to FHIR R4B element `Range`.</td></tr><tr><td>Range.low (low)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Range#Range.low</td><td>Element `Range.low` is mapped to FHIR R4B element `Range.low`.</td></tr><tr><td>Range.high (high)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Range#Range.high</td><td>Element `Range.high` is mapped to FHIR R4B element `Range.high`.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Range-elements-for-R4-Range"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="ConceptMapR5RangeElementsForR4Range"/>
+  <title value="Cross-version ConceptMap for FHIR R5 resources in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-06T13:17:34.0748846-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Range"/>
+    <sourceVersion value="5.0.0"/>
+    <element>
+      <code value="Range"/>
+      <display value="Range"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/Range#Range"/>
+        <equivalence value="relatedto"/>
+        <comment value="FHIR R5 ComplexType `Range` is representable via FHIR R4B extensions.&#xA;Element `Range` is mapped to FHIR R4B element `Range`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Range.low"/>
+      <display value="low"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/Range#Range.low"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `Range.low` is mapped to FHIR R4B element `Range.low`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Range.high"/>
+      <display value="high"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/Range#Range.high"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `Range.high` is mapped to FHIR R4B element `Range.high`."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

@@ -1,0 +1,164 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/claiminformationcategory> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "claiminformationcategory"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://terminology.hl7.org/CodeSystem/claiminformationcategory</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">info<a name=\"claiminformationcategory-info\"> </a></td><td>Information</td><td>Codes conveying additional situation and condition information.</td></tr><tr><td style=\"white-space:nowrap\">discharge<a name=\"claiminformationcategory-discharge\"> </a></td><td>Discharge</td><td>Discharge status and discharge to locations.</td></tr><tr><td style=\"white-space:nowrap\">onset<a name=\"claiminformationcategory-onset\"> </a></td><td>Onset</td><td>Period, start or end dates of aspects of the Condition.</td></tr><tr><td style=\"white-space:nowrap\">related<a name=\"claiminformationcategory-related\"> </a></td><td>Related Services</td><td>Nature and date of the related event e.g. Last exam, service, X-ray etc.</td></tr><tr><td style=\"white-space:nowrap\">exception<a name=\"claiminformationcategory-exception\"> </a></td><td>Exception</td><td>Insurance policy exceptions.</td></tr><tr><td style=\"white-space:nowrap\">material<a name=\"claiminformationcategory-material\"> </a></td><td>Materials Forwarded</td><td>Materials being forwarded, e.g. Models, molds, images, documents.</td></tr><tr><td style=\"white-space:nowrap\">attachment<a name=\"claiminformationcategory-attachment\"> </a></td><td>Attachment</td><td>Materials attached such as images, documents and resources.</td></tr><tr><td style=\"white-space:nowrap\">missingtooth<a name=\"claiminformationcategory-missingtooth\"> </a></td><td>Missing Tooth</td><td>Teeth which are missing for any reason, for example: prior extraction, never developed.</td></tr><tr><td style=\"white-space:nowrap\">prosthesis<a name=\"claiminformationcategory-prosthesis\"> </a></td><td>Prosthesis</td><td>The type of prosthesis and date of supply if a previously supplied prosthesis.</td></tr><tr><td style=\"white-space:nowrap\">other<a name=\"claiminformationcategory-other\"> </a></td><td>Other</td><td>Other information identified by the type.system.</td></tr><tr><td style=\"white-space:nowrap\">hospitalized<a name=\"claiminformationcategory-hospitalized\"> </a></td><td>Hospitalized</td><td>An indication that the patient was hospitalized, the period if known otherwise a Yes/No (boolean).</td></tr><tr><td style=\"white-space:nowrap\">employmentimpacted<a name=\"claiminformationcategory-employmentimpacted\"> </a></td><td>EmploymentImpacted</td><td>An indication that the patient was unable to work, the period if known otherwise a Yes/No (boolean).</td></tr><tr><td style=\"white-space:nowrap\">externalcause<a name=\"claiminformationcategory-externalcause\"> </a></td><td>External Caause</td><td>The external cause of an illness or injury.</td></tr><tr><td style=\"white-space:nowrap\">patientreasonforvisit<a name=\"claiminformationcategory-patientreasonforvisit\"> </a></td><td>Patient Reason for Visit</td><td>The reason for the patient visit.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fm"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/claiminformationcategory"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/claiminformationcategory>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "ClaimInformationCategoryCodes"] ; # 
+  fhir:title [ fhir:v "Claim Information Category Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2023-02-25T12:07:30-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Financial Management"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Financial Management" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fm" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This value set includes sample Information Category codes."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:copyright [ fhir:v "This is an example set."] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/claim-informationcategory|1.0.1"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/claim-informationcategory?version=1.0.1>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "info" ] ;
+     fhir:display [ fhir:v "Information" ] ;
+     fhir:definition [ fhir:v "Codes conveying additional situation and condition information." ]
+  ] [
+     fhir:code [ fhir:v "discharge" ] ;
+     fhir:display [ fhir:v "Discharge" ] ;
+     fhir:definition [ fhir:v "Discharge status and discharge to locations." ]
+  ] [
+     fhir:code [ fhir:v "onset" ] ;
+     fhir:display [ fhir:v "Onset" ] ;
+     fhir:definition [ fhir:v "Period, start or end dates of aspects of the Condition." ]
+  ] [
+     fhir:code [ fhir:v "related" ] ;
+     fhir:display [ fhir:v "Related Services" ] ;
+     fhir:definition [ fhir:v "Nature and date of the related event e.g. Last exam, service, X-ray etc." ]
+  ] [
+     fhir:code [ fhir:v "exception" ] ;
+     fhir:display [ fhir:v "Exception" ] ;
+     fhir:definition [ fhir:v "Insurance policy exceptions." ]
+  ] [
+     fhir:code [ fhir:v "material" ] ;
+     fhir:display [ fhir:v "Materials Forwarded" ] ;
+     fhir:definition [ fhir:v "Materials being forwarded, e.g. Models, molds, images, documents." ]
+  ] [
+     fhir:code [ fhir:v "attachment" ] ;
+     fhir:display [ fhir:v "Attachment" ] ;
+     fhir:definition [ fhir:v "Materials attached such as images, documents and resources." ]
+  ] [
+     fhir:code [ fhir:v "missingtooth" ] ;
+     fhir:display [ fhir:v "Missing Tooth" ] ;
+     fhir:definition [ fhir:v "Teeth which are missing for any reason, for example: prior extraction, never developed." ]
+  ] [
+     fhir:code [ fhir:v "prosthesis" ] ;
+     fhir:display [ fhir:v "Prosthesis" ] ;
+     fhir:definition [ fhir:v "The type of prosthesis and date of supply if a previously supplied prosthesis." ]
+  ] [
+     fhir:code [ fhir:v "other" ] ;
+     fhir:display [ fhir:v "Other" ] ;
+     fhir:definition [ fhir:v "Other information identified by the type.system." ]
+  ] [
+     fhir:code [ fhir:v "hospitalized" ] ;
+     fhir:display [ fhir:v "Hospitalized" ] ;
+     fhir:definition [ fhir:v "An indication that the patient was hospitalized, the period if known otherwise a Yes/No (boolean)." ]
+  ] [
+     fhir:code [ fhir:v "employmentimpacted" ] ;
+     fhir:display [ fhir:v "EmploymentImpacted" ] ;
+     fhir:definition [ fhir:v "An indication that the patient was unable to work, the period if known otherwise a Yes/No (boolean)." ]
+  ] [
+     fhir:code [ fhir:v "externalcause" ] ;
+     fhir:display [ fhir:v "External Caause" ] ;
+     fhir:definition [ fhir:v "The external cause of an illness or injury." ]
+  ] [
+     fhir:code [ fhir:v "patientreasonforvisit" ] ;
+     fhir:display [ fhir:v "Patient Reason for Visit" ] ;
+     fhir:definition [ fhir:v "The reason for the patient visit." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="research-study-classifiers"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/research-study-classifiers</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">fda-regulated-drug
+                  <a name="research-study-classifiers-fda-regulated-drug"> </a>
+                </td>
+                <td>FDA regulated drug</td>
+                <td>A medication regulated by the U.S. Food and Drug Administration.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">fda-regulated-device
+                  <a name="research-study-classifiers-fda-regulated-device"> </a>
+                </td>
+                <td>FDA regulated device</td>
+                <td>A medical device regulated by the U.S. Food and Drug Administration.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">mpg-paragraph-23b
+                  <a name="research-study-classifiers-mpg-paragraph-23b"> </a>
+                </td>
+                <td>MPG Paragraph 23b</td>
+                <td>Research regulated by a specific German legal requirement (Medizinproduktegesetz MPG Paragraph 23b).</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">irb-exempt
+                  <a name="research-study-classifiers-irb-exempt"> </a>
+                </td>
+                <td>IRB-exempt</td>
+                <td>Human subjects research that is excempt from oversight and monitoring by an institutional review board (IRB).</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="brr"/>
+  </extension>
+  <url value="http://hl7.org/fhir/research-study-classifiers"/>
+  <version value="5.0.0"/>
+  <name value="ResearchStudyClassifiers"/>
+  <title value="ResearchStudy Classifiers Code System"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2022-05-15T00:55:11.085-05:00"/>
+  <publisher value="Biomedical Research and Regulation"/>
+  <contact>
+    <name value="Biomedical Research and Regulation"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/rcrim"/>
+    </telecom>
+  </contact>
+  <description value="Codes for use in ResearchStudy Resource. This resource (this entire set of content) is being used for active development of a ResearchStudyClassifiers CodeSystem for use for supporting multiple value sets in the FHIR ResearchStudy StructureDefinition."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/research-study-classifiers"/>
+  <hierarchyMeaning value="is-a"/>
+  <content value="complete"/>
+  <concept>
+    <code value="fda-regulated-drug"/>
+    <display value="FDA regulated drug"/>
+    <definition value="A medication regulated by the U.S. Food and Drug Administration."/>
+  </concept>
+  <concept>
+    <code value="fda-regulated-device"/>
+    <display value="FDA regulated device"/>
+    <definition value="A medical device regulated by the U.S. Food and Drug Administration."/>
+  </concept>
+  <concept>
+    <code value="mpg-paragraph-23b"/>
+    <display value="MPG Paragraph 23b"/>
+    <definition value="Research regulated by a specific German legal requirement (Medizinproduktegesetz MPG Paragraph 23b)."/>
+  </concept>
+  <concept>
+    <code value="irb-exempt"/>
+    <display value="IRB-exempt"/>
+    <definition value="Human subjects research that is excempt from oversight and monitoring by an institutional review board (IRB)."/>
+  </concept>
+</CodeSystem>

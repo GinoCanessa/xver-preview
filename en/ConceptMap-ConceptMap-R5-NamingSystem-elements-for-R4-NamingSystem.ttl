@@ -1,0 +1,457 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-NamingSystem-elements-for-R4-NamingSystem> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-NamingSystem-elements-for-R4-NamingSystem"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-NamingSystem-elements-for-R4-NamingSystem</b></p><a name=\"ConceptMap-R5-NamingSystem-elements-for-R4-NamingSystem\"> </a><a name=\"hcConceptMap-R5-NamingSystem-elements-for-R4-NamingSystem\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/NamingSystem|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/NamingSystem|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">NamingSystem</td><td style=\"border-left-width: 0px\">NamingSystem</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `NamingSystem` is representable via FHIR R4B Resource `NamingSystem`.\nElement `NamingSystem` is mapped to FHIR R4B element `NamingSystem`.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.meta</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.meta` is mapped to FHIR R4B element `NamingSystem.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.implicitRules` is mapped to FHIR R4B element `NamingSystem.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.language</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.language` is mapped to FHIR R4B element `NamingSystem.language`.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.text</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.text` is mapped to FHIR R4B element `NamingSystem.text`.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.contained</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.contained` is mapped to FHIR R4B element `NamingSystem.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.url</td><td style=\"border-left-width: 0px\">url</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.url` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">Basic.identifier</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `NamingSystem.identifier` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.version</td><td style=\"border-left-width: 0px\">version</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.version` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.versionAlgorithm[x]</td><td style=\"border-left-width: 0px\">versionAlgorithm[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.versionAlgorithm</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.versionAlgorithm[x]` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.name</td><td style=\"border-left-width: 0px\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.name</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.name` is mapped to FHIR R4B element `NamingSystem.name`.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.title</td><td style=\"border-left-width: 0px\">title</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.title</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.title` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.status</td><td style=\"border-left-width: 0px\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.status</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.status` is mapped to FHIR R4B element `NamingSystem.status`.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.kind</td><td style=\"border-left-width: 0px\">kind</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.kind</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.kind` is mapped to FHIR R4B element `NamingSystem.kind`.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.experimental</td><td style=\"border-left-width: 0px\">experimental</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.experimental</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.experimental` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.date</td><td style=\"border-left-width: 0px\">date</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.date</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.date` is mapped to FHIR R4B element `NamingSystem.date`.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.publisher</td><td style=\"border-left-width: 0px\">publisher</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.publisher</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.publisher` is mapped to FHIR R4B element `NamingSystem.publisher`.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.contact</td><td style=\"border-left-width: 0px\">contact</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.contact</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.contact` is mapped to FHIR R4B element `NamingSystem.contact`.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.responsible</td><td style=\"border-left-width: 0px\">responsible</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.responsible</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.responsible` is mapped to FHIR R4B element `NamingSystem.responsible`.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.type</td><td style=\"border-left-width: 0px\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.type</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.type` is mapped to FHIR R4B element `NamingSystem.type`.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.description</td><td style=\"border-left-width: 0px\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.description</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.description` is mapped to FHIR R4B element `NamingSystem.description`.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.useContext</td><td style=\"border-left-width: 0px\">useContext</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.useContext</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.useContext` is mapped to FHIR R4B element `NamingSystem.useContext`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NamingSystem.jurisdiction</td><td style=\"border-left-width: 0px; border-bottom-style: none\">jurisdiction</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.jurisdiction</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.jurisdiction` is mapped to FHIR R4B element `NamingSystem.jurisdiction`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.useContext</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.jurisdiction` is mapped to FHIR DSTU2 element `NamingSystem.useContext`.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.purpose</td><td style=\"border-left-width: 0px\">purpose</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.purpose</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.purpose` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.copyright</td><td style=\"border-left-width: 0px\">copyright</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.copyright</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.copyright` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.copyrightLabel</td><td style=\"border-left-width: 0px\">copyrightLabel</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.copyrightLabel</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.copyrightLabel` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.approvalDate</td><td style=\"border-left-width: 0px\">approvalDate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.approvalDate</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.approvalDate` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.lastReviewDate</td><td style=\"border-left-width: 0px\">lastReviewDate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.lastReviewDate</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.lastReviewDate` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.effectivePeriod</td><td style=\"border-left-width: 0px\">effectivePeriod</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.effectivePeriod</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.effectivePeriod` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.topic</td><td style=\"border-left-width: 0px\">topic</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.topic</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.topic` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.author</td><td style=\"border-left-width: 0px\">author</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.author</td><td style=\"border-left-width: 0px\"/><td>Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -&gt; basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson,http://hl7.org/fhir/StructureDefinition/Organization)`:0..1).\nElement `NamingSystem.author` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.editor</td><td style=\"border-left-width: 0px\">editor</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.editor</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.editor` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.reviewer</td><td style=\"border-left-width: 0px\">reviewer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.reviewer</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.reviewer` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.endorser</td><td style=\"border-left-width: 0px\">endorser</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.endorser</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.endorser` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.relatedArtifact</td><td style=\"border-left-width: 0px\">relatedArtifact</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.relatedArtifact</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.relatedArtifact` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.usage</td><td style=\"border-left-width: 0px\">usage</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.usage</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.usage` is mapped to FHIR R4B element `NamingSystem.usage`.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.uniqueId</td><td style=\"border-left-width: 0px\">uniqueId</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.uniqueId</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.uniqueId` is mapped to FHIR R4B element `NamingSystem.uniqueId`.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.uniqueId.type</td><td style=\"border-left-width: 0px\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.uniqueId.type</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.uniqueId.type` is mapped to FHIR R4B element `NamingSystem.uniqueId.type`.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.uniqueId.value</td><td style=\"border-left-width: 0px\">value</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.uniqueId.value</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.uniqueId.value` is mapped to FHIR R4B element `NamingSystem.uniqueId.value`.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.uniqueId.preferred</td><td style=\"border-left-width: 0px\">preferred</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.uniqueId.preferred</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.uniqueId.preferred` is mapped to FHIR R4B element `NamingSystem.uniqueId.preferred`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NamingSystem.uniqueId.comment</td><td style=\"border-left-width: 0px; border-bottom-style: none\">comment</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.uniqueId.comment</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.uniqueId.comment` is mapped to FHIR R4B element `NamingSystem.uniqueId.comment`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.uniqueId.comment</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.uniqueId.comment` is mapped to FHIR DSTU2 structure `NamingSystem`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.uniqueId.period</td><td style=\"border-left-width: 0px\">period</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.uniqueId.period</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.uniqueId.period` is mapped to FHIR R4B element `NamingSystem.uniqueId.period`.</td></tr><tr><td style=\"border-right-width: 0px\">NamingSystem.uniqueId.authoritative</td><td style=\"border-left-width: 0px\">authoritative</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.uniqueId.authoritative</td><td style=\"border-left-width: 0px\"/><td>Element `NamingSystem.uniqueId.authoritative` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-NamingSystem-elements-for-R4-NamingSystem"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-NamingSystem-elements-for-R4-NamingSystem>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5NamingSystemElementsForR4NamingSystem"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:33.5914382-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/NamingSystem"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/NamingSystem>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "NamingSystem" ] ;
+       fhir:display [ fhir:v "NamingSystem" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `NamingSystem` is representable via FHIR R4B Resource `NamingSystem`.\nElement `NamingSystem` is mapped to FHIR R4B element `NamingSystem`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.meta` is mapped to FHIR R4B element `NamingSystem.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.implicitRules` is mapped to FHIR R4B element `NamingSystem.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.language` is mapped to FHIR R4B element `NamingSystem.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.text` is mapped to FHIR R4B element `NamingSystem.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.contained` is mapped to FHIR R4B element `NamingSystem.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.url` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `NamingSystem.identifier` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.version` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.versionAlgorithm[x]" ] ;
+       fhir:display [ fhir:v "versionAlgorithm[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.versionAlgorithm" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.versionAlgorithm[x]` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.name` is mapped to FHIR R4B element `NamingSystem.name`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.title" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.title` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.status` is mapped to FHIR R4B element `NamingSystem.status`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.kind" ] ;
+       fhir:display [ fhir:v "kind" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.kind" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.kind` is mapped to FHIR R4B element `NamingSystem.kind`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.experimental" ] ;
+       fhir:display [ fhir:v "experimental" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.experimental" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.experimental` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.date` is mapped to FHIR R4B element `NamingSystem.date`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.publisher" ] ;
+       fhir:display [ fhir:v "publisher" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.publisher" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.publisher` is mapped to FHIR R4B element `NamingSystem.publisher`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.contact" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.contact` is mapped to FHIR R4B element `NamingSystem.contact`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.responsible" ] ;
+       fhir:display [ fhir:v "responsible" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.responsible" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.responsible` is mapped to FHIR R4B element `NamingSystem.responsible`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.type` is mapped to FHIR R4B element `NamingSystem.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.description` is mapped to FHIR R4B element `NamingSystem.description`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.useContext" ] ;
+       fhir:display [ fhir:v "useContext" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.useContext" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.useContext` is mapped to FHIR R4B element `NamingSystem.useContext`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.jurisdiction` is mapped to FHIR R4B element `NamingSystem.jurisdiction`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.useContext" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.jurisdiction` is mapped to FHIR DSTU2 element `NamingSystem.useContext`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.purpose" ] ;
+       fhir:display [ fhir:v "purpose" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.purpose" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.purpose` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.copyright" ] ;
+       fhir:display [ fhir:v "copyright" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.copyright" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.copyright` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.copyrightLabel" ] ;
+       fhir:display [ fhir:v "copyrightLabel" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.copyrightLabel" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.copyrightLabel` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.approvalDate" ] ;
+       fhir:display [ fhir:v "approvalDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.approvalDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.approvalDate` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.lastReviewDate" ] ;
+       fhir:display [ fhir:v "lastReviewDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.lastReviewDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.lastReviewDate` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.effectivePeriod" ] ;
+       fhir:display [ fhir:v "effectivePeriod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.effectivePeriod" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.effectivePeriod` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.topic" ] ;
+       fhir:display [ fhir:v "topic" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.topic" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.topic` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.author" ] ;
+       fhir:display [ fhir:v "author" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.author" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson,http://hl7.org/fhir/StructureDefinition/Organization)`:0..1).\nElement `NamingSystem.author` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.editor" ] ;
+       fhir:display [ fhir:v "editor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.editor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.editor` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.reviewer" ] ;
+       fhir:display [ fhir:v "reviewer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.reviewer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.reviewer` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.endorser" ] ;
+       fhir:display [ fhir:v "endorser" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.endorser" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.endorser` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.relatedArtifact" ] ;
+       fhir:display [ fhir:v "relatedArtifact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.relatedArtifact" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.relatedArtifact` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.usage" ] ;
+       fhir:display [ fhir:v "usage" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.usage" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.usage` is mapped to FHIR R4B element `NamingSystem.usage`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.uniqueId" ] ;
+       fhir:display [ fhir:v "uniqueId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.uniqueId" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.uniqueId` is mapped to FHIR R4B element `NamingSystem.uniqueId`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.uniqueId.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.uniqueId.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.uniqueId.type` is mapped to FHIR R4B element `NamingSystem.uniqueId.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.uniqueId.value" ] ;
+       fhir:display [ fhir:v "value" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.uniqueId.value" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.uniqueId.value` is mapped to FHIR R4B element `NamingSystem.uniqueId.value`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.uniqueId.preferred" ] ;
+       fhir:display [ fhir:v "preferred" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.uniqueId.preferred" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.uniqueId.preferred` is mapped to FHIR R4B element `NamingSystem.uniqueId.preferred`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.uniqueId.comment" ] ;
+       fhir:display [ fhir:v "comment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.uniqueId.comment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.uniqueId.comment` is mapped to FHIR R4B element `NamingSystem.uniqueId.comment`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.uniqueId.comment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.uniqueId.comment` is mapped to FHIR DSTU2 structure `NamingSystem`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.uniqueId.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NamingSystem#NamingSystem.uniqueId.period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.uniqueId.period` is mapped to FHIR R4B element `NamingSystem.uniqueId.period`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NamingSystem.uniqueId.authoritative" ] ;
+       fhir:display [ fhir:v "authoritative" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.uniqueId.authoritative" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NamingSystem.uniqueId.authoritative` is mapped to FHIR R4B structure `NamingSystem`, but has no target element specified." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

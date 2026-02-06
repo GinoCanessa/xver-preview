@@ -1,0 +1,147 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/flag-category> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "flag-category"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://terminology.hl7.org/CodeSystem/flag-category</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">diet<a name=\"flag-category-diet\"> </a></td><td>Diet</td><td>Flags related to the subject's dietary needs.</td></tr><tr><td style=\"white-space:nowrap\">drug<a name=\"flag-category-drug\"> </a></td><td>Drug</td><td>Flags related to the subject's medications.</td></tr><tr><td style=\"white-space:nowrap\">lab<a name=\"flag-category-lab\"> </a></td><td>Lab</td><td>Flags related to performing laboratory tests and related processes (e.g. phlebotomy).</td></tr><tr><td style=\"white-space:nowrap\">admin<a name=\"flag-category-admin\"> </a></td><td>Administrative</td><td>Flags related to administrative and financial processes.</td></tr><tr><td style=\"white-space:nowrap\">contact<a name=\"flag-category-contact\"> </a></td><td>Subject Contact</td><td>Flags related to coming into contact with the patient.</td></tr><tr><td style=\"white-space:nowrap\">clinical<a name=\"flag-category-clinical\"> </a></td><td>Clinical</td><td>Flags related to the subject's clinical data.</td></tr><tr><td style=\"white-space:nowrap\">behavioral<a name=\"flag-category-behavioral\"> </a></td><td>Behavioral</td><td>Flags related to behavior.</td></tr><tr><td style=\"white-space:nowrap\">research<a name=\"flag-category-research\"> </a></td><td>Research</td><td>Flags related to research.</td></tr><tr><td style=\"white-space:nowrap\">advance-directive<a name=\"flag-category-advance-directive\"> </a></td><td>Advance Directive</td><td>Flags related to subject's advance directives.</td></tr><tr><td style=\"white-space:nowrap\">safety<a name=\"flag-category-safety\"> </a></td><td>Safety</td><td>Flags related to safety precautions.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "pc"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/flag-category"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/flag-category>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "FlagCategory"] ; # 
+  fhir:title [ fhir:v "Flag Category"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2023-02-25T12:07:30-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Patient Care"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Patient Care" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/patientcare" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Example list of general categories for flagged issues. (Not complete or necessarily appropriate.)"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/flag-category|1.0.1"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/flag-category?version=1.0.1>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "diet" ] ;
+     fhir:display [ fhir:v "Diet" ] ;
+     fhir:definition [ fhir:v "Flags related to the subject's dietary needs." ]
+  ] [
+     fhir:code [ fhir:v "drug" ] ;
+     fhir:display [ fhir:v "Drug" ] ;
+     fhir:definition [ fhir:v "Flags related to the subject's medications." ]
+  ] [
+     fhir:code [ fhir:v "lab" ] ;
+     fhir:display [ fhir:v "Lab" ] ;
+     fhir:definition [ fhir:v "Flags related to performing laboratory tests and related processes (e.g. phlebotomy)." ]
+  ] [
+     fhir:code [ fhir:v "admin" ] ;
+     fhir:display [ fhir:v "Administrative" ] ;
+     fhir:definition [ fhir:v "Flags related to administrative and financial processes." ]
+  ] [
+     fhir:code [ fhir:v "contact" ] ;
+     fhir:display [ fhir:v "Subject Contact" ] ;
+     fhir:definition [ fhir:v "Flags related to coming into contact with the patient." ]
+  ] [
+     fhir:code [ fhir:v "clinical" ] ;
+     fhir:display [ fhir:v "Clinical" ] ;
+     fhir:definition [ fhir:v "Flags related to the subject's clinical data." ]
+  ] [
+     fhir:code [ fhir:v "behavioral" ] ;
+     fhir:display [ fhir:v "Behavioral" ] ;
+     fhir:definition [ fhir:v "Flags related to behavior." ]
+  ] [
+     fhir:code [ fhir:v "research" ] ;
+     fhir:display [ fhir:v "Research" ] ;
+     fhir:definition [ fhir:v "Flags related to research." ]
+  ] [
+     fhir:code [ fhir:v "advance-directive" ] ;
+     fhir:display [ fhir:v "Advance Directive" ] ;
+     fhir:definition [ fhir:v "Flags related to subject's advance directives." ]
+  ] [
+     fhir:code [ fhir:v "safety" ] ;
+     fhir:display [ fhir:v "Safety" ] ;
+     fhir:definition [ fhir:v "Flags related to safety precautions." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

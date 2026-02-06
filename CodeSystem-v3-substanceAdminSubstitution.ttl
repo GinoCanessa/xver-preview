@@ -1,0 +1,308 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/v3-substanceAdminSubstitution> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "v3-substanceAdminSubstitution"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p><b>Properties</b></p><p><b>This code system  defines the following properties for its concepts</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>Specializes</td><td/><td>Coding</td><td>The child code is a more narrow version of the concept represented by the parent code.  I.e. Every child concept is also a valid parent concept.  Used to allow determination of subsumption.  Must be transitive, irreflexive, antisymmetric.</td></tr><tr><td>Generalizes</td><td/><td>Coding</td><td>Inverse of Specializes.  Only included as a derived relationship.</td></tr><tr><td>internalId</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id</td><td>code</td><td>The internal identifier for the concept in the HL7 Access database repository.</td></tr><tr><td>notSelectable</td><td>http://hl7.org/fhir/concept-properties#notSelectable</td><td>boolean</td><td>Indicates that the code is abstract - only intended to be used as a selector for other concepts</td></tr><tr><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>Designation of a concept's state. Normally is not populated unless the state is retired.</td></tr></table><p><b>Concepts</b></p><p>This code system <code>http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution</code> defines the following codes:</p><table class=\"codes\"><tr><td><b>Lvl</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td><td><b>internalId</b></td><td><b>Not Selectable</b></td><td><b>status</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">_ActSubstanceAdminSubstitutionCode<a name=\"v3-substanceAdminSubstitution-_ActSubstanceAdminSubstitutionCode\"> </a></td><td>ActSubstanceAdminSubstitutionCode</td><td>**Description:** Substitution occurred or is permitted with another product that may potentially have different ingredients, but having the same biological and therapeutic effects.</td><td>21284</td><td>true</td><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  E<a name=\"v3-substanceAdminSubstitution-E\"> </a></td><td>equivalent</td><td>**Description:** Substitution occurred or is permitted with another bioequivalent and therapeutically equivalent product.</td><td>23107</td><td/><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    EC<a name=\"v3-substanceAdminSubstitution-EC\"> </a></td><td>equivalent composition</td><td>**Description:** #xD;\n#xD;\nSubstitution occurred or is permitted with another product that is a:#xD;\n#xD;\n *  pharmaceutical alternative containing the same active ingredient but is formulated with different salt, ester#xD;\n *  pharmaceutical equivalent that has the same active ingredient, strength, dosage form and route of administration#xD;\n#xD;\n*Examples:* #xD;\n#xD;\n *  *Pharmaceutical alternative:* Erythromycin Ethylsuccinate for Erythromycin Stearate#xD;\n *  *Pharmaceutical equivalent:* Lisonpril for Zestril</td><td>23108</td><td/><td>active</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      BC<a name=\"v3-substanceAdminSubstitution-BC\"> </a></td><td>brand composition</td><td>**Description:** #xD;\n#xD;\nSubstitution occurred or is permitted between equivalent Brands but not Generics#xD;\n#xD;\n*Examples:* #xD;\n#xD;\n *  Zestril for Prinivil#xD;\n *  Coumadin for Jantoven</td><td>23109</td><td/><td>active</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      G<a name=\"v3-substanceAdminSubstitution-G\"> </a></td><td>generic composition</td><td>**Description:** Substitution occurred or is permitted between equivalent Generics but not Brands#xD;\n#xD;\n*Examples:* #xD;\n#xD;\n *  Lisnopril (Lupin Corp) for Lisnopril (Wockhardt Corp)</td><td>16623</td><td/><td>active</td></tr><tr><td>3</td><td style=\"white-space:nowrap\">    TE<a name=\"v3-substanceAdminSubstitution-TE\"> </a></td><td>therapeutic alternative</td><td>**Description:** Substitution occurred or is permitted with another product having the same therapeutic objective and safety profile.#xD;\n#xD;\n*Examples:* #xD;\n#xD;\n *  ranitidine for Tagamet</td><td>16624</td><td/><td>active</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      TB<a name=\"v3-substanceAdminSubstitution-TB\"> </a></td><td>therapeutic brand</td><td>**Description:** Substitution occurred or is permitted between therapeutically equivalent Brands but not Generics#xD;\n#xD;\n&gt;#xD;\n#xD;\n*Examples:* #xD;\n#xD;\n *  Zantac for Tagamet</td><td>23105</td><td/><td>active</td></tr><tr><td>4</td><td style=\"white-space:nowrap\">      TG<a name=\"v3-substanceAdminSubstitution-TG\"> </a></td><td>therapeutic generic</td><td>**Description:** Substitution occurred or is permitted between therapeutically equivalent Generics but not Brands#xD;\n#xD;\n&gt;#xD;\n#xD;\n*Examples:* #xD;\n#xD;\n *  Ranitidine for cimetidine</td><td>23106</td><td/><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  F<a name=\"v3-substanceAdminSubstitution-F\"> </a></td><td>formulary</td><td>**Description:** This substitution was performed or is permitted based on formulary guidelines.</td><td>16625</td><td/><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  N<a name=\"v3-substanceAdminSubstitution-N\"> </a></td><td>none</td><td>No substitution occurred or is permitted.</td><td>16622</td><td/><td>active</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution>
+  ] ; # 
+  fhir:version [ fhir:v "2.1.0"] ; # 
+  fhir:name [ fhir:v "SubstanceAdminSubstitution"] ; # 
+  fhir:title [ fhir:v "Substance Admin Substitution"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2019-03-19T19:00:00-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Identifies what sort of change is permitted or has occurred between the therapy that was ordered and the therapy that was/will be provided."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:hierarchyMeaning [ fhir:v "is-a"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "Specializes" ] ;
+     fhir:description [ fhir:v "The child code is a more narrow version of the concept represented by the parent code.  I.e. Every child concept is also a valid parent concept.  Used to allow determination of subsumption.  Must be transitive, irreflexive, antisymmetric." ] ;
+     fhir:type [ fhir:v "Coding" ]
+  ] [
+     fhir:code [ fhir:v "Generalizes" ] ;
+     fhir:description [ fhir:v "Inverse of Specializes.  Only included as a derived relationship." ] ;
+     fhir:type [ fhir:v "Coding" ]
+  ] [
+     fhir:code [ fhir:v "internalId" ] ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id>
+     ] ;
+     fhir:description [ fhir:v "The internal identifier for the concept in the HL7 Access database repository." ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "notSelectable" ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#notSelectable"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#notSelectable>
+     ] ;
+     fhir:description [ fhir:v "Indicates that the code is abstract - only intended to be used as a selector for other concepts" ] ;
+     fhir:type [ fhir:v "boolean" ]
+  ] [
+     fhir:code [ fhir:v "status" ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#status>
+     ] ;
+     fhir:description [ fhir:v "Designation of a concept's state. Normally is not populated unless the state is retired." ] ;
+     fhir:type [ fhir:v "code" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "_ActSubstanceAdminSubstitutionCode" ] ;
+     fhir:display [ fhir:v "ActSubstanceAdminSubstitutionCode" ] ;
+     fhir:definition [ fhir:v "**Description:** Substitution occurred or is permitted with another product that may potentially have different ingredients, but having the same biological and therapeutic effects." ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "notSelectable" ] ;
+       fhir:value [
+         a fhir:Boolean ;
+         fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "21284"
+       ]
+     ] ) ;
+     fhir:concept ( [
+       fhir:code [ fhir:v "E" ] ;
+       fhir:display [ fhir:v "equivalent" ] ;
+       fhir:definition [ fhir:v "**Description:** Substitution occurred or is permitted with another bioequivalent and therapeutically equivalent product." ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "status" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "active"
+         ]
+       ] [
+         fhir:code [ fhir:v "internalId" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "23107"
+         ]
+       ] ) ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "EC" ] ;
+         fhir:display [ fhir:v "equivalent composition" ] ;
+         fhir:definition [ fhir:v "**Description:** \r\n\r\nSubstitution occurred or is permitted with another product that is a:\r\n\r\n *  pharmaceutical alternative containing the same active ingredient but is formulated with different salt, ester\r\n *  pharmaceutical equivalent that has the same active ingredient, strength, dosage form and route of administration\r\n\r\n*Examples:* \r\n\r\n *  *Pharmaceutical alternative:* Erythromycin Ethylsuccinate for Erythromycin Stearate\r\n *  *Pharmaceutical equivalent:* Lisonpril for Zestril" ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "23108"
+           ]
+         ] ) ;
+         fhir:concept ( [
+           fhir:code [ fhir:v "BC" ] ;
+           fhir:display [ fhir:v "brand composition" ] ;
+           fhir:definition [ fhir:v "**Description:** \r\n\r\nSubstitution occurred or is permitted between equivalent Brands but not Generics\r\n\r\n*Examples:* \r\n\r\n *  Zestril for Prinivil\r\n *  Coumadin for Jantoven" ] ;
+           fhir:property ( [
+             fhir:code [ fhir:v "status" ] ;
+             fhir:value [
+               a fhir:Code ;
+               fhir:v "active"
+             ]
+           ] [
+             fhir:code [ fhir:v "internalId" ] ;
+             fhir:value [
+               a fhir:Code ;
+               fhir:v "23109"
+             ]
+           ] )
+         ] [
+           fhir:code [ fhir:v "G" ] ;
+           fhir:display [ fhir:v "generic composition" ] ;
+           fhir:definition [ fhir:v "**Description:** Substitution occurred or is permitted between equivalent Generics but not Brands\r\n\r\n*Examples:* \r\n\r\n *  Lisnopril (Lupin Corp) for Lisnopril (Wockhardt Corp)" ] ;
+           fhir:property ( [
+             fhir:code [ fhir:v "status" ] ;
+             fhir:value [
+               a fhir:Code ;
+               fhir:v "active"
+             ]
+           ] [
+             fhir:code [ fhir:v "internalId" ] ;
+             fhir:value [
+               a fhir:Code ;
+               fhir:v "16623"
+             ]
+           ] )
+         ] )
+       ] [
+         fhir:code [ fhir:v "TE" ] ;
+         fhir:display [ fhir:v "therapeutic alternative" ] ;
+         fhir:definition [ fhir:v "**Description:** Substitution occurred or is permitted with another product having the same therapeutic objective and safety profile.\r\n\r\n*Examples:* \r\n\r\n *  ranitidine for Tagamet" ] ;
+         fhir:property ( [
+           fhir:code [ fhir:v "status" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "active"
+           ]
+         ] [
+           fhir:code [ fhir:v "internalId" ] ;
+           fhir:value [
+             a fhir:Code ;
+             fhir:v "16624"
+           ]
+         ] ) ;
+         fhir:concept ( [
+           fhir:code [ fhir:v "TB" ] ;
+           fhir:display [ fhir:v "therapeutic brand" ] ;
+           fhir:definition [ fhir:v "**Description:** Substitution occurred or is permitted between therapeutically equivalent Brands but not Generics\r\n\r\n>\r\n\r\n*Examples:* \r\n\r\n *  Zantac for Tagamet" ] ;
+           fhir:property ( [
+             fhir:code [ fhir:v "status" ] ;
+             fhir:value [
+               a fhir:Code ;
+               fhir:v "active"
+             ]
+           ] [
+             fhir:code [ fhir:v "internalId" ] ;
+             fhir:value [
+               a fhir:Code ;
+               fhir:v "23105"
+             ]
+           ] )
+         ] [
+           fhir:code [ fhir:v "TG" ] ;
+           fhir:display [ fhir:v "therapeutic generic" ] ;
+           fhir:definition [ fhir:v "**Description:** Substitution occurred or is permitted between therapeutically equivalent Generics but not Brands\r\n\r\n>\r\n\r\n*Examples:* \r\n\r\n *  Ranitidine for cimetidine" ] ;
+           fhir:property ( [
+             fhir:code [ fhir:v "status" ] ;
+             fhir:value [
+               a fhir:Code ;
+               fhir:v "active"
+             ]
+           ] [
+             fhir:code [ fhir:v "internalId" ] ;
+             fhir:value [
+               a fhir:Code ;
+               fhir:v "23106"
+             ]
+           ] )
+         ] )
+       ] )
+     ] [
+       fhir:code [ fhir:v "F" ] ;
+       fhir:display [ fhir:v "formulary" ] ;
+       fhir:definition [ fhir:v "**Description:** This substitution was performed or is permitted based on formulary guidelines." ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "status" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "active"
+         ]
+       ] [
+         fhir:code [ fhir:v "internalId" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "16625"
+         ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "N" ] ;
+       fhir:display [ fhir:v "none" ] ;
+       fhir:definition [ fhir:v "No substitution occurred or is permitted." ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "status" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "active"
+         ]
+       ] [
+         fhir:code [ fhir:v "internalId" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "16622"
+         ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

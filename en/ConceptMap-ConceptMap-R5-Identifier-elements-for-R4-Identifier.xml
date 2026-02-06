@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="ConceptMap-R5-Identifier-elements-for-R4-Identifier"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap ConceptMap-R5-Identifier-elements-for-R4-Identifier</b></p><a name="ConceptMap-R5-Identifier-elements-for-R4-Identifier"> </a><a name="hcConceptMap-R5-Identifier-elements-for-R4-Identifier"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Identifier|5.0.0</code> to <code>unspecified code system</code></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Identifier</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Identifier#Identifier</td><td>FHIR R5 ComplexType `Identifier` is representable via FHIR R4B extensions.
+Element `Identifier` is mapped to FHIR R4B element `Identifier`.</td></tr><tr><td>Identifier.use (use)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Identifier#Identifier.use</td><td>Element `Identifier.use` is mapped to FHIR R4B element `Identifier.use`.</td></tr><tr><td>Identifier.type (type)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Identifier#Identifier.type</td><td>Element `Identifier.type` is mapped to FHIR R4B element `Identifier.type`.</td></tr><tr><td>Identifier.system (system)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Identifier#Identifier.system</td><td>Element `Identifier.system` is mapped to FHIR R4B element `Identifier.system`.</td></tr><tr><td>Identifier.value (value)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Identifier#Identifier.value</td><td>Element `Identifier.value` is mapped to FHIR R4B element `Identifier.value`.</td></tr><tr><td>Identifier.period (period)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Identifier#Identifier.period</td><td>Element `Identifier.period` is mapped to FHIR R4B element `Identifier.period`.</td></tr><tr><td>Identifier.assigner (assigner)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Identifier#Identifier.assigner</td><td>Element `Identifier.assigner` is mapped to FHIR R4B element `Identifier.assigner`.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Identifier-elements-for-R4-Identifier"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="ConceptMapR5IdentifierElementsForR4Identifier"/>
+  <title value="Cross-version ConceptMap for FHIR R5 resources in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-06T13:17:32.9857597-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Identifier"/>
+    <sourceVersion value="5.0.0"/>
+    <element>
+      <code value="Identifier"/>
+      <display value="Identifier"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/Identifier#Identifier"/>
+        <equivalence value="relatedto"/>
+        <comment value="FHIR R5 ComplexType `Identifier` is representable via FHIR R4B extensions.&#xA;Element `Identifier` is mapped to FHIR R4B element `Identifier`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Identifier.use"/>
+      <display value="use"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/Identifier#Identifier.use"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `Identifier.use` is mapped to FHIR R4B element `Identifier.use`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Identifier.type"/>
+      <display value="type"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/Identifier#Identifier.type"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `Identifier.type` is mapped to FHIR R4B element `Identifier.type`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Identifier.system"/>
+      <display value="system"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/Identifier#Identifier.system"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `Identifier.system` is mapped to FHIR R4B element `Identifier.system`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Identifier.value"/>
+      <display value="value"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/Identifier#Identifier.value"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `Identifier.value` is mapped to FHIR R4B element `Identifier.value`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Identifier.period"/>
+      <display value="period"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/Identifier#Identifier.period"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `Identifier.period` is mapped to FHIR R4B element `Identifier.period`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Identifier.assigner"/>
+      <display value="assigner"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/Identifier#Identifier.assigner"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `Identifier.assigner` is mapped to FHIR R4B element `Identifier.assigner`."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

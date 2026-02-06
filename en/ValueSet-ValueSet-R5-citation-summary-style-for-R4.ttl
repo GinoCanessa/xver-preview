@@ -1,0 +1,290 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/ValueSet-R5-citation-summary-style-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ValueSet-R5-citation-summary-style-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ValueSet-R5-citation-summary-style-for-R4</b></p><a name=\"ValueSet-R5-citation-summary-style-for-R4\"> </a><a name=\"hcValueSet-R5-citation-summary-style-for-R4\"> </a><p>This value set expansion contains 14 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"ValueSet-R5-citation-summary-style-for-R4-http://hl7.org/fhir/citation-summary-style-acs\"> </a><code>http://hl7.org/fhir/citation-summary-style</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-citation-summary-style.html#citation-summary-style-acs\">acs</a></td><td>American Chemical Society</td><td>Chemistry.</td></tr><tr><td><a name=\"ValueSet-R5-citation-summary-style-for-R4-http://hl7.org/fhir/citation-summary-style-ama11\"> </a><code>http://hl7.org/fhir/citation-summary-style</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-citation-summary-style.html#citation-summary-style-ama11\">ama11</a></td><td>American Medical Association 11th edition</td><td>Medicine.</td></tr><tr><td><a name=\"ValueSet-R5-citation-summary-style-for-R4-http://hl7.org/fhir/citation-summary-style-apa6\"> </a><code>http://hl7.org/fhir/citation-summary-style</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-citation-summary-style.html#citation-summary-style-apa6\">apa6</a></td><td>American Psychological Association 6th edition</td><td>APA 6th edition used by Education, Psychology and Sciences.</td></tr><tr><td><a name=\"ValueSet-R5-citation-summary-style-for-R4-http://hl7.org/fhir/citation-summary-style-apa7\"> </a><code>http://hl7.org/fhir/citation-summary-style</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-citation-summary-style.html#citation-summary-style-apa7\">apa7</a></td><td>American Psychological Association 7th edition</td><td>APA 7th edition (October 2019) used by Education, Psychology and Sciences.</td></tr><tr><td><a name=\"ValueSet-R5-citation-summary-style-for-R4-http://hl7.org/fhir/citation-summary-style-asa6\"> </a><code>http://hl7.org/fhir/citation-summary-style</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-citation-summary-style.html#citation-summary-style-asa6\">asa6</a></td><td>American Sociological Association 6th edition</td><td>Sociology.</td></tr><tr><td><a name=\"ValueSet-R5-citation-summary-style-for-R4-http://hl7.org/fhir/citation-summary-style-chicago-a-17\"> </a><code>http://hl7.org/fhir/citation-summary-style</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-citation-summary-style.html#citation-summary-style-chicago-a-17\">chicago-a-17</a></td><td>Chicago Style Version 17 Author Date</td><td>Used by Business, History and the Fine Arts.</td></tr><tr><td><a name=\"ValueSet-R5-citation-summary-style-for-R4-http://hl7.org/fhir/citation-summary-style-chicago-b-17\"> </a><code>http://hl7.org/fhir/citation-summary-style</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-citation-summary-style.html#citation-summary-style-chicago-b-17\">chicago-b-17</a></td><td>Chicago Style Version 17 Full note</td><td>Used by Business, History and the Fine Arts.</td></tr><tr><td><a name=\"ValueSet-R5-citation-summary-style-for-R4-http://hl7.org/fhir/citation-summary-style-cochrane\"> </a><code>http://hl7.org/fhir/citation-summary-style</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-citation-summary-style.html#citation-summary-style-cochrane\">cochrane</a></td><td>Cochrane Style</td><td>Used by Cochrane reviews, example: Huang, M, Tang T, Pang, P, Li, M, Ma R, Lu, J, et al. Treating COVID-19 with Chloroquine. J Mol Cell Biol 2020; 12(4):322–5.</td></tr><tr><td><a name=\"ValueSet-R5-citation-summary-style-for-R4-http://hl7.org/fhir/citation-summary-style-comppub\"> </a><code>http://hl7.org/fhir/citation-summary-style</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-citation-summary-style.html#citation-summary-style-comppub\">comppub</a></td><td>Computable Publishing</td><td>Citation style to report human-readable and/or machine-readable access paths, example: Alper BS, Dehnbostel J, Shahin K. 14-day mortality remdesivir vs placebo meta-analysis (ACTT-1, Wang et al, WHO SOLIDARITY).  Fast Evidence Interoperability Resources (FEvIR) Platform, entry 55, version 4. Created 2020 Dec 17. Revised 2020 Dec 21. Accessed 2021 Mar 13. Computable resource at: https://fevir.net/resources/Evidence/55.</td></tr><tr><td><a name=\"ValueSet-R5-citation-summary-style-for-R4-http://hl7.org/fhir/citation-summary-style-elsevier-harvard\"> </a><code>http://hl7.org/fhir/citation-summary-style</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-citation-summary-style.html#citation-summary-style-elsevier-harvard\">elsevier-harvard</a></td><td>Elsevier-Harvard Style</td><td>Biology ecology.</td></tr><tr><td><a name=\"ValueSet-R5-citation-summary-style-for-R4-http://hl7.org/fhir/citation-summary-style-ieee\"> </a><code>http://hl7.org/fhir/citation-summary-style</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-citation-summary-style.html#citation-summary-style-ieee\">ieee</a></td><td>Institute of Electrical and Electronics Engineers</td><td>IT, Engineering.</td></tr><tr><td><a name=\"ValueSet-R5-citation-summary-style-for-R4-http://hl7.org/fhir/citation-summary-style-mla8\"> </a><code>http://hl7.org/fhir/citation-summary-style</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-citation-summary-style.html#citation-summary-style-mla8\">mla8</a></td><td>Modern Language Association 8th edition</td><td>MLA 8th edition used by the Humanities.</td></tr><tr><td><a name=\"ValueSet-R5-citation-summary-style-for-R4-http://hl7.org/fhir/citation-summary-style-nature\"> </a><code>http://hl7.org/fhir/citation-summary-style</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-citation-summary-style.html#citation-summary-style-nature\">nature</a></td><td>Nature Referencing style</td><td>Biology.</td></tr><tr><td><a name=\"ValueSet-R5-citation-summary-style-for-R4-http://hl7.org/fhir/citation-summary-style-vancouver\"> </a><code>http://hl7.org/fhir/citation-summary-style</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-citation-summary-style.html#citation-summary-style-vancouver\">vancouver</a></td><td>Vancouver style</td><td>Citation style used by International Committee of Medical Journal Editors and maintained by US National Library of Medicine.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "cds"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-citation-summary-style-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-citation-summary-style-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ValueSetR5CitationSummaryStyleForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.CitationSummaryStyle for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Clinical Decision Support"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Clinical Decision Support" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/dss" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/citation-summary-style|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/citation-summary-style|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `Citation.summary.style` as Extensible\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/citation-summary-style|5.0.0`\n* `http://hl7.org/fhir/ValueSet/citation-summary-style|4.3.0`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\nAll concepts in the comparison are listed as identical.\nThe source and target value sets have the same number of active concepts (14)."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/citation-summary-style"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/citation-summary-style>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "acs" ] ;
+         fhir:display [ fhir:v "American Chemical Society" ]
+       ] [
+         fhir:code [ fhir:v "ama11" ] ;
+         fhir:display [ fhir:v "American Medical Association 11th edition" ]
+       ] [
+         fhir:code [ fhir:v "apa6" ] ;
+         fhir:display [ fhir:v "American Psychological Association 6th edition" ]
+       ] [
+         fhir:code [ fhir:v "apa7" ] ;
+         fhir:display [ fhir:v "American Psychological Association 7th edition" ]
+       ] [
+         fhir:code [ fhir:v "asa6" ] ;
+         fhir:display [ fhir:v "American Sociological Association 6th edition" ]
+       ] [
+         fhir:code [ fhir:v "chicago-a-17" ] ;
+         fhir:display [ fhir:v "Chicago Style Version 17 Author Date" ]
+       ] [
+         fhir:code [ fhir:v "chicago-b-17" ] ;
+         fhir:display [ fhir:v "Chicago Style Version 17 Full note" ]
+       ] [
+         fhir:code [ fhir:v "cochrane" ] ;
+         fhir:display [ fhir:v "Cochrane Style" ]
+       ] [
+         fhir:code [ fhir:v "comppub" ] ;
+         fhir:display [ fhir:v "Computable Publishing" ]
+       ] [
+         fhir:code [ fhir:v "elsevier-harvard" ] ;
+         fhir:display [ fhir:v "Elsevier-Harvard Style" ]
+       ] [
+         fhir:code [ fhir:v "ieee" ] ;
+         fhir:display [ fhir:v "Institute of Electrical and Electronics Engineers" ]
+       ] [
+         fhir:code [ fhir:v "mla8" ] ;
+         fhir:display [ fhir:v "Modern Language Association 8th edition" ]
+       ] [
+         fhir:code [ fhir:v "nature" ] ;
+         fhir:display [ fhir:v "Nature Referencing style" ]
+       ] [
+         fhir:code [ fhir:v "vancouver" ] ;
+         fhir:display [ fhir:v "Vancouver style" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/citation-summary-style"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/citation-summary-style>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "acs" ] ;
+       fhir:display [ fhir:v "American Chemical Society" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/citation-summary-style"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/citation-summary-style>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "ama11" ] ;
+       fhir:display [ fhir:v "American Medical Association 11th edition" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/citation-summary-style"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/citation-summary-style>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "apa6" ] ;
+       fhir:display [ fhir:v "American Psychological Association 6th edition" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/citation-summary-style"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/citation-summary-style>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "apa7" ] ;
+       fhir:display [ fhir:v "American Psychological Association 7th edition" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/citation-summary-style"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/citation-summary-style>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "asa6" ] ;
+       fhir:display [ fhir:v "American Sociological Association 6th edition" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/citation-summary-style"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/citation-summary-style>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "chicago-a-17" ] ;
+       fhir:display [ fhir:v "Chicago Style Version 17 Author Date" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/citation-summary-style"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/citation-summary-style>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "chicago-b-17" ] ;
+       fhir:display [ fhir:v "Chicago Style Version 17 Full note" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/citation-summary-style"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/citation-summary-style>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "cochrane" ] ;
+       fhir:display [ fhir:v "Cochrane Style" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/citation-summary-style"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/citation-summary-style>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "comppub" ] ;
+       fhir:display [ fhir:v "Computable Publishing" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/citation-summary-style"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/citation-summary-style>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "elsevier-harvard" ] ;
+       fhir:display [ fhir:v "Elsevier-Harvard Style" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/citation-summary-style"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/citation-summary-style>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "ieee" ] ;
+       fhir:display [ fhir:v "Institute of Electrical and Electronics Engineers" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/citation-summary-style"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/citation-summary-style>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "mla8" ] ;
+       fhir:display [ fhir:v "Modern Language Association 8th edition" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/citation-summary-style"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/citation-summary-style>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "nature" ] ;
+       fhir:display [ fhir:v "Nature Referencing style" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/citation-summary-style"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/citation-summary-style>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "vancouver" ] ;
+       fhir:display [ fhir:v "Vancouver style" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="immunization-evaluation-dose-status"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://terminology.hl7.org/CodeSystem/immunization-evaluation-dose-status</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">valid<a name="immunization-evaluation-dose-status-valid"> </a></td><td>Valid</td><td>The dose counts toward fulfilling a path to immunity for a patient, providing protection against the target disease.</td></tr><tr><td style="white-space:nowrap">notvalid<a name="immunization-evaluation-dose-status-notvalid"> </a></td><td>Not valid</td><td>The dose does not count toward fulfilling a path to immunity for a patient.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pher"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/immunization-evaluation-dose-status"/>
+  <version value="0.1.0"/>
+  <name value="ImmunizationEvaluationDoseStatusCodes"/>
+  <title value="Immunization Evaluation Dose Status codes"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2023-02-25T12:07:30-06:00"/>
+  <publisher value="Public Health"/>
+  <contact>
+    <name value="Public Health"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pher"/>
+    </telecom>
+  </contact>
+  <description value="The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the validity of a dose relative to a particular recommended schedule. This value set is provided as a suggestive example."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/immunization-evaluation-dose-status|1.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="valid"/>
+    <display value="Valid"/>
+    <definition value="The dose counts toward fulfilling a path to immunity for a patient, providing protection against the target disease."/>
+  </concept>
+  <concept>
+    <code value="notvalid"/>
+    <display value="Not valid"/>
+    <definition value="The dose does not count toward fulfilling a path to immunity for a patient."/>
+  </concept>
+</CodeSystem>

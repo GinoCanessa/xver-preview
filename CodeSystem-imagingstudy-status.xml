@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="imagingstudy-status"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/imagingstudy-status</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">registered
+                  <a name="imagingstudy-status-registered"> </a>
+                </td>
+                <td>Registered</td>
+                <td>The existence of the imaging study is registered, but there is nothing yet available.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">available
+                  <a name="imagingstudy-status-available"> </a>
+                </td>
+                <td>Available</td>
+                <td>At least one instance has been associated with this imaging study.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">cancelled
+                  <a name="imagingstudy-status-cancelled"> </a>
+                </td>
+                <td>Cancelled</td>
+                <td>The imaging study is unavailable because the imaging study was not started or not completed (also sometimes called &quot;aborted&quot;).</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">entered-in-error
+                  <a name="imagingstudy-status-entered-in-error"> </a>
+                </td>
+                <td>Entered in Error</td>
+                <td>The imaging study has been withdrawn following a previous final release.  This electronic record should never have existed, though it is possible that real-world decisions were based on it. (If real-world activity has occurred, the status should be &quot;cancelled&quot; rather than &quot;entered-in-error&quot;.).</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">unknown
+                  <a name="imagingstudy-status-unknown"> </a>
+                </td>
+                <td>Unknown</td>
+                <td>The system does not know which of the status values currently applies for this request. Note: This concept is not to be used for &quot;other&quot; - one of the listed statuses is presumed to apply, it's just not known which one.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="4"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="ii"/>
+  </extension>
+  <url value="http://hl7.org/fhir/imagingstudy-status"/>
+  <version value="5.0.0"/>
+  <name value="ImagingStudyStatus"/>
+  <title value="Imaging Study Status"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Imaging Integration"/>
+  <contact>
+    <name value="Imaging Integration"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/imagemgt"/>
+    </telecom>
+  </contact>
+  <description value="The status of the ImagingStudy."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/imagingstudy-status|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="registered"/>
+    <display value="Registered"/>
+    <definition value="The existence of the imaging study is registered, but there is nothing yet available."/>
+  </concept>
+  <concept>
+    <code value="available"/>
+    <display value="Available"/>
+    <definition value="At least one instance has been associated with this imaging study."/>
+  </concept>
+  <concept>
+    <code value="cancelled"/>
+    <display value="Cancelled"/>
+    <definition value="The imaging study is unavailable because the imaging study was not started or not completed (also sometimes called &quot;aborted&quot;)."/>
+  </concept>
+  <concept>
+    <code value="entered-in-error"/>
+    <display value="Entered in Error"/>
+    <definition value="The imaging study has been withdrawn following a previous final release.  This electronic record should never have existed, though it is possible that real-world decisions were based on it. (If real-world activity has occurred, the status should be &quot;cancelled&quot; rather than &quot;entered-in-error&quot;.)."/>
+  </concept>
+  <concept>
+    <code value="unknown"/>
+    <display value="Unknown"/>
+    <definition value="The system does not know which of the status values currently applies for this request. Note: This concept is not to be used for &quot;other&quot; - one of the listed statuses is presumed to apply, it's just not known which one."/>
+  </concept>
+</CodeSystem>

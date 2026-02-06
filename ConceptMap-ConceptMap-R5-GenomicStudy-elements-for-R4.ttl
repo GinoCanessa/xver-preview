@@ -1,0 +1,600 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-GenomicStudy-elements-for-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-GenomicStudy-elements-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-GenomicStudy-elements-for-R4</b></p><a name=\"ConceptMap-R5-GenomicStudy-elements-for-R4\"> </a><a name=\"hcConceptMap-R5-GenomicStudy-elements-for-R4\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/GenomicStudy|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/GenomicStudy|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">GenomicStudy</td><td style=\"border-left-width: 0px\">GenomicStudy</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `GenomicStudy` is representable via FHIR R4B Resource `Basic`.\nElement `GenomicStudy` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">GenomicStudy.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">Basic.meta</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.meta`, use that element instead.\nElement `GenomicStudy.meta` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">GenomicStudy.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">Basic.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `GenomicStudy.implicitRules` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">GenomicStudy.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">Basic.language</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.language`, use that element instead.\nElement `GenomicStudy.language` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">GenomicStudy.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">Basic.text</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `GenomicStudy.text` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">GenomicStudy.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">Basic.contained</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `GenomicStudy.contained` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">GenomicStudy.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">Basic.identifier</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `GenomicStudy.identifier` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">GenomicStudy.status</td><td style=\"border-left-width: 0px\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:status</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.status` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">GenomicStudy.type</td><td style=\"border-left-width: 0px\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:type</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.type` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">GenomicStudy.subject</td><td style=\"border-left-width: 0px\">subject</td><td style=\"border-right-width: 0px\">Basic.subject</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.subject`, use that element instead.\nElement `GenomicStudy.subject` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">GenomicStudy.encounter</td><td style=\"border-left-width: 0px\">encounter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:encounter</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.encounter` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">GenomicStudy.startDate</td><td style=\"border-left-width: 0px\">startDate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:startDate</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.startDate` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">GenomicStudy.basedOn</td><td style=\"border-left-width: 0px\">basedOn</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:basedOn</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.basedOn` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">GenomicStudy.referrer</td><td style=\"border-left-width: 0px\">referrer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:referrer</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.referrer` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">GenomicStudy.interpreter</td><td style=\"border-left-width: 0px\">interpreter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:interpreter</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.interpreter` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">GenomicStudy.reason</td><td style=\"border-left-width: 0px\">reason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:reason</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.reason` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">GenomicStudy.instantiatesCanonical</td><td style=\"border-left-width: 0px\">instantiatesCanonical</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:instantiatesCanonical</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.instantiatesCanonical` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">GenomicStudy.instantiatesUri</td><td style=\"border-left-width: 0px\">instantiatesUri</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:instantiatesUri</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.instantiatesUri` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">GenomicStudy.note</td><td style=\"border-left-width: 0px\">note</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:note</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.note` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">GenomicStudy.description</td><td style=\"border-left-width: 0px\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:description</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.description` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis</td><td style=\"border-left-width: 0px; border-bottom-style: none\">analysis</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.identifier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:identifier</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.identifier` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.identifier` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:identifier</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.identifier` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.methodType</td><td style=\"border-left-width: 0px; border-bottom-style: none\">methodType</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:methodType</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.methodType` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.methodType` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:methodType</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.methodType` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.changeType</td><td style=\"border-left-width: 0px; border-bottom-style: none\">changeType</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:changeType</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.changeType` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.changeType` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:changeType</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.changeType` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.genomeBuild</td><td style=\"border-left-width: 0px; border-bottom-style: none\">genomeBuild</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:genomeBuild</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.genomeBuild` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.genomeBuild` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:genomeBuild</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.genomeBuild` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.instantiatesCanonical</td><td style=\"border-left-width: 0px; border-bottom-style: none\">instantiatesCanonical</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:instantiatesCanonical</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.instantiatesCanonical` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.instantiatesCanonical` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:instantiatesCanonical</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.instantiatesCanonical` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.instantiatesUri</td><td style=\"border-left-width: 0px; border-bottom-style: none\">instantiatesUri</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:instantiatesUri</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.instantiatesUri` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.instantiatesUri` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:instantiatesUri</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.instantiatesUri` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.title</td><td style=\"border-left-width: 0px; border-bottom-style: none\">title</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:title</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.title` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.title` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:title</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.title` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.focus</td><td style=\"border-left-width: 0px; border-bottom-style: none\">focus</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:focus</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.focus` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.focus` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:focus</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.focus` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.specimen</td><td style=\"border-left-width: 0px; border-bottom-style: none\">specimen</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:specimen</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.specimen` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.specimen` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:specimen</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.specimen` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.date</td><td style=\"border-left-width: 0px; border-bottom-style: none\">date</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:date</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.date` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.date` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:date</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.date` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.note</td><td style=\"border-left-width: 0px; border-bottom-style: none\">note</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:note</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.note` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.note` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:note</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.note` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.protocolPerformed</td><td style=\"border-left-width: 0px; border-bottom-style: none\">protocolPerformed</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:protocolPerformed</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.protocolPerformed` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.protocolPerformed` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:protocolPerformed</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.protocolPerformed` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.regionsStudied</td><td style=\"border-left-width: 0px; border-bottom-style: none\">regionsStudied</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:regionsStudied</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.regionsStudied` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.regionsStudied` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:regionsStudied</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.regionsStudied` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.regionsCalled</td><td style=\"border-left-width: 0px; border-bottom-style: none\">regionsCalled</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:regionsCalled</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.regionsCalled` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.regionsCalled` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:regionsCalled</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.regionsCalled` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.input</td><td style=\"border-left-width: 0px; border-bottom-style: none\">input</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:input</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.input` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.input` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.input</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.input` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.input.file</td><td style=\"border-left-width: 0px; border-bottom-style: none\">file</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:input:file</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.input.file` is part of an existing definition because parent element `GenomicStudy.analysis.input` requires a cross-version extension.\nElement `GenomicStudy.analysis.input.file` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.input:file</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.input.file` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.input.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:input:type</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.input.type` is part of an existing definition because parent element `GenomicStudy.analysis.input` requires a cross-version extension.\nElement `GenomicStudy.analysis.input.type` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.input:type</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.input.type` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.input.generatedBy[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">generatedBy[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:input:generatedBy</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.input.generatedBy[x]` is part of an existing definition because parent element `GenomicStudy.analysis.input` requires a cross-version extension.\nElement `GenomicStudy.analysis.input.generatedBy[x]` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.input:generatedBy</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.input.generatedBy[x]` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.output</td><td style=\"border-left-width: 0px; border-bottom-style: none\">output</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:output</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.output` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.output` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.output</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.output` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.output.file</td><td style=\"border-left-width: 0px; border-bottom-style: none\">file</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:output:file</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.output.file` is part of an existing definition because parent element `GenomicStudy.analysis.output` requires a cross-version extension.\nElement `GenomicStudy.analysis.output.file` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.output:file</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.output.file` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.output.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:output:type</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.output.type` is part of an existing definition because parent element `GenomicStudy.analysis.output` requires a cross-version extension.\nElement `GenomicStudy.analysis.output.type` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.output:type</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.output.type` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.performer</td><td style=\"border-left-width: 0px; border-bottom-style: none\">performer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:performer</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.performer` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.performer` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.performer</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.performer` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.performer.actor</td><td style=\"border-left-width: 0px; border-bottom-style: none\">actor</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:performer:actor</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.performer.actor` is part of an existing definition because parent element `GenomicStudy.analysis.performer` requires a cross-version extension.\nElement `GenomicStudy.analysis.performer.actor` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.performer:actor</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.performer.actor` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.performer.role</td><td style=\"border-left-width: 0px; border-bottom-style: none\">role</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:performer:role</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.performer.role` is part of an existing definition because parent element `GenomicStudy.analysis.performer` requires a cross-version extension.\nElement `GenomicStudy.analysis.performer.role` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.performer:role</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.performer.role` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.device</td><td style=\"border-left-width: 0px; border-bottom-style: none\">device</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:device</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.device` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.device` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.device</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.device` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.device.device</td><td style=\"border-left-width: 0px; border-bottom-style: none\">device</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:device:device</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.device.device` is part of an existing definition because parent element `GenomicStudy.analysis.device` requires a cross-version extension.\nElement `GenomicStudy.analysis.device.device` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.device:device</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.device.device` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">GenomicStudy.analysis.device.function</td><td style=\"border-left-width: 0px; border-bottom-style: none\">function</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:device:function</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.device.function` is part of an existing definition because parent element `GenomicStudy.analysis.device` requires a cross-version extension.\nElement `GenomicStudy.analysis.device.function` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.device:function</td><td style=\"border-left-width: 0px\"/><td>Element `GenomicStudy.analysis.device.function` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-GenomicStudy-elements-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-GenomicStudy-elements-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5GenomicStudyElementsForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:32.8876216-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/GenomicStudy"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/GenomicStudy>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "GenomicStudy" ] ;
+       fhir:display [ fhir:v "GenomicStudy" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `GenomicStudy` is representable via FHIR R4B Resource `Basic`.\nElement `GenomicStudy` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `GenomicStudy.meta` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `GenomicStudy.implicitRules` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.language`, use that element instead.\nElement `GenomicStudy.language` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `GenomicStudy.text` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `GenomicStudy.contained` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `GenomicStudy.identifier` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.status` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.type` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `GenomicStudy.subject` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:encounter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.encounter` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.startDate" ] ;
+       fhir:display [ fhir:v "startDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:startDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.startDate` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.basedOn" ] ;
+       fhir:display [ fhir:v "basedOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:basedOn" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.basedOn` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.referrer" ] ;
+       fhir:display [ fhir:v "referrer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:referrer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.referrer` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.interpreter" ] ;
+       fhir:display [ fhir:v "interpreter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:interpreter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.interpreter` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:reason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.reason` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.instantiatesCanonical" ] ;
+       fhir:display [ fhir:v "instantiatesCanonical" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:instantiatesCanonical" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.instantiatesCanonical` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.instantiatesUri" ] ;
+       fhir:display [ fhir:v "instantiatesUri" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:instantiatesUri" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.instantiatesUri` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.note` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.description` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis" ] ;
+       fhir:display [ fhir:v "analysis" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.identifier` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.identifier` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.identifier` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.methodType" ] ;
+       fhir:display [ fhir:v "methodType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:methodType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.methodType` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.methodType` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:methodType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.methodType` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.changeType" ] ;
+       fhir:display [ fhir:v "changeType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:changeType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.changeType` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.changeType` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:changeType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.changeType` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.genomeBuild" ] ;
+       fhir:display [ fhir:v "genomeBuild" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:genomeBuild" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.genomeBuild` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.genomeBuild` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:genomeBuild" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.genomeBuild` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.instantiatesCanonical" ] ;
+       fhir:display [ fhir:v "instantiatesCanonical" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:instantiatesCanonical" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.instantiatesCanonical` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.instantiatesCanonical` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:instantiatesCanonical" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.instantiatesCanonical` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.instantiatesUri" ] ;
+       fhir:display [ fhir:v "instantiatesUri" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:instantiatesUri" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.instantiatesUri` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.instantiatesUri` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:instantiatesUri" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.instantiatesUri` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:title" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.title` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.title` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:title" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.title` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.focus" ] ;
+       fhir:display [ fhir:v "focus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:focus" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.focus` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.focus` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:focus" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.focus` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.specimen" ] ;
+       fhir:display [ fhir:v "specimen" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:specimen" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.specimen` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.specimen` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:specimen" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.specimen` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.date` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.date` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.date` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.note` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.note` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.note` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.protocolPerformed" ] ;
+       fhir:display [ fhir:v "protocolPerformed" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:protocolPerformed" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.protocolPerformed` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.protocolPerformed` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:protocolPerformed" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.protocolPerformed` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.regionsStudied" ] ;
+       fhir:display [ fhir:v "regionsStudied" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:regionsStudied" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.regionsStudied` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.regionsStudied` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:regionsStudied" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.regionsStudied` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.regionsCalled" ] ;
+       fhir:display [ fhir:v "regionsCalled" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:regionsCalled" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.regionsCalled` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.regionsCalled` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:regionsCalled" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.regionsCalled` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.input" ] ;
+       fhir:display [ fhir:v "input" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:input" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.input` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.input` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.input" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.input` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.input.file" ] ;
+       fhir:display [ fhir:v "file" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:input:file" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.input.file` is part of an existing definition because parent element `GenomicStudy.analysis.input` requires a cross-version extension.\nElement `GenomicStudy.analysis.input.file` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.input:file" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.input.file` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.input.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:input:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.input.type` is part of an existing definition because parent element `GenomicStudy.analysis.input` requires a cross-version extension.\nElement `GenomicStudy.analysis.input.type` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.input:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.input.type` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.input.generatedBy[x]" ] ;
+       fhir:display [ fhir:v "generatedBy[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:input:generatedBy" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.input.generatedBy[x]` is part of an existing definition because parent element `GenomicStudy.analysis.input` requires a cross-version extension.\nElement `GenomicStudy.analysis.input.generatedBy[x]` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.input:generatedBy" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.input.generatedBy[x]` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.output" ] ;
+       fhir:display [ fhir:v "output" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:output" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.output` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.output` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.output" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.output` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.output.file" ] ;
+       fhir:display [ fhir:v "file" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:output:file" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.output.file` is part of an existing definition because parent element `GenomicStudy.analysis.output` requires a cross-version extension.\nElement `GenomicStudy.analysis.output.file` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.output:file" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.output.file` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.output.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:output:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.output.type` is part of an existing definition because parent element `GenomicStudy.analysis.output` requires a cross-version extension.\nElement `GenomicStudy.analysis.output.type` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.output:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.output.type` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.performer" ] ;
+       fhir:display [ fhir:v "performer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:performer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.performer` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.performer` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.performer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.performer` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.performer.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:performer:actor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.performer.actor` is part of an existing definition because parent element `GenomicStudy.analysis.performer` requires a cross-version extension.\nElement `GenomicStudy.analysis.performer.actor` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.performer:actor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.performer.actor` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.performer.role" ] ;
+       fhir:display [ fhir:v "role" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:performer:role" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.performer.role` is part of an existing definition because parent element `GenomicStudy.analysis.performer` requires a cross-version extension.\nElement `GenomicStudy.analysis.performer.role` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.performer:role" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.performer.role` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.device" ] ;
+       fhir:display [ fhir:v "device" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:device" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.device` is part of an existing definition because parent element `GenomicStudy.analysis` requires a cross-version extension.\nElement `GenomicStudy.analysis.device` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.device" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.device` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.device.device" ] ;
+       fhir:display [ fhir:v "device" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:device:device" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.device.device` is part of an existing definition because parent element `GenomicStudy.analysis.device` requires a cross-version extension.\nElement `GenomicStudy.analysis.device.device` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.device:device" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.device.device` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GenomicStudy.analysis.device.function" ] ;
+       fhir:display [ fhir:v "function" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:analysis:device:function" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.device.function` is part of an existing definition because parent element `GenomicStudy.analysis.device` requires a cross-version extension.\nElement `GenomicStudy.analysis.device.function` is not mapped to FHIR R4B, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.device:function" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `GenomicStudy.analysis.device.function` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

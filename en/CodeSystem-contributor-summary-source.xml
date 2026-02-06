@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="contributor-summary-source"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/contributor-summary-source</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">publisher-data
+                  <a name="contributor-summary-source-publisher-data"> </a>
+                </td>
+                <td>Publisher provided</td>
+                <td>Data copied by machine from publisher data.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">article-copy
+                  <a name="contributor-summary-source-article-copy"> </a>
+                </td>
+                <td>Copied from article</td>
+                <td>Data copied by human from article text.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">citation-manager
+                  <a name="contributor-summary-source-citation-manager"> </a>
+                </td>
+                <td>Reported by citation manager</td>
+                <td>Data copied by machine from citation manager data.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">custom
+                  <a name="contributor-summary-source-custom"> </a>
+                </td>
+                <td>custom format</td>
+                <td>Custom format (may be described in text note).</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="cds"/>
+  </extension>
+  <url value="http://hl7.org/fhir/contributor-summary-source"/>
+  <version value="5.0.0"/>
+  <name value="ContributorSummarySource"/>
+  <title value="Contributor Summary Source"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2020-12-27T23:55:11-06:00"/>
+  <publisher value="Clinical Decision Support"/>
+  <contact>
+    <name value="Clinical Decision Support"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/dss"/>
+    </telecom>
+  </contact>
+  <description value="Used to code the producer or rule for creating the display string."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/contributor-summary-source"/>
+  <content value="complete"/>
+  <concept>
+    <code value="publisher-data"/>
+    <display value="Publisher provided"/>
+    <definition value="Data copied by machine from publisher data."/>
+  </concept>
+  <concept>
+    <code value="article-copy"/>
+    <display value="Copied from article"/>
+    <definition value="Data copied by human from article text."/>
+  </concept>
+  <concept>
+    <code value="citation-manager"/>
+    <display value="Reported by citation manager"/>
+    <definition value="Data copied by machine from citation manager data."/>
+  </concept>
+  <concept>
+    <code value="custom"/>
+    <display value="custom format"/>
+    <definition value="Custom format (may be described in text note)."/>
+  </concept>
+</CodeSystem>

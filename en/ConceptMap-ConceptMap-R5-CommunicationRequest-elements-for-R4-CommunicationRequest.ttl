@@ -1,0 +1,397 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-CommunicationRequest-elements-for-R4-CommunicationRequest> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-CommunicationRequest-elements-for-R4-CommunicationRequest"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-CommunicationRequest-elements-for-R4-CommunicationRequest</b></p><a name=\"ConceptMap-R5-CommunicationRequest-elements-for-R4-CommunicationRequest\"> </a><a name=\"hcConceptMap-R5-CommunicationRequest-elements-for-R4-CommunicationRequest\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/CommunicationRequest|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/CommunicationRequest|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">CommunicationRequest</td><td style=\"border-left-width: 0px\">CommunicationRequest</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `CommunicationRequest` is representable via FHIR R4B Resource `CommunicationRequest`.\nElement `CommunicationRequest` is mapped to FHIR R4B element `CommunicationRequest`.</td></tr><tr><td style=\"border-right-width: 0px\">CommunicationRequest.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.meta</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.meta` is mapped to FHIR R4B element `CommunicationRequest.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">CommunicationRequest.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.implicitRules` is mapped to FHIR R4B element `CommunicationRequest.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">CommunicationRequest.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.language</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.language` is mapped to FHIR R4B element `CommunicationRequest.language`.</td></tr><tr><td style=\"border-right-width: 0px\">CommunicationRequest.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.text</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.text` is mapped to FHIR R4B element `CommunicationRequest.text`.</td></tr><tr><td style=\"border-right-width: 0px\">CommunicationRequest.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.contained</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.contained` is mapped to FHIR R4B element `CommunicationRequest.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">CommunicationRequest.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.identifier` is mapped to FHIR R4B element `CommunicationRequest.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CommunicationRequest.basedOn</td><td style=\"border-left-width: 0px; border-bottom-style: none\">basedOn</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.basedOn</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.basedOn` is mapped to FHIR R4B element `CommunicationRequest.basedOn`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CommunicationRequest.basedOn</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.basedOn` is mapped to FHIR DSTU2 structure `CommunicationRequest`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CommunicationRequest.replaces</td><td style=\"border-left-width: 0px; border-bottom-style: none\">replaces</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.replaces</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.replaces` is mapped to FHIR R4B element `CommunicationRequest.replaces`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CommunicationRequest.replaces</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.replaces` is mapped to FHIR DSTU2 structure `CommunicationRequest`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CommunicationRequest.groupIdentifier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">groupIdentifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.groupIdentifier</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.groupIdentifier` is mapped to FHIR R4B element `CommunicationRequest.groupIdentifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CommunicationRequest.groupIdentifier</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.groupIdentifier` is mapped to FHIR DSTU2 structure `CommunicationRequest`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">CommunicationRequest.status</td><td style=\"border-left-width: 0px\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.status</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.status` is mapped to FHIR R4B element `CommunicationRequest.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CommunicationRequest.statusReason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">statusReason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.statusReason</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.statusReason` is mapped to FHIR R4B element `CommunicationRequest.statusReason`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CommunicationRequest.statusReason</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.statusReason` is mapped to FHIR STU3 structure `CommunicationRequest`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">CommunicationRequest.intent</td><td style=\"border-left-width: 0px\">intent</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CommunicationRequest.intent</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.intent` is mapped to FHIR R4B structure `CommunicationRequest`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">CommunicationRequest.category</td><td style=\"border-left-width: 0px\">category</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.category</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.category` is mapped to FHIR R4B element `CommunicationRequest.category`.</td></tr><tr><td style=\"border-right-width: 0px\">CommunicationRequest.priority</td><td style=\"border-left-width: 0px\">priority</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.priority</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.priority` is mapped to FHIR R4B element `CommunicationRequest.priority`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CommunicationRequest.doNotPerform</td><td style=\"border-left-width: 0px; border-bottom-style: none\">doNotPerform</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.doNotPerform</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.doNotPerform` is mapped to FHIR R4B element `CommunicationRequest.doNotPerform`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CommunicationRequest.doNotPerform</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.doNotPerform` is mapped to FHIR STU3 structure `CommunicationRequest`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">CommunicationRequest.medium</td><td style=\"border-left-width: 0px\">medium</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.medium</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.medium` is mapped to FHIR R4B element `CommunicationRequest.medium`.</td></tr><tr><td style=\"border-right-width: 0px\">CommunicationRequest.subject</td><td style=\"border-left-width: 0px\">subject</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.subject</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.subject` is mapped to FHIR R4B element `CommunicationRequest.subject`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CommunicationRequest.about</td><td style=\"border-left-width: 0px; border-bottom-style: none\">about</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.about</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.about` is mapped to FHIR R4B element `CommunicationRequest.about`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.topic</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.about` is mapped to FHIR STU3 element `CommunicationRequest.topic`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CommunicationRequest.about</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.about` is mapped to FHIR DSTU2 structure `CommunicationRequest`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CommunicationRequest.encounter</td><td style=\"border-left-width: 0px; border-bottom-style: none\">encounter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.encounter</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.encounter` is mapped to FHIR R4B element `CommunicationRequest.encounter`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.context</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.encounter` is mapped to FHIR STU3 element `CommunicationRequest.context`.</td></tr><tr><td style=\"border-right-width: 0px\">CommunicationRequest.payload</td><td style=\"border-left-width: 0px\">payload</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.payload</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.payload` is mapped to FHIR R4B element `CommunicationRequest.payload`.</td></tr><tr><td style=\"border-right-width: 0px\">CommunicationRequest.payload.content[x]</td><td style=\"border-left-width: 0px\">content[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.payload.content[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `CommunicationRequest.payload.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CommunicationRequest.payload`.\nElement `CommunicationRequest.payload.content[x]` is mapped to FHIR R4B element `CommunicationRequest.payload.content[x]`.\nNote that the target element context `CommunicationRequest.payload.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CommunicationRequest.payload`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CommunicationRequest.occurrence[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">occurrence[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.occurrence[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `CommunicationRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CommunicationRequest`.\nElement `CommunicationRequest.occurrence[x]` is mapped to FHIR R4B element `CommunicationRequest.occurrence[x]`.\nNote that the target element context `CommunicationRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CommunicationRequest`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.scheduled[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `CommunicationRequest.scheduled[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CommunicationRequest`.\nElement `CommunicationRequest.occurrence[x]` is mapped to FHIR DSTU2 element `CommunicationRequest.scheduled[x]`.\nNote that the target element context `CommunicationRequest.scheduled[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CommunicationRequest`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CommunicationRequest.authoredOn</td><td style=\"border-left-width: 0px; border-bottom-style: none\">authoredOn</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.authoredOn</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.authoredOn` is mapped to FHIR R4B element `CommunicationRequest.authoredOn`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.requestedOn</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.authoredOn` is mapped to FHIR DSTU2 element `CommunicationRequest.requestedOn`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CommunicationRequest.requester</td><td style=\"border-left-width: 0px; border-bottom-style: none\">requester</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.requester</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.requester` is mapped to FHIR R4B element `CommunicationRequest.requester`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.requester.agent</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.requester` is mapped to FHIR STU3 element `CommunicationRequest.requester.agent`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CommunicationRequest.requester</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.requester` is mapped to FHIR DSTU2 structure `CommunicationRequest`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">CommunicationRequest.recipient</td><td style=\"border-left-width: 0px\">recipient</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.recipient</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.recipient` is mapped to FHIR R4B element `CommunicationRequest.recipient`.</td></tr><tr><td style=\"border-right-width: 0px\">CommunicationRequest.informationProvider</td><td style=\"border-left-width: 0px\">informationProvider</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.sender</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.informationProvider` is mapped to FHIR R4B element `CommunicationRequest.sender`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CommunicationRequest.reason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.reasonCode</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.reason` is mapped to FHIR R4B element `CommunicationRequest.reasonCode`.\nElement `CommunicationRequest.reason` is mapped to FHIR R4B element `CommunicationRequest.reasonReference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.reasonReference</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.reason` is mapped to FHIR R4B element `CommunicationRequest.reasonCode`.\nElement `CommunicationRequest.reason` is mapped to FHIR R4B element `CommunicationRequest.reasonReference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.reason</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.reason` is mapped to FHIR DSTU2 element `CommunicationRequest.reason`.\nElement `CommunicationRequest.reason` is mapped to FHIR DSTU2 structure `CommunicationRequest`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CommunicationRequest.note</td><td style=\"border-left-width: 0px; border-bottom-style: none\">note</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.note</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.note` is mapped to FHIR R4B element `CommunicationRequest.note`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CommunicationRequest.note</td><td style=\"border-left-width: 0px\"/><td>Element `CommunicationRequest.note` is mapped to FHIR DSTU2 structure `CommunicationRequest`, but has no target element specified.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-CommunicationRequest-elements-for-R4-CommunicationRequest"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-CommunicationRequest-elements-for-R4-CommunicationRequest>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5CommunicationRequestElementsForR4CommunicationRequest"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:31.6876062-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/CommunicationRequest>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "CommunicationRequest" ] ;
+       fhir:display [ fhir:v "CommunicationRequest" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `CommunicationRequest` is representable via FHIR R4B Resource `CommunicationRequest`.\nElement `CommunicationRequest` is mapped to FHIR R4B element `CommunicationRequest`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.meta` is mapped to FHIR R4B element `CommunicationRequest.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.implicitRules` is mapped to FHIR R4B element `CommunicationRequest.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.language` is mapped to FHIR R4B element `CommunicationRequest.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.text` is mapped to FHIR R4B element `CommunicationRequest.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.contained` is mapped to FHIR R4B element `CommunicationRequest.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.identifier` is mapped to FHIR R4B element `CommunicationRequest.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.basedOn" ] ;
+       fhir:display [ fhir:v "basedOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.basedOn" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.basedOn` is mapped to FHIR R4B element `CommunicationRequest.basedOn`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CommunicationRequest.basedOn" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.basedOn` is mapped to FHIR DSTU2 structure `CommunicationRequest`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.replaces" ] ;
+       fhir:display [ fhir:v "replaces" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.replaces" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.replaces` is mapped to FHIR R4B element `CommunicationRequest.replaces`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CommunicationRequest.replaces" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.replaces` is mapped to FHIR DSTU2 structure `CommunicationRequest`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.groupIdentifier" ] ;
+       fhir:display [ fhir:v "groupIdentifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.groupIdentifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.groupIdentifier` is mapped to FHIR R4B element `CommunicationRequest.groupIdentifier`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CommunicationRequest.groupIdentifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.groupIdentifier` is mapped to FHIR DSTU2 structure `CommunicationRequest`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.status` is mapped to FHIR R4B element `CommunicationRequest.status`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.statusReason" ] ;
+       fhir:display [ fhir:v "statusReason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.statusReason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.statusReason` is mapped to FHIR R4B element `CommunicationRequest.statusReason`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CommunicationRequest.statusReason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.statusReason` is mapped to FHIR STU3 structure `CommunicationRequest`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.intent" ] ;
+       fhir:display [ fhir:v "intent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CommunicationRequest.intent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.intent` is mapped to FHIR R4B structure `CommunicationRequest`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.category` is mapped to FHIR R4B element `CommunicationRequest.category`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.priority" ] ;
+       fhir:display [ fhir:v "priority" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.priority" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.priority` is mapped to FHIR R4B element `CommunicationRequest.priority`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.doNotPerform" ] ;
+       fhir:display [ fhir:v "doNotPerform" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.doNotPerform" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.doNotPerform` is mapped to FHIR R4B element `CommunicationRequest.doNotPerform`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CommunicationRequest.doNotPerform" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.doNotPerform` is mapped to FHIR STU3 structure `CommunicationRequest`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.medium" ] ;
+       fhir:display [ fhir:v "medium" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.medium" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.medium` is mapped to FHIR R4B element `CommunicationRequest.medium`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.subject` is mapped to FHIR R4B element `CommunicationRequest.subject`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.about" ] ;
+       fhir:display [ fhir:v "about" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.about" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.about` is mapped to FHIR R4B element `CommunicationRequest.about`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.topic" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.about` is mapped to FHIR STU3 element `CommunicationRequest.topic`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CommunicationRequest.about" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.about` is mapped to FHIR DSTU2 structure `CommunicationRequest`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.encounter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.encounter` is mapped to FHIR R4B element `CommunicationRequest.encounter`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.context" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.encounter` is mapped to FHIR STU3 element `CommunicationRequest.context`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.payload" ] ;
+       fhir:display [ fhir:v "payload" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.payload" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.payload` is mapped to FHIR R4B element `CommunicationRequest.payload`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.payload.content[x]" ] ;
+       fhir:display [ fhir:v "content[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.payload.content[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `CommunicationRequest.payload.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CommunicationRequest.payload`.\nElement `CommunicationRequest.payload.content[x]` is mapped to FHIR R4B element `CommunicationRequest.payload.content[x]`.\nNote that the target element context `CommunicationRequest.payload.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CommunicationRequest.payload`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.occurrence[x]" ] ;
+       fhir:display [ fhir:v "occurrence[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.occurrence[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `CommunicationRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CommunicationRequest`.\nElement `CommunicationRequest.occurrence[x]` is mapped to FHIR R4B element `CommunicationRequest.occurrence[x]`.\nNote that the target element context `CommunicationRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CommunicationRequest`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.scheduled[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `CommunicationRequest.scheduled[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CommunicationRequest`.\nElement `CommunicationRequest.occurrence[x]` is mapped to FHIR DSTU2 element `CommunicationRequest.scheduled[x]`.\nNote that the target element context `CommunicationRequest.scheduled[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CommunicationRequest`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.authoredOn" ] ;
+       fhir:display [ fhir:v "authoredOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.authoredOn" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.authoredOn` is mapped to FHIR R4B element `CommunicationRequest.authoredOn`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.requestedOn" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.authoredOn` is mapped to FHIR DSTU2 element `CommunicationRequest.requestedOn`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.requester" ] ;
+       fhir:display [ fhir:v "requester" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.requester" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.requester` is mapped to FHIR R4B element `CommunicationRequest.requester`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.requester.agent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.requester` is mapped to FHIR STU3 element `CommunicationRequest.requester.agent`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CommunicationRequest.requester" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.requester` is mapped to FHIR DSTU2 structure `CommunicationRequest`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.recipient" ] ;
+       fhir:display [ fhir:v "recipient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.recipient" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.recipient` is mapped to FHIR R4B element `CommunicationRequest.recipient`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.informationProvider" ] ;
+       fhir:display [ fhir:v "informationProvider" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.sender" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.informationProvider` is mapped to FHIR R4B element `CommunicationRequest.sender`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.reasonCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.reason` is mapped to FHIR R4B element `CommunicationRequest.reasonCode`.\nElement `CommunicationRequest.reason` is mapped to FHIR R4B element `CommunicationRequest.reasonReference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.reasonReference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.reason` is mapped to FHIR R4B element `CommunicationRequest.reasonCode`.\nElement `CommunicationRequest.reason` is mapped to FHIR R4B element `CommunicationRequest.reasonReference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.reason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.reason` is mapped to FHIR DSTU2 element `CommunicationRequest.reason`.\nElement `CommunicationRequest.reason` is mapped to FHIR DSTU2 structure `CommunicationRequest`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CommunicationRequest.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.note` is mapped to FHIR R4B element `CommunicationRequest.note`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CommunicationRequest.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CommunicationRequest.note` is mapped to FHIR DSTU2 structure `CommunicationRequest`, but has no target element specified." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

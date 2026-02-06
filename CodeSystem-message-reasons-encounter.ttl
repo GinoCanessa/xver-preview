@@ -1,0 +1,131 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/message-reasons-encounter> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "message-reasons-encounter"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://terminology.hl7.org/CodeSystem/message-reasons-encounter</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">admit<a name=\"message-reasons-encounter-admit\"> </a></td><td>Admit</td><td>The patient has been admitted.</td></tr><tr><td style=\"white-space:nowrap\">discharge<a name=\"message-reasons-encounter-discharge\"> </a></td><td>Discharge</td><td>The patient has been discharged.</td></tr><tr><td style=\"white-space:nowrap\">absent<a name=\"message-reasons-encounter-absent\"> </a></td><td>Absent</td><td>The patient has temporarily left the institution.</td></tr><tr><td style=\"white-space:nowrap\">return<a name=\"message-reasons-encounter-return\"> </a></td><td>Returned</td><td>The patient has returned from a temporary absence.</td></tr><tr><td style=\"white-space:nowrap\">moved<a name=\"message-reasons-encounter-moved\"> </a></td><td>Moved</td><td>The patient has been moved to a new location.</td></tr><tr><td style=\"white-space:nowrap\">edit<a name=\"message-reasons-encounter-edit\"> </a></td><td>Edit</td><td>Encounter details have been updated (e.g. to correct a coding error).</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "inm"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/message-reasons-encounter"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/message-reasons-encounter>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "ExampleMessageReasonCodes"] ; # 
+  fhir:title [ fhir:v "Example Message Reason Codes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2023-02-25T12:07:30-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Infrastructure And Messaging"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Infrastructure And Messaging" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/inm" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Example Message Reasons. These are the set of codes that might be used an updating an encounter using admin-update."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:valueSet [
+     fhir:v "http://terminology.hl7.org/ValueSet/message-reason-encounter|1.0.1"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/message-reason-encounter?version=1.0.1>
+  ] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "admit" ] ;
+     fhir:display [ fhir:v "Admit" ] ;
+     fhir:definition [ fhir:v "The patient has been admitted." ]
+  ] [
+     fhir:code [ fhir:v "discharge" ] ;
+     fhir:display [ fhir:v "Discharge" ] ;
+     fhir:definition [ fhir:v "The patient has been discharged." ]
+  ] [
+     fhir:code [ fhir:v "absent" ] ;
+     fhir:display [ fhir:v "Absent" ] ;
+     fhir:definition [ fhir:v "The patient has temporarily left the institution." ]
+  ] [
+     fhir:code [ fhir:v "return" ] ;
+     fhir:display [ fhir:v "Returned" ] ;
+     fhir:definition [ fhir:v "The patient has returned from a temporary absence." ]
+  ] [
+     fhir:code [ fhir:v "moved" ] ;
+     fhir:display [ fhir:v "Moved" ] ;
+     fhir:definition [ fhir:v "The patient has been moved to a new location." ]
+  ] [
+     fhir:code [ fhir:v "edit" ] ;
+     fhir:display [ fhir:v "Edit" ] ;
+     fhir:definition [ fhir:v "Encounter details have been updated (e.g. to correct a coding error)." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

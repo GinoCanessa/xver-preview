@@ -1,0 +1,140 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-detectedissue-status-for-R4-observation-status> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-detectedissue-status-for-R4-observation-status"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-detectedissue-status-for-R4-observation-status</b></p><a name=\"ConceptMap-R5-detectedissue-status-for-R4-observation-status\"> </a><a name=\"hcConceptMap-R5-detectedissue-status-for-R4-observation-status\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <a href=\"CodeSystem-observation-status.html\">Observation Statusversion: 5.0.0)</a> to <a href=\"CodeSystem-observation-status.html\">Observation Statusversion: 5.0.0)</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from <a href=\"CodeSystem-observation-status.html\" title=\"http://hl7.org/fhir/observation-status|5.0.0\">Observation Status</a></td><td colspan=\"2\"><b>Codes</b> from <a href=\"CodeSystem-observation-status.html\" title=\"http://hl7.org/fhir/observation-status|5.0.0\">Observation Status</a></td><td/></tr><tr><td style=\"border-right-width: 0px\">entered-in-error</td><td style=\"border-left-width: 0px\">Entered in Error</td><td style=\"border-right-width: 0px\">entered-in-error</td><td style=\"border-left-width: 0px\">Entered in Error</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/detectedissue-status|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-status|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-DetectedissueStatus-R4B-ObservationStatus` (`ConceptMap-R5-DetectedissueStatus-R4B-ObservationStatus.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-status|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-status|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationStatus-R4-ObservationStatus` (`ConceptMap-R4B-ObservationStatus-R4-ObservationStatus.json`)</td></tr><tr><td style=\"border-right-width: 0px\">final</td><td style=\"border-left-width: 0px\">Final</td><td style=\"border-right-width: 0px\">final</td><td style=\"border-left-width: 0px\">Final</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/detectedissue-status|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-status|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-DetectedissueStatus-R4B-ObservationStatus` (`ConceptMap-R5-DetectedissueStatus-R4B-ObservationStatus.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-status|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-status|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationStatus-R4-ObservationStatus` (`ConceptMap-R4B-ObservationStatus-R4-ObservationStatus.json`)</td></tr><tr><td style=\"border-right-width: 0px\">preliminary</td><td style=\"border-left-width: 0px\">Preliminary</td><td style=\"border-right-width: 0px\">preliminary</td><td style=\"border-left-width: 0px\">Preliminary</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/detectedissue-status|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-status|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-DetectedissueStatus-R4B-ObservationStatus` (`ConceptMap-R5-DetectedissueStatus-R4B-ObservationStatus.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-status|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-status|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationStatus-R4-ObservationStatus` (`ConceptMap-R4B-ObservationStatus-R4-ObservationStatus.json`)</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ValueSet-R5-detectedissue-status-for-R4-observation-status"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ValueSet-R5-detectedissue-status-for-R4-observation-status>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5DetectedissueStatusForR4ObservationStatus"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for ValueSet ValueSet-R5-detectedissue-status-for-R4-observation-status from FHIR R5 to FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:23.9459934-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of concepts from ValueSet `http://hl7.org/fhir/ValueSet/detectedissue-status|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/observation-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/observation-status>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/observation-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/observation-status>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "entered-in-error" ] ;
+       fhir:display [ fhir:v "Entered in Error" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "entered-in-error" ] ;
+         fhir:display [ fhir:v "Entered in Error" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/detectedissue-status|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-status|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-DetectedissueStatus-R4B-ObservationStatus` (`ConceptMap-R5-DetectedissueStatus-R4B-ObservationStatus.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-status|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-status|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationStatus-R4-ObservationStatus` (`ConceptMap-R4B-ObservationStatus-R4-ObservationStatus.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "final" ] ;
+       fhir:display [ fhir:v "Final" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "final" ] ;
+         fhir:display [ fhir:v "Final" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/detectedissue-status|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-status|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-DetectedissueStatus-R4B-ObservationStatus` (`ConceptMap-R5-DetectedissueStatus-R4B-ObservationStatus.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-status|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-status|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationStatus-R4-ObservationStatus` (`ConceptMap-R4B-ObservationStatus-R4-ObservationStatus.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "preliminary" ] ;
+       fhir:display [ fhir:v "Preliminary" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "preliminary" ] ;
+         fhir:display [ fhir:v "Preliminary" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/detectedissue-status|5.0.0` to `http://hl7.org/fhir/ValueSet/observation-status|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-DetectedissueStatus-R4B-ObservationStatus` (`ConceptMap-R5-DetectedissueStatus-R4B-ObservationStatus.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/observation-status|4.3.0` to `http://hl7.org/fhir/ValueSet/observation-status|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ObservationStatus-R4-ObservationStatus` (`ConceptMap-R4B-ObservationStatus-R4-ObservationStatus.json`)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "mitigated" ] ;
+       fhir:display [ fhir:v "Mitigated" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

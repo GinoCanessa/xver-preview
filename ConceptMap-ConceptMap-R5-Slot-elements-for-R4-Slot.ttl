@@ -1,0 +1,260 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-Slot-elements-for-R4-Slot> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-Slot-elements-for-R4-Slot"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-Slot-elements-for-R4-Slot</b></p><a name=\"ConceptMap-R5-Slot-elements-for-R4-Slot\"> </a><a name=\"hcConceptMap-R5-Slot-elements-for-R4-Slot\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Slot|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Slot|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">Slot</td><td style=\"border-left-width: 0px\">Slot</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Slot#Slot</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Slot` is representable via FHIR R4B Resource `Slot`.\nElement `Slot` is mapped to FHIR R4B element `Slot`.</td></tr><tr><td style=\"border-right-width: 0px\">Slot.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Slot#Slot.meta</td><td style=\"border-left-width: 0px\"/><td>Element `Slot.meta` is mapped to FHIR R4B element `Slot.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">Slot.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Slot#Slot.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `Slot.implicitRules` is mapped to FHIR R4B element `Slot.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">Slot.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Slot#Slot.language</td><td style=\"border-left-width: 0px\"/><td>Element `Slot.language` is mapped to FHIR R4B element `Slot.language`.</td></tr><tr><td style=\"border-right-width: 0px\">Slot.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Slot#Slot.text</td><td style=\"border-left-width: 0px\"/><td>Element `Slot.text` is mapped to FHIR R4B element `Slot.text`.</td></tr><tr><td style=\"border-right-width: 0px\">Slot.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Slot#Slot.contained</td><td style=\"border-left-width: 0px\"/><td>Element `Slot.contained` is mapped to FHIR R4B element `Slot.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">Slot.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Slot#Slot.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `Slot.identifier` is mapped to FHIR R4B element `Slot.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Slot.serviceCategory</td><td style=\"border-left-width: 0px; border-bottom-style: none\">serviceCategory</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Slot#Slot.serviceCategory</td><td style=\"border-left-width: 0px\"/><td>Element `Slot.serviceCategory` is mapped to FHIR R4B element `Slot.serviceCategory`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Slot.serviceCategory</td><td style=\"border-left-width: 0px\"/><td>Element `Slot.serviceCategory` is mapped to FHIR DSTU2 structure `Slot`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Slot.serviceType</td><td style=\"border-left-width: 0px; border-bottom-style: none\">serviceType</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Slot#Slot.serviceType</td><td style=\"border-left-width: 0px\"/><td>Element `Slot.serviceType` is mapped to FHIR R4B element `Slot.serviceType`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Slot#Slot.type</td><td style=\"border-left-width: 0px\"/><td>Element `Slot.serviceType` is mapped to FHIR DSTU2 element `Slot.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Slot.specialty</td><td style=\"border-left-width: 0px; border-bottom-style: none\">specialty</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Slot#Slot.specialty</td><td style=\"border-left-width: 0px\"/><td>Element `Slot.specialty` is mapped to FHIR R4B element `Slot.specialty`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Slot.specialty</td><td style=\"border-left-width: 0px\"/><td>Element `Slot.specialty` is mapped to FHIR DSTU2 structure `Slot`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Slot.appointmentType</td><td style=\"border-left-width: 0px; border-bottom-style: none\">appointmentType</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Slot#Slot.appointmentType</td><td style=\"border-left-width: 0px\"/><td>Element `Slot.appointmentType` is mapped to FHIR R4B element `Slot.appointmentType`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Slot.appointmentType</td><td style=\"border-left-width: 0px\"/><td>Element `Slot.appointmentType` is mapped to FHIR DSTU2 structure `Slot`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Slot.schedule</td><td style=\"border-left-width: 0px\">schedule</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Slot#Slot.schedule</td><td style=\"border-left-width: 0px\"/><td>Element `Slot.schedule` is mapped to FHIR R4B element `Slot.schedule`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Slot.status</td><td style=\"border-left-width: 0px; border-bottom-style: none\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Slot#Slot.status</td><td style=\"border-left-width: 0px\"/><td>Element `Slot.status` is mapped to FHIR R4B element `Slot.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Slot#Slot.freeBusyType</td><td style=\"border-left-width: 0px\"/><td>Element `Slot.status` is mapped to FHIR DSTU2 element `Slot.freeBusyType`.</td></tr><tr><td style=\"border-right-width: 0px\">Slot.start</td><td style=\"border-left-width: 0px\">start</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Slot#Slot.start</td><td style=\"border-left-width: 0px\"/><td>Element `Slot.start` is mapped to FHIR R4B element `Slot.start`.</td></tr><tr><td style=\"border-right-width: 0px\">Slot.end</td><td style=\"border-left-width: 0px\">end</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Slot#Slot.end</td><td style=\"border-left-width: 0px\"/><td>Element `Slot.end` is mapped to FHIR R4B element `Slot.end`.</td></tr><tr><td style=\"border-right-width: 0px\">Slot.overbooked</td><td style=\"border-left-width: 0px\">overbooked</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Slot#Slot.overbooked</td><td style=\"border-left-width: 0px\"/><td>Element `Slot.overbooked` is mapped to FHIR R4B element `Slot.overbooked`.</td></tr><tr><td style=\"border-right-width: 0px\">Slot.comment</td><td style=\"border-left-width: 0px\">comment</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Slot#Slot.comment</td><td style=\"border-left-width: 0px\"/><td>Element `Slot.comment` is mapped to FHIR R4B element `Slot.comment`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Slot-elements-for-R4-Slot"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Slot-elements-for-R4-Slot>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5SlotElementsForR4Slot"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:34.2633665-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Slot"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Slot>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Slot" ] ;
+       fhir:display [ fhir:v "Slot" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Slot#Slot" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Slot` is representable via FHIR R4B Resource `Slot`.\nElement `Slot` is mapped to FHIR R4B element `Slot`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Slot.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Slot#Slot.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Slot.meta` is mapped to FHIR R4B element `Slot.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Slot.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Slot#Slot.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Slot.implicitRules` is mapped to FHIR R4B element `Slot.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Slot.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Slot#Slot.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Slot.language` is mapped to FHIR R4B element `Slot.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Slot.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Slot#Slot.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Slot.text` is mapped to FHIR R4B element `Slot.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Slot.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Slot#Slot.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Slot.contained` is mapped to FHIR R4B element `Slot.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Slot.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Slot#Slot.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Slot.identifier` is mapped to FHIR R4B element `Slot.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Slot.serviceCategory" ] ;
+       fhir:display [ fhir:v "serviceCategory" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Slot#Slot.serviceCategory" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Slot.serviceCategory` is mapped to FHIR R4B element `Slot.serviceCategory`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Slot.serviceCategory" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Slot.serviceCategory` is mapped to FHIR DSTU2 structure `Slot`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Slot.serviceType" ] ;
+       fhir:display [ fhir:v "serviceType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Slot#Slot.serviceType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Slot.serviceType` is mapped to FHIR R4B element `Slot.serviceType`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Slot#Slot.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Slot.serviceType` is mapped to FHIR DSTU2 element `Slot.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Slot.specialty" ] ;
+       fhir:display [ fhir:v "specialty" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Slot#Slot.specialty" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Slot.specialty` is mapped to FHIR R4B element `Slot.specialty`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Slot.specialty" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Slot.specialty` is mapped to FHIR DSTU2 structure `Slot`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Slot.appointmentType" ] ;
+       fhir:display [ fhir:v "appointmentType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Slot#Slot.appointmentType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Slot.appointmentType` is mapped to FHIR R4B element `Slot.appointmentType`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Slot.appointmentType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Slot.appointmentType` is mapped to FHIR DSTU2 structure `Slot`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Slot.schedule" ] ;
+       fhir:display [ fhir:v "schedule" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Slot#Slot.schedule" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Slot.schedule` is mapped to FHIR R4B element `Slot.schedule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Slot.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Slot#Slot.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Slot.status` is mapped to FHIR R4B element `Slot.status`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Slot#Slot.freeBusyType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Slot.status` is mapped to FHIR DSTU2 element `Slot.freeBusyType`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Slot.start" ] ;
+       fhir:display [ fhir:v "start" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Slot#Slot.start" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Slot.start` is mapped to FHIR R4B element `Slot.start`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Slot.end" ] ;
+       fhir:display [ fhir:v "end" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Slot#Slot.end" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Slot.end` is mapped to FHIR R4B element `Slot.end`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Slot.overbooked" ] ;
+       fhir:display [ fhir:v "overbooked" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Slot#Slot.overbooked" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Slot.overbooked` is mapped to FHIR R4B element `Slot.overbooked`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Slot.comment" ] ;
+       fhir:display [ fhir:v "comment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Slot#Slot.comment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Slot.comment` is mapped to FHIR R4B element `Slot.comment`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

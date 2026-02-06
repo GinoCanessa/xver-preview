@@ -1,0 +1,537 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-EventDefinition-elements-for-R4-EventDefinition> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-EventDefinition-elements-for-R4-EventDefinition"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-EventDefinition-elements-for-R4-EventDefinition</b></p><a name=\"ConceptMap-R5-EventDefinition-elements-for-R4-EventDefinition\"> </a><a name=\"hcConceptMap-R5-EventDefinition-elements-for-R4-EventDefinition\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/EventDefinition|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/EventDefinition|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition</td><td style=\"border-left-width: 0px; border-bottom-style: none\">EventDefinition</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `EventDefinition` is representable via FHIR R4B Resource `EventDefinition`.\nElement `EventDefinition` is mapped to FHIR R4B element `EventDefinition`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `EventDefinition` is representable via FHIR STU3 Resource `Basic`.\nElement `EventDefinition` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.meta</td><td style=\"border-left-width: 0px; border-bottom-style: none\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.meta</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.meta` is mapped to FHIR R4B element `EventDefinition.meta`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.meta</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.meta`, use that element instead.\nElement `EventDefinition.meta` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.implicitRules</td><td style=\"border-left-width: 0px; border-bottom-style: none\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.implicitRules` is mapped to FHIR R4B element `EventDefinition.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `EventDefinition.implicitRules` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.language</td><td style=\"border-left-width: 0px; border-bottom-style: none\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.language</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.language` is mapped to FHIR R4B element `EventDefinition.language`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.language</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.language`, use that element instead.\nElement `EventDefinition.language` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.text</td><td style=\"border-left-width: 0px; border-bottom-style: none\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.text</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.text` is mapped to FHIR R4B element `EventDefinition.text`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.text</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `EventDefinition.text` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.contained</td><td style=\"border-left-width: 0px; border-bottom-style: none\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.contained</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.contained` is mapped to FHIR R4B element `EventDefinition.contained`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.contained</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `EventDefinition.contained` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.url</td><td style=\"border-left-width: 0px; border-bottom-style: none\">url</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.url</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.url` is mapped to FHIR R4B element `EventDefinition.url`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:url</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.url` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.identifier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.identifier` is mapped to FHIR R4B element `EventDefinition.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.identifier</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `EventDefinition.identifier` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.version</td><td style=\"border-left-width: 0px; border-bottom-style: none\">version</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.version</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.version` is mapped to FHIR R4B element `EventDefinition.version`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:version</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.version` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.versionAlgorithm[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">versionAlgorithm[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition.versionAlgorithm</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.versionAlgorithm[x]` is mapped to FHIR R4B structure `EventDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:versionAlgorithm</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.versionAlgorithm[x]` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.name</td><td style=\"border-left-width: 0px; border-bottom-style: none\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.name</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.name` is mapped to FHIR R4B element `EventDefinition.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:name</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.name` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.title</td><td style=\"border-left-width: 0px; border-bottom-style: none\">title</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.title</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.title` is mapped to FHIR R4B element `EventDefinition.title`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:title</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.title` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.subtitle</td><td style=\"border-left-width: 0px; border-bottom-style: none\">subtitle</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.subtitle</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.subtitle` is mapped to FHIR R4B element `EventDefinition.subtitle`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:subtitle</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.subtitle` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.status</td><td style=\"border-left-width: 0px; border-bottom-style: none\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.status</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.status` is mapped to FHIR R4B element `EventDefinition.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:status</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.status` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.experimental</td><td style=\"border-left-width: 0px; border-bottom-style: none\">experimental</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.experimental</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.experimental` is mapped to FHIR R4B element `EventDefinition.experimental`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:experimental</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.experimental` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.subject[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">subject[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.subject[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `EventDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `EventDefinition`.\nElement `EventDefinition.subject[x]` is mapped to FHIR R4B element `EventDefinition.subject[x]`.\nNote that the target element context `EventDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `EventDefinition`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:subject</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.subject[x]` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.date</td><td style=\"border-left-width: 0px; border-bottom-style: none\">date</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.date</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.date` is mapped to FHIR R4B element `EventDefinition.date`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:date</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.date` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.publisher</td><td style=\"border-left-width: 0px; border-bottom-style: none\">publisher</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.publisher</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.publisher` is mapped to FHIR R4B element `EventDefinition.publisher`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:publisher</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.publisher` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.contact</td><td style=\"border-left-width: 0px; border-bottom-style: none\">contact</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.contact</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.contact` is mapped to FHIR R4B element `EventDefinition.contact`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:contact</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.contact` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.description</td><td style=\"border-left-width: 0px; border-bottom-style: none\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.description</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.description` is mapped to FHIR R4B element `EventDefinition.description`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:description</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.description` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.useContext</td><td style=\"border-left-width: 0px; border-bottom-style: none\">useContext</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.useContext</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.useContext` is mapped to FHIR R4B element `EventDefinition.useContext`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:useContext</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.useContext` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.jurisdiction</td><td style=\"border-left-width: 0px; border-bottom-style: none\">jurisdiction</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.jurisdiction</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.jurisdiction` is mapped to FHIR R4B element `EventDefinition.jurisdiction`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:jurisdiction</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.jurisdiction` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.purpose</td><td style=\"border-left-width: 0px; border-bottom-style: none\">purpose</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.purpose</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.purpose` is mapped to FHIR R4B element `EventDefinition.purpose`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:purpose</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.purpose` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.usage</td><td style=\"border-left-width: 0px; border-bottom-style: none\">usage</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.usage</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.usage` is mapped to FHIR R4B element `EventDefinition.usage`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:usage</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.usage` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.copyright</td><td style=\"border-left-width: 0px; border-bottom-style: none\">copyright</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.copyright</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.copyright` is mapped to FHIR R4B element `EventDefinition.copyright`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:copyright</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.copyright` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.copyrightLabel</td><td style=\"border-left-width: 0px; border-bottom-style: none\">copyrightLabel</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition.copyrightLabel</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.copyrightLabel` is mapped to FHIR R4B structure `EventDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:copyrightLabel</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.copyrightLabel` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.approvalDate</td><td style=\"border-left-width: 0px; border-bottom-style: none\">approvalDate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.approvalDate</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.approvalDate` is mapped to FHIR R4B element `EventDefinition.approvalDate`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:approvalDate</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.approvalDate` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.lastReviewDate</td><td style=\"border-left-width: 0px; border-bottom-style: none\">lastReviewDate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.lastReviewDate</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.lastReviewDate` is mapped to FHIR R4B element `EventDefinition.lastReviewDate`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:lastReviewDate</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.lastReviewDate` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.effectivePeriod</td><td style=\"border-left-width: 0px; border-bottom-style: none\">effectivePeriod</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.effectivePeriod</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.effectivePeriod` is mapped to FHIR R4B element `EventDefinition.effectivePeriod`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:effectivePeriod</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.effectivePeriod` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.topic</td><td style=\"border-left-width: 0px; border-bottom-style: none\">topic</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.topic</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.topic` is mapped to FHIR R4B element `EventDefinition.topic`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:topic</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.topic` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.author</td><td style=\"border-left-width: 0px; border-bottom-style: none\">author</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.author</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.author` is mapped to FHIR R4B element `EventDefinition.author`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:author</td><td style=\"border-left-width: 0px\"/><td>Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -&gt; basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson)`:0..1).\nElement `EventDefinition.author` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.editor</td><td style=\"border-left-width: 0px; border-bottom-style: none\">editor</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.editor</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.editor` is mapped to FHIR R4B element `EventDefinition.editor`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:editor</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.editor` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.reviewer</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reviewer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.reviewer</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.reviewer` is mapped to FHIR R4B element `EventDefinition.reviewer`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:reviewer</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.reviewer` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.endorser</td><td style=\"border-left-width: 0px; border-bottom-style: none\">endorser</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.endorser</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.endorser` is mapped to FHIR R4B element `EventDefinition.endorser`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:endorser</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.endorser` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.relatedArtifact</td><td style=\"border-left-width: 0px; border-bottom-style: none\">relatedArtifact</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.relatedArtifact</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.relatedArtifact` is mapped to FHIR R4B element `EventDefinition.relatedArtifact`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:relatedArtifact</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.relatedArtifact` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">EventDefinition.trigger</td><td style=\"border-left-width: 0px; border-bottom-style: none\">trigger</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.trigger</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.trigger` is mapped to FHIR R4B element `EventDefinition.trigger`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:trigger</td><td style=\"border-left-width: 0px\"/><td>Element `EventDefinition.trigger` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-EventDefinition-elements-for-R4-EventDefinition"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-EventDefinition-elements-for-R4-EventDefinition>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5EventDefinitionElementsForR4EventDefinition"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:32.4704648-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/EventDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "EventDefinition" ] ;
+       fhir:display [ fhir:v "EventDefinition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `EventDefinition` is representable via FHIR R4B Resource `EventDefinition`.\nElement `EventDefinition` is mapped to FHIR R4B element `EventDefinition`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `EventDefinition` is representable via FHIR STU3 Resource `Basic`.\nElement `EventDefinition` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.meta` is mapped to FHIR R4B element `EventDefinition.meta`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `EventDefinition.meta` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.implicitRules` is mapped to FHIR R4B element `EventDefinition.implicitRules`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `EventDefinition.implicitRules` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.language` is mapped to FHIR R4B element `EventDefinition.language`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.language`, use that element instead.\nElement `EventDefinition.language` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.text` is mapped to FHIR R4B element `EventDefinition.text`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `EventDefinition.text` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.contained` is mapped to FHIR R4B element `EventDefinition.contained`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `EventDefinition.contained` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.url" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.url` is mapped to FHIR R4B element `EventDefinition.url`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:url" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.url` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.identifier` is mapped to FHIR R4B element `EventDefinition.identifier`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `EventDefinition.identifier` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.version" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.version` is mapped to FHIR R4B element `EventDefinition.version`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:version" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.version` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.versionAlgorithm[x]" ] ;
+       fhir:display [ fhir:v "versionAlgorithm[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition.versionAlgorithm" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.versionAlgorithm[x]` is mapped to FHIR R4B structure `EventDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:versionAlgorithm" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.versionAlgorithm[x]` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.name` is mapped to FHIR R4B element `EventDefinition.name`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.name` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.title" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.title` is mapped to FHIR R4B element `EventDefinition.title`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:title" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.title` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.subtitle" ] ;
+       fhir:display [ fhir:v "subtitle" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.subtitle" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.subtitle` is mapped to FHIR R4B element `EventDefinition.subtitle`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:subtitle" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.subtitle` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.status` is mapped to FHIR R4B element `EventDefinition.status`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.status` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.experimental" ] ;
+       fhir:display [ fhir:v "experimental" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.experimental" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.experimental` is mapped to FHIR R4B element `EventDefinition.experimental`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:experimental" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.experimental` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.subject[x]" ] ;
+       fhir:display [ fhir:v "subject[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.subject[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `EventDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `EventDefinition`.\nElement `EventDefinition.subject[x]` is mapped to FHIR R4B element `EventDefinition.subject[x]`.\nNote that the target element context `EventDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `EventDefinition`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.subject[x]` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.date` is mapped to FHIR R4B element `EventDefinition.date`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.date` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.publisher" ] ;
+       fhir:display [ fhir:v "publisher" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.publisher" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.publisher` is mapped to FHIR R4B element `EventDefinition.publisher`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:publisher" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.publisher` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.contact" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.contact` is mapped to FHIR R4B element `EventDefinition.contact`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:contact" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.contact` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.description` is mapped to FHIR R4B element `EventDefinition.description`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.description` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.useContext" ] ;
+       fhir:display [ fhir:v "useContext" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.useContext" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.useContext` is mapped to FHIR R4B element `EventDefinition.useContext`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:useContext" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.useContext` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.jurisdiction` is mapped to FHIR R4B element `EventDefinition.jurisdiction`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.jurisdiction` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.purpose" ] ;
+       fhir:display [ fhir:v "purpose" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.purpose" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.purpose` is mapped to FHIR R4B element `EventDefinition.purpose`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:purpose" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.purpose` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.usage" ] ;
+       fhir:display [ fhir:v "usage" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.usage" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.usage` is mapped to FHIR R4B element `EventDefinition.usage`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:usage" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.usage` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.copyright" ] ;
+       fhir:display [ fhir:v "copyright" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.copyright" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.copyright` is mapped to FHIR R4B element `EventDefinition.copyright`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:copyright" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.copyright` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.copyrightLabel" ] ;
+       fhir:display [ fhir:v "copyrightLabel" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition.copyrightLabel" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.copyrightLabel` is mapped to FHIR R4B structure `EventDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:copyrightLabel" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.copyrightLabel` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.approvalDate" ] ;
+       fhir:display [ fhir:v "approvalDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.approvalDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.approvalDate` is mapped to FHIR R4B element `EventDefinition.approvalDate`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:approvalDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.approvalDate` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.lastReviewDate" ] ;
+       fhir:display [ fhir:v "lastReviewDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.lastReviewDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.lastReviewDate` is mapped to FHIR R4B element `EventDefinition.lastReviewDate`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:lastReviewDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.lastReviewDate` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.effectivePeriod" ] ;
+       fhir:display [ fhir:v "effectivePeriod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.effectivePeriod" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.effectivePeriod` is mapped to FHIR R4B element `EventDefinition.effectivePeriod`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:effectivePeriod" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.effectivePeriod` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.topic" ] ;
+       fhir:display [ fhir:v "topic" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.topic" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.topic` is mapped to FHIR R4B element `EventDefinition.topic`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:topic" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.topic` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.author" ] ;
+       fhir:display [ fhir:v "author" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.author" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.author` is mapped to FHIR R4B element `EventDefinition.author`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:author" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson)`:0..1).\nElement `EventDefinition.author` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.editor" ] ;
+       fhir:display [ fhir:v "editor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.editor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.editor` is mapped to FHIR R4B element `EventDefinition.editor`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:editor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.editor` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.reviewer" ] ;
+       fhir:display [ fhir:v "reviewer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.reviewer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.reviewer` is mapped to FHIR R4B element `EventDefinition.reviewer`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:reviewer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.reviewer` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.endorser" ] ;
+       fhir:display [ fhir:v "endorser" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.endorser" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.endorser` is mapped to FHIR R4B element `EventDefinition.endorser`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:endorser" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.endorser` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.relatedArtifact" ] ;
+       fhir:display [ fhir:v "relatedArtifact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.relatedArtifact" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.relatedArtifact` is mapped to FHIR R4B element `EventDefinition.relatedArtifact`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:relatedArtifact" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.relatedArtifact` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EventDefinition.trigger" ] ;
+       fhir:display [ fhir:v "trigger" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.trigger" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.trigger` is mapped to FHIR R4B element `EventDefinition.trigger`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition:trigger" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `EventDefinition.trigger` is not mapped to FHIR STU3, since FHIR R5 `EventDefinition` is not mapped." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

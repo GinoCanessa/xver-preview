@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="imagingselection-3dgraphictype"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/imagingselection-3dgraphictype</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">point
+                  <a name="imagingselection-3dgraphictype-point"> </a>
+                </td>
+                <td>POINT</td>
+                <td>A single location denoted by a single (x,y,z) triplet.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">multipoint
+                  <a name="imagingselection-3dgraphictype-multipoint"> </a>
+                </td>
+                <td>MULTIPOINT</td>
+                <td>multiple locations each denoted by an (x,y,z) triplet; the points need not be coplanar.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">polyline
+                  <a name="imagingselection-3dgraphictype-polyline"> </a>
+                </td>
+                <td>POLYLINE</td>
+                <td>a series of connected line segments with ordered vertices denoted by (x,y,z) triplets; the points need not be coplanar.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">polygon
+                  <a name="imagingselection-3dgraphictype-polygon"> </a>
+                </td>
+                <td>POLYGON</td>
+                <td>a series of connected line segments with ordered vertices denoted by (x,y,z) triplets, where the first and last vertices shall be the same forming a polygon; the points shall be coplanar.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">ellipse
+                  <a name="imagingselection-3dgraphictype-ellipse"> </a>
+                </td>
+                <td>ELLIPSE</td>
+                <td>an ellipse defined by four (x,y,z) triplets, the first two triplets specifying the endpoints of the major axis and the second two triplets specifying the endpoints of the minor axis.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">ellipsoid
+                  <a name="imagingselection-3dgraphictype-ellipsoid"> </a>
+                </td>
+                <td>ELLIPSOID</td>
+                <td>a three-dimensional geometric surface whose plane sections are either ellipses or circles and contains three intersecting orthogonal axes, &quot;a&quot;, &quot;b&quot;, and &quot;c&quot;; the ellipsoid is defined by six (x,y,z) triplets, the first and second triplets specifying the endpoints of axis &quot;a&quot;, the third and fourth triplets specifying the endpoints of axis &quot;b&quot;, and the fifth and sixth triplets specifying the endpoints of axis &quot;c&quot;.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="3"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="ii"/>
+  </extension>
+  <url value="http://hl7.org/fhir/imagingselection-3dgraphictype"/>
+  <version value="5.0.0"/>
+  <name value="ImagingSelection3DGraphicType"/>
+  <title value="Imaging Selection3 D Graphic Type"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Imaging Integration"/>
+  <contact>
+    <name value="Imaging Integration"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/imagemgt"/>
+    </telecom>
+  </contact>
+  <description value="The type of coordinates describing an image region."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/imagingselection-3dgraphictype"/>
+  <content value="complete"/>
+  <concept>
+    <code value="point"/>
+    <display value="POINT"/>
+    <definition value="A single location denoted by a single (x,y,z) triplet."/>
+  </concept>
+  <concept>
+    <code value="multipoint"/>
+    <display value="MULTIPOINT"/>
+    <definition value="multiple locations each denoted by an (x,y,z) triplet; the points need not be coplanar."/>
+  </concept>
+  <concept>
+    <code value="polyline"/>
+    <display value="POLYLINE"/>
+    <definition value="a series of connected line segments with ordered vertices denoted by (x,y,z) triplets; the points need not be coplanar."/>
+  </concept>
+  <concept>
+    <code value="polygon"/>
+    <display value="POLYGON"/>
+    <definition value="a series of connected line segments with ordered vertices denoted by (x,y,z) triplets, where the first and last vertices shall be the same forming a polygon; the points shall be coplanar."/>
+  </concept>
+  <concept>
+    <code value="ellipse"/>
+    <display value="ELLIPSE"/>
+    <definition value="an ellipse defined by four (x,y,z) triplets, the first two triplets specifying the endpoints of the major axis and the second two triplets specifying the endpoints of the minor axis."/>
+  </concept>
+  <concept>
+    <code value="ellipsoid"/>
+    <display value="ELLIPSOID"/>
+    <definition value="a three-dimensional geometric surface whose plane sections are either ellipses or circles and contains three intersecting orthogonal axes, &quot;a&quot;, &quot;b&quot;, and &quot;c&quot;; the ellipsoid is defined by six (x,y,z) triplets, the first and second triplets specifying the endpoints of axis &quot;a&quot;, the third and fourth triplets specifying the endpoints of axis &quot;b&quot;, and the fifth and sixth triplets specifying the endpoints of axis &quot;c&quot;."/>
+  </concept>
+</CodeSystem>

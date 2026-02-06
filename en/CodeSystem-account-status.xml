@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="account-status"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/account-status</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">active
+                  <a name="account-status-active"> </a>
+                </td>
+                <td>Active</td>
+                <td>This account is active and may be used.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">inactive
+                  <a name="account-status-inactive"> </a>
+                </td>
+                <td>Inactive</td>
+                <td>This account is inactive and should not be used to track financial information.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">entered-in-error
+                  <a name="account-status-entered-in-error"> </a>
+                </td>
+                <td>Entered in error</td>
+                <td>This instance should not have been part of this patient's medical record.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">on-hold
+                  <a name="account-status-on-hold"> </a>
+                </td>
+                <td>On Hold</td>
+                <td>This account is on hold.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">unknown
+                  <a name="account-status-unknown"> </a>
+                </td>
+                <td>Unknown</td>
+                <td>The account status is unknown.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pa"/>
+  </extension>
+  <url value="http://hl7.org/fhir/account-status"/>
+  <version value="5.0.0"/>
+  <name value="AccountStatus"/>
+  <title value="Account Status"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Patient Administration"/>
+  <contact>
+    <name value="Patient Administration"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pafm"/>
+    </telecom>
+  </contact>
+  <description value="Indicates whether the account is available to be used."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/account-status|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="active"/>
+    <display value="Active"/>
+    <definition value="This account is active and may be used."/>
+  </concept>
+  <concept>
+    <code value="inactive"/>
+    <display value="Inactive"/>
+    <definition value="This account is inactive and should not be used to track financial information."/>
+  </concept>
+  <concept>
+    <code value="entered-in-error"/>
+    <display value="Entered in error"/>
+    <definition value="This instance should not have been part of this patient's medical record."/>
+  </concept>
+  <concept>
+    <code value="on-hold"/>
+    <display value="On Hold"/>
+    <definition value="This account is on hold."/>
+  </concept>
+  <concept>
+    <code value="unknown"/>
+    <display value="Unknown"/>
+    <definition value="The account status is unknown."/>
+  </concept>
+</CodeSystem>

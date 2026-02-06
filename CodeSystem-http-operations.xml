@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="http-operations"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/http-operations</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">delete
+                  <a name="http-operations-delete"> </a>
+                </td>
+                <td>DELETE</td>
+                <td>HTTP DELETE operation.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">get
+                  <a name="http-operations-get"> </a>
+                </td>
+                <td>GET</td>
+                <td>HTTP GET operation.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">options
+                  <a name="http-operations-options"> </a>
+                </td>
+                <td>OPTIONS</td>
+                <td>HTTP OPTIONS operation.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">patch
+                  <a name="http-operations-patch"> </a>
+                </td>
+                <td>PATCH</td>
+                <td>HTTP PATCH operation.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">post
+                  <a name="http-operations-post"> </a>
+                </td>
+                <td>POST</td>
+                <td>HTTP POST operation.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">put
+                  <a name="http-operations-put"> </a>
+                </td>
+                <td>PUT</td>
+                <td>HTTP PUT operation.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">head
+                  <a name="http-operations-head"> </a>
+                </td>
+                <td>HEAD</td>
+                <td>HTTP HEAD operation.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="2"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <url value="http://hl7.org/fhir/http-operations"/>
+  <version value="5.0.0"/>
+  <name value="TestScriptRequestMethodCode"/>
+  <title value="Test Script Request Method Code"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="The allowable request method or HTTP operation codes."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/http-operations|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="delete"/>
+    <display value="DELETE"/>
+    <definition value="HTTP DELETE operation."/>
+  </concept>
+  <concept>
+    <code value="get"/>
+    <display value="GET"/>
+    <definition value="HTTP GET operation."/>
+  </concept>
+  <concept>
+    <code value="options"/>
+    <display value="OPTIONS"/>
+    <definition value="HTTP OPTIONS operation."/>
+  </concept>
+  <concept>
+    <code value="patch"/>
+    <display value="PATCH"/>
+    <definition value="HTTP PATCH operation."/>
+  </concept>
+  <concept>
+    <code value="post"/>
+    <display value="POST"/>
+    <definition value="HTTP POST operation."/>
+  </concept>
+  <concept>
+    <code value="put"/>
+    <display value="PUT"/>
+    <definition value="HTTP PUT operation."/>
+  </concept>
+  <concept>
+    <code value="head"/>
+    <display value="HEAD"/>
+    <definition value="HTTP HEAD operation."/>
+  </concept>
+</CodeSystem>

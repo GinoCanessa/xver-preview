@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="genomicstudy-changetype"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/genomicstudy-changetype</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">DNA
+                  <a name="genomicstudy-changetype-DNA"> </a>
+                </td>
+                <td>DNA change</td>
+                <td>Change that involves Deoxyribonucleic acid (DNA) sequences.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">RNA
+                  <a name="genomicstudy-changetype-RNA"> </a>
+                </td>
+                <td>RNA change</td>
+                <td>Change that involves Ribonucleic Acid (RNA) sequences.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">AA
+                  <a name="genomicstudy-changetype-AA"> </a>
+                </td>
+                <td>Protein/amino Acids change </td>
+                <td>Change that involves Amino Acid (AA) or protein sequences.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">CHR
+                  <a name="genomicstudy-changetype-CHR"> </a>
+                </td>
+                <td>Chromosomal changes</td>
+                <td>Change that involves number or strcture of chromosomes.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">CNV
+                  <a name="genomicstudy-changetype-CNV"> </a>
+                </td>
+                <td>Copy number variations</td>
+                <td>Change that involves copy number variations among various genomes.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="cg"/>
+  </extension>
+  <url value="http://hl7.org/fhir/genomicstudy-changetype"/>
+  <version value="5.0.0"/>
+  <name value="GenomicStudyChangeType"/>
+  <title value="Genomic Study Change Type"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2022-08-17T15:48:24-05:00"/>
+  <publisher value="Clinical Genomics"/>
+  <contact>
+    <name value="Clinical Genomics"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/clingenomics"/>
+    </telecom>
+  </contact>
+  <description value="The change type relevant to GenomicStudy analysis."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/genomicstudy-changetype"/>
+  <content value="complete"/>
+  <concept>
+    <code value="DNA"/>
+    <display value="DNA change"/>
+    <definition value="Change that involves Deoxyribonucleic acid (DNA) sequences."/>
+  </concept>
+  <concept>
+    <code value="RNA"/>
+    <display value="RNA change"/>
+    <definition value="Change that involves Ribonucleic Acid (RNA) sequences."/>
+  </concept>
+  <concept>
+    <code value="AA"/>
+    <display value="Protein/amino Acids change"/>
+    <definition value="Change that involves Amino Acid (AA) or protein sequences."/>
+  </concept>
+  <concept>
+    <code value="CHR"/>
+    <display value="Chromosomal changes"/>
+    <definition value="Change that involves number or strcture of chromosomes."/>
+  </concept>
+  <concept>
+    <code value="CNV"/>
+    <display value="Copy number variations"/>
+    <definition value="Change that involves copy number variations among various genomes."/>
+  </concept>
+</CodeSystem>

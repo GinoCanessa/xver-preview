@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="ValueSet-R5-observation-interpretation-for-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet ValueSet-R5-observation-interpretation-for-R4</b></p><a name="ValueSet-R5-observation-interpretation-for-R4"> </a><a name="hcValueSet-R5-observation-interpretation-for-R4"> </a><p>This value set expansion contains 10 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name="ValueSet-R5-observation-interpretation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation-AC"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation</code></td><td>2.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ObservationInterpretation.html#v3-ObservationInterpretation-AC">AC</a></td><td>Anti-complementary substances present</td><td><div><p>A valid result cannot be obtained for the specified component / analyte due to the presence of anti-complementary substances in the sample.</p>
+<p><em><strong>Deprecation Comment:</strong></em> This code is being deprecated to match the status in V2 Table 0078 &quot;Interpretation Codes.</p>
+</div></td></tr><tr><td><a name="ValueSet-R5-observation-interpretation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation-Carrier"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation</code></td><td>2.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ObservationInterpretation.html#v3-ObservationInterpretation-Carrier">Carrier</a></td><td>Carrier</td><td><div><p>The patient is considered as carrier based on the testing results. A carrier is an individual who carries an altered form of a gene which can lead to having a child or offspring in future generations with a genetic disorder.</p>
+<p><em><strong>Deprecation Comment:</strong></em> This code is currently the same string as the print name for this concept and is inconsistent with the conventions being used for the other codes in the coding system, as it is a full word with initial capitalization, rather than an all upper case mnemonic. The recommendation from OO is to deprecate the code &quot;Carrier&quot; and to add &quot;CAR&quot; as the new active code representation for this concept.</p>
+</div></td></tr><tr><td><a name="ValueSet-R5-observation-interpretation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation-H|3e"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation</code></td><td>2.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ObservationInterpretation.html#v3-ObservationInterpretation-H.62">H&gt;</a></td><td>Significantly high</td><td><div><p>A test result that is significantly higher than the reference (normal) or therapeutic interval, but has not reached the critically high value and might need special attention, as defined by the laboratory or the clinician.</p>
+<p>[Note: This level is situated between 'H' and 'HH'.]</p>
+<p><em>Deprecation Comment:</em> The code 'H&gt;' is being deprecated in order to align with the use of the code 'HU' for &quot;Very high&quot; in V2 Table 0078 &quot;Interpretation Codes&quot;.</p>
+<p>[Note: The use of code 'H&gt;' is non-preferred, as this code is deprecated and on track to be retired; use code 'HU' instead.</p>
+</div></td></tr><tr><td><a name="ValueSet-R5-observation-interpretation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation-HM"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation</code></td><td>2.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ObservationInterpretation.html#v3-ObservationInterpretation-HM">HM</a></td><td>Hold for Medical Review</td><td><div><p>Hold for Medical Review</p>
+<p><em>Usage Note:</em> This code is not intended for use in V3 artifacts. It is included in the code system to maintain alignment with the V2 Table 0078 &quot;Interpretation Codes.&quot;</p>
+</div></td></tr><tr><td><a name="ValueSet-R5-observation-interpretation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation-L|3c"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation</code></td><td>2.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ObservationInterpretation.html#v3-ObservationInterpretation-L.60">L&lt;</a></td><td>Significantly low</td><td><div><p>A test result that is significantly lower than the reference (normal) or therapeutic interval, but has not reached the critically low value and might need special attention, as defined by the laboratory or the clinician.</p>
+<p>[Note: This level is situated between 'L' and 'LL'.]</p>
+<p><em>Deprecation Comment:</em> The code 'L&lt;' is being deprecated in order to align with the use of the code 'LU' for &quot;Very low&quot; in V2 Table 0078 &quot;Interpretation Codes&quot;.</p>
+<p>[Note: The use of code 'L&lt;' is non-preferred, as this code is deprecated and on track to be retired; use code 'LU' instead.</p>
+</div></td></tr><tr><td><a name="ValueSet-R5-observation-interpretation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation-MS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation</code></td><td>2.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ObservationInterpretation.html#v3-ObservationInterpretation-MS">MS</a></td><td>moderately susceptible</td><td><div><p>The patient is considered as carrier based on the testing results. A carrier is an individual who carries an altered form of a gene which can lead to having a child or offspring in future generations with a genetic disorder.</p>
+<p><em><strong>Deprecation Comment:</strong></em> This antimicrobial susceptibility test interpretation concept is recommended by OO to be deprecated as it is no longer recommended for use in susceptibility testing by CLSI (reference CLSI document M100-S22; Vol. 32 No.3; CLSI Performance Standards for Antimicrobial Susceptibility Testing; Twenty-Second Informational Supplement. Jan 2012).</p>
+</div></td></tr><tr><td><a name="ValueSet-R5-observation-interpretation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation-OBX"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation</code></td><td>2.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ObservationInterpretation.html#v3-ObservationInterpretation-OBX">OBX</a></td><td>Interpretation qualifiers in separate OBX segments</td><td><div><p>Interpretation qualifiers in separate OBX segments</p>
+<p><em>Usage Note:</em> This code is not intended for use in V3 artifacts. It is included in the code system to maintain alignment with the V2 Table 0078 &quot;Interpretation Codes.&quot;</p>
+</div></td></tr><tr><td><a name="ValueSet-R5-observation-interpretation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation-QCF"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation</code></td><td>2.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ObservationInterpretation.html#v3-ObservationInterpretation-QCF">QCF</a></td><td>Quality control failure</td><td><div><p>A result cannot be considered valid for the specified component / analyte or organism due to failure in the quality control testing component.</p>
+<p><em><strong>Deprecation Comment:</strong></em> This code is being deprecated to match the status in V2 Table 0078 &quot;Interpretation Codes.</p>
+</div></td></tr><tr><td><a name="ValueSet-R5-observation-interpretation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation-TOX"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation</code></td><td>2.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ObservationInterpretation.html#v3-ObservationInterpretation-TOX">TOX</a></td><td>Cytotoxic substance present</td><td><div><p>A valid result cannot be obtained for the specified organism or cell line due to the presence of cytotoxic substances in the sample or culture.</p>
+<p><em><strong>Deprecation Comment:</strong></em> This code is being deprecated to match the status in V2 Table 0078 &quot;Interpretation Codes.</p>
+</div></td></tr><tr><td><a name="ValueSet-R5-observation-interpretation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation-VS"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation</code></td><td>2.1.0</td><td style="white-space:nowrap">  <a href="CodeSystem-v3-ObservationInterpretation.html#v3-ObservationInterpretation-VS">VS</a></td><td>very susceptible</td><td><div><p>The patient is considered as carrier based on the testing results. A carrier is an individual who carries an altered form of a gene which can lead to having a child or offspring in future generations with a genetic disorder.</p>
+<p><em><strong>Deprecation Comment:</strong></em> This antimicrobial susceptibility test interpretation concept is recommended by OO to be deprecated as it is no longer recommended for use in susceptibility testing by CLSI (reference CLSI document M100-S22; Vol. 32 No.3; CLSI Performance Standards for Antimicrobial Susceptibility Testing; Twenty-Second Informational Supplement. Jan 2012).</p>
+</div></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="5"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-observation-interpretation-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="ValueSetR5ObservationInterpretationForR4"/>
+  <title value="Cross-version ValueSet R5.ObservationInterpretationCodes for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-06T19:17:19.5427077+00:00"/>
+  <publisher value="Orders and Observations"/>
+  <contact>
+    <name value="Orders and Observations"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/orders"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0 for use in FHIR R4 that is appropriate for use but unavailable in `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1`."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `Observation.component.interpretation` as Extensible&#xA;* `Observation.interpretation` as Extensible&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the value set has been mapped as:&#xD;&#xA;* `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0`&#xA;* `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0`&#xA;* `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#&lt;`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#&gt;`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#A`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#AA`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#B`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#CAR`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#D`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#DET`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#E`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#EX`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#EXP`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#H`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#HH`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#HU`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#HX`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#I`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#IE`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#IND`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#L`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#LL`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#LU`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#LX`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#N`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#NCL`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#ND`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#NEG`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#NR`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#NS`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#ObservationInterpretationDetection`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#ObservationInterpretationExpectation`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#POS`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#R`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#RR`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#ReactivityObservationInterpretation`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#S`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#SDD`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#SYN-R`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#SYN-S`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#U`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#UNE`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#W`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#WR`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#_GeneticObservationInterpretation`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#_ObservationInterpretationChange`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#_ObservationInterpretationExceptions`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#_ObservationInterpretationNormality`&#xA;* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#_ObservationInterpretationSusceptibility`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;One or more source concepts are either not mapped or broader than their targets, so the value set relationship is broadened.&#xA;The source value set has more active concepts (49) than the target (39), so the source is broader than the target.&#xA;All concepts in the comparison are listed as identical.&#xA;The source and target value sets have the same number of active concepts (39)."/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"/>
+      <version value="2.1.0"/>
+      <concept>
+        <code value="AC"/>
+        <display value="Anti-complementary substances present"/>
+      </concept>
+      <concept>
+        <code value="Carrier"/>
+        <display value="Carrier"/>
+      </concept>
+      <concept>
+        <code value="H&gt;"/>
+        <display value="Significantly high"/>
+      </concept>
+      <concept>
+        <code value="HM"/>
+        <display value="Hold for Medical Review"/>
+      </concept>
+      <concept>
+        <code value="L&lt;"/>
+        <display value="Significantly low"/>
+      </concept>
+      <concept>
+        <code value="MS"/>
+        <display value="moderately susceptible"/>
+      </concept>
+      <concept>
+        <code value="OBX"/>
+        <display value="Interpretation qualifiers in separate OBX segments"/>
+      </concept>
+      <concept>
+        <code value="QCF"/>
+        <display value="Quality control failure"/>
+      </concept>
+      <concept>
+        <code value="TOX"/>
+        <display value="Cytotoxic substance present"/>
+      </concept>
+      <concept>
+        <code value="VS"/>
+        <display value="very susceptible"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-06T19:17:19.5427077+00:00"/>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"/>
+      <version value="2.1.0"/>
+      <code value="AC"/>
+      <display value="Anti-complementary substances present"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"/>
+      <version value="2.1.0"/>
+      <code value="Carrier"/>
+      <display value="Carrier"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"/>
+      <version value="2.1.0"/>
+      <code value="H&gt;"/>
+      <display value="Significantly high"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"/>
+      <version value="2.1.0"/>
+      <code value="HM"/>
+      <display value="Hold for Medical Review"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"/>
+      <version value="2.1.0"/>
+      <code value="L&lt;"/>
+      <display value="Significantly low"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"/>
+      <version value="2.1.0"/>
+      <code value="MS"/>
+      <display value="moderately susceptible"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"/>
+      <version value="2.1.0"/>
+      <code value="OBX"/>
+      <display value="Interpretation qualifiers in separate OBX segments"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"/>
+      <version value="2.1.0"/>
+      <code value="QCF"/>
+      <display value="Quality control failure"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"/>
+      <version value="2.1.0"/>
+      <code value="TOX"/>
+      <display value="Cytotoxic substance present"/>
+    </contains>
+    <contains>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"/>
+      <version value="2.1.0"/>
+      <code value="VS"/>
+      <display value="very susceptible"/>
+    </contains>
+  </expansion>
+</ValueSet>

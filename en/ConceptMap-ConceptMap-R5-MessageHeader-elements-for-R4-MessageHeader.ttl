@@ -1,0 +1,349 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-MessageHeader-elements-for-R4-MessageHeader> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-MessageHeader-elements-for-R4-MessageHeader"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-MessageHeader-elements-for-R4-MessageHeader</b></p><a name=\"ConceptMap-R5-MessageHeader-elements-for-R4-MessageHeader\"> </a><a name=\"hcConceptMap-R5-MessageHeader-elements-for-R4-MessageHeader\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MessageHeader|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/MessageHeader|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">MessageHeader</td><td style=\"border-left-width: 0px\">MessageHeader</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `MessageHeader` is representable via FHIR R4B Resource `MessageHeader`.\nElement `MessageHeader` is mapped to FHIR R4B element `MessageHeader`.</td></tr><tr><td style=\"border-right-width: 0px\">MessageHeader.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.meta</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.meta` is mapped to FHIR R4B element `MessageHeader.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">MessageHeader.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.implicitRules` is mapped to FHIR R4B element `MessageHeader.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">MessageHeader.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.language</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.language` is mapped to FHIR R4B element `MessageHeader.language`.</td></tr><tr><td style=\"border-right-width: 0px\">MessageHeader.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.text</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.text` is mapped to FHIR R4B element `MessageHeader.text`.</td></tr><tr><td style=\"border-right-width: 0px\">MessageHeader.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.contained</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.contained` is mapped to FHIR R4B element `MessageHeader.contained`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">MessageHeader.event[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">event[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.event[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `MessageHeader.event[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MessageHeader`.\nElement `MessageHeader.event[x]` is mapped to FHIR R4B element `MessageHeader.event[x]`.\nNote that the target element context `MessageHeader.event[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MessageHeader`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.event</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.event[x]` is mapped to FHIR STU3 element `MessageHeader.event`.</td></tr><tr><td style=\"border-right-width: 0px\">MessageHeader.destination</td><td style=\"border-left-width: 0px\">destination</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.destination</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.destination` is mapped to FHIR R4B element `MessageHeader.destination`.</td></tr><tr><td style=\"border-right-width: 0px\">MessageHeader.destination.endpoint[x]</td><td style=\"border-left-width: 0px\">endpoint[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.destination.endpoint</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.destination.endpoint[x]` is mapped to FHIR R4B element `MessageHeader.destination.endpoint`.</td></tr><tr><td style=\"border-right-width: 0px\">MessageHeader.destination.name</td><td style=\"border-left-width: 0px\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.destination.name</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.destination.name` is mapped to FHIR R4B element `MessageHeader.destination.name`.</td></tr><tr><td style=\"border-right-width: 0px\">MessageHeader.destination.target</td><td style=\"border-left-width: 0px\">target</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.destination.target</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.destination.target` is mapped to FHIR R4B element `MessageHeader.destination.target`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">MessageHeader.destination.receiver</td><td style=\"border-left-width: 0px; border-bottom-style: none\">receiver</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.destination.receiver</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.destination.receiver` is mapped to FHIR R4B element `MessageHeader.destination.receiver`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.receiver</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.destination.receiver` is mapped to FHIR STU3 element `MessageHeader.receiver`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">MessageHeader.sender</td><td style=\"border-left-width: 0px; border-bottom-style: none\">sender</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.sender</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.sender` is mapped to FHIR R4B element `MessageHeader.sender`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.sender</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.sender` is mapped to FHIR DSTU2 structure `MessageHeader`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">MessageHeader.author</td><td style=\"border-left-width: 0px\">author</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.author</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.author`, use that element instead.\nElement `MessageHeader.author` is mapped to FHIR R4B element `MessageHeader.author`.</td></tr><tr><td style=\"border-right-width: 0px\">MessageHeader.source</td><td style=\"border-left-width: 0px\">source</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.source</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.source` is mapped to FHIR R4B element `MessageHeader.source`.</td></tr><tr><td style=\"border-right-width: 0px\">MessageHeader.source.endpoint[x]</td><td style=\"border-left-width: 0px\">endpoint[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.source.endpoint</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.source.endpoint[x]` is mapped to FHIR R4B element `MessageHeader.source.endpoint`.</td></tr><tr><td style=\"border-right-width: 0px\">MessageHeader.source.name</td><td style=\"border-left-width: 0px\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.source.name</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.source.name` is mapped to FHIR R4B element `MessageHeader.source.name`.</td></tr><tr><td style=\"border-right-width: 0px\">MessageHeader.source.software</td><td style=\"border-left-width: 0px\">software</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.source.software</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.source.software` is mapped to FHIR R4B element `MessageHeader.source.software`.</td></tr><tr><td style=\"border-right-width: 0px\">MessageHeader.source.version</td><td style=\"border-left-width: 0px\">version</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.source.version</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.source.version` is mapped to FHIR R4B element `MessageHeader.source.version`.</td></tr><tr><td style=\"border-right-width: 0px\">MessageHeader.source.contact</td><td style=\"border-left-width: 0px\">contact</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.source.contact</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.source.contact` is mapped to FHIR R4B element `MessageHeader.source.contact`.</td></tr><tr><td style=\"border-right-width: 0px\">MessageHeader.responsible</td><td style=\"border-left-width: 0px\">responsible</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.responsible</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.responsible` is mapped to FHIR R4B element `MessageHeader.responsible`.</td></tr><tr><td style=\"border-right-width: 0px\">MessageHeader.reason</td><td style=\"border-left-width: 0px\">reason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.reason</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.reason` is mapped to FHIR R4B element `MessageHeader.reason`.</td></tr><tr><td style=\"border-right-width: 0px\">MessageHeader.response</td><td style=\"border-left-width: 0px\">response</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.response</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.response` is mapped to FHIR R4B element `MessageHeader.response`.</td></tr><tr><td style=\"border-right-width: 0px\">MessageHeader.response.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.response.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.response.identifier` is mapped to FHIR R4B element `MessageHeader.response.identifier`.</td></tr><tr><td style=\"border-right-width: 0px\">MessageHeader.response.code</td><td style=\"border-left-width: 0px\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.response.code</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.response.code` is mapped to FHIR R4B element `MessageHeader.response.code`.</td></tr><tr><td style=\"border-right-width: 0px\">MessageHeader.response.details</td><td style=\"border-left-width: 0px\">details</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.response.details</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.response.details` is mapped to FHIR R4B element `MessageHeader.response.details`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">MessageHeader.focus</td><td style=\"border-left-width: 0px; border-bottom-style: none\">focus</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.focus</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.focus` is mapped to FHIR R4B element `MessageHeader.focus`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.data</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.focus` is mapped to FHIR DSTU2 element `MessageHeader.data`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">MessageHeader.definition</td><td style=\"border-left-width: 0px; border-bottom-style: none\">definition</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.definition</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.definition` is mapped to FHIR R4B element `MessageHeader.definition`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.definition</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.definition` is mapped to FHIR STU3 structure `MessageHeader`, but has no target element specified.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-MessageHeader-elements-for-R4-MessageHeader"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-MessageHeader-elements-for-R4-MessageHeader>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5MessageHeaderElementsForR4MessageHeader"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:33.5492709-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/MessageHeader>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "MessageHeader" ] ;
+       fhir:display [ fhir:v "MessageHeader" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `MessageHeader` is representable via FHIR R4B Resource `MessageHeader`.\nElement `MessageHeader` is mapped to FHIR R4B element `MessageHeader`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.meta` is mapped to FHIR R4B element `MessageHeader.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.implicitRules` is mapped to FHIR R4B element `MessageHeader.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.language` is mapped to FHIR R4B element `MessageHeader.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.text` is mapped to FHIR R4B element `MessageHeader.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.contained` is mapped to FHIR R4B element `MessageHeader.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.event[x]" ] ;
+       fhir:display [ fhir:v "event[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.event[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `MessageHeader.event[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MessageHeader`.\nElement `MessageHeader.event[x]` is mapped to FHIR R4B element `MessageHeader.event[x]`.\nNote that the target element context `MessageHeader.event[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MessageHeader`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.event" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.event[x]` is mapped to FHIR STU3 element `MessageHeader.event`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.destination" ] ;
+       fhir:display [ fhir:v "destination" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.destination" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.destination` is mapped to FHIR R4B element `MessageHeader.destination`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.destination.endpoint[x]" ] ;
+       fhir:display [ fhir:v "endpoint[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.destination.endpoint" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.destination.endpoint[x]` is mapped to FHIR R4B element `MessageHeader.destination.endpoint`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.destination.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.destination.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.destination.name` is mapped to FHIR R4B element `MessageHeader.destination.name`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.destination.target" ] ;
+       fhir:display [ fhir:v "target" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.destination.target" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.destination.target` is mapped to FHIR R4B element `MessageHeader.destination.target`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.destination.receiver" ] ;
+       fhir:display [ fhir:v "receiver" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.destination.receiver" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.destination.receiver` is mapped to FHIR R4B element `MessageHeader.destination.receiver`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.receiver" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.destination.receiver` is mapped to FHIR STU3 element `MessageHeader.receiver`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.sender" ] ;
+       fhir:display [ fhir:v "sender" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.sender" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.sender` is mapped to FHIR R4B element `MessageHeader.sender`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.sender" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.sender` is mapped to FHIR DSTU2 structure `MessageHeader`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.author" ] ;
+       fhir:display [ fhir:v "author" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.author" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.author`, use that element instead.\nElement `MessageHeader.author` is mapped to FHIR R4B element `MessageHeader.author`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.source" ] ;
+       fhir:display [ fhir:v "source" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.source" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.source` is mapped to FHIR R4B element `MessageHeader.source`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.source.endpoint[x]" ] ;
+       fhir:display [ fhir:v "endpoint[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.source.endpoint" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.source.endpoint[x]` is mapped to FHIR R4B element `MessageHeader.source.endpoint`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.source.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.source.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.source.name` is mapped to FHIR R4B element `MessageHeader.source.name`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.source.software" ] ;
+       fhir:display [ fhir:v "software" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.source.software" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.source.software` is mapped to FHIR R4B element `MessageHeader.source.software`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.source.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.source.version" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.source.version` is mapped to FHIR R4B element `MessageHeader.source.version`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.source.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.source.contact" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.source.contact` is mapped to FHIR R4B element `MessageHeader.source.contact`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.responsible" ] ;
+       fhir:display [ fhir:v "responsible" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.responsible" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.responsible` is mapped to FHIR R4B element `MessageHeader.responsible`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.reason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.reason` is mapped to FHIR R4B element `MessageHeader.reason`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.response" ] ;
+       fhir:display [ fhir:v "response" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.response" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.response` is mapped to FHIR R4B element `MessageHeader.response`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.response.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.response.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.response.identifier` is mapped to FHIR R4B element `MessageHeader.response.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.response.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.response.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.response.code` is mapped to FHIR R4B element `MessageHeader.response.code`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.response.details" ] ;
+       fhir:display [ fhir:v "details" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.response.details" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.response.details` is mapped to FHIR R4B element `MessageHeader.response.details`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.focus" ] ;
+       fhir:display [ fhir:v "focus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.focus" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.focus` is mapped to FHIR R4B element `MessageHeader.focus`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.data" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.focus` is mapped to FHIR DSTU2 element `MessageHeader.data`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.definition" ] ;
+       fhir:display [ fhir:v "definition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader#MessageHeader.definition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.definition` is mapped to FHIR R4B element `MessageHeader.definition`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.definition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.definition` is mapped to FHIR STU3 structure `MessageHeader`, but has no target element specified." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

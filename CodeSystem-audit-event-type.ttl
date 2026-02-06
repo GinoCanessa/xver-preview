@@ -1,0 +1,124 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/CodeSystem/audit-event-type> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "audit-event-type"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://terminology.hl7.org/CodeSystem/audit-event-type</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">rest<a name=\"audit-event-type-rest\"> </a></td><td>RESTful Operation</td><td>Audit Event: Execution of a RESTful operation as defined by FHIR.</td></tr><tr><td style=\"white-space:nowrap\">hl7-v2<a name=\"audit-event-type-hl7-v2\"> </a></td><td>HL7 v2 Operation</td><td>Audit Event: Execution of an HL7 v2 operation.</td></tr><tr><td style=\"white-space:nowrap\">hl7-v3<a name=\"audit-event-type-hl7-v3\"> </a></td><td>HL7 v3 Operation</td><td>Audit Event: Execution of an HL7 v3 operation as defined by FHIR.</td></tr><tr><td style=\"white-space:nowrap\">document<a name=\"audit-event-type-document\"> </a></td><td>A Document Operation</td><td>Audit Event: Execution of an operation on a Document (e.g. XDS, CDA, etc).</td></tr><tr><td style=\"white-space:nowrap\">object<a name=\"audit-event-type-object\"> </a></td><td>An Operation on other Objects</td><td>Audit Event: Execution of an operation on an Object. For use when a more specific event type is not available.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 3
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "sec"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/audit-event-type"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/audit-event-type>
+  ] ; # 
+  fhir:version [ fhir:v "0.5.0"] ; # 
+  fhir:name [ fhir:v "AuditEventID"] ; # 
+  fhir:title [ fhir:v "Audit Event ID"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2015-03-25T19:00:00-05:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Security"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Security" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/secure" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Event Types for Audit Events - defined by DICOM with some FHIR specific additions."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:copyright [ fhir:v "These codes are excerpted from Digital Imaging and Communications in Medicine (DICOM) Standard, Part 16: Content Mapping Resource, Copyright © 2011 by the National Electrical Manufacturers Association."] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "rest" ] ;
+     fhir:display [ fhir:v "RESTful Operation" ] ;
+     fhir:definition [ fhir:v "Audit Event: Execution of a RESTful operation as defined by FHIR." ]
+  ] [
+     fhir:code [ fhir:v "hl7-v2" ] ;
+     fhir:display [ fhir:v "HL7 v2 Operation" ] ;
+     fhir:definition [ fhir:v "Audit Event: Execution of an HL7 v2 operation." ]
+  ] [
+     fhir:code [ fhir:v "hl7-v3" ] ;
+     fhir:display [ fhir:v "HL7 v3 Operation" ] ;
+     fhir:definition [ fhir:v "Audit Event: Execution of an HL7 v3 operation as defined by FHIR." ]
+  ] [
+     fhir:code [ fhir:v "document" ] ;
+     fhir:display [ fhir:v "A Document Operation" ] ;
+     fhir:definition [ fhir:v "Audit Event: Execution of an operation on a Document (e.g. XDS, CDA, etc)." ]
+  ] [
+     fhir:code [ fhir:v "object" ] ;
+     fhir:display [ fhir:v "An Operation on other Objects" ] ;
+     fhir:definition [ fhir:v "Audit Event: Execution of an operation on an Object. For use when a more specific event type is not available." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

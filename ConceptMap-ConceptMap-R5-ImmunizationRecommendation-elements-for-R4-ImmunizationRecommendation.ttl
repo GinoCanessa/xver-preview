@@ -1,0 +1,344 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-ImmunizationRecommendation-elements-for-R4-ImmunizationRecommendation> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-ImmunizationRecommendation-elements-for-R4-ImmunizationRecommendation"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-ImmunizationRecommendation-elements-for-R4-ImmunizationRecommendation</b></p><a name=\"ConceptMap-R5-ImmunizationRecommendation-elements-for-R4-ImmunizationRecommendation\"> </a><a name=\"hcConceptMap-R5-ImmunizationRecommendation-elements-for-R4-ImmunizationRecommendation\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">ImmunizationRecommendation</td><td style=\"border-left-width: 0px\">ImmunizationRecommendation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `ImmunizationRecommendation` is representable via FHIR R4B Resource `ImmunizationRecommendation`.\nElement `ImmunizationRecommendation` is mapped to FHIR R4B element `ImmunizationRecommendation`.</td></tr><tr><td style=\"border-right-width: 0px\">ImmunizationRecommendation.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.meta</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.meta` is mapped to FHIR R4B element `ImmunizationRecommendation.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">ImmunizationRecommendation.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.implicitRules` is mapped to FHIR R4B element `ImmunizationRecommendation.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">ImmunizationRecommendation.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.language</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.language` is mapped to FHIR R4B element `ImmunizationRecommendation.language`.</td></tr><tr><td style=\"border-right-width: 0px\">ImmunizationRecommendation.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.text</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.text` is mapped to FHIR R4B element `ImmunizationRecommendation.text`.</td></tr><tr><td style=\"border-right-width: 0px\">ImmunizationRecommendation.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.contained</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.contained` is mapped to FHIR R4B element `ImmunizationRecommendation.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">ImmunizationRecommendation.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.identifier` is mapped to FHIR R4B element `ImmunizationRecommendation.identifier`.</td></tr><tr><td style=\"border-right-width: 0px\">ImmunizationRecommendation.patient</td><td style=\"border-left-width: 0px\">patient</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.patient</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.patient` is mapped to FHIR R4B element `ImmunizationRecommendation.patient`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ImmunizationRecommendation.date</td><td style=\"border-left-width: 0px; border-bottom-style: none\">date</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.date</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.date` is mapped to FHIR R4B element `ImmunizationRecommendation.date`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.date</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.date` is mapped to FHIR STU3 element `ImmunizationRecommendation.recommendation.date`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ImmunizationRecommendation.authority</td><td style=\"border-left-width: 0px; border-bottom-style: none\">authority</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.authority</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.authority` is mapped to FHIR R4B element `ImmunizationRecommendation.authority`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.protocol.authority</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.authority` is mapped to FHIR STU3 element `ImmunizationRecommendation.recommendation.protocol.authority`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ImmunizationRecommendation.recommendation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">recommendation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.recommendation` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.protocol</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.recommendation` is mapped to FHIR STU3 element `ImmunizationRecommendation.recommendation`.\nElement `ImmunizationRecommendation.recommendation` is mapped to FHIR STU3 element `ImmunizationRecommendation.recommendation.protocol`.</td></tr><tr><td style=\"border-right-width: 0px\">ImmunizationRecommendation.recommendation.vaccineCode</td><td style=\"border-left-width: 0px\">vaccineCode</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.vaccineCode</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.recommendation.vaccineCode` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.vaccineCode`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ImmunizationRecommendation.recommendation.targetDisease</td><td style=\"border-left-width: 0px; border-bottom-style: none\">targetDisease</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.targetDisease</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.recommendation.targetDisease` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.targetDisease`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImmunizationRecommendation.recommendation.targetDisease</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.recommendation.targetDisease` is mapped to FHIR DSTU2 structure `ImmunizationRecommendation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ImmunizationRecommendation.recommendation.contraindicatedVaccineCode</td><td style=\"border-left-width: 0px; border-bottom-style: none\">contraindicatedVaccineCode</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.contraindicatedVaccineCode</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.recommendation.contraindicatedVaccineCode` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.contraindicatedVaccineCode`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImmunizationRecommendation.recommendation.contraindicatedVaccineCode</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.recommendation.contraindicatedVaccineCode` is mapped to FHIR STU3 structure `ImmunizationRecommendation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">ImmunizationRecommendation.recommendation.forecastStatus</td><td style=\"border-left-width: 0px\">forecastStatus</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.forecastStatus</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.recommendation.forecastStatus` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.forecastStatus`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ImmunizationRecommendation.recommendation.forecastReason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">forecastReason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.forecastReason</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.recommendation.forecastReason` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.forecastReason`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ImmunizationRecommendation.recommendation.forecastReason</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.recommendation.forecastReason` is mapped to FHIR STU3 structure `ImmunizationRecommendation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">ImmunizationRecommendation.recommendation.dateCriterion</td><td style=\"border-left-width: 0px\">dateCriterion</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.dateCriterion</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.recommendation.dateCriterion` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.dateCriterion`.</td></tr><tr><td style=\"border-right-width: 0px\">ImmunizationRecommendation.recommendation.dateCriterion.code</td><td style=\"border-left-width: 0px\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.dateCriterion.code</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.recommendation.dateCriterion.code` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.dateCriterion.code`.</td></tr><tr><td style=\"border-right-width: 0px\">ImmunizationRecommendation.recommendation.dateCriterion.value</td><td style=\"border-left-width: 0px\">value</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.dateCriterion.value</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.recommendation.dateCriterion.value` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.dateCriterion.value`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ImmunizationRecommendation.recommendation.description</td><td style=\"border-left-width: 0px; border-bottom-style: none\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.description</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.recommendation.description` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.description`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.protocol.description</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.recommendation.description` is mapped to FHIR STU3 element `ImmunizationRecommendation.recommendation.protocol.description`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ImmunizationRecommendation.recommendation.series</td><td style=\"border-left-width: 0px; border-bottom-style: none\">series</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.series</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.recommendation.series` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.series`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.protocol.series</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.recommendation.series` is mapped to FHIR STU3 element `ImmunizationRecommendation.recommendation.protocol.series`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ImmunizationRecommendation.recommendation.doseNumber</td><td style=\"border-left-width: 0px; border-bottom-style: none\">doseNumber</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.doseNumber[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `ImmunizationRecommendation.recommendation.doseNumber[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImmunizationRecommendation.recommendation`.\nElement `ImmunizationRecommendation.recommendation.doseNumber` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.doseNumber[x]`.\nNote that the target element context `ImmunizationRecommendation.recommendation.doseNumber[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImmunizationRecommendation.recommendation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.doseNumber</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.recommendation.doseNumber` is mapped to FHIR STU3 element `ImmunizationRecommendation.recommendation.doseNumber`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ImmunizationRecommendation.recommendation.seriesDoses</td><td style=\"border-left-width: 0px; border-bottom-style: none\">seriesDoses</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.seriesDoses[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `ImmunizationRecommendation.recommendation.seriesDoses[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImmunizationRecommendation.recommendation`.\nElement `ImmunizationRecommendation.recommendation.seriesDoses` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.seriesDoses[x]`.\nNote that the target element context `ImmunizationRecommendation.recommendation.seriesDoses[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImmunizationRecommendation.recommendation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.recommendation.seriesDoses` is mapped to FHIR STU3 element `ImmunizationRecommendation.recommendation`.</td></tr><tr><td style=\"border-right-width: 0px\">ImmunizationRecommendation.recommendation.supportingImmunization</td><td style=\"border-left-width: 0px\">supportingImmunization</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.supportingImmunization</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.recommendation.supportingImmunization` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.supportingImmunization`.</td></tr><tr><td style=\"border-right-width: 0px\">ImmunizationRecommendation.recommendation.supportingPatientInformation</td><td style=\"border-left-width: 0px\">supportingPatientInformation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.supportingPatientInformation</td><td style=\"border-left-width: 0px\"/><td>Element `ImmunizationRecommendation.recommendation.supportingPatientInformation` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.supportingPatientInformation`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-ImmunizationRecommendation-elements-for-R4-ImmunizationRecommendation"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-ImmunizationRecommendation-elements-for-R4-ImmunizationRecommendation>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5ImmunizationRecommendationElementsForR4ImmunizationRecommendation"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:33.0562218-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "ImmunizationRecommendation" ] ;
+       fhir:display [ fhir:v "ImmunizationRecommendation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `ImmunizationRecommendation` is representable via FHIR R4B Resource `ImmunizationRecommendation`.\nElement `ImmunizationRecommendation` is mapped to FHIR R4B element `ImmunizationRecommendation`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImmunizationRecommendation.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.meta` is mapped to FHIR R4B element `ImmunizationRecommendation.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImmunizationRecommendation.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.implicitRules` is mapped to FHIR R4B element `ImmunizationRecommendation.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImmunizationRecommendation.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.language` is mapped to FHIR R4B element `ImmunizationRecommendation.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImmunizationRecommendation.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.text` is mapped to FHIR R4B element `ImmunizationRecommendation.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImmunizationRecommendation.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.contained` is mapped to FHIR R4B element `ImmunizationRecommendation.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImmunizationRecommendation.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.identifier` is mapped to FHIR R4B element `ImmunizationRecommendation.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImmunizationRecommendation.patient" ] ;
+       fhir:display [ fhir:v "patient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.patient" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.patient` is mapped to FHIR R4B element `ImmunizationRecommendation.patient`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImmunizationRecommendation.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.date` is mapped to FHIR R4B element `ImmunizationRecommendation.date`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.date` is mapped to FHIR STU3 element `ImmunizationRecommendation.recommendation.date`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImmunizationRecommendation.authority" ] ;
+       fhir:display [ fhir:v "authority" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.authority" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.authority` is mapped to FHIR R4B element `ImmunizationRecommendation.authority`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.protocol.authority" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.authority` is mapped to FHIR STU3 element `ImmunizationRecommendation.recommendation.protocol.authority`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImmunizationRecommendation.recommendation" ] ;
+       fhir:display [ fhir:v "recommendation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.recommendation` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.protocol" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.recommendation` is mapped to FHIR STU3 element `ImmunizationRecommendation.recommendation`.\nElement `ImmunizationRecommendation.recommendation` is mapped to FHIR STU3 element `ImmunizationRecommendation.recommendation.protocol`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImmunizationRecommendation.recommendation.vaccineCode" ] ;
+       fhir:display [ fhir:v "vaccineCode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.vaccineCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.recommendation.vaccineCode` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.vaccineCode`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImmunizationRecommendation.recommendation.targetDisease" ] ;
+       fhir:display [ fhir:v "targetDisease" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.targetDisease" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.recommendation.targetDisease` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.targetDisease`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImmunizationRecommendation.recommendation.targetDisease" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.recommendation.targetDisease` is mapped to FHIR DSTU2 structure `ImmunizationRecommendation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImmunizationRecommendation.recommendation.contraindicatedVaccineCode" ] ;
+       fhir:display [ fhir:v "contraindicatedVaccineCode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.contraindicatedVaccineCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.recommendation.contraindicatedVaccineCode` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.contraindicatedVaccineCode`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImmunizationRecommendation.recommendation.contraindicatedVaccineCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.recommendation.contraindicatedVaccineCode` is mapped to FHIR STU3 structure `ImmunizationRecommendation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImmunizationRecommendation.recommendation.forecastStatus" ] ;
+       fhir:display [ fhir:v "forecastStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.forecastStatus" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.recommendation.forecastStatus` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.forecastStatus`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImmunizationRecommendation.recommendation.forecastReason" ] ;
+       fhir:display [ fhir:v "forecastReason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.forecastReason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.recommendation.forecastReason` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.forecastReason`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImmunizationRecommendation.recommendation.forecastReason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.recommendation.forecastReason` is mapped to FHIR STU3 structure `ImmunizationRecommendation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImmunizationRecommendation.recommendation.dateCriterion" ] ;
+       fhir:display [ fhir:v "dateCriterion" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.dateCriterion" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.recommendation.dateCriterion` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.dateCriterion`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImmunizationRecommendation.recommendation.dateCriterion.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.dateCriterion.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.recommendation.dateCriterion.code` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.dateCriterion.code`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImmunizationRecommendation.recommendation.dateCriterion.value" ] ;
+       fhir:display [ fhir:v "value" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.dateCriterion.value" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.recommendation.dateCriterion.value` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.dateCriterion.value`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImmunizationRecommendation.recommendation.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.recommendation.description` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.description`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.protocol.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.recommendation.description` is mapped to FHIR STU3 element `ImmunizationRecommendation.recommendation.protocol.description`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImmunizationRecommendation.recommendation.series" ] ;
+       fhir:display [ fhir:v "series" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.series" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.recommendation.series` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.series`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.protocol.series" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.recommendation.series` is mapped to FHIR STU3 element `ImmunizationRecommendation.recommendation.protocol.series`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImmunizationRecommendation.recommendation.doseNumber" ] ;
+       fhir:display [ fhir:v "doseNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.doseNumber[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `ImmunizationRecommendation.recommendation.doseNumber[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImmunizationRecommendation.recommendation`.\nElement `ImmunizationRecommendation.recommendation.doseNumber` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.doseNumber[x]`.\nNote that the target element context `ImmunizationRecommendation.recommendation.doseNumber[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImmunizationRecommendation.recommendation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.doseNumber" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.recommendation.doseNumber` is mapped to FHIR STU3 element `ImmunizationRecommendation.recommendation.doseNumber`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImmunizationRecommendation.recommendation.seriesDoses" ] ;
+       fhir:display [ fhir:v "seriesDoses" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.seriesDoses[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `ImmunizationRecommendation.recommendation.seriesDoses[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImmunizationRecommendation.recommendation`.\nElement `ImmunizationRecommendation.recommendation.seriesDoses` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.seriesDoses[x]`.\nNote that the target element context `ImmunizationRecommendation.recommendation.seriesDoses[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImmunizationRecommendation.recommendation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.recommendation.seriesDoses` is mapped to FHIR STU3 element `ImmunizationRecommendation.recommendation`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImmunizationRecommendation.recommendation.supportingImmunization" ] ;
+       fhir:display [ fhir:v "supportingImmunization" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.supportingImmunization" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.recommendation.supportingImmunization` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.supportingImmunization`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ImmunizationRecommendation.recommendation.supportingPatientInformation" ] ;
+       fhir:display [ fhir:v "supportingPatientInformation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation#ImmunizationRecommendation.recommendation.supportingPatientInformation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ImmunizationRecommendation.recommendation.supportingPatientInformation` is mapped to FHIR R4B element `ImmunizationRecommendation.recommendation.supportingPatientInformation`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

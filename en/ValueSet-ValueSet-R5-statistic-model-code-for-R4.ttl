@@ -1,0 +1,1005 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/ValueSet-R5-statistic-model-code-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ValueSet-R5-statistic-model-code-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ValueSet-R5-statistic-model-code-for-R4</b></p><a name=\"ValueSet-R5-statistic-model-code-for-R4\"> </a><a name=\"hcValueSet-R5-statistic-model-code-for-R4\"> </a><p>This value set expansion contains 79 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-adjusted\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-adjusted\">adjusted</a></td><td>Adjusted analysis</td><td>Used for adjusted analysis, paired with variable element(s)</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-anova\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-anova\">anova</a></td><td>ANOVA (ANalysis Of VAriance)</td><td>Used for ANOVA method of analysis, may be paired with \"value\" to express degrees of freedom</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-anovaOneWay\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-anovaOneWay\">anovaOneWay</a></td><td>one-way ANOVA</td><td>Used for one-way ANOVA method of analysis, may be paired with \"value\" to express degrees of freedom</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-anovaThreeWay\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-anovaThreeWay\">anovaThreeWay</a></td><td>3-way ANOVA</td><td>Used for 3-way ANOVA method of analysis, may be paired with \"value\" to express degrees of freedom</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-anovaTwoWay\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-anovaTwoWay\">anovaTwoWay</a></td><td>2-way ANOVA without replication</td><td>Used for 2-way ANOVA without replication method of analysis, may be paired with \"value\" to express degrees of freedom</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-anovaTwoWayReplication\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-anovaTwoWayReplication\">anovaTwoWayReplication</a></td><td>2-way ANOVA with replication</td><td>Used for 2-way ANOVA with replication method of analysis, may be paired with \"value\" to express degrees of freedom</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-binomialDistributionRegression\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-binomialDistributionRegression\">binomialDistributionRegression</a></td><td>Binomial Distribution for Regression</td><td>Used for Binomial Distribution for Regression, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-chiSquareTest\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-chiSquareTest\">chiSquareTest</a></td><td>Chi-square test</td><td>Used for Chi-square test, may be paired with \"value\" to express degrees of freedom</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-chiSquareTestHomogeneity\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-chiSquareTestHomogeneity\">chiSquareTestHomogeneity</a></td><td>Chi-square test for homogeneity</td><td>Used for Chi-square test for homogeneity, may be paired with \"value\" to express degrees of freedom</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-chiSquareTestTrend\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-chiSquareTestTrend\">chiSquareTestTrend</a></td><td>Chi-square test for trend</td><td>Used for Chi-square test for trend, may be paired with \"value\" to express degrees of freedom</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-coxProportionalHazards\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-coxProportionalHazards\">coxProportionalHazards</a></td><td>Cox Proportional Hazards</td><td>Used for Cox proportional hazards method of analysis, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-dersimonianLairdMethod\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-dersimonianLairdMethod\">dersimonianLairdMethod</a></td><td>Dersimonian-Laird method</td><td>Used for Dersimonian-Laird method of tau estimation, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-effectsFixed\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-effectsFixed\">effectsFixed</a></td><td>Fixed-effects</td><td>From a fixed-effects analysis, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-effectsRandom\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-effectsRandom\">effectsRandom</a></td><td>Random-effects</td><td>From a random-effects analysis, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-empiricalBayes\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-empiricalBayes\">empiricalBayes</a></td><td>Empirical Bayes method</td><td>Used for Empirical Bayes method of tau estimation, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-fishersExactTest\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-fishersExactTest\">fishersExactTest</a></td><td>Fisher’s exact test</td><td>Used for Fisher's exact test, may be paired with \"value\" to express degrees of freedom</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-friedmanTest\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-friedmanTest\">friedmanTest</a></td><td>Friedman test</td><td>Used for Friedman test, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-glm\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-glm\">glm</a></td><td>GLM (Generalized Linear Model)</td><td>Used for GLM (Generalized Linear Model), no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-glmGeneralizedLogit\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-glmGeneralizedLogit\">glmGeneralizedLogit</a></td><td>GLM with generalized logit link</td><td>Used for GLM with generalized logit link, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-glmIdentity\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-glmIdentity\">glmIdentity</a></td><td>GLM with identity link</td><td>Used for GLM with identity link, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-glmLog\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-glmLog\">glmLog</a></td><td>GLM with log link</td><td>Used for GLM with log link, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-glmLogit\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-glmLogit\">glmLogit</a></td><td>GLM with logit link</td><td>Used for GLM with logit link, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-glmProbit\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-glmProbit\">glmProbit</a></td><td>GLM with probit link</td><td>Used for GLM with probit link, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-glmm\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-glmm\">glmm</a></td><td>Generalized linear mixed model (GLMM)</td><td>Used for Generalized linear mixed model (GLMM), no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-glmmGeneralizedLogit\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-glmmGeneralizedLogit\">glmmGeneralizedLogit</a></td><td>GLMM with generalized logit link</td><td>Used for GLMM with generalized logit link, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-glmmIdentity\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-glmmIdentity\">glmmIdentity</a></td><td>GLMM with identity link</td><td>Used for GLMM with identity link, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-glmmLog\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-glmmLog\">glmmLog</a></td><td>GLMM with log link</td><td>Used for GLMM with log link, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-glmmLogit\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-glmmLogit\">glmmLogit</a></td><td>GLMM with logit link</td><td>Used for GLMM with logit link, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-glmmProbit\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-glmmProbit\">glmmProbit</a></td><td>GLMM with probit link</td><td>Used for GLMM with probit link, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-goodmanKruskasGamma\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-goodmanKruskasGamma\">goodmanKruskasGamma</a></td><td>Goodman Kruska’s Gamma</td><td>Used for Goodman Kruska’s Gamma, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-hartungKnapp\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-hartungKnapp\">hartungKnapp</a></td><td>Hartung-Knapp adjustment</td><td>Hartung-Knapp/Hartung-Knapp-Sidik-Jonkman adjustment used in meta-analysis, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-hedgesMethod\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-hedgesMethod\">hedgesMethod</a></td><td>Hedges method</td><td>Used for Hedges method of tau estimation, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-hunterSchmidt\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-hunterSchmidt\">hunterSchmidt</a></td><td>Hunter-Schmidt method</td><td>Used for Hunter-Schmidt method of tau estimation, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-interactionTerm\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-interactionTerm\">interactionTerm</a></td><td>Interaction term</td><td>Used for interaction term, paired with \"value\" and two or more variable elements</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-inverseVariance\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-inverseVariance\">inverseVariance</a></td><td>Inverse variance method</td><td>Used for inverse variance method of meta-analysis, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-kendallCorrelation\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-kendallCorrelation\">kendallCorrelation</a></td><td>Kendall correlation</td><td>Used for Kendall correlation, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-kruskalWallisTest\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-kruskalWallisTest\">kruskalWallisTest</a></td><td>Kruskal Wallis test</td><td>Used for Kruskal Wallis test, may be paired with \"value\" to express degrees of freedom</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-linearRegression\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-linearRegression\">linearRegression</a></td><td>Linear Regression</td><td>Used for linear regression method of analysis, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-logisticRegression\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-logisticRegression\">logisticRegression</a></td><td>Logistic Regression</td><td>Used for logistic regression method of analysis, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-mannWhitneyUTest\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-mannWhitneyUTest\">mannWhitneyUTest</a></td><td>Mann-Whitney U test</td><td>Used for Mann-Whitney U test, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-manova\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-manova\">manova</a></td><td>multivariate ANOVA (MANOVA)</td><td>Used for multivariate ANOVA (MANOVA) method of analysis, may be paired with \"value\" to express degrees of freedom</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-manteHaenszelMethod\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-manteHaenszelMethod\">manteHaenszelMethod</a></td><td>Mantel-Haenszel method</td><td>Used for Mantel-Haenszel method, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-maximumLikelihood\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-maximumLikelihood\">maximumLikelihood</a></td><td>Maximum Likelihood method</td><td>Used for Maximum Likelihood method of tau estimation, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-mcnemarsTest\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-mcnemarsTest\">mcnemarsTest</a></td><td>McNemar’s test</td><td>Used for McNemar's test, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-metaAnalysis\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-metaAnalysis\">metaAnalysis</a></td><td>Meta-analysis</td><td>Used for meta-analysis, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-modifiedHartungKnapp\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-modifiedHartungKnapp\">modifiedHartungKnapp</a></td><td>Modified Hartung-Knapp adjustment</td><td>Modified Hartung-Knapp/Hartung-Knapp-Sidik-Jonkman adjustment used in meta-analysis, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-multinomialDistributionRegression\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-multinomialDistributionRegression\">multinomialDistributionRegression</a></td><td>Multinomial Distribution for Regression</td><td>Used for Multinomial Distribution for Regression, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-negativeBinomialRegression\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-negativeBinomialRegression\">negativeBinomialRegression</a></td><td>Negative Binomial Regression</td><td>Used for Negative Binomial Regression, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-oneSampleTTest\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-oneSampleTTest\">oneSampleTTest</a></td><td>1-sample t-test</td><td>Used for 1-sample t-test, may be paired with \"value\" to express degrees of freedom</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-oneTailedTest\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-oneTailedTest\">oneTailedTest</a></td><td>one-tailed test (1 threshold)</td><td>Used for one-tailed test (1 threshold), no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-pairedTTest\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-pairedTTest\">pairedTTest</a></td><td>paired t-test</td><td>Used for paired t-test, may be paired with \"value\" to express degrees of freedom</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-pauleMandelMethod\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-pauleMandelMethod\">pauleMandelMethod</a></td><td>Paule-Mandel method</td><td>Used for Paule-Mandel method of tau estimation, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-pearsonCorrelation\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-pearsonCorrelation\">pearsonCorrelation</a></td><td>Pearson correlation</td><td>Used for Pearson correlation, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-petoMethod\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-petoMethod\">petoMethod</a></td><td>Peto method</td><td>Used for Peto method of meta-analysis, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-poissonRegression\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-poissonRegression\">poissonRegression</a></td><td>Poisson Regression</td><td>Used for Poisson Regression, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-polynomialRegression\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-polynomialRegression\">polynomialRegression</a></td><td>Polynomial Regression</td><td>Used for Polynomial regression method of analysis, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-poolGeneralizedLinearMixedModel\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-poolGeneralizedLinearMixedModel\">poolGeneralizedLinearMixedModel</a></td><td>Generalized linear mixed model (GLMM)</td><td>Generalized linear mixed model (GLMM) method for pooling in meta-analysis</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-poolInverseVariance\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-poolInverseVariance\">poolInverseVariance</a></td><td>Inverse variance method</td><td>Inverse variance method for pooling in meta-analysis</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-poolMantelHaenzsel\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-poolMantelHaenzsel\">poolMantelHaenzsel</a></td><td>Mantel-Haenszel method</td><td>Mantel-Haenszel method for pooling in meta-analysis</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-poolPeto\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-poolPeto\">poolPeto</a></td><td>Peto method</td><td>Peto method for pooling in meta-analysis</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-restrictedLikelihood\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-restrictedLikelihood\">restrictedLikelihood</a></td><td>Restricted Maximum Likelihood method</td><td>Used for Restricted Maximum Likelihood method of tau estimation, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-sidikJonkman\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-sidikJonkman\">sidikJonkman</a></td><td>Sidik-Jonkman method</td><td>Used for Sidik-Jonkman method of tau estimation, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-signTest\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-signTest\">signTest</a></td><td>sign test</td><td>Used for sign test, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-spearmanCorrelation\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-spearmanCorrelation\">spearmanCorrelation</a></td><td>Spearman correlation</td><td>Used for Spearman correlation, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-tauDersimonianLaird\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-tauDersimonianLaird\">tauDersimonianLaird</a></td><td>Dersimonian-Laird method</td><td>Dersimonian-Laird method for tau squared</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-tauEmpiricalBayes\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-tauEmpiricalBayes\">tauEmpiricalBayes</a></td><td>Empirical Bayes method</td><td>Empirical Bayes method for tau squared</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-tauHedges\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-tauHedges\">tauHedges</a></td><td>Hedges method</td><td>Hedges method for tau squared</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-tauHunterSchmidt\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-tauHunterSchmidt\">tauHunterSchmidt</a></td><td>Hunter-Schmidt method</td><td>Hunter-Schmidt method for tau squared</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-tauMaximumLikelihood\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-tauMaximumLikelihood\">tauMaximumLikelihood</a></td><td>Maximum Likelihood method</td><td>Maximum Likelihood method for tau squared</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-tauPauleMandel\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-tauPauleMandel\">tauPauleMandel</a></td><td>Paule-Mandel method</td><td>Paule-Mandel method for tau squared</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-tauRestrictedMaximumLikelihood\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-tauRestrictedMaximumLikelihood\">tauRestrictedMaximumLikelihood</a></td><td>Restricted Maximum Likelihood method</td><td>Restricted Maximum Likelihood method for tau squared</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-tauSidikJonkman\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-tauSidikJonkman\">tauSidikJonkman</a></td><td>Sidik-Jonkman method</td><td>Sidik-Jonkman method for tau squared</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-twoSampleTTest\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-twoSampleTTest\">twoSampleTTest</a></td><td>2-sample t-test</td><td>Used for 2-sample t-test, may be paired with \"value\" to express degrees of freedom</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-twoTailedTest\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-twoTailedTest\">twoTailedTest</a></td><td>two-tailed test (2 thresholds)</td><td>Used for two-tailed test (2 threshold), no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-wilcoxonRankSumTest\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-wilcoxonRankSumTest\">wilcoxonRankSumTest</a></td><td>Wilcoxon rank-sum test</td><td>Used for Wilcoxon rank-sum test, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-wilcoxonSignedRankTest\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-wilcoxonSignedRankTest\">wilcoxonSignedRankTest</a></td><td>Wilcoxon signed-rank test</td><td>Used for Wilcoxon signed-rank test, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-zTest\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-zTest\">zTest</a></td><td>z-test</td><td>Used for z-test, no additional elements needed</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-zeroCellConstant\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-zeroCellConstant\">zeroCellConstant</a></td><td>Zero-cell adjustment with constant</td><td>Zero-cell adjustment done by adding a constant to all cells of affected studies, paired with \"value\" to define the constant</td></tr><tr><td><a name=\"ValueSet-R5-statistic-model-code-for-R4-http://hl7.org/fhir/statistic-model-code-zeroCellContinuityCorrection\"> </a><code>http://hl7.org/fhir/statistic-model-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-statistic-model-code.html#statistic-model-code-zeroCellContinuityCorrection\">zeroCellContinuityCorrection</a></td><td>Zero-cell adjustment with continuity correction</td><td>Zero-cell adjustment done by treatment arm continuity correction, no additional elements needed</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "cds"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-statistic-model-code-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-statistic-model-code-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ValueSetR5StatisticModelCodeForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.StatisticModelCode for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Clinical Decision Support"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Clinical Decision Support" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/dss" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/statistic-model-code|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/statistic-model-code|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `Evidence.statistic.modelCharacteristic.code` as Extensible\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/statistic-model-code|5.0.0`\n* `http://hl7.org/fhir/ValueSet/statistic-model-code|4.3.0`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\nAll concepts in the comparison are listed as identical.\nThe source and target value sets have the same number of active concepts (79)."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "adjusted" ] ;
+         fhir:display [ fhir:v "Adjusted analysis" ]
+       ] [
+         fhir:code [ fhir:v "anova" ] ;
+         fhir:display [ fhir:v "ANOVA (ANalysis Of VAriance)" ]
+       ] [
+         fhir:code [ fhir:v "anovaOneWay" ] ;
+         fhir:display [ fhir:v "one-way ANOVA" ]
+       ] [
+         fhir:code [ fhir:v "anovaThreeWay" ] ;
+         fhir:display [ fhir:v "3-way ANOVA" ]
+       ] [
+         fhir:code [ fhir:v "anovaTwoWay" ] ;
+         fhir:display [ fhir:v "2-way ANOVA without replication" ]
+       ] [
+         fhir:code [ fhir:v "anovaTwoWayReplication" ] ;
+         fhir:display [ fhir:v "2-way ANOVA with replication" ]
+       ] [
+         fhir:code [ fhir:v "binomialDistributionRegression" ] ;
+         fhir:display [ fhir:v "Binomial Distribution for Regression" ]
+       ] [
+         fhir:code [ fhir:v "chiSquareTest" ] ;
+         fhir:display [ fhir:v "Chi-square test" ]
+       ] [
+         fhir:code [ fhir:v "chiSquareTestHomogeneity" ] ;
+         fhir:display [ fhir:v "Chi-square test for homogeneity" ]
+       ] [
+         fhir:code [ fhir:v "chiSquareTestTrend" ] ;
+         fhir:display [ fhir:v "Chi-square test for trend" ]
+       ] [
+         fhir:code [ fhir:v "coxProportionalHazards" ] ;
+         fhir:display [ fhir:v "Cox Proportional Hazards" ]
+       ] [
+         fhir:code [ fhir:v "dersimonianLairdMethod" ] ;
+         fhir:display [ fhir:v "Dersimonian-Laird method" ]
+       ] [
+         fhir:code [ fhir:v "effectsFixed" ] ;
+         fhir:display [ fhir:v "Fixed-effects" ]
+       ] [
+         fhir:code [ fhir:v "effectsRandom" ] ;
+         fhir:display [ fhir:v "Random-effects" ]
+       ] [
+         fhir:code [ fhir:v "empiricalBayes" ] ;
+         fhir:display [ fhir:v "Empirical Bayes method" ]
+       ] [
+         fhir:code [ fhir:v "fishersExactTest" ] ;
+         fhir:display [ fhir:v "Fisher’s exact test" ]
+       ] [
+         fhir:code [ fhir:v "friedmanTest" ] ;
+         fhir:display [ fhir:v "Friedman test" ]
+       ] [
+         fhir:code [ fhir:v "glm" ] ;
+         fhir:display [ fhir:v "GLM (Generalized Linear Model)" ]
+       ] [
+         fhir:code [ fhir:v "glmGeneralizedLogit" ] ;
+         fhir:display [ fhir:v "GLM with generalized logit link" ]
+       ] [
+         fhir:code [ fhir:v "glmIdentity" ] ;
+         fhir:display [ fhir:v "GLM with identity link" ]
+       ] [
+         fhir:code [ fhir:v "glmLog" ] ;
+         fhir:display [ fhir:v "GLM with log link" ]
+       ] [
+         fhir:code [ fhir:v "glmLogit" ] ;
+         fhir:display [ fhir:v "GLM with logit link" ]
+       ] [
+         fhir:code [ fhir:v "glmProbit" ] ;
+         fhir:display [ fhir:v "GLM with probit link" ]
+       ] [
+         fhir:code [ fhir:v "glmm" ] ;
+         fhir:display [ fhir:v "Generalized linear mixed model (GLMM)" ]
+       ] [
+         fhir:code [ fhir:v "glmmGeneralizedLogit" ] ;
+         fhir:display [ fhir:v "GLMM with generalized logit link" ]
+       ] [
+         fhir:code [ fhir:v "glmmIdentity" ] ;
+         fhir:display [ fhir:v "GLMM with identity link" ]
+       ] [
+         fhir:code [ fhir:v "glmmLog" ] ;
+         fhir:display [ fhir:v "GLMM with log link" ]
+       ] [
+         fhir:code [ fhir:v "glmmLogit" ] ;
+         fhir:display [ fhir:v "GLMM with logit link" ]
+       ] [
+         fhir:code [ fhir:v "glmmProbit" ] ;
+         fhir:display [ fhir:v "GLMM with probit link" ]
+       ] [
+         fhir:code [ fhir:v "goodmanKruskasGamma" ] ;
+         fhir:display [ fhir:v "Goodman Kruska’s Gamma" ]
+       ] [
+         fhir:code [ fhir:v "hartungKnapp" ] ;
+         fhir:display [ fhir:v "Hartung-Knapp adjustment" ]
+       ] [
+         fhir:code [ fhir:v "hedgesMethod" ] ;
+         fhir:display [ fhir:v "Hedges method" ]
+       ] [
+         fhir:code [ fhir:v "hunterSchmidt" ] ;
+         fhir:display [ fhir:v "Hunter-Schmidt method" ]
+       ] [
+         fhir:code [ fhir:v "interactionTerm" ] ;
+         fhir:display [ fhir:v "Interaction term" ]
+       ] [
+         fhir:code [ fhir:v "inverseVariance" ] ;
+         fhir:display [ fhir:v "Inverse variance method" ]
+       ] [
+         fhir:code [ fhir:v "kendallCorrelation" ] ;
+         fhir:display [ fhir:v "Kendall correlation" ]
+       ] [
+         fhir:code [ fhir:v "kruskalWallisTest" ] ;
+         fhir:display [ fhir:v "Kruskal Wallis test" ]
+       ] [
+         fhir:code [ fhir:v "linearRegression" ] ;
+         fhir:display [ fhir:v "Linear Regression" ]
+       ] [
+         fhir:code [ fhir:v "logisticRegression" ] ;
+         fhir:display [ fhir:v "Logistic Regression" ]
+       ] [
+         fhir:code [ fhir:v "mannWhitneyUTest" ] ;
+         fhir:display [ fhir:v "Mann-Whitney U test" ]
+       ] [
+         fhir:code [ fhir:v "manova" ] ;
+         fhir:display [ fhir:v "multivariate ANOVA (MANOVA)" ]
+       ] [
+         fhir:code [ fhir:v "manteHaenszelMethod" ] ;
+         fhir:display [ fhir:v "Mantel-Haenszel method" ]
+       ] [
+         fhir:code [ fhir:v "maximumLikelihood" ] ;
+         fhir:display [ fhir:v "Maximum Likelihood method" ]
+       ] [
+         fhir:code [ fhir:v "mcnemarsTest" ] ;
+         fhir:display [ fhir:v "McNemar’s test" ]
+       ] [
+         fhir:code [ fhir:v "metaAnalysis" ] ;
+         fhir:display [ fhir:v "Meta-analysis" ]
+       ] [
+         fhir:code [ fhir:v "modifiedHartungKnapp" ] ;
+         fhir:display [ fhir:v "Modified Hartung-Knapp adjustment" ]
+       ] [
+         fhir:code [ fhir:v "multinomialDistributionRegression" ] ;
+         fhir:display [ fhir:v "Multinomial Distribution for Regression" ]
+       ] [
+         fhir:code [ fhir:v "negativeBinomialRegression" ] ;
+         fhir:display [ fhir:v "Negative Binomial Regression" ]
+       ] [
+         fhir:code [ fhir:v "oneSampleTTest" ] ;
+         fhir:display [ fhir:v "1-sample t-test" ]
+       ] [
+         fhir:code [ fhir:v "oneTailedTest" ] ;
+         fhir:display [ fhir:v "one-tailed test (1 threshold)" ]
+       ] [
+         fhir:code [ fhir:v "pairedTTest" ] ;
+         fhir:display [ fhir:v "paired t-test" ]
+       ] [
+         fhir:code [ fhir:v "pauleMandelMethod" ] ;
+         fhir:display [ fhir:v "Paule-Mandel method" ]
+       ] [
+         fhir:code [ fhir:v "pearsonCorrelation" ] ;
+         fhir:display [ fhir:v "Pearson correlation" ]
+       ] [
+         fhir:code [ fhir:v "petoMethod" ] ;
+         fhir:display [ fhir:v "Peto method" ]
+       ] [
+         fhir:code [ fhir:v "poissonRegression" ] ;
+         fhir:display [ fhir:v "Poisson Regression" ]
+       ] [
+         fhir:code [ fhir:v "polynomialRegression" ] ;
+         fhir:display [ fhir:v "Polynomial Regression" ]
+       ] [
+         fhir:code [ fhir:v "poolGeneralizedLinearMixedModel" ] ;
+         fhir:display [ fhir:v "Generalized linear mixed model (GLMM)" ]
+       ] [
+         fhir:code [ fhir:v "poolInverseVariance" ] ;
+         fhir:display [ fhir:v "Inverse variance method" ]
+       ] [
+         fhir:code [ fhir:v "poolMantelHaenzsel" ] ;
+         fhir:display [ fhir:v "Mantel-Haenszel method" ]
+       ] [
+         fhir:code [ fhir:v "poolPeto" ] ;
+         fhir:display [ fhir:v "Peto method" ]
+       ] [
+         fhir:code [ fhir:v "restrictedLikelihood" ] ;
+         fhir:display [ fhir:v "Restricted Maximum Likelihood method" ]
+       ] [
+         fhir:code [ fhir:v "sidikJonkman" ] ;
+         fhir:display [ fhir:v "Sidik-Jonkman method" ]
+       ] [
+         fhir:code [ fhir:v "signTest" ] ;
+         fhir:display [ fhir:v "sign test" ]
+       ] [
+         fhir:code [ fhir:v "spearmanCorrelation" ] ;
+         fhir:display [ fhir:v "Spearman correlation" ]
+       ] [
+         fhir:code [ fhir:v "tauDersimonianLaird" ] ;
+         fhir:display [ fhir:v "Dersimonian-Laird method" ]
+       ] [
+         fhir:code [ fhir:v "tauEmpiricalBayes" ] ;
+         fhir:display [ fhir:v "Empirical Bayes method" ]
+       ] [
+         fhir:code [ fhir:v "tauHedges" ] ;
+         fhir:display [ fhir:v "Hedges method" ]
+       ] [
+         fhir:code [ fhir:v "tauHunterSchmidt" ] ;
+         fhir:display [ fhir:v "Hunter-Schmidt method" ]
+       ] [
+         fhir:code [ fhir:v "tauMaximumLikelihood" ] ;
+         fhir:display [ fhir:v "Maximum Likelihood method" ]
+       ] [
+         fhir:code [ fhir:v "tauPauleMandel" ] ;
+         fhir:display [ fhir:v "Paule-Mandel method" ]
+       ] [
+         fhir:code [ fhir:v "tauRestrictedMaximumLikelihood" ] ;
+         fhir:display [ fhir:v "Restricted Maximum Likelihood method" ]
+       ] [
+         fhir:code [ fhir:v "tauSidikJonkman" ] ;
+         fhir:display [ fhir:v "Sidik-Jonkman method" ]
+       ] [
+         fhir:code [ fhir:v "twoSampleTTest" ] ;
+         fhir:display [ fhir:v "2-sample t-test" ]
+       ] [
+         fhir:code [ fhir:v "twoTailedTest" ] ;
+         fhir:display [ fhir:v "two-tailed test (2 thresholds)" ]
+       ] [
+         fhir:code [ fhir:v "wilcoxonRankSumTest" ] ;
+         fhir:display [ fhir:v "Wilcoxon rank-sum test" ]
+       ] [
+         fhir:code [ fhir:v "wilcoxonSignedRankTest" ] ;
+         fhir:display [ fhir:v "Wilcoxon signed-rank test" ]
+       ] [
+         fhir:code [ fhir:v "zTest" ] ;
+         fhir:display [ fhir:v "z-test" ]
+       ] [
+         fhir:code [ fhir:v "zeroCellConstant" ] ;
+         fhir:display [ fhir:v "Zero-cell adjustment with constant" ]
+       ] [
+         fhir:code [ fhir:v "zeroCellContinuityCorrection" ] ;
+         fhir:display [ fhir:v "Zero-cell adjustment with continuity correction" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "adjusted" ] ;
+       fhir:display [ fhir:v "Adjusted analysis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "anova" ] ;
+       fhir:display [ fhir:v "ANOVA (ANalysis Of VAriance)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "anovaOneWay" ] ;
+       fhir:display [ fhir:v "one-way ANOVA" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "anovaThreeWay" ] ;
+       fhir:display [ fhir:v "3-way ANOVA" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "anovaTwoWay" ] ;
+       fhir:display [ fhir:v "2-way ANOVA without replication" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "anovaTwoWayReplication" ] ;
+       fhir:display [ fhir:v "2-way ANOVA with replication" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "binomialDistributionRegression" ] ;
+       fhir:display [ fhir:v "Binomial Distribution for Regression" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "chiSquareTest" ] ;
+       fhir:display [ fhir:v "Chi-square test" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "chiSquareTestHomogeneity" ] ;
+       fhir:display [ fhir:v "Chi-square test for homogeneity" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "chiSquareTestTrend" ] ;
+       fhir:display [ fhir:v "Chi-square test for trend" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "coxProportionalHazards" ] ;
+       fhir:display [ fhir:v "Cox Proportional Hazards" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "dersimonianLairdMethod" ] ;
+       fhir:display [ fhir:v "Dersimonian-Laird method" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "effectsFixed" ] ;
+       fhir:display [ fhir:v "Fixed-effects" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "effectsRandom" ] ;
+       fhir:display [ fhir:v "Random-effects" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "empiricalBayes" ] ;
+       fhir:display [ fhir:v "Empirical Bayes method" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "fishersExactTest" ] ;
+       fhir:display [ fhir:v "Fisher’s exact test" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "friedmanTest" ] ;
+       fhir:display [ fhir:v "Friedman test" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "glm" ] ;
+       fhir:display [ fhir:v "GLM (Generalized Linear Model)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "glmGeneralizedLogit" ] ;
+       fhir:display [ fhir:v "GLM with generalized logit link" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "glmIdentity" ] ;
+       fhir:display [ fhir:v "GLM with identity link" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "glmLog" ] ;
+       fhir:display [ fhir:v "GLM with log link" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "glmLogit" ] ;
+       fhir:display [ fhir:v "GLM with logit link" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "glmProbit" ] ;
+       fhir:display [ fhir:v "GLM with probit link" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "glmm" ] ;
+       fhir:display [ fhir:v "Generalized linear mixed model (GLMM)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "glmmGeneralizedLogit" ] ;
+       fhir:display [ fhir:v "GLMM with generalized logit link" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "glmmIdentity" ] ;
+       fhir:display [ fhir:v "GLMM with identity link" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "glmmLog" ] ;
+       fhir:display [ fhir:v "GLMM with log link" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "glmmLogit" ] ;
+       fhir:display [ fhir:v "GLMM with logit link" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "glmmProbit" ] ;
+       fhir:display [ fhir:v "GLMM with probit link" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "goodmanKruskasGamma" ] ;
+       fhir:display [ fhir:v "Goodman Kruska’s Gamma" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "hartungKnapp" ] ;
+       fhir:display [ fhir:v "Hartung-Knapp adjustment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "hedgesMethod" ] ;
+       fhir:display [ fhir:v "Hedges method" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "hunterSchmidt" ] ;
+       fhir:display [ fhir:v "Hunter-Schmidt method" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "interactionTerm" ] ;
+       fhir:display [ fhir:v "Interaction term" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "inverseVariance" ] ;
+       fhir:display [ fhir:v "Inverse variance method" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "kendallCorrelation" ] ;
+       fhir:display [ fhir:v "Kendall correlation" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "kruskalWallisTest" ] ;
+       fhir:display [ fhir:v "Kruskal Wallis test" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "linearRegression" ] ;
+       fhir:display [ fhir:v "Linear Regression" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "logisticRegression" ] ;
+       fhir:display [ fhir:v "Logistic Regression" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "mannWhitneyUTest" ] ;
+       fhir:display [ fhir:v "Mann-Whitney U test" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "manova" ] ;
+       fhir:display [ fhir:v "multivariate ANOVA (MANOVA)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "manteHaenszelMethod" ] ;
+       fhir:display [ fhir:v "Mantel-Haenszel method" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "maximumLikelihood" ] ;
+       fhir:display [ fhir:v "Maximum Likelihood method" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "mcnemarsTest" ] ;
+       fhir:display [ fhir:v "McNemar’s test" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "metaAnalysis" ] ;
+       fhir:display [ fhir:v "Meta-analysis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "modifiedHartungKnapp" ] ;
+       fhir:display [ fhir:v "Modified Hartung-Knapp adjustment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "multinomialDistributionRegression" ] ;
+       fhir:display [ fhir:v "Multinomial Distribution for Regression" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "negativeBinomialRegression" ] ;
+       fhir:display [ fhir:v "Negative Binomial Regression" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "oneSampleTTest" ] ;
+       fhir:display [ fhir:v "1-sample t-test" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "oneTailedTest" ] ;
+       fhir:display [ fhir:v "one-tailed test (1 threshold)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "pairedTTest" ] ;
+       fhir:display [ fhir:v "paired t-test" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "pauleMandelMethod" ] ;
+       fhir:display [ fhir:v "Paule-Mandel method" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "pearsonCorrelation" ] ;
+       fhir:display [ fhir:v "Pearson correlation" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "petoMethod" ] ;
+       fhir:display [ fhir:v "Peto method" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "poissonRegression" ] ;
+       fhir:display [ fhir:v "Poisson Regression" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "polynomialRegression" ] ;
+       fhir:display [ fhir:v "Polynomial Regression" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "poolGeneralizedLinearMixedModel" ] ;
+       fhir:display [ fhir:v "Generalized linear mixed model (GLMM)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "poolInverseVariance" ] ;
+       fhir:display [ fhir:v "Inverse variance method" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "poolMantelHaenzsel" ] ;
+       fhir:display [ fhir:v "Mantel-Haenszel method" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "poolPeto" ] ;
+       fhir:display [ fhir:v "Peto method" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "restrictedLikelihood" ] ;
+       fhir:display [ fhir:v "Restricted Maximum Likelihood method" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "sidikJonkman" ] ;
+       fhir:display [ fhir:v "Sidik-Jonkman method" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "signTest" ] ;
+       fhir:display [ fhir:v "sign test" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "spearmanCorrelation" ] ;
+       fhir:display [ fhir:v "Spearman correlation" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "tauDersimonianLaird" ] ;
+       fhir:display [ fhir:v "Dersimonian-Laird method" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "tauEmpiricalBayes" ] ;
+       fhir:display [ fhir:v "Empirical Bayes method" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "tauHedges" ] ;
+       fhir:display [ fhir:v "Hedges method" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "tauHunterSchmidt" ] ;
+       fhir:display [ fhir:v "Hunter-Schmidt method" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "tauMaximumLikelihood" ] ;
+       fhir:display [ fhir:v "Maximum Likelihood method" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "tauPauleMandel" ] ;
+       fhir:display [ fhir:v "Paule-Mandel method" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "tauRestrictedMaximumLikelihood" ] ;
+       fhir:display [ fhir:v "Restricted Maximum Likelihood method" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "tauSidikJonkman" ] ;
+       fhir:display [ fhir:v "Sidik-Jonkman method" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "twoSampleTTest" ] ;
+       fhir:display [ fhir:v "2-sample t-test" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "twoTailedTest" ] ;
+       fhir:display [ fhir:v "two-tailed test (2 thresholds)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "wilcoxonRankSumTest" ] ;
+       fhir:display [ fhir:v "Wilcoxon rank-sum test" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "wilcoxonSignedRankTest" ] ;
+       fhir:display [ fhir:v "Wilcoxon signed-rank test" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "zTest" ] ;
+       fhir:display [ fhir:v "z-test" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "zeroCellConstant" ] ;
+       fhir:display [ fhir:v "Zero-cell adjustment with constant" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/statistic-model-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/statistic-model-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "zeroCellContinuityCorrection" ] ;
+       fhir:display [ fhir:v "Zero-cell adjustment with continuity correction" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

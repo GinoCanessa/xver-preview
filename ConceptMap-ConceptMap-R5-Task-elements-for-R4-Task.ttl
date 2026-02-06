@@ -1,0 +1,780 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-Task-elements-for-R4-Task> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-Task-elements-for-R4-Task"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-Task-elements-for-R4-Task</b></p><a name=\"ConceptMap-R5-Task-elements-for-R4-Task\"> </a><a name=\"hcConceptMap-R5-Task-elements-for-R4-Task\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Task|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Task|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task</td><td style=\"border-left-width: 0px; border-bottom-style: none\">Task</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Task` is representable via FHIR R4B Resource `Task`.\nElement `Task` is mapped to FHIR R4B element `Task`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#ProcessRequest</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Task` is representable via FHIR STU3 Resource `ProcessResponse`.\nFHIR R5 Resource `Task` is representable via FHIR STU3 Resource `ProcessRequest`.\nFHIR R5 Resource `Task` is representable via FHIR STU3 Resource `Task`.\nElement `Task` is mapped to FHIR STU3 element `ProcessResponse`.\nElement `Task` is mapped to FHIR STU3 element `ProcessRequest`.\nElement `Task` is mapped to FHIR STU3 element `Task`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#ProcessResponse</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Task` is representable via FHIR STU3 Resource `ProcessResponse`.\nFHIR R5 Resource `Task` is representable via FHIR STU3 Resource `ProcessRequest`.\nFHIR R5 Resource `Task` is representable via FHIR STU3 Resource `Task`.\nElement `Task` is mapped to FHIR STU3 element `ProcessResponse`.\nElement `Task` is mapped to FHIR STU3 element `ProcessRequest`.\nElement `Task` is mapped to FHIR STU3 element `Task`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Order</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Task` is representable via FHIR DSTU2 Resource `ProcessResponse`.\nFHIR R5 Resource `Task` is representable via FHIR DSTU2 Resource `OrderResponse`.\nFHIR R5 Resource `Task` is representable via FHIR DSTU2 Resource `ProcessRequest`.\nFHIR R5 Resource `Task` is representable via FHIR DSTU2 Resource `Order`.\nElement `Task` is mapped to FHIR DSTU2 element `ProcessResponse`.\nElement `Task` is mapped to FHIR DSTU2 element `OrderResponse`.\nElement `Task` is mapped to FHIR DSTU2 element `ProcessRequest`.\nElement `Task` is mapped to FHIR DSTU2 element `Order`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#OrderResponse</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Task` is representable via FHIR DSTU2 Resource `ProcessResponse`.\nFHIR R5 Resource `Task` is representable via FHIR DSTU2 Resource `OrderResponse`.\nFHIR R5 Resource `Task` is representable via FHIR DSTU2 Resource `ProcessRequest`.\nFHIR R5 Resource `Task` is representable via FHIR DSTU2 Resource `Order`.\nElement `Task` is mapped to FHIR DSTU2 element `ProcessResponse`.\nElement `Task` is mapped to FHIR DSTU2 element `OrderResponse`.\nElement `Task` is mapped to FHIR DSTU2 element `ProcessRequest`.\nElement `Task` is mapped to FHIR DSTU2 element `Order`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.meta</td><td style=\"border-left-width: 0px; border-bottom-style: none\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.meta</td><td style=\"border-left-width: 0px\"/><td>Element `Task.meta` is mapped to FHIR R4B element `Task.meta`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#ProcessRequest.meta</td><td style=\"border-left-width: 0px\"/><td>Element `Task.meta` is mapped to FHIR STU3 element `ProcessResponse.meta`.\nElement `Task.meta` is mapped to FHIR STU3 element `ProcessRequest.meta`.\nElement `Task.meta` is mapped to FHIR STU3 element `Task.meta`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#ProcessResponse.meta</td><td style=\"border-left-width: 0px\"/><td>Element `Task.meta` is mapped to FHIR STU3 element `ProcessResponse.meta`.\nElement `Task.meta` is mapped to FHIR STU3 element `ProcessRequest.meta`.\nElement `Task.meta` is mapped to FHIR STU3 element `Task.meta`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Order.meta</td><td style=\"border-left-width: 0px\"/><td>Element `Task.meta` is mapped to FHIR DSTU2 element `ProcessResponse.meta`.\nElement `Task.meta` is mapped to FHIR DSTU2 element `OrderResponse.meta`.\nElement `Task.meta` is mapped to FHIR DSTU2 element `ProcessRequest.meta`.\nElement `Task.meta` is mapped to FHIR DSTU2 element `Order.meta`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#OrderResponse.meta</td><td style=\"border-left-width: 0px\"/><td>Element `Task.meta` is mapped to FHIR DSTU2 element `ProcessResponse.meta`.\nElement `Task.meta` is mapped to FHIR DSTU2 element `OrderResponse.meta`.\nElement `Task.meta` is mapped to FHIR DSTU2 element `ProcessRequest.meta`.\nElement `Task.meta` is mapped to FHIR DSTU2 element `Order.meta`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.implicitRules</td><td style=\"border-left-width: 0px; border-bottom-style: none\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `Task.implicitRules` is mapped to FHIR R4B element `Task.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#ProcessRequest.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `Task.implicitRules` is mapped to FHIR STU3 element `ProcessResponse.implicitRules`.\nElement `Task.implicitRules` is mapped to FHIR STU3 element `ProcessRequest.implicitRules`.\nElement `Task.implicitRules` is mapped to FHIR STU3 element `Task.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#ProcessResponse.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `Task.implicitRules` is mapped to FHIR STU3 element `ProcessResponse.implicitRules`.\nElement `Task.implicitRules` is mapped to FHIR STU3 element `ProcessRequest.implicitRules`.\nElement `Task.implicitRules` is mapped to FHIR STU3 element `Task.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Order.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `Task.implicitRules` is mapped to FHIR DSTU2 element `ProcessResponse.implicitRules`.\nElement `Task.implicitRules` is mapped to FHIR DSTU2 element `OrderResponse.implicitRules`.\nElement `Task.implicitRules` is mapped to FHIR DSTU2 element `ProcessRequest.implicitRules`.\nElement `Task.implicitRules` is mapped to FHIR DSTU2 element `Order.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#OrderResponse.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `Task.implicitRules` is mapped to FHIR DSTU2 element `ProcessResponse.implicitRules`.\nElement `Task.implicitRules` is mapped to FHIR DSTU2 element `OrderResponse.implicitRules`.\nElement `Task.implicitRules` is mapped to FHIR DSTU2 element `ProcessRequest.implicitRules`.\nElement `Task.implicitRules` is mapped to FHIR DSTU2 element `Order.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.language</td><td style=\"border-left-width: 0px; border-bottom-style: none\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.language</td><td style=\"border-left-width: 0px\"/><td>Element `Task.language` is mapped to FHIR R4B element `Task.language`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#ProcessRequest.language</td><td style=\"border-left-width: 0px\"/><td>Element `Task.language` is mapped to FHIR STU3 element `ProcessResponse.language`.\nElement `Task.language` is mapped to FHIR STU3 element `ProcessRequest.language`.\nElement `Task.language` is mapped to FHIR STU3 element `Task.language`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#ProcessResponse.language</td><td style=\"border-left-width: 0px\"/><td>Element `Task.language` is mapped to FHIR STU3 element `ProcessResponse.language`.\nElement `Task.language` is mapped to FHIR STU3 element `ProcessRequest.language`.\nElement `Task.language` is mapped to FHIR STU3 element `Task.language`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Order.language</td><td style=\"border-left-width: 0px\"/><td>Element `Task.language` is mapped to FHIR DSTU2 element `ProcessResponse.language`.\nElement `Task.language` is mapped to FHIR DSTU2 element `OrderResponse.language`.\nElement `Task.language` is mapped to FHIR DSTU2 element `ProcessRequest.language`.\nElement `Task.language` is mapped to FHIR DSTU2 element `Order.language`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#OrderResponse.language</td><td style=\"border-left-width: 0px\"/><td>Element `Task.language` is mapped to FHIR DSTU2 element `ProcessResponse.language`.\nElement `Task.language` is mapped to FHIR DSTU2 element `OrderResponse.language`.\nElement `Task.language` is mapped to FHIR DSTU2 element `ProcessRequest.language`.\nElement `Task.language` is mapped to FHIR DSTU2 element `Order.language`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.text</td><td style=\"border-left-width: 0px; border-bottom-style: none\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.text</td><td style=\"border-left-width: 0px\"/><td>Element `Task.text` is mapped to FHIR R4B element `Task.text`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#ProcessRequest.text</td><td style=\"border-left-width: 0px\"/><td>Element `Task.text` is mapped to FHIR STU3 element `ProcessResponse.text`.\nElement `Task.text` is mapped to FHIR STU3 element `ProcessRequest.text`.\nElement `Task.text` is mapped to FHIR STU3 element `Task.text`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#ProcessResponse.text</td><td style=\"border-left-width: 0px\"/><td>Element `Task.text` is mapped to FHIR STU3 element `ProcessResponse.text`.\nElement `Task.text` is mapped to FHIR STU3 element `ProcessRequest.text`.\nElement `Task.text` is mapped to FHIR STU3 element `Task.text`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Order.text</td><td style=\"border-left-width: 0px\"/><td>Element `Task.text` is mapped to FHIR DSTU2 element `ProcessResponse.text`.\nElement `Task.text` is mapped to FHIR DSTU2 element `OrderResponse.text`.\nElement `Task.text` is mapped to FHIR DSTU2 element `ProcessRequest.text`.\nElement `Task.text` is mapped to FHIR DSTU2 element `Order.text`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#OrderResponse.text</td><td style=\"border-left-width: 0px\"/><td>Element `Task.text` is mapped to FHIR DSTU2 element `ProcessResponse.text`.\nElement `Task.text` is mapped to FHIR DSTU2 element `OrderResponse.text`.\nElement `Task.text` is mapped to FHIR DSTU2 element `ProcessRequest.text`.\nElement `Task.text` is mapped to FHIR DSTU2 element `Order.text`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.contained</td><td style=\"border-left-width: 0px; border-bottom-style: none\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.contained</td><td style=\"border-left-width: 0px\"/><td>Element `Task.contained` is mapped to FHIR R4B element `Task.contained`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#ProcessRequest.contained</td><td style=\"border-left-width: 0px\"/><td>Element `Task.contained` is mapped to FHIR STU3 element `ProcessResponse.contained`.\nElement `Task.contained` is mapped to FHIR STU3 element `ProcessRequest.contained`.\nElement `Task.contained` is mapped to FHIR STU3 element `Task.contained`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#ProcessResponse.contained</td><td style=\"border-left-width: 0px\"/><td>Element `Task.contained` is mapped to FHIR STU3 element `ProcessResponse.contained`.\nElement `Task.contained` is mapped to FHIR STU3 element `ProcessRequest.contained`.\nElement `Task.contained` is mapped to FHIR STU3 element `Task.contained`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Order.contained</td><td style=\"border-left-width: 0px\"/><td>Element `Task.contained` is mapped to FHIR DSTU2 element `ProcessResponse.contained`.\nElement `Task.contained` is mapped to FHIR DSTU2 element `OrderResponse.contained`.\nElement `Task.contained` is mapped to FHIR DSTU2 element `ProcessRequest.contained`.\nElement `Task.contained` is mapped to FHIR DSTU2 element `Order.contained`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#OrderResponse.contained</td><td style=\"border-left-width: 0px\"/><td>Element `Task.contained` is mapped to FHIR DSTU2 element `ProcessResponse.contained`.\nElement `Task.contained` is mapped to FHIR DSTU2 element `OrderResponse.contained`.\nElement `Task.contained` is mapped to FHIR DSTU2 element `ProcessRequest.contained`.\nElement `Task.contained` is mapped to FHIR DSTU2 element `Order.contained`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.identifier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `Task.identifier` is mapped to FHIR R4B element `Task.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#ProcessRequest.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `Task.identifier` is mapped to FHIR STU3 element `ProcessResponse.identifier`.\nElement `Task.identifier` is mapped to FHIR STU3 element `ProcessRequest.identifier`.\nElement `Task.identifier` is mapped to FHIR STU3 element `Task.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#ProcessResponse.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `Task.identifier` is mapped to FHIR STU3 element `ProcessResponse.identifier`.\nElement `Task.identifier` is mapped to FHIR STU3 element `ProcessRequest.identifier`.\nElement `Task.identifier` is mapped to FHIR STU3 element `Task.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Order.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `Task.identifier` is mapped to FHIR DSTU2 element `ProcessResponse.identifier`.\nElement `Task.identifier` is mapped to FHIR DSTU2 element `OrderResponse.identifier`.\nElement `Task.identifier` is mapped to FHIR DSTU2 element `ProcessRequest.identifier`.\nElement `Task.identifier` is mapped to FHIR DSTU2 element `Order.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#OrderResponse.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `Task.identifier` is mapped to FHIR DSTU2 element `ProcessResponse.identifier`.\nElement `Task.identifier` is mapped to FHIR DSTU2 element `OrderResponse.identifier`.\nElement `Task.identifier` is mapped to FHIR DSTU2 element `ProcessRequest.identifier`.\nElement `Task.identifier` is mapped to FHIR DSTU2 element `Order.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.instantiatesCanonical</td><td style=\"border-left-width: 0px; border-bottom-style: none\">instantiatesCanonical</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.instantiatesCanonical</td><td style=\"border-left-width: 0px\"/><td>Element `Task.instantiatesCanonical` is mapped to FHIR R4B element `Task.instantiatesCanonical`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.definition[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Task.definition[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task`.\nElement `Task.instantiatesCanonical` is mapped to FHIR STU3 structure `ProcessResponse`, but has no target element specified.\nElement `Task.instantiatesCanonical` is mapped to FHIR STU3 structure `ProcessRequest`, but has no target element specified.\nElement `Task.instantiatesCanonical` is mapped to FHIR STU3 element `Task.definition[x]`.\nNote that the target element context `Task.definition[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.instantiatesCanonical</td><td style=\"border-left-width: 0px\"/><td>Element `Task.instantiatesCanonical` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.instantiatesCanonical` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.instantiatesCanonical` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.instantiatesCanonical` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.instantiatesUri</td><td style=\"border-left-width: 0px; border-bottom-style: none\">instantiatesUri</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.instantiatesUri</td><td style=\"border-left-width: 0px\"/><td>Element `Task.instantiatesUri` is mapped to FHIR R4B element `Task.instantiatesUri`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.definition[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Task.definition[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task`.\nElement `Task.instantiatesUri` is mapped to FHIR STU3 structure `ProcessResponse`, but has no target element specified.\nElement `Task.instantiatesUri` is mapped to FHIR STU3 structure `ProcessRequest`, but has no target element specified.\nElement `Task.instantiatesUri` is mapped to FHIR STU3 element `Task.definition[x]`.\nNote that the target element context `Task.definition[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.instantiatesUri</td><td style=\"border-left-width: 0px\"/><td>Element `Task.instantiatesUri` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.instantiatesUri` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.instantiatesUri` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.instantiatesUri` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.basedOn</td><td style=\"border-left-width: 0px; border-bottom-style: none\">basedOn</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.basedOn</td><td style=\"border-left-width: 0px\"/><td>Element `Task.basedOn` is mapped to FHIR R4B element `Task.basedOn`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#OrderResponse.request</td><td style=\"border-left-width: 0px\"/><td>Element `Task.basedOn` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.basedOn` is mapped to FHIR DSTU2 element `OrderResponse.request`.\nElement `Task.basedOn` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.basedOn` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.groupIdentifier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">groupIdentifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.groupIdentifier</td><td style=\"border-left-width: 0px\"/><td>Element `Task.groupIdentifier` is mapped to FHIR R4B element `Task.groupIdentifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.groupIdentifier</td><td style=\"border-left-width: 0px\"/><td>Element `Task.groupIdentifier` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.groupIdentifier` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.groupIdentifier` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.groupIdentifier` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.partOf</td><td style=\"border-left-width: 0px; border-bottom-style: none\">partOf</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.partOf</td><td style=\"border-left-width: 0px\"/><td>Element `Task.partOf` is mapped to FHIR R4B element `Task.partOf`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.partOf</td><td style=\"border-left-width: 0px\"/><td>Element `Task.partOf` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.partOf` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.partOf` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.partOf` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.status</td><td style=\"border-left-width: 0px; border-bottom-style: none\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.status</td><td style=\"border-left-width: 0px\"/><td>Element `Task.status` is mapped to FHIR R4B element `Task.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#ProcessRequest.status</td><td style=\"border-left-width: 0px\"/><td>Element `Task.status` is mapped to FHIR STU3 element `ProcessResponse.status`.\nElement `Task.status` is mapped to FHIR STU3 element `ProcessRequest.status`.\nElement `Task.status` is mapped to FHIR STU3 element `Task.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#ProcessResponse.status</td><td style=\"border-left-width: 0px\"/><td>Element `Task.status` is mapped to FHIR STU3 element `ProcessResponse.status`.\nElement `Task.status` is mapped to FHIR STU3 element `ProcessRequest.status`.\nElement `Task.status` is mapped to FHIR STU3 element `Task.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.status</td><td style=\"border-left-width: 0px\"/><td>Element `Task.status` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.status` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.status` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.status` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.statusReason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">statusReason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.statusReason</td><td style=\"border-left-width: 0px\"/><td>Element `Task.statusReason` is mapped to FHIR R4B element `Task.statusReason`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.statusReason</td><td style=\"border-left-width: 0px\"/><td>Element `Task.statusReason` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.statusReason` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.statusReason` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.statusReason` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.businessStatus</td><td style=\"border-left-width: 0px; border-bottom-style: none\">businessStatus</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.businessStatus</td><td style=\"border-left-width: 0px\"/><td>Element `Task.businessStatus` is mapped to FHIR R4B element `Task.businessStatus`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.businessStatus</td><td style=\"border-left-width: 0px\"/><td>Element `Task.businessStatus` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.businessStatus` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.businessStatus` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.businessStatus` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.intent</td><td style=\"border-left-width: 0px; border-bottom-style: none\">intent</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.intent</td><td style=\"border-left-width: 0px\"/><td>Element `Task.intent` is mapped to FHIR R4B element `Task.intent`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.intent</td><td style=\"border-left-width: 0px\"/><td>Element `Task.intent` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.intent` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.intent` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.intent` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.priority</td><td style=\"border-left-width: 0px; border-bottom-style: none\">priority</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.priority</td><td style=\"border-left-width: 0px\"/><td>Element `Task.priority` is mapped to FHIR R4B element `Task.priority`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.priority</td><td style=\"border-left-width: 0px\"/><td>Element `Task.priority` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.priority` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.priority` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.priority` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Task.doNotPerform</td><td style=\"border-left-width: 0px\">doNotPerform</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.doNotPerform</td><td style=\"border-left-width: 0px\"/><td>Element `Task.doNotPerform` is mapped to FHIR R4B structure `Task`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.code</td><td style=\"border-left-width: 0px; border-bottom-style: none\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.code</td><td style=\"border-left-width: 0px\"/><td>Element `Task.code` is mapped to FHIR R4B element `Task.code`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.code</td><td style=\"border-left-width: 0px\"/><td>Element `Task.code` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.code` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.code` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.code` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.description</td><td style=\"border-left-width: 0px; border-bottom-style: none\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.description</td><td style=\"border-left-width: 0px\"/><td>Element `Task.description` is mapped to FHIR R4B element `Task.description`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#OrderResponse.description</td><td style=\"border-left-width: 0px\"/><td>Element `Task.description` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.description` is mapped to FHIR DSTU2 element `OrderResponse.description`.\nElement `Task.description` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.description` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.focus</td><td style=\"border-left-width: 0px; border-bottom-style: none\">focus</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.focus</td><td style=\"border-left-width: 0px\"/><td>Element `Task.focus` is mapped to FHIR R4B element `Task.focus`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Order.subject</td><td style=\"border-left-width: 0px\"/><td>Element `Task.focus` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.focus` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.focus` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.focus` is mapped to FHIR DSTU2 element `Order.subject`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.for</td><td style=\"border-left-width: 0px; border-bottom-style: none\">for</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.for</td><td style=\"border-left-width: 0px\"/><td>Element `Task.for` is mapped to FHIR R4B element `Task.for`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.for</td><td style=\"border-left-width: 0px\"/><td>Element `Task.for` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.for` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.for` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.for` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.encounter</td><td style=\"border-left-width: 0px; border-bottom-style: none\">encounter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.encounter</td><td style=\"border-left-width: 0px\"/><td>Element `Task.encounter` is mapped to FHIR R4B element `Task.encounter`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.context</td><td style=\"border-left-width: 0px\"/><td>Element `Task.encounter` is mapped to FHIR STU3 structure `ProcessResponse`, but has no target element specified.\nElement `Task.encounter` is mapped to FHIR STU3 structure `ProcessRequest`, but has no target element specified.\nElement `Task.encounter` is mapped to FHIR STU3 element `Task.context`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.encounter</td><td style=\"border-left-width: 0px\"/><td>Element `Task.encounter` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.encounter` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.encounter` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.encounter` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Task.requestedPeriod</td><td style=\"border-left-width: 0px\">requestedPeriod</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.requestedPeriod</td><td style=\"border-left-width: 0px\"/><td>Element `Task.requestedPeriod` is mapped to FHIR R4B structure `Task`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.executionPeriod</td><td style=\"border-left-width: 0px; border-bottom-style: none\">executionPeriod</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.executionPeriod</td><td style=\"border-left-width: 0px\"/><td>Element `Task.executionPeriod` is mapped to FHIR R4B element `Task.executionPeriod`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.executionPeriod</td><td style=\"border-left-width: 0px\"/><td>Element `Task.executionPeriod` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.executionPeriod` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.executionPeriod` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.executionPeriod` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.authoredOn</td><td style=\"border-left-width: 0px; border-bottom-style: none\">authoredOn</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.authoredOn</td><td style=\"border-left-width: 0px\"/><td>Element `Task.authoredOn` is mapped to FHIR R4B element `Task.authoredOn`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Order.date</td><td style=\"border-left-width: 0px\"/><td>Element `Task.authoredOn` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.authoredOn` is mapped to FHIR DSTU2 element `OrderResponse.date`.\nElement `Task.authoredOn` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.authoredOn` is mapped to FHIR DSTU2 element `Order.date`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#OrderResponse.date</td><td style=\"border-left-width: 0px\"/><td>Element `Task.authoredOn` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.authoredOn` is mapped to FHIR DSTU2 element `OrderResponse.date`.\nElement `Task.authoredOn` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.authoredOn` is mapped to FHIR DSTU2 element `Order.date`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.lastModified</td><td style=\"border-left-width: 0px; border-bottom-style: none\">lastModified</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.lastModified</td><td style=\"border-left-width: 0px\"/><td>Element `Task.lastModified` is mapped to FHIR R4B element `Task.lastModified`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.lastModified</td><td style=\"border-left-width: 0px\"/><td>Element `Task.lastModified` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.lastModified` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.lastModified` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.lastModified` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.requester</td><td style=\"border-left-width: 0px; border-bottom-style: none\">requester</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.requester</td><td style=\"border-left-width: 0px\"/><td>Element `Task.requester` is mapped to FHIR R4B element `Task.requester`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.requester.agent</td><td style=\"border-left-width: 0px\"/><td>Element `Task.requester` is mapped to FHIR STU3 structure `ProcessResponse`, but has no target element specified.\nElement `Task.requester` is mapped to FHIR STU3 structure `ProcessRequest`, but has no target element specified.\nElement `Task.requester` is mapped to FHIR STU3 element `Task.requester.agent`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Order.source</td><td style=\"border-left-width: 0px\"/><td>Element `Task.requester` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.requester` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.requester` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.requester` is mapped to FHIR DSTU2 element `Order.source`.\nElement `Task.requester` is mapped to FHIR DSTU2 element `Order.target`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Order.target</td><td style=\"border-left-width: 0px\"/><td>Element `Task.requester` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.requester` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.requester` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.requester` is mapped to FHIR DSTU2 element `Order.source`.\nElement `Task.requester` is mapped to FHIR DSTU2 element `Order.target`.</td></tr><tr><td style=\"border-right-width: 0px\">Task.requestedPerformer</td><td style=\"border-left-width: 0px\">requestedPerformer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.requestedPerformer</td><td style=\"border-left-width: 0px\"/><td>Element `Task.requestedPerformer` is mapped to FHIR R4B structure `Task`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.owner</td><td style=\"border-left-width: 0px; border-bottom-style: none\">owner</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.owner</td><td style=\"border-left-width: 0px\"/><td>Element `Task.owner` is mapped to FHIR R4B element `Task.owner`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.owner</td><td style=\"border-left-width: 0px\"/><td>Element `Task.owner` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.owner` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.owner` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.owner` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Task.performer</td><td style=\"border-left-width: 0px\">performer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.performer</td><td style=\"border-left-width: 0px\"/><td>Element `Task.performer` is mapped to FHIR R4B structure `Task`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Task.performer.function</td><td style=\"border-left-width: 0px\">function</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.performer:function</td><td style=\"border-left-width: 0px\"/><td>Element `Task.performer.function` is part of an existing definition because parent element `Task.performer` requires a cross-version extension.\nElement `Task.performer.function` is mapped to FHIR R4B structure `Task`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Task.performer.actor</td><td style=\"border-left-width: 0px\">actor</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.performer:actor</td><td style=\"border-left-width: 0px\"/><td>Element `Task.performer.actor` is part of an existing definition because parent element `Task.performer` requires a cross-version extension.\nElement `Task.performer.actor` is mapped to FHIR R4B structure `Task`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.location</td><td style=\"border-left-width: 0px; border-bottom-style: none\">location</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.location</td><td style=\"border-left-width: 0px\"/><td>Element `Task.location` is mapped to FHIR R4B element `Task.location`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.location</td><td style=\"border-left-width: 0px\"/><td>Element `Task.location` is mapped to FHIR STU3 structure `ProcessResponse`, but has no target element specified.\nElement `Task.location` is mapped to FHIR STU3 structure `ProcessRequest`, but has no target element specified.\nElement `Task.location` is mapped to FHIR STU3 structure `Task`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.reason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.reasonCode</td><td style=\"border-left-width: 0px\"/><td>Element `Task.reason` is mapped to FHIR R4B element `Task.reasonCode`.\nElement `Task.reason` is mapped to FHIR R4B element `Task.reasonReference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.reasonReference</td><td style=\"border-left-width: 0px\"/><td>Element `Task.reason` is mapped to FHIR R4B element `Task.reasonCode`.\nElement `Task.reason` is mapped to FHIR R4B element `Task.reasonReference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.reason</td><td style=\"border-left-width: 0px\"/><td>Element `Task.reason` is mapped to FHIR STU3 structure `ProcessResponse`, but has no target element specified.\nElement `Task.reason` is mapped to FHIR STU3 structure `ProcessResponse`, but has no target element specified.\nElement `Task.reason` is mapped to FHIR STU3 structure `ProcessRequest`, but has no target element specified.\nElement `Task.reason` is mapped to FHIR STU3 structure `ProcessRequest`, but has no target element specified.\nElement `Task.reason` is mapped to FHIR STU3 element `Task.reason`.\nElement `Task.reason` is mapped to FHIR STU3 structure `Task`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Order.reason[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Order.reason[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Order`.\nElement `Task.reason` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.reason` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.reason` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.reason` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.reason` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.reason` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.reason` is mapped to FHIR DSTU2 element `Order.reason[x]`.\nNote that the target element context `Order.reason[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Order`.\nElement `Task.reason` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.\nNote that the target element context `Order.reason[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Order`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.insurance</td><td style=\"border-left-width: 0px; border-bottom-style: none\">insurance</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.insurance</td><td style=\"border-left-width: 0px\"/><td>Element `Task.insurance` is mapped to FHIR R4B element `Task.insurance`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.insurance</td><td style=\"border-left-width: 0px\"/><td>Element `Task.insurance` is mapped to FHIR STU3 structure `ProcessResponse`, but has no target element specified.\nElement `Task.insurance` is mapped to FHIR STU3 structure `ProcessRequest`, but has no target element specified.\nElement `Task.insurance` is mapped to FHIR STU3 structure `Task`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.note</td><td style=\"border-left-width: 0px; border-bottom-style: none\">note</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.note</td><td style=\"border-left-width: 0px\"/><td>Element `Task.note` is mapped to FHIR R4B element `Task.note`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.note</td><td style=\"border-left-width: 0px\"/><td>Element `Task.note` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.note` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.note` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.note` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.relevantHistory</td><td style=\"border-left-width: 0px; border-bottom-style: none\">relevantHistory</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.relevantHistory</td><td style=\"border-left-width: 0px\"/><td>Element `Task.relevantHistory` is mapped to FHIR R4B element `Task.relevantHistory`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.relevantHistory</td><td style=\"border-left-width: 0px\"/><td>Element `Task.relevantHistory` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.relevantHistory` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.relevantHistory` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.relevantHistory` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.restriction</td><td style=\"border-left-width: 0px; border-bottom-style: none\">restriction</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.restriction</td><td style=\"border-left-width: 0px\"/><td>Element `Task.restriction` is mapped to FHIR R4B element `Task.restriction`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.restriction</td><td style=\"border-left-width: 0px\"/><td>Element `Task.restriction` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.restriction` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.restriction` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.restriction` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.restriction.repetitions</td><td style=\"border-left-width: 0px; border-bottom-style: none\">repetitions</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.restriction.repetitions</td><td style=\"border-left-width: 0px\"/><td>Element `Task.restriction.repetitions` is mapped to FHIR R4B element `Task.restriction.repetitions`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.restriction:repetitions</td><td style=\"border-left-width: 0px\"/><td>Element `Task.restriction.repetitions` is part of an existing definition because parent element `Task.restriction` requires a cross-version extension.\nElement `Task.restriction.repetitions` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.restriction.repetitions` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.restriction.repetitions` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.restriction.repetitions` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.restriction.period</td><td style=\"border-left-width: 0px; border-bottom-style: none\">period</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.restriction.period</td><td style=\"border-left-width: 0px\"/><td>Element `Task.restriction.period` is mapped to FHIR R4B element `Task.restriction.period`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.restriction:period</td><td style=\"border-left-width: 0px\"/><td>Element `Task.restriction.period` is part of an existing definition because parent element `Task.restriction` requires a cross-version extension.\nElement `Task.restriction.period` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.restriction.period` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.restriction.period` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.restriction.period` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.restriction.recipient</td><td style=\"border-left-width: 0px; border-bottom-style: none\">recipient</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.restriction.recipient</td><td style=\"border-left-width: 0px\"/><td>Element `Task.restriction.recipient` is mapped to FHIR R4B element `Task.restriction.recipient`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.restriction:recipient</td><td style=\"border-left-width: 0px\"/><td>Element `Task.restriction.recipient` is part of an existing definition because parent element `Task.restriction` requires a cross-version extension.\nElement `Task.restriction.recipient` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.restriction.recipient` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.restriction.recipient` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.restriction.recipient` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.input</td><td style=\"border-left-width: 0px; border-bottom-style: none\">input</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.input</td><td style=\"border-left-width: 0px\"/><td>Element `Task.input` is mapped to FHIR R4B element `Task.input`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.input</td><td style=\"border-left-width: 0px\"/><td>Element `Task.input` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.input` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.input` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.input` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.input.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.input.type</td><td style=\"border-left-width: 0px\"/><td>Element `Task.input.type` is mapped to FHIR R4B element `Task.input.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.input:type</td><td style=\"border-left-width: 0px\"/><td>Element `Task.input.type` is part of an existing definition because parent element `Task.input` requires a cross-version extension.\nElement `Task.input.type` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.input.type` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.input.type` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.input.type` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.input.value[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">value[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.input.value[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Task.input.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.input`.\nElement `Task.input.value[x]` is mapped to FHIR R4B element `Task.input.value[x]`.\nNote that the target element context `Task.input.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.input`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.input:value</td><td style=\"border-left-width: 0px\"/><td>Element `Task.input.value[x]` is part of an existing definition because parent element `Task.input` requires a cross-version extension.\nElement `Task.input.value[x]` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.input.value[x]` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.input.value[x]` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.input.value[x]` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.output</td><td style=\"border-left-width: 0px; border-bottom-style: none\">output</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.output</td><td style=\"border-left-width: 0px\"/><td>Element `Task.output` is mapped to FHIR R4B element `Task.output`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.output</td><td style=\"border-left-width: 0px\"/><td>Element `Task.output` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.output` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.output` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.output` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.output.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.output.type</td><td style=\"border-left-width: 0px\"/><td>Element `Task.output.type` is mapped to FHIR R4B element `Task.output.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.output:type</td><td style=\"border-left-width: 0px\"/><td>Element `Task.output.type` is part of an existing definition because parent element `Task.output` requires a cross-version extension.\nElement `Task.output.type` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.output.type` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.output.type` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.output.type` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.output.value[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">value[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Task#Task.output.value[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Task.output.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.output`.\nElement `Task.output.value[x]` is mapped to FHIR R4B element `Task.output.value[x]`.\nNote that the target element context `Task.output.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.output`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.output:value</td><td style=\"border-left-width: 0px\"/><td>Element `Task.output.value[x]` is part of an existing definition because parent element `Task.output` requires a cross-version extension.\nElement `Task.output.value[x]` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.output.value[x]` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.output.value[x]` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.output.value[x]` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Task-elements-for-R4-Task"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Task-elements-for-R4-Task>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5TaskElementsForR4Task"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:34.5996973-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Task"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Task>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Task" ] ;
+       fhir:display [ fhir:v "Task" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Task` is representable via FHIR R4B Resource `Task`.\nElement `Task` is mapped to FHIR R4B element `Task`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#ProcessRequest" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Task` is representable via FHIR STU3 Resource `ProcessResponse`.\nFHIR R5 Resource `Task` is representable via FHIR STU3 Resource `ProcessRequest`.\nFHIR R5 Resource `Task` is representable via FHIR STU3 Resource `Task`.\nElement `Task` is mapped to FHIR STU3 element `ProcessResponse`.\nElement `Task` is mapped to FHIR STU3 element `ProcessRequest`.\nElement `Task` is mapped to FHIR STU3 element `Task`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#ProcessResponse" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Task` is representable via FHIR STU3 Resource `ProcessResponse`.\nFHIR R5 Resource `Task` is representable via FHIR STU3 Resource `ProcessRequest`.\nFHIR R5 Resource `Task` is representable via FHIR STU3 Resource `Task`.\nElement `Task` is mapped to FHIR STU3 element `ProcessResponse`.\nElement `Task` is mapped to FHIR STU3 element `ProcessRequest`.\nElement `Task` is mapped to FHIR STU3 element `Task`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Order" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Task` is representable via FHIR DSTU2 Resource `ProcessResponse`.\nFHIR R5 Resource `Task` is representable via FHIR DSTU2 Resource `OrderResponse`.\nFHIR R5 Resource `Task` is representable via FHIR DSTU2 Resource `ProcessRequest`.\nFHIR R5 Resource `Task` is representable via FHIR DSTU2 Resource `Order`.\nElement `Task` is mapped to FHIR DSTU2 element `ProcessResponse`.\nElement `Task` is mapped to FHIR DSTU2 element `OrderResponse`.\nElement `Task` is mapped to FHIR DSTU2 element `ProcessRequest`.\nElement `Task` is mapped to FHIR DSTU2 element `Order`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#OrderResponse" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Task` is representable via FHIR DSTU2 Resource `ProcessResponse`.\nFHIR R5 Resource `Task` is representable via FHIR DSTU2 Resource `OrderResponse`.\nFHIR R5 Resource `Task` is representable via FHIR DSTU2 Resource `ProcessRequest`.\nFHIR R5 Resource `Task` is representable via FHIR DSTU2 Resource `Order`.\nElement `Task` is mapped to FHIR DSTU2 element `ProcessResponse`.\nElement `Task` is mapped to FHIR DSTU2 element `OrderResponse`.\nElement `Task` is mapped to FHIR DSTU2 element `ProcessRequest`.\nElement `Task` is mapped to FHIR DSTU2 element `Order`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.meta` is mapped to FHIR R4B element `Task.meta`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#ProcessRequest.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.meta` is mapped to FHIR STU3 element `ProcessResponse.meta`.\nElement `Task.meta` is mapped to FHIR STU3 element `ProcessRequest.meta`.\nElement `Task.meta` is mapped to FHIR STU3 element `Task.meta`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#ProcessResponse.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.meta` is mapped to FHIR STU3 element `ProcessResponse.meta`.\nElement `Task.meta` is mapped to FHIR STU3 element `ProcessRequest.meta`.\nElement `Task.meta` is mapped to FHIR STU3 element `Task.meta`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Order.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.meta` is mapped to FHIR DSTU2 element `ProcessResponse.meta`.\nElement `Task.meta` is mapped to FHIR DSTU2 element `OrderResponse.meta`.\nElement `Task.meta` is mapped to FHIR DSTU2 element `ProcessRequest.meta`.\nElement `Task.meta` is mapped to FHIR DSTU2 element `Order.meta`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#OrderResponse.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.meta` is mapped to FHIR DSTU2 element `ProcessResponse.meta`.\nElement `Task.meta` is mapped to FHIR DSTU2 element `OrderResponse.meta`.\nElement `Task.meta` is mapped to FHIR DSTU2 element `ProcessRequest.meta`.\nElement `Task.meta` is mapped to FHIR DSTU2 element `Order.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.implicitRules` is mapped to FHIR R4B element `Task.implicitRules`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#ProcessRequest.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.implicitRules` is mapped to FHIR STU3 element `ProcessResponse.implicitRules`.\nElement `Task.implicitRules` is mapped to FHIR STU3 element `ProcessRequest.implicitRules`.\nElement `Task.implicitRules` is mapped to FHIR STU3 element `Task.implicitRules`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#ProcessResponse.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.implicitRules` is mapped to FHIR STU3 element `ProcessResponse.implicitRules`.\nElement `Task.implicitRules` is mapped to FHIR STU3 element `ProcessRequest.implicitRules`.\nElement `Task.implicitRules` is mapped to FHIR STU3 element `Task.implicitRules`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Order.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.implicitRules` is mapped to FHIR DSTU2 element `ProcessResponse.implicitRules`.\nElement `Task.implicitRules` is mapped to FHIR DSTU2 element `OrderResponse.implicitRules`.\nElement `Task.implicitRules` is mapped to FHIR DSTU2 element `ProcessRequest.implicitRules`.\nElement `Task.implicitRules` is mapped to FHIR DSTU2 element `Order.implicitRules`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#OrderResponse.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.implicitRules` is mapped to FHIR DSTU2 element `ProcessResponse.implicitRules`.\nElement `Task.implicitRules` is mapped to FHIR DSTU2 element `OrderResponse.implicitRules`.\nElement `Task.implicitRules` is mapped to FHIR DSTU2 element `ProcessRequest.implicitRules`.\nElement `Task.implicitRules` is mapped to FHIR DSTU2 element `Order.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.language` is mapped to FHIR R4B element `Task.language`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#ProcessRequest.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.language` is mapped to FHIR STU3 element `ProcessResponse.language`.\nElement `Task.language` is mapped to FHIR STU3 element `ProcessRequest.language`.\nElement `Task.language` is mapped to FHIR STU3 element `Task.language`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#ProcessResponse.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.language` is mapped to FHIR STU3 element `ProcessResponse.language`.\nElement `Task.language` is mapped to FHIR STU3 element `ProcessRequest.language`.\nElement `Task.language` is mapped to FHIR STU3 element `Task.language`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Order.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.language` is mapped to FHIR DSTU2 element `ProcessResponse.language`.\nElement `Task.language` is mapped to FHIR DSTU2 element `OrderResponse.language`.\nElement `Task.language` is mapped to FHIR DSTU2 element `ProcessRequest.language`.\nElement `Task.language` is mapped to FHIR DSTU2 element `Order.language`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#OrderResponse.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.language` is mapped to FHIR DSTU2 element `ProcessResponse.language`.\nElement `Task.language` is mapped to FHIR DSTU2 element `OrderResponse.language`.\nElement `Task.language` is mapped to FHIR DSTU2 element `ProcessRequest.language`.\nElement `Task.language` is mapped to FHIR DSTU2 element `Order.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.text` is mapped to FHIR R4B element `Task.text`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#ProcessRequest.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.text` is mapped to FHIR STU3 element `ProcessResponse.text`.\nElement `Task.text` is mapped to FHIR STU3 element `ProcessRequest.text`.\nElement `Task.text` is mapped to FHIR STU3 element `Task.text`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#ProcessResponse.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.text` is mapped to FHIR STU3 element `ProcessResponse.text`.\nElement `Task.text` is mapped to FHIR STU3 element `ProcessRequest.text`.\nElement `Task.text` is mapped to FHIR STU3 element `Task.text`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Order.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.text` is mapped to FHIR DSTU2 element `ProcessResponse.text`.\nElement `Task.text` is mapped to FHIR DSTU2 element `OrderResponse.text`.\nElement `Task.text` is mapped to FHIR DSTU2 element `ProcessRequest.text`.\nElement `Task.text` is mapped to FHIR DSTU2 element `Order.text`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#OrderResponse.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.text` is mapped to FHIR DSTU2 element `ProcessResponse.text`.\nElement `Task.text` is mapped to FHIR DSTU2 element `OrderResponse.text`.\nElement `Task.text` is mapped to FHIR DSTU2 element `ProcessRequest.text`.\nElement `Task.text` is mapped to FHIR DSTU2 element `Order.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.contained` is mapped to FHIR R4B element `Task.contained`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#ProcessRequest.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.contained` is mapped to FHIR STU3 element `ProcessResponse.contained`.\nElement `Task.contained` is mapped to FHIR STU3 element `ProcessRequest.contained`.\nElement `Task.contained` is mapped to FHIR STU3 element `Task.contained`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#ProcessResponse.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.contained` is mapped to FHIR STU3 element `ProcessResponse.contained`.\nElement `Task.contained` is mapped to FHIR STU3 element `ProcessRequest.contained`.\nElement `Task.contained` is mapped to FHIR STU3 element `Task.contained`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Order.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.contained` is mapped to FHIR DSTU2 element `ProcessResponse.contained`.\nElement `Task.contained` is mapped to FHIR DSTU2 element `OrderResponse.contained`.\nElement `Task.contained` is mapped to FHIR DSTU2 element `ProcessRequest.contained`.\nElement `Task.contained` is mapped to FHIR DSTU2 element `Order.contained`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#OrderResponse.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.contained` is mapped to FHIR DSTU2 element `ProcessResponse.contained`.\nElement `Task.contained` is mapped to FHIR DSTU2 element `OrderResponse.contained`.\nElement `Task.contained` is mapped to FHIR DSTU2 element `ProcessRequest.contained`.\nElement `Task.contained` is mapped to FHIR DSTU2 element `Order.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.identifier` is mapped to FHIR R4B element `Task.identifier`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#ProcessRequest.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.identifier` is mapped to FHIR STU3 element `ProcessResponse.identifier`.\nElement `Task.identifier` is mapped to FHIR STU3 element `ProcessRequest.identifier`.\nElement `Task.identifier` is mapped to FHIR STU3 element `Task.identifier`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#ProcessResponse.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.identifier` is mapped to FHIR STU3 element `ProcessResponse.identifier`.\nElement `Task.identifier` is mapped to FHIR STU3 element `ProcessRequest.identifier`.\nElement `Task.identifier` is mapped to FHIR STU3 element `Task.identifier`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Order.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.identifier` is mapped to FHIR DSTU2 element `ProcessResponse.identifier`.\nElement `Task.identifier` is mapped to FHIR DSTU2 element `OrderResponse.identifier`.\nElement `Task.identifier` is mapped to FHIR DSTU2 element `ProcessRequest.identifier`.\nElement `Task.identifier` is mapped to FHIR DSTU2 element `Order.identifier`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#OrderResponse.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.identifier` is mapped to FHIR DSTU2 element `ProcessResponse.identifier`.\nElement `Task.identifier` is mapped to FHIR DSTU2 element `OrderResponse.identifier`.\nElement `Task.identifier` is mapped to FHIR DSTU2 element `ProcessRequest.identifier`.\nElement `Task.identifier` is mapped to FHIR DSTU2 element `Order.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.instantiatesCanonical" ] ;
+       fhir:display [ fhir:v "instantiatesCanonical" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.instantiatesCanonical" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.instantiatesCanonical` is mapped to FHIR R4B element `Task.instantiatesCanonical`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.definition[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Task.definition[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task`.\nElement `Task.instantiatesCanonical` is mapped to FHIR STU3 structure `ProcessResponse`, but has no target element specified.\nElement `Task.instantiatesCanonical` is mapped to FHIR STU3 structure `ProcessRequest`, but has no target element specified.\nElement `Task.instantiatesCanonical` is mapped to FHIR STU3 element `Task.definition[x]`.\nNote that the target element context `Task.definition[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.instantiatesCanonical" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.instantiatesCanonical` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.instantiatesCanonical` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.instantiatesCanonical` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.instantiatesCanonical` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.instantiatesUri" ] ;
+       fhir:display [ fhir:v "instantiatesUri" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.instantiatesUri" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.instantiatesUri` is mapped to FHIR R4B element `Task.instantiatesUri`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.definition[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Task.definition[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task`.\nElement `Task.instantiatesUri` is mapped to FHIR STU3 structure `ProcessResponse`, but has no target element specified.\nElement `Task.instantiatesUri` is mapped to FHIR STU3 structure `ProcessRequest`, but has no target element specified.\nElement `Task.instantiatesUri` is mapped to FHIR STU3 element `Task.definition[x]`.\nNote that the target element context `Task.definition[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.instantiatesUri" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.instantiatesUri` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.instantiatesUri` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.instantiatesUri` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.instantiatesUri` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.basedOn" ] ;
+       fhir:display [ fhir:v "basedOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.basedOn" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.basedOn` is mapped to FHIR R4B element `Task.basedOn`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#OrderResponse.request" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.basedOn` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.basedOn` is mapped to FHIR DSTU2 element `OrderResponse.request`.\nElement `Task.basedOn` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.basedOn` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.groupIdentifier" ] ;
+       fhir:display [ fhir:v "groupIdentifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.groupIdentifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.groupIdentifier` is mapped to FHIR R4B element `Task.groupIdentifier`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.groupIdentifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.groupIdentifier` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.groupIdentifier` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.groupIdentifier` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.groupIdentifier` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.partOf" ] ;
+       fhir:display [ fhir:v "partOf" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.partOf" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.partOf` is mapped to FHIR R4B element `Task.partOf`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.partOf" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.partOf` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.partOf` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.partOf` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.partOf` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.status` is mapped to FHIR R4B element `Task.status`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#ProcessRequest.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.status` is mapped to FHIR STU3 element `ProcessResponse.status`.\nElement `Task.status` is mapped to FHIR STU3 element `ProcessRequest.status`.\nElement `Task.status` is mapped to FHIR STU3 element `Task.status`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#ProcessResponse.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.status` is mapped to FHIR STU3 element `ProcessResponse.status`.\nElement `Task.status` is mapped to FHIR STU3 element `ProcessRequest.status`.\nElement `Task.status` is mapped to FHIR STU3 element `Task.status`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.status` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.status` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.status` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.status` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.statusReason" ] ;
+       fhir:display [ fhir:v "statusReason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.statusReason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.statusReason` is mapped to FHIR R4B element `Task.statusReason`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.statusReason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.statusReason` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.statusReason` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.statusReason` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.statusReason` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.businessStatus" ] ;
+       fhir:display [ fhir:v "businessStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.businessStatus" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.businessStatus` is mapped to FHIR R4B element `Task.businessStatus`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.businessStatus" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.businessStatus` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.businessStatus` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.businessStatus` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.businessStatus` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.intent" ] ;
+       fhir:display [ fhir:v "intent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.intent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.intent` is mapped to FHIR R4B element `Task.intent`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.intent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.intent` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.intent` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.intent` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.intent` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.priority" ] ;
+       fhir:display [ fhir:v "priority" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.priority" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.priority` is mapped to FHIR R4B element `Task.priority`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.priority" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.priority` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.priority` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.priority` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.priority` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.doNotPerform" ] ;
+       fhir:display [ fhir:v "doNotPerform" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.doNotPerform" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.doNotPerform` is mapped to FHIR R4B structure `Task`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.code` is mapped to FHIR R4B element `Task.code`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.code` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.code` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.code` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.code` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.description` is mapped to FHIR R4B element `Task.description`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#OrderResponse.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.description` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.description` is mapped to FHIR DSTU2 element `OrderResponse.description`.\nElement `Task.description` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.description` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.focus" ] ;
+       fhir:display [ fhir:v "focus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.focus" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.focus` is mapped to FHIR R4B element `Task.focus`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Order.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.focus` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.focus` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.focus` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.focus` is mapped to FHIR DSTU2 element `Order.subject`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.for" ] ;
+       fhir:display [ fhir:v "for" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.for" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.for` is mapped to FHIR R4B element `Task.for`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.for" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.for` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.for` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.for` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.for` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.encounter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.encounter` is mapped to FHIR R4B element `Task.encounter`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.context" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.encounter` is mapped to FHIR STU3 structure `ProcessResponse`, but has no target element specified.\nElement `Task.encounter` is mapped to FHIR STU3 structure `ProcessRequest`, but has no target element specified.\nElement `Task.encounter` is mapped to FHIR STU3 element `Task.context`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.encounter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.encounter` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.encounter` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.encounter` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.encounter` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.requestedPeriod" ] ;
+       fhir:display [ fhir:v "requestedPeriod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.requestedPeriod" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.requestedPeriod` is mapped to FHIR R4B structure `Task`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.executionPeriod" ] ;
+       fhir:display [ fhir:v "executionPeriod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.executionPeriod" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.executionPeriod` is mapped to FHIR R4B element `Task.executionPeriod`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.executionPeriod" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.executionPeriod` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.executionPeriod` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.executionPeriod` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.executionPeriod` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.authoredOn" ] ;
+       fhir:display [ fhir:v "authoredOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.authoredOn" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.authoredOn` is mapped to FHIR R4B element `Task.authoredOn`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Order.date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.authoredOn` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.authoredOn` is mapped to FHIR DSTU2 element `OrderResponse.date`.\nElement `Task.authoredOn` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.authoredOn` is mapped to FHIR DSTU2 element `Order.date`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#OrderResponse.date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.authoredOn` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.authoredOn` is mapped to FHIR DSTU2 element `OrderResponse.date`.\nElement `Task.authoredOn` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.authoredOn` is mapped to FHIR DSTU2 element `Order.date`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.lastModified" ] ;
+       fhir:display [ fhir:v "lastModified" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.lastModified" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.lastModified` is mapped to FHIR R4B element `Task.lastModified`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.lastModified" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.lastModified` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.lastModified` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.lastModified` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.lastModified` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.requester" ] ;
+       fhir:display [ fhir:v "requester" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.requester" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.requester` is mapped to FHIR R4B element `Task.requester`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.requester.agent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.requester` is mapped to FHIR STU3 structure `ProcessResponse`, but has no target element specified.\nElement `Task.requester` is mapped to FHIR STU3 structure `ProcessRequest`, but has no target element specified.\nElement `Task.requester` is mapped to FHIR STU3 element `Task.requester.agent`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Order.source" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.requester` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.requester` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.requester` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.requester` is mapped to FHIR DSTU2 element `Order.source`.\nElement `Task.requester` is mapped to FHIR DSTU2 element `Order.target`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Order.target" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.requester` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.requester` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.requester` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.requester` is mapped to FHIR DSTU2 element `Order.source`.\nElement `Task.requester` is mapped to FHIR DSTU2 element `Order.target`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.requestedPerformer" ] ;
+       fhir:display [ fhir:v "requestedPerformer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.requestedPerformer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.requestedPerformer` is mapped to FHIR R4B structure `Task`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.owner" ] ;
+       fhir:display [ fhir:v "owner" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.owner" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.owner` is mapped to FHIR R4B element `Task.owner`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.owner" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.owner` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.owner` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.owner` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.owner` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.performer" ] ;
+       fhir:display [ fhir:v "performer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.performer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.performer` is mapped to FHIR R4B structure `Task`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.performer.function" ] ;
+       fhir:display [ fhir:v "function" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.performer:function" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.performer.function` is part of an existing definition because parent element `Task.performer` requires a cross-version extension.\nElement `Task.performer.function` is mapped to FHIR R4B structure `Task`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.performer.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.performer:actor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.performer.actor` is part of an existing definition because parent element `Task.performer` requires a cross-version extension.\nElement `Task.performer.actor` is mapped to FHIR R4B structure `Task`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.location" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.location` is mapped to FHIR R4B element `Task.location`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.location" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.location` is mapped to FHIR STU3 structure `ProcessResponse`, but has no target element specified.\nElement `Task.location` is mapped to FHIR STU3 structure `ProcessRequest`, but has no target element specified.\nElement `Task.location` is mapped to FHIR STU3 structure `Task`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.reasonCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.reason` is mapped to FHIR R4B element `Task.reasonCode`.\nElement `Task.reason` is mapped to FHIR R4B element `Task.reasonReference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.reasonReference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.reason` is mapped to FHIR R4B element `Task.reasonCode`.\nElement `Task.reason` is mapped to FHIR R4B element `Task.reasonReference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.reason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.reason` is mapped to FHIR STU3 structure `ProcessResponse`, but has no target element specified.\nElement `Task.reason` is mapped to FHIR STU3 structure `ProcessResponse`, but has no target element specified.\nElement `Task.reason` is mapped to FHIR STU3 structure `ProcessRequest`, but has no target element specified.\nElement `Task.reason` is mapped to FHIR STU3 structure `ProcessRequest`, but has no target element specified.\nElement `Task.reason` is mapped to FHIR STU3 element `Task.reason`.\nElement `Task.reason` is mapped to FHIR STU3 structure `Task`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Order.reason[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Order.reason[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Order`.\nElement `Task.reason` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.reason` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.reason` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.reason` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.reason` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.reason` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.reason` is mapped to FHIR DSTU2 element `Order.reason[x]`.\nNote that the target element context `Order.reason[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Order`.\nElement `Task.reason` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified.\nNote that the target element context `Order.reason[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Order`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.insurance" ] ;
+       fhir:display [ fhir:v "insurance" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.insurance" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.insurance` is mapped to FHIR R4B element `Task.insurance`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.insurance" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.insurance` is mapped to FHIR STU3 structure `ProcessResponse`, but has no target element specified.\nElement `Task.insurance` is mapped to FHIR STU3 structure `ProcessRequest`, but has no target element specified.\nElement `Task.insurance` is mapped to FHIR STU3 structure `Task`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.note` is mapped to FHIR R4B element `Task.note`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.note` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.note` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.note` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.note` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.relevantHistory" ] ;
+       fhir:display [ fhir:v "relevantHistory" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.relevantHistory" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.relevantHistory` is mapped to FHIR R4B element `Task.relevantHistory`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.relevantHistory" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.relevantHistory` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.relevantHistory` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.relevantHistory` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.relevantHistory` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.restriction" ] ;
+       fhir:display [ fhir:v "restriction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.restriction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.restriction` is mapped to FHIR R4B element `Task.restriction`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.restriction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.restriction` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.restriction` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.restriction` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.restriction` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.restriction.repetitions" ] ;
+       fhir:display [ fhir:v "repetitions" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.restriction.repetitions" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.restriction.repetitions` is mapped to FHIR R4B element `Task.restriction.repetitions`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.restriction:repetitions" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.restriction.repetitions` is part of an existing definition because parent element `Task.restriction` requires a cross-version extension.\nElement `Task.restriction.repetitions` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.restriction.repetitions` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.restriction.repetitions` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.restriction.repetitions` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.restriction.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.restriction.period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.restriction.period` is mapped to FHIR R4B element `Task.restriction.period`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.restriction:period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.restriction.period` is part of an existing definition because parent element `Task.restriction` requires a cross-version extension.\nElement `Task.restriction.period` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.restriction.period` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.restriction.period` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.restriction.period` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.restriction.recipient" ] ;
+       fhir:display [ fhir:v "recipient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.restriction.recipient" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.restriction.recipient` is mapped to FHIR R4B element `Task.restriction.recipient`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.restriction:recipient" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.restriction.recipient` is part of an existing definition because parent element `Task.restriction` requires a cross-version extension.\nElement `Task.restriction.recipient` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.restriction.recipient` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.restriction.recipient` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.restriction.recipient` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.input" ] ;
+       fhir:display [ fhir:v "input" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.input" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.input` is mapped to FHIR R4B element `Task.input`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.input" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.input` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.input` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.input` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.input` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.input.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.input.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.input.type` is mapped to FHIR R4B element `Task.input.type`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.input:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.input.type` is part of an existing definition because parent element `Task.input` requires a cross-version extension.\nElement `Task.input.type` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.input.type` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.input.type` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.input.type` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.input.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.input.value[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Task.input.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.input`.\nElement `Task.input.value[x]` is mapped to FHIR R4B element `Task.input.value[x]`.\nNote that the target element context `Task.input.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.input`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.input:value" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.input.value[x]` is part of an existing definition because parent element `Task.input` requires a cross-version extension.\nElement `Task.input.value[x]` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.input.value[x]` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.input.value[x]` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.input.value[x]` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.output" ] ;
+       fhir:display [ fhir:v "output" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.output" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.output` is mapped to FHIR R4B element `Task.output`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.output" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.output` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.output` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.output` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.output` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.output.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.output.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.output.type` is mapped to FHIR R4B element `Task.output.type`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.output:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.output.type` is part of an existing definition because parent element `Task.output` requires a cross-version extension.\nElement `Task.output.type` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.output.type` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.output.type` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.output.type` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.output.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Task#Task.output.value[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Task.output.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.output`.\nElement `Task.output.value[x]` is mapped to FHIR R4B element `Task.output.value[x]`.\nNote that the target element context `Task.output.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.output`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.output:value" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.output.value[x]` is part of an existing definition because parent element `Task.output` requires a cross-version extension.\nElement `Task.output.value[x]` is mapped to FHIR DSTU2 structure `ProcessResponse`, but has no target element specified.\nElement `Task.output.value[x]` is mapped to FHIR DSTU2 structure `OrderResponse`, but has no target element specified.\nElement `Task.output.value[x]` is mapped to FHIR DSTU2 structure `ProcessRequest`, but has no target element specified.\nElement `Task.output.value[x]` is mapped to FHIR DSTU2 structure `Order`, but has no target element specified." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

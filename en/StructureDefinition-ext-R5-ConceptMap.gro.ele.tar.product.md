@@ -1,0 +1,187 @@
+# ExtensionConceptMap_Group_Element_Target_Product - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## Extension: Cross-version Extension `R5.ConceptMap.group.element.target.product` for use in FHIR R4 
+
+This cross-version extension represents the FHIR R5 element `ConceptMap.group.element.target.product` for use in FHIR R4.
+
+**Context of Use**
+
+**Usage info**
+
+**Usages:**
+
+* Use this Extension: [Cross-version Profile for R5.ConceptMap for use in FHIR R4](StructureDefinition-profile-ConceptMap.md)
+
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-ConceptMap.gro.ele.tar.product)
+
+### Formal Views of Extension Content
+
+ [Description Differentials, Snapshots, and other representations](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#structure-definitions). 
+
+ 
+
+Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConceptMap.gro.ele.tar.product.csv), [Excel](../StructureDefinition-ext-R5-ConceptMap.gro.ele.tar.product.xlsx), [Schematron](../StructureDefinition-ext-R5-ConceptMap.gro.ele.tar.product.sch) 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "ext-R5-ConceptMap.gro.ele.tar.product",
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "fhir"
+    },
+    {
+      "extension" : [
+        {
+          "url" : "packageId",
+          "valueId" : "hl7.fhir.uv.xver-r5.r4"
+        },
+        {
+          "url" : "version",
+          "valueString" : "0.0.1-snapshot-3"
+        },
+        {
+          "url" : "uri",
+          "valueUri" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+        }
+      ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/package-source"
+    },
+    {
+      "extension" : [
+        {
+          "url" : "startFhirVersion",
+          "valueCode" : "4.0"
+        },
+        {
+          "url" : "endFhirVersion",
+          "valueCode" : "4.0"
+        }
+      ],
+      "url" : "http://hl7.org/fhir/StructureDefinition/version-specific-use"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger" : 0,
+      "_valueInteger" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode" : "trial-use",
+      "_valueCode" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    }
+  ],
+  "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConceptMap.group.element.target.product",
+  "version" : "0.0.1-snapshot-3",
+  "name" : "ExtensionConceptMap_Group_Element_Target_Product",
+  "title" : "Cross-version Extension `R5.ConceptMap.group.element.target.product` for use in FHIR R4",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-02-06T19:17:19.5427077+00:00",
+  "publisher" : "FHIR Infrastructure",
+  "contact" : [
+    {
+      "name" : "FHIR Infrastructure",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/fiwg"
+        }
+      ]
+    }
+  ],
+  "description" : "This cross-version extension represents the FHIR R5 element `ConceptMap.group.element.target.product` for use in FHIR R4.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }
+      ]
+    }
+  ],
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ConceptMap.group.element.target.product` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ConceptMap.group.element.target.product` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ConceptMap.group.element.target.product` 0..* `BackboneElement`\n*  R4B: `ConceptMap.group.element.target.product` 0..* `BackboneElement`\n*  R4: `ConceptMap.group.element.target.product` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ConceptMap.group.element.target.product` is mapped to FHIR R4 element `ConceptMap.group.element.target.product`.",
+  "fhirVersion" : "4.0.1",
+  "mapping" : [
+    {
+      "identity" : "rim",
+      "uri" : "http://hl7.org/v3",
+      "name" : "RIM Mapping"
+    }
+  ],
+  "kind" : "complex-type",
+  "abstract" : false,
+  "context" : [
+    {
+      "type" : "element",
+      "expression" : "ConceptMap.group.element.target.product"
+    }
+  ],
+  "type" : "Extension",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [
+      {
+        "id" : "Extension",
+        "path" : "Extension",
+        "short" : "Other data elements that this mapping also produces",
+        "definition" : "Product is the output of a ConceptMap that provides additional values that go in other attributes / data elemnts of the target data.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "isModifier" : false
+      },
+      {
+        "id" : "Extension.url",
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConceptMap.group.element.target.dependsOn"
+      },
+      {
+        "id" : "Extension.value[x]",
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "0",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        }
+      }
+    ]
+  }
+}
+
+```

@@ -1,0 +1,497 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-Invoice-elements-for-R4-Invoice> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-Invoice-elements-for-R4-Invoice"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-Invoice-elements-for-R4-Invoice</b></p><a name=\"ConceptMap-R5-Invoice-elements-for-R4-Invoice\"> </a><a name=\"hcConceptMap-R5-Invoice-elements-for-R4-Invoice\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Invoice|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Invoice|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice</td><td style=\"border-left-width: 0px; border-bottom-style: none\">Invoice</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Invoice` is representable via FHIR R4B Resource `Invoice`.\nElement `Invoice` is mapped to FHIR R4B element `Invoice`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Invoice` is representable via FHIR STU3 Resource `Basic`.\nElement `Invoice` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.meta</td><td style=\"border-left-width: 0px; border-bottom-style: none\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.meta</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.meta` is mapped to FHIR R4B element `Invoice.meta`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.meta</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.meta`, use that element instead.\nElement `Invoice.meta` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.implicitRules</td><td style=\"border-left-width: 0px; border-bottom-style: none\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.implicitRules` is mapped to FHIR R4B element `Invoice.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `Invoice.implicitRules` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.language</td><td style=\"border-left-width: 0px; border-bottom-style: none\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.language</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.language` is mapped to FHIR R4B element `Invoice.language`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.language</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.language`, use that element instead.\nElement `Invoice.language` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.text</td><td style=\"border-left-width: 0px; border-bottom-style: none\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.text</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.text` is mapped to FHIR R4B element `Invoice.text`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.text</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `Invoice.text` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.contained</td><td style=\"border-left-width: 0px; border-bottom-style: none\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.contained</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.contained` is mapped to FHIR R4B element `Invoice.contained`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.contained</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `Invoice.contained` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.identifier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.identifier` is mapped to FHIR R4B element `Invoice.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.identifier</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `Invoice.identifier` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.status</td><td style=\"border-left-width: 0px; border-bottom-style: none\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.status</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.status` is mapped to FHIR R4B element `Invoice.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:status</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.status` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.cancelledReason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">cancelledReason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.cancelledReason</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.cancelledReason` is mapped to FHIR R4B element `Invoice.cancelledReason`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:cancelledReason</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.cancelledReason` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.type</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.type` is mapped to FHIR R4B element `Invoice.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:type</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.type` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.subject</td><td style=\"border-left-width: 0px; border-bottom-style: none\">subject</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.subject</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.subject` is mapped to FHIR R4B element `Invoice.subject`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.subject</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.subject`, use that element instead.\nElement `Invoice.subject` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.recipient</td><td style=\"border-left-width: 0px; border-bottom-style: none\">recipient</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.recipient</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.recipient` is mapped to FHIR R4B element `Invoice.recipient`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:recipient</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.recipient` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.date</td><td style=\"border-left-width: 0px; border-bottom-style: none\">date</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.date</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.date` is mapped to FHIR R4B element `Invoice.date`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:date</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.date` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.creation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">creation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.creation</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.creation` is mapped to FHIR R4B structure `Invoice`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:creation</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.creation` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.period[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">period[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.period</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.period[x]` is mapped to FHIR R4B structure `Invoice`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:period</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.period[x]` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.participant</td><td style=\"border-left-width: 0px; border-bottom-style: none\">participant</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.participant</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.participant` is mapped to FHIR R4B element `Invoice.participant`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:participant</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.participant` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.participant</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.participant` is not mapped to FHIR DSTU2, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.participant.role</td><td style=\"border-left-width: 0px; border-bottom-style: none\">role</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.participant.role</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.participant.role` is mapped to FHIR R4B element `Invoice.participant.role`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:participant:role</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.participant.role` is part of an existing definition because parent element `Invoice.participant` requires a cross-version extension.\nElement `Invoice.participant.role` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.participant:role</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.participant.role` is not mapped to FHIR DSTU2, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.participant.actor</td><td style=\"border-left-width: 0px; border-bottom-style: none\">actor</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.participant.actor</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.participant.actor` is mapped to FHIR R4B element `Invoice.participant.actor`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:participant:actor</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.participant.actor` is part of an existing definition because parent element `Invoice.participant` requires a cross-version extension.\nElement `Invoice.participant.actor` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.participant:actor</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.participant.actor` is not mapped to FHIR DSTU2, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.issuer</td><td style=\"border-left-width: 0px; border-bottom-style: none\">issuer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.issuer</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.issuer` is mapped to FHIR R4B element `Invoice.issuer`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:issuer</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.issuer` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.account</td><td style=\"border-left-width: 0px; border-bottom-style: none\">account</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.account</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.account` is mapped to FHIR R4B element `Invoice.account`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:account</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.account` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.lineItem</td><td style=\"border-left-width: 0px; border-bottom-style: none\">lineItem</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.lineItem</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.lineItem` is mapped to FHIR R4B element `Invoice.lineItem`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:lineItem</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.lineItem` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.lineItem</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.lineItem` is not mapped to FHIR DSTU2, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.lineItem.sequence</td><td style=\"border-left-width: 0px; border-bottom-style: none\">sequence</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.lineItem.sequence</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.lineItem.sequence` is mapped to FHIR R4B element `Invoice.lineItem.sequence`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:lineItem:sequence</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.lineItem.sequence` is part of an existing definition because parent element `Invoice.lineItem` requires a cross-version extension.\nElement `Invoice.lineItem.sequence` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.lineItem:sequence</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.lineItem.sequence` is not mapped to FHIR DSTU2, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.lineItem.serviced[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">serviced[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.lineItem.serviced</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.lineItem.serviced[x]` is mapped to FHIR R4B structure `Invoice`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:lineItem:serviced</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.lineItem.serviced[x]` is part of an existing definition because parent element `Invoice.lineItem` requires a cross-version extension.\nElement `Invoice.lineItem.serviced[x]` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.lineItem:serviced</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.lineItem.serviced[x]` is not mapped to FHIR DSTU2, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.lineItem.chargeItem[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">chargeItem[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.lineItem.chargeItem[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Invoice.lineItem.chargeItem[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Invoice.lineItem`.\nElement `Invoice.lineItem.chargeItem[x]` is mapped to FHIR R4B element `Invoice.lineItem.chargeItem[x]`.\nNote that the target element context `Invoice.lineItem.chargeItem[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Invoice.lineItem`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:lineItem:chargeItem</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.lineItem.chargeItem[x]` is part of an existing definition because parent element `Invoice.lineItem` requires a cross-version extension.\nElement `Invoice.lineItem.chargeItem[x]` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.lineItem:chargeItem</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.lineItem.chargeItem[x]` is not mapped to FHIR DSTU2, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.lineItem.priceComponent</td><td style=\"border-left-width: 0px; border-bottom-style: none\">priceComponent</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.lineItem.priceComponent</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.lineItem.priceComponent` is mapped to FHIR R4B element `Invoice.lineItem.priceComponent`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:lineItem:priceComponent</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.lineItem.priceComponent` is part of an existing definition because parent element `Invoice.lineItem` requires a cross-version extension.\nElement `Invoice.lineItem.priceComponent` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.lineItem:priceComponent</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.lineItem.priceComponent` is not mapped to FHIR DSTU2, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.totalPriceComponent</td><td style=\"border-left-width: 0px; border-bottom-style: none\">totalPriceComponent</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.totalPriceComponent</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.totalPriceComponent` is mapped to FHIR R4B element `Invoice.totalPriceComponent`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:totalPriceComponent</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.totalPriceComponent` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.totalNet</td><td style=\"border-left-width: 0px; border-bottom-style: none\">totalNet</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.totalNet</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.totalNet` is mapped to FHIR R4B element `Invoice.totalNet`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:totalNet</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.totalNet` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.totalGross</td><td style=\"border-left-width: 0px; border-bottom-style: none\">totalGross</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.totalGross</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.totalGross` is mapped to FHIR R4B element `Invoice.totalGross`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:totalGross</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.totalGross` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.paymentTerms</td><td style=\"border-left-width: 0px; border-bottom-style: none\">paymentTerms</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.paymentTerms</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.paymentTerms` is mapped to FHIR R4B element `Invoice.paymentTerms`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:paymentTerms</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.paymentTerms` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Invoice.note</td><td style=\"border-left-width: 0px; border-bottom-style: none\">note</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.note</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.note` is mapped to FHIR R4B element `Invoice.note`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:note</td><td style=\"border-left-width: 0px\"/><td>Element `Invoice.note` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Invoice-elements-for-R4-Invoice"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Invoice-elements-for-R4-Invoice>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5InvoiceElementsForR4Invoice"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:33.1803935-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Invoice>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Invoice" ] ;
+       fhir:display [ fhir:v "Invoice" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Invoice` is representable via FHIR R4B Resource `Invoice`.\nElement `Invoice` is mapped to FHIR R4B element `Invoice`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Invoice` is representable via FHIR STU3 Resource `Basic`.\nElement `Invoice` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.meta` is mapped to FHIR R4B element `Invoice.meta`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `Invoice.meta` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.implicitRules` is mapped to FHIR R4B element `Invoice.implicitRules`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `Invoice.implicitRules` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.language` is mapped to FHIR R4B element `Invoice.language`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.language`, use that element instead.\nElement `Invoice.language` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.text` is mapped to FHIR R4B element `Invoice.text`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `Invoice.text` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.contained` is mapped to FHIR R4B element `Invoice.contained`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `Invoice.contained` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.identifier` is mapped to FHIR R4B element `Invoice.identifier`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `Invoice.identifier` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.status` is mapped to FHIR R4B element `Invoice.status`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.status` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.cancelledReason" ] ;
+       fhir:display [ fhir:v "cancelledReason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.cancelledReason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.cancelledReason` is mapped to FHIR R4B element `Invoice.cancelledReason`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:cancelledReason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.cancelledReason` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.type` is mapped to FHIR R4B element `Invoice.type`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.type` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.subject` is mapped to FHIR R4B element `Invoice.subject`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `Invoice.subject` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.recipient" ] ;
+       fhir:display [ fhir:v "recipient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.recipient" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.recipient` is mapped to FHIR R4B element `Invoice.recipient`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:recipient" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.recipient` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.date` is mapped to FHIR R4B element `Invoice.date`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.date` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.creation" ] ;
+       fhir:display [ fhir:v "creation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.creation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.creation` is mapped to FHIR R4B structure `Invoice`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:creation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.creation` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.period[x]" ] ;
+       fhir:display [ fhir:v "period[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.period[x]` is mapped to FHIR R4B structure `Invoice`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.period[x]` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.participant" ] ;
+       fhir:display [ fhir:v "participant" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.participant" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.participant` is mapped to FHIR R4B element `Invoice.participant`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:participant" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.participant` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.participant" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.participant` is not mapped to FHIR DSTU2, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.participant.role" ] ;
+       fhir:display [ fhir:v "role" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.participant.role" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.participant.role` is mapped to FHIR R4B element `Invoice.participant.role`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:participant:role" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.participant.role` is part of an existing definition because parent element `Invoice.participant` requires a cross-version extension.\nElement `Invoice.participant.role` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.participant:role" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.participant.role` is not mapped to FHIR DSTU2, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.participant.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.participant.actor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.participant.actor` is mapped to FHIR R4B element `Invoice.participant.actor`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:participant:actor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.participant.actor` is part of an existing definition because parent element `Invoice.participant` requires a cross-version extension.\nElement `Invoice.participant.actor` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.participant:actor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.participant.actor` is not mapped to FHIR DSTU2, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.issuer" ] ;
+       fhir:display [ fhir:v "issuer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.issuer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.issuer` is mapped to FHIR R4B element `Invoice.issuer`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:issuer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.issuer` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.account" ] ;
+       fhir:display [ fhir:v "account" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.account" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.account` is mapped to FHIR R4B element `Invoice.account`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:account" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.account` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.lineItem" ] ;
+       fhir:display [ fhir:v "lineItem" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.lineItem" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.lineItem` is mapped to FHIR R4B element `Invoice.lineItem`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:lineItem" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.lineItem` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.lineItem" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.lineItem` is not mapped to FHIR DSTU2, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.lineItem.sequence" ] ;
+       fhir:display [ fhir:v "sequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.lineItem.sequence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.lineItem.sequence` is mapped to FHIR R4B element `Invoice.lineItem.sequence`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:lineItem:sequence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.lineItem.sequence` is part of an existing definition because parent element `Invoice.lineItem` requires a cross-version extension.\nElement `Invoice.lineItem.sequence` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.lineItem:sequence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.lineItem.sequence` is not mapped to FHIR DSTU2, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.lineItem.serviced[x]" ] ;
+       fhir:display [ fhir:v "serviced[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.lineItem.serviced" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.lineItem.serviced[x]` is mapped to FHIR R4B structure `Invoice`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:lineItem:serviced" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.lineItem.serviced[x]` is part of an existing definition because parent element `Invoice.lineItem` requires a cross-version extension.\nElement `Invoice.lineItem.serviced[x]` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.lineItem:serviced" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.lineItem.serviced[x]` is not mapped to FHIR DSTU2, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.lineItem.chargeItem[x]" ] ;
+       fhir:display [ fhir:v "chargeItem[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.lineItem.chargeItem[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Invoice.lineItem.chargeItem[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Invoice.lineItem`.\nElement `Invoice.lineItem.chargeItem[x]` is mapped to FHIR R4B element `Invoice.lineItem.chargeItem[x]`.\nNote that the target element context `Invoice.lineItem.chargeItem[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Invoice.lineItem`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:lineItem:chargeItem" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.lineItem.chargeItem[x]` is part of an existing definition because parent element `Invoice.lineItem` requires a cross-version extension.\nElement `Invoice.lineItem.chargeItem[x]` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.lineItem:chargeItem" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.lineItem.chargeItem[x]` is not mapped to FHIR DSTU2, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.lineItem.priceComponent" ] ;
+       fhir:display [ fhir:v "priceComponent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.lineItem.priceComponent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.lineItem.priceComponent` is mapped to FHIR R4B element `Invoice.lineItem.priceComponent`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:lineItem:priceComponent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.lineItem.priceComponent` is part of an existing definition because parent element `Invoice.lineItem` requires a cross-version extension.\nElement `Invoice.lineItem.priceComponent` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.lineItem:priceComponent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.lineItem.priceComponent` is not mapped to FHIR DSTU2, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.totalPriceComponent" ] ;
+       fhir:display [ fhir:v "totalPriceComponent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.totalPriceComponent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.totalPriceComponent` is mapped to FHIR R4B element `Invoice.totalPriceComponent`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:totalPriceComponent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.totalPriceComponent` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.totalNet" ] ;
+       fhir:display [ fhir:v "totalNet" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.totalNet" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.totalNet` is mapped to FHIR R4B element `Invoice.totalNet`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:totalNet" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.totalNet` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.totalGross" ] ;
+       fhir:display [ fhir:v "totalGross" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.totalGross" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.totalGross` is mapped to FHIR R4B element `Invoice.totalGross`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:totalGross" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.totalGross` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.paymentTerms" ] ;
+       fhir:display [ fhir:v "paymentTerms" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.paymentTerms" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.paymentTerms` is mapped to FHIR R4B element `Invoice.paymentTerms`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:paymentTerms" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.paymentTerms` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.note` is mapped to FHIR R4B element `Invoice.note`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice:note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.note` is not mapped to FHIR STU3, since FHIR R5 `Invoice` is not mapped." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="messageheader-response-request"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/messageheader-response-request</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">always
+                  <a name="messageheader-response-request-always"> </a>
+                </td>
+                <td>Always</td>
+                <td>initiator expects a response for this message.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">on-error
+                  <a name="messageheader-response-request-on-error"> </a>
+                </td>
+                <td>Error/reject conditions only</td>
+                <td>initiator expects a response only if in error.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">never
+                  <a name="messageheader-response-request-never"> </a>
+                </td>
+                <td>Never</td>
+                <td>initiator does not expect a response.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">on-success
+                  <a name="messageheader-response-request-on-success"> </a>
+                </td>
+                <td>Successful completion only</td>
+                <td>initiator expects a response only if successful.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="inm"/>
+  </extension>
+  <url value="http://hl7.org/fhir/messageheader-response-request"/>
+  <version value="5.0.0"/>
+  <name value="MessageheaderResponseRequest"/>
+  <title value="messageheader-response-request"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Infrastructure And Messaging"/>
+  <contact>
+    <name value="Infrastructure And Messaging"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/inm"/>
+    </telecom>
+  </contact>
+  <description value="HL7-defined table of codes which identify conditions under which acknowledgments are required to be returned in response to a message."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/messageheader-response-request|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="always"/>
+    <display value="Always"/>
+    <definition value="initiator expects a response for this message."/>
+  </concept>
+  <concept>
+    <code value="on-error"/>
+    <display value="Error/reject conditions only"/>
+    <definition value="initiator expects a response only if in error."/>
+  </concept>
+  <concept>
+    <code value="never"/>
+    <display value="Never"/>
+    <definition value="initiator does not expect a response."/>
+  </concept>
+  <concept>
+    <code value="on-success"/>
+    <display value="Successful completion only"/>
+    <definition value="initiator expects a response only if successful."/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,164 @@
+# ConceptMapR5VerificationresultStatusForR4 - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+
+## ConceptMap: ConceptMapR5VerificationresultStatusForR4 
+
+ 
+This ConceptMap represents the cross-version mapping of concepts from ValueSet `http://hl7.org/fhir/ValueSet/verificationresult-status|5.0.0` for use in FHIR R4. 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ConceptMap",
+  "id" : "ConceptMap-R5-verificationresult-status-for-R4",
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "fhir"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+      "valueInteger" : 0,
+      "_valueInteger" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+      "valueCode" : "trial-use",
+      "_valueCode" : {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+            "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+          }
+        ]
+      }
+    }
+  ],
+  "url" : "http://hl7.org/fhir/5.0/ConceptMap/ValueSet-R5-verificationresult-status-for-R4",
+  "version" : "0.0.1-snapshot-3",
+  "name" : "ConceptMapR5VerificationresultStatusForR4",
+  "title" : "Cross-version ConceptMap for ValueSet ValueSet-R5-verificationresult-status-for-R4 from FHIR R5 to FHIR R4",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-02-06T13:17:24.302602-06:00",
+  "contact" : [
+    {
+      "name" : "FHIR Infrastructure",
+      "telecom" : [
+        {
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/fiwg"
+        }
+      ]
+    }
+  ],
+  "description" : "This ConceptMap represents the cross-version mapping of concepts from ValueSet `http://hl7.org/fhir/ValueSet/verificationresult-status|5.0.0` for use in FHIR R4.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }
+      ]
+    }
+  ],
+  "group" : [
+    {
+      "source" : "http://hl7.org/fhir/CodeSystem/verificationresult-status",
+      "sourceVersion" : "5.0.0",
+      "target" : "http://hl7.org/fhir/CodeSystem/status",
+      "targetVersion" : "4.0.1",
+      "element" : [
+        {
+          "code" : "attested",
+          "display" : "Attested",
+          "target" : [
+            {
+              "code" : "attested",
+              "display" : "Attested",
+              "equivalence" : "relatedto",
+              "comment" : "Using explicit mapping from `http://hl7.org/fhir/ValueSet/verificationresult-status|5.0.0` to `http://hl7.org/fhir/ValueSet/verificationresult-status|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-VerificationresultStatus-R4B-VerificationresultStatus` (`ConceptMap-R5-VerificationresultStatus-R4B-VerificationresultStatus.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/verificationresult-status|4.3.0` to `http://hl7.org/fhir/ValueSet/verificationresult-status|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-VerificationresultStatus-R4-VerificationresultStatus` (`ConceptMap-R4B-VerificationresultStatus-R4-VerificationresultStatus.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/verificationresult-status|5.0.0#attested` to `http://hl7.org/fhir/ValueSet/verificationresult-status|4.0.1#attested` as Equivalent in `ConceptMap-R5-VerificationresultStatus-R4-VerificationresultStatus.json`, which results in Equivalent."
+            }
+          ]
+        },
+        {
+          "code" : "in-process",
+          "display" : "In process",
+          "target" : [
+            {
+              "code" : "in-process",
+              "display" : "In process",
+              "equivalence" : "relatedto",
+              "comment" : "Using explicit mapping from `http://hl7.org/fhir/ValueSet/verificationresult-status|5.0.0` to `http://hl7.org/fhir/ValueSet/verificationresult-status|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-VerificationresultStatus-R4B-VerificationresultStatus` (`ConceptMap-R5-VerificationresultStatus-R4B-VerificationresultStatus.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/verificationresult-status|4.3.0` to `http://hl7.org/fhir/ValueSet/verificationresult-status|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-VerificationresultStatus-R4-VerificationresultStatus` (`ConceptMap-R4B-VerificationresultStatus-R4-VerificationresultStatus.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/verificationresult-status|5.0.0#in-process` to `http://hl7.org/fhir/ValueSet/verificationresult-status|4.0.1#in-process` as Equivalent in `ConceptMap-R5-VerificationresultStatus-R4-VerificationresultStatus.json`, which results in Equivalent."
+            }
+          ]
+        },
+        {
+          "code" : "req-revalid",
+          "display" : "Requires revalidation",
+          "target" : [
+            {
+              "code" : "req-revalid",
+              "display" : "Requires revalidation",
+              "equivalence" : "relatedto",
+              "comment" : "Using explicit mapping from `http://hl7.org/fhir/ValueSet/verificationresult-status|5.0.0` to `http://hl7.org/fhir/ValueSet/verificationresult-status|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-VerificationresultStatus-R4B-VerificationresultStatus` (`ConceptMap-R5-VerificationresultStatus-R4B-VerificationresultStatus.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/verificationresult-status|4.3.0` to `http://hl7.org/fhir/ValueSet/verificationresult-status|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-VerificationresultStatus-R4-VerificationresultStatus` (`ConceptMap-R4B-VerificationresultStatus-R4-VerificationresultStatus.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/verificationresult-status|5.0.0#req-revalid` to `http://hl7.org/fhir/ValueSet/verificationresult-status|4.0.1#req-revalid` as Equivalent in `ConceptMap-R5-VerificationresultStatus-R4-VerificationresultStatus.json`, which results in Equivalent."
+            }
+          ]
+        },
+        {
+          "code" : "reval-fail",
+          "display" : "Re-Validation failed",
+          "target" : [
+            {
+              "code" : "reval-fail",
+              "display" : "Re-Validation failed",
+              "equivalence" : "relatedto",
+              "comment" : "Using explicit mapping from `http://hl7.org/fhir/ValueSet/verificationresult-status|5.0.0` to `http://hl7.org/fhir/ValueSet/verificationresult-status|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-VerificationresultStatus-R4B-VerificationresultStatus` (`ConceptMap-R5-VerificationresultStatus-R4B-VerificationresultStatus.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/verificationresult-status|4.3.0` to `http://hl7.org/fhir/ValueSet/verificationresult-status|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-VerificationresultStatus-R4-VerificationresultStatus` (`ConceptMap-R4B-VerificationresultStatus-R4-VerificationresultStatus.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/verificationresult-status|5.0.0#reval-fail` to `http://hl7.org/fhir/ValueSet/verificationresult-status|4.0.1#reval-fail` as Equivalent in `ConceptMap-R5-VerificationresultStatus-R4-VerificationresultStatus.json`, which results in Equivalent."
+            }
+          ]
+        },
+        {
+          "code" : "val-fail",
+          "display" : "Validation failed",
+          "target" : [
+            {
+              "code" : "val-fail",
+              "display" : "Validation failed",
+              "equivalence" : "relatedto",
+              "comment" : "Using explicit mapping from `http://hl7.org/fhir/ValueSet/verificationresult-status|5.0.0` to `http://hl7.org/fhir/ValueSet/verificationresult-status|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-VerificationresultStatus-R4B-VerificationresultStatus` (`ConceptMap-R5-VerificationresultStatus-R4B-VerificationresultStatus.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/verificationresult-status|4.3.0` to `http://hl7.org/fhir/ValueSet/verificationresult-status|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-VerificationresultStatus-R4-VerificationresultStatus` (`ConceptMap-R4B-VerificationresultStatus-R4-VerificationresultStatus.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/verificationresult-status|5.0.0#val-fail` to `http://hl7.org/fhir/ValueSet/verificationresult-status|4.0.1#val-fail` as Equivalent in `ConceptMap-R5-VerificationresultStatus-R4-VerificationresultStatus.json`, which results in Equivalent."
+            }
+          ]
+        },
+        {
+          "code" : "validated",
+          "display" : "Validated",
+          "target" : [
+            {
+              "code" : "validated",
+              "display" : "Validated",
+              "equivalence" : "relatedto",
+              "comment" : "Using explicit mapping from `http://hl7.org/fhir/ValueSet/verificationresult-status|5.0.0` to `http://hl7.org/fhir/ValueSet/verificationresult-status|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-VerificationresultStatus-R4B-VerificationresultStatus` (`ConceptMap-R5-VerificationresultStatus-R4B-VerificationresultStatus.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/verificationresult-status|4.3.0` to `http://hl7.org/fhir/ValueSet/verificationresult-status|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-VerificationresultStatus-R4-VerificationresultStatus` (`ConceptMap-R4B-VerificationresultStatus-R4-VerificationresultStatus.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/verificationresult-status|5.0.0#validated` to `http://hl7.org/fhir/ValueSet/verificationresult-status|4.0.1#validated` as Equivalent in `ConceptMap-R5-VerificationresultStatus-R4-VerificationresultStatus.json`, which results in Equivalent."
+            }
+          ]
+        },
+        {
+          "code" : "entered-in-error",
+          "display" : "Entered in Error"
+        }
+      ]
+    }
+  ]
+}
+
+```

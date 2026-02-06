@@ -1,0 +1,1308 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-CapabilityStatement-elements-for-R4-CapabilityStatement> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-CapabilityStatement-elements-for-R4-CapabilityStatement"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-CapabilityStatement-elements-for-R4-CapabilityStatement</b></p><a name=\"ConceptMap-R5-CapabilityStatement-elements-for-R4-CapabilityStatement\"> </a><a name=\"hcConceptMap-R5-CapabilityStatement-elements-for-R4-CapabilityStatement\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/CapabilityStatement|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/CapabilityStatement|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement</td><td style=\"border-left-width: 0px; border-bottom-style: none\">CapabilityStatement</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `CapabilityStatement` is representable via FHIR R4B Resource `CapabilityStatement`.\nElement `CapabilityStatement` is mapped to FHIR R4B element `CapabilityStatement`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `CapabilityStatement` is representable via FHIR DSTU2 Resource `Conformance`.\nElement `CapabilityStatement` is mapped to FHIR DSTU2 element `Conformance`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.meta</td><td style=\"border-left-width: 0px; border-bottom-style: none\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.meta</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.meta` is mapped to FHIR R4B element `CapabilityStatement.meta`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.meta</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.meta` is mapped to FHIR DSTU2 element `Conformance.meta`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.implicitRules</td><td style=\"border-left-width: 0px; border-bottom-style: none\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.implicitRules` is mapped to FHIR R4B element `CapabilityStatement.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.implicitRules` is mapped to FHIR DSTU2 element `Conformance.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.language</td><td style=\"border-left-width: 0px; border-bottom-style: none\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.language</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.language` is mapped to FHIR R4B element `CapabilityStatement.language`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.language</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.language` is mapped to FHIR DSTU2 element `Conformance.language`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.text</td><td style=\"border-left-width: 0px; border-bottom-style: none\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.text</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.text` is mapped to FHIR R4B element `CapabilityStatement.text`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.text</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.text` is mapped to FHIR DSTU2 element `Conformance.text`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.contained</td><td style=\"border-left-width: 0px; border-bottom-style: none\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.contained</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.contained` is mapped to FHIR R4B element `CapabilityStatement.contained`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.contained</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.contained` is mapped to FHIR DSTU2 element `Conformance.contained`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.url</td><td style=\"border-left-width: 0px; border-bottom-style: none\">url</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.url</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.url` is mapped to FHIR R4B element `CapabilityStatement.url`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.url</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.url` is mapped to FHIR DSTU2 element `Conformance.url`.</td></tr><tr><td style=\"border-right-width: 0px\">CapabilityStatement.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">Basic.identifier</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `CapabilityStatement.identifier` is mapped to FHIR R4B structure `CapabilityStatement`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.version</td><td style=\"border-left-width: 0px; border-bottom-style: none\">version</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.version</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.version` is mapped to FHIR R4B element `CapabilityStatement.version`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.version</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.version` is mapped to FHIR DSTU2 element `Conformance.version`.</td></tr><tr><td style=\"border-right-width: 0px\">CapabilityStatement.versionAlgorithm[x]</td><td style=\"border-left-width: 0px\">versionAlgorithm[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.versionAlgorithm</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.versionAlgorithm[x]` is mapped to FHIR R4B structure `CapabilityStatement`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.name</td><td style=\"border-left-width: 0px; border-bottom-style: none\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.name</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.name` is mapped to FHIR R4B element `CapabilityStatement.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.name</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.name` is mapped to FHIR DSTU2 element `Conformance.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.title</td><td style=\"border-left-width: 0px; border-bottom-style: none\">title</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.title</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.title` is mapped to FHIR R4B element `CapabilityStatement.title`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.title</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.title` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.status</td><td style=\"border-left-width: 0px; border-bottom-style: none\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.status</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.status` is mapped to FHIR R4B element `CapabilityStatement.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.status</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Conformance.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `CapabilityStatement.status` is mapped to FHIR DSTU2 element `Conformance.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.experimental</td><td style=\"border-left-width: 0px; border-bottom-style: none\">experimental</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.experimental</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.experimental` is mapped to FHIR R4B element `CapabilityStatement.experimental`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.experimental</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.experimental` is mapped to FHIR DSTU2 element `Conformance.experimental`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.date</td><td style=\"border-left-width: 0px; border-bottom-style: none\">date</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.date</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.date` is mapped to FHIR R4B element `CapabilityStatement.date`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.date</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.date` is mapped to FHIR DSTU2 element `Conformance.date`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.publisher</td><td style=\"border-left-width: 0px; border-bottom-style: none\">publisher</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.publisher</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.publisher` is mapped to FHIR R4B element `CapabilityStatement.publisher`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.publisher</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.publisher` is mapped to FHIR DSTU2 element `Conformance.publisher`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.contact</td><td style=\"border-left-width: 0px; border-bottom-style: none\">contact</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.contact</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.contact` is mapped to FHIR R4B element `CapabilityStatement.contact`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.contact</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.contact` is mapped to FHIR DSTU2 element `Conformance.contact`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.description</td><td style=\"border-left-width: 0px; border-bottom-style: none\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.description</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.description` is mapped to FHIR R4B element `CapabilityStatement.description`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.description</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.description` is mapped to FHIR DSTU2 element `Conformance.description`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.useContext</td><td style=\"border-left-width: 0px; border-bottom-style: none\">useContext</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.useContext</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.useContext` is mapped to FHIR R4B element `CapabilityStatement.useContext`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.useContext</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.useContext` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.jurisdiction</td><td style=\"border-left-width: 0px; border-bottom-style: none\">jurisdiction</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.jurisdiction</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.jurisdiction` is mapped to FHIR R4B element `CapabilityStatement.jurisdiction`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.jurisdiction</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.jurisdiction` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.purpose</td><td style=\"border-left-width: 0px; border-bottom-style: none\">purpose</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.purpose</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.purpose` is mapped to FHIR R4B element `CapabilityStatement.purpose`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.requirements</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.purpose` is mapped to FHIR DSTU2 element `Conformance.requirements`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.copyright</td><td style=\"border-left-width: 0px; border-bottom-style: none\">copyright</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.copyright</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.copyright` is mapped to FHIR R4B element `CapabilityStatement.copyright`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.copyright</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.copyright` is mapped to FHIR DSTU2 element `Conformance.copyright`.</td></tr><tr><td style=\"border-right-width: 0px\">CapabilityStatement.copyrightLabel</td><td style=\"border-left-width: 0px\">copyrightLabel</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.copyrightLabel</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.copyrightLabel` is mapped to FHIR R4B structure `CapabilityStatement`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.kind</td><td style=\"border-left-width: 0px; border-bottom-style: none\">kind</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.kind</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.kind` is mapped to FHIR R4B element `CapabilityStatement.kind`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.kind</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.kind` is mapped to FHIR DSTU2 element `Conformance.kind`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.instantiates</td><td style=\"border-left-width: 0px; border-bottom-style: none\">instantiates</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.instantiates</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.instantiates` is mapped to FHIR R4B element `CapabilityStatement.instantiates`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.instantiates</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.instantiates` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.imports</td><td style=\"border-left-width: 0px; border-bottom-style: none\">imports</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.imports</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.imports` is mapped to FHIR R4B element `CapabilityStatement.imports`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.imports</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.imports` is mapped to FHIR STU3 structure `CapabilityStatement`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.software</td><td style=\"border-left-width: 0px; border-bottom-style: none\">software</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.software</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.software` is mapped to FHIR R4B element `CapabilityStatement.software`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.software</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.software` is mapped to FHIR DSTU2 element `Conformance.software`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.software.name</td><td style=\"border-left-width: 0px; border-bottom-style: none\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.software.name</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.software.name` is mapped to FHIR R4B element `CapabilityStatement.software.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.software.name</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.software.name` is mapped to FHIR DSTU2 element `Conformance.software.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.software.version</td><td style=\"border-left-width: 0px; border-bottom-style: none\">version</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.software.version</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.software.version` is mapped to FHIR R4B element `CapabilityStatement.software.version`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.software.version</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.software.version` is mapped to FHIR DSTU2 element `Conformance.software.version`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.software.releaseDate</td><td style=\"border-left-width: 0px; border-bottom-style: none\">releaseDate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.software.releaseDate</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.software.releaseDate` is mapped to FHIR R4B element `CapabilityStatement.software.releaseDate`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.software.releaseDate</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.software.releaseDate` is mapped to FHIR DSTU2 element `Conformance.software.releaseDate`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.implementation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">implementation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.implementation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.implementation` is mapped to FHIR R4B element `CapabilityStatement.implementation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.implementation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.implementation` is mapped to FHIR DSTU2 element `Conformance.implementation`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.implementation.description</td><td style=\"border-left-width: 0px; border-bottom-style: none\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.implementation.description</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.implementation.description` is mapped to FHIR R4B element `CapabilityStatement.implementation.description`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.implementation.description</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.implementation.description` is mapped to FHIR DSTU2 element `Conformance.implementation.description`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.implementation.url</td><td style=\"border-left-width: 0px; border-bottom-style: none\">url</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.implementation.url</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.implementation.url` is mapped to FHIR R4B element `CapabilityStatement.implementation.url`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.implementation.url</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.implementation.url` is mapped to FHIR DSTU2 element `Conformance.implementation.url`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.implementation.custodian</td><td style=\"border-left-width: 0px; border-bottom-style: none\">custodian</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.implementation.custodian</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.implementation.custodian` is mapped to FHIR R4B element `CapabilityStatement.implementation.custodian`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.implementation.custodian</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.implementation.custodian` is mapped to FHIR STU3 structure `CapabilityStatement`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.fhirVersion</td><td style=\"border-left-width: 0px; border-bottom-style: none\">fhirVersion</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.fhirVersion</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.fhirVersion` is mapped to FHIR R4B element `CapabilityStatement.fhirVersion`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.fhirVersion</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.fhirVersion` is mapped to FHIR DSTU2 element `Conformance.fhirVersion`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.format</td><td style=\"border-left-width: 0px; border-bottom-style: none\">format</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.format</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.format` is mapped to FHIR R4B element `CapabilityStatement.format`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.format</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.format` is mapped to FHIR DSTU2 element `Conformance.format`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.patchFormat</td><td style=\"border-left-width: 0px; border-bottom-style: none\">patchFormat</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.patchFormat</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.patchFormat` is mapped to FHIR R4B element `CapabilityStatement.patchFormat`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.patchFormat</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.patchFormat` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">CapabilityStatement.acceptLanguage</td><td style=\"border-left-width: 0px\">acceptLanguage</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.acceptLanguage</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.acceptLanguage` is mapped to FHIR R4B structure `CapabilityStatement`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.implementationGuide</td><td style=\"border-left-width: 0px; border-bottom-style: none\">implementationGuide</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.implementationGuide</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.implementationGuide` is mapped to FHIR R4B element `CapabilityStatement.implementationGuide`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.implementationGuide</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.implementationGuide` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest</td><td style=\"border-left-width: 0px; border-bottom-style: none\">rest</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest` is mapped to FHIR R4B element `CapabilityStatement.rest`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest` is mapped to FHIR DSTU2 element `Conformance.rest`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.mode</td><td style=\"border-left-width: 0px; border-bottom-style: none\">mode</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.mode</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.mode` is mapped to FHIR R4B element `CapabilityStatement.rest.mode`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.mode</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.mode` is mapped to FHIR DSTU2 element `Conformance.rest.mode`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.documentation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">documentation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.documentation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.documentation` is mapped to FHIR R4B element `CapabilityStatement.rest.documentation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.documentation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.documentation` is mapped to FHIR DSTU2 element `Conformance.rest.documentation`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.security</td><td style=\"border-left-width: 0px; border-bottom-style: none\">security</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.security</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.security` is mapped to FHIR R4B element `CapabilityStatement.rest.security`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.security</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.security` is mapped to FHIR DSTU2 element `Conformance.rest.security`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.security.cors</td><td style=\"border-left-width: 0px; border-bottom-style: none\">cors</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.security.cors</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.security.cors` is mapped to FHIR R4B element `CapabilityStatement.rest.security.cors`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.security.cors</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.security.cors` is mapped to FHIR DSTU2 element `Conformance.rest.security.cors`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.security.service</td><td style=\"border-left-width: 0px; border-bottom-style: none\">service</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.security.service</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.security.service` is mapped to FHIR R4B element `CapabilityStatement.rest.security.service`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.security.service</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.security.service` is mapped to FHIR DSTU2 element `Conformance.rest.security.service`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.security.description</td><td style=\"border-left-width: 0px; border-bottom-style: none\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.security.description</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.security.description` is mapped to FHIR R4B element `CapabilityStatement.rest.security.description`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.security.description</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.security.description` is mapped to FHIR DSTU2 element `Conformance.rest.security.description`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource</td><td style=\"border-left-width: 0px; border-bottom-style: none\">resource</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource` is mapped to FHIR R4B element `CapabilityStatement.rest.resource`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource` is mapped to FHIR DSTU2 element `Conformance.rest.resource`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.type</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.type` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.type</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.type` is mapped to FHIR DSTU2 element `Conformance.rest.resource.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource.profile</td><td style=\"border-left-width: 0px; border-bottom-style: none\">profile</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.profile</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.profile` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.profile`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.profile</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.profile` is mapped to FHIR DSTU2 element `Conformance.rest.resource.profile`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource.supportedProfile</td><td style=\"border-left-width: 0px; border-bottom-style: none\">supportedProfile</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.supportedProfile</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.supportedProfile`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.profile</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR STU3 element `CapabilityStatement.profile`.\nElement `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR STU3 element `CapabilityStatement.rest.resource.profile`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.profile</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR STU3 element `CapabilityStatement.profile`.\nElement `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR STU3 element `CapabilityStatement.rest.resource.profile`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.profile</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR DSTU2 element `Conformance.profile`.\nElement `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR DSTU2 element `Conformance.rest.resource.profile`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.profile</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR DSTU2 element `Conformance.profile`.\nElement `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR DSTU2 element `Conformance.rest.resource.profile`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource.documentation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">documentation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.documentation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.documentation` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.documentation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.resource.documentation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.documentation` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource.interaction</td><td style=\"border-left-width: 0px; border-bottom-style: none\">interaction</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.interaction</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.interaction` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.interaction`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.interaction</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.interaction` is mapped to FHIR DSTU2 element `Conformance.rest.resource.interaction`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource.interaction.code</td><td style=\"border-left-width: 0px; border-bottom-style: none\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.interaction.code</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.interaction.code` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.interaction.code`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.interaction.code</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.interaction.code` is mapped to FHIR DSTU2 element `Conformance.rest.resource.interaction.code`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource.interaction.documentation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">documentation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.interaction.documentation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.interaction.documentation` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.interaction.documentation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.interaction.documentation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.interaction.documentation` is mapped to FHIR DSTU2 element `Conformance.rest.resource.interaction.documentation`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource.versioning</td><td style=\"border-left-width: 0px; border-bottom-style: none\">versioning</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.versioning</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.versioning` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.versioning`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.versioning</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.versioning` is mapped to FHIR DSTU2 element `Conformance.rest.resource.versioning`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource.readHistory</td><td style=\"border-left-width: 0px; border-bottom-style: none\">readHistory</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.readHistory</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.readHistory` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.readHistory`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.readHistory</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.readHistory` is mapped to FHIR DSTU2 element `Conformance.rest.resource.readHistory`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource.updateCreate</td><td style=\"border-left-width: 0px; border-bottom-style: none\">updateCreate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.updateCreate</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.updateCreate` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.updateCreate`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.updateCreate</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.updateCreate` is mapped to FHIR DSTU2 element `Conformance.rest.resource.updateCreate`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource.conditionalCreate</td><td style=\"border-left-width: 0px; border-bottom-style: none\">conditionalCreate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.conditionalCreate</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.conditionalCreate` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.conditionalCreate`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.conditionalCreate</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.conditionalCreate` is mapped to FHIR DSTU2 element `Conformance.rest.resource.conditionalCreate`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource.conditionalRead</td><td style=\"border-left-width: 0px; border-bottom-style: none\">conditionalRead</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.conditionalRead</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.conditionalRead` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.conditionalRead`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.resource.conditionalRead</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.conditionalRead` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource.conditionalUpdate</td><td style=\"border-left-width: 0px; border-bottom-style: none\">conditionalUpdate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.conditionalUpdate</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.conditionalUpdate` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.conditionalUpdate`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.conditionalUpdate</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.conditionalUpdate` is mapped to FHIR DSTU2 element `Conformance.rest.resource.conditionalUpdate`.</td></tr><tr><td style=\"border-right-width: 0px\">CapabilityStatement.rest.resource.conditionalPatch</td><td style=\"border-left-width: 0px\">conditionalPatch</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.resource.conditionalPatch</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.conditionalPatch` is mapped to FHIR R4B structure `CapabilityStatement`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource.conditionalDelete</td><td style=\"border-left-width: 0px; border-bottom-style: none\">conditionalDelete</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.conditionalDelete</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.conditionalDelete` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.conditionalDelete`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.conditionalDelete</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.conditionalDelete` is mapped to FHIR DSTU2 element `Conformance.rest.resource.conditionalDelete`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource.referencePolicy</td><td style=\"border-left-width: 0px; border-bottom-style: none\">referencePolicy</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.referencePolicy</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.referencePolicy` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.referencePolicy`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.resource.referencePolicy</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.referencePolicy` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource.searchInclude</td><td style=\"border-left-width: 0px; border-bottom-style: none\">searchInclude</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.searchInclude</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.searchInclude` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.searchInclude`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.searchInclude</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.searchInclude` is mapped to FHIR DSTU2 element `Conformance.rest.resource.searchInclude`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource.searchRevInclude</td><td style=\"border-left-width: 0px; border-bottom-style: none\">searchRevInclude</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.searchRevInclude</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.searchRevInclude` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.searchRevInclude`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.searchRevInclude</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.searchRevInclude` is mapped to FHIR DSTU2 element `Conformance.rest.resource.searchRevInclude`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource.searchParam</td><td style=\"border-left-width: 0px; border-bottom-style: none\">searchParam</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.searchParam</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.searchParam` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.searchParam`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.searchParam</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.searchParam` is mapped to FHIR DSTU2 element `Conformance.rest.resource.searchParam`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource.searchParam.name</td><td style=\"border-left-width: 0px; border-bottom-style: none\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.searchParam.name</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.searchParam.name` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.name` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.searchParam.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.searchParam.name</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.searchParam.name` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.name` is mapped to FHIR DSTU2 element `Conformance.rest.resource.searchParam.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource.searchParam.definition</td><td style=\"border-left-width: 0px; border-bottom-style: none\">definition</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.searchParam.definition</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.searchParam.definition` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.definition` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.searchParam.definition`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.searchParam.definition</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.searchParam.definition` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.definition` is mapped to FHIR DSTU2 element `Conformance.rest.resource.searchParam.definition`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource.searchParam.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.searchParam.type</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.searchParam.type` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.type` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.searchParam.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.searchParam.type</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.searchParam.type` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.type` is mapped to FHIR DSTU2 element `Conformance.rest.resource.searchParam.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource.searchParam.documentation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">documentation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.searchParam.documentation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.searchParam.documentation` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.documentation` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.searchParam.documentation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.searchParam.documentation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.searchParam.documentation` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.documentation` is mapped to FHIR DSTU2 element `Conformance.rest.resource.searchParam.documentation`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource.operation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">operation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.operation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.operation` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.operation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.operation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.operation` is mapped to FHIR STU3 element `CapabilityStatement.rest.operation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.operation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.operation` is mapped to FHIR DSTU2 element `Conformance.rest.operation`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource.operation.name</td><td style=\"border-left-width: 0px; border-bottom-style: none\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.operation.name</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.operation.name` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.name` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.operation.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.operation.name</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.operation.name` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.name` is mapped to FHIR STU3 element `CapabilityStatement.rest.operation.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.operation.name</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.operation.name` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.name` is mapped to FHIR DSTU2 element `Conformance.rest.operation.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource.operation.definition</td><td style=\"border-left-width: 0px; border-bottom-style: none\">definition</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.operation.definition</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.operation.definition` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.definition` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.operation.definition`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.operation.definition</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.operation.definition` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.definition` is mapped to FHIR STU3 element `CapabilityStatement.rest.operation.definition`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.operation.definition</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.operation.definition` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.definition` is mapped to FHIR DSTU2 element `Conformance.rest.operation.definition`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.resource.operation.documentation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">documentation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.operation.documentation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.operation.documentation` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.documentation` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.operation.documentation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.resource.operation.documentation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.resource.operation.documentation` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.documentation` is mapped to FHIR STU3 structure `CapabilityStatement`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.interaction</td><td style=\"border-left-width: 0px; border-bottom-style: none\">interaction</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.interaction</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.interaction` is mapped to FHIR R4B element `CapabilityStatement.rest.interaction`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.interaction</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.interaction` is mapped to FHIR DSTU2 element `Conformance.rest.interaction`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.interaction.code</td><td style=\"border-left-width: 0px; border-bottom-style: none\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.interaction.code</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.interaction.code` is mapped to FHIR R4B element `CapabilityStatement.rest.interaction.code`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.interaction.code</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.interaction.code` is mapped to FHIR DSTU2 element `Conformance.rest.interaction.code`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.interaction.documentation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">documentation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.interaction.documentation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.interaction.documentation` is mapped to FHIR R4B element `CapabilityStatement.rest.interaction.documentation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.interaction.documentation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.interaction.documentation` is mapped to FHIR DSTU2 element `Conformance.rest.interaction.documentation`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.searchParam</td><td style=\"border-left-width: 0px; border-bottom-style: none\">searchParam</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.searchParam</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.searchParam` is mapped to FHIR R4B element `CapabilityStatement.rest.searchParam`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.searchParam</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.searchParam` is mapped to FHIR DSTU2 element `Conformance.rest.searchParam`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.searchParam.name</td><td style=\"border-left-width: 0px; border-bottom-style: none\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.searchParam.name</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.searchParam.name` is mapped to FHIR R4B element `CapabilityStatement.rest.searchParam.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.searchParam.name</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.searchParam.name` is mapped to FHIR DSTU2 element `Conformance.rest.searchParam.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.searchParam.definition</td><td style=\"border-left-width: 0px; border-bottom-style: none\">definition</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.searchParam.definition</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.searchParam.definition` is mapped to FHIR R4B element `CapabilityStatement.rest.searchParam.definition`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.searchParam.definition</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.searchParam.definition` is mapped to FHIR DSTU2 element `Conformance.rest.searchParam.definition`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.searchParam.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.searchParam.type</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.searchParam.type` is mapped to FHIR R4B element `CapabilityStatement.rest.searchParam.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.searchParam.type</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.searchParam.type` is mapped to FHIR DSTU2 element `Conformance.rest.searchParam.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.searchParam.documentation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">documentation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.searchParam.documentation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.searchParam.documentation` is mapped to FHIR R4B element `CapabilityStatement.rest.searchParam.documentation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.searchParam.documentation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.searchParam.documentation` is mapped to FHIR DSTU2 element `Conformance.rest.searchParam.documentation`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.operation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">operation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.operation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.operation` is mapped to FHIR R4B element `CapabilityStatement.rest.operation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.operation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.operation` is mapped to FHIR DSTU2 element `Conformance.rest.operation`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.compartment</td><td style=\"border-left-width: 0px; border-bottom-style: none\">compartment</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.compartment</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.compartment` is mapped to FHIR R4B element `CapabilityStatement.rest.compartment`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.compartment</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.compartment` is mapped to FHIR DSTU2 element `Conformance.rest.compartment`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.messaging</td><td style=\"border-left-width: 0px; border-bottom-style: none\">messaging</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.messaging` is mapped to FHIR R4B element `CapabilityStatement.messaging`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.messaging</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.messaging` is mapped to FHIR DSTU2 element `Conformance.messaging`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.operation.name</td><td style=\"border-left-width: 0px; border-bottom-style: none\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.operation.name</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.operation.name` is mapped to FHIR R4B element `CapabilityStatement.rest.operation.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.operation.name</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.operation.name` is mapped to FHIR DSTU2 element `Conformance.rest.operation.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.messaging.endpoint</td><td style=\"border-left-width: 0px; border-bottom-style: none\">endpoint</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging.endpoint</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.messaging.endpoint` is mapped to FHIR R4B element `CapabilityStatement.messaging.endpoint`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.messaging.endpoint</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.messaging.endpoint` is mapped to FHIR DSTU2 element `Conformance.messaging.endpoint`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.operation.definition</td><td style=\"border-left-width: 0px; border-bottom-style: none\">definition</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.operation.definition</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.operation.definition` is mapped to FHIR R4B element `CapabilityStatement.rest.operation.definition`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.operation.definition</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.operation.definition` is mapped to FHIR DSTU2 element `Conformance.rest.operation.definition`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.rest.operation.documentation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">documentation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.operation.documentation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.operation.documentation` is mapped to FHIR R4B element `CapabilityStatement.rest.operation.documentation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.operation.documentation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.rest.operation.documentation` is mapped to FHIR STU3 structure `CapabilityStatement`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.messaging.endpoint.protocol</td><td style=\"border-left-width: 0px; border-bottom-style: none\">protocol</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging.endpoint.protocol</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.messaging.endpoint.protocol` is mapped to FHIR R4B element `CapabilityStatement.messaging.endpoint.protocol`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.messaging.endpoint.protocol</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.messaging.endpoint.protocol` is mapped to FHIR DSTU2 element `Conformance.messaging.endpoint.protocol`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.messaging.endpoint.address</td><td style=\"border-left-width: 0px; border-bottom-style: none\">address</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging.endpoint.address</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.messaging.endpoint.address` is mapped to FHIR R4B element `CapabilityStatement.messaging.endpoint.address`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.messaging.endpoint.address</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.messaging.endpoint.address` is mapped to FHIR DSTU2 element `Conformance.messaging.endpoint.address`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.messaging.reliableCache</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reliableCache</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging.reliableCache</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.messaging.reliableCache` is mapped to FHIR R4B element `CapabilityStatement.messaging.reliableCache`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.messaging.reliableCache</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.messaging.reliableCache` is mapped to FHIR DSTU2 element `Conformance.messaging.reliableCache`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.messaging.documentation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">documentation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging.documentation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.messaging.documentation` is mapped to FHIR R4B element `CapabilityStatement.messaging.documentation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.messaging.documentation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.messaging.documentation` is mapped to FHIR DSTU2 element `Conformance.messaging.documentation`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.messaging.supportedMessage</td><td style=\"border-left-width: 0px; border-bottom-style: none\">supportedMessage</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging.supportedMessage</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.messaging.supportedMessage` is mapped to FHIR R4B element `CapabilityStatement.messaging.supportedMessage`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.messaging.supportedMessage</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.messaging.supportedMessage` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.messaging.supportedMessage.mode</td><td style=\"border-left-width: 0px; border-bottom-style: none\">mode</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging.supportedMessage.mode</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.messaging.supportedMessage.mode` is mapped to FHIR R4B element `CapabilityStatement.messaging.supportedMessage.mode`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.messaging.supportedMessage:mode</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.messaging.supportedMessage.mode` is part of an existing definition because parent element `CapabilityStatement.messaging.supportedMessage` requires a cross-version extension.\nElement `CapabilityStatement.messaging.supportedMessage.mode` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.messaging.supportedMessage.definition</td><td style=\"border-left-width: 0px; border-bottom-style: none\">definition</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging.supportedMessage.definition</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.messaging.supportedMessage.definition` is mapped to FHIR R4B element `CapabilityStatement.messaging.supportedMessage.definition`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.messaging.supportedMessage:definition</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.messaging.supportedMessage.definition` is part of an existing definition because parent element `CapabilityStatement.messaging.supportedMessage` requires a cross-version extension.\nElement `CapabilityStatement.messaging.supportedMessage.definition` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.document</td><td style=\"border-left-width: 0px; border-bottom-style: none\">document</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.document</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.document` is mapped to FHIR R4B element `CapabilityStatement.document`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.document</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.document` is mapped to FHIR DSTU2 element `Conformance.document`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.document.mode</td><td style=\"border-left-width: 0px; border-bottom-style: none\">mode</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.document.mode</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.document.mode` is mapped to FHIR R4B element `CapabilityStatement.document.mode`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.document.mode</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.document.mode` is mapped to FHIR DSTU2 element `Conformance.document.mode`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.document.documentation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">documentation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.document.documentation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.document.documentation` is mapped to FHIR R4B element `CapabilityStatement.document.documentation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.document.documentation</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.document.documentation` is mapped to FHIR DSTU2 element `Conformance.document.documentation`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CapabilityStatement.document.profile</td><td style=\"border-left-width: 0px; border-bottom-style: none\">profile</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.document.profile</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.document.profile` is mapped to FHIR R4B element `CapabilityStatement.document.profile`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.document.profile</td><td style=\"border-left-width: 0px\"/><td>Element `CapabilityStatement.document.profile` is mapped to FHIR DSTU2 element `Conformance.document.profile`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-CapabilityStatement-elements-for-R4-CapabilityStatement"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-CapabilityStatement-elements-for-R4-CapabilityStatement>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5CapabilityStatementElementsForR4CapabilityStatement"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:31.1533608-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/CapabilityStatement>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "CapabilityStatement" ] ;
+       fhir:display [ fhir:v "CapabilityStatement" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `CapabilityStatement` is representable via FHIR R4B Resource `CapabilityStatement`.\nElement `CapabilityStatement` is mapped to FHIR R4B element `CapabilityStatement`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `CapabilityStatement` is representable via FHIR DSTU2 Resource `Conformance`.\nElement `CapabilityStatement` is mapped to FHIR DSTU2 element `Conformance`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.meta` is mapped to FHIR R4B element `CapabilityStatement.meta`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.meta` is mapped to FHIR DSTU2 element `Conformance.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.implicitRules` is mapped to FHIR R4B element `CapabilityStatement.implicitRules`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.implicitRules` is mapped to FHIR DSTU2 element `Conformance.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.language` is mapped to FHIR R4B element `CapabilityStatement.language`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.language` is mapped to FHIR DSTU2 element `Conformance.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.text` is mapped to FHIR R4B element `CapabilityStatement.text`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.text` is mapped to FHIR DSTU2 element `Conformance.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.contained` is mapped to FHIR R4B element `CapabilityStatement.contained`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.contained` is mapped to FHIR DSTU2 element `Conformance.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.url" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.url` is mapped to FHIR R4B element `CapabilityStatement.url`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.url" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.url` is mapped to FHIR DSTU2 element `Conformance.url`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `CapabilityStatement.identifier` is mapped to FHIR R4B structure `CapabilityStatement`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.version" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.version` is mapped to FHIR R4B element `CapabilityStatement.version`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.version" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.version` is mapped to FHIR DSTU2 element `Conformance.version`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.versionAlgorithm[x]" ] ;
+       fhir:display [ fhir:v "versionAlgorithm[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.versionAlgorithm" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.versionAlgorithm[x]` is mapped to FHIR R4B structure `CapabilityStatement`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.name` is mapped to FHIR R4B element `CapabilityStatement.name`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.name` is mapped to FHIR DSTU2 element `Conformance.name`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.title" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.title` is mapped to FHIR R4B element `CapabilityStatement.title`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.title" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.title` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.status` is mapped to FHIR R4B element `CapabilityStatement.status`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Conformance.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `CapabilityStatement.status` is mapped to FHIR DSTU2 element `Conformance.status`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.experimental" ] ;
+       fhir:display [ fhir:v "experimental" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.experimental" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.experimental` is mapped to FHIR R4B element `CapabilityStatement.experimental`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.experimental" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.experimental` is mapped to FHIR DSTU2 element `Conformance.experimental`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.date` is mapped to FHIR R4B element `CapabilityStatement.date`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.date` is mapped to FHIR DSTU2 element `Conformance.date`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.publisher" ] ;
+       fhir:display [ fhir:v "publisher" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.publisher" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.publisher` is mapped to FHIR R4B element `CapabilityStatement.publisher`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.publisher" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.publisher` is mapped to FHIR DSTU2 element `Conformance.publisher`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.contact" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.contact` is mapped to FHIR R4B element `CapabilityStatement.contact`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.contact" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.contact` is mapped to FHIR DSTU2 element `Conformance.contact`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.description` is mapped to FHIR R4B element `CapabilityStatement.description`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.description` is mapped to FHIR DSTU2 element `Conformance.description`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.useContext" ] ;
+       fhir:display [ fhir:v "useContext" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.useContext" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.useContext` is mapped to FHIR R4B element `CapabilityStatement.useContext`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.useContext" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.useContext` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.jurisdiction` is mapped to FHIR R4B element `CapabilityStatement.jurisdiction`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.jurisdiction` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.purpose" ] ;
+       fhir:display [ fhir:v "purpose" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.purpose" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.purpose` is mapped to FHIR R4B element `CapabilityStatement.purpose`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.requirements" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.purpose` is mapped to FHIR DSTU2 element `Conformance.requirements`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.copyright" ] ;
+       fhir:display [ fhir:v "copyright" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.copyright" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.copyright` is mapped to FHIR R4B element `CapabilityStatement.copyright`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.copyright" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.copyright` is mapped to FHIR DSTU2 element `Conformance.copyright`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.copyrightLabel" ] ;
+       fhir:display [ fhir:v "copyrightLabel" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.copyrightLabel" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.copyrightLabel` is mapped to FHIR R4B structure `CapabilityStatement`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.kind" ] ;
+       fhir:display [ fhir:v "kind" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.kind" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.kind` is mapped to FHIR R4B element `CapabilityStatement.kind`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.kind" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.kind` is mapped to FHIR DSTU2 element `Conformance.kind`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.instantiates" ] ;
+       fhir:display [ fhir:v "instantiates" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.instantiates" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.instantiates` is mapped to FHIR R4B element `CapabilityStatement.instantiates`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.instantiates" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.instantiates` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.imports" ] ;
+       fhir:display [ fhir:v "imports" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.imports" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.imports` is mapped to FHIR R4B element `CapabilityStatement.imports`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.imports" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.imports` is mapped to FHIR STU3 structure `CapabilityStatement`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.software" ] ;
+       fhir:display [ fhir:v "software" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.software" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.software` is mapped to FHIR R4B element `CapabilityStatement.software`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.software" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.software` is mapped to FHIR DSTU2 element `Conformance.software`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.software.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.software.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.software.name` is mapped to FHIR R4B element `CapabilityStatement.software.name`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.software.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.software.name` is mapped to FHIR DSTU2 element `Conformance.software.name`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.software.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.software.version" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.software.version` is mapped to FHIR R4B element `CapabilityStatement.software.version`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.software.version" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.software.version` is mapped to FHIR DSTU2 element `Conformance.software.version`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.software.releaseDate" ] ;
+       fhir:display [ fhir:v "releaseDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.software.releaseDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.software.releaseDate` is mapped to FHIR R4B element `CapabilityStatement.software.releaseDate`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.software.releaseDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.software.releaseDate` is mapped to FHIR DSTU2 element `Conformance.software.releaseDate`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.implementation" ] ;
+       fhir:display [ fhir:v "implementation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.implementation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.implementation` is mapped to FHIR R4B element `CapabilityStatement.implementation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.implementation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.implementation` is mapped to FHIR DSTU2 element `Conformance.implementation`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.implementation.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.implementation.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.implementation.description` is mapped to FHIR R4B element `CapabilityStatement.implementation.description`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.implementation.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.implementation.description` is mapped to FHIR DSTU2 element `Conformance.implementation.description`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.implementation.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.implementation.url" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.implementation.url` is mapped to FHIR R4B element `CapabilityStatement.implementation.url`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.implementation.url" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.implementation.url` is mapped to FHIR DSTU2 element `Conformance.implementation.url`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.implementation.custodian" ] ;
+       fhir:display [ fhir:v "custodian" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.implementation.custodian" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.implementation.custodian` is mapped to FHIR R4B element `CapabilityStatement.implementation.custodian`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.implementation.custodian" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.implementation.custodian` is mapped to FHIR STU3 structure `CapabilityStatement`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.fhirVersion" ] ;
+       fhir:display [ fhir:v "fhirVersion" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.fhirVersion" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.fhirVersion` is mapped to FHIR R4B element `CapabilityStatement.fhirVersion`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.fhirVersion" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.fhirVersion` is mapped to FHIR DSTU2 element `Conformance.fhirVersion`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.format" ] ;
+       fhir:display [ fhir:v "format" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.format" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.format` is mapped to FHIR R4B element `CapabilityStatement.format`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.format" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.format` is mapped to FHIR DSTU2 element `Conformance.format`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.patchFormat" ] ;
+       fhir:display [ fhir:v "patchFormat" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.patchFormat" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.patchFormat` is mapped to FHIR R4B element `CapabilityStatement.patchFormat`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.patchFormat" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.patchFormat` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.acceptLanguage" ] ;
+       fhir:display [ fhir:v "acceptLanguage" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.acceptLanguage" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.acceptLanguage` is mapped to FHIR R4B structure `CapabilityStatement`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.implementationGuide" ] ;
+       fhir:display [ fhir:v "implementationGuide" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.implementationGuide" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.implementationGuide` is mapped to FHIR R4B element `CapabilityStatement.implementationGuide`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.implementationGuide" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.implementationGuide` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest" ] ;
+       fhir:display [ fhir:v "rest" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest` is mapped to FHIR R4B element `CapabilityStatement.rest`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest` is mapped to FHIR DSTU2 element `Conformance.rest`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.mode" ] ;
+       fhir:display [ fhir:v "mode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.mode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.mode` is mapped to FHIR R4B element `CapabilityStatement.rest.mode`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.mode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.mode` is mapped to FHIR DSTU2 element `Conformance.rest.mode`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.documentation" ] ;
+       fhir:display [ fhir:v "documentation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.documentation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.documentation` is mapped to FHIR R4B element `CapabilityStatement.rest.documentation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.documentation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.documentation` is mapped to FHIR DSTU2 element `Conformance.rest.documentation`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.security" ] ;
+       fhir:display [ fhir:v "security" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.security" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.security` is mapped to FHIR R4B element `CapabilityStatement.rest.security`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.security" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.security` is mapped to FHIR DSTU2 element `Conformance.rest.security`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.security.cors" ] ;
+       fhir:display [ fhir:v "cors" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.security.cors" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.security.cors` is mapped to FHIR R4B element `CapabilityStatement.rest.security.cors`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.security.cors" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.security.cors` is mapped to FHIR DSTU2 element `Conformance.rest.security.cors`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.security.service" ] ;
+       fhir:display [ fhir:v "service" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.security.service" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.security.service` is mapped to FHIR R4B element `CapabilityStatement.rest.security.service`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.security.service" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.security.service` is mapped to FHIR DSTU2 element `Conformance.rest.security.service`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.security.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.security.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.security.description` is mapped to FHIR R4B element `CapabilityStatement.rest.security.description`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.security.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.security.description` is mapped to FHIR DSTU2 element `Conformance.rest.security.description`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource" ] ;
+       fhir:display [ fhir:v "resource" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource` is mapped to FHIR R4B element `CapabilityStatement.rest.resource`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource` is mapped to FHIR DSTU2 element `Conformance.rest.resource`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.type` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.type`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.type` is mapped to FHIR DSTU2 element `Conformance.rest.resource.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.profile" ] ;
+       fhir:display [ fhir:v "profile" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.profile" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.profile` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.profile`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.profile" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.profile` is mapped to FHIR DSTU2 element `Conformance.rest.resource.profile`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.supportedProfile" ] ;
+       fhir:display [ fhir:v "supportedProfile" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.supportedProfile" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.supportedProfile`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.profile" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR STU3 element `CapabilityStatement.profile`.\nElement `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR STU3 element `CapabilityStatement.rest.resource.profile`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.profile" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR STU3 element `CapabilityStatement.profile`.\nElement `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR STU3 element `CapabilityStatement.rest.resource.profile`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.profile" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR DSTU2 element `Conformance.profile`.\nElement `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR DSTU2 element `Conformance.rest.resource.profile`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.profile" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR DSTU2 element `Conformance.profile`.\nElement `CapabilityStatement.rest.resource.supportedProfile` is mapped to FHIR DSTU2 element `Conformance.rest.resource.profile`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.documentation" ] ;
+       fhir:display [ fhir:v "documentation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.documentation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.documentation` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.documentation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.resource.documentation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.documentation` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.interaction" ] ;
+       fhir:display [ fhir:v "interaction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.interaction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.interaction` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.interaction`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.interaction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.interaction` is mapped to FHIR DSTU2 element `Conformance.rest.resource.interaction`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.interaction.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.interaction.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.interaction.code` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.interaction.code`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.interaction.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.interaction.code` is mapped to FHIR DSTU2 element `Conformance.rest.resource.interaction.code`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.interaction.documentation" ] ;
+       fhir:display [ fhir:v "documentation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.interaction.documentation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.interaction.documentation` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.interaction.documentation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.interaction.documentation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.interaction.documentation` is mapped to FHIR DSTU2 element `Conformance.rest.resource.interaction.documentation`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.versioning" ] ;
+       fhir:display [ fhir:v "versioning" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.versioning" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.versioning` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.versioning`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.versioning" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.versioning` is mapped to FHIR DSTU2 element `Conformance.rest.resource.versioning`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.readHistory" ] ;
+       fhir:display [ fhir:v "readHistory" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.readHistory" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.readHistory` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.readHistory`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.readHistory" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.readHistory` is mapped to FHIR DSTU2 element `Conformance.rest.resource.readHistory`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.updateCreate" ] ;
+       fhir:display [ fhir:v "updateCreate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.updateCreate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.updateCreate` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.updateCreate`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.updateCreate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.updateCreate` is mapped to FHIR DSTU2 element `Conformance.rest.resource.updateCreate`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.conditionalCreate" ] ;
+       fhir:display [ fhir:v "conditionalCreate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.conditionalCreate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.conditionalCreate` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.conditionalCreate`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.conditionalCreate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.conditionalCreate` is mapped to FHIR DSTU2 element `Conformance.rest.resource.conditionalCreate`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.conditionalRead" ] ;
+       fhir:display [ fhir:v "conditionalRead" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.conditionalRead" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.conditionalRead` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.conditionalRead`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.resource.conditionalRead" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.conditionalRead` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.conditionalUpdate" ] ;
+       fhir:display [ fhir:v "conditionalUpdate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.conditionalUpdate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.conditionalUpdate` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.conditionalUpdate`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.conditionalUpdate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.conditionalUpdate` is mapped to FHIR DSTU2 element `Conformance.rest.resource.conditionalUpdate`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.conditionalPatch" ] ;
+       fhir:display [ fhir:v "conditionalPatch" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.resource.conditionalPatch" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.conditionalPatch` is mapped to FHIR R4B structure `CapabilityStatement`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.conditionalDelete" ] ;
+       fhir:display [ fhir:v "conditionalDelete" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.conditionalDelete" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.conditionalDelete` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.conditionalDelete`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.conditionalDelete" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.conditionalDelete` is mapped to FHIR DSTU2 element `Conformance.rest.resource.conditionalDelete`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.referencePolicy" ] ;
+       fhir:display [ fhir:v "referencePolicy" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.referencePolicy" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.referencePolicy` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.referencePolicy`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.resource.referencePolicy" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.referencePolicy` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.searchInclude" ] ;
+       fhir:display [ fhir:v "searchInclude" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.searchInclude" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.searchInclude` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.searchInclude`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.searchInclude" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.searchInclude` is mapped to FHIR DSTU2 element `Conformance.rest.resource.searchInclude`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.searchRevInclude" ] ;
+       fhir:display [ fhir:v "searchRevInclude" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.searchRevInclude" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.searchRevInclude` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.searchRevInclude`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.searchRevInclude" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.searchRevInclude` is mapped to FHIR DSTU2 element `Conformance.rest.resource.searchRevInclude`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.searchParam" ] ;
+       fhir:display [ fhir:v "searchParam" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.searchParam" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.searchParam` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.searchParam`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.searchParam" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.searchParam` is mapped to FHIR DSTU2 element `Conformance.rest.resource.searchParam`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.searchParam.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.searchParam.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.searchParam.name` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.name` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.searchParam.name`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.searchParam.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.searchParam.name` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.name` is mapped to FHIR DSTU2 element `Conformance.rest.resource.searchParam.name`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.searchParam.definition" ] ;
+       fhir:display [ fhir:v "definition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.searchParam.definition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.searchParam.definition` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.definition` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.searchParam.definition`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.searchParam.definition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.searchParam.definition` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.definition` is mapped to FHIR DSTU2 element `Conformance.rest.resource.searchParam.definition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.searchParam.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.searchParam.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.searchParam.type` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.type` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.searchParam.type`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.searchParam.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.searchParam.type` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.type` is mapped to FHIR DSTU2 element `Conformance.rest.resource.searchParam.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.searchParam.documentation" ] ;
+       fhir:display [ fhir:v "documentation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.searchParam.documentation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.searchParam.documentation` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.documentation` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.searchParam.documentation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.resource.searchParam.documentation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.searchParam.documentation` is part of an existing definition because parent element `CapabilityStatement.rest.resource.searchParam` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.searchParam.documentation` is mapped to FHIR DSTU2 element `Conformance.rest.resource.searchParam.documentation`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.operation" ] ;
+       fhir:display [ fhir:v "operation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.operation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.operation` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.operation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.operation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.operation` is mapped to FHIR STU3 element `CapabilityStatement.rest.operation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.operation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.operation` is mapped to FHIR DSTU2 element `Conformance.rest.operation`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.operation.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.operation.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.operation.name` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.name` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.operation.name`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.operation.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.operation.name` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.name` is mapped to FHIR STU3 element `CapabilityStatement.rest.operation.name`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.operation.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.operation.name` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.name` is mapped to FHIR DSTU2 element `Conformance.rest.operation.name`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.operation.definition" ] ;
+       fhir:display [ fhir:v "definition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.operation.definition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.operation.definition` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.definition` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.operation.definition`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.operation.definition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.operation.definition` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.definition` is mapped to FHIR STU3 element `CapabilityStatement.rest.operation.definition`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.operation.definition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.operation.definition` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.definition` is mapped to FHIR DSTU2 element `Conformance.rest.operation.definition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.resource.operation.documentation" ] ;
+       fhir:display [ fhir:v "documentation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.resource.operation.documentation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.operation.documentation` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.documentation` is mapped to FHIR R4B element `CapabilityStatement.rest.resource.operation.documentation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.resource.operation.documentation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.resource.operation.documentation` is part of an existing definition because parent element `CapabilityStatement.rest.resource.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `CapabilityStatement.rest.resource.operation.documentation` is mapped to FHIR STU3 structure `CapabilityStatement`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.interaction" ] ;
+       fhir:display [ fhir:v "interaction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.interaction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.interaction` is mapped to FHIR R4B element `CapabilityStatement.rest.interaction`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.interaction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.interaction` is mapped to FHIR DSTU2 element `Conformance.rest.interaction`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.interaction.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.interaction.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.interaction.code` is mapped to FHIR R4B element `CapabilityStatement.rest.interaction.code`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.interaction.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.interaction.code` is mapped to FHIR DSTU2 element `Conformance.rest.interaction.code`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.interaction.documentation" ] ;
+       fhir:display [ fhir:v "documentation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.interaction.documentation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.interaction.documentation` is mapped to FHIR R4B element `CapabilityStatement.rest.interaction.documentation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.interaction.documentation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.interaction.documentation` is mapped to FHIR DSTU2 element `Conformance.rest.interaction.documentation`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.searchParam" ] ;
+       fhir:display [ fhir:v "searchParam" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.searchParam" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.searchParam` is mapped to FHIR R4B element `CapabilityStatement.rest.searchParam`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.searchParam" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.searchParam` is mapped to FHIR DSTU2 element `Conformance.rest.searchParam`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.searchParam.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.searchParam.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.searchParam.name` is mapped to FHIR R4B element `CapabilityStatement.rest.searchParam.name`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.searchParam.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.searchParam.name` is mapped to FHIR DSTU2 element `Conformance.rest.searchParam.name`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.searchParam.definition" ] ;
+       fhir:display [ fhir:v "definition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.searchParam.definition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.searchParam.definition` is mapped to FHIR R4B element `CapabilityStatement.rest.searchParam.definition`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.searchParam.definition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.searchParam.definition` is mapped to FHIR DSTU2 element `Conformance.rest.searchParam.definition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.searchParam.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.searchParam.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.searchParam.type` is mapped to FHIR R4B element `CapabilityStatement.rest.searchParam.type`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.searchParam.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.searchParam.type` is mapped to FHIR DSTU2 element `Conformance.rest.searchParam.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.searchParam.documentation" ] ;
+       fhir:display [ fhir:v "documentation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.searchParam.documentation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.searchParam.documentation` is mapped to FHIR R4B element `CapabilityStatement.rest.searchParam.documentation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.searchParam.documentation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.searchParam.documentation` is mapped to FHIR DSTU2 element `Conformance.rest.searchParam.documentation`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.operation" ] ;
+       fhir:display [ fhir:v "operation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.operation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.operation` is mapped to FHIR R4B element `CapabilityStatement.rest.operation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.operation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.operation` is mapped to FHIR DSTU2 element `Conformance.rest.operation`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.compartment" ] ;
+       fhir:display [ fhir:v "compartment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.compartment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.compartment` is mapped to FHIR R4B element `CapabilityStatement.rest.compartment`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.compartment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.compartment` is mapped to FHIR DSTU2 element `Conformance.rest.compartment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.messaging" ] ;
+       fhir:display [ fhir:v "messaging" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging` is mapped to FHIR R4B element `CapabilityStatement.messaging`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.messaging" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging` is mapped to FHIR DSTU2 element `Conformance.messaging`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.operation.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.operation.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.operation.name` is mapped to FHIR R4B element `CapabilityStatement.rest.operation.name`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.operation.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.operation.name` is mapped to FHIR DSTU2 element `Conformance.rest.operation.name`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.messaging.endpoint" ] ;
+       fhir:display [ fhir:v "endpoint" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging.endpoint" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging.endpoint` is mapped to FHIR R4B element `CapabilityStatement.messaging.endpoint`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.messaging.endpoint" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging.endpoint` is mapped to FHIR DSTU2 element `Conformance.messaging.endpoint`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.operation.definition" ] ;
+       fhir:display [ fhir:v "definition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.operation.definition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.operation.definition` is mapped to FHIR R4B element `CapabilityStatement.rest.operation.definition`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.rest.operation.definition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.operation.definition` is mapped to FHIR DSTU2 element `Conformance.rest.operation.definition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.rest.operation.documentation" ] ;
+       fhir:display [ fhir:v "documentation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.rest.operation.documentation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.operation.documentation` is mapped to FHIR R4B element `CapabilityStatement.rest.operation.documentation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.operation.documentation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.rest.operation.documentation` is mapped to FHIR STU3 structure `CapabilityStatement`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.messaging.endpoint.protocol" ] ;
+       fhir:display [ fhir:v "protocol" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging.endpoint.protocol" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging.endpoint.protocol` is mapped to FHIR R4B element `CapabilityStatement.messaging.endpoint.protocol`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.messaging.endpoint.protocol" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging.endpoint.protocol` is mapped to FHIR DSTU2 element `Conformance.messaging.endpoint.protocol`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.messaging.endpoint.address" ] ;
+       fhir:display [ fhir:v "address" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging.endpoint.address" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging.endpoint.address` is mapped to FHIR R4B element `CapabilityStatement.messaging.endpoint.address`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.messaging.endpoint.address" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging.endpoint.address` is mapped to FHIR DSTU2 element `Conformance.messaging.endpoint.address`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.messaging.reliableCache" ] ;
+       fhir:display [ fhir:v "reliableCache" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging.reliableCache" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging.reliableCache` is mapped to FHIR R4B element `CapabilityStatement.messaging.reliableCache`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.messaging.reliableCache" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging.reliableCache` is mapped to FHIR DSTU2 element `Conformance.messaging.reliableCache`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.messaging.documentation" ] ;
+       fhir:display [ fhir:v "documentation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging.documentation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging.documentation` is mapped to FHIR R4B element `CapabilityStatement.messaging.documentation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.messaging.documentation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging.documentation` is mapped to FHIR DSTU2 element `Conformance.messaging.documentation`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.messaging.supportedMessage" ] ;
+       fhir:display [ fhir:v "supportedMessage" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging.supportedMessage" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging.supportedMessage` is mapped to FHIR R4B element `CapabilityStatement.messaging.supportedMessage`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.messaging.supportedMessage" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging.supportedMessage` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.messaging.supportedMessage.mode" ] ;
+       fhir:display [ fhir:v "mode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging.supportedMessage.mode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging.supportedMessage.mode` is mapped to FHIR R4B element `CapabilityStatement.messaging.supportedMessage.mode`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.messaging.supportedMessage:mode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging.supportedMessage.mode` is part of an existing definition because parent element `CapabilityStatement.messaging.supportedMessage` requires a cross-version extension.\nElement `CapabilityStatement.messaging.supportedMessage.mode` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.messaging.supportedMessage.definition" ] ;
+       fhir:display [ fhir:v "definition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.messaging.supportedMessage.definition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging.supportedMessage.definition` is mapped to FHIR R4B element `CapabilityStatement.messaging.supportedMessage.definition`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.messaging.supportedMessage:definition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.messaging.supportedMessage.definition` is part of an existing definition because parent element `CapabilityStatement.messaging.supportedMessage` requires a cross-version extension.\nElement `CapabilityStatement.messaging.supportedMessage.definition` is mapped to FHIR DSTU2 structure `Conformance`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.document" ] ;
+       fhir:display [ fhir:v "document" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.document" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.document` is mapped to FHIR R4B element `CapabilityStatement.document`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.document" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.document` is mapped to FHIR DSTU2 element `Conformance.document`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.document.mode" ] ;
+       fhir:display [ fhir:v "mode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.document.mode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.document.mode` is mapped to FHIR R4B element `CapabilityStatement.document.mode`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.document.mode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.document.mode` is mapped to FHIR DSTU2 element `Conformance.document.mode`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.document.documentation" ] ;
+       fhir:display [ fhir:v "documentation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.document.documentation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.document.documentation` is mapped to FHIR R4B element `CapabilityStatement.document.documentation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.document.documentation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.document.documentation` is mapped to FHIR DSTU2 element `Conformance.document.documentation`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CapabilityStatement.document.profile" ] ;
+       fhir:display [ fhir:v "profile" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#CapabilityStatement.document.profile" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.document.profile` is mapped to FHIR R4B element `CapabilityStatement.document.profile`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement#Conformance.document.profile" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CapabilityStatement.document.profile` is mapped to FHIR DSTU2 element `Conformance.document.profile`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

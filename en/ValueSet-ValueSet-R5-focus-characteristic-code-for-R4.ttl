@@ -1,0 +1,224 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/ValueSet-R5-focus-characteristic-code-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ValueSet-R5-focus-characteristic-code-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ValueSet-R5-focus-characteristic-code-for-R4</b></p><a name=\"ValueSet-R5-focus-characteristic-code-for-R4\"> </a><a name=\"hcValueSet-R5-focus-characteristic-code-for-R4\"> </a><p>This value set expansion contains 8 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"ValueSet-R5-focus-characteristic-code-for-R4-http://hl7.org/fhir/focus-characteristic-code-citation\"> </a><code>http://hl7.org/fhir/focus-characteristic-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-focus-characteristic-code.html#focus-characteristic-code-citation\">citation</a></td><td>Citation</td><td>Used to reference a specific article.</td></tr><tr><td><a name=\"ValueSet-R5-focus-characteristic-code-for-R4-http://hl7.org/fhir/focus-characteristic-code-clinical-outcomes-observed\"> </a><code>http://hl7.org/fhir/focus-characteristic-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-focus-characteristic-code.html#focus-characteristic-code-clinical-outcomes-observed\">clinical-outcomes-observed</a></td><td>Observed outcomes are clinical outcomes</td><td>Used to denote a focus on clinical outcomes, ie evidence variable in role of outcome (measured variable) as observed is considered a \"clinical outcome\" (patient-important outcome such as mortality, symptoms, function or quality of life).</td></tr><tr><td><a name=\"ValueSet-R5-focus-characteristic-code-for-R4-http://hl7.org/fhir/focus-characteristic-code-comparator\"> </a><code>http://hl7.org/fhir/focus-characteristic-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-focus-characteristic-code.html#focus-characteristic-code-comparator\">comparator</a></td><td>Comparator</td><td>The comparator (intervention or control state) of interest.</td></tr><tr><td><a name=\"ValueSet-R5-focus-characteristic-code-for-R4-http://hl7.org/fhir/focus-characteristic-code-exposure\"> </a><code>http://hl7.org/fhir/focus-characteristic-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-focus-characteristic-code.html#focus-characteristic-code-exposure\">exposure</a></td><td>Exposure</td><td>The exposure of interest, such as an intervention.</td></tr><tr><td><a name=\"ValueSet-R5-focus-characteristic-code-for-R4-http://hl7.org/fhir/focus-characteristic-code-medication-exposures\"> </a><code>http://hl7.org/fhir/focus-characteristic-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-focus-characteristic-code.html#focus-characteristic-code-medication-exposures\">medication-exposures</a></td><td>Medication exposures</td><td>Any medication exposures. A subset of exposures or interventions that are medications.</td></tr><tr><td><a name=\"ValueSet-R5-focus-characteristic-code-for-R4-http://hl7.org/fhir/focus-characteristic-code-outcome\"> </a><code>http://hl7.org/fhir/focus-characteristic-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-focus-characteristic-code.html#focus-characteristic-code-outcome\">outcome</a></td><td>Outcome</td><td>the outcome of interest.</td></tr><tr><td><a name=\"ValueSet-R5-focus-characteristic-code-for-R4-http://hl7.org/fhir/focus-characteristic-code-population\"> </a><code>http://hl7.org/fhir/focus-characteristic-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-focus-characteristic-code.html#focus-characteristic-code-population\">population</a></td><td>Population</td><td>The population of interest.</td></tr><tr><td><a name=\"ValueSet-R5-focus-characteristic-code-for-R4-http://hl7.org/fhir/focus-characteristic-code-study-type\"> </a><code>http://hl7.org/fhir/focus-characteristic-code</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-focus-characteristic-code.html#focus-characteristic-code-study-type\">study-type</a></td><td>Study type</td><td>Type of research study, such as randomized trial or case-control study.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "cds"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-focus-characteristic-code-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-focus-characteristic-code-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ValueSetR5FocusCharacteristicCodeForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.FocusCharacteristicCode for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Clinical Decision Support"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Clinical Decision Support" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/dss" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/focus-characteristic-code|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/focus-characteristic-code|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `EvidenceReport.subject.characteristic.code` as Extensible\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/focus-characteristic-code|5.0.0`\n* `http://hl7.org/fhir/ValueSet/focus-characteristic-code|4.3.0`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\nAll concepts in the comparison are listed as identical.\nThe source and target value sets have the same number of active concepts (8)."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/focus-characteristic-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/focus-characteristic-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "citation" ] ;
+         fhir:display [ fhir:v "Citation" ]
+       ] [
+         fhir:code [ fhir:v "clinical-outcomes-observed" ] ;
+         fhir:display [ fhir:v "Observed outcomes are clinical outcomes" ]
+       ] [
+         fhir:code [ fhir:v "comparator" ] ;
+         fhir:display [ fhir:v "Comparator" ]
+       ] [
+         fhir:code [ fhir:v "exposure" ] ;
+         fhir:display [ fhir:v "Exposure" ]
+       ] [
+         fhir:code [ fhir:v "medication-exposures" ] ;
+         fhir:display [ fhir:v "Medication exposures" ]
+       ] [
+         fhir:code [ fhir:v "outcome" ] ;
+         fhir:display [ fhir:v "Outcome" ]
+       ] [
+         fhir:code [ fhir:v "population" ] ;
+         fhir:display [ fhir:v "Population" ]
+       ] [
+         fhir:code [ fhir:v "study-type" ] ;
+         fhir:display [ fhir:v "Study type" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/focus-characteristic-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/focus-characteristic-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "citation" ] ;
+       fhir:display [ fhir:v "Citation" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/focus-characteristic-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/focus-characteristic-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "clinical-outcomes-observed" ] ;
+       fhir:display [ fhir:v "Observed outcomes are clinical outcomes" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/focus-characteristic-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/focus-characteristic-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "comparator" ] ;
+       fhir:display [ fhir:v "Comparator" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/focus-characteristic-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/focus-characteristic-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "exposure" ] ;
+       fhir:display [ fhir:v "Exposure" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/focus-characteristic-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/focus-characteristic-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "medication-exposures" ] ;
+       fhir:display [ fhir:v "Medication exposures" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/focus-characteristic-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/focus-characteristic-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "outcome" ] ;
+       fhir:display [ fhir:v "Outcome" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/focus-characteristic-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/focus-characteristic-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "population" ] ;
+       fhir:display [ fhir:v "Population" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/focus-characteristic-code"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/focus-characteristic-code>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "study-type" ] ;
+       fhir:display [ fhir:v "Study type" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

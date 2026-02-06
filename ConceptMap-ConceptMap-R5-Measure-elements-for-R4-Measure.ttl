@@ -1,0 +1,1240 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-Measure-elements-for-R4-Measure> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-Measure-elements-for-R4-Measure"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-Measure-elements-for-R4-Measure</b></p><a name=\"ConceptMap-R5-Measure-elements-for-R4-Measure\"> </a><a name=\"hcConceptMap-R5-Measure-elements-for-R4-Measure\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Measure|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Measure|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure</td><td style=\"border-left-width: 0px; border-bottom-style: none\">Measure</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Measure` is representable via FHIR R4B Resource `Measure`.\nElement `Measure` is mapped to FHIR R4B element `Measure`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Measure` is representable via FHIR DSTU2 Resource `Basic`.\nElement `Measure` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.meta</td><td style=\"border-left-width: 0px; border-bottom-style: none\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.meta</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.meta` is mapped to FHIR R4B element `Measure.meta`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.meta</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.meta`, use that element instead.\nElement `Measure.meta` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.implicitRules</td><td style=\"border-left-width: 0px; border-bottom-style: none\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.implicitRules` is mapped to FHIR R4B element `Measure.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `Measure.implicitRules` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.language</td><td style=\"border-left-width: 0px; border-bottom-style: none\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.language</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.language` is mapped to FHIR R4B element `Measure.language`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.language</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.language`, use that element instead.\nElement `Measure.language` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.text</td><td style=\"border-left-width: 0px; border-bottom-style: none\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.text</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.text` is mapped to FHIR R4B element `Measure.text`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.text</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `Measure.text` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.contained</td><td style=\"border-left-width: 0px; border-bottom-style: none\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.contained</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.contained` is mapped to FHIR R4B element `Measure.contained`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.contained</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `Measure.contained` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.url</td><td style=\"border-left-width: 0px; border-bottom-style: none\">url</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.url</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.url` is mapped to FHIR R4B element `Measure.url`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:url</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.url` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.identifier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.identifier` is mapped to FHIR R4B element `Measure.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.identifier</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `Measure.identifier` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.version</td><td style=\"border-left-width: 0px; border-bottom-style: none\">version</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.version</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.version` is mapped to FHIR R4B element `Measure.version`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:version</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.version` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.versionAlgorithm[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">versionAlgorithm[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.versionAlgorithm</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.versionAlgorithm[x]` is mapped to FHIR R4B structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:versionAlgorithm</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.versionAlgorithm[x]` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.name</td><td style=\"border-left-width: 0px; border-bottom-style: none\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.name</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.name` is mapped to FHIR R4B element `Measure.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:name</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.name` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.title</td><td style=\"border-left-width: 0px; border-bottom-style: none\">title</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.title</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.title` is mapped to FHIR R4B element `Measure.title`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:title</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.title` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.subtitle</td><td style=\"border-left-width: 0px; border-bottom-style: none\">subtitle</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.subtitle</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.subtitle` is mapped to FHIR R4B element `Measure.subtitle`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.subtitle</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.subtitle` is mapped to FHIR STU3 structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:subtitle</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.subtitle` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.status</td><td style=\"border-left-width: 0px; border-bottom-style: none\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.status</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.status` is mapped to FHIR R4B element `Measure.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:status</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.status` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.experimental</td><td style=\"border-left-width: 0px; border-bottom-style: none\">experimental</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.experimental</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.experimental` is mapped to FHIR R4B element `Measure.experimental`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:experimental</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.experimental` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.subject[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">subject[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.subject[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Measure.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Measure`.\nElement `Measure.subject[x]` is mapped to FHIR R4B element `Measure.subject[x]`.\nNote that the target element context `Measure.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Measure`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.subject</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.subject[x]` is mapped to FHIR STU3 structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:subject</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.subject[x]` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.basis</td><td style=\"border-left-width: 0px; border-bottom-style: none\">basis</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.basis</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.basis` is mapped to FHIR R4B structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:basis</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.basis` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.date</td><td style=\"border-left-width: 0px; border-bottom-style: none\">date</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.date</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.date` is mapped to FHIR R4B element `Measure.date`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:date</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.date` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.publisher</td><td style=\"border-left-width: 0px; border-bottom-style: none\">publisher</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.publisher</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.publisher` is mapped to FHIR R4B element `Measure.publisher`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:publisher</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.publisher` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.contact</td><td style=\"border-left-width: 0px; border-bottom-style: none\">contact</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.contact</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.contact` is mapped to FHIR R4B element `Measure.contact`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:contact</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.contact` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.description</td><td style=\"border-left-width: 0px; border-bottom-style: none\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.description</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.description` is mapped to FHIR R4B element `Measure.description`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:description</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.description` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.useContext</td><td style=\"border-left-width: 0px; border-bottom-style: none\">useContext</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.useContext</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.useContext` is mapped to FHIR R4B element `Measure.useContext`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:useContext</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.useContext` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.jurisdiction</td><td style=\"border-left-width: 0px; border-bottom-style: none\">jurisdiction</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.jurisdiction</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.jurisdiction` is mapped to FHIR R4B element `Measure.jurisdiction`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:jurisdiction</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.jurisdiction` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.purpose</td><td style=\"border-left-width: 0px; border-bottom-style: none\">purpose</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.purpose</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.purpose` is mapped to FHIR R4B element `Measure.purpose`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:purpose</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.purpose` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.usage</td><td style=\"border-left-width: 0px; border-bottom-style: none\">usage</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.usage</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.usage` is mapped to FHIR R4B element `Measure.usage`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:usage</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.usage` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.copyright</td><td style=\"border-left-width: 0px; border-bottom-style: none\">copyright</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.copyright</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.copyright` is mapped to FHIR R4B element `Measure.copyright`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:copyright</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.copyright` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.copyrightLabel</td><td style=\"border-left-width: 0px; border-bottom-style: none\">copyrightLabel</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.copyrightLabel</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.copyrightLabel` is mapped to FHIR R4B structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:copyrightLabel</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.copyrightLabel` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.approvalDate</td><td style=\"border-left-width: 0px; border-bottom-style: none\">approvalDate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.approvalDate</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.approvalDate` is mapped to FHIR R4B element `Measure.approvalDate`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:approvalDate</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.approvalDate` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.lastReviewDate</td><td style=\"border-left-width: 0px; border-bottom-style: none\">lastReviewDate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.lastReviewDate</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.lastReviewDate` is mapped to FHIR R4B element `Measure.lastReviewDate`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:lastReviewDate</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.lastReviewDate` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.effectivePeriod</td><td style=\"border-left-width: 0px; border-bottom-style: none\">effectivePeriod</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.effectivePeriod</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.effectivePeriod` is mapped to FHIR R4B element `Measure.effectivePeriod`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:effectivePeriod</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.effectivePeriod` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.topic</td><td style=\"border-left-width: 0px; border-bottom-style: none\">topic</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.topic</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.topic` is mapped to FHIR R4B element `Measure.topic`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:topic</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.topic` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.author</td><td style=\"border-left-width: 0px; border-bottom-style: none\">author</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.author</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.author` is mapped to FHIR R4B element `Measure.author`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.contributor</td><td style=\"border-left-width: 0px\"/><td>Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -&gt; basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson)`:0..1).\nElement `Measure.author` is mapped to FHIR STU3 element `Measure.contributor`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:author</td><td style=\"border-left-width: 0px\"/><td>Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -&gt; basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson)`:0..1).\nElement `Measure.author` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.editor</td><td style=\"border-left-width: 0px; border-bottom-style: none\">editor</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.editor</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.editor` is mapped to FHIR R4B element `Measure.editor`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.contributor</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.editor` is mapped to FHIR STU3 element `Measure.contributor`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:editor</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.editor` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.reviewer</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reviewer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.reviewer</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.reviewer` is mapped to FHIR R4B element `Measure.reviewer`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.contributor</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.reviewer` is mapped to FHIR STU3 element `Measure.contributor`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:reviewer</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.reviewer` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.endorser</td><td style=\"border-left-width: 0px; border-bottom-style: none\">endorser</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.endorser</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.endorser` is mapped to FHIR R4B element `Measure.endorser`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.contributor</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.endorser` is mapped to FHIR STU3 element `Measure.contributor`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:endorser</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.endorser` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.relatedArtifact</td><td style=\"border-left-width: 0px; border-bottom-style: none\">relatedArtifact</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.relatedArtifact</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.relatedArtifact` is mapped to FHIR R4B element `Measure.relatedArtifact`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:relatedArtifact</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.relatedArtifact` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.library</td><td style=\"border-left-width: 0px; border-bottom-style: none\">library</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.library</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.library` is mapped to FHIR R4B element `Measure.library`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:library</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.library` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.disclaimer</td><td style=\"border-left-width: 0px; border-bottom-style: none\">disclaimer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.disclaimer</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.disclaimer` is mapped to FHIR R4B element `Measure.disclaimer`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:disclaimer</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.disclaimer` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.scoring</td><td style=\"border-left-width: 0px; border-bottom-style: none\">scoring</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.scoring</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.scoring` is mapped to FHIR R4B element `Measure.scoring`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:scoring</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.scoring` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.scoringUnit</td><td style=\"border-left-width: 0px; border-bottom-style: none\">scoringUnit</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.scoringUnit</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.scoringUnit` is mapped to FHIR R4B structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:scoringUnit</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.scoringUnit` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.compositeScoring</td><td style=\"border-left-width: 0px; border-bottom-style: none\">compositeScoring</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.compositeScoring</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.compositeScoring` is mapped to FHIR R4B element `Measure.compositeScoring`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:compositeScoring</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.compositeScoring` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.type</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.type` is mapped to FHIR R4B element `Measure.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:type</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.type` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.riskAdjustment</td><td style=\"border-left-width: 0px; border-bottom-style: none\">riskAdjustment</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.riskAdjustment</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.riskAdjustment` is mapped to FHIR R4B element `Measure.riskAdjustment`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:riskAdjustment</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.riskAdjustment` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.rateAggregation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">rateAggregation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.rateAggregation</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.rateAggregation` is mapped to FHIR R4B element `Measure.rateAggregation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:rateAggregation</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.rateAggregation` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.rationale</td><td style=\"border-left-width: 0px; border-bottom-style: none\">rationale</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.rationale</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.rationale` is mapped to FHIR R4B element `Measure.rationale`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:rationale</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.rationale` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.clinicalRecommendationStatement</td><td style=\"border-left-width: 0px; border-bottom-style: none\">clinicalRecommendationStatement</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.clinicalRecommendationStatement</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.clinicalRecommendationStatement` is mapped to FHIR R4B element `Measure.clinicalRecommendationStatement`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:clinicalRecommendationStatement</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.clinicalRecommendationStatement` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.improvementNotation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">improvementNotation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.improvementNotation</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.improvementNotation` is mapped to FHIR R4B element `Measure.improvementNotation`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:improvementNotation</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.improvementNotation` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.term</td><td style=\"border-left-width: 0px; border-bottom-style: none\">term</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.term</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.term` is mapped to FHIR R4B structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:term</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.term` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.term.code</td><td style=\"border-left-width: 0px; border-bottom-style: none\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.term:code</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.term.code` is part of an existing definition because parent element `Measure.term` requires a cross-version extension.\nElement `Measure.term.code` is mapped to FHIR R4B structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:term:code</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.term.code` is part of an existing definition because parent element `Measure.term` requires a cross-version extension.\nElement `Measure.term.code` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.term.definition</td><td style=\"border-left-width: 0px; border-bottom-style: none\">definition</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.term:definition</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.term.definition` is part of an existing definition because parent element `Measure.term` requires a cross-version extension.\nElement `Measure.term.definition` is mapped to FHIR R4B structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:term:definition</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.term.definition` is part of an existing definition because parent element `Measure.term` requires a cross-version extension.\nElement `Measure.term.definition` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.guidance</td><td style=\"border-left-width: 0px; border-bottom-style: none\">guidance</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.guidance</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.guidance` is mapped to FHIR R4B element `Measure.guidance`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:guidance</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.guidance` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group</td><td style=\"border-left-width: 0px; border-bottom-style: none\">group</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.group</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group` is mapped to FHIR R4B element `Measure.group`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.linkId</td><td style=\"border-left-width: 0px; border-bottom-style: none\">linkId</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.linkId</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.linkId` is mapped to FHIR R4B structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:linkId</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.linkId` is part of an existing definition because parent element `Measure.group` requires a cross-version extension.\nElement `Measure.group.linkId` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.code</td><td style=\"border-left-width: 0px; border-bottom-style: none\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.code</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.code` is mapped to FHIR R4B element `Measure.group.code`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.code` is mapped to FHIR STU3 element `Measure.group.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:code</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.code` is part of an existing definition because parent element `Measure.group` requires a cross-version extension.\nElement `Measure.group.code` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.description</td><td style=\"border-left-width: 0px; border-bottom-style: none\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.description</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.description` is mapped to FHIR R4B element `Measure.group.description`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:description</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.description` is part of an existing definition because parent element `Measure.group` requires a cross-version extension.\nElement `Measure.group.description` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.type</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.type` is mapped to FHIR R4B structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:type</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.type` is part of an existing definition because parent element `Measure.group` requires a cross-version extension.\nElement `Measure.group.type` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.subject[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">subject[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.subject</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.subject[x]` is mapped to FHIR R4B structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:subject</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.subject[x]` is part of an existing definition because parent element `Measure.group` requires a cross-version extension.\nElement `Measure.group.subject[x]` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.basis</td><td style=\"border-left-width: 0px; border-bottom-style: none\">basis</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.basis</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.basis` is mapped to FHIR R4B structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:basis</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.basis` is part of an existing definition because parent element `Measure.group` requires a cross-version extension.\nElement `Measure.group.basis` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.scoring</td><td style=\"border-left-width: 0px; border-bottom-style: none\">scoring</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.scoring</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.scoring` is mapped to FHIR R4B structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:scoring</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.scoring` is part of an existing definition because parent element `Measure.group` requires a cross-version extension.\nElement `Measure.group.scoring` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.scoringUnit</td><td style=\"border-left-width: 0px; border-bottom-style: none\">scoringUnit</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.scoringUnit</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.scoringUnit` is mapped to FHIR R4B structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:scoringUnit</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.scoringUnit` is part of an existing definition because parent element `Measure.group` requires a cross-version extension.\nElement `Measure.group.scoringUnit` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.rateAggregation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">rateAggregation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.rateAggregation</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.rateAggregation` is mapped to FHIR R4B structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:rateAggregation</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.rateAggregation` is part of an existing definition because parent element `Measure.group` requires a cross-version extension.\nElement `Measure.group.rateAggregation` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.improvementNotation</td><td style=\"border-left-width: 0px; border-bottom-style: none\">improvementNotation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.improvementNotation</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.improvementNotation` is mapped to FHIR R4B structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:improvementNotation</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.improvementNotation` is part of an existing definition because parent element `Measure.group` requires a cross-version extension.\nElement `Measure.group.improvementNotation` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.library</td><td style=\"border-left-width: 0px; border-bottom-style: none\">library</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.library</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.library` is mapped to FHIR R4B structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:library</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.library` is part of an existing definition because parent element `Measure.group` requires a cross-version extension.\nElement `Measure.group.library` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.population</td><td style=\"border-left-width: 0px; border-bottom-style: none\">population</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.population</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.population` is mapped to FHIR R4B element `Measure.group.population`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:population</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.population` is part of an existing definition because parent element `Measure.group` requires a cross-version extension.\nElement `Measure.group.population` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.population.linkId</td><td style=\"border-left-width: 0px; border-bottom-style: none\">linkId</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.population.linkId</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.population.linkId` is mapped to FHIR R4B structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:population:linkId</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.population.linkId` is part of an existing definition because parent element `Measure.group.population` requires a cross-version extension.\nElement `Measure.group.population.linkId` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.population.code</td><td style=\"border-left-width: 0px; border-bottom-style: none\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.population.code</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.population.code` is mapped to FHIR R4B element `Measure.group.population.code`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:population:code</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.population.code` is part of an existing definition because parent element `Measure.group.population` requires a cross-version extension.\nElement `Measure.group.population.code` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.population.description</td><td style=\"border-left-width: 0px; border-bottom-style: none\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.population.description</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.population.description` is mapped to FHIR R4B element `Measure.group.population.description`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:population:description</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.population.description` is part of an existing definition because parent element `Measure.group.population` requires a cross-version extension.\nElement `Measure.group.population.description` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.population.criteria</td><td style=\"border-left-width: 0px; border-bottom-style: none\">criteria</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.population.criteria</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.population.criteria` is mapped to FHIR R4B element `Measure.group.population.criteria`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:population:criteria</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.population.criteria` is part of an existing definition because parent element `Measure.group.population` requires a cross-version extension.\nElement `Measure.group.population.criteria` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.population.groupDefinition</td><td style=\"border-left-width: 0px; border-bottom-style: none\">groupDefinition</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.population.groupDefinition</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.population.groupDefinition` is mapped to FHIR R4B structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:population:groupDefinition</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.population.groupDefinition` is part of an existing definition because parent element `Measure.group.population` requires a cross-version extension.\nElement `Measure.group.population.groupDefinition` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.population.inputPopulationId</td><td style=\"border-left-width: 0px; border-bottom-style: none\">inputPopulationId</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.population.inputPopulationId</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.population.inputPopulationId` is mapped to FHIR R4B structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:population:inputPopulationId</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.population.inputPopulationId` is part of an existing definition because parent element `Measure.group.population` requires a cross-version extension.\nElement `Measure.group.population.inputPopulationId` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.population.aggregateMethod</td><td style=\"border-left-width: 0px; border-bottom-style: none\">aggregateMethod</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.population.aggregateMethod</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.population.aggregateMethod` is mapped to FHIR R4B structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:population:aggregateMethod</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.population.aggregateMethod` is part of an existing definition because parent element `Measure.group.population` requires a cross-version extension.\nElement `Measure.group.population.aggregateMethod` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.stratifier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">stratifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.stratifier</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier` is mapped to FHIR R4B element `Measure.group.stratifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:stratifier</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier` is part of an existing definition because parent element `Measure.group` requires a cross-version extension.\nElement `Measure.group.stratifier` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.stratifier.linkId</td><td style=\"border-left-width: 0px; border-bottom-style: none\">linkId</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.linkId</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.linkId` is mapped to FHIR R4B structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:stratifier:linkId</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.linkId` is part of an existing definition because parent element `Measure.group.stratifier` requires a cross-version extension.\nElement `Measure.group.stratifier.linkId` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.stratifier.code</td><td style=\"border-left-width: 0px; border-bottom-style: none\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.stratifier.code</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.code` is mapped to FHIR R4B element `Measure.group.stratifier.code`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.stratifier.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.code` is mapped to FHIR STU3 element `Measure.group.stratifier.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:stratifier:code</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.code` is part of an existing definition because parent element `Measure.group.stratifier` requires a cross-version extension.\nElement `Measure.group.stratifier.code` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.stratifier.description</td><td style=\"border-left-width: 0px; border-bottom-style: none\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.stratifier.description</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.description` is mapped to FHIR R4B element `Measure.group.stratifier.description`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.description</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.description` is mapped to FHIR STU3 structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:stratifier:description</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.description` is part of an existing definition because parent element `Measure.group.stratifier` requires a cross-version extension.\nElement `Measure.group.stratifier.description` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.stratifier.criteria</td><td style=\"border-left-width: 0px; border-bottom-style: none\">criteria</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.stratifier.criteria</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.criteria` is mapped to FHIR R4B element `Measure.group.stratifier.criteria`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:stratifier:criteria</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.criteria` is part of an existing definition because parent element `Measure.group.stratifier` requires a cross-version extension.\nElement `Measure.group.stratifier.criteria` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.stratifier.groupDefinition</td><td style=\"border-left-width: 0px; border-bottom-style: none\">groupDefinition</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.groupDefinition</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.groupDefinition` is mapped to FHIR R4B structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:stratifier:groupDefinition</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.groupDefinition` is part of an existing definition because parent element `Measure.group.stratifier` requires a cross-version extension.\nElement `Measure.group.stratifier.groupDefinition` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.stratifier.component</td><td style=\"border-left-width: 0px; border-bottom-style: none\">component</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.stratifier.component</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.component` is mapped to FHIR R4B element `Measure.group.stratifier.component`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.component</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.component` is mapped to FHIR STU3 structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:stratifier:component</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.component` is part of an existing definition because parent element `Measure.group.stratifier` requires a cross-version extension.\nElement `Measure.group.stratifier.component` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.stratifier.component.linkId</td><td style=\"border-left-width: 0px; border-bottom-style: none\">linkId</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.component.linkId</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.component.linkId` is mapped to FHIR R4B structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.component:linkId</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.component.linkId` is part of an existing definition because parent element `Measure.group.stratifier.component` requires a cross-version extension.\nElement `Measure.group.stratifier.component.linkId` is mapped to FHIR STU3 structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:stratifier:component:linkId</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.component.linkId` is part of an existing definition because parent element `Measure.group.stratifier.component` requires a cross-version extension.\nElement `Measure.group.stratifier.component.linkId` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.stratifier.component.code</td><td style=\"border-left-width: 0px; border-bottom-style: none\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.stratifier.component.code</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.component.code` is mapped to FHIR R4B element `Measure.group.stratifier.component.code`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.component:code</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.component.code` is part of an existing definition because parent element `Measure.group.stratifier.component` requires a cross-version extension.\nElement `Measure.group.stratifier.component.code` is mapped to FHIR STU3 structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:stratifier:component:code</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.component.code` is part of an existing definition because parent element `Measure.group.stratifier.component` requires a cross-version extension.\nElement `Measure.group.stratifier.component.code` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.stratifier.component.description</td><td style=\"border-left-width: 0px; border-bottom-style: none\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.stratifier.component.description</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.component.description` is mapped to FHIR R4B element `Measure.group.stratifier.component.description`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.component:description</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.component.description` is part of an existing definition because parent element `Measure.group.stratifier.component` requires a cross-version extension.\nElement `Measure.group.stratifier.component.description` is mapped to FHIR STU3 structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:stratifier:component:description</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.component.description` is part of an existing definition because parent element `Measure.group.stratifier.component` requires a cross-version extension.\nElement `Measure.group.stratifier.component.description` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.stratifier.component.criteria</td><td style=\"border-left-width: 0px; border-bottom-style: none\">criteria</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.stratifier.component.criteria</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.component.criteria` is mapped to FHIR R4B element `Measure.group.stratifier.component.criteria`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.component:criteria</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.component.criteria` is part of an existing definition because parent element `Measure.group.stratifier.component` requires a cross-version extension.\nElement `Measure.group.stratifier.component.criteria` is mapped to FHIR STU3 structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:stratifier:component:criteria</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.component.criteria` is part of an existing definition because parent element `Measure.group.stratifier.component` requires a cross-version extension.\nElement `Measure.group.stratifier.component.criteria` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.group.stratifier.component.groupDefinition</td><td style=\"border-left-width: 0px; border-bottom-style: none\">groupDefinition</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.component.groupDefinition</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.component.groupDefinition` is mapped to FHIR R4B structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.component:groupDefinition</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.component.groupDefinition` is part of an existing definition because parent element `Measure.group.stratifier.component` requires a cross-version extension.\nElement `Measure.group.stratifier.component.groupDefinition` is mapped to FHIR STU3 structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:stratifier:component:groupDefinition</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.group.stratifier.component.groupDefinition` is part of an existing definition because parent element `Measure.group.stratifier.component` requires a cross-version extension.\nElement `Measure.group.stratifier.component.groupDefinition` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.supplementalData</td><td style=\"border-left-width: 0px; border-bottom-style: none\">supplementalData</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.supplementalData</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.supplementalData` is mapped to FHIR R4B element `Measure.supplementalData`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:supplementalData</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.supplementalData` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.supplementalData.linkId</td><td style=\"border-left-width: 0px; border-bottom-style: none\">linkId</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.supplementalData.linkId</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.supplementalData.linkId` is mapped to FHIR R4B structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:supplementalData:linkId</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.supplementalData.linkId` is part of an existing definition because parent element `Measure.supplementalData` requires a cross-version extension.\nElement `Measure.supplementalData.linkId` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.supplementalData.code</td><td style=\"border-left-width: 0px; border-bottom-style: none\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.supplementalData.code</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.supplementalData.code` is mapped to FHIR R4B element `Measure.supplementalData.code`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.supplementalData.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.supplementalData.code` is mapped to FHIR STU3 element `Measure.supplementalData.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:supplementalData:code</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.supplementalData.code` is part of an existing definition because parent element `Measure.supplementalData` requires a cross-version extension.\nElement `Measure.supplementalData.code` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.supplementalData.usage</td><td style=\"border-left-width: 0px; border-bottom-style: none\">usage</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.supplementalData.usage</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.supplementalData.usage` is mapped to FHIR R4B element `Measure.supplementalData.usage`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:supplementalData:usage</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.supplementalData.usage` is part of an existing definition because parent element `Measure.supplementalData` requires a cross-version extension.\nElement `Measure.supplementalData.usage` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.supplementalData.description</td><td style=\"border-left-width: 0px; border-bottom-style: none\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.supplementalData.description</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.supplementalData.description` is mapped to FHIR R4B element `Measure.supplementalData.description`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.supplementalData.description</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.supplementalData.description` is mapped to FHIR STU3 structure `Measure`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:supplementalData:description</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.supplementalData.description` is part of an existing definition because parent element `Measure.supplementalData` requires a cross-version extension.\nElement `Measure.supplementalData.description` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Measure.supplementalData.criteria</td><td style=\"border-left-width: 0px; border-bottom-style: none\">criteria</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Measure#Measure.supplementalData.criteria</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.supplementalData.criteria` is mapped to FHIR R4B element `Measure.supplementalData.criteria`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:supplementalData:criteria</td><td style=\"border-left-width: 0px\"/><td>Element `Measure.supplementalData.criteria` is part of an existing definition because parent element `Measure.supplementalData` requires a cross-version extension.\nElement `Measure.supplementalData.criteria` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Measure-elements-for-R4-Measure"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Measure-elements-for-R4-Measure>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5MeasureElementsForR4Measure"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:33.2551485-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Measure"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Measure>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Measure" ] ;
+       fhir:display [ fhir:v "Measure" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Measure` is representable via FHIR R4B Resource `Measure`.\nElement `Measure` is mapped to FHIR R4B element `Measure`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Measure` is representable via FHIR DSTU2 Resource `Basic`.\nElement `Measure` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.meta` is mapped to FHIR R4B element `Measure.meta`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `Measure.meta` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.implicitRules` is mapped to FHIR R4B element `Measure.implicitRules`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `Measure.implicitRules` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.language` is mapped to FHIR R4B element `Measure.language`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.language`, use that element instead.\nElement `Measure.language` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.text` is mapped to FHIR R4B element `Measure.text`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `Measure.text` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.contained` is mapped to FHIR R4B element `Measure.contained`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `Measure.contained` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.url" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.url` is mapped to FHIR R4B element `Measure.url`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:url" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.url` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.identifier` is mapped to FHIR R4B element `Measure.identifier`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `Measure.identifier` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.version" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.version` is mapped to FHIR R4B element `Measure.version`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:version" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.version` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.versionAlgorithm[x]" ] ;
+       fhir:display [ fhir:v "versionAlgorithm[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.versionAlgorithm" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.versionAlgorithm[x]` is mapped to FHIR R4B structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:versionAlgorithm" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.versionAlgorithm[x]` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.name` is mapped to FHIR R4B element `Measure.name`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.name` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.title" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.title` is mapped to FHIR R4B element `Measure.title`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:title" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.title` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.subtitle" ] ;
+       fhir:display [ fhir:v "subtitle" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.subtitle" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.subtitle` is mapped to FHIR R4B element `Measure.subtitle`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.subtitle" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.subtitle` is mapped to FHIR STU3 structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:subtitle" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.subtitle` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.status` is mapped to FHIR R4B element `Measure.status`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.status` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.experimental" ] ;
+       fhir:display [ fhir:v "experimental" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.experimental" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.experimental` is mapped to FHIR R4B element `Measure.experimental`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:experimental" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.experimental` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.subject[x]" ] ;
+       fhir:display [ fhir:v "subject[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.subject[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Measure.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Measure`.\nElement `Measure.subject[x]` is mapped to FHIR R4B element `Measure.subject[x]`.\nNote that the target element context `Measure.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Measure`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.subject[x]` is mapped to FHIR STU3 structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.subject[x]` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.basis" ] ;
+       fhir:display [ fhir:v "basis" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.basis" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.basis` is mapped to FHIR R4B structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:basis" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.basis` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.date` is mapped to FHIR R4B element `Measure.date`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.date` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.publisher" ] ;
+       fhir:display [ fhir:v "publisher" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.publisher" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.publisher` is mapped to FHIR R4B element `Measure.publisher`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:publisher" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.publisher` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.contact" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.contact` is mapped to FHIR R4B element `Measure.contact`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:contact" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.contact` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.description` is mapped to FHIR R4B element `Measure.description`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.description` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.useContext" ] ;
+       fhir:display [ fhir:v "useContext" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.useContext" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.useContext` is mapped to FHIR R4B element `Measure.useContext`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:useContext" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.useContext` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.jurisdiction` is mapped to FHIR R4B element `Measure.jurisdiction`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.jurisdiction` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.purpose" ] ;
+       fhir:display [ fhir:v "purpose" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.purpose" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.purpose` is mapped to FHIR R4B element `Measure.purpose`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:purpose" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.purpose` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.usage" ] ;
+       fhir:display [ fhir:v "usage" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.usage" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.usage` is mapped to FHIR R4B element `Measure.usage`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:usage" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.usage` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.copyright" ] ;
+       fhir:display [ fhir:v "copyright" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.copyright" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.copyright` is mapped to FHIR R4B element `Measure.copyright`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:copyright" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.copyright` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.copyrightLabel" ] ;
+       fhir:display [ fhir:v "copyrightLabel" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.copyrightLabel" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.copyrightLabel` is mapped to FHIR R4B structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:copyrightLabel" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.copyrightLabel` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.approvalDate" ] ;
+       fhir:display [ fhir:v "approvalDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.approvalDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.approvalDate` is mapped to FHIR R4B element `Measure.approvalDate`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:approvalDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.approvalDate` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.lastReviewDate" ] ;
+       fhir:display [ fhir:v "lastReviewDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.lastReviewDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.lastReviewDate` is mapped to FHIR R4B element `Measure.lastReviewDate`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:lastReviewDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.lastReviewDate` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.effectivePeriod" ] ;
+       fhir:display [ fhir:v "effectivePeriod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.effectivePeriod" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.effectivePeriod` is mapped to FHIR R4B element `Measure.effectivePeriod`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:effectivePeriod" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.effectivePeriod` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.topic" ] ;
+       fhir:display [ fhir:v "topic" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.topic" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.topic` is mapped to FHIR R4B element `Measure.topic`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:topic" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.topic` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.author" ] ;
+       fhir:display [ fhir:v "author" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.author" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.author` is mapped to FHIR R4B element `Measure.author`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.contributor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson)`:0..1).\nElement `Measure.author` is mapped to FHIR STU3 element `Measure.contributor`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:author" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson)`:0..1).\nElement `Measure.author` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.editor" ] ;
+       fhir:display [ fhir:v "editor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.editor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.editor` is mapped to FHIR R4B element `Measure.editor`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.contributor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.editor` is mapped to FHIR STU3 element `Measure.contributor`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:editor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.editor` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.reviewer" ] ;
+       fhir:display [ fhir:v "reviewer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.reviewer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.reviewer` is mapped to FHIR R4B element `Measure.reviewer`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.contributor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.reviewer` is mapped to FHIR STU3 element `Measure.contributor`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:reviewer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.reviewer` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.endorser" ] ;
+       fhir:display [ fhir:v "endorser" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.endorser" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.endorser` is mapped to FHIR R4B element `Measure.endorser`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.contributor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.endorser` is mapped to FHIR STU3 element `Measure.contributor`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:endorser" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.endorser` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.relatedArtifact" ] ;
+       fhir:display [ fhir:v "relatedArtifact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.relatedArtifact" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.relatedArtifact` is mapped to FHIR R4B element `Measure.relatedArtifact`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:relatedArtifact" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.relatedArtifact` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.library" ] ;
+       fhir:display [ fhir:v "library" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.library" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.library` is mapped to FHIR R4B element `Measure.library`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:library" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.library` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.disclaimer" ] ;
+       fhir:display [ fhir:v "disclaimer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.disclaimer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.disclaimer` is mapped to FHIR R4B element `Measure.disclaimer`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:disclaimer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.disclaimer` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.scoring" ] ;
+       fhir:display [ fhir:v "scoring" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.scoring" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.scoring` is mapped to FHIR R4B element `Measure.scoring`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:scoring" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.scoring` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.scoringUnit" ] ;
+       fhir:display [ fhir:v "scoringUnit" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.scoringUnit" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.scoringUnit` is mapped to FHIR R4B structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:scoringUnit" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.scoringUnit` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.compositeScoring" ] ;
+       fhir:display [ fhir:v "compositeScoring" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.compositeScoring" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.compositeScoring` is mapped to FHIR R4B element `Measure.compositeScoring`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:compositeScoring" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.compositeScoring` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.type` is mapped to FHIR R4B element `Measure.type`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.type` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.riskAdjustment" ] ;
+       fhir:display [ fhir:v "riskAdjustment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.riskAdjustment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.riskAdjustment` is mapped to FHIR R4B element `Measure.riskAdjustment`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:riskAdjustment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.riskAdjustment` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.rateAggregation" ] ;
+       fhir:display [ fhir:v "rateAggregation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.rateAggregation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.rateAggregation` is mapped to FHIR R4B element `Measure.rateAggregation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:rateAggregation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.rateAggregation` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.rationale" ] ;
+       fhir:display [ fhir:v "rationale" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.rationale" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.rationale` is mapped to FHIR R4B element `Measure.rationale`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:rationale" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.rationale` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.clinicalRecommendationStatement" ] ;
+       fhir:display [ fhir:v "clinicalRecommendationStatement" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.clinicalRecommendationStatement" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.clinicalRecommendationStatement` is mapped to FHIR R4B element `Measure.clinicalRecommendationStatement`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:clinicalRecommendationStatement" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.clinicalRecommendationStatement` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.improvementNotation" ] ;
+       fhir:display [ fhir:v "improvementNotation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.improvementNotation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.improvementNotation` is mapped to FHIR R4B element `Measure.improvementNotation`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:improvementNotation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.improvementNotation` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.term" ] ;
+       fhir:display [ fhir:v "term" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.term" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.term` is mapped to FHIR R4B structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:term" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.term` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.term.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.term:code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.term.code` is part of an existing definition because parent element `Measure.term` requires a cross-version extension.\nElement `Measure.term.code` is mapped to FHIR R4B structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:term:code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.term.code` is part of an existing definition because parent element `Measure.term` requires a cross-version extension.\nElement `Measure.term.code` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.term.definition" ] ;
+       fhir:display [ fhir:v "definition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.term:definition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.term.definition` is part of an existing definition because parent element `Measure.term` requires a cross-version extension.\nElement `Measure.term.definition` is mapped to FHIR R4B structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:term:definition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.term.definition` is part of an existing definition because parent element `Measure.term` requires a cross-version extension.\nElement `Measure.term.definition` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.guidance" ] ;
+       fhir:display [ fhir:v "guidance" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.guidance" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.guidance` is mapped to FHIR R4B element `Measure.guidance`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:guidance" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.guidance` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group" ] ;
+       fhir:display [ fhir:v "group" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.group" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group` is mapped to FHIR R4B element `Measure.group`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.linkId" ] ;
+       fhir:display [ fhir:v "linkId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.linkId" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.linkId` is mapped to FHIR R4B structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:linkId" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.linkId` is part of an existing definition because parent element `Measure.group` requires a cross-version extension.\nElement `Measure.group.linkId` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.code` is mapped to FHIR R4B element `Measure.group.code`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.code` is mapped to FHIR STU3 element `Measure.group.identifier`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.code` is part of an existing definition because parent element `Measure.group` requires a cross-version extension.\nElement `Measure.group.code` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.description` is mapped to FHIR R4B element `Measure.group.description`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.description` is part of an existing definition because parent element `Measure.group` requires a cross-version extension.\nElement `Measure.group.description` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.type` is mapped to FHIR R4B structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.type` is part of an existing definition because parent element `Measure.group` requires a cross-version extension.\nElement `Measure.group.type` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.subject[x]" ] ;
+       fhir:display [ fhir:v "subject[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.subject[x]` is mapped to FHIR R4B structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.subject[x]` is part of an existing definition because parent element `Measure.group` requires a cross-version extension.\nElement `Measure.group.subject[x]` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.basis" ] ;
+       fhir:display [ fhir:v "basis" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.basis" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.basis` is mapped to FHIR R4B structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:basis" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.basis` is part of an existing definition because parent element `Measure.group` requires a cross-version extension.\nElement `Measure.group.basis` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.scoring" ] ;
+       fhir:display [ fhir:v "scoring" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.scoring" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.scoring` is mapped to FHIR R4B structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:scoring" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.scoring` is part of an existing definition because parent element `Measure.group` requires a cross-version extension.\nElement `Measure.group.scoring` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.scoringUnit" ] ;
+       fhir:display [ fhir:v "scoringUnit" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.scoringUnit" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.scoringUnit` is mapped to FHIR R4B structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:scoringUnit" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.scoringUnit` is part of an existing definition because parent element `Measure.group` requires a cross-version extension.\nElement `Measure.group.scoringUnit` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.rateAggregation" ] ;
+       fhir:display [ fhir:v "rateAggregation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.rateAggregation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.rateAggregation` is mapped to FHIR R4B structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:rateAggregation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.rateAggregation` is part of an existing definition because parent element `Measure.group` requires a cross-version extension.\nElement `Measure.group.rateAggregation` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.improvementNotation" ] ;
+       fhir:display [ fhir:v "improvementNotation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.improvementNotation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.improvementNotation` is mapped to FHIR R4B structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:improvementNotation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.improvementNotation` is part of an existing definition because parent element `Measure.group` requires a cross-version extension.\nElement `Measure.group.improvementNotation` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.library" ] ;
+       fhir:display [ fhir:v "library" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.library" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.library` is mapped to FHIR R4B structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:library" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.library` is part of an existing definition because parent element `Measure.group` requires a cross-version extension.\nElement `Measure.group.library` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.population" ] ;
+       fhir:display [ fhir:v "population" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.population" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.population` is mapped to FHIR R4B element `Measure.group.population`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:population" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.population` is part of an existing definition because parent element `Measure.group` requires a cross-version extension.\nElement `Measure.group.population` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.population.linkId" ] ;
+       fhir:display [ fhir:v "linkId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.population.linkId" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.population.linkId` is mapped to FHIR R4B structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:population:linkId" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.population.linkId` is part of an existing definition because parent element `Measure.group.population` requires a cross-version extension.\nElement `Measure.group.population.linkId` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.population.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.population.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.population.code` is mapped to FHIR R4B element `Measure.group.population.code`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:population:code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.population.code` is part of an existing definition because parent element `Measure.group.population` requires a cross-version extension.\nElement `Measure.group.population.code` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.population.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.population.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.population.description` is mapped to FHIR R4B element `Measure.group.population.description`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:population:description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.population.description` is part of an existing definition because parent element `Measure.group.population` requires a cross-version extension.\nElement `Measure.group.population.description` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.population.criteria" ] ;
+       fhir:display [ fhir:v "criteria" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.population.criteria" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.population.criteria` is mapped to FHIR R4B element `Measure.group.population.criteria`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:population:criteria" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.population.criteria` is part of an existing definition because parent element `Measure.group.population` requires a cross-version extension.\nElement `Measure.group.population.criteria` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.population.groupDefinition" ] ;
+       fhir:display [ fhir:v "groupDefinition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.population.groupDefinition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.population.groupDefinition` is mapped to FHIR R4B structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:population:groupDefinition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.population.groupDefinition` is part of an existing definition because parent element `Measure.group.population` requires a cross-version extension.\nElement `Measure.group.population.groupDefinition` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.population.inputPopulationId" ] ;
+       fhir:display [ fhir:v "inputPopulationId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.population.inputPopulationId" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.population.inputPopulationId` is mapped to FHIR R4B structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:population:inputPopulationId" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.population.inputPopulationId` is part of an existing definition because parent element `Measure.group.population` requires a cross-version extension.\nElement `Measure.group.population.inputPopulationId` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.population.aggregateMethod" ] ;
+       fhir:display [ fhir:v "aggregateMethod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.population.aggregateMethod" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.population.aggregateMethod` is mapped to FHIR R4B structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:population:aggregateMethod" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.population.aggregateMethod` is part of an existing definition because parent element `Measure.group.population` requires a cross-version extension.\nElement `Measure.group.population.aggregateMethod` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.stratifier" ] ;
+       fhir:display [ fhir:v "stratifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.stratifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier` is mapped to FHIR R4B element `Measure.group.stratifier`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:stratifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier` is part of an existing definition because parent element `Measure.group` requires a cross-version extension.\nElement `Measure.group.stratifier` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.stratifier.linkId" ] ;
+       fhir:display [ fhir:v "linkId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.linkId" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.linkId` is mapped to FHIR R4B structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:stratifier:linkId" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.linkId` is part of an existing definition because parent element `Measure.group.stratifier` requires a cross-version extension.\nElement `Measure.group.stratifier.linkId` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.stratifier.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.stratifier.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.code` is mapped to FHIR R4B element `Measure.group.stratifier.code`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.stratifier.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.code` is mapped to FHIR STU3 element `Measure.group.stratifier.identifier`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:stratifier:code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.code` is part of an existing definition because parent element `Measure.group.stratifier` requires a cross-version extension.\nElement `Measure.group.stratifier.code` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.stratifier.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.stratifier.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.description` is mapped to FHIR R4B element `Measure.group.stratifier.description`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.description` is mapped to FHIR STU3 structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:stratifier:description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.description` is part of an existing definition because parent element `Measure.group.stratifier` requires a cross-version extension.\nElement `Measure.group.stratifier.description` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.stratifier.criteria" ] ;
+       fhir:display [ fhir:v "criteria" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.stratifier.criteria" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.criteria` is mapped to FHIR R4B element `Measure.group.stratifier.criteria`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:stratifier:criteria" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.criteria` is part of an existing definition because parent element `Measure.group.stratifier` requires a cross-version extension.\nElement `Measure.group.stratifier.criteria` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.stratifier.groupDefinition" ] ;
+       fhir:display [ fhir:v "groupDefinition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.groupDefinition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.groupDefinition` is mapped to FHIR R4B structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:stratifier:groupDefinition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.groupDefinition` is part of an existing definition because parent element `Measure.group.stratifier` requires a cross-version extension.\nElement `Measure.group.stratifier.groupDefinition` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.stratifier.component" ] ;
+       fhir:display [ fhir:v "component" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.stratifier.component" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.component` is mapped to FHIR R4B element `Measure.group.stratifier.component`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.component" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.component` is mapped to FHIR STU3 structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:stratifier:component" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.component` is part of an existing definition because parent element `Measure.group.stratifier` requires a cross-version extension.\nElement `Measure.group.stratifier.component` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.stratifier.component.linkId" ] ;
+       fhir:display [ fhir:v "linkId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.component.linkId" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.component.linkId` is mapped to FHIR R4B structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.component:linkId" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.component.linkId` is part of an existing definition because parent element `Measure.group.stratifier.component` requires a cross-version extension.\nElement `Measure.group.stratifier.component.linkId` is mapped to FHIR STU3 structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:stratifier:component:linkId" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.component.linkId` is part of an existing definition because parent element `Measure.group.stratifier.component` requires a cross-version extension.\nElement `Measure.group.stratifier.component.linkId` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.stratifier.component.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.stratifier.component.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.component.code` is mapped to FHIR R4B element `Measure.group.stratifier.component.code`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.component:code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.component.code` is part of an existing definition because parent element `Measure.group.stratifier.component` requires a cross-version extension.\nElement `Measure.group.stratifier.component.code` is mapped to FHIR STU3 structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:stratifier:component:code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.component.code` is part of an existing definition because parent element `Measure.group.stratifier.component` requires a cross-version extension.\nElement `Measure.group.stratifier.component.code` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.stratifier.component.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.stratifier.component.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.component.description` is mapped to FHIR R4B element `Measure.group.stratifier.component.description`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.component:description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.component.description` is part of an existing definition because parent element `Measure.group.stratifier.component` requires a cross-version extension.\nElement `Measure.group.stratifier.component.description` is mapped to FHIR STU3 structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:stratifier:component:description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.component.description` is part of an existing definition because parent element `Measure.group.stratifier.component` requires a cross-version extension.\nElement `Measure.group.stratifier.component.description` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.stratifier.component.criteria" ] ;
+       fhir:display [ fhir:v "criteria" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.group.stratifier.component.criteria" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.component.criteria` is mapped to FHIR R4B element `Measure.group.stratifier.component.criteria`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.component:criteria" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.component.criteria` is part of an existing definition because parent element `Measure.group.stratifier.component` requires a cross-version extension.\nElement `Measure.group.stratifier.component.criteria` is mapped to FHIR STU3 structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:stratifier:component:criteria" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.component.criteria` is part of an existing definition because parent element `Measure.group.stratifier.component` requires a cross-version extension.\nElement `Measure.group.stratifier.component.criteria` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.stratifier.component.groupDefinition" ] ;
+       fhir:display [ fhir:v "groupDefinition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.component.groupDefinition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.component.groupDefinition` is mapped to FHIR R4B structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.component:groupDefinition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.component.groupDefinition` is part of an existing definition because parent element `Measure.group.stratifier.component` requires a cross-version extension.\nElement `Measure.group.stratifier.component.groupDefinition` is mapped to FHIR STU3 structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:group:stratifier:component:groupDefinition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.component.groupDefinition` is part of an existing definition because parent element `Measure.group.stratifier.component` requires a cross-version extension.\nElement `Measure.group.stratifier.component.groupDefinition` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.supplementalData" ] ;
+       fhir:display [ fhir:v "supplementalData" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.supplementalData" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.supplementalData` is mapped to FHIR R4B element `Measure.supplementalData`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:supplementalData" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.supplementalData` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.supplementalData.linkId" ] ;
+       fhir:display [ fhir:v "linkId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.supplementalData.linkId" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.supplementalData.linkId` is mapped to FHIR R4B structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:supplementalData:linkId" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.supplementalData.linkId` is part of an existing definition because parent element `Measure.supplementalData` requires a cross-version extension.\nElement `Measure.supplementalData.linkId` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.supplementalData.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.supplementalData.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.supplementalData.code` is mapped to FHIR R4B element `Measure.supplementalData.code`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.supplementalData.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.supplementalData.code` is mapped to FHIR STU3 element `Measure.supplementalData.identifier`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:supplementalData:code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.supplementalData.code` is part of an existing definition because parent element `Measure.supplementalData` requires a cross-version extension.\nElement `Measure.supplementalData.code` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.supplementalData.usage" ] ;
+       fhir:display [ fhir:v "usage" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.supplementalData.usage" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.supplementalData.usage` is mapped to FHIR R4B element `Measure.supplementalData.usage`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:supplementalData:usage" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.supplementalData.usage` is part of an existing definition because parent element `Measure.supplementalData` requires a cross-version extension.\nElement `Measure.supplementalData.usage` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.supplementalData.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.supplementalData.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.supplementalData.description` is mapped to FHIR R4B element `Measure.supplementalData.description`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.supplementalData.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.supplementalData.description` is mapped to FHIR STU3 structure `Measure`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:supplementalData:description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.supplementalData.description` is part of an existing definition because parent element `Measure.supplementalData` requires a cross-version extension.\nElement `Measure.supplementalData.description` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.supplementalData.criteria" ] ;
+       fhir:display [ fhir:v "criteria" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Measure#Measure.supplementalData.criteria" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.supplementalData.criteria` is mapped to FHIR R4B element `Measure.supplementalData.criteria`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure:supplementalData:criteria" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Measure.supplementalData.criteria` is part of an existing definition because parent element `Measure.supplementalData` requires a cross-version extension.\nElement `Measure.supplementalData.criteria` is not mapped to FHIR DSTU2, since FHIR R5 `Measure` is not mapped." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

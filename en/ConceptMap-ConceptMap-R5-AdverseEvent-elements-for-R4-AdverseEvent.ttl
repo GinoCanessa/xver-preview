@@ -1,0 +1,633 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-AdverseEvent-elements-for-R4-AdverseEvent> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-AdverseEvent-elements-for-R4-AdverseEvent"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-AdverseEvent-elements-for-R4-AdverseEvent</b></p><a name=\"ConceptMap-R5-AdverseEvent-elements-for-R4-AdverseEvent\"> </a><a name=\"hcConceptMap-R5-AdverseEvent-elements-for-R4-AdverseEvent\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/AdverseEvent|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/AdverseEvent|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent</td><td style=\"border-left-width: 0px; border-bottom-style: none\">AdverseEvent</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `AdverseEvent` is representable via FHIR R4B Resource `AdverseEvent`.\nElement `AdverseEvent` is mapped to FHIR R4B element `AdverseEvent`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `AdverseEvent` is representable via FHIR DSTU2 Resource `Basic`.\nElement `AdverseEvent` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.meta</td><td style=\"border-left-width: 0px; border-bottom-style: none\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.meta</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.meta` is mapped to FHIR R4B element `AdverseEvent.meta`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.meta</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.meta`, use that element instead.\nElement `AdverseEvent.meta` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.implicitRules</td><td style=\"border-left-width: 0px; border-bottom-style: none\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.implicitRules` is mapped to FHIR R4B element `AdverseEvent.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `AdverseEvent.implicitRules` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.language</td><td style=\"border-left-width: 0px; border-bottom-style: none\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.language</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.language` is mapped to FHIR R4B element `AdverseEvent.language`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.language</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.language`, use that element instead.\nElement `AdverseEvent.language` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.text</td><td style=\"border-left-width: 0px; border-bottom-style: none\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.text</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.text` is mapped to FHIR R4B element `AdverseEvent.text`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.text</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `AdverseEvent.text` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.contained</td><td style=\"border-left-width: 0px; border-bottom-style: none\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.contained</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.contained` is mapped to FHIR R4B element `AdverseEvent.contained`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.contained</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `AdverseEvent.contained` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.identifier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.identifier` is mapped to FHIR R4B element `AdverseEvent.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.identifier</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `AdverseEvent.identifier` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.status</td><td style=\"border-left-width: 0px; border-bottom-style: none\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.status</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.status` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:status</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.status` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.actuality</td><td style=\"border-left-width: 0px; border-bottom-style: none\">actuality</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.actuality</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.actuality` is mapped to FHIR R4B element `AdverseEvent.actuality`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.type</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.actuality` is mapped to FHIR STU3 element `AdverseEvent.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:actuality</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.actuality` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.category</td><td style=\"border-left-width: 0px; border-bottom-style: none\">category</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.category</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.category` is mapped to FHIR R4B element `AdverseEvent.category`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:category</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.category` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.code</td><td style=\"border-left-width: 0px; border-bottom-style: none\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.event</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.code` is mapped to FHIR R4B element `AdverseEvent.event`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.type</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.code` is mapped to FHIR STU3 element `AdverseEvent.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:code</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.code` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.subject</td><td style=\"border-left-width: 0px; border-bottom-style: none\">subject</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.subject</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.subject`, use that element instead.\nElement `AdverseEvent.subject` is mapped to FHIR R4B element `AdverseEvent.subject`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.subject</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.subject`, use that element instead.\nElement `AdverseEvent.subject` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.encounter</td><td style=\"border-left-width: 0px; border-bottom-style: none\">encounter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.encounter</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.encounter` is mapped to FHIR R4B element `AdverseEvent.encounter`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.encounter</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.encounter` is mapped to FHIR STU3 structure `AdverseEvent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:encounter</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.encounter` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.occurrence[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">occurrence[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.date</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.occurrence[x]` is mapped to FHIR R4B element `AdverseEvent.date`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:occurrence</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.occurrence[x]` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.detected</td><td style=\"border-left-width: 0px; border-bottom-style: none\">detected</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.detected</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.detected` is mapped to FHIR R4B element `AdverseEvent.detected`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.detected</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.detected` is mapped to FHIR STU3 structure `AdverseEvent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:detected</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.detected` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.recordedDate</td><td style=\"border-left-width: 0px; border-bottom-style: none\">recordedDate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.recordedDate</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.recordedDate` is mapped to FHIR R4B element `AdverseEvent.recordedDate`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.recordedDate</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.recordedDate` is mapped to FHIR STU3 structure `AdverseEvent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:recordedDate</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.recordedDate` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.resultingEffect</td><td style=\"border-left-width: 0px; border-bottom-style: none\">resultingEffect</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.resultingCondition</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.resultingEffect` is mapped to FHIR R4B element `AdverseEvent.resultingCondition`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.reaction</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.resultingEffect` is mapped to FHIR STU3 element `AdverseEvent.reaction`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:resultingEffect</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.resultingEffect` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.location</td><td style=\"border-left-width: 0px; border-bottom-style: none\">location</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.location</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.location` is mapped to FHIR R4B element `AdverseEvent.location`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:location</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.location` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.seriousness</td><td style=\"border-left-width: 0px; border-bottom-style: none\">seriousness</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.seriousness</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.seriousness` is mapped to FHIR R4B element `AdverseEvent.seriousness`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:seriousness</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.seriousness` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.outcome</td><td style=\"border-left-width: 0px; border-bottom-style: none\">outcome</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.outcome</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.outcome` is mapped to FHIR R4B element `AdverseEvent.outcome`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:outcome</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.outcome` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.recorder</td><td style=\"border-left-width: 0px; border-bottom-style: none\">recorder</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.recorder</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.recorder` is mapped to FHIR R4B element `AdverseEvent.recorder`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:recorder</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.recorder` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.participant</td><td style=\"border-left-width: 0px; border-bottom-style: none\">participant</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.participant</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.participant` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:participant</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.participant` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.participant.function</td><td style=\"border-left-width: 0px; border-bottom-style: none\">function</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.participant:function</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.participant.function` is part of an existing definition because parent element `AdverseEvent.participant` requires a cross-version extension.\nElement `AdverseEvent.participant.function` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:participant:function</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.participant.function` is part of an existing definition because parent element `AdverseEvent.participant` requires a cross-version extension.\nElement `AdverseEvent.participant.function` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.participant.actor</td><td style=\"border-left-width: 0px; border-bottom-style: none\">actor</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.participant:actor</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.participant.actor` is part of an existing definition because parent element `AdverseEvent.participant` requires a cross-version extension.\nElement `AdverseEvent.participant.actor` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:participant:actor</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.participant.actor` is part of an existing definition because parent element `AdverseEvent.participant` requires a cross-version extension.\nElement `AdverseEvent.participant.actor` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.study</td><td style=\"border-left-width: 0px; border-bottom-style: none\">study</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.study</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.study` is mapped to FHIR R4B element `AdverseEvent.study`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:study</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.study` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.expectedInResearchStudy</td><td style=\"border-left-width: 0px; border-bottom-style: none\">expectedInResearchStudy</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.expectedInResearchStudy</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.expectedInResearchStudy` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:expectedInResearchStudy</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.expectedInResearchStudy` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.suspectEntity</td><td style=\"border-left-width: 0px; border-bottom-style: none\">suspectEntity</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.suspectEntity</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.suspectEntity` is mapped to FHIR R4B element `AdverseEvent.suspectEntity`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:suspectEntity</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.suspectEntity` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.suspectEntity.instance[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">instance[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.suspectEntity.instance</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.suspectEntity.instance[x]` is mapped to FHIR R4B element `AdverseEvent.suspectEntity.instance`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:suspectEntity:instance</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.suspectEntity.instance[x]` is part of an existing definition because parent element `AdverseEvent.suspectEntity` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.instance[x]` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.suspectEntity.causality</td><td style=\"border-left-width: 0px; border-bottom-style: none\">causality</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.suspectEntity.causality</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.suspectEntity.causality` is mapped to FHIR R4B element `AdverseEvent.suspectEntity.causality`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:suspectEntity:causality</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.suspectEntity.causality` is part of an existing definition because parent element `AdverseEvent.suspectEntity` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.causality` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.suspectEntity.causality.assessmentMethod</td><td style=\"border-left-width: 0px; border-bottom-style: none\">assessmentMethod</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.suspectEntity.causality.assessment</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.suspectEntity.causality.assessmentMethod` is mapped to FHIR R4B element `AdverseEvent.suspectEntity.causality.assessment`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.suspectEntity.causalityAssessment</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.suspectEntity.causality.assessmentMethod` is mapped to FHIR STU3 element `AdverseEvent.suspectEntity.causalityAssessment`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:suspectEntity:causality:assessmentMethod</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.suspectEntity.causality.assessmentMethod` is part of an existing definition because parent element `AdverseEvent.suspectEntity.causality` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.causality.assessmentMethod` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.suspectEntity.causality.entityRelatedness</td><td style=\"border-left-width: 0px; border-bottom-style: none\">entityRelatedness</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.suspectEntity.causality.productRelatedness</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.suspectEntity.causality.entityRelatedness` is mapped to FHIR R4B element `AdverseEvent.suspectEntity.causality.productRelatedness`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.suspectEntity.causalityProductRelatedness</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.suspectEntity.causality.entityRelatedness` is mapped to FHIR STU3 element `AdverseEvent.suspectEntity.causalityProductRelatedness`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:suspectEntity:causality:entityRelatedness</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.suspectEntity.causality.entityRelatedness` is part of an existing definition because parent element `AdverseEvent.suspectEntity.causality` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.causality.entityRelatedness` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.suspectEntity.causality.author</td><td style=\"border-left-width: 0px; border-bottom-style: none\">author</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.suspectEntity.causality.author</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.suspectEntity.causality.author` is mapped to FHIR R4B element `AdverseEvent.suspectEntity.causality.author`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.suspectEntity.causalityAuthor</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.suspectEntity.causality.author` is mapped to FHIR STU3 element `AdverseEvent.suspectEntity.causalityAuthor`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:suspectEntity:causality:author</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.suspectEntity.causality.author` is part of an existing definition because parent element `AdverseEvent.suspectEntity.causality` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.causality.author` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.contributingFactor</td><td style=\"border-left-width: 0px; border-bottom-style: none\">contributingFactor</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.contributingFactor</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.contributingFactor` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:contributingFactor</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.contributingFactor` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.contributingFactor.item[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">item[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.contributingFactor:item</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.contributingFactor.item[x]` is part of an existing definition because parent element `AdverseEvent.contributingFactor` requires a cross-version extension.\nElement `AdverseEvent.contributingFactor.item[x]` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:contributingFactor:item</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.contributingFactor.item[x]` is part of an existing definition because parent element `AdverseEvent.contributingFactor` requires a cross-version extension.\nElement `AdverseEvent.contributingFactor.item[x]` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.preventiveAction</td><td style=\"border-left-width: 0px; border-bottom-style: none\">preventiveAction</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.preventiveAction</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.preventiveAction` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:preventiveAction</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.preventiveAction` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.preventiveAction.item[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">item[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.preventiveAction:item</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.preventiveAction.item[x]` is part of an existing definition because parent element `AdverseEvent.preventiveAction` requires a cross-version extension.\nElement `AdverseEvent.preventiveAction.item[x]` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:preventiveAction:item</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.preventiveAction.item[x]` is part of an existing definition because parent element `AdverseEvent.preventiveAction` requires a cross-version extension.\nElement `AdverseEvent.preventiveAction.item[x]` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.mitigatingAction</td><td style=\"border-left-width: 0px; border-bottom-style: none\">mitigatingAction</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.mitigatingAction</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.mitigatingAction` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:mitigatingAction</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.mitigatingAction` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.mitigatingAction.item[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">item[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.mitigatingAction:item</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.mitigatingAction.item[x]` is part of an existing definition because parent element `AdverseEvent.mitigatingAction` requires a cross-version extension.\nElement `AdverseEvent.mitigatingAction.item[x]` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:mitigatingAction:item</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.mitigatingAction.item[x]` is part of an existing definition because parent element `AdverseEvent.mitigatingAction` requires a cross-version extension.\nElement `AdverseEvent.mitigatingAction.item[x]` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.supportingInfo</td><td style=\"border-left-width: 0px; border-bottom-style: none\">supportingInfo</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.supportingInfo</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.supportingInfo` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:supportingInfo</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.supportingInfo` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.supportingInfo.item[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">item[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.supportingInfo:item</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.supportingInfo.item[x]` is part of an existing definition because parent element `AdverseEvent.supportingInfo` requires a cross-version extension.\nElement `AdverseEvent.supportingInfo.item[x]` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:supportingInfo:item</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.supportingInfo.item[x]` is part of an existing definition because parent element `AdverseEvent.supportingInfo` requires a cross-version extension.\nElement `AdverseEvent.supportingInfo.item[x]` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.note</td><td style=\"border-left-width: 0px; border-bottom-style: none\">note</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.note</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.note` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:note</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.note` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-AdverseEvent-elements-for-R4-AdverseEvent"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-AdverseEvent-elements-for-R4-AdverseEvent>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5AdverseEventElementsForR4AdverseEvent"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:30.9434336-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/AdverseEvent>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "AdverseEvent" ] ;
+       fhir:display [ fhir:v "AdverseEvent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `AdverseEvent` is representable via FHIR R4B Resource `AdverseEvent`.\nElement `AdverseEvent` is mapped to FHIR R4B element `AdverseEvent`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `AdverseEvent` is representable via FHIR DSTU2 Resource `Basic`.\nElement `AdverseEvent` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.meta` is mapped to FHIR R4B element `AdverseEvent.meta`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `AdverseEvent.meta` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.implicitRules` is mapped to FHIR R4B element `AdverseEvent.implicitRules`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `AdverseEvent.implicitRules` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.language` is mapped to FHIR R4B element `AdverseEvent.language`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.language`, use that element instead.\nElement `AdverseEvent.language` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.text` is mapped to FHIR R4B element `AdverseEvent.text`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `AdverseEvent.text` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.contained` is mapped to FHIR R4B element `AdverseEvent.contained`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `AdverseEvent.contained` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.identifier` is mapped to FHIR R4B element `AdverseEvent.identifier`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `AdverseEvent.identifier` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.status` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.status` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.actuality" ] ;
+       fhir:display [ fhir:v "actuality" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.actuality" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.actuality` is mapped to FHIR R4B element `AdverseEvent.actuality`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.actuality` is mapped to FHIR STU3 element `AdverseEvent.type`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:actuality" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.actuality` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.category` is mapped to FHIR R4B element `AdverseEvent.category`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.category` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.event" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.code` is mapped to FHIR R4B element `AdverseEvent.event`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.code` is mapped to FHIR STU3 element `AdverseEvent.type`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.code` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `AdverseEvent.subject` is mapped to FHIR R4B element `AdverseEvent.subject`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `AdverseEvent.subject` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.encounter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.encounter` is mapped to FHIR R4B element `AdverseEvent.encounter`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.encounter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.encounter` is mapped to FHIR STU3 structure `AdverseEvent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:encounter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.encounter` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.occurrence[x]" ] ;
+       fhir:display [ fhir:v "occurrence[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.occurrence[x]` is mapped to FHIR R4B element `AdverseEvent.date`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:occurrence" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.occurrence[x]` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.detected" ] ;
+       fhir:display [ fhir:v "detected" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.detected" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.detected` is mapped to FHIR R4B element `AdverseEvent.detected`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.detected" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.detected` is mapped to FHIR STU3 structure `AdverseEvent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:detected" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.detected` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.recordedDate" ] ;
+       fhir:display [ fhir:v "recordedDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.recordedDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.recordedDate` is mapped to FHIR R4B element `AdverseEvent.recordedDate`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.recordedDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.recordedDate` is mapped to FHIR STU3 structure `AdverseEvent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:recordedDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.recordedDate` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.resultingEffect" ] ;
+       fhir:display [ fhir:v "resultingEffect" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.resultingCondition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.resultingEffect` is mapped to FHIR R4B element `AdverseEvent.resultingCondition`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.reaction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.resultingEffect` is mapped to FHIR STU3 element `AdverseEvent.reaction`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:resultingEffect" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.resultingEffect` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.location" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.location` is mapped to FHIR R4B element `AdverseEvent.location`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:location" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.location` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.seriousness" ] ;
+       fhir:display [ fhir:v "seriousness" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.seriousness" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.seriousness` is mapped to FHIR R4B element `AdverseEvent.seriousness`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:seriousness" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.seriousness` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.outcome" ] ;
+       fhir:display [ fhir:v "outcome" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.outcome" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.outcome` is mapped to FHIR R4B element `AdverseEvent.outcome`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:outcome" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.outcome` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.recorder" ] ;
+       fhir:display [ fhir:v "recorder" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.recorder" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.recorder` is mapped to FHIR R4B element `AdverseEvent.recorder`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:recorder" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.recorder` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.participant" ] ;
+       fhir:display [ fhir:v "participant" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.participant" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.participant` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:participant" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.participant` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.participant.function" ] ;
+       fhir:display [ fhir:v "function" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.participant:function" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.participant.function` is part of an existing definition because parent element `AdverseEvent.participant` requires a cross-version extension.\nElement `AdverseEvent.participant.function` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:participant:function" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.participant.function` is part of an existing definition because parent element `AdverseEvent.participant` requires a cross-version extension.\nElement `AdverseEvent.participant.function` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.participant.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.participant:actor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.participant.actor` is part of an existing definition because parent element `AdverseEvent.participant` requires a cross-version extension.\nElement `AdverseEvent.participant.actor` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:participant:actor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.participant.actor` is part of an existing definition because parent element `AdverseEvent.participant` requires a cross-version extension.\nElement `AdverseEvent.participant.actor` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.study" ] ;
+       fhir:display [ fhir:v "study" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.study" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.study` is mapped to FHIR R4B element `AdverseEvent.study`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:study" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.study` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.expectedInResearchStudy" ] ;
+       fhir:display [ fhir:v "expectedInResearchStudy" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.expectedInResearchStudy" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.expectedInResearchStudy` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:expectedInResearchStudy" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.expectedInResearchStudy` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.suspectEntity" ] ;
+       fhir:display [ fhir:v "suspectEntity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.suspectEntity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity` is mapped to FHIR R4B element `AdverseEvent.suspectEntity`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:suspectEntity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.suspectEntity.instance[x]" ] ;
+       fhir:display [ fhir:v "instance[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.suspectEntity.instance" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity.instance[x]` is mapped to FHIR R4B element `AdverseEvent.suspectEntity.instance`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:suspectEntity:instance" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity.instance[x]` is part of an existing definition because parent element `AdverseEvent.suspectEntity` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.instance[x]` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.suspectEntity.causality" ] ;
+       fhir:display [ fhir:v "causality" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.suspectEntity.causality" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity.causality` is mapped to FHIR R4B element `AdverseEvent.suspectEntity.causality`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:suspectEntity:causality" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity.causality` is part of an existing definition because parent element `AdverseEvent.suspectEntity` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.causality` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.suspectEntity.causality.assessmentMethod" ] ;
+       fhir:display [ fhir:v "assessmentMethod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.suspectEntity.causality.assessment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity.causality.assessmentMethod` is mapped to FHIR R4B element `AdverseEvent.suspectEntity.causality.assessment`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.suspectEntity.causalityAssessment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity.causality.assessmentMethod` is mapped to FHIR STU3 element `AdverseEvent.suspectEntity.causalityAssessment`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:suspectEntity:causality:assessmentMethod" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity.causality.assessmentMethod` is part of an existing definition because parent element `AdverseEvent.suspectEntity.causality` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.causality.assessmentMethod` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.suspectEntity.causality.entityRelatedness" ] ;
+       fhir:display [ fhir:v "entityRelatedness" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.suspectEntity.causality.productRelatedness" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity.causality.entityRelatedness` is mapped to FHIR R4B element `AdverseEvent.suspectEntity.causality.productRelatedness`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.suspectEntity.causalityProductRelatedness" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity.causality.entityRelatedness` is mapped to FHIR STU3 element `AdverseEvent.suspectEntity.causalityProductRelatedness`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:suspectEntity:causality:entityRelatedness" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity.causality.entityRelatedness` is part of an existing definition because parent element `AdverseEvent.suspectEntity.causality` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.causality.entityRelatedness` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.suspectEntity.causality.author" ] ;
+       fhir:display [ fhir:v "author" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.suspectEntity.causality.author" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity.causality.author` is mapped to FHIR R4B element `AdverseEvent.suspectEntity.causality.author`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent#AdverseEvent.suspectEntity.causalityAuthor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity.causality.author` is mapped to FHIR STU3 element `AdverseEvent.suspectEntity.causalityAuthor`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:suspectEntity:causality:author" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity.causality.author` is part of an existing definition because parent element `AdverseEvent.suspectEntity.causality` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.causality.author` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.contributingFactor" ] ;
+       fhir:display [ fhir:v "contributingFactor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.contributingFactor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.contributingFactor` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:contributingFactor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.contributingFactor` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.contributingFactor.item[x]" ] ;
+       fhir:display [ fhir:v "item[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.contributingFactor:item" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.contributingFactor.item[x]` is part of an existing definition because parent element `AdverseEvent.contributingFactor` requires a cross-version extension.\nElement `AdverseEvent.contributingFactor.item[x]` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:contributingFactor:item" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.contributingFactor.item[x]` is part of an existing definition because parent element `AdverseEvent.contributingFactor` requires a cross-version extension.\nElement `AdverseEvent.contributingFactor.item[x]` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.preventiveAction" ] ;
+       fhir:display [ fhir:v "preventiveAction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.preventiveAction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.preventiveAction` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:preventiveAction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.preventiveAction` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.preventiveAction.item[x]" ] ;
+       fhir:display [ fhir:v "item[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.preventiveAction:item" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.preventiveAction.item[x]` is part of an existing definition because parent element `AdverseEvent.preventiveAction` requires a cross-version extension.\nElement `AdverseEvent.preventiveAction.item[x]` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:preventiveAction:item" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.preventiveAction.item[x]` is part of an existing definition because parent element `AdverseEvent.preventiveAction` requires a cross-version extension.\nElement `AdverseEvent.preventiveAction.item[x]` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.mitigatingAction" ] ;
+       fhir:display [ fhir:v "mitigatingAction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.mitigatingAction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.mitigatingAction` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:mitigatingAction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.mitigatingAction` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.mitigatingAction.item[x]" ] ;
+       fhir:display [ fhir:v "item[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.mitigatingAction:item" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.mitigatingAction.item[x]` is part of an existing definition because parent element `AdverseEvent.mitigatingAction` requires a cross-version extension.\nElement `AdverseEvent.mitigatingAction.item[x]` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:mitigatingAction:item" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.mitigatingAction.item[x]` is part of an existing definition because parent element `AdverseEvent.mitigatingAction` requires a cross-version extension.\nElement `AdverseEvent.mitigatingAction.item[x]` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.supportingInfo" ] ;
+       fhir:display [ fhir:v "supportingInfo" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.supportingInfo" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.supportingInfo` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:supportingInfo" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.supportingInfo` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.supportingInfo.item[x]" ] ;
+       fhir:display [ fhir:v "item[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.supportingInfo:item" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.supportingInfo.item[x]` is part of an existing definition because parent element `AdverseEvent.supportingInfo` requires a cross-version extension.\nElement `AdverseEvent.supportingInfo.item[x]` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:supportingInfo:item" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.supportingInfo.item[x]` is part of an existing definition because parent element `AdverseEvent.supportingInfo` requires a cross-version extension.\nElement `AdverseEvent.supportingInfo.item[x]` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.note` is mapped to FHIR R4B structure `AdverseEvent`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent:note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.note` is not mapped to FHIR DSTU2, since FHIR R5 `AdverseEvent` is not mapped." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="ConceptMap-R5-PrimitiveType-elements-for-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap ConceptMap-R5-PrimitiveType-elements-for-R4</b></p><a name="ConceptMap-R5-PrimitiveType-elements-for-R4"> </a><a name="hcConceptMap-R5-PrimitiveType-elements-for-R4"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/PrimitiveType|5.0.0</code> to <code>unspecified code system</code></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>PrimitiveType</td><td>:(equivalent)</td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-PrimitiveType</td><td>FHIR R5 ComplexType `PrimitiveType` is representable via FHIR R4B extensions.
+Element `PrimitiveType` is not mapped to FHIR R4B, since FHIR R5 `PrimitiveType` is not mapped.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-PrimitiveType-elements-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="ConceptMapR5PrimitiveTypeElementsForR4"/>
+  <title value="Cross-version ConceptMap for FHIR R5 resources in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-06T13:17:34.0021157-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/PrimitiveType"/>
+    <sourceVersion value="5.0.0"/>
+    <element>
+      <code value="PrimitiveType"/>
+      <display value="PrimitiveType"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-PrimitiveType"/>
+        <equivalence value="relatedto"/>
+        <comment value="FHIR R5 ComplexType `PrimitiveType` is representable via FHIR R4B extensions.&#xA;Element `PrimitiveType` is not mapped to FHIR R4B, since FHIR R5 `PrimitiveType` is not mapped."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

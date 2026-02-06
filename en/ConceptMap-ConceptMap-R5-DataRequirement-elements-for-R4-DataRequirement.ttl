@@ -1,0 +1,417 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-DataRequirement-elements-for-R4-DataRequirement> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-DataRequirement-elements-for-R4-DataRequirement"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-DataRequirement-elements-for-R4-DataRequirement</b></p><a name=\"ConceptMap-R5-DataRequirement-elements-for-R4-DataRequirement\"> </a><a name=\"hcConceptMap-R5-DataRequirement-elements-for-R4-DataRequirement\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/DataRequirement|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/DataRequirement|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DataRequirement</td><td style=\"border-left-width: 0px; border-bottom-style: none\">DataRequirement</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 ComplexType `DataRequirement` is representable via FHIR R4B extensions.\nElement `DataRequirement` is mapped to FHIR R4B element `DataRequirement`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 ComplexType `DataRequirement` is representable via FHIR DSTU2 extensions.\nElement `DataRequirement` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DataRequirement.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.type</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.type` is mapped to FHIR R4B element `DataRequirement.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:type</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.type` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DataRequirement.profile</td><td style=\"border-left-width: 0px; border-bottom-style: none\">profile</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.profile</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.profile` is mapped to FHIR R4B element `DataRequirement.profile`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:profile</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.profile` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DataRequirement.subject[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">subject[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.subject[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `DataRequirement.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DataRequirement`.\nElement `DataRequirement.subject[x]` is mapped to FHIR R4B element `DataRequirement.subject[x]`.\nNote that the target element context `DataRequirement.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DataRequirement`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.subject</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.subject[x]` is mapped to FHIR STU3 structure `DataRequirement`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:subject</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.subject[x]` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DataRequirement.mustSupport</td><td style=\"border-left-width: 0px; border-bottom-style: none\">mustSupport</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.mustSupport</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.mustSupport` is mapped to FHIR R4B element `DataRequirement.mustSupport`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:mustSupport</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.mustSupport` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DataRequirement.codeFilter</td><td style=\"border-left-width: 0px; border-bottom-style: none\">codeFilter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.codeFilter</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.codeFilter` is mapped to FHIR R4B element `DataRequirement.codeFilter`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:codeFilter</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.codeFilter` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DataRequirement.codeFilter.path</td><td style=\"border-left-width: 0px; border-bottom-style: none\">path</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.codeFilter.path</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.codeFilter.path` is mapped to FHIR R4B element `DataRequirement.codeFilter.path`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:codeFilter:path</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.codeFilter.path` is part of an existing definition because parent element `DataRequirement.codeFilter` requires a cross-version extension.\nElement `DataRequirement.codeFilter.path` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DataRequirement.codeFilter.searchParam</td><td style=\"border-left-width: 0px; border-bottom-style: none\">searchParam</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.codeFilter.searchParam</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.codeFilter.searchParam` is mapped to FHIR R4B element `DataRequirement.codeFilter.searchParam`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.codeFilter.searchParam</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.codeFilter.searchParam` is mapped to FHIR STU3 structure `DataRequirement`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:codeFilter:searchParam</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.codeFilter.searchParam` is part of an existing definition because parent element `DataRequirement.codeFilter` requires a cross-version extension.\nElement `DataRequirement.codeFilter.searchParam` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DataRequirement.codeFilter.valueSet</td><td style=\"border-left-width: 0px; border-bottom-style: none\">valueSet</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.codeFilter.valueSet</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.codeFilter.valueSet` is mapped to FHIR R4B element `DataRequirement.codeFilter.valueSet`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.codeFilter.valueSet[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `DataRequirement.codeFilter.valueSet[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DataRequirement.codeFilter`.\nElement `DataRequirement.codeFilter.valueSet` is mapped to FHIR STU3 element `DataRequirement.codeFilter.valueSet[x]`.\nNote that the target element context `DataRequirement.codeFilter.valueSet[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DataRequirement.codeFilter`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:codeFilter:valueSet</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.codeFilter.valueSet` is part of an existing definition because parent element `DataRequirement.codeFilter` requires a cross-version extension.\nElement `DataRequirement.codeFilter.valueSet` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DataRequirement.codeFilter.code</td><td style=\"border-left-width: 0px; border-bottom-style: none\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.codeFilter.code</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.codeFilter.code` is mapped to FHIR R4B element `DataRequirement.codeFilter.code`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.codeFilter.valueCoding</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.codeFilter.code` is mapped to FHIR STU3 element `DataRequirement.codeFilter.valueCoding`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:codeFilter:code</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.codeFilter.code` is part of an existing definition because parent element `DataRequirement.codeFilter` requires a cross-version extension.\nElement `DataRequirement.codeFilter.code` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DataRequirement.dateFilter</td><td style=\"border-left-width: 0px; border-bottom-style: none\">dateFilter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.dateFilter</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.dateFilter` is mapped to FHIR R4B element `DataRequirement.dateFilter`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:dateFilter</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.dateFilter` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DataRequirement.dateFilter.path</td><td style=\"border-left-width: 0px; border-bottom-style: none\">path</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.dateFilter.path</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.dateFilter.path` is mapped to FHIR R4B element `DataRequirement.dateFilter.path`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:dateFilter:path</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.dateFilter.path` is part of an existing definition because parent element `DataRequirement.dateFilter` requires a cross-version extension.\nElement `DataRequirement.dateFilter.path` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DataRequirement.dateFilter.searchParam</td><td style=\"border-left-width: 0px; border-bottom-style: none\">searchParam</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.dateFilter.searchParam</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.dateFilter.searchParam` is mapped to FHIR R4B element `DataRequirement.dateFilter.searchParam`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.dateFilter.searchParam</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.dateFilter.searchParam` is mapped to FHIR STU3 structure `DataRequirement`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:dateFilter:searchParam</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.dateFilter.searchParam` is part of an existing definition because parent element `DataRequirement.dateFilter` requires a cross-version extension.\nElement `DataRequirement.dateFilter.searchParam` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DataRequirement.dateFilter.value[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">value[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.dateFilter.value[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `DataRequirement.dateFilter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DataRequirement.dateFilter`.\nElement `DataRequirement.dateFilter.value[x]` is mapped to FHIR R4B element `DataRequirement.dateFilter.value[x]`.\nNote that the target element context `DataRequirement.dateFilter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DataRequirement.dateFilter`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:dateFilter:value</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.dateFilter.value[x]` is part of an existing definition because parent element `DataRequirement.dateFilter` requires a cross-version extension.\nElement `DataRequirement.dateFilter.value[x]` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DataRequirement.valueFilter</td><td style=\"border-left-width: 0px; border-bottom-style: none\">valueFilter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.valueFilter</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.valueFilter` is mapped to FHIR R4B structure `DataRequirement`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:valueFilter</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.valueFilter` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DataRequirement.valueFilter.path</td><td style=\"border-left-width: 0px; border-bottom-style: none\">path</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.valueFilter:path</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.valueFilter.path` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.path` is mapped to FHIR R4B structure `DataRequirement`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:valueFilter:path</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.valueFilter.path` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.path` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DataRequirement.valueFilter.searchParam</td><td style=\"border-left-width: 0px; border-bottom-style: none\">searchParam</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.valueFilter:searchParam</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.valueFilter.searchParam` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.searchParam` is mapped to FHIR R4B structure `DataRequirement`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:valueFilter:searchParam</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.valueFilter.searchParam` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.searchParam` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DataRequirement.valueFilter.comparator</td><td style=\"border-left-width: 0px; border-bottom-style: none\">comparator</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.valueFilter:comparator</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.valueFilter.comparator` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.comparator` is mapped to FHIR R4B structure `DataRequirement`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:valueFilter:comparator</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.valueFilter.comparator` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.comparator` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DataRequirement.valueFilter.value[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">value[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.valueFilter:value</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.valueFilter.value[x]` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.value[x]` is mapped to FHIR R4B structure `DataRequirement`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:valueFilter:value</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.valueFilter.value[x]` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.value[x]` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DataRequirement.limit</td><td style=\"border-left-width: 0px; border-bottom-style: none\">limit</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.limit</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.limit` is mapped to FHIR R4B element `DataRequirement.limit`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.limit</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.limit` is mapped to FHIR STU3 structure `DataRequirement`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:limit</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.limit` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DataRequirement.sort</td><td style=\"border-left-width: 0px; border-bottom-style: none\">sort</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.sort</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.sort` is mapped to FHIR R4B element `DataRequirement.sort`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.sort</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.sort` is mapped to FHIR STU3 structure `DataRequirement`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:sort</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.sort` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DataRequirement.sort.path</td><td style=\"border-left-width: 0px; border-bottom-style: none\">path</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.sort.path</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.sort.path` is mapped to FHIR R4B element `DataRequirement.sort.path`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.sort:path</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.sort.path` is part of an existing definition because parent element `DataRequirement.sort` requires a cross-version extension.\nElement `DataRequirement.sort.path` is mapped to FHIR STU3 structure `DataRequirement`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:sort:path</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.sort.path` is part of an existing definition because parent element `DataRequirement.sort` requires a cross-version extension.\nElement `DataRequirement.sort.path` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DataRequirement.sort.direction</td><td style=\"border-left-width: 0px; border-bottom-style: none\">direction</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.sort.direction</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.sort.direction` is mapped to FHIR R4B element `DataRequirement.sort.direction`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.sort:direction</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.sort.direction` is part of an existing definition because parent element `DataRequirement.sort` requires a cross-version extension.\nElement `DataRequirement.sort.direction` is mapped to FHIR STU3 structure `DataRequirement`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:sort:direction</td><td style=\"border-left-width: 0px\"/><td>Element `DataRequirement.sort.direction` is part of an existing definition because parent element `DataRequirement.sort` requires a cross-version extension.\nElement `DataRequirement.sort.direction` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-DataRequirement-elements-for-R4-DataRequirement"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-DataRequirement-elements-for-R4-DataRequirement>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5DataRequirementElementsForR4DataRequirement"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:32.0314613-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/DataRequirement"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/DataRequirement>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "DataRequirement" ] ;
+       fhir:display [ fhir:v "DataRequirement" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 ComplexType `DataRequirement` is representable via FHIR R4B extensions.\nElement `DataRequirement` is mapped to FHIR R4B element `DataRequirement`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 ComplexType `DataRequirement` is representable via FHIR DSTU2 extensions.\nElement `DataRequirement` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DataRequirement.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.type` is mapped to FHIR R4B element `DataRequirement.type`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.type` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DataRequirement.profile" ] ;
+       fhir:display [ fhir:v "profile" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.profile" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.profile` is mapped to FHIR R4B element `DataRequirement.profile`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:profile" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.profile` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DataRequirement.subject[x]" ] ;
+       fhir:display [ fhir:v "subject[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.subject[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `DataRequirement.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DataRequirement`.\nElement `DataRequirement.subject[x]` is mapped to FHIR R4B element `DataRequirement.subject[x]`.\nNote that the target element context `DataRequirement.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DataRequirement`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.subject[x]` is mapped to FHIR STU3 structure `DataRequirement`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.subject[x]` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DataRequirement.mustSupport" ] ;
+       fhir:display [ fhir:v "mustSupport" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.mustSupport" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.mustSupport` is mapped to FHIR R4B element `DataRequirement.mustSupport`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:mustSupport" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.mustSupport` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DataRequirement.codeFilter" ] ;
+       fhir:display [ fhir:v "codeFilter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.codeFilter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.codeFilter` is mapped to FHIR R4B element `DataRequirement.codeFilter`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:codeFilter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.codeFilter` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DataRequirement.codeFilter.path" ] ;
+       fhir:display [ fhir:v "path" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.codeFilter.path" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.codeFilter.path` is mapped to FHIR R4B element `DataRequirement.codeFilter.path`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:codeFilter:path" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.codeFilter.path` is part of an existing definition because parent element `DataRequirement.codeFilter` requires a cross-version extension.\nElement `DataRequirement.codeFilter.path` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DataRequirement.codeFilter.searchParam" ] ;
+       fhir:display [ fhir:v "searchParam" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.codeFilter.searchParam" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.codeFilter.searchParam` is mapped to FHIR R4B element `DataRequirement.codeFilter.searchParam`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.codeFilter.searchParam" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.codeFilter.searchParam` is mapped to FHIR STU3 structure `DataRequirement`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:codeFilter:searchParam" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.codeFilter.searchParam` is part of an existing definition because parent element `DataRequirement.codeFilter` requires a cross-version extension.\nElement `DataRequirement.codeFilter.searchParam` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DataRequirement.codeFilter.valueSet" ] ;
+       fhir:display [ fhir:v "valueSet" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.codeFilter.valueSet" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.codeFilter.valueSet` is mapped to FHIR R4B element `DataRequirement.codeFilter.valueSet`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.codeFilter.valueSet[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `DataRequirement.codeFilter.valueSet[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DataRequirement.codeFilter`.\nElement `DataRequirement.codeFilter.valueSet` is mapped to FHIR STU3 element `DataRequirement.codeFilter.valueSet[x]`.\nNote that the target element context `DataRequirement.codeFilter.valueSet[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DataRequirement.codeFilter`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:codeFilter:valueSet" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.codeFilter.valueSet` is part of an existing definition because parent element `DataRequirement.codeFilter` requires a cross-version extension.\nElement `DataRequirement.codeFilter.valueSet` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DataRequirement.codeFilter.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.codeFilter.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.codeFilter.code` is mapped to FHIR R4B element `DataRequirement.codeFilter.code`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.codeFilter.valueCoding" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.codeFilter.code` is mapped to FHIR STU3 element `DataRequirement.codeFilter.valueCoding`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:codeFilter:code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.codeFilter.code` is part of an existing definition because parent element `DataRequirement.codeFilter` requires a cross-version extension.\nElement `DataRequirement.codeFilter.code` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DataRequirement.dateFilter" ] ;
+       fhir:display [ fhir:v "dateFilter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.dateFilter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.dateFilter` is mapped to FHIR R4B element `DataRequirement.dateFilter`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:dateFilter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.dateFilter` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DataRequirement.dateFilter.path" ] ;
+       fhir:display [ fhir:v "path" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.dateFilter.path" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.dateFilter.path` is mapped to FHIR R4B element `DataRequirement.dateFilter.path`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:dateFilter:path" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.dateFilter.path` is part of an existing definition because parent element `DataRequirement.dateFilter` requires a cross-version extension.\nElement `DataRequirement.dateFilter.path` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DataRequirement.dateFilter.searchParam" ] ;
+       fhir:display [ fhir:v "searchParam" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.dateFilter.searchParam" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.dateFilter.searchParam` is mapped to FHIR R4B element `DataRequirement.dateFilter.searchParam`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.dateFilter.searchParam" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.dateFilter.searchParam` is mapped to FHIR STU3 structure `DataRequirement`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:dateFilter:searchParam" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.dateFilter.searchParam` is part of an existing definition because parent element `DataRequirement.dateFilter` requires a cross-version extension.\nElement `DataRequirement.dateFilter.searchParam` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DataRequirement.dateFilter.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.dateFilter.value[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `DataRequirement.dateFilter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DataRequirement.dateFilter`.\nElement `DataRequirement.dateFilter.value[x]` is mapped to FHIR R4B element `DataRequirement.dateFilter.value[x]`.\nNote that the target element context `DataRequirement.dateFilter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DataRequirement.dateFilter`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:dateFilter:value" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.dateFilter.value[x]` is part of an existing definition because parent element `DataRequirement.dateFilter` requires a cross-version extension.\nElement `DataRequirement.dateFilter.value[x]` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DataRequirement.valueFilter" ] ;
+       fhir:display [ fhir:v "valueFilter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.valueFilter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.valueFilter` is mapped to FHIR R4B structure `DataRequirement`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:valueFilter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.valueFilter` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DataRequirement.valueFilter.path" ] ;
+       fhir:display [ fhir:v "path" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.valueFilter:path" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.valueFilter.path` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.path` is mapped to FHIR R4B structure `DataRequirement`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:valueFilter:path" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.valueFilter.path` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.path` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DataRequirement.valueFilter.searchParam" ] ;
+       fhir:display [ fhir:v "searchParam" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.valueFilter:searchParam" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.valueFilter.searchParam` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.searchParam` is mapped to FHIR R4B structure `DataRequirement`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:valueFilter:searchParam" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.valueFilter.searchParam` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.searchParam` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DataRequirement.valueFilter.comparator" ] ;
+       fhir:display [ fhir:v "comparator" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.valueFilter:comparator" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.valueFilter.comparator` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.comparator` is mapped to FHIR R4B structure `DataRequirement`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:valueFilter:comparator" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.valueFilter.comparator` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.comparator` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DataRequirement.valueFilter.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.valueFilter:value" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.valueFilter.value[x]` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.value[x]` is mapped to FHIR R4B structure `DataRequirement`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:valueFilter:value" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.valueFilter.value[x]` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.value[x]` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DataRequirement.limit" ] ;
+       fhir:display [ fhir:v "limit" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.limit" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.limit` is mapped to FHIR R4B element `DataRequirement.limit`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.limit" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.limit` is mapped to FHIR STU3 structure `DataRequirement`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:limit" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.limit` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DataRequirement.sort" ] ;
+       fhir:display [ fhir:v "sort" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.sort" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.sort` is mapped to FHIR R4B element `DataRequirement.sort`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.sort" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.sort` is mapped to FHIR STU3 structure `DataRequirement`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:sort" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.sort` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DataRequirement.sort.path" ] ;
+       fhir:display [ fhir:v "path" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.sort.path" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.sort.path` is mapped to FHIR R4B element `DataRequirement.sort.path`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.sort:path" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.sort.path` is part of an existing definition because parent element `DataRequirement.sort` requires a cross-version extension.\nElement `DataRequirement.sort.path` is mapped to FHIR STU3 structure `DataRequirement`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:sort:path" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.sort.path` is part of an existing definition because parent element `DataRequirement.sort` requires a cross-version extension.\nElement `DataRequirement.sort.path` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DataRequirement.sort.direction" ] ;
+       fhir:display [ fhir:v "direction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.sort.direction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.sort.direction` is mapped to FHIR R4B element `DataRequirement.sort.direction`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.sort:direction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.sort.direction` is part of an existing definition because parent element `DataRequirement.sort` requires a cross-version extension.\nElement `DataRequirement.sort.direction` is mapped to FHIR STU3 structure `DataRequirement`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement:sort:direction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DataRequirement.sort.direction` is part of an existing definition because parent element `DataRequirement.sort` requires a cross-version extension.\nElement `DataRequirement.sort.direction` is not mapped to FHIR DSTU2, since FHIR R5 `DataRequirement` is not mapped." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,565 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-PaymentReconciliation-elements-for-R4-PaymentReconciliation> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-PaymentReconciliation-elements-for-R4-PaymentReconciliation"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-PaymentReconciliation-elements-for-R4-PaymentReconciliation</b></p><a name=\"ConceptMap-R5-PaymentReconciliation-elements-for-R4-PaymentReconciliation\"> </a><a name=\"hcConceptMap-R5-PaymentReconciliation-elements-for-R4-PaymentReconciliation\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/PaymentReconciliation|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/PaymentReconciliation|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation</td><td style=\"border-left-width: 0px\">PaymentReconciliation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `PaymentReconciliation` is representable via FHIR R4B Resource `PaymentReconciliation`.\nElement `PaymentReconciliation` is mapped to FHIR R4B element `PaymentReconciliation`.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.meta</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.meta` is mapped to FHIR R4B element `PaymentReconciliation.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.implicitRules` is mapped to FHIR R4B element `PaymentReconciliation.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.language</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.language` is mapped to FHIR R4B element `PaymentReconciliation.language`.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.text</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.text` is mapped to FHIR R4B element `PaymentReconciliation.text`.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.contained</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.contained` is mapped to FHIR R4B element `PaymentReconciliation.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.identifier` is mapped to FHIR R4B element `PaymentReconciliation.identifier`.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.type</td><td style=\"border-left-width: 0px\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.type</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.type` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">PaymentReconciliation.status</td><td style=\"border-left-width: 0px; border-bottom-style: none\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.status</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.status` is mapped to FHIR R4B element `PaymentReconciliation.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.status</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.status` is mapped to FHIR DSTU2 structure `PaymentReconciliation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.kind</td><td style=\"border-left-width: 0px\">kind</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.kind</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.kind` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.period</td><td style=\"border-left-width: 0px\">period</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.period</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.period` is mapped to FHIR R4B element `PaymentReconciliation.period`.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.created</td><td style=\"border-left-width: 0px\">created</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.created</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.created` is mapped to FHIR R4B element `PaymentReconciliation.created`.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.enterer</td><td style=\"border-left-width: 0px\">enterer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.enterer</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.enterer` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.issuerType</td><td style=\"border-left-width: 0px\">issuerType</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.issuerType</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.issuerType` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">PaymentReconciliation.paymentIssuer</td><td style=\"border-left-width: 0px; border-bottom-style: none\">paymentIssuer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.paymentIssuer</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.paymentIssuer` is mapped to FHIR R4B element `PaymentReconciliation.paymentIssuer`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.organization</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.paymentIssuer` is mapped to FHIR STU3 element `PaymentReconciliation.organization`.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.request</td><td style=\"border-left-width: 0px\">request</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.request</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.request` is mapped to FHIR R4B element `PaymentReconciliation.request`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">PaymentReconciliation.requestor</td><td style=\"border-left-width: 0px; border-bottom-style: none\">requestor</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.requestor</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.requestor` is mapped to FHIR R4B element `PaymentReconciliation.requestor`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.requestOrganization</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.requestor` is mapped to FHIR STU3 element `PaymentReconciliation.requestProvider`.\nElement `PaymentReconciliation.requestor` is mapped to FHIR STU3 element `PaymentReconciliation.requestOrganization`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.requestProvider</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.requestor` is mapped to FHIR STU3 element `PaymentReconciliation.requestProvider`.\nElement `PaymentReconciliation.requestor` is mapped to FHIR STU3 element `PaymentReconciliation.requestOrganization`.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.outcome</td><td style=\"border-left-width: 0px\">outcome</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.outcome</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.outcome` is mapped to FHIR R4B element `PaymentReconciliation.outcome`.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.disposition</td><td style=\"border-left-width: 0px\">disposition</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.disposition</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.disposition` is mapped to FHIR R4B element `PaymentReconciliation.disposition`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">PaymentReconciliation.date</td><td style=\"border-left-width: 0px; border-bottom-style: none\">date</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.paymentDate</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.date` is mapped to FHIR R4B element `PaymentReconciliation.paymentDate`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.date</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.date` is mapped to FHIR STU3 structure `PaymentReconciliation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.location</td><td style=\"border-left-width: 0px\">location</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.location</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.location` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.method</td><td style=\"border-left-width: 0px\">method</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.method</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.method` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.cardBrand</td><td style=\"border-left-width: 0px\">cardBrand</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.cardBrand</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.cardBrand` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.accountNumber</td><td style=\"border-left-width: 0px\">accountNumber</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.accountNumber</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.accountNumber` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.expirationDate</td><td style=\"border-left-width: 0px\">expirationDate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.expirationDate</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.expirationDate` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.processor</td><td style=\"border-left-width: 0px\">processor</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.processor</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.processor` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.referenceNumber</td><td style=\"border-left-width: 0px\">referenceNumber</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.referenceNumber</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.referenceNumber` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.authorization</td><td style=\"border-left-width: 0px\">authorization</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.authorization</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.authorization` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.tenderedAmount</td><td style=\"border-left-width: 0px\">tenderedAmount</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.tenderedAmount</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.tenderedAmount` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.returnedAmount</td><td style=\"border-left-width: 0px\">returnedAmount</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.returnedAmount</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.returnedAmount` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">PaymentReconciliation.amount</td><td style=\"border-left-width: 0px; border-bottom-style: none\">amount</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.paymentAmount</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.amount` is mapped to FHIR R4B element `PaymentReconciliation.paymentAmount`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.total</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.amount` is mapped to FHIR STU3 element `PaymentReconciliation.total`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">PaymentReconciliation.paymentIdentifier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">paymentIdentifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.paymentIdentifier</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.paymentIdentifier` is mapped to FHIR R4B element `PaymentReconciliation.paymentIdentifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.paymentIdentifier</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.paymentIdentifier` is mapped to FHIR STU3 structure `PaymentReconciliation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.allocation</td><td style=\"border-left-width: 0px\">allocation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.allocation` is mapped to FHIR R4B element `PaymentReconciliation.detail`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">PaymentReconciliation.allocation.identifier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.allocation.identifier` is mapped to FHIR R4B element `PaymentReconciliation.detail.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.allocation.identifier` is mapped to FHIR STU3 structure `PaymentReconciliation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">PaymentReconciliation.allocation.predecessor</td><td style=\"border-left-width: 0px; border-bottom-style: none\">predecessor</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.predecessor</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.allocation.predecessor` is mapped to FHIR R4B element `PaymentReconciliation.detail.predecessor`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.predecessor</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.allocation.predecessor` is mapped to FHIR STU3 structure `PaymentReconciliation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.allocation.target</td><td style=\"border-left-width: 0px\">target</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.target</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.allocation.target` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.allocation.targetItem[x]</td><td style=\"border-left-width: 0px\">targetItem[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.targetItem</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.allocation.targetItem[x]` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.allocation.encounter</td><td style=\"border-left-width: 0px\">encounter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.encounter</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.allocation.encounter` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.allocation.account</td><td style=\"border-left-width: 0px\">account</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.account</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.allocation.account` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.allocation.type</td><td style=\"border-left-width: 0px\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.type</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.allocation.type` is mapped to FHIR R4B element `PaymentReconciliation.detail.type`.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.allocation.submitter</td><td style=\"border-left-width: 0px\">submitter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.submitter</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.allocation.submitter` is mapped to FHIR R4B element `PaymentReconciliation.detail.submitter`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">PaymentReconciliation.allocation.response</td><td style=\"border-left-width: 0px; border-bottom-style: none\">response</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.response</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.allocation.response` is mapped to FHIR R4B element `PaymentReconciliation.detail.response`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.responce</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.allocation.response` is mapped to FHIR DSTU2 element `PaymentReconciliation.detail.responce`.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.allocation.date</td><td style=\"border-left-width: 0px\">date</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.date</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.allocation.date` is mapped to FHIR R4B element `PaymentReconciliation.detail.date`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">PaymentReconciliation.allocation.responsible</td><td style=\"border-left-width: 0px; border-bottom-style: none\">responsible</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.responsible</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.allocation.responsible` is mapped to FHIR R4B element `PaymentReconciliation.detail.responsible`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.responsible</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.allocation.responsible` is mapped to FHIR STU3 structure `PaymentReconciliation`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.allocation.payee</td><td style=\"border-left-width: 0px\">payee</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.payee</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.allocation.payee` is mapped to FHIR R4B element `PaymentReconciliation.detail.payee`.</td></tr><tr><td style=\"border-right-width: 0px\">PaymentReconciliation.allocation.amount</td><td style=\"border-left-width: 0px\">amount</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.amount</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.allocation.amount` is mapped to FHIR R4B element `PaymentReconciliation.detail.amount`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">PaymentReconciliation.formCode</td><td style=\"border-left-width: 0px; border-bottom-style: none\">formCode</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.formCode</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.formCode` is mapped to FHIR R4B element `PaymentReconciliation.formCode`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.form</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.formCode` is mapped to FHIR STU3 element `PaymentReconciliation.form`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">PaymentReconciliation.processNote</td><td style=\"border-left-width: 0px; border-bottom-style: none\">processNote</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.processNote</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.processNote` is mapped to FHIR R4B element `PaymentReconciliation.processNote`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.note</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.processNote` is mapped to FHIR DSTU2 element `PaymentReconciliation.note`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">PaymentReconciliation.processNote.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.processNote.type</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.processNote.type` is mapped to FHIR R4B element `PaymentReconciliation.processNote.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.note.type</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.processNote.type` is mapped to FHIR DSTU2 element `PaymentReconciliation.note.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">PaymentReconciliation.processNote.text</td><td style=\"border-left-width: 0px; border-bottom-style: none\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.processNote.text</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.processNote.text` is mapped to FHIR R4B element `PaymentReconciliation.processNote.text`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.note.text</td><td style=\"border-left-width: 0px\"/><td>Element `PaymentReconciliation.processNote.text` is mapped to FHIR DSTU2 element `PaymentReconciliation.note.text`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-PaymentReconciliation-elements-for-R4-PaymentReconciliation"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-PaymentReconciliation-elements-for-R4-PaymentReconciliation>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5PaymentReconciliationElementsForR4PaymentReconciliation"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:33.882037-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/PaymentReconciliation>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "PaymentReconciliation" ] ;
+       fhir:display [ fhir:v "PaymentReconciliation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `PaymentReconciliation` is representable via FHIR R4B Resource `PaymentReconciliation`.\nElement `PaymentReconciliation` is mapped to FHIR R4B element `PaymentReconciliation`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.meta` is mapped to FHIR R4B element `PaymentReconciliation.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.implicitRules` is mapped to FHIR R4B element `PaymentReconciliation.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.language` is mapped to FHIR R4B element `PaymentReconciliation.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.text` is mapped to FHIR R4B element `PaymentReconciliation.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.contained` is mapped to FHIR R4B element `PaymentReconciliation.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.identifier` is mapped to FHIR R4B element `PaymentReconciliation.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.type` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.status` is mapped to FHIR R4B element `PaymentReconciliation.status`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.status` is mapped to FHIR DSTU2 structure `PaymentReconciliation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.kind" ] ;
+       fhir:display [ fhir:v "kind" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.kind" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.kind` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.period` is mapped to FHIR R4B element `PaymentReconciliation.period`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.created" ] ;
+       fhir:display [ fhir:v "created" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.created" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.created` is mapped to FHIR R4B element `PaymentReconciliation.created`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.enterer" ] ;
+       fhir:display [ fhir:v "enterer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.enterer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.enterer` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.issuerType" ] ;
+       fhir:display [ fhir:v "issuerType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.issuerType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.issuerType` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.paymentIssuer" ] ;
+       fhir:display [ fhir:v "paymentIssuer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.paymentIssuer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.paymentIssuer` is mapped to FHIR R4B element `PaymentReconciliation.paymentIssuer`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.organization" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.paymentIssuer` is mapped to FHIR STU3 element `PaymentReconciliation.organization`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.request" ] ;
+       fhir:display [ fhir:v "request" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.request" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.request` is mapped to FHIR R4B element `PaymentReconciliation.request`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.requestor" ] ;
+       fhir:display [ fhir:v "requestor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.requestor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.requestor` is mapped to FHIR R4B element `PaymentReconciliation.requestor`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.requestOrganization" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.requestor` is mapped to FHIR STU3 element `PaymentReconciliation.requestProvider`.\nElement `PaymentReconciliation.requestor` is mapped to FHIR STU3 element `PaymentReconciliation.requestOrganization`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.requestProvider" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.requestor` is mapped to FHIR STU3 element `PaymentReconciliation.requestProvider`.\nElement `PaymentReconciliation.requestor` is mapped to FHIR STU3 element `PaymentReconciliation.requestOrganization`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.outcome" ] ;
+       fhir:display [ fhir:v "outcome" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.outcome" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.outcome` is mapped to FHIR R4B element `PaymentReconciliation.outcome`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.disposition" ] ;
+       fhir:display [ fhir:v "disposition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.disposition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.disposition` is mapped to FHIR R4B element `PaymentReconciliation.disposition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.paymentDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.date` is mapped to FHIR R4B element `PaymentReconciliation.paymentDate`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.date` is mapped to FHIR STU3 structure `PaymentReconciliation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.location" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.location` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.method" ] ;
+       fhir:display [ fhir:v "method" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.method" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.method` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.cardBrand" ] ;
+       fhir:display [ fhir:v "cardBrand" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.cardBrand" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.cardBrand` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.accountNumber" ] ;
+       fhir:display [ fhir:v "accountNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.accountNumber" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.accountNumber` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.expirationDate" ] ;
+       fhir:display [ fhir:v "expirationDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.expirationDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.expirationDate` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.processor" ] ;
+       fhir:display [ fhir:v "processor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.processor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.processor` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.referenceNumber" ] ;
+       fhir:display [ fhir:v "referenceNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.referenceNumber" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.referenceNumber` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.authorization" ] ;
+       fhir:display [ fhir:v "authorization" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.authorization" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.authorization` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.tenderedAmount" ] ;
+       fhir:display [ fhir:v "tenderedAmount" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.tenderedAmount" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.tenderedAmount` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.returnedAmount" ] ;
+       fhir:display [ fhir:v "returnedAmount" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.returnedAmount" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.returnedAmount` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.amount" ] ;
+       fhir:display [ fhir:v "amount" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.paymentAmount" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.amount` is mapped to FHIR R4B element `PaymentReconciliation.paymentAmount`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.total" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.amount` is mapped to FHIR STU3 element `PaymentReconciliation.total`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.paymentIdentifier" ] ;
+       fhir:display [ fhir:v "paymentIdentifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.paymentIdentifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.paymentIdentifier` is mapped to FHIR R4B element `PaymentReconciliation.paymentIdentifier`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.paymentIdentifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.paymentIdentifier` is mapped to FHIR STU3 structure `PaymentReconciliation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.allocation" ] ;
+       fhir:display [ fhir:v "allocation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.allocation` is mapped to FHIR R4B element `PaymentReconciliation.detail`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.allocation.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.allocation.identifier` is mapped to FHIR R4B element `PaymentReconciliation.detail.identifier`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.allocation.identifier` is mapped to FHIR STU3 structure `PaymentReconciliation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.allocation.predecessor" ] ;
+       fhir:display [ fhir:v "predecessor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.predecessor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.allocation.predecessor` is mapped to FHIR R4B element `PaymentReconciliation.detail.predecessor`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.predecessor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.allocation.predecessor` is mapped to FHIR STU3 structure `PaymentReconciliation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.allocation.target" ] ;
+       fhir:display [ fhir:v "target" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.target" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.allocation.target` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.allocation.targetItem[x]" ] ;
+       fhir:display [ fhir:v "targetItem[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.targetItem" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.allocation.targetItem[x]` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.allocation.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.encounter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.allocation.encounter` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.allocation.account" ] ;
+       fhir:display [ fhir:v "account" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.account" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.allocation.account` is mapped to FHIR R4B structure `PaymentReconciliation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.allocation.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.allocation.type` is mapped to FHIR R4B element `PaymentReconciliation.detail.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.allocation.submitter" ] ;
+       fhir:display [ fhir:v "submitter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.submitter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.allocation.submitter` is mapped to FHIR R4B element `PaymentReconciliation.detail.submitter`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.allocation.response" ] ;
+       fhir:display [ fhir:v "response" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.response" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.allocation.response` is mapped to FHIR R4B element `PaymentReconciliation.detail.response`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.responce" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.allocation.response` is mapped to FHIR DSTU2 element `PaymentReconciliation.detail.responce`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.allocation.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.allocation.date` is mapped to FHIR R4B element `PaymentReconciliation.detail.date`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.allocation.responsible" ] ;
+       fhir:display [ fhir:v "responsible" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.responsible" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.allocation.responsible` is mapped to FHIR R4B element `PaymentReconciliation.detail.responsible`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.responsible" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.allocation.responsible` is mapped to FHIR STU3 structure `PaymentReconciliation`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.allocation.payee" ] ;
+       fhir:display [ fhir:v "payee" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.payee" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.allocation.payee` is mapped to FHIR R4B element `PaymentReconciliation.detail.payee`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.allocation.amount" ] ;
+       fhir:display [ fhir:v "amount" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.amount" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.allocation.amount` is mapped to FHIR R4B element `PaymentReconciliation.detail.amount`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.formCode" ] ;
+       fhir:display [ fhir:v "formCode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.formCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.formCode` is mapped to FHIR R4B element `PaymentReconciliation.formCode`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.form" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.formCode` is mapped to FHIR STU3 element `PaymentReconciliation.form`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.processNote" ] ;
+       fhir:display [ fhir:v "processNote" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.processNote" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.processNote` is mapped to FHIR R4B element `PaymentReconciliation.processNote`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.processNote` is mapped to FHIR DSTU2 element `PaymentReconciliation.note`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.processNote.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.processNote.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.processNote.type` is mapped to FHIR R4B element `PaymentReconciliation.processNote.type`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.note.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.processNote.type` is mapped to FHIR DSTU2 element `PaymentReconciliation.note.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentReconciliation.processNote.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.processNote.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.processNote.text` is mapped to FHIR R4B element `PaymentReconciliation.processNote.text`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.note.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `PaymentReconciliation.processNote.text` is mapped to FHIR DSTU2 element `PaymentReconciliation.note.text`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

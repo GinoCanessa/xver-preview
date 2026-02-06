@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="contract-scope"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">Each definition includes usage notes explaining
+            the precedence order in contract lifecycle - i.e., while only some stages are required,
+            the order in which they may occur is deterministic; and a map to comparable FHIR and v.3
+            status codes. It follows guidance about use of status codes in FHIR in
+            
+      
+            [the Status Codes Grid](https://hl7.org/fhir/sc.html).
+    
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fm"/>
+  </extension>
+  <url value="http://hl7.org/fhir/contract-scope"/>
+  <version value="5.0.0"/>
+  <name value="ContractScope"/>
+  <title value="Contract Scope"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2017-02-12T18:00:00-06:00"/>
+  <publisher value="Financial Management"/>
+  <contact>
+    <name value="Financial Management"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fm"/>
+    </telecom>
+  </contact>
+  <description value="This CodeSystem contains FHIR-defined contract Expiration types."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="policy"/>
+    <display value="Policy"/>
+    <definition value="To be completed"/>
+  </concept>
+</CodeSystem>

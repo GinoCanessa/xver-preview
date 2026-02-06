@@ -1,0 +1,85 @@
+{
+  "resourceType" : "ConceptMap",
+  "id" : "ConceptMap-R5-Period-elements-for-R4-Period",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-Period-elements-for-R4-Period</b></p><a name=\"ConceptMap-R5-Period-elements-for-R4-Period\"> </a><a name=\"hcConceptMap-R5-Period-elements-for-R4-Period\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Period|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Period</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Period#Period</td><td>FHIR R5 ComplexType `Period` is representable via FHIR R4B extensions.\nElement `Period` is mapped to FHIR R4B element `Period`.</td></tr><tr><td>Period.start (start)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Period#Period.start</td><td>Element `Period.start` is mapped to FHIR R4B element `Period.start`.</td></tr><tr><td>Period.end (end)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Period#Period.end</td><td>Element `Period.end` is mapped to FHIR R4B element `Period.end`.</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "fhir"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 0,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  }],
+  "url" : "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Period-elements-for-R4-Period",
+  "version" : "0.0.1-snapshot-3",
+  "name" : "ConceptMapR5PeriodElementsForR4Period",
+  "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-02-06T13:17:33.9049338-06:00",
+  "contact" : [{
+    "name" : "FHIR Infrastructure",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/fiwg"
+    }]
+  }],
+  "description" : "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "group" : [{
+    "source" : "http://hl7.org/fhir/StructureDefinition/Period",
+    "sourceVersion" : "5.0.0",
+    "element" : [{
+      "code" : "Period",
+      "display" : "Period",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/StructureDefinition/Period#Period",
+        "equivalence" : "relatedto",
+        "comment" : "FHIR R5 ComplexType `Period` is representable via FHIR R4B extensions.\nElement `Period` is mapped to FHIR R4B element `Period`."
+      }]
+    },
+    {
+      "code" : "Period.start",
+      "display" : "start",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/StructureDefinition/Period#Period.start",
+        "equivalence" : "relatedto",
+        "comment" : "Element `Period.start` is mapped to FHIR R4B element `Period.start`."
+      }]
+    },
+    {
+      "code" : "Period.end",
+      "display" : "end",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/StructureDefinition/Period#Period.end",
+        "equivalence" : "relatedto",
+        "comment" : "Element `Period.end` is mapped to FHIR R4B element `Period.end`."
+      }]
+    }]
+  }]
+}

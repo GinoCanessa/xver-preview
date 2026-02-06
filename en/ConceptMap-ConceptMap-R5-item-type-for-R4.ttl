@@ -1,0 +1,253 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-item-type-for-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-item-type-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-item-type-for-R4</b></p><a name=\"ConceptMap-R5-item-type-for-R4\"> </a><a name=\"hcConceptMap-R5-item-type-for-R4\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <a href=\"CodeSystem-item-type.html\">Questionnaire Item Typeversion: 5.0.0)</a> to <a href=\"CodeSystem-item-type.html\">Questionnaire Item Typeversion: 5.0.0)</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from <a href=\"CodeSystem-item-type.html\" title=\"http://hl7.org/fhir/item-type|5.0.0\">Questionnaire Item Type</a></td><td colspan=\"2\"><b>Codes</b> from <a href=\"CodeSystem-item-type.html\" title=\"http://hl7.org/fhir/item-type|5.0.0\">Questionnaire Item Type</a></td><td/></tr><tr><td style=\"border-right-width: 0px\">attachment</td><td style=\"border-left-width: 0px\">Attachment</td><td style=\"border-right-width: 0px\">attachment</td><td style=\"border-left-width: 0px\">Attachment</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#attachment` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#attachment` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent.</td></tr><tr><td style=\"border-right-width: 0px\">boolean</td><td style=\"border-left-width: 0px\">Boolean</td><td style=\"border-right-width: 0px\">boolean</td><td style=\"border-left-width: 0px\">Boolean</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#boolean` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#boolean` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">coding</td><td style=\"border-left-width: 0px; border-bottom-style: none\">Coding</td><td style=\"border-right-width: 0px\">choice</td><td style=\"border-left-width: 0px\">Choice</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as SourceIsBroaderThanTarget in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#coding` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#choice` as SourceIsBroaderThanTarget in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in SourceIsBroaderThanTarget.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">open-choice</td><td style=\"border-left-width: 0px\">Open Choice</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as SourceIsBroaderThanTarget in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#coding` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#open-choice` as SourceIsBroaderThanTarget in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in SourceIsBroaderThanTarget.</td></tr><tr><td style=\"border-right-width: 0px\">date</td><td style=\"border-left-width: 0px\">Date</td><td style=\"border-right-width: 0px\">date</td><td style=\"border-left-width: 0px\">Date</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#date` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#date` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent.</td></tr><tr><td style=\"border-right-width: 0px\">dateTime</td><td style=\"border-left-width: 0px\">Date Time</td><td style=\"border-right-width: 0px\">dateTime</td><td style=\"border-left-width: 0px\">Date Time</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#dateTime` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#dateTime` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent.</td></tr><tr><td style=\"border-right-width: 0px\">decimal</td><td style=\"border-left-width: 0px\">Decimal</td><td style=\"border-right-width: 0px\">decimal</td><td style=\"border-left-width: 0px\">Decimal</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#decimal` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#decimal` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent.</td></tr><tr><td style=\"border-right-width: 0px\">display</td><td style=\"border-left-width: 0px\">Display</td><td style=\"border-right-width: 0px\">display</td><td style=\"border-left-width: 0px\">Display</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#display` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#display` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent.</td></tr><tr><td style=\"border-right-width: 0px\">group</td><td style=\"border-left-width: 0px\">Group</td><td style=\"border-right-width: 0px\">group</td><td style=\"border-left-width: 0px\">Group</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#group` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#group` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent.</td></tr><tr><td style=\"border-right-width: 0px\">integer</td><td style=\"border-left-width: 0px\">Integer</td><td style=\"border-right-width: 0px\">integer</td><td style=\"border-left-width: 0px\">Integer</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#integer` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#integer` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent.</td></tr><tr><td style=\"border-right-width: 0px\">quantity</td><td style=\"border-left-width: 0px\">Quantity</td><td style=\"border-right-width: 0px\">quantity</td><td style=\"border-left-width: 0px\">Quantity</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#quantity` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#quantity` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent.</td></tr><tr><td style=\"border-right-width: 0px\">reference</td><td style=\"border-left-width: 0px\">Reference</td><td style=\"border-right-width: 0px\">reference</td><td style=\"border-left-width: 0px\">Reference</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#reference` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#reference` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent.</td></tr><tr><td style=\"border-right-width: 0px\">string</td><td style=\"border-left-width: 0px\">String</td><td style=\"border-right-width: 0px\">string</td><td style=\"border-left-width: 0px\">String</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#string` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#string` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent.</td></tr><tr><td style=\"border-right-width: 0px\">text</td><td style=\"border-left-width: 0px\">Text</td><td style=\"border-right-width: 0px\">text</td><td style=\"border-left-width: 0px\">Text</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#text` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#text` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent.</td></tr><tr><td style=\"border-right-width: 0px\">time</td><td style=\"border-left-width: 0px\">Time</td><td style=\"border-right-width: 0px\">time</td><td style=\"border-left-width: 0px\">Time</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#time` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#time` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent.</td></tr><tr><td style=\"border-right-width: 0px\">url</td><td style=\"border-left-width: 0px\">Url</td><td style=\"border-right-width: 0px\">url</td><td style=\"border-left-width: 0px\">Url</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#url` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#url` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ValueSet-R5-item-type-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ValueSet-R5-item-type-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5ItemTypeForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for ValueSet ValueSet-R5-item-type-for-R4 from FHIR R5 to FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:23.9844899-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of concepts from ValueSet `http://hl7.org/fhir/ValueSet/item-type|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/item-type"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/item-type>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/item-type"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/item-type>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "attachment" ] ;
+       fhir:display [ fhir:v "Attachment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "attachment" ] ;
+         fhir:display [ fhir:v "Attachment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#attachment` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#attachment` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "boolean" ] ;
+       fhir:display [ fhir:v "Boolean" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "boolean" ] ;
+         fhir:display [ fhir:v "Boolean" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#boolean` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#boolean` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "coding" ] ;
+       fhir:display [ fhir:v "Coding" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "choice" ] ;
+         fhir:display [ fhir:v "Choice" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as SourceIsBroaderThanTarget in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#coding` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#choice` as SourceIsBroaderThanTarget in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in SourceIsBroaderThanTarget." ]
+       ] [
+         fhir:code [ fhir:v "open-choice" ] ;
+         fhir:display [ fhir:v "Open Choice" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as SourceIsBroaderThanTarget in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#coding` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#open-choice` as SourceIsBroaderThanTarget in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in SourceIsBroaderThanTarget." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "date" ] ;
+       fhir:display [ fhir:v "Date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "date" ] ;
+         fhir:display [ fhir:v "Date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#date` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#date` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "dateTime" ] ;
+       fhir:display [ fhir:v "Date Time" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "dateTime" ] ;
+         fhir:display [ fhir:v "Date Time" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#dateTime` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#dateTime` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "decimal" ] ;
+       fhir:display [ fhir:v "Decimal" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "decimal" ] ;
+         fhir:display [ fhir:v "Decimal" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#decimal` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#decimal` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "display" ] ;
+       fhir:display [ fhir:v "Display" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "display" ] ;
+         fhir:display [ fhir:v "Display" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#display` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#display` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "group" ] ;
+       fhir:display [ fhir:v "Group" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "group" ] ;
+         fhir:display [ fhir:v "Group" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#group` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#group` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "integer" ] ;
+       fhir:display [ fhir:v "Integer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "integer" ] ;
+         fhir:display [ fhir:v "Integer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#integer` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#integer` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "quantity" ] ;
+       fhir:display [ fhir:v "Quantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "quantity" ] ;
+         fhir:display [ fhir:v "Quantity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#quantity` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#quantity` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "reference" ] ;
+       fhir:display [ fhir:v "Reference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "reference" ] ;
+         fhir:display [ fhir:v "Reference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#reference` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#reference` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "string" ] ;
+       fhir:display [ fhir:v "String" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "string" ] ;
+         fhir:display [ fhir:v "String" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#string` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#string` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "text" ] ;
+       fhir:display [ fhir:v "Text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "text" ] ;
+         fhir:display [ fhir:v "Text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#text` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#text` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "time" ] ;
+       fhir:display [ fhir:v "Time" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "time" ] ;
+         fhir:display [ fhir:v "Time" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#time` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#time` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "url" ] ;
+       fhir:display [ fhir:v "Url" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "url" ] ;
+         fhir:display [ fhir:v "Url" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0` to `http://hl7.org/fhir/ValueSet/item-type|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-ItemType-R4B-ItemType` (`ConceptMap-R5-ItemType-R4B-ItemType.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|4.3.0` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-ItemType-R4-ItemType` (`ConceptMap-R4B-ItemType-R4-ItemType.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/item-type|5.0.0#url` to `http://hl7.org/fhir/ValueSet/item-type|4.0.1#url` as Equivalent in `ConceptMap-R5-ItemType-R4-ItemType.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "question" ] ;
+       fhir:display [ fhir:v "Question" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="deviceassociation-status-reason"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/deviceassociation-status-reason</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">attached
+                  <a name="deviceassociation-status-reason-attached"> </a>
+                </td>
+                <td>Attached</td>
+                <td>The device is connected to the patient.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">disconnected
+                  <a name="deviceassociation-status-reason-disconnected"> </a>
+                </td>
+                <td>Disconnected</td>
+                <td>The device is no longer connected.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">failed
+                  <a name="deviceassociation-status-reason-failed"> </a>
+                </td>
+                <td>Failed</td>
+                <td>The device has failed to work, or continue to function.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">placed
+                  <a name="deviceassociation-status-reason-placed"> </a>
+                </td>
+                <td>placed</td>
+                <td>The device was placed in the patient.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">replaced
+                  <a name="deviceassociation-status-reason-replaced"> </a>
+                </td>
+                <td>Replaced</td>
+                <td>The device was updated with a new device or device part.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="oo"/>
+  </extension>
+  <url value="http://hl7.org/fhir/deviceassociation-status-reason"/>
+  <version value="5.0.0"/>
+  <name value="DeviceassociationStatusReason"/>
+  <title value="DeviceAssociation Status Reason Codes"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-06T13:22:22-06:00"/>
+  <publisher value="Orders and Observations"/>
+  <contact>
+    <name value="Orders and Observations"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/orders"/>
+    </telecom>
+  </contact>
+  <description value="DeviceAssociation Status Reason Codes"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/deviceassociation-status-reason"/>
+  <content value="complete"/>
+  <concept>
+    <code value="attached"/>
+    <display value="Attached"/>
+    <definition value="The device is connected to the patient."/>
+  </concept>
+  <concept>
+    <code value="disconnected"/>
+    <display value="Disconnected"/>
+    <definition value="The device is no longer connected."/>
+  </concept>
+  <concept>
+    <code value="failed"/>
+    <display value="Failed"/>
+    <definition value="The device has failed to work, or continue to function."/>
+  </concept>
+  <concept>
+    <code value="placed"/>
+    <display value="placed"/>
+    <definition value="The device was placed in the patient."/>
+  </concept>
+  <concept>
+    <code value="replaced"/>
+    <display value="Replaced"/>
+    <definition value="The device was updated with a new device or device part."/>
+  </concept>
+</CodeSystem>

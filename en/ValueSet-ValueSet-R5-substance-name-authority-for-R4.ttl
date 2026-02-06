@@ -1,0 +1,301 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/ValueSet-R5-substance-name-authority-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ValueSet-R5-substance-name-authority-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ValueSet-R5-substance-name-authority-for-R4</b></p><a name=\"ValueSet-R5-substance-name-authority-for-R4\"> </a><a name=\"hcValueSet-R5-substance-name-authority-for-R4\"> </a><p>This value set expansion contains 15 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"ValueSet-R5-substance-name-authority-for-R4-http://hl7.org/fhir/substance-name-authority-BAN\"> </a><code>http://hl7.org/fhir/substance-name-authority</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-substance-name-authority.html#substance-name-authority-BAN\">BAN</a></td><td>BAN</td></tr><tr><td><a name=\"ValueSet-R5-substance-name-authority-for-R4-http://hl7.org/fhir/substance-name-authority-COSING\"> </a><code>http://hl7.org/fhir/substance-name-authority</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-substance-name-authority.html#substance-name-authority-COSING\">COSING</a></td><td>COSING</td></tr><tr><td><a name=\"ValueSet-R5-substance-name-authority-for-R4-http://hl7.org/fhir/substance-name-authority-FCC\"> </a><code>http://hl7.org/fhir/substance-name-authority</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-substance-name-authority.html#substance-name-authority-FCC\">FCC</a></td><td>FCC</td></tr><tr><td><a name=\"ValueSet-R5-substance-name-authority-for-R4-http://hl7.org/fhir/substance-name-authority-HAB\"> </a><code>http://hl7.org/fhir/substance-name-authority</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-substance-name-authority.html#substance-name-authority-HAB\">HAB</a></td><td>HAB</td></tr><tr><td><a name=\"ValueSet-R5-substance-name-authority-for-R4-http://hl7.org/fhir/substance-name-authority-INCI\"> </a><code>http://hl7.org/fhir/substance-name-authority</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-substance-name-authority.html#substance-name-authority-INCI\">INCI</a></td><td>INCI</td></tr><tr><td><a name=\"ValueSet-R5-substance-name-authority-for-R4-http://hl7.org/fhir/substance-name-authority-INN\"> </a><code>http://hl7.org/fhir/substance-name-authority</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-substance-name-authority.html#substance-name-authority-INN\">INN</a></td><td>INN</td></tr><tr><td><a name=\"ValueSet-R5-substance-name-authority-for-R4-http://hl7.org/fhir/substance-name-authority-IUIS\"> </a><code>http://hl7.org/fhir/substance-name-authority</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-substance-name-authority.html#substance-name-authority-IUIS\">IUIS</a></td><td>IUIS</td></tr><tr><td><a name=\"ValueSet-R5-substance-name-authority-for-R4-http://hl7.org/fhir/substance-name-authority-JAN\"> </a><code>http://hl7.org/fhir/substance-name-authority</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-substance-name-authority.html#substance-name-authority-JAN\">JAN</a></td><td>JAN</td></tr><tr><td><a name=\"ValueSet-R5-substance-name-authority-for-R4-http://hl7.org/fhir/substance-name-authority-JECFA\"> </a><code>http://hl7.org/fhir/substance-name-authority</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-substance-name-authority.html#substance-name-authority-JECFA\">JECFA</a></td><td>JECFA</td></tr><tr><td><a name=\"ValueSet-R5-substance-name-authority-for-R4-http://hl7.org/fhir/substance-name-authority-MARTINDALE\"> </a><code>http://hl7.org/fhir/substance-name-authority</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-substance-name-authority.html#substance-name-authority-MARTINDALE\">MARTINDALE</a></td><td>MARTINDALE</td></tr><tr><td><a name=\"ValueSet-R5-substance-name-authority-for-R4-http://hl7.org/fhir/substance-name-authority-PHF\"> </a><code>http://hl7.org/fhir/substance-name-authority</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-substance-name-authority.html#substance-name-authority-PHF\">PHF</a></td><td>PHF</td></tr><tr><td><a name=\"ValueSet-R5-substance-name-authority-for-R4-http://hl7.org/fhir/substance-name-authority-Ph.Eur.\"> </a><code>http://hl7.org/fhir/substance-name-authority</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-substance-name-authority.html#substance-name-authority-Ph.46Eur.46\">Ph.Eur.</a></td><td>Ph.Eur.</td></tr><tr><td><a name=\"ValueSet-R5-substance-name-authority-for-R4-http://hl7.org/fhir/substance-name-authority-PhF\"> </a><code>http://hl7.org/fhir/substance-name-authority</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-substance-name-authority.html#substance-name-authority-PhF\">PhF</a></td><td>PhF (Pharmacopée française)</td></tr><tr><td><a name=\"ValueSet-R5-substance-name-authority-for-R4-http://hl7.org/fhir/substance-name-authority-USAN\"> </a><code>http://hl7.org/fhir/substance-name-authority</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-substance-name-authority.html#substance-name-authority-USAN\">USAN</a></td><td>USAN</td></tr><tr><td><a name=\"ValueSet-R5-substance-name-authority-for-R4-http://hl7.org/fhir/substance-name-authority-USP\"> </a><code>http://hl7.org/fhir/substance-name-authority</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-substance-name-authority.html#substance-name-authority-USP\">USP</a></td><td>USP</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "brr"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-substance-name-authority-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-substance-name-authority-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ValueSetR5SubstanceNameAuthorityForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.SubstanceNameAuthority for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Biomedical Research and Regulation"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Biomedical Research and Regulation" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/rcrim" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/substance-name-authority|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/substance-name-authority|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `SubstanceDefinition.name.official.authority` as Preferred\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/substance-name-authority|5.0.0`\n* `http://hl7.org/fhir/ValueSet/substance-name-authority|4.3.0`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\nAll concepts in the comparison are listed as identical.\nThe source and target value sets have the same number of active concepts (15)."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/substance-name-authority"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/substance-name-authority>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "BAN" ] ;
+         fhir:display [ fhir:v "BAN" ]
+       ] [
+         fhir:code [ fhir:v "COSING" ] ;
+         fhir:display [ fhir:v "COSING" ]
+       ] [
+         fhir:code [ fhir:v "FCC" ] ;
+         fhir:display [ fhir:v "FCC" ]
+       ] [
+         fhir:code [ fhir:v "HAB" ] ;
+         fhir:display [ fhir:v "HAB" ]
+       ] [
+         fhir:code [ fhir:v "INCI" ] ;
+         fhir:display [ fhir:v "INCI" ]
+       ] [
+         fhir:code [ fhir:v "INN" ] ;
+         fhir:display [ fhir:v "INN" ]
+       ] [
+         fhir:code [ fhir:v "IUIS" ] ;
+         fhir:display [ fhir:v "IUIS" ]
+       ] [
+         fhir:code [ fhir:v "JAN" ] ;
+         fhir:display [ fhir:v "JAN" ]
+       ] [
+         fhir:code [ fhir:v "JECFA" ] ;
+         fhir:display [ fhir:v "JECFA" ]
+       ] [
+         fhir:code [ fhir:v "MARTINDALE" ] ;
+         fhir:display [ fhir:v "MARTINDALE" ]
+       ] [
+         fhir:code [ fhir:v "PHF" ] ;
+         fhir:display [ fhir:v "PHF" ]
+       ] [
+         fhir:code [ fhir:v "Ph.Eur." ] ;
+         fhir:display [ fhir:v "Ph.Eur." ]
+       ] [
+         fhir:code [ fhir:v "PhF" ] ;
+         fhir:display [ fhir:v "PhF (Pharmacopée française)" ]
+       ] [
+         fhir:code [ fhir:v "USAN" ] ;
+         fhir:display [ fhir:v "USAN" ]
+       ] [
+         fhir:code [ fhir:v "USP" ] ;
+         fhir:display [ fhir:v "USP" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/substance-name-authority"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/substance-name-authority>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "BAN" ] ;
+       fhir:display [ fhir:v "BAN" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/substance-name-authority"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/substance-name-authority>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "COSING" ] ;
+       fhir:display [ fhir:v "COSING" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/substance-name-authority"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/substance-name-authority>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "FCC" ] ;
+       fhir:display [ fhir:v "FCC" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/substance-name-authority"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/substance-name-authority>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "HAB" ] ;
+       fhir:display [ fhir:v "HAB" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/substance-name-authority"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/substance-name-authority>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "INCI" ] ;
+       fhir:display [ fhir:v "INCI" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/substance-name-authority"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/substance-name-authority>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "INN" ] ;
+       fhir:display [ fhir:v "INN" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/substance-name-authority"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/substance-name-authority>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "IUIS" ] ;
+       fhir:display [ fhir:v "IUIS" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/substance-name-authority"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/substance-name-authority>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "JAN" ] ;
+       fhir:display [ fhir:v "JAN" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/substance-name-authority"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/substance-name-authority>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "JECFA" ] ;
+       fhir:display [ fhir:v "JECFA" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/substance-name-authority"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/substance-name-authority>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "MARTINDALE" ] ;
+       fhir:display [ fhir:v "MARTINDALE" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/substance-name-authority"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/substance-name-authority>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "PHF" ] ;
+       fhir:display [ fhir:v "PHF" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/substance-name-authority"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/substance-name-authority>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Ph.Eur." ] ;
+       fhir:display [ fhir:v "Ph.Eur." ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/substance-name-authority"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/substance-name-authority>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "PhF" ] ;
+       fhir:display [ fhir:v "PhF (Pharmacopée française)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/substance-name-authority"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/substance-name-authority>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "USAN" ] ;
+       fhir:display [ fhir:v "USAN" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/substance-name-authority"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/substance-name-authority>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "USP" ] ;
+       fhir:display [ fhir:v "USP" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,372 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-Patient-elements-for-R4-Patient> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-Patient-elements-for-R4-Patient"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-Patient-elements-for-R4-Patient</b></p><a name=\"ConceptMap-R5-Patient-elements-for-R4-Patient\"> </a><a name=\"hcConceptMap-R5-Patient-elements-for-R4-Patient\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Patient|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Patient|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">Patient</td><td style=\"border-left-width: 0px\">Patient</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Patient` is representable via FHIR R4B Resource `Patient`.\nElement `Patient` is mapped to FHIR R4B element `Patient`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.meta</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.meta` is mapped to FHIR R4B element `Patient.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.implicitRules` is mapped to FHIR R4B element `Patient.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.language</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.language` is mapped to FHIR R4B element `Patient.language`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.text</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.text` is mapped to FHIR R4B element `Patient.text`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.contained</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.contained` is mapped to FHIR R4B element `Patient.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.identifier` is mapped to FHIR R4B element `Patient.identifier`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.active</td><td style=\"border-left-width: 0px\">active</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.active</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.active` is mapped to FHIR R4B element `Patient.active`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.name</td><td style=\"border-left-width: 0px\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.name</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.name` is mapped to FHIR R4B element `Patient.name`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.telecom</td><td style=\"border-left-width: 0px\">telecom</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.telecom</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.telecom` is mapped to FHIR R4B element `Patient.telecom`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.gender</td><td style=\"border-left-width: 0px\">gender</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.gender</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.gender` is mapped to FHIR R4B element `Patient.gender`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.birthDate</td><td style=\"border-left-width: 0px\">birthDate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.birthDate</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.birthDate` is mapped to FHIR R4B element `Patient.birthDate`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.deceased[x]</td><td style=\"border-left-width: 0px\">deceased[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.deceased[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Patient.deceased[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Patient`.\nElement `Patient.deceased[x]` is mapped to FHIR R4B element `Patient.deceased[x]`.\nNote that the target element context `Patient.deceased[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Patient`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.address</td><td style=\"border-left-width: 0px\">address</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.address</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.address` is mapped to FHIR R4B element `Patient.address`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.maritalStatus</td><td style=\"border-left-width: 0px\">maritalStatus</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.maritalStatus</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.maritalStatus` is mapped to FHIR R4B element `Patient.maritalStatus`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.multipleBirth[x]</td><td style=\"border-left-width: 0px\">multipleBirth[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.multipleBirth[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Patient.multipleBirth[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Patient`.\nElement `Patient.multipleBirth[x]` is mapped to FHIR R4B element `Patient.multipleBirth[x]`.\nNote that the target element context `Patient.multipleBirth[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Patient`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.photo</td><td style=\"border-left-width: 0px\">photo</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.photo</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.photo` is mapped to FHIR R4B element `Patient.photo`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.contact</td><td style=\"border-left-width: 0px\">contact</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.contact</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.contact` is mapped to FHIR R4B element `Patient.contact`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.contact.relationship</td><td style=\"border-left-width: 0px\">relationship</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.contact.relationship</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.contact.relationship` is mapped to FHIR R4B element `Patient.contact.relationship`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.contact.name</td><td style=\"border-left-width: 0px\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.contact.name</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.contact.name` is mapped to FHIR R4B element `Patient.contact.name`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.contact.telecom</td><td style=\"border-left-width: 0px\">telecom</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.contact.telecom</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.contact.telecom` is mapped to FHIR R4B element `Patient.contact.telecom`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.contact.address</td><td style=\"border-left-width: 0px\">address</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.contact.address</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.contact.address` is mapped to FHIR R4B element `Patient.contact.address`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.contact.gender</td><td style=\"border-left-width: 0px\">gender</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.contact.gender</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.contact.gender` is mapped to FHIR R4B element `Patient.contact.gender`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.contact.organization</td><td style=\"border-left-width: 0px\">organization</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.contact.organization</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.contact.organization` is mapped to FHIR R4B element `Patient.contact.organization`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.contact.period</td><td style=\"border-left-width: 0px\">period</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.contact.period</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.contact.period` is mapped to FHIR R4B element `Patient.contact.period`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.communication</td><td style=\"border-left-width: 0px\">communication</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.communication</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.communication` is mapped to FHIR R4B element `Patient.communication`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.communication.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.communication.language</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.communication.language` is mapped to FHIR R4B element `Patient.communication.language`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.communication.preferred</td><td style=\"border-left-width: 0px\">preferred</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.communication.preferred</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.communication.preferred` is mapped to FHIR R4B element `Patient.communication.preferred`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Patient.generalPractitioner</td><td style=\"border-left-width: 0px; border-bottom-style: none\">generalPractitioner</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.generalPractitioner</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.generalPractitioner` is mapped to FHIR R4B element `Patient.generalPractitioner`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.careProvider</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.generalPractitioner` is mapped to FHIR DSTU2 element `Patient.careProvider`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.managingOrganization</td><td style=\"border-left-width: 0px\">managingOrganization</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.managingOrganization</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.managingOrganization` is mapped to FHIR R4B element `Patient.managingOrganization`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.link</td><td style=\"border-left-width: 0px\">link</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.link</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.link` is mapped to FHIR R4B element `Patient.link`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.link.other</td><td style=\"border-left-width: 0px\">other</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.link.other</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.link.other` is mapped to FHIR R4B element `Patient.link.other`.</td></tr><tr><td style=\"border-right-width: 0px\">Patient.link.type</td><td style=\"border-left-width: 0px\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Patient#Patient.link.type</td><td style=\"border-left-width: 0px\"/><td>Element `Patient.link.type` is mapped to FHIR R4B element `Patient.link.type`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Patient-elements-for-R4-Patient"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Patient-elements-for-R4-Patient>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5PatientElementsForR4Patient"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:33.860121-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Patient"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Patient>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Patient" ] ;
+       fhir:display [ fhir:v "Patient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Patient` is representable via FHIR R4B Resource `Patient`.\nElement `Patient` is mapped to FHIR R4B element `Patient`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.meta` is mapped to FHIR R4B element `Patient.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.implicitRules` is mapped to FHIR R4B element `Patient.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.language` is mapped to FHIR R4B element `Patient.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.text` is mapped to FHIR R4B element `Patient.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.contained` is mapped to FHIR R4B element `Patient.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.identifier` is mapped to FHIR R4B element `Patient.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.active" ] ;
+       fhir:display [ fhir:v "active" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.active" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.active` is mapped to FHIR R4B element `Patient.active`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.name` is mapped to FHIR R4B element `Patient.name`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.telecom" ] ;
+       fhir:display [ fhir:v "telecom" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.telecom" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.telecom` is mapped to FHIR R4B element `Patient.telecom`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.gender" ] ;
+       fhir:display [ fhir:v "gender" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.gender" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.gender` is mapped to FHIR R4B element `Patient.gender`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.birthDate" ] ;
+       fhir:display [ fhir:v "birthDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.birthDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.birthDate` is mapped to FHIR R4B element `Patient.birthDate`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.deceased[x]" ] ;
+       fhir:display [ fhir:v "deceased[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.deceased[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Patient.deceased[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Patient`.\nElement `Patient.deceased[x]` is mapped to FHIR R4B element `Patient.deceased[x]`.\nNote that the target element context `Patient.deceased[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Patient`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.address" ] ;
+       fhir:display [ fhir:v "address" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.address" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.address` is mapped to FHIR R4B element `Patient.address`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.maritalStatus" ] ;
+       fhir:display [ fhir:v "maritalStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.maritalStatus" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.maritalStatus` is mapped to FHIR R4B element `Patient.maritalStatus`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.multipleBirth[x]" ] ;
+       fhir:display [ fhir:v "multipleBirth[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.multipleBirth[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Patient.multipleBirth[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Patient`.\nElement `Patient.multipleBirth[x]` is mapped to FHIR R4B element `Patient.multipleBirth[x]`.\nNote that the target element context `Patient.multipleBirth[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Patient`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.photo" ] ;
+       fhir:display [ fhir:v "photo" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.photo" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.photo` is mapped to FHIR R4B element `Patient.photo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.contact" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.contact` is mapped to FHIR R4B element `Patient.contact`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.contact.relationship" ] ;
+       fhir:display [ fhir:v "relationship" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.contact.relationship" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.contact.relationship` is mapped to FHIR R4B element `Patient.contact.relationship`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.contact.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.contact.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.contact.name` is mapped to FHIR R4B element `Patient.contact.name`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.contact.telecom" ] ;
+       fhir:display [ fhir:v "telecom" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.contact.telecom" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.contact.telecom` is mapped to FHIR R4B element `Patient.contact.telecom`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.contact.address" ] ;
+       fhir:display [ fhir:v "address" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.contact.address" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.contact.address` is mapped to FHIR R4B element `Patient.contact.address`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.contact.gender" ] ;
+       fhir:display [ fhir:v "gender" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.contact.gender" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.contact.gender` is mapped to FHIR R4B element `Patient.contact.gender`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.contact.organization" ] ;
+       fhir:display [ fhir:v "organization" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.contact.organization" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.contact.organization` is mapped to FHIR R4B element `Patient.contact.organization`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.contact.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.contact.period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.contact.period` is mapped to FHIR R4B element `Patient.contact.period`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.communication" ] ;
+       fhir:display [ fhir:v "communication" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.communication" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.communication` is mapped to FHIR R4B element `Patient.communication`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.communication.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.communication.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.communication.language` is mapped to FHIR R4B element `Patient.communication.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.communication.preferred" ] ;
+       fhir:display [ fhir:v "preferred" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.communication.preferred" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.communication.preferred` is mapped to FHIR R4B element `Patient.communication.preferred`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.generalPractitioner" ] ;
+       fhir:display [ fhir:v "generalPractitioner" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.generalPractitioner" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.generalPractitioner` is mapped to FHIR R4B element `Patient.generalPractitioner`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.careProvider" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.generalPractitioner` is mapped to FHIR DSTU2 element `Patient.careProvider`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.managingOrganization" ] ;
+       fhir:display [ fhir:v "managingOrganization" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.managingOrganization" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.managingOrganization` is mapped to FHIR R4B element `Patient.managingOrganization`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.link" ] ;
+       fhir:display [ fhir:v "link" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.link" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.link` is mapped to FHIR R4B element `Patient.link`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.link.other" ] ;
+       fhir:display [ fhir:v "other" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.link.other" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.link.other` is mapped to FHIR R4B element `Patient.link.other`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Patient.link.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Patient#Patient.link.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Patient.link.type` is mapped to FHIR R4B element `Patient.link.type`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

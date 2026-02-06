@@ -1,0 +1,397 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-Bundle-elements-for-R4-Bundle> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-Bundle-elements-for-R4-Bundle"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-Bundle-elements-for-R4-Bundle</b></p><a name=\"ConceptMap-R5-Bundle-elements-for-R4-Bundle\"> </a><a name=\"hcConceptMap-R5-Bundle-elements-for-R4-Bundle\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Bundle|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Bundle|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">Bundle</td><td style=\"border-left-width: 0px\">Bundle</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Bundle` is representable via FHIR R4B Resource `Bundle`.\nElement `Bundle` is mapped to FHIR R4B element `Bundle`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.meta</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.meta` is mapped to FHIR R4B element `Bundle.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.implicitRules` is mapped to FHIR R4B element `Bundle.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.language</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.language` is mapped to FHIR R4B element `Bundle.language`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Bundle.identifier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.identifier` is mapped to FHIR R4B element `Bundle.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.identifier</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `Bundle.identifier` is mapped to FHIR DSTU2 structure `Bundle`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.type</td><td style=\"border-left-width: 0px\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.type</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.type` is mapped to FHIR R4B element `Bundle.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Bundle.timestamp</td><td style=\"border-left-width: 0px; border-bottom-style: none\">timestamp</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.timestamp</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.timestamp` is mapped to FHIR R4B element `Bundle.timestamp`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.timestamp</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.timestamp` is mapped to FHIR STU3 structure `Bundle`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.total</td><td style=\"border-left-width: 0px\">total</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.total</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.total` is mapped to FHIR R4B element `Bundle.total`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.link</td><td style=\"border-left-width: 0px\">link</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.link</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.link` is mapped to FHIR R4B element `Bundle.link`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.link.relation</td><td style=\"border-left-width: 0px\">relation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.link.relation</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.link.relation` is part of an existing definition because parent element `Bundle.link` requires a component extension (e.g., if this element is used as a content reference).\nElement `Bundle.link.relation` is mapped to FHIR R4B element `Bundle.link.relation`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.link.url</td><td style=\"border-left-width: 0px\">url</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.link.url</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.link.url` is part of an existing definition because parent element `Bundle.link` requires a component extension (e.g., if this element is used as a content reference).\nElement `Bundle.link.url` is mapped to FHIR R4B element `Bundle.link.url`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.entry</td><td style=\"border-left-width: 0px\">entry</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.entry` is mapped to FHIR R4B element `Bundle.entry`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.entry.link</td><td style=\"border-left-width: 0px\">link</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.link</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.entry.link` is mapped to FHIR R4B element `Bundle.entry.link`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.entry.link.relation</td><td style=\"border-left-width: 0px\">relation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.link.relation</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.entry.link.relation` is mapped to FHIR R4B element `Bundle.entry.link.relation`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.entry.link.url</td><td style=\"border-left-width: 0px\">url</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.link.url</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.entry.link.url` is mapped to FHIR R4B element `Bundle.entry.link.url`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.entry.fullUrl</td><td style=\"border-left-width: 0px\">fullUrl</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.fullUrl</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.entry.fullUrl` is mapped to FHIR R4B element `Bundle.entry.fullUrl`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.entry.resource</td><td style=\"border-left-width: 0px\">resource</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.resource</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.entry.resource` is mapped to FHIR R4B element `Bundle.entry.resource`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.entry.search</td><td style=\"border-left-width: 0px\">search</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.search</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.entry.search` is mapped to FHIR R4B element `Bundle.entry.search`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.entry.search.mode</td><td style=\"border-left-width: 0px\">mode</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.search.mode</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.entry.search.mode` is mapped to FHIR R4B element `Bundle.entry.search.mode`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.entry.search.score</td><td style=\"border-left-width: 0px\">score</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.search.score</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.entry.search.score` is mapped to FHIR R4B element `Bundle.entry.search.score`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.entry.request</td><td style=\"border-left-width: 0px\">request</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.request</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.entry.request` is mapped to FHIR R4B element `Bundle.entry.request`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.entry.request.method</td><td style=\"border-left-width: 0px\">method</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.request.method</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.entry.request.method` is mapped to FHIR R4B element `Bundle.entry.request.method`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.entry.request.url</td><td style=\"border-left-width: 0px\">url</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.request.url</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.entry.request.url` is mapped to FHIR R4B element `Bundle.entry.request.url`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.entry.request.ifNoneMatch</td><td style=\"border-left-width: 0px\">ifNoneMatch</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.request.ifNoneMatch</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.entry.request.ifNoneMatch` is mapped to FHIR R4B element `Bundle.entry.request.ifNoneMatch`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.entry.request.ifModifiedSince</td><td style=\"border-left-width: 0px\">ifModifiedSince</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.request.ifModifiedSince</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.entry.request.ifModifiedSince` is mapped to FHIR R4B element `Bundle.entry.request.ifModifiedSince`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.entry.request.ifMatch</td><td style=\"border-left-width: 0px\">ifMatch</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.request.ifMatch</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.entry.request.ifMatch` is mapped to FHIR R4B element `Bundle.entry.request.ifMatch`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.entry.request.ifNoneExist</td><td style=\"border-left-width: 0px\">ifNoneExist</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.request.ifNoneExist</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.entry.request.ifNoneExist` is mapped to FHIR R4B element `Bundle.entry.request.ifNoneExist`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.entry.response</td><td style=\"border-left-width: 0px\">response</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.response</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.entry.response` is mapped to FHIR R4B element `Bundle.entry.response`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.entry.response.status</td><td style=\"border-left-width: 0px\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.response.status</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.entry.response.status` is mapped to FHIR R4B element `Bundle.entry.response.status`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.entry.response.location</td><td style=\"border-left-width: 0px\">location</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.response.location</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.entry.response.location` is mapped to FHIR R4B element `Bundle.entry.response.location`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.entry.response.etag</td><td style=\"border-left-width: 0px\">etag</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.response.etag</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.entry.response.etag` is mapped to FHIR R4B element `Bundle.entry.response.etag`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.entry.response.lastModified</td><td style=\"border-left-width: 0px\">lastModified</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.response.lastModified</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.entry.response.lastModified` is mapped to FHIR R4B element `Bundle.entry.response.lastModified`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Bundle.entry.response.outcome</td><td style=\"border-left-width: 0px; border-bottom-style: none\">outcome</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.response.outcome</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.entry.response.outcome` is mapped to FHIR R4B element `Bundle.entry.response.outcome`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.response.outcome</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.entry.response.outcome` is mapped to FHIR DSTU2 structure `Bundle`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.signature</td><td style=\"border-left-width: 0px\">signature</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.signature</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.signature` is mapped to FHIR R4B element `Bundle.signature`.</td></tr><tr><td style=\"border-right-width: 0px\">Bundle.issues</td><td style=\"border-left-width: 0px\">issues</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.issues</td><td style=\"border-left-width: 0px\"/><td>Element `Bundle.issues` is mapped to FHIR R4B structure `Bundle`, but has no target element specified.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Bundle-elements-for-R4-Bundle"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Bundle-elements-for-R4-Bundle>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5BundleElementsForR4Bundle"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:31.1380063-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Bundle>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Bundle" ] ;
+       fhir:display [ fhir:v "Bundle" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Bundle` is representable via FHIR R4B Resource `Bundle`.\nElement `Bundle` is mapped to FHIR R4B element `Bundle`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.meta` is mapped to FHIR R4B element `Bundle.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.implicitRules` is mapped to FHIR R4B element `Bundle.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.language` is mapped to FHIR R4B element `Bundle.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.identifier` is mapped to FHIR R4B element `Bundle.identifier`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `Bundle.identifier` is mapped to FHIR DSTU2 structure `Bundle`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.type` is mapped to FHIR R4B element `Bundle.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.timestamp" ] ;
+       fhir:display [ fhir:v "timestamp" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.timestamp" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.timestamp` is mapped to FHIR R4B element `Bundle.timestamp`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.timestamp" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.timestamp` is mapped to FHIR STU3 structure `Bundle`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.total" ] ;
+       fhir:display [ fhir:v "total" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.total" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.total` is mapped to FHIR R4B element `Bundle.total`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.link" ] ;
+       fhir:display [ fhir:v "link" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.link" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.link` is mapped to FHIR R4B element `Bundle.link`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.link.relation" ] ;
+       fhir:display [ fhir:v "relation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.link.relation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.link.relation` is part of an existing definition because parent element `Bundle.link` requires a component extension (e.g., if this element is used as a content reference).\nElement `Bundle.link.relation` is mapped to FHIR R4B element `Bundle.link.relation`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.link.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.link.url" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.link.url` is part of an existing definition because parent element `Bundle.link` requires a component extension (e.g., if this element is used as a content reference).\nElement `Bundle.link.url` is mapped to FHIR R4B element `Bundle.link.url`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry" ] ;
+       fhir:display [ fhir:v "entry" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry` is mapped to FHIR R4B element `Bundle.entry`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.link" ] ;
+       fhir:display [ fhir:v "link" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.link" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.link` is mapped to FHIR R4B element `Bundle.entry.link`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.link.relation" ] ;
+       fhir:display [ fhir:v "relation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.link.relation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.link.relation` is mapped to FHIR R4B element `Bundle.entry.link.relation`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.link.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.link.url" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.link.url` is mapped to FHIR R4B element `Bundle.entry.link.url`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.fullUrl" ] ;
+       fhir:display [ fhir:v "fullUrl" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.fullUrl" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.fullUrl` is mapped to FHIR R4B element `Bundle.entry.fullUrl`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.resource" ] ;
+       fhir:display [ fhir:v "resource" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.resource" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.resource` is mapped to FHIR R4B element `Bundle.entry.resource`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.search" ] ;
+       fhir:display [ fhir:v "search" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.search" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.search` is mapped to FHIR R4B element `Bundle.entry.search`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.search.mode" ] ;
+       fhir:display [ fhir:v "mode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.search.mode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.search.mode` is mapped to FHIR R4B element `Bundle.entry.search.mode`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.search.score" ] ;
+       fhir:display [ fhir:v "score" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.search.score" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.search.score` is mapped to FHIR R4B element `Bundle.entry.search.score`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.request" ] ;
+       fhir:display [ fhir:v "request" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.request" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.request` is mapped to FHIR R4B element `Bundle.entry.request`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.request.method" ] ;
+       fhir:display [ fhir:v "method" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.request.method" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.request.method` is mapped to FHIR R4B element `Bundle.entry.request.method`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.request.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.request.url" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.request.url` is mapped to FHIR R4B element `Bundle.entry.request.url`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.request.ifNoneMatch" ] ;
+       fhir:display [ fhir:v "ifNoneMatch" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.request.ifNoneMatch" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.request.ifNoneMatch` is mapped to FHIR R4B element `Bundle.entry.request.ifNoneMatch`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.request.ifModifiedSince" ] ;
+       fhir:display [ fhir:v "ifModifiedSince" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.request.ifModifiedSince" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.request.ifModifiedSince` is mapped to FHIR R4B element `Bundle.entry.request.ifModifiedSince`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.request.ifMatch" ] ;
+       fhir:display [ fhir:v "ifMatch" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.request.ifMatch" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.request.ifMatch` is mapped to FHIR R4B element `Bundle.entry.request.ifMatch`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.request.ifNoneExist" ] ;
+       fhir:display [ fhir:v "ifNoneExist" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.request.ifNoneExist" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.request.ifNoneExist` is mapped to FHIR R4B element `Bundle.entry.request.ifNoneExist`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.response" ] ;
+       fhir:display [ fhir:v "response" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.response" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.response` is mapped to FHIR R4B element `Bundle.entry.response`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.response.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.response.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.response.status` is mapped to FHIR R4B element `Bundle.entry.response.status`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.response.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.response.location" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.response.location` is mapped to FHIR R4B element `Bundle.entry.response.location`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.response.etag" ] ;
+       fhir:display [ fhir:v "etag" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.response.etag" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.response.etag` is mapped to FHIR R4B element `Bundle.entry.response.etag`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.response.lastModified" ] ;
+       fhir:display [ fhir:v "lastModified" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.response.lastModified" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.response.lastModified` is mapped to FHIR R4B element `Bundle.entry.response.lastModified`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.response.outcome" ] ;
+       fhir:display [ fhir:v "outcome" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.response.outcome" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.response.outcome` is mapped to FHIR R4B element `Bundle.entry.response.outcome`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.response.outcome" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.response.outcome` is mapped to FHIR DSTU2 structure `Bundle`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.signature" ] ;
+       fhir:display [ fhir:v "signature" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.signature" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.signature` is mapped to FHIR R4B element `Bundle.signature`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.issues" ] ;
+       fhir:display [ fhir:v "issues" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.issues" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.issues` is mapped to FHIR R4B structure `Bundle`, but has no target element specified." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

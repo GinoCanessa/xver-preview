@@ -1,0 +1,348 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-DeviceDispense-elements-for-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-DeviceDispense-elements-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-DeviceDispense-elements-for-R4</b></p><a name=\"ConceptMap-R5-DeviceDispense-elements-for-R4\"> </a><a name=\"hcConceptMap-R5-DeviceDispense-elements-for-R4\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/DeviceDispense|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/DeviceDispense|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">DeviceDispense</td><td style=\"border-left-width: 0px\">DeviceDispense</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `DeviceDispense` is representable via FHIR R4B Resource `Basic`.\nElement `DeviceDispense` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDispense.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">Basic.meta</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.meta`, use that element instead.\nElement `DeviceDispense.meta` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDispense.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">Basic.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `DeviceDispense.implicitRules` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDispense.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">Basic.language</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.language`, use that element instead.\nElement `DeviceDispense.language` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDispense.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">Basic.text</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `DeviceDispense.text` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDispense.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">Basic.contained</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `DeviceDispense.contained` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDispense.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">Basic.identifier</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `DeviceDispense.identifier` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDispense.basedOn</td><td style=\"border-left-width: 0px\">basedOn</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:basedOn</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDispense.basedOn` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDispense.partOf</td><td style=\"border-left-width: 0px\">partOf</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:partOf</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDispense.partOf` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDispense.status</td><td style=\"border-left-width: 0px\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:status</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDispense.status` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDispense.statusReason</td><td style=\"border-left-width: 0px\">statusReason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:statusReason</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDispense.statusReason` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDispense.category</td><td style=\"border-left-width: 0px\">category</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:category</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDispense.category` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDispense.device</td><td style=\"border-left-width: 0px\">device</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:device</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDispense.device` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDispense.subject</td><td style=\"border-left-width: 0px\">subject</td><td style=\"border-right-width: 0px\">Basic.subject</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.subject`, use that element instead.\nElement `DeviceDispense.subject` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDispense.receiver</td><td style=\"border-left-width: 0px\">receiver</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:receiver</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDispense.receiver` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDispense.encounter</td><td style=\"border-left-width: 0px\">encounter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:encounter</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDispense.encounter` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDispense.supportingInformation</td><td style=\"border-left-width: 0px\">supportingInformation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:supportingInformation</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDispense.supportingInformation` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DeviceDispense.performer</td><td style=\"border-left-width: 0px; border-bottom-style: none\">performer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:performer</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDispense.performer` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.performer</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDispense.performer` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DeviceDispense.performer.function</td><td style=\"border-left-width: 0px; border-bottom-style: none\">function</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:performer:function</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDispense.performer.function` is part of an existing definition because parent element `DeviceDispense.performer` requires a cross-version extension.\nElement `DeviceDispense.performer.function` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.performer:function</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDispense.performer.function` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DeviceDispense.performer.actor</td><td style=\"border-left-width: 0px; border-bottom-style: none\">actor</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:performer:actor</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDispense.performer.actor` is part of an existing definition because parent element `DeviceDispense.performer` requires a cross-version extension.\nElement `DeviceDispense.performer.actor` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.performer:actor</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDispense.performer.actor` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDispense.location</td><td style=\"border-left-width: 0px\">location</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:location</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDispense.location` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDispense.type</td><td style=\"border-left-width: 0px\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:type</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDispense.type` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDispense.quantity</td><td style=\"border-left-width: 0px\">quantity</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:quantity</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDispense.quantity` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDispense.preparedDate</td><td style=\"border-left-width: 0px\">preparedDate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:preparedDate</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDispense.preparedDate` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDispense.whenHandedOver</td><td style=\"border-left-width: 0px\">whenHandedOver</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:whenHandedOver</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDispense.whenHandedOver` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDispense.destination</td><td style=\"border-left-width: 0px\">destination</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:destination</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDispense.destination` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDispense.note</td><td style=\"border-left-width: 0px\">note</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:note</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDispense.note` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDispense.usageInstruction</td><td style=\"border-left-width: 0px\">usageInstruction</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:usageInstruction</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDispense.usageInstruction` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDispense.eventHistory</td><td style=\"border-left-width: 0px\">eventHistory</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:eventHistory</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDispense.eventHistory` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-DeviceDispense-elements-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-DeviceDispense-elements-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5DeviceDispenseElementsForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:32.1791472-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/DeviceDispense"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/DeviceDispense>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "DeviceDispense" ] ;
+       fhir:display [ fhir:v "DeviceDispense" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `DeviceDispense` is representable via FHIR R4B Resource `Basic`.\nElement `DeviceDispense` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `DeviceDispense.meta` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `DeviceDispense.implicitRules` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.language`, use that element instead.\nElement `DeviceDispense.language` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `DeviceDispense.text` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `DeviceDispense.contained` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `DeviceDispense.identifier` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.basedOn" ] ;
+       fhir:display [ fhir:v "basedOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:basedOn" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDispense.basedOn` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.partOf" ] ;
+       fhir:display [ fhir:v "partOf" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:partOf" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDispense.partOf` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDispense.status` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.statusReason" ] ;
+       fhir:display [ fhir:v "statusReason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:statusReason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDispense.statusReason` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDispense.category` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.device" ] ;
+       fhir:display [ fhir:v "device" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:device" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDispense.device` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `DeviceDispense.subject` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.receiver" ] ;
+       fhir:display [ fhir:v "receiver" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:receiver" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDispense.receiver` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:encounter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDispense.encounter` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.supportingInformation" ] ;
+       fhir:display [ fhir:v "supportingInformation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:supportingInformation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDispense.supportingInformation` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.performer" ] ;
+       fhir:display [ fhir:v "performer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:performer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDispense.performer` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.performer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDispense.performer` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.performer.function" ] ;
+       fhir:display [ fhir:v "function" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:performer:function" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDispense.performer.function` is part of an existing definition because parent element `DeviceDispense.performer` requires a cross-version extension.\nElement `DeviceDispense.performer.function` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.performer:function" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDispense.performer.function` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.performer.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:performer:actor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDispense.performer.actor` is part of an existing definition because parent element `DeviceDispense.performer` requires a cross-version extension.\nElement `DeviceDispense.performer.actor` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.performer:actor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDispense.performer.actor` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:location" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDispense.location` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDispense.type` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:quantity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDispense.quantity` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.preparedDate" ] ;
+       fhir:display [ fhir:v "preparedDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:preparedDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDispense.preparedDate` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.whenHandedOver" ] ;
+       fhir:display [ fhir:v "whenHandedOver" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:whenHandedOver" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDispense.whenHandedOver` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.destination" ] ;
+       fhir:display [ fhir:v "destination" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:destination" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDispense.destination` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDispense.note` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.usageInstruction" ] ;
+       fhir:display [ fhir:v "usageInstruction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:usageInstruction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDispense.usageInstruction` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDispense.eventHistory" ] ;
+       fhir:display [ fhir:v "eventHistory" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense:eventHistory" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDispense.eventHistory` is not mapped to FHIR R4B, since FHIR R5 `DeviceDispense` is not mapped." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

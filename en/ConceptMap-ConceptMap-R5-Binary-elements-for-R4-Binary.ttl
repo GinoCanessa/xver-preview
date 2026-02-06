@@ -1,0 +1,169 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-Binary-elements-for-R4-Binary> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-Binary-elements-for-R4-Binary"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-Binary-elements-for-R4-Binary</b></p><a name=\"ConceptMap-R5-Binary-elements-for-R4-Binary\"> </a><a name=\"hcConceptMap-R5-Binary-elements-for-R4-Binary\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Binary|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Binary|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">Binary</td><td style=\"border-left-width: 0px\">Binary</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Binary#Binary</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `Binary` is representable via FHIR R4B Resource `Binary`.\nElement `Binary` is mapped to FHIR R4B element `Binary`.</td></tr><tr><td style=\"border-right-width: 0px\">Binary.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Binary#Binary.meta</td><td style=\"border-left-width: 0px\"/><td>Element `Binary.meta` is mapped to FHIR R4B element `Binary.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">Binary.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Binary#Binary.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `Binary.implicitRules` is mapped to FHIR R4B element `Binary.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">Binary.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Binary#Binary.language</td><td style=\"border-left-width: 0px\"/><td>Element `Binary.language` is mapped to FHIR R4B element `Binary.language`.</td></tr><tr><td style=\"border-right-width: 0px\">Binary.contentType</td><td style=\"border-left-width: 0px\">contentType</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Binary#Binary.contentType</td><td style=\"border-left-width: 0px\"/><td>Element `Binary.contentType` is mapped to FHIR R4B element `Binary.contentType`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Binary.securityContext</td><td style=\"border-left-width: 0px; border-bottom-style: none\">securityContext</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Binary#Binary.securityContext</td><td style=\"border-left-width: 0px\"/><td>Element `Binary.securityContext` is mapped to FHIR R4B element `Binary.securityContext`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-Binary.securityContext</td><td style=\"border-left-width: 0px\"/><td>Element `Binary.securityContext` is mapped to FHIR DSTU2 structure `Binary`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Binary.data</td><td style=\"border-left-width: 0px; border-bottom-style: none\">data</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Binary#Binary.data</td><td style=\"border-left-width: 0px\"/><td>Element `Binary.data` is mapped to FHIR R4B element `Binary.data`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/Binary#Binary.content</td><td style=\"border-left-width: 0px\"/><td>Element `Binary.data` is mapped to FHIR STU3 element `Binary.content`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Binary-elements-for-R4-Binary"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-Binary-elements-for-R4-Binary>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5BinaryElementsForR4Binary"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:31.0939536-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Binary"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Binary>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Binary" ] ;
+       fhir:display [ fhir:v "Binary" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Binary#Binary" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `Binary` is representable via FHIR R4B Resource `Binary`.\nElement `Binary` is mapped to FHIR R4B element `Binary`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Binary.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Binary#Binary.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Binary.meta` is mapped to FHIR R4B element `Binary.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Binary.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Binary#Binary.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Binary.implicitRules` is mapped to FHIR R4B element `Binary.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Binary.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Binary#Binary.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Binary.language` is mapped to FHIR R4B element `Binary.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Binary.contentType" ] ;
+       fhir:display [ fhir:v "contentType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Binary#Binary.contentType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Binary.contentType` is mapped to FHIR R4B element `Binary.contentType`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Binary.securityContext" ] ;
+       fhir:display [ fhir:v "securityContext" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Binary#Binary.securityContext" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Binary.securityContext` is mapped to FHIR R4B element `Binary.securityContext`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Binary.securityContext" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Binary.securityContext` is mapped to FHIR DSTU2 structure `Binary`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Binary.data" ] ;
+       fhir:display [ fhir:v "data" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Binary#Binary.data" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Binary.data` is mapped to FHIR R4B element `Binary.data`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/Binary#Binary.content" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Binary.data` is mapped to FHIR STU3 element `Binary.content`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,900 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-ActivityDefinition-elements-for-R4-ActivityDefinition> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-ActivityDefinition-elements-for-R4-ActivityDefinition"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-ActivityDefinition-elements-for-R4-ActivityDefinition</b></p><a name=\"ConceptMap-R5-ActivityDefinition-elements-for-R4-ActivityDefinition\"> </a><a name=\"hcConceptMap-R5-ActivityDefinition-elements-for-R4-ActivityDefinition\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ActivityDefinition|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/ActivityDefinition|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition</td><td style=\"border-left-width: 0px; border-bottom-style: none\">ActivityDefinition</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `ActivityDefinition` is representable via FHIR R4B Resource `ActivityDefinition`.\nElement `ActivityDefinition` is mapped to FHIR R4B element `ActivityDefinition`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `ActivityDefinition` is representable via FHIR DSTU2 Resource `Basic`.\nElement `ActivityDefinition` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.meta</td><td style=\"border-left-width: 0px; border-bottom-style: none\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.meta</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.meta` is mapped to FHIR R4B element `ActivityDefinition.meta`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.meta</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.meta`, use that element instead.\nElement `ActivityDefinition.meta` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.implicitRules</td><td style=\"border-left-width: 0px; border-bottom-style: none\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.implicitRules` is mapped to FHIR R4B element `ActivityDefinition.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `ActivityDefinition.implicitRules` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.language</td><td style=\"border-left-width: 0px; border-bottom-style: none\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.language</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.language` is mapped to FHIR R4B element `ActivityDefinition.language`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.language</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.language`, use that element instead.\nElement `ActivityDefinition.language` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.text</td><td style=\"border-left-width: 0px; border-bottom-style: none\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.text</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.text` is mapped to FHIR R4B element `ActivityDefinition.text`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.text</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `ActivityDefinition.text` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.contained</td><td style=\"border-left-width: 0px; border-bottom-style: none\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.contained</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.contained` is mapped to FHIR R4B element `ActivityDefinition.contained`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.contained</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `ActivityDefinition.contained` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.url</td><td style=\"border-left-width: 0px; border-bottom-style: none\">url</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.url</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.url` is mapped to FHIR R4B element `ActivityDefinition.url`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:url</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.url` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.identifier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.identifier` is mapped to FHIR R4B element `ActivityDefinition.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.identifier</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `ActivityDefinition.identifier` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.version</td><td style=\"border-left-width: 0px; border-bottom-style: none\">version</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.version</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.version` is mapped to FHIR R4B element `ActivityDefinition.version`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:version</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.version` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.versionAlgorithm[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">versionAlgorithm[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.versionAlgorithm</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.versionAlgorithm[x]` is mapped to FHIR R4B structure `ActivityDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:versionAlgorithm</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.versionAlgorithm[x]` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.name</td><td style=\"border-left-width: 0px; border-bottom-style: none\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.name</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.name` is mapped to FHIR R4B element `ActivityDefinition.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:name</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.name` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.title</td><td style=\"border-left-width: 0px; border-bottom-style: none\">title</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.title</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.title` is mapped to FHIR R4B element `ActivityDefinition.title`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:title</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.title` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.subtitle</td><td style=\"border-left-width: 0px; border-bottom-style: none\">subtitle</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.subtitle</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.subtitle` is mapped to FHIR R4B element `ActivityDefinition.subtitle`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.subtitle</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.subtitle` is mapped to FHIR STU3 structure `ActivityDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:subtitle</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.subtitle` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.status</td><td style=\"border-left-width: 0px; border-bottom-style: none\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.status</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.status` is mapped to FHIR R4B element `ActivityDefinition.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:status</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.status` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.experimental</td><td style=\"border-left-width: 0px; border-bottom-style: none\">experimental</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.experimental</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.experimental` is mapped to FHIR R4B element `ActivityDefinition.experimental`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:experimental</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.experimental` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.subject[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">subject[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.subject[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `ActivityDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.\nElement `ActivityDefinition.subject[x]` is mapped to FHIR R4B element `ActivityDefinition.subject[x]`.\nNote that the target element context `ActivityDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.subject</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.subject[x]` is mapped to FHIR STU3 structure `ActivityDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:subject</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.subject[x]` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.date</td><td style=\"border-left-width: 0px; border-bottom-style: none\">date</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.date</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.date` is mapped to FHIR R4B element `ActivityDefinition.date`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:date</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.date` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.publisher</td><td style=\"border-left-width: 0px; border-bottom-style: none\">publisher</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.publisher</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.publisher` is mapped to FHIR R4B element `ActivityDefinition.publisher`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:publisher</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.publisher` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.contact</td><td style=\"border-left-width: 0px; border-bottom-style: none\">contact</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.contact</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.contact` is mapped to FHIR R4B element `ActivityDefinition.contact`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:contact</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.contact` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.description</td><td style=\"border-left-width: 0px; border-bottom-style: none\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.description</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.description` is mapped to FHIR R4B element `ActivityDefinition.description`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:description</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.description` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.useContext</td><td style=\"border-left-width: 0px; border-bottom-style: none\">useContext</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.useContext</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.useContext` is mapped to FHIR R4B element `ActivityDefinition.useContext`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:useContext</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.useContext` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.jurisdiction</td><td style=\"border-left-width: 0px; border-bottom-style: none\">jurisdiction</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.jurisdiction</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.jurisdiction` is mapped to FHIR R4B element `ActivityDefinition.jurisdiction`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:jurisdiction</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.jurisdiction` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.purpose</td><td style=\"border-left-width: 0px; border-bottom-style: none\">purpose</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.purpose</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.purpose` is mapped to FHIR R4B element `ActivityDefinition.purpose`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:purpose</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.purpose` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.usage</td><td style=\"border-left-width: 0px; border-bottom-style: none\">usage</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.usage</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.usage` is mapped to FHIR R4B element `ActivityDefinition.usage`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:usage</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.usage` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.copyright</td><td style=\"border-left-width: 0px; border-bottom-style: none\">copyright</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.copyright</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.copyright` is mapped to FHIR R4B element `ActivityDefinition.copyright`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:copyright</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.copyright` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.copyrightLabel</td><td style=\"border-left-width: 0px; border-bottom-style: none\">copyrightLabel</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.copyrightLabel</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.copyrightLabel` is mapped to FHIR R4B structure `ActivityDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:copyrightLabel</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.copyrightLabel` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.approvalDate</td><td style=\"border-left-width: 0px; border-bottom-style: none\">approvalDate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.approvalDate</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.approvalDate` is mapped to FHIR R4B element `ActivityDefinition.approvalDate`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:approvalDate</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.approvalDate` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.lastReviewDate</td><td style=\"border-left-width: 0px; border-bottom-style: none\">lastReviewDate</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.lastReviewDate</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.lastReviewDate` is mapped to FHIR R4B element `ActivityDefinition.lastReviewDate`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:lastReviewDate</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.lastReviewDate` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.effectivePeriod</td><td style=\"border-left-width: 0px; border-bottom-style: none\">effectivePeriod</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.effectivePeriod</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.effectivePeriod` is mapped to FHIR R4B element `ActivityDefinition.effectivePeriod`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:effectivePeriod</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.effectivePeriod` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.topic</td><td style=\"border-left-width: 0px; border-bottom-style: none\">topic</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.topic</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.topic` is mapped to FHIR R4B element `ActivityDefinition.topic`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:topic</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.topic` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.author</td><td style=\"border-left-width: 0px; border-bottom-style: none\">author</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.author</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.author` is mapped to FHIR R4B element `ActivityDefinition.author`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.contributor</td><td style=\"border-left-width: 0px\"/><td>Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -&gt; basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson)`:0..1).\nElement `ActivityDefinition.author` is mapped to FHIR STU3 element `ActivityDefinition.contributor`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:author</td><td style=\"border-left-width: 0px\"/><td>Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -&gt; basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson)`:0..1).\nElement `ActivityDefinition.author` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.editor</td><td style=\"border-left-width: 0px; border-bottom-style: none\">editor</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.editor</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.editor` is mapped to FHIR R4B element `ActivityDefinition.editor`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.contributor</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.editor` is mapped to FHIR STU3 element `ActivityDefinition.contributor`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:editor</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.editor` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.reviewer</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reviewer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.reviewer</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.reviewer` is mapped to FHIR R4B element `ActivityDefinition.reviewer`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.contributor</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.reviewer` is mapped to FHIR STU3 element `ActivityDefinition.contributor`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:reviewer</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.reviewer` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.endorser</td><td style=\"border-left-width: 0px; border-bottom-style: none\">endorser</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.endorser</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.endorser` is mapped to FHIR R4B element `ActivityDefinition.endorser`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.contributor</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.endorser` is mapped to FHIR STU3 element `ActivityDefinition.contributor`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:endorser</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.endorser` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.relatedArtifact</td><td style=\"border-left-width: 0px; border-bottom-style: none\">relatedArtifact</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.relatedArtifact</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.relatedArtifact` is mapped to FHIR R4B element `ActivityDefinition.relatedArtifact`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:relatedArtifact</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.relatedArtifact` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.library</td><td style=\"border-left-width: 0px; border-bottom-style: none\">library</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.library</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.library` is mapped to FHIR R4B element `ActivityDefinition.library`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:library</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.library` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.kind</td><td style=\"border-left-width: 0px; border-bottom-style: none\">kind</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.kind</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.kind` is mapped to FHIR R4B element `ActivityDefinition.kind`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:kind</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.kind` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.profile</td><td style=\"border-left-width: 0px; border-bottom-style: none\">profile</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.profile</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.profile` is mapped to FHIR R4B element `ActivityDefinition.profile`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.profile</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.profile` is mapped to FHIR STU3 structure `ActivityDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:profile</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.profile` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.code</td><td style=\"border-left-width: 0px; border-bottom-style: none\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.code</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.code` is mapped to FHIR R4B element `ActivityDefinition.code`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:code</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.code` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.intent</td><td style=\"border-left-width: 0px; border-bottom-style: none\">intent</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.intent</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.intent` is mapped to FHIR R4B element `ActivityDefinition.intent`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.intent</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.intent` is mapped to FHIR STU3 structure `ActivityDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:intent</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.intent` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.priority</td><td style=\"border-left-width: 0px; border-bottom-style: none\">priority</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.priority</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.priority` is mapped to FHIR R4B element `ActivityDefinition.priority`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.priority</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.priority` is mapped to FHIR STU3 structure `ActivityDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:priority</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.priority` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.doNotPerform</td><td style=\"border-left-width: 0px; border-bottom-style: none\">doNotPerform</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.doNotPerform</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.doNotPerform` is mapped to FHIR R4B element `ActivityDefinition.doNotPerform`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.doNotPerform</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.doNotPerform` is mapped to FHIR STU3 structure `ActivityDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:doNotPerform</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.doNotPerform` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.timing[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">timing[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.timing[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `ActivityDefinition.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.\nElement `ActivityDefinition.timing[x]` is mapped to FHIR R4B element `ActivityDefinition.timing[x]`.\nNote that the target element context `ActivityDefinition.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:timing</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.timing[x]` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.asNeeded[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">asNeeded[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.asNeeded</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.asNeeded[x]` is mapped to FHIR R4B structure `ActivityDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:asNeeded</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.asNeeded[x]` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.location</td><td style=\"border-left-width: 0px; border-bottom-style: none\">location</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.location</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.location` is mapped to FHIR R4B element `ActivityDefinition.location`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:location</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.location` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.participant</td><td style=\"border-left-width: 0px; border-bottom-style: none\">participant</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.participant</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.participant` is mapped to FHIR R4B element `ActivityDefinition.participant`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:participant</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.participant` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.participant.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.participant.type</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.participant.type` is mapped to FHIR R4B element `ActivityDefinition.participant.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:participant:type</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.participant.type` is part of an existing definition because parent element `ActivityDefinition.participant` requires a cross-version extension.\nElement `ActivityDefinition.participant.type` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.participant.typeCanonical</td><td style=\"border-left-width: 0px; border-bottom-style: none\">typeCanonical</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.participant.typeCanonical</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.participant.typeCanonical` is mapped to FHIR R4B structure `ActivityDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:participant:typeCanonical</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.participant.typeCanonical` is part of an existing definition because parent element `ActivityDefinition.participant` requires a cross-version extension.\nElement `ActivityDefinition.participant.typeCanonical` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.participant.typeReference</td><td style=\"border-left-width: 0px; border-bottom-style: none\">typeReference</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.participant.typeReference</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.participant.typeReference` is mapped to FHIR R4B structure `ActivityDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:participant:typeReference</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.participant.typeReference` is part of an existing definition because parent element `ActivityDefinition.participant` requires a cross-version extension.\nElement `ActivityDefinition.participant.typeReference` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.participant.role</td><td style=\"border-left-width: 0px; border-bottom-style: none\">role</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.participant.role</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.participant.role` is mapped to FHIR R4B element `ActivityDefinition.participant.role`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:participant:role</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.participant.role` is part of an existing definition because parent element `ActivityDefinition.participant` requires a cross-version extension.\nElement `ActivityDefinition.participant.role` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.participant.function</td><td style=\"border-left-width: 0px; border-bottom-style: none\">function</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.participant.function</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.participant.function` is mapped to FHIR R4B structure `ActivityDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:participant:function</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.participant.function` is part of an existing definition because parent element `ActivityDefinition.participant` requires a cross-version extension.\nElement `ActivityDefinition.participant.function` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.product[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">product[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.product[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `ActivityDefinition.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.\nElement `ActivityDefinition.product[x]` is mapped to FHIR R4B element `ActivityDefinition.product[x]`.\nNote that the target element context `ActivityDefinition.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:product</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.product[x]` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.quantity</td><td style=\"border-left-width: 0px; border-bottom-style: none\">quantity</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.quantity</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.quantity` is mapped to FHIR R4B element `ActivityDefinition.quantity`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:quantity</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.quantity` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.dosage</td><td style=\"border-left-width: 0px; border-bottom-style: none\">dosage</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.dosage</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.dosage` is mapped to FHIR R4B element `ActivityDefinition.dosage`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:dosage</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.dosage` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.bodySite</td><td style=\"border-left-width: 0px; border-bottom-style: none\">bodySite</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.bodySite</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.bodySite` is mapped to FHIR R4B element `ActivityDefinition.bodySite`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:bodySite</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.bodySite` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.specimenRequirement</td><td style=\"border-left-width: 0px; border-bottom-style: none\">specimenRequirement</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.specimenRequirement</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.specimenRequirement` is mapped to FHIR R4B element `ActivityDefinition.specimenRequirement`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.specimenRequirement</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.specimenRequirement` is mapped to FHIR STU3 structure `ActivityDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:specimenRequirement</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.specimenRequirement` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.observationRequirement</td><td style=\"border-left-width: 0px; border-bottom-style: none\">observationRequirement</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.observationRequirement</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.observationRequirement` is mapped to FHIR R4B element `ActivityDefinition.observationRequirement`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.observationRequirement</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.observationRequirement` is mapped to FHIR STU3 structure `ActivityDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:observationRequirement</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.observationRequirement` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.observationResultRequirement</td><td style=\"border-left-width: 0px; border-bottom-style: none\">observationResultRequirement</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.observationResultRequirement</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.observationResultRequirement` is mapped to FHIR R4B element `ActivityDefinition.observationResultRequirement`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.observationResultRequirement</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.observationResultRequirement` is mapped to FHIR STU3 structure `ActivityDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:observationResultRequirement</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.observationResultRequirement` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.transform</td><td style=\"border-left-width: 0px; border-bottom-style: none\">transform</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.transform</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.transform` is mapped to FHIR R4B element `ActivityDefinition.transform`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:transform</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.transform` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.dynamicValue</td><td style=\"border-left-width: 0px; border-bottom-style: none\">dynamicValue</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.dynamicValue</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.dynamicValue` is mapped to FHIR R4B element `ActivityDefinition.dynamicValue`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:dynamicValue</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.dynamicValue` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.dynamicValue.path</td><td style=\"border-left-width: 0px; border-bottom-style: none\">path</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.dynamicValue.path</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.dynamicValue.path` is mapped to FHIR R4B element `ActivityDefinition.dynamicValue.path`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:dynamicValue:path</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.dynamicValue.path` is part of an existing definition because parent element `ActivityDefinition.dynamicValue` requires a cross-version extension.\nElement `ActivityDefinition.dynamicValue.path` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ActivityDefinition.dynamicValue.expression</td><td style=\"border-left-width: 0px; border-bottom-style: none\">expression</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.dynamicValue.expression</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.dynamicValue.expression` is mapped to FHIR R4B element `ActivityDefinition.dynamicValue.expression`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:dynamicValue:expression</td><td style=\"border-left-width: 0px\"/><td>Element `ActivityDefinition.dynamicValue.expression` is part of an existing definition because parent element `ActivityDefinition.dynamicValue` requires a cross-version extension.\nElement `ActivityDefinition.dynamicValue.expression` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-ActivityDefinition-elements-for-R4-ActivityDefinition"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-ActivityDefinition-elements-for-R4-ActivityDefinition>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5ActivityDefinitionElementsForR4ActivityDefinition"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:30.8683942-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/ActivityDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "ActivityDefinition" ] ;
+       fhir:display [ fhir:v "ActivityDefinition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `ActivityDefinition` is representable via FHIR R4B Resource `ActivityDefinition`.\nElement `ActivityDefinition` is mapped to FHIR R4B element `ActivityDefinition`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `ActivityDefinition` is representable via FHIR DSTU2 Resource `Basic`.\nElement `ActivityDefinition` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.meta` is mapped to FHIR R4B element `ActivityDefinition.meta`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `ActivityDefinition.meta` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.implicitRules` is mapped to FHIR R4B element `ActivityDefinition.implicitRules`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `ActivityDefinition.implicitRules` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.language` is mapped to FHIR R4B element `ActivityDefinition.language`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.language`, use that element instead.\nElement `ActivityDefinition.language` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.text` is mapped to FHIR R4B element `ActivityDefinition.text`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `ActivityDefinition.text` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.contained` is mapped to FHIR R4B element `ActivityDefinition.contained`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `ActivityDefinition.contained` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.url" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.url` is mapped to FHIR R4B element `ActivityDefinition.url`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:url" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.url` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.identifier` is mapped to FHIR R4B element `ActivityDefinition.identifier`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `ActivityDefinition.identifier` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.version" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.version` is mapped to FHIR R4B element `ActivityDefinition.version`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:version" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.version` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.versionAlgorithm[x]" ] ;
+       fhir:display [ fhir:v "versionAlgorithm[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.versionAlgorithm" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.versionAlgorithm[x]` is mapped to FHIR R4B structure `ActivityDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:versionAlgorithm" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.versionAlgorithm[x]` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.name` is mapped to FHIR R4B element `ActivityDefinition.name`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.name` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.title" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.title` is mapped to FHIR R4B element `ActivityDefinition.title`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:title" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.title` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.subtitle" ] ;
+       fhir:display [ fhir:v "subtitle" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.subtitle" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.subtitle` is mapped to FHIR R4B element `ActivityDefinition.subtitle`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.subtitle" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.subtitle` is mapped to FHIR STU3 structure `ActivityDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:subtitle" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.subtitle` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.status` is mapped to FHIR R4B element `ActivityDefinition.status`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.status` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.experimental" ] ;
+       fhir:display [ fhir:v "experimental" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.experimental" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.experimental` is mapped to FHIR R4B element `ActivityDefinition.experimental`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:experimental" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.experimental` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.subject[x]" ] ;
+       fhir:display [ fhir:v "subject[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.subject[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `ActivityDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.\nElement `ActivityDefinition.subject[x]` is mapped to FHIR R4B element `ActivityDefinition.subject[x]`.\nNote that the target element context `ActivityDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.subject[x]` is mapped to FHIR STU3 structure `ActivityDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.subject[x]` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.date` is mapped to FHIR R4B element `ActivityDefinition.date`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:date" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.date` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.publisher" ] ;
+       fhir:display [ fhir:v "publisher" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.publisher" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.publisher` is mapped to FHIR R4B element `ActivityDefinition.publisher`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:publisher" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.publisher` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.contact" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.contact` is mapped to FHIR R4B element `ActivityDefinition.contact`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:contact" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.contact` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.description` is mapped to FHIR R4B element `ActivityDefinition.description`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.description` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.useContext" ] ;
+       fhir:display [ fhir:v "useContext" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.useContext" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.useContext` is mapped to FHIR R4B element `ActivityDefinition.useContext`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:useContext" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.useContext` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.jurisdiction` is mapped to FHIR R4B element `ActivityDefinition.jurisdiction`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.jurisdiction` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.purpose" ] ;
+       fhir:display [ fhir:v "purpose" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.purpose" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.purpose` is mapped to FHIR R4B element `ActivityDefinition.purpose`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:purpose" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.purpose` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.usage" ] ;
+       fhir:display [ fhir:v "usage" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.usage" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.usage` is mapped to FHIR R4B element `ActivityDefinition.usage`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:usage" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.usage` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.copyright" ] ;
+       fhir:display [ fhir:v "copyright" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.copyright" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.copyright` is mapped to FHIR R4B element `ActivityDefinition.copyright`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:copyright" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.copyright` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.copyrightLabel" ] ;
+       fhir:display [ fhir:v "copyrightLabel" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.copyrightLabel" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.copyrightLabel` is mapped to FHIR R4B structure `ActivityDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:copyrightLabel" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.copyrightLabel` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.approvalDate" ] ;
+       fhir:display [ fhir:v "approvalDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.approvalDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.approvalDate` is mapped to FHIR R4B element `ActivityDefinition.approvalDate`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:approvalDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.approvalDate` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.lastReviewDate" ] ;
+       fhir:display [ fhir:v "lastReviewDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.lastReviewDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.lastReviewDate` is mapped to FHIR R4B element `ActivityDefinition.lastReviewDate`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:lastReviewDate" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.lastReviewDate` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.effectivePeriod" ] ;
+       fhir:display [ fhir:v "effectivePeriod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.effectivePeriod" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.effectivePeriod` is mapped to FHIR R4B element `ActivityDefinition.effectivePeriod`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:effectivePeriod" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.effectivePeriod` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.topic" ] ;
+       fhir:display [ fhir:v "topic" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.topic" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.topic` is mapped to FHIR R4B element `ActivityDefinition.topic`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:topic" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.topic` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.author" ] ;
+       fhir:display [ fhir:v "author" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.author" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.author` is mapped to FHIR R4B element `ActivityDefinition.author`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.contributor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson)`:0..1).\nElement `ActivityDefinition.author` is mapped to FHIR STU3 element `ActivityDefinition.contributor`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:author" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson)`:0..1).\nElement `ActivityDefinition.author` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.editor" ] ;
+       fhir:display [ fhir:v "editor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.editor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.editor` is mapped to FHIR R4B element `ActivityDefinition.editor`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.contributor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.editor` is mapped to FHIR STU3 element `ActivityDefinition.contributor`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:editor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.editor` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.reviewer" ] ;
+       fhir:display [ fhir:v "reviewer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.reviewer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.reviewer` is mapped to FHIR R4B element `ActivityDefinition.reviewer`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.contributor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.reviewer` is mapped to FHIR STU3 element `ActivityDefinition.contributor`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:reviewer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.reviewer` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.endorser" ] ;
+       fhir:display [ fhir:v "endorser" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.endorser" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.endorser` is mapped to FHIR R4B element `ActivityDefinition.endorser`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.contributor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.endorser` is mapped to FHIR STU3 element `ActivityDefinition.contributor`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:endorser" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.endorser` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.relatedArtifact" ] ;
+       fhir:display [ fhir:v "relatedArtifact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.relatedArtifact" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.relatedArtifact` is mapped to FHIR R4B element `ActivityDefinition.relatedArtifact`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:relatedArtifact" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.relatedArtifact` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.library" ] ;
+       fhir:display [ fhir:v "library" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.library" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.library` is mapped to FHIR R4B element `ActivityDefinition.library`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:library" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.library` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.kind" ] ;
+       fhir:display [ fhir:v "kind" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.kind" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.kind` is mapped to FHIR R4B element `ActivityDefinition.kind`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:kind" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.kind` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.profile" ] ;
+       fhir:display [ fhir:v "profile" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.profile" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.profile` is mapped to FHIR R4B element `ActivityDefinition.profile`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.profile" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.profile` is mapped to FHIR STU3 structure `ActivityDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:profile" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.profile` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.code` is mapped to FHIR R4B element `ActivityDefinition.code`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.code` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.intent" ] ;
+       fhir:display [ fhir:v "intent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.intent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.intent` is mapped to FHIR R4B element `ActivityDefinition.intent`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.intent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.intent` is mapped to FHIR STU3 structure `ActivityDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:intent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.intent` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.priority" ] ;
+       fhir:display [ fhir:v "priority" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.priority" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.priority` is mapped to FHIR R4B element `ActivityDefinition.priority`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.priority" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.priority` is mapped to FHIR STU3 structure `ActivityDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:priority" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.priority` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.doNotPerform" ] ;
+       fhir:display [ fhir:v "doNotPerform" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.doNotPerform" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.doNotPerform` is mapped to FHIR R4B element `ActivityDefinition.doNotPerform`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.doNotPerform" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.doNotPerform` is mapped to FHIR STU3 structure `ActivityDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:doNotPerform" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.doNotPerform` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.timing[x]" ] ;
+       fhir:display [ fhir:v "timing[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.timing[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `ActivityDefinition.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.\nElement `ActivityDefinition.timing[x]` is mapped to FHIR R4B element `ActivityDefinition.timing[x]`.\nNote that the target element context `ActivityDefinition.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:timing" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.timing[x]` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.asNeeded[x]" ] ;
+       fhir:display [ fhir:v "asNeeded[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.asNeeded" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.asNeeded[x]` is mapped to FHIR R4B structure `ActivityDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:asNeeded" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.asNeeded[x]` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.location" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.location` is mapped to FHIR R4B element `ActivityDefinition.location`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:location" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.location` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.participant" ] ;
+       fhir:display [ fhir:v "participant" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.participant" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.participant` is mapped to FHIR R4B element `ActivityDefinition.participant`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:participant" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.participant` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.participant.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.participant.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.participant.type` is mapped to FHIR R4B element `ActivityDefinition.participant.type`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:participant:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.participant.type` is part of an existing definition because parent element `ActivityDefinition.participant` requires a cross-version extension.\nElement `ActivityDefinition.participant.type` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.participant.typeCanonical" ] ;
+       fhir:display [ fhir:v "typeCanonical" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.participant.typeCanonical" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.participant.typeCanonical` is mapped to FHIR R4B structure `ActivityDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:participant:typeCanonical" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.participant.typeCanonical` is part of an existing definition because parent element `ActivityDefinition.participant` requires a cross-version extension.\nElement `ActivityDefinition.participant.typeCanonical` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.participant.typeReference" ] ;
+       fhir:display [ fhir:v "typeReference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.participant.typeReference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.participant.typeReference` is mapped to FHIR R4B structure `ActivityDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:participant:typeReference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.participant.typeReference` is part of an existing definition because parent element `ActivityDefinition.participant` requires a cross-version extension.\nElement `ActivityDefinition.participant.typeReference` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.participant.role" ] ;
+       fhir:display [ fhir:v "role" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.participant.role" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.participant.role` is mapped to FHIR R4B element `ActivityDefinition.participant.role`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:participant:role" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.participant.role` is part of an existing definition because parent element `ActivityDefinition.participant` requires a cross-version extension.\nElement `ActivityDefinition.participant.role` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.participant.function" ] ;
+       fhir:display [ fhir:v "function" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.participant.function" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.participant.function` is mapped to FHIR R4B structure `ActivityDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:participant:function" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.participant.function` is part of an existing definition because parent element `ActivityDefinition.participant` requires a cross-version extension.\nElement `ActivityDefinition.participant.function` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.product[x]" ] ;
+       fhir:display [ fhir:v "product[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.product[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `ActivityDefinition.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.\nElement `ActivityDefinition.product[x]` is mapped to FHIR R4B element `ActivityDefinition.product[x]`.\nNote that the target element context `ActivityDefinition.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:product" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.product[x]` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.quantity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.quantity` is mapped to FHIR R4B element `ActivityDefinition.quantity`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:quantity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.quantity` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.dosage" ] ;
+       fhir:display [ fhir:v "dosage" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.dosage" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.dosage` is mapped to FHIR R4B element `ActivityDefinition.dosage`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:dosage" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.dosage` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.bodySite" ] ;
+       fhir:display [ fhir:v "bodySite" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.bodySite" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.bodySite` is mapped to FHIR R4B element `ActivityDefinition.bodySite`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:bodySite" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.bodySite` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.specimenRequirement" ] ;
+       fhir:display [ fhir:v "specimenRequirement" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.specimenRequirement" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.specimenRequirement` is mapped to FHIR R4B element `ActivityDefinition.specimenRequirement`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.specimenRequirement" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.specimenRequirement` is mapped to FHIR STU3 structure `ActivityDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:specimenRequirement" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.specimenRequirement` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.observationRequirement" ] ;
+       fhir:display [ fhir:v "observationRequirement" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.observationRequirement" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.observationRequirement` is mapped to FHIR R4B element `ActivityDefinition.observationRequirement`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.observationRequirement" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.observationRequirement` is mapped to FHIR STU3 structure `ActivityDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:observationRequirement" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.observationRequirement` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.observationResultRequirement" ] ;
+       fhir:display [ fhir:v "observationResultRequirement" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.observationResultRequirement" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.observationResultRequirement` is mapped to FHIR R4B element `ActivityDefinition.observationResultRequirement`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.observationResultRequirement" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.observationResultRequirement` is mapped to FHIR STU3 structure `ActivityDefinition`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:observationResultRequirement" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.observationResultRequirement` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.transform" ] ;
+       fhir:display [ fhir:v "transform" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.transform" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.transform` is mapped to FHIR R4B element `ActivityDefinition.transform`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:transform" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.transform` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.dynamicValue" ] ;
+       fhir:display [ fhir:v "dynamicValue" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.dynamicValue" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.dynamicValue` is mapped to FHIR R4B element `ActivityDefinition.dynamicValue`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:dynamicValue" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.dynamicValue` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.dynamicValue.path" ] ;
+       fhir:display [ fhir:v "path" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.dynamicValue.path" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.dynamicValue.path` is mapped to FHIR R4B element `ActivityDefinition.dynamicValue.path`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:dynamicValue:path" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.dynamicValue.path` is part of an existing definition because parent element `ActivityDefinition.dynamicValue` requires a cross-version extension.\nElement `ActivityDefinition.dynamicValue.path` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ActivityDefinition.dynamicValue.expression" ] ;
+       fhir:display [ fhir:v "expression" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.dynamicValue.expression" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.dynamicValue.expression` is mapped to FHIR R4B element `ActivityDefinition.dynamicValue.expression`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition:dynamicValue:expression" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ActivityDefinition.dynamicValue.expression` is part of an existing definition because parent element `ActivityDefinition.dynamicValue` requires a cross-version extension.\nElement `ActivityDefinition.dynamicValue.expression` is not mapped to FHIR DSTU2, since FHIR R5 `ActivityDefinition` is not mapped." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

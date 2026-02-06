@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="insurance-plan-type"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://terminology.hl7.org/CodeSystem/insurance-plan-type</code> defines many codes, of which the following are a subset:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">medical<a name="insurance-plan-type-medical"> </a></td><td>Medical</td></tr><tr><td style="white-space:nowrap">dental<a name="insurance-plan-type-dental"> </a></td><td>Dental</td></tr><tr><td style="white-space:nowrap">mental<a name="insurance-plan-type-mental"> </a></td><td>Mental Health</td></tr><tr><td style="white-space:nowrap">subst-ab<a name="insurance-plan-type-subst-ab"> </a></td><td>Substance Abuse</td></tr><tr><td style="white-space:nowrap">vision<a name="insurance-plan-type-vision"> </a></td><td>Vision</td></tr><tr><td style="white-space:nowrap">drug<a name="insurance-plan-type-drug"> </a></td><td>Drug</td></tr><tr><td style="white-space:nowrap">short-term<a name="insurance-plan-type-short-term"> </a></td><td>Short Term</td></tr><tr><td style="white-space:nowrap">long-term<a name="insurance-plan-type-long-term"> </a></td><td>Long Term Care</td></tr><tr><td style="white-space:nowrap">hospice<a name="insurance-plan-type-hospice"> </a></td><td>Hospice</td></tr><tr><td style="white-space:nowrap">home<a name="insurance-plan-type-home"> </a></td><td>Home Health</td></tr><tr style="background-color: #ffeeee"><td style="white-space:nowrap">Drug<a name="insurance-plan-type-Drug"> </a></td><td>Drug</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="pa"/>
+  </extension>
+  <url value="http://terminology.hl7.org/CodeSystem/insurance-plan-type"/>
+  <version value="1.0.0"/>
+  <name value="InsurancePlanType"/>
+  <title value="Insurance plan type"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2023-02-25T12:07:30-06:00"/>
+  <publisher value="Patient Administration"/>
+  <contact>
+    <name value="Patient Administration"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/pafm"/>
+    </telecom>
+  </contact>
+  <description value="This example value set defines a set of codes that can be used to indicate a type of insurance plan."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/insuranceplan-type|1.0.1"/>
+  <content value="fragment"/>
+  <concept>
+    <code value="medical"/>
+    <display value="Medical"/>
+  </concept>
+  <concept>
+    <code value="dental"/>
+    <display value="Dental"/>
+  </concept>
+  <concept>
+    <code value="mental"/>
+    <display value="Mental Health"/>
+  </concept>
+  <concept>
+    <code value="subst-ab"/>
+    <display value="Substance Abuse"/>
+  </concept>
+  <concept>
+    <code value="vision"/>
+    <display value="Vision"/>
+  </concept>
+  <concept>
+    <code value="drug"/>
+    <display value="Drug"/>
+  </concept>
+  <concept>
+    <code value="short-term"/>
+    <display value="Short Term"/>
+  </concept>
+  <concept>
+    <code value="long-term"/>
+    <display value="Long Term Care"/>
+  </concept>
+  <concept>
+    <code value="hospice"/>
+    <display value="Hospice"/>
+  </concept>
+  <concept>
+    <code value="home"/>
+    <display value="Home Health"/>
+  </concept>
+  <concept>
+    <code value="Drug"/>
+    <display value="Drug"/>
+    <property>
+      <code value="status"/>
+      <valueCode value="retired"/>
+    </property>
+    <property>
+      <code value="inactive"/>
+      <valueCode value="true"/>
+    </property>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="action-participant-function"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/action-participant-function</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">performer
+                  <a name="action-participant-function-performer"> </a>
+                </td>
+                <td>Performer</td>
+                <td>The participant is the performer of the action.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">author
+                  <a name="action-participant-function-author"> </a>
+                </td>
+                <td>Author</td>
+                <td>The participant is the author of the result of the action.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">reviewer
+                  <a name="action-participant-function-reviewer"> </a>
+                </td>
+                <td>Reviewer</td>
+                <td>The participant is reviewing the result of the action.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">witness
+                  <a name="action-participant-function-witness"> </a>
+                </td>
+                <td>Witness</td>
+                <td>The participant is a witness to the action being performed.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="3"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="cds"/>
+  </extension>
+  <url value="http://hl7.org/fhir/action-participant-function"/>
+  <version value="5.0.0"/>
+  <name value="ActionParticipantFunction"/>
+  <title value="Action Participant Function"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Clinical Decision Support"/>
+  <contact>
+    <name value="Clinical Decision Support"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/dss"/>
+    </telecom>
+  </contact>
+  <description value="The function performed by the participant for the action."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/action-participant-function"/>
+  <content value="complete"/>
+  <concept>
+    <code value="performer"/>
+    <display value="Performer"/>
+    <definition value="The participant is the performer of the action."/>
+  </concept>
+  <concept>
+    <code value="author"/>
+    <display value="Author"/>
+    <definition value="The participant is the author of the result of the action."/>
+  </concept>
+  <concept>
+    <code value="reviewer"/>
+    <display value="Reviewer"/>
+    <definition value="The participant is reviewing the result of the action."/>
+  </concept>
+  <concept>
+    <code value="witness"/>
+    <display value="Witness"/>
+    <definition value="The participant is a witness to the action being performed."/>
+  </concept>
+</CodeSystem>

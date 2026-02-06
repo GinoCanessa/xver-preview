@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="metric-category"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/metric-category</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">measurement
+                  <a name="metric-category-measurement"> </a>
+                </td>
+                <td>Measurement</td>
+                <td>Observations generated for this DeviceMetric are measured.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">setting
+                  <a name="metric-category-setting"> </a>
+                </td>
+                <td>Setting</td>
+                <td>Observations generated for this DeviceMetric is a setting that will influence the behavior of the Device.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">calculation
+                  <a name="metric-category-calculation"> </a>
+                </td>
+                <td>Calculation</td>
+                <td>Observations generated for this DeviceMetric are calculated.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">unspecified
+                  <a name="metric-category-unspecified"> </a>
+                </td>
+                <td>Unspecified</td>
+                <td>The category of this DeviceMetric is unspecified.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="1"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="dev"/>
+  </extension>
+  <url value="http://hl7.org/fhir/metric-category"/>
+  <version value="5.0.0"/>
+  <name value="DeviceMetricCategory"/>
+  <title value="Device Metric Category"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-01-04T17:01:24-06:00"/>
+  <publisher value="Health Care Devices"/>
+  <contact>
+    <name value="Health Care Devices"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/healthcaredevices"/>
+    </telecom>
+  </contact>
+  <description value="Describes the category of the metric."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/metric-category|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="measurement"/>
+    <display value="Measurement"/>
+    <definition value="Observations generated for this DeviceMetric are measured."/>
+  </concept>
+  <concept>
+    <code value="setting"/>
+    <display value="Setting"/>
+    <definition value="Observations generated for this DeviceMetric is a setting that will influence the behavior of the Device."/>
+  </concept>
+  <concept>
+    <code value="calculation"/>
+    <display value="Calculation"/>
+    <definition value="Observations generated for this DeviceMetric are calculated."/>
+  </concept>
+  <concept>
+    <code value="unspecified"/>
+    <display value="Unspecified"/>
+    <definition value="The category of this DeviceMetric is unspecified."/>
+  </concept>
+</CodeSystem>

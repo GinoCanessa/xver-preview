@@ -1,0 +1,668 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-NutritionOrder-elements-for-R4-NutritionOrder> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-NutritionOrder-elements-for-R4-NutritionOrder"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-NutritionOrder-elements-for-R4-NutritionOrder</b></p><a name=\"ConceptMap-R5-NutritionOrder-elements-for-R4-NutritionOrder\"> </a><a name=\"hcConceptMap-R5-NutritionOrder-elements-for-R4-NutritionOrder\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/NutritionOrder|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/NutritionOrder|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder</td><td style=\"border-left-width: 0px\">NutritionOrder</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `NutritionOrder` is representable via FHIR R4B Resource `NutritionOrder`.\nElement `NutritionOrder` is mapped to FHIR R4B element `NutritionOrder`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.meta</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.meta` is mapped to FHIR R4B element `NutritionOrder.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.implicitRules` is mapped to FHIR R4B element `NutritionOrder.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.language</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.language` is mapped to FHIR R4B element `NutritionOrder.language`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.text</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.text` is mapped to FHIR R4B element `NutritionOrder.text`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.contained</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.contained` is mapped to FHIR R4B element `NutritionOrder.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.identifier` is mapped to FHIR R4B element `NutritionOrder.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionOrder.instantiatesCanonical</td><td style=\"border-left-width: 0px; border-bottom-style: none\">instantiatesCanonical</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.instantiatesCanonical</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.instantiatesCanonical` is mapped to FHIR R4B element `NutritionOrder.instantiatesCanonical`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.instantiatesCanonical</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.instantiatesCanonical` is mapped to FHIR STU3 structure `NutritionOrder`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionOrder.instantiatesUri</td><td style=\"border-left-width: 0px; border-bottom-style: none\">instantiatesUri</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.instantiatesUri</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.instantiatesUri` is mapped to FHIR R4B element `NutritionOrder.instantiatesUri`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.instantiatesUri</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.instantiatesUri` is mapped to FHIR STU3 structure `NutritionOrder`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionOrder.instantiates</td><td style=\"border-left-width: 0px; border-bottom-style: none\">instantiates</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.instantiates</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.instantiates` is mapped to FHIR R4B element `NutritionOrder.instantiates`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.instantiates</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.instantiates` is mapped to FHIR STU3 structure `NutritionOrder`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.basedOn</td><td style=\"border-left-width: 0px\">basedOn</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.basedOn</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.basedOn` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.groupIdentifier</td><td style=\"border-left-width: 0px\">groupIdentifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.groupIdentifier</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.groupIdentifier` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.status</td><td style=\"border-left-width: 0px\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.status</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.status` is mapped to FHIR R4B element `NutritionOrder.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionOrder.intent</td><td style=\"border-left-width: 0px; border-bottom-style: none\">intent</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.intent</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.intent` is mapped to FHIR R4B element `NutritionOrder.intent`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.intent</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.intent` is mapped to FHIR STU3 structure `NutritionOrder`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.priority</td><td style=\"border-left-width: 0px\">priority</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.priority</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.priority` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.subject</td><td style=\"border-left-width: 0px\">subject</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.patient</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.subject`, use that element instead.\nElement `NutritionOrder.subject` is mapped to FHIR R4B element `NutritionOrder.patient`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.encounter</td><td style=\"border-left-width: 0px\">encounter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.encounter</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.encounter` is mapped to FHIR R4B element `NutritionOrder.encounter`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.supportingInformation</td><td style=\"border-left-width: 0px\">supportingInformation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.supportingInformation</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.supportingInformation` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.dateTime</td><td style=\"border-left-width: 0px\">dateTime</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.dateTime</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.dateTime` is mapped to FHIR R4B element `NutritionOrder.dateTime`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.orderer</td><td style=\"border-left-width: 0px\">orderer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.orderer</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.orderer` is mapped to FHIR R4B element `NutritionOrder.orderer`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.performer</td><td style=\"border-left-width: 0px\">performer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.performer</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.performer` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.allergyIntolerance</td><td style=\"border-left-width: 0px\">allergyIntolerance</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.allergyIntolerance</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.allergyIntolerance` is mapped to FHIR R4B element `NutritionOrder.allergyIntolerance`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.foodPreferenceModifier</td><td style=\"border-left-width: 0px\">foodPreferenceModifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.foodPreferenceModifier</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.foodPreferenceModifier` is mapped to FHIR R4B element `NutritionOrder.foodPreferenceModifier`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.excludeFoodModifier</td><td style=\"border-left-width: 0px\">excludeFoodModifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.excludeFoodModifier</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.excludeFoodModifier` is mapped to FHIR R4B element `NutritionOrder.excludeFoodModifier`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.outsideFoodAllowed</td><td style=\"border-left-width: 0px\">outsideFoodAllowed</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.outsideFoodAllowed</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.outsideFoodAllowed` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.oralDiet</td><td style=\"border-left-width: 0px\">oralDiet</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.oralDiet` is mapped to FHIR R4B element `NutritionOrder.oralDiet`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.oralDiet.type</td><td style=\"border-left-width: 0px\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.type</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.oralDiet.type` is mapped to FHIR R4B element `NutritionOrder.oralDiet.type`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.oralDiet.schedule</td><td style=\"border-left-width: 0px\">schedule</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.schedule</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.oralDiet.schedule` is mapped to FHIR R4B element `NutritionOrder.oralDiet.schedule`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.oralDiet.schedule.timing</td><td style=\"border-left-width: 0px\">timing</td><td style=\"border-right-width: 0px\">timing</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.oralDiet.schedule.timing` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.oralDiet.schedule.asNeeded</td><td style=\"border-left-width: 0px\">asNeeded</td><td style=\"border-right-width: 0px\">asNeeded</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.oralDiet.schedule.asNeeded` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.oralDiet.schedule.asNeededFor</td><td style=\"border-left-width: 0px\">asNeededFor</td><td style=\"border-right-width: 0px\">asNeededFor</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.oralDiet.schedule.asNeededFor` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.oralDiet.nutrient</td><td style=\"border-left-width: 0px\">nutrient</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.nutrient</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.oralDiet.nutrient` is mapped to FHIR R4B element `NutritionOrder.oralDiet.nutrient`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.oralDiet.nutrient.modifier</td><td style=\"border-left-width: 0px\">modifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.nutrient.modifier</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.oralDiet.nutrient.modifier` is mapped to FHIR R4B element `NutritionOrder.oralDiet.nutrient.modifier`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.oralDiet.nutrient.amount</td><td style=\"border-left-width: 0px\">amount</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.nutrient.amount</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.oralDiet.nutrient.amount` is mapped to FHIR R4B element `NutritionOrder.oralDiet.nutrient.amount`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.oralDiet.texture</td><td style=\"border-left-width: 0px\">texture</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.texture</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.oralDiet.texture` is mapped to FHIR R4B element `NutritionOrder.oralDiet.texture`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.oralDiet.texture.modifier</td><td style=\"border-left-width: 0px\">modifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.texture.modifier</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.oralDiet.texture.modifier` is mapped to FHIR R4B element `NutritionOrder.oralDiet.texture.modifier`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.oralDiet.texture.foodType</td><td style=\"border-left-width: 0px\">foodType</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.texture.foodType</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.oralDiet.texture.foodType` is mapped to FHIR R4B element `NutritionOrder.oralDiet.texture.foodType`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.oralDiet.fluidConsistencyType</td><td style=\"border-left-width: 0px\">fluidConsistencyType</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.fluidConsistencyType</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.oralDiet.fluidConsistencyType` is mapped to FHIR R4B element `NutritionOrder.oralDiet.fluidConsistencyType`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.oralDiet.instruction</td><td style=\"border-left-width: 0px\">instruction</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.instruction</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.oralDiet.instruction` is mapped to FHIR R4B element `NutritionOrder.oralDiet.instruction`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.supplement</td><td style=\"border-left-width: 0px\">supplement</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.supplement</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.supplement` is mapped to FHIR R4B element `NutritionOrder.supplement`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.supplement.type</td><td style=\"border-left-width: 0px\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.supplement.type</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.supplement.type` is mapped to FHIR R4B element `NutritionOrder.supplement.type`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.supplement.productName</td><td style=\"border-left-width: 0px\">productName</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.supplement.productName</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.supplement.productName` is mapped to FHIR R4B element `NutritionOrder.supplement.productName`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.supplement.schedule</td><td style=\"border-left-width: 0px\">schedule</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.supplement.schedule</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.supplement.schedule` is mapped to FHIR R4B element `NutritionOrder.supplement.schedule`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.supplement.schedule.timing</td><td style=\"border-left-width: 0px\">timing</td><td style=\"border-right-width: 0px\">timing</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.supplement.schedule.timing` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.supplement.schedule.asNeeded</td><td style=\"border-left-width: 0px\">asNeeded</td><td style=\"border-right-width: 0px\">asNeeded</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.supplement.schedule.asNeeded` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.supplement.schedule.asNeededFor</td><td style=\"border-left-width: 0px\">asNeededFor</td><td style=\"border-right-width: 0px\">asNeededFor</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.supplement.schedule.asNeededFor` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.supplement.quantity</td><td style=\"border-left-width: 0px\">quantity</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.supplement.quantity</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.supplement.quantity` is mapped to FHIR R4B element `NutritionOrder.supplement.quantity`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.supplement.instruction</td><td style=\"border-left-width: 0px\">instruction</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.supplement.instruction</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.supplement.instruction` is mapped to FHIR R4B element `NutritionOrder.supplement.instruction`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.enteralFormula</td><td style=\"border-left-width: 0px\">enteralFormula</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.enteralFormula` is mapped to FHIR R4B element `NutritionOrder.enteralFormula`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.enteralFormula.baseFormulaType</td><td style=\"border-left-width: 0px\">baseFormulaType</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.baseFormulaType</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.enteralFormula.baseFormulaType` is mapped to FHIR R4B element `NutritionOrder.enteralFormula.baseFormulaType`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.enteralFormula.baseFormulaProductName</td><td style=\"border-left-width: 0px\">baseFormulaProductName</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.baseFormulaProductName</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.enteralFormula.baseFormulaProductName` is mapped to FHIR R4B element `NutritionOrder.enteralFormula.baseFormulaProductName`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.enteralFormula.deliveryDevice</td><td style=\"border-left-width: 0px\">deliveryDevice</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.enteralFormula.deliveryDevice</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.enteralFormula.deliveryDevice` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.enteralFormula.additive</td><td style=\"border-left-width: 0px\">additive</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.enteralFormula.additive` is mapped to FHIR R4B element `NutritionOrder.enteralFormula`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.enteralFormula.additive.type</td><td style=\"border-left-width: 0px\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.additiveType</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.enteralFormula.additive.type` is mapped to FHIR R4B element `NutritionOrder.enteralFormula.additiveType`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.enteralFormula.additive.productName</td><td style=\"border-left-width: 0px\">productName</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.additiveProductName</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.enteralFormula.additive.productName` is mapped to FHIR R4B element `NutritionOrder.enteralFormula.additiveProductName`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.enteralFormula.additive.quantity</td><td style=\"border-left-width: 0px\">quantity</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.enteralFormula.additive.quantity</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.enteralFormula.additive.quantity` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.enteralFormula.caloricDensity</td><td style=\"border-left-width: 0px\">caloricDensity</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.caloricDensity</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.enteralFormula.caloricDensity` is mapped to FHIR R4B element `NutritionOrder.enteralFormula.caloricDensity`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.enteralFormula.routeOfAdministration</td><td style=\"border-left-width: 0px\">routeOfAdministration</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.routeofAdministration</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.enteralFormula.routeOfAdministration` is mapped to FHIR R4B element `NutritionOrder.enteralFormula.routeofAdministration`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.enteralFormula.administration</td><td style=\"border-left-width: 0px\">administration</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.administration</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.enteralFormula.administration` is mapped to FHIR R4B element `NutritionOrder.enteralFormula.administration`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.enteralFormula.administration.schedule</td><td style=\"border-left-width: 0px\">schedule</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.administration.schedule</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.enteralFormula.administration.schedule` is mapped to FHIR R4B element `NutritionOrder.enteralFormula.administration.schedule`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.enteralFormula.administration.schedule.timing</td><td style=\"border-left-width: 0px\">timing</td><td style=\"border-right-width: 0px\">timing</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.enteralFormula.administration.schedule.timing` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.enteralFormula.administration.schedule.asNeeded</td><td style=\"border-left-width: 0px\">asNeeded</td><td style=\"border-right-width: 0px\">asNeeded</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.enteralFormula.administration.schedule.asNeeded` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.enteralFormula.administration.schedule.asNeededFor</td><td style=\"border-left-width: 0px\">asNeededFor</td><td style=\"border-right-width: 0px\">asNeededFor</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.enteralFormula.administration.schedule.asNeededFor` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.enteralFormula.administration.quantity</td><td style=\"border-left-width: 0px\">quantity</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.administration.quantity</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.enteralFormula.administration.quantity` is mapped to FHIR R4B element `NutritionOrder.enteralFormula.administration.quantity`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.enteralFormula.administration.rate[x]</td><td style=\"border-left-width: 0px\">rate[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.administration.rate[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `NutritionOrder.enteralFormula.administration.rate[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `NutritionOrder.enteralFormula.administration`.\nElement `NutritionOrder.enteralFormula.administration.rate[x]` is mapped to FHIR R4B element `NutritionOrder.enteralFormula.administration.rate[x]`.\nNote that the target element context `NutritionOrder.enteralFormula.administration.rate[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `NutritionOrder.enteralFormula.administration`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.enteralFormula.maxVolumeToDeliver</td><td style=\"border-left-width: 0px\">maxVolumeToDeliver</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.maxVolumeToDeliver</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.enteralFormula.maxVolumeToDeliver` is mapped to FHIR R4B element `NutritionOrder.enteralFormula.maxVolumeToDeliver`.</td></tr><tr><td style=\"border-right-width: 0px\">NutritionOrder.enteralFormula.administrationInstruction</td><td style=\"border-left-width: 0px\">administrationInstruction</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.administrationInstruction</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.enteralFormula.administrationInstruction` is mapped to FHIR R4B element `NutritionOrder.enteralFormula.administrationInstruction`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionOrder.note</td><td style=\"border-left-width: 0px; border-bottom-style: none\">note</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.note</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.note` is mapped to FHIR R4B element `NutritionOrder.note`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.note</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionOrder.note` is mapped to FHIR STU3 structure `NutritionOrder`, but has no target element specified.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-NutritionOrder-elements-for-R4-NutritionOrder"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-NutritionOrder-elements-for-R4-NutritionOrder>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5NutritionOrderElementsForR4NutritionOrder"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:33.6306531-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/NutritionOrder>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "NutritionOrder" ] ;
+       fhir:display [ fhir:v "NutritionOrder" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `NutritionOrder` is representable via FHIR R4B Resource `NutritionOrder`.\nElement `NutritionOrder` is mapped to FHIR R4B element `NutritionOrder`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.meta` is mapped to FHIR R4B element `NutritionOrder.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.implicitRules` is mapped to FHIR R4B element `NutritionOrder.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.language` is mapped to FHIR R4B element `NutritionOrder.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.text` is mapped to FHIR R4B element `NutritionOrder.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.contained` is mapped to FHIR R4B element `NutritionOrder.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.identifier` is mapped to FHIR R4B element `NutritionOrder.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.instantiatesCanonical" ] ;
+       fhir:display [ fhir:v "instantiatesCanonical" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.instantiatesCanonical" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.instantiatesCanonical` is mapped to FHIR R4B element `NutritionOrder.instantiatesCanonical`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.instantiatesCanonical" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.instantiatesCanonical` is mapped to FHIR STU3 structure `NutritionOrder`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.instantiatesUri" ] ;
+       fhir:display [ fhir:v "instantiatesUri" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.instantiatesUri" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.instantiatesUri` is mapped to FHIR R4B element `NutritionOrder.instantiatesUri`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.instantiatesUri" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.instantiatesUri` is mapped to FHIR STU3 structure `NutritionOrder`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.instantiates" ] ;
+       fhir:display [ fhir:v "instantiates" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.instantiates" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.instantiates` is mapped to FHIR R4B element `NutritionOrder.instantiates`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.instantiates" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.instantiates` is mapped to FHIR STU3 structure `NutritionOrder`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.basedOn" ] ;
+       fhir:display [ fhir:v "basedOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.basedOn" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.basedOn` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.groupIdentifier" ] ;
+       fhir:display [ fhir:v "groupIdentifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.groupIdentifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.groupIdentifier` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.status` is mapped to FHIR R4B element `NutritionOrder.status`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.intent" ] ;
+       fhir:display [ fhir:v "intent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.intent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.intent` is mapped to FHIR R4B element `NutritionOrder.intent`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.intent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.intent` is mapped to FHIR STU3 structure `NutritionOrder`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.priority" ] ;
+       fhir:display [ fhir:v "priority" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.priority" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.priority` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.patient" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `NutritionOrder.subject` is mapped to FHIR R4B element `NutritionOrder.patient`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.encounter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.encounter` is mapped to FHIR R4B element `NutritionOrder.encounter`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.supportingInformation" ] ;
+       fhir:display [ fhir:v "supportingInformation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.supportingInformation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.supportingInformation` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.dateTime" ] ;
+       fhir:display [ fhir:v "dateTime" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.dateTime" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.dateTime` is mapped to FHIR R4B element `NutritionOrder.dateTime`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.orderer" ] ;
+       fhir:display [ fhir:v "orderer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.orderer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.orderer` is mapped to FHIR R4B element `NutritionOrder.orderer`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.performer" ] ;
+       fhir:display [ fhir:v "performer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.performer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.performer` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.allergyIntolerance" ] ;
+       fhir:display [ fhir:v "allergyIntolerance" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.allergyIntolerance" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.allergyIntolerance` is mapped to FHIR R4B element `NutritionOrder.allergyIntolerance`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.foodPreferenceModifier" ] ;
+       fhir:display [ fhir:v "foodPreferenceModifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.foodPreferenceModifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.foodPreferenceModifier` is mapped to FHIR R4B element `NutritionOrder.foodPreferenceModifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.excludeFoodModifier" ] ;
+       fhir:display [ fhir:v "excludeFoodModifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.excludeFoodModifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.excludeFoodModifier` is mapped to FHIR R4B element `NutritionOrder.excludeFoodModifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.outsideFoodAllowed" ] ;
+       fhir:display [ fhir:v "outsideFoodAllowed" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.outsideFoodAllowed" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.outsideFoodAllowed` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.oralDiet" ] ;
+       fhir:display [ fhir:v "oralDiet" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.oralDiet` is mapped to FHIR R4B element `NutritionOrder.oralDiet`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.oralDiet.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.oralDiet.type` is mapped to FHIR R4B element `NutritionOrder.oralDiet.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.oralDiet.schedule" ] ;
+       fhir:display [ fhir:v "schedule" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.schedule" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.oralDiet.schedule` is mapped to FHIR R4B element `NutritionOrder.oralDiet.schedule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.oralDiet.schedule.timing" ] ;
+       fhir:display [ fhir:v "timing" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "timing" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.oralDiet.schedule.timing` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.oralDiet.schedule.asNeeded" ] ;
+       fhir:display [ fhir:v "asNeeded" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "asNeeded" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.oralDiet.schedule.asNeeded` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.oralDiet.schedule.asNeededFor" ] ;
+       fhir:display [ fhir:v "asNeededFor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "asNeededFor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.oralDiet.schedule.asNeededFor` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.oralDiet.nutrient" ] ;
+       fhir:display [ fhir:v "nutrient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.nutrient" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.oralDiet.nutrient` is mapped to FHIR R4B element `NutritionOrder.oralDiet.nutrient`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.oralDiet.nutrient.modifier" ] ;
+       fhir:display [ fhir:v "modifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.nutrient.modifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.oralDiet.nutrient.modifier` is mapped to FHIR R4B element `NutritionOrder.oralDiet.nutrient.modifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.oralDiet.nutrient.amount" ] ;
+       fhir:display [ fhir:v "amount" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.nutrient.amount" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.oralDiet.nutrient.amount` is mapped to FHIR R4B element `NutritionOrder.oralDiet.nutrient.amount`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.oralDiet.texture" ] ;
+       fhir:display [ fhir:v "texture" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.texture" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.oralDiet.texture` is mapped to FHIR R4B element `NutritionOrder.oralDiet.texture`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.oralDiet.texture.modifier" ] ;
+       fhir:display [ fhir:v "modifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.texture.modifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.oralDiet.texture.modifier` is mapped to FHIR R4B element `NutritionOrder.oralDiet.texture.modifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.oralDiet.texture.foodType" ] ;
+       fhir:display [ fhir:v "foodType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.texture.foodType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.oralDiet.texture.foodType` is mapped to FHIR R4B element `NutritionOrder.oralDiet.texture.foodType`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.oralDiet.fluidConsistencyType" ] ;
+       fhir:display [ fhir:v "fluidConsistencyType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.fluidConsistencyType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.oralDiet.fluidConsistencyType` is mapped to FHIR R4B element `NutritionOrder.oralDiet.fluidConsistencyType`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.oralDiet.instruction" ] ;
+       fhir:display [ fhir:v "instruction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.instruction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.oralDiet.instruction` is mapped to FHIR R4B element `NutritionOrder.oralDiet.instruction`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.supplement" ] ;
+       fhir:display [ fhir:v "supplement" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.supplement" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.supplement` is mapped to FHIR R4B element `NutritionOrder.supplement`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.supplement.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.supplement.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.supplement.type` is mapped to FHIR R4B element `NutritionOrder.supplement.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.supplement.productName" ] ;
+       fhir:display [ fhir:v "productName" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.supplement.productName" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.supplement.productName` is mapped to FHIR R4B element `NutritionOrder.supplement.productName`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.supplement.schedule" ] ;
+       fhir:display [ fhir:v "schedule" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.supplement.schedule" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.supplement.schedule` is mapped to FHIR R4B element `NutritionOrder.supplement.schedule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.supplement.schedule.timing" ] ;
+       fhir:display [ fhir:v "timing" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "timing" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.supplement.schedule.timing` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.supplement.schedule.asNeeded" ] ;
+       fhir:display [ fhir:v "asNeeded" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "asNeeded" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.supplement.schedule.asNeeded` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.supplement.schedule.asNeededFor" ] ;
+       fhir:display [ fhir:v "asNeededFor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "asNeededFor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.supplement.schedule.asNeededFor` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.supplement.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.supplement.quantity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.supplement.quantity` is mapped to FHIR R4B element `NutritionOrder.supplement.quantity`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.supplement.instruction" ] ;
+       fhir:display [ fhir:v "instruction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.supplement.instruction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.supplement.instruction` is mapped to FHIR R4B element `NutritionOrder.supplement.instruction`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.enteralFormula" ] ;
+       fhir:display [ fhir:v "enteralFormula" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.enteralFormula` is mapped to FHIR R4B element `NutritionOrder.enteralFormula`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.enteralFormula.baseFormulaType" ] ;
+       fhir:display [ fhir:v "baseFormulaType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.baseFormulaType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.enteralFormula.baseFormulaType` is mapped to FHIR R4B element `NutritionOrder.enteralFormula.baseFormulaType`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.enteralFormula.baseFormulaProductName" ] ;
+       fhir:display [ fhir:v "baseFormulaProductName" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.baseFormulaProductName" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.enteralFormula.baseFormulaProductName` is mapped to FHIR R4B element `NutritionOrder.enteralFormula.baseFormulaProductName`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.enteralFormula.deliveryDevice" ] ;
+       fhir:display [ fhir:v "deliveryDevice" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.enteralFormula.deliveryDevice" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.enteralFormula.deliveryDevice` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.enteralFormula.additive" ] ;
+       fhir:display [ fhir:v "additive" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.enteralFormula.additive` is mapped to FHIR R4B element `NutritionOrder.enteralFormula`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.enteralFormula.additive.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.additiveType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.enteralFormula.additive.type` is mapped to FHIR R4B element `NutritionOrder.enteralFormula.additiveType`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.enteralFormula.additive.productName" ] ;
+       fhir:display [ fhir:v "productName" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.additiveProductName" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.enteralFormula.additive.productName` is mapped to FHIR R4B element `NutritionOrder.enteralFormula.additiveProductName`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.enteralFormula.additive.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.enteralFormula.additive.quantity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.enteralFormula.additive.quantity` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.enteralFormula.caloricDensity" ] ;
+       fhir:display [ fhir:v "caloricDensity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.caloricDensity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.enteralFormula.caloricDensity` is mapped to FHIR R4B element `NutritionOrder.enteralFormula.caloricDensity`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.enteralFormula.routeOfAdministration" ] ;
+       fhir:display [ fhir:v "routeOfAdministration" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.routeofAdministration" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.enteralFormula.routeOfAdministration` is mapped to FHIR R4B element `NutritionOrder.enteralFormula.routeofAdministration`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.enteralFormula.administration" ] ;
+       fhir:display [ fhir:v "administration" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.administration" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.enteralFormula.administration` is mapped to FHIR R4B element `NutritionOrder.enteralFormula.administration`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.enteralFormula.administration.schedule" ] ;
+       fhir:display [ fhir:v "schedule" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.administration.schedule" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.enteralFormula.administration.schedule` is mapped to FHIR R4B element `NutritionOrder.enteralFormula.administration.schedule`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.enteralFormula.administration.schedule.timing" ] ;
+       fhir:display [ fhir:v "timing" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "timing" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.enteralFormula.administration.schedule.timing` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.enteralFormula.administration.schedule.asNeeded" ] ;
+       fhir:display [ fhir:v "asNeeded" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "asNeeded" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.enteralFormula.administration.schedule.asNeeded` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.enteralFormula.administration.schedule.asNeededFor" ] ;
+       fhir:display [ fhir:v "asNeededFor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "asNeededFor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.enteralFormula.administration.schedule.asNeededFor` is mapped to FHIR R4B structure `NutritionOrder`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.enteralFormula.administration.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.administration.quantity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.enteralFormula.administration.quantity` is mapped to FHIR R4B element `NutritionOrder.enteralFormula.administration.quantity`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.enteralFormula.administration.rate[x]" ] ;
+       fhir:display [ fhir:v "rate[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.administration.rate[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `NutritionOrder.enteralFormula.administration.rate[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `NutritionOrder.enteralFormula.administration`.\nElement `NutritionOrder.enteralFormula.administration.rate[x]` is mapped to FHIR R4B element `NutritionOrder.enteralFormula.administration.rate[x]`.\nNote that the target element context `NutritionOrder.enteralFormula.administration.rate[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `NutritionOrder.enteralFormula.administration`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.enteralFormula.maxVolumeToDeliver" ] ;
+       fhir:display [ fhir:v "maxVolumeToDeliver" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.maxVolumeToDeliver" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.enteralFormula.maxVolumeToDeliver` is mapped to FHIR R4B element `NutritionOrder.enteralFormula.maxVolumeToDeliver`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.enteralFormula.administrationInstruction" ] ;
+       fhir:display [ fhir:v "administrationInstruction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.administrationInstruction" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.enteralFormula.administrationInstruction` is mapped to FHIR R4B element `NutritionOrder.enteralFormula.administrationInstruction`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionOrder.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.note` is mapped to FHIR R4B element `NutritionOrder.note`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionOrder.note` is mapped to FHIR STU3 structure `NutritionOrder`, but has no target element specified." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

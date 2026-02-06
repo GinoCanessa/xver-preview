@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="usage-context-agreement-scope"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/CodeSystem/usage-context-agreement-scope</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">realm-base
+                  <a name="usage-context-agreement-scope-realm-base"> </a>
+                </td>
+                <td>Realm Base</td>
+                <td>Defines use-case independent foundational expectations for exchange within a particular country or jurisdiction.  Should be accompanied by a jurisdiction.  Commonly used as a 'base' for more restrictive artifacts.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">knowledge
+                  <a name="usage-context-agreement-scope-knowledge"> </a>
+                </td>
+                <td>Knowledge</td>
+                <td>Defines use-case-specific information or guidance that is relevant to a specific business or health domain but is not mandated for particular use.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">domain
+                  <a name="usage-context-agreement-scope-domain"> </a>
+                </td>
+                <td>Domain</td>
+                <td>Defines use-case-specific requirements for a specific business or health domain.  May vary in jurisdictional scope from international to small region and in business scope from broad to narrow.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">community
+                  <a name="usage-context-agreement-scope-community"> </a>
+                </td>
+                <td>Community</td>
+                <td>Sets contractual or business expectations for systems participating in a particular exchange community.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">system-design
+                  <a name="usage-context-agreement-scope-system-design"> </a>
+                </td>
+                <td>System Design</td>
+                <td>Documents the specific capabilities of a single system as 'available' for purchase or use.  May have some variability reflecting options that can be configured.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">system-implementation
+                  <a name="usage-context-agreement-scope-system-implementation"> </a>
+                </td>
+                <td>System Implementation</td>
+                <td>Documents the specific points of a single production system or endpoint.  This may be time-specific - i.e. reflecting the system 'as it is now' or 'as it was at some point in the past'.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <url value="http://hl7.org/fhir/CodeSystem/usage-context-agreement-scope"/>
+  <version value="5.0.0"/>
+  <name value="UsageContextAgreementScope"/>
+  <title value="Usage Context Agreement Scope"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2026-02-06T13:22:22-06:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This codesystem defines codes describing the type of agreement represented by an artifact, for example for use in CanonicalResource.usageContext."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/usage-context-agreement-scope"/>
+  <content value="complete"/>
+  <concept>
+    <code value="realm-base"/>
+    <display value="Realm Base"/>
+    <definition value="Defines use-case independent foundational expectations for exchange within a particular country or jurisdiction.  Should be accompanied by a jurisdiction.  Commonly used as a 'base' for more restrictive artifacts."/>
+  </concept>
+  <concept>
+    <code value="knowledge"/>
+    <display value="Knowledge"/>
+    <definition value="Defines use-case-specific information or guidance that is relevant to a specific business or health domain but is not mandated for particular use."/>
+  </concept>
+  <concept>
+    <code value="domain"/>
+    <display value="Domain"/>
+    <definition value="Defines use-case-specific requirements for a specific business or health domain.  May vary in jurisdictional scope from international to small region and in business scope from broad to narrow."/>
+  </concept>
+  <concept>
+    <code value="community"/>
+    <display value="Community"/>
+    <definition value="Sets contractual or business expectations for systems participating in a particular exchange community."/>
+  </concept>
+  <concept>
+    <code value="system-design"/>
+    <display value="System Design"/>
+    <definition value="Documents the specific capabilities of a single system as 'available' for purchase or use.  May have some variability reflecting options that can be configured."/>
+  </concept>
+  <concept>
+    <code value="system-implementation"/>
+    <display value="System Implementation"/>
+    <definition value="Documents the specific points of a single production system or endpoint.  This may be time-specific - i.e. reflecting the system 'as it is now' or 'as it was at some point in the past'."/>
+  </concept>
+</CodeSystem>

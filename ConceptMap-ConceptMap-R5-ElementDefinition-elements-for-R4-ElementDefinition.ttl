@@ -1,0 +1,764 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-ElementDefinition-elements-for-R4-ElementDefinition> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-ElementDefinition-elements-for-R4-ElementDefinition"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-ElementDefinition-elements-for-R4-ElementDefinition</b></p><a name=\"ConceptMap-R5-ElementDefinition-elements-for-R4-ElementDefinition\"> </a><a name=\"hcConceptMap-R5-ElementDefinition-elements-for-R4-ElementDefinition\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ElementDefinition|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/ElementDefinition|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition</td><td style=\"border-left-width: 0px\">ElementDefinition</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 ComplexType `ElementDefinition` is representable via FHIR R4B extensions.\nElement `ElementDefinition` is mapped to FHIR R4B element `ElementDefinition`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.path</td><td style=\"border-left-width: 0px\">path</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.path</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.path` is mapped to FHIR R4B element `ElementDefinition.path`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.representation</td><td style=\"border-left-width: 0px\">representation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.representation</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.representation` is mapped to FHIR R4B element `ElementDefinition.representation`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ElementDefinition.sliceName</td><td style=\"border-left-width: 0px; border-bottom-style: none\">sliceName</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.sliceName</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.sliceName` is mapped to FHIR R4B element `ElementDefinition.sliceName`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.name</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.sliceName` is mapped to FHIR DSTU2 element `ElementDefinition.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ElementDefinition.sliceIsConstraining</td><td style=\"border-left-width: 0px; border-bottom-style: none\">sliceIsConstraining</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.sliceIsConstraining</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.sliceIsConstraining` is mapped to FHIR R4B element `ElementDefinition.sliceIsConstraining`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.sliceIsConstraining</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.sliceIsConstraining` is mapped to FHIR STU3 structure `ElementDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.label</td><td style=\"border-left-width: 0px\">label</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.label</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.label` is mapped to FHIR R4B element `ElementDefinition.label`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.code</td><td style=\"border-left-width: 0px\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.code</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.code` is mapped to FHIR R4B element `ElementDefinition.code`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.slicing</td><td style=\"border-left-width: 0px\">slicing</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.slicing</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.slicing` is mapped to FHIR R4B element `ElementDefinition.slicing`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.slicing.discriminator</td><td style=\"border-left-width: 0px\">discriminator</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.slicing.discriminator</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.slicing.discriminator` is mapped to FHIR R4B element `ElementDefinition.slicing.discriminator`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ElementDefinition.slicing.discriminator.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.slicing.discriminator.type</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.slicing.discriminator.type` is mapped to FHIR R4B element `ElementDefinition.slicing.discriminator.type`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">type</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.slicing.discriminator.type` is mapped to FHIR DSTU2 structure `ElementDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ElementDefinition.slicing.discriminator.path</td><td style=\"border-left-width: 0px; border-bottom-style: none\">path</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.slicing.discriminator.path</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.slicing.discriminator.path` is mapped to FHIR R4B element `ElementDefinition.slicing.discriminator.path`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">path</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.slicing.discriminator.path` is mapped to FHIR DSTU2 structure `ElementDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.slicing.description</td><td style=\"border-left-width: 0px\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.slicing.description</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.slicing.description` is mapped to FHIR R4B element `ElementDefinition.slicing.description`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.slicing.ordered</td><td style=\"border-left-width: 0px\">ordered</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.slicing.ordered</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.slicing.ordered` is mapped to FHIR R4B element `ElementDefinition.slicing.ordered`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.slicing.rules</td><td style=\"border-left-width: 0px\">rules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.slicing.rules</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.slicing.rules` is mapped to FHIR R4B element `ElementDefinition.slicing.rules`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.short</td><td style=\"border-left-width: 0px\">short</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.short</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.short` is mapped to FHIR R4B element `ElementDefinition.short`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.definition</td><td style=\"border-left-width: 0px\">definition</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.definition</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.definition` is mapped to FHIR R4B element `ElementDefinition.definition`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ElementDefinition.comment</td><td style=\"border-left-width: 0px; border-bottom-style: none\">comment</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.comment</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.comment` is mapped to FHIR R4B element `ElementDefinition.comment`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.comments</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.comment` is mapped to FHIR DSTU2 element `ElementDefinition.comments`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.requirements</td><td style=\"border-left-width: 0px\">requirements</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.requirements</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.requirements` is mapped to FHIR R4B element `ElementDefinition.requirements`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.alias</td><td style=\"border-left-width: 0px\">alias</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.alias</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.alias` is mapped to FHIR R4B element `ElementDefinition.alias`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.min</td><td style=\"border-left-width: 0px\">min</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.min</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.min` is mapped to FHIR R4B element `ElementDefinition.min`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.max</td><td style=\"border-left-width: 0px\">max</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.max</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.max` is mapped to FHIR R4B element `ElementDefinition.max`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.base</td><td style=\"border-left-width: 0px\">base</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.base</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.base` is mapped to FHIR R4B element `ElementDefinition.base`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.base.path</td><td style=\"border-left-width: 0px\">path</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.base.path</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.base.path` is mapped to FHIR R4B element `ElementDefinition.base.path`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.base.min</td><td style=\"border-left-width: 0px\">min</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.base.min</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.base.min` is mapped to FHIR R4B element `ElementDefinition.base.min`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.base.max</td><td style=\"border-left-width: 0px\">max</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.base.max</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.base.max` is mapped to FHIR R4B element `ElementDefinition.base.max`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ElementDefinition.contentReference</td><td style=\"border-left-width: 0px; border-bottom-style: none\">contentReference</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.contentReference</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.contentReference` is mapped to FHIR R4B element `ElementDefinition.contentReference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.nameReference</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.contentReference` is mapped to FHIR DSTU2 element `ElementDefinition.nameReference`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.type</td><td style=\"border-left-width: 0px\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.type</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.type` is mapped to FHIR R4B element `ElementDefinition.type`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.type.code</td><td style=\"border-left-width: 0px\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.type.code</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.type.code` is mapped to FHIR R4B element `ElementDefinition.type.code`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.type.profile</td><td style=\"border-left-width: 0px\">profile</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.type.profile</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.type.profile` is mapped to FHIR R4B element `ElementDefinition.type.profile`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ElementDefinition.type.targetProfile</td><td style=\"border-left-width: 0px; border-bottom-style: none\">targetProfile</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.type.targetProfile</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.type.targetProfile` is mapped to FHIR R4B element `ElementDefinition.type.targetProfile`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.type.profile</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.type.targetProfile` is mapped to FHIR DSTU2 element `ElementDefinition.type.profile`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.type.aggregation</td><td style=\"border-left-width: 0px\">aggregation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.type.aggregation</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.type.aggregation` is mapped to FHIR R4B element `ElementDefinition.type.aggregation`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ElementDefinition.type.versioning</td><td style=\"border-left-width: 0px; border-bottom-style: none\">versioning</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.type.versioning</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.type.versioning` is mapped to FHIR R4B element `ElementDefinition.type.versioning`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.type.versioning</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.type.versioning` is mapped to FHIR DSTU2 structure `ElementDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.defaultValue[x]</td><td style=\"border-left-width: 0px\">defaultValue[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.defaultValue[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `ElementDefinition.defaultValue[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`.\nElement `ElementDefinition.defaultValue[x]` is mapped to FHIR R4B element `ElementDefinition.defaultValue[x]`.\nNote that the target element context `ElementDefinition.defaultValue[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.meaningWhenMissing</td><td style=\"border-left-width: 0px\">meaningWhenMissing</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.meaningWhenMissing</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.meaningWhenMissing` is mapped to FHIR R4B element `ElementDefinition.meaningWhenMissing`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ElementDefinition.orderMeaning</td><td style=\"border-left-width: 0px; border-bottom-style: none\">orderMeaning</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.orderMeaning</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.orderMeaning` is mapped to FHIR R4B element `ElementDefinition.orderMeaning`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.orderMeaning</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.orderMeaning` is mapped to FHIR DSTU2 structure `ElementDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.fixed[x]</td><td style=\"border-left-width: 0px\">fixed[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.fixed[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `ElementDefinition.fixed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`.\nElement `ElementDefinition.fixed[x]` is mapped to FHIR R4B element `ElementDefinition.fixed[x]`.\nNote that the target element context `ElementDefinition.fixed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.pattern[x]</td><td style=\"border-left-width: 0px\">pattern[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.pattern[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `ElementDefinition.pattern[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`.\nElement `ElementDefinition.pattern[x]` is mapped to FHIR R4B element `ElementDefinition.pattern[x]`.\nNote that the target element context `ElementDefinition.pattern[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ElementDefinition.example</td><td style=\"border-left-width: 0px; border-bottom-style: none\">example</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.example</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.example` is mapped to FHIR R4B element `ElementDefinition.example`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.example</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.example` is mapped to FHIR DSTU2 structure `ElementDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ElementDefinition.example.label</td><td style=\"border-left-width: 0px; border-bottom-style: none\">label</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.example.label</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.example.label` is mapped to FHIR R4B element `ElementDefinition.example.label`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.example[x]</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.example.label` is part of an existing definition because parent element `ElementDefinition.example` requires a cross-version extension.\nNote that the target element context `ElementDefinition.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`.\nElement `ElementDefinition.example.label` is mapped to FHIR DSTU2 element `ElementDefinition.example[x]`.\nNote that the target element context `ElementDefinition.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ElementDefinition.example.value[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">value[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.example.value[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `ElementDefinition.example.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition.example`.\nElement `ElementDefinition.example.value[x]` is mapped to FHIR R4B element `ElementDefinition.example.value[x]`.\nNote that the target element context `ElementDefinition.example.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition.example`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.example[x]</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.example.value[x]` is part of an existing definition because parent element `ElementDefinition.example` requires a cross-version extension.\nNote that the target element context `ElementDefinition.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`.\nElement `ElementDefinition.example.value[x]` is mapped to FHIR DSTU2 element `ElementDefinition.example[x]`.\nNote that the target element context `ElementDefinition.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.minValue[x]</td><td style=\"border-left-width: 0px\">minValue[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.minValue[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `ElementDefinition.minValue[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`.\nElement `ElementDefinition.minValue[x]` is mapped to FHIR R4B element `ElementDefinition.minValue[x]`.\nNote that the target element context `ElementDefinition.minValue[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.maxValue[x]</td><td style=\"border-left-width: 0px\">maxValue[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.maxValue[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `ElementDefinition.maxValue[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`.\nElement `ElementDefinition.maxValue[x]` is mapped to FHIR R4B element `ElementDefinition.maxValue[x]`.\nNote that the target element context `ElementDefinition.maxValue[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.maxLength</td><td style=\"border-left-width: 0px\">maxLength</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.maxLength</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.maxLength` is mapped to FHIR R4B element `ElementDefinition.maxLength`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.condition</td><td style=\"border-left-width: 0px\">condition</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.condition</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.condition` is mapped to FHIR R4B element `ElementDefinition.condition`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.constraint</td><td style=\"border-left-width: 0px\">constraint</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.constraint</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.constraint` is mapped to FHIR R4B element `ElementDefinition.constraint`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.constraint.key</td><td style=\"border-left-width: 0px\">key</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.constraint.key</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.constraint.key` is mapped to FHIR R4B element `ElementDefinition.constraint.key`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.constraint.requirements</td><td style=\"border-left-width: 0px\">requirements</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.constraint.requirements</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.constraint.requirements` is mapped to FHIR R4B element `ElementDefinition.constraint.requirements`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.constraint.severity</td><td style=\"border-left-width: 0px\">severity</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.constraint.severity</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.constraint.severity` is mapped to FHIR R4B element `ElementDefinition.constraint.severity`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.constraint.suppress</td><td style=\"border-left-width: 0px\">suppress</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.constraint.suppress</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.constraint.suppress` is mapped to FHIR R4B structure `ElementDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.constraint.human</td><td style=\"border-left-width: 0px\">human</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.constraint.human</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.constraint.human` is mapped to FHIR R4B element `ElementDefinition.constraint.human`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ElementDefinition.constraint.expression</td><td style=\"border-left-width: 0px; border-bottom-style: none\">expression</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.constraint.expression</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.constraint.expression` is mapped to FHIR R4B element `ElementDefinition.constraint.expression`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.constraint.expression</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.constraint.expression` is mapped to FHIR DSTU2 structure `ElementDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ElementDefinition.constraint.source</td><td style=\"border-left-width: 0px; border-bottom-style: none\">source</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.constraint.source</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.constraint.source` is mapped to FHIR R4B element `ElementDefinition.constraint.source`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.constraint.source</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.constraint.source` is mapped to FHIR DSTU2 structure `ElementDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.mustHaveValue</td><td style=\"border-left-width: 0px\">mustHaveValue</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.mustHaveValue</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.mustHaveValue` is mapped to FHIR R4B structure `ElementDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.valueAlternatives</td><td style=\"border-left-width: 0px\">valueAlternatives</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.valueAlternatives</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.valueAlternatives` is mapped to FHIR R4B structure `ElementDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.mustSupport</td><td style=\"border-left-width: 0px\">mustSupport</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.mustSupport</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.mustSupport` is mapped to FHIR R4B element `ElementDefinition.mustSupport`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.isModifier</td><td style=\"border-left-width: 0px\">isModifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.isModifier</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.isModifier` is mapped to FHIR R4B element `ElementDefinition.isModifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ElementDefinition.isModifierReason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">isModifierReason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.isModifierReason</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.isModifierReason` is mapped to FHIR R4B element `ElementDefinition.isModifierReason`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.isModifierReason</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.isModifierReason` is mapped to FHIR STU3 structure `ElementDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.isSummary</td><td style=\"border-left-width: 0px\">isSummary</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.isSummary</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.isSummary` is mapped to FHIR R4B element `ElementDefinition.isSummary`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.binding</td><td style=\"border-left-width: 0px\">binding</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.binding</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.binding` is mapped to FHIR R4B element `ElementDefinition.binding`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.binding.strength</td><td style=\"border-left-width: 0px\">strength</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.binding.strength</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.binding.strength` is mapped to FHIR R4B element `ElementDefinition.binding.strength`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.binding.description</td><td style=\"border-left-width: 0px\">description</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.binding.description</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.binding.description` is mapped to FHIR R4B element `ElementDefinition.binding.description`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ElementDefinition.binding.valueSet</td><td style=\"border-left-width: 0px; border-bottom-style: none\">valueSet</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.binding.valueSet</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.binding.valueSet` is mapped to FHIR R4B element `ElementDefinition.binding.valueSet`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.binding.valueSet[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `ElementDefinition.binding.valueSet[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition.binding`.\nElement `ElementDefinition.binding.valueSet` is mapped to FHIR STU3 element `ElementDefinition.binding.valueSet[x]`.\nNote that the target element context `ElementDefinition.binding.valueSet[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition.binding`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.binding.additional</td><td style=\"border-left-width: 0px\">additional</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/tools/StructureDefinition/additional-binding</td><td style=\"border-left-width: 0px\"/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ElementDefinition.binding.additional`: `http://hl7.org/fhir/tools/StructureDefinition/additional-binding`.\nElement `ElementDefinition.binding.additional` is mapped to FHIR R4B structure `ElementDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.binding.additional.purpose</td><td style=\"border-left-width: 0px\">purpose</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/tools/StructureDefinition/additional-binding:purpose</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.binding.additional.purpose` is part of an existing definition because parent element `ElementDefinition.binding.additional` requires a cross-version extension.\nElement `ElementDefinition.binding.additional.purpose` is mapped to FHIR R4B structure `ElementDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.binding.additional.valueSet</td><td style=\"border-left-width: 0px\">valueSet</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/tools/StructureDefinition/additional-binding:valueSet</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.binding.additional.valueSet` is part of an existing definition because parent element `ElementDefinition.binding.additional` requires a cross-version extension.\nElement `ElementDefinition.binding.additional.valueSet` is mapped to FHIR R4B structure `ElementDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.binding.additional.documentation</td><td style=\"border-left-width: 0px\">documentation</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/tools/StructureDefinition/additional-binding:documentation</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.binding.additional.documentation` is part of an existing definition because parent element `ElementDefinition.binding.additional` requires a cross-version extension.\nElement `ElementDefinition.binding.additional.documentation` is mapped to FHIR R4B structure `ElementDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.binding.additional.shortDoco</td><td style=\"border-left-width: 0px\">shortDoco</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/tools/StructureDefinition/additional-binding:shortDoco</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.binding.additional.shortDoco` is part of an existing definition because parent element `ElementDefinition.binding.additional` requires a cross-version extension.\nElement `ElementDefinition.binding.additional.shortDoco` is mapped to FHIR R4B structure `ElementDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.binding.additional.usage</td><td style=\"border-left-width: 0px\">usage</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/tools/StructureDefinition/additional-binding:usage</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.binding.additional.usage` is part of an existing definition because parent element `ElementDefinition.binding.additional` requires a cross-version extension.\nElement `ElementDefinition.binding.additional.usage` is mapped to FHIR R4B structure `ElementDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.binding.additional.any</td><td style=\"border-left-width: 0px\">any</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/tools/StructureDefinition/additional-binding:any</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.binding.additional.any` is part of an existing definition because parent element `ElementDefinition.binding.additional` requires a cross-version extension.\nElement `ElementDefinition.binding.additional.any` is mapped to FHIR R4B structure `ElementDefinition`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.mapping</td><td style=\"border-left-width: 0px\">mapping</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.mapping</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.mapping` is mapped to FHIR R4B element `ElementDefinition.mapping`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.mapping.identity</td><td style=\"border-left-width: 0px\">identity</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.mapping.identity</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.mapping.identity` is mapped to FHIR R4B element `ElementDefinition.mapping.identity`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.mapping.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.mapping.language</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.mapping.language` is mapped to FHIR R4B element `ElementDefinition.mapping.language`.</td></tr><tr><td style=\"border-right-width: 0px\">ElementDefinition.mapping.map</td><td style=\"border-left-width: 0px\">map</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.mapping.map</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.mapping.map` is mapped to FHIR R4B element `ElementDefinition.mapping.map`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ElementDefinition.mapping.comment</td><td style=\"border-left-width: 0px; border-bottom-style: none\">comment</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.mapping.comment</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.mapping.comment` is mapped to FHIR R4B element `ElementDefinition.mapping.comment`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.mapping.comment</td><td style=\"border-left-width: 0px\"/><td>Element `ElementDefinition.mapping.comment` is mapped to FHIR DSTU2 structure `ElementDefinition`, but has no target element specified.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-ElementDefinition-elements-for-R4-ElementDefinition"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-ElementDefinition-elements-for-R4-ElementDefinition>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5ElementDefinitionElementsForR4ElementDefinition"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:32.3169614-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/ElementDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "ElementDefinition" ] ;
+       fhir:display [ fhir:v "ElementDefinition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 ComplexType `ElementDefinition` is representable via FHIR R4B extensions.\nElement `ElementDefinition` is mapped to FHIR R4B element `ElementDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.path" ] ;
+       fhir:display [ fhir:v "path" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.path" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.path` is mapped to FHIR R4B element `ElementDefinition.path`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.representation" ] ;
+       fhir:display [ fhir:v "representation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.representation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.representation` is mapped to FHIR R4B element `ElementDefinition.representation`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.sliceName" ] ;
+       fhir:display [ fhir:v "sliceName" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.sliceName" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.sliceName` is mapped to FHIR R4B element `ElementDefinition.sliceName`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.sliceName` is mapped to FHIR DSTU2 element `ElementDefinition.name`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.sliceIsConstraining" ] ;
+       fhir:display [ fhir:v "sliceIsConstraining" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.sliceIsConstraining" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.sliceIsConstraining` is mapped to FHIR R4B element `ElementDefinition.sliceIsConstraining`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.sliceIsConstraining" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.sliceIsConstraining` is mapped to FHIR STU3 structure `ElementDefinition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.label" ] ;
+       fhir:display [ fhir:v "label" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.label" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.label` is mapped to FHIR R4B element `ElementDefinition.label`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.code` is mapped to FHIR R4B element `ElementDefinition.code`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.slicing" ] ;
+       fhir:display [ fhir:v "slicing" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.slicing" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.slicing` is mapped to FHIR R4B element `ElementDefinition.slicing`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.slicing.discriminator" ] ;
+       fhir:display [ fhir:v "discriminator" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.slicing.discriminator" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.slicing.discriminator` is mapped to FHIR R4B element `ElementDefinition.slicing.discriminator`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.slicing.discriminator.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.slicing.discriminator.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.slicing.discriminator.type` is mapped to FHIR R4B element `ElementDefinition.slicing.discriminator.type`." ]
+       ] [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.slicing.discriminator.type` is mapped to FHIR DSTU2 structure `ElementDefinition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.slicing.discriminator.path" ] ;
+       fhir:display [ fhir:v "path" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.slicing.discriminator.path" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.slicing.discriminator.path` is mapped to FHIR R4B element `ElementDefinition.slicing.discriminator.path`." ]
+       ] [
+         fhir:code [ fhir:v "path" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.slicing.discriminator.path` is mapped to FHIR DSTU2 structure `ElementDefinition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.slicing.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.slicing.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.slicing.description` is mapped to FHIR R4B element `ElementDefinition.slicing.description`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.slicing.ordered" ] ;
+       fhir:display [ fhir:v "ordered" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.slicing.ordered" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.slicing.ordered` is mapped to FHIR R4B element `ElementDefinition.slicing.ordered`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.slicing.rules" ] ;
+       fhir:display [ fhir:v "rules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.slicing.rules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.slicing.rules` is mapped to FHIR R4B element `ElementDefinition.slicing.rules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.short" ] ;
+       fhir:display [ fhir:v "short" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.short" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.short` is mapped to FHIR R4B element `ElementDefinition.short`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.definition" ] ;
+       fhir:display [ fhir:v "definition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.definition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.definition` is mapped to FHIR R4B element `ElementDefinition.definition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.comment" ] ;
+       fhir:display [ fhir:v "comment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.comment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.comment` is mapped to FHIR R4B element `ElementDefinition.comment`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.comments" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.comment` is mapped to FHIR DSTU2 element `ElementDefinition.comments`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.requirements" ] ;
+       fhir:display [ fhir:v "requirements" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.requirements" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.requirements` is mapped to FHIR R4B element `ElementDefinition.requirements`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.alias" ] ;
+       fhir:display [ fhir:v "alias" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.alias" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.alias` is mapped to FHIR R4B element `ElementDefinition.alias`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.min" ] ;
+       fhir:display [ fhir:v "min" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.min" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.min` is mapped to FHIR R4B element `ElementDefinition.min`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.max" ] ;
+       fhir:display [ fhir:v "max" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.max" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.max` is mapped to FHIR R4B element `ElementDefinition.max`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.base" ] ;
+       fhir:display [ fhir:v "base" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.base" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.base` is mapped to FHIR R4B element `ElementDefinition.base`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.base.path" ] ;
+       fhir:display [ fhir:v "path" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.base.path" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.base.path` is mapped to FHIR R4B element `ElementDefinition.base.path`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.base.min" ] ;
+       fhir:display [ fhir:v "min" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.base.min" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.base.min` is mapped to FHIR R4B element `ElementDefinition.base.min`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.base.max" ] ;
+       fhir:display [ fhir:v "max" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.base.max" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.base.max` is mapped to FHIR R4B element `ElementDefinition.base.max`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.contentReference" ] ;
+       fhir:display [ fhir:v "contentReference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.contentReference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.contentReference` is mapped to FHIR R4B element `ElementDefinition.contentReference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.nameReference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.contentReference` is mapped to FHIR DSTU2 element `ElementDefinition.nameReference`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.type` is mapped to FHIR R4B element `ElementDefinition.type`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.type.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.type.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.type.code` is mapped to FHIR R4B element `ElementDefinition.type.code`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.type.profile" ] ;
+       fhir:display [ fhir:v "profile" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.type.profile" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.type.profile` is mapped to FHIR R4B element `ElementDefinition.type.profile`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.type.targetProfile" ] ;
+       fhir:display [ fhir:v "targetProfile" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.type.targetProfile" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.type.targetProfile` is mapped to FHIR R4B element `ElementDefinition.type.targetProfile`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.type.profile" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.type.targetProfile` is mapped to FHIR DSTU2 element `ElementDefinition.type.profile`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.type.aggregation" ] ;
+       fhir:display [ fhir:v "aggregation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.type.aggregation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.type.aggregation` is mapped to FHIR R4B element `ElementDefinition.type.aggregation`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.type.versioning" ] ;
+       fhir:display [ fhir:v "versioning" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.type.versioning" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.type.versioning` is mapped to FHIR R4B element `ElementDefinition.type.versioning`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.type.versioning" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.type.versioning` is mapped to FHIR DSTU2 structure `ElementDefinition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.defaultValue[x]" ] ;
+       fhir:display [ fhir:v "defaultValue[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.defaultValue[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `ElementDefinition.defaultValue[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`.\nElement `ElementDefinition.defaultValue[x]` is mapped to FHIR R4B element `ElementDefinition.defaultValue[x]`.\nNote that the target element context `ElementDefinition.defaultValue[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.meaningWhenMissing" ] ;
+       fhir:display [ fhir:v "meaningWhenMissing" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.meaningWhenMissing" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.meaningWhenMissing` is mapped to FHIR R4B element `ElementDefinition.meaningWhenMissing`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.orderMeaning" ] ;
+       fhir:display [ fhir:v "orderMeaning" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.orderMeaning" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.orderMeaning` is mapped to FHIR R4B element `ElementDefinition.orderMeaning`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.orderMeaning" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.orderMeaning` is mapped to FHIR DSTU2 structure `ElementDefinition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.fixed[x]" ] ;
+       fhir:display [ fhir:v "fixed[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.fixed[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `ElementDefinition.fixed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`.\nElement `ElementDefinition.fixed[x]` is mapped to FHIR R4B element `ElementDefinition.fixed[x]`.\nNote that the target element context `ElementDefinition.fixed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.pattern[x]" ] ;
+       fhir:display [ fhir:v "pattern[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.pattern[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `ElementDefinition.pattern[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`.\nElement `ElementDefinition.pattern[x]` is mapped to FHIR R4B element `ElementDefinition.pattern[x]`.\nNote that the target element context `ElementDefinition.pattern[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.example" ] ;
+       fhir:display [ fhir:v "example" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.example" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.example` is mapped to FHIR R4B element `ElementDefinition.example`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.example" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.example` is mapped to FHIR DSTU2 structure `ElementDefinition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.example.label" ] ;
+       fhir:display [ fhir:v "label" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.example.label" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.example.label` is mapped to FHIR R4B element `ElementDefinition.example.label`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.example[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.example.label` is part of an existing definition because parent element `ElementDefinition.example` requires a cross-version extension.\nNote that the target element context `ElementDefinition.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`.\nElement `ElementDefinition.example.label` is mapped to FHIR DSTU2 element `ElementDefinition.example[x]`.\nNote that the target element context `ElementDefinition.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.example.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.example.value[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `ElementDefinition.example.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition.example`.\nElement `ElementDefinition.example.value[x]` is mapped to FHIR R4B element `ElementDefinition.example.value[x]`.\nNote that the target element context `ElementDefinition.example.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition.example`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.example[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.example.value[x]` is part of an existing definition because parent element `ElementDefinition.example` requires a cross-version extension.\nNote that the target element context `ElementDefinition.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`.\nElement `ElementDefinition.example.value[x]` is mapped to FHIR DSTU2 element `ElementDefinition.example[x]`.\nNote that the target element context `ElementDefinition.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.minValue[x]" ] ;
+       fhir:display [ fhir:v "minValue[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.minValue[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `ElementDefinition.minValue[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`.\nElement `ElementDefinition.minValue[x]` is mapped to FHIR R4B element `ElementDefinition.minValue[x]`.\nNote that the target element context `ElementDefinition.minValue[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.maxValue[x]" ] ;
+       fhir:display [ fhir:v "maxValue[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.maxValue[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `ElementDefinition.maxValue[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`.\nElement `ElementDefinition.maxValue[x]` is mapped to FHIR R4B element `ElementDefinition.maxValue[x]`.\nNote that the target element context `ElementDefinition.maxValue[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.maxLength" ] ;
+       fhir:display [ fhir:v "maxLength" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.maxLength" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.maxLength` is mapped to FHIR R4B element `ElementDefinition.maxLength`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.condition" ] ;
+       fhir:display [ fhir:v "condition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.condition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.condition` is mapped to FHIR R4B element `ElementDefinition.condition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.constraint" ] ;
+       fhir:display [ fhir:v "constraint" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.constraint" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.constraint` is mapped to FHIR R4B element `ElementDefinition.constraint`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.constraint.key" ] ;
+       fhir:display [ fhir:v "key" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.constraint.key" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.constraint.key` is mapped to FHIR R4B element `ElementDefinition.constraint.key`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.constraint.requirements" ] ;
+       fhir:display [ fhir:v "requirements" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.constraint.requirements" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.constraint.requirements` is mapped to FHIR R4B element `ElementDefinition.constraint.requirements`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.constraint.severity" ] ;
+       fhir:display [ fhir:v "severity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.constraint.severity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.constraint.severity` is mapped to FHIR R4B element `ElementDefinition.constraint.severity`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.constraint.suppress" ] ;
+       fhir:display [ fhir:v "suppress" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.constraint.suppress" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.constraint.suppress` is mapped to FHIR R4B structure `ElementDefinition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.constraint.human" ] ;
+       fhir:display [ fhir:v "human" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.constraint.human" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.constraint.human` is mapped to FHIR R4B element `ElementDefinition.constraint.human`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.constraint.expression" ] ;
+       fhir:display [ fhir:v "expression" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.constraint.expression" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.constraint.expression` is mapped to FHIR R4B element `ElementDefinition.constraint.expression`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.constraint.expression" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.constraint.expression` is mapped to FHIR DSTU2 structure `ElementDefinition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.constraint.source" ] ;
+       fhir:display [ fhir:v "source" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.constraint.source" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.constraint.source` is mapped to FHIR R4B element `ElementDefinition.constraint.source`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.constraint.source" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.constraint.source` is mapped to FHIR DSTU2 structure `ElementDefinition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.mustHaveValue" ] ;
+       fhir:display [ fhir:v "mustHaveValue" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.mustHaveValue" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.mustHaveValue` is mapped to FHIR R4B structure `ElementDefinition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.valueAlternatives" ] ;
+       fhir:display [ fhir:v "valueAlternatives" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.valueAlternatives" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.valueAlternatives` is mapped to FHIR R4B structure `ElementDefinition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.mustSupport" ] ;
+       fhir:display [ fhir:v "mustSupport" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.mustSupport" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.mustSupport` is mapped to FHIR R4B element `ElementDefinition.mustSupport`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.isModifier" ] ;
+       fhir:display [ fhir:v "isModifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.isModifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.isModifier` is mapped to FHIR R4B element `ElementDefinition.isModifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.isModifierReason" ] ;
+       fhir:display [ fhir:v "isModifierReason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.isModifierReason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.isModifierReason` is mapped to FHIR R4B element `ElementDefinition.isModifierReason`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.isModifierReason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.isModifierReason` is mapped to FHIR STU3 structure `ElementDefinition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.isSummary" ] ;
+       fhir:display [ fhir:v "isSummary" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.isSummary" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.isSummary` is mapped to FHIR R4B element `ElementDefinition.isSummary`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.binding" ] ;
+       fhir:display [ fhir:v "binding" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.binding" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.binding` is mapped to FHIR R4B element `ElementDefinition.binding`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.binding.strength" ] ;
+       fhir:display [ fhir:v "strength" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.binding.strength" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.binding.strength` is mapped to FHIR R4B element `ElementDefinition.binding.strength`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.binding.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.binding.description" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.binding.description` is mapped to FHIR R4B element `ElementDefinition.binding.description`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.binding.valueSet" ] ;
+       fhir:display [ fhir:v "valueSet" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.binding.valueSet" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.binding.valueSet` is mapped to FHIR R4B element `ElementDefinition.binding.valueSet`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.binding.valueSet[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `ElementDefinition.binding.valueSet[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition.binding`.\nElement `ElementDefinition.binding.valueSet` is mapped to FHIR STU3 element `ElementDefinition.binding.valueSet[x]`.\nNote that the target element context `ElementDefinition.binding.valueSet[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ElementDefinition.binding`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.binding.additional" ] ;
+       fhir:display [ fhir:v "additional" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/additional-binding" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ElementDefinition.binding.additional`: `http://hl7.org/fhir/tools/StructureDefinition/additional-binding`.\nElement `ElementDefinition.binding.additional` is mapped to FHIR R4B structure `ElementDefinition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.binding.additional.purpose" ] ;
+       fhir:display [ fhir:v "purpose" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/additional-binding:purpose" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.binding.additional.purpose` is part of an existing definition because parent element `ElementDefinition.binding.additional` requires a cross-version extension.\nElement `ElementDefinition.binding.additional.purpose` is mapped to FHIR R4B structure `ElementDefinition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.binding.additional.valueSet" ] ;
+       fhir:display [ fhir:v "valueSet" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/additional-binding:valueSet" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.binding.additional.valueSet` is part of an existing definition because parent element `ElementDefinition.binding.additional` requires a cross-version extension.\nElement `ElementDefinition.binding.additional.valueSet` is mapped to FHIR R4B structure `ElementDefinition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.binding.additional.documentation" ] ;
+       fhir:display [ fhir:v "documentation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/additional-binding:documentation" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.binding.additional.documentation` is part of an existing definition because parent element `ElementDefinition.binding.additional` requires a cross-version extension.\nElement `ElementDefinition.binding.additional.documentation` is mapped to FHIR R4B structure `ElementDefinition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.binding.additional.shortDoco" ] ;
+       fhir:display [ fhir:v "shortDoco" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/additional-binding:shortDoco" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.binding.additional.shortDoco` is part of an existing definition because parent element `ElementDefinition.binding.additional` requires a cross-version extension.\nElement `ElementDefinition.binding.additional.shortDoco` is mapped to FHIR R4B structure `ElementDefinition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.binding.additional.usage" ] ;
+       fhir:display [ fhir:v "usage" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/additional-binding:usage" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.binding.additional.usage` is part of an existing definition because parent element `ElementDefinition.binding.additional` requires a cross-version extension.\nElement `ElementDefinition.binding.additional.usage` is mapped to FHIR R4B structure `ElementDefinition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.binding.additional.any" ] ;
+       fhir:display [ fhir:v "any" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/additional-binding:any" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.binding.additional.any` is part of an existing definition because parent element `ElementDefinition.binding.additional` requires a cross-version extension.\nElement `ElementDefinition.binding.additional.any` is mapped to FHIR R4B structure `ElementDefinition`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.mapping" ] ;
+       fhir:display [ fhir:v "mapping" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.mapping" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.mapping` is mapped to FHIR R4B element `ElementDefinition.mapping`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.mapping.identity" ] ;
+       fhir:display [ fhir:v "identity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.mapping.identity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.mapping.identity` is mapped to FHIR R4B element `ElementDefinition.mapping.identity`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.mapping.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.mapping.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.mapping.language` is mapped to FHIR R4B element `ElementDefinition.mapping.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.mapping.map" ] ;
+       fhir:display [ fhir:v "map" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.mapping.map" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.mapping.map` is mapped to FHIR R4B element `ElementDefinition.mapping.map`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ElementDefinition.mapping.comment" ] ;
+       fhir:display [ fhir:v "comment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/ElementDefinition#ElementDefinition.mapping.comment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.mapping.comment` is mapped to FHIR R4B element `ElementDefinition.mapping.comment`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.mapping.comment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `ElementDefinition.mapping.comment` is mapped to FHIR DSTU2 structure `ElementDefinition`, but has no target element specified." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

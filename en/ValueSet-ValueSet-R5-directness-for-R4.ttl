@@ -1,0 +1,180 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/ValueSet-R5-directness-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ValueSet-R5-directness-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ValueSet-R5-directness-for-R4</b></p><a name=\"ValueSet-R5-directness-for-R4\"> </a><a name=\"hcValueSet-R5-directness-for-R4\"> </a><p>This value set expansion contains 4 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a name=\"ValueSet-R5-directness-for-R4-http://terminology.hl7.org/CodeSystem/directness-exact\"> </a><code>http://terminology.hl7.org/CodeSystem/directness</code></td><td>0.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-directness.html#directness-exact\">exact</a></td><td>Exact match</td><td>Exact directness.</td></tr><tr><td><a name=\"ValueSet-R5-directness-for-R4-http://terminology.hl7.org/CodeSystem/directness-high\"> </a><code>http://terminology.hl7.org/CodeSystem/directness</code></td><td>0.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-directness.html#directness-high\">high</a></td><td>High quality match</td><td>High level of directness.</td></tr><tr><td><a name=\"ValueSet-R5-directness-for-R4-http://terminology.hl7.org/CodeSystem/directness-low\"> </a><code>http://terminology.hl7.org/CodeSystem/directness</code></td><td>0.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-directness.html#directness-low\">low</a></td><td>Low quality match</td><td>Low level of directness.</td></tr><tr><td><a name=\"ValueSet-R5-directness-for-R4-http://terminology.hl7.org/CodeSystem/directness-moderate\"> </a><code>http://terminology.hl7.org/CodeSystem/directness</code></td><td>0.1.0</td><td style=\"white-space:nowrap\">  <a href=\"CodeSystem-directness.html#directness-moderate\">moderate</a></td><td>Moderate quality match</td><td>Moderate level of directness.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "cds"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-directness-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-directness-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ValueSetR5DirectnessForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.EvidenceDirectness for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Clinical Decision Support"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "Clinical Decision Support" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/dss" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://terminology.hl7.org/ValueSet/directness|0.1.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://terminology.hl7.org/ValueSet/directness|0.1.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `Evidence.variableDefinition.directnessMatch` as Extensible\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://terminology.hl7.org/ValueSet/directness|0.1.0`\n* `http://hl7.org/fhir/ValueSet/directness|4.3.0`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\nAll concepts in the comparison are have code literals listed as identical.\nThe source and target value sets have the same number of active concepts (4)."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/directness"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/directness>
+       ] ;
+       fhir:version [ fhir:v "0.1.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "exact" ] ;
+         fhir:display [ fhir:v "Exact match" ]
+       ] [
+         fhir:code [ fhir:v "high" ] ;
+         fhir:display [ fhir:v "High quality match" ]
+       ] [
+         fhir:code [ fhir:v "low" ] ;
+         fhir:display [ fhir:v "Low quality match" ]
+       ] [
+         fhir:code [ fhir:v "moderate" ] ;
+         fhir:display [ fhir:v "Moderate quality match" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-06T19:17:19.5427077+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/directness"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/directness>
+       ] ;
+       fhir:version [ fhir:v "0.1.0" ] ;
+       fhir:code [ fhir:v "exact" ] ;
+       fhir:display [ fhir:v "Exact match" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/directness"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/directness>
+       ] ;
+       fhir:version [ fhir:v "0.1.0" ] ;
+       fhir:code [ fhir:v "high" ] ;
+       fhir:display [ fhir:v "High quality match" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/directness"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/directness>
+       ] ;
+       fhir:version [ fhir:v "0.1.0" ] ;
+       fhir:code [ fhir:v "low" ] ;
+       fhir:display [ fhir:v "Low quality match" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/directness"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/directness>
+       ] ;
+       fhir:version [ fhir:v "0.1.0" ] ;
+       fhir:code [ fhir:v "moderate" ] ;
+       fhir:display [ fhir:v "Moderate quality match" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

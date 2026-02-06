@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="binding-strength"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This code system 
+              <code>http://hl7.org/fhir/binding-strength</code> defines the following codes:
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">required
+                  <a name="binding-strength-required"> </a>
+                </td>
+                <td>Required</td>
+                <td>To be conformant, the concept in this element SHALL be from the specified value set.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">extensible
+                  <a name="binding-strength-extensible"> </a>
+                </td>
+                <td>Extensible</td>
+                <td>To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">preferred
+                  <a name="binding-strength-preferred"> </a>
+                </td>
+                <td>Preferred</td>
+                <td>Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">example
+                  <a name="binding-strength-example"> </a>
+                </td>
+                <td>Example</td>
+                <td>Instances are not expected or even encouraged to draw from the specified value set.  The value set merely provides examples of the types of concepts intended to be included.</td>
+              </tr>
+            </table>
+          </div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="normative"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version">
+    <valueCode value="4.0.0"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="5"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <url value="http://hl7.org/fhir/binding-strength"/>
+  <version value="5.0.0"/>
+  <name value="BindingStrength"/>
+  <title value="BindingStrength"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-03-25T23:21:02-05:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="Indication of the degree of conformance expectations associated with a binding."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <valueSet value="http://hl7.org/fhir/ValueSet/binding-strength|4.0.1"/>
+  <content value="complete"/>
+  <concept>
+    <code value="required"/>
+    <display value="Required"/>
+    <definition value="To be conformant, the concept in this element SHALL be from the specified value set."/>
+  </concept>
+  <concept>
+    <code value="extensible"/>
+    <display value="Extensible"/>
+    <definition value="To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead."/>
+  </concept>
+  <concept>
+    <code value="preferred"/>
+    <display value="Preferred"/>
+    <definition value="Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant."/>
+  </concept>
+  <concept>
+    <code value="example"/>
+    <display value="Example"/>
+    <definition value="Instances are not expected or even encouraged to draw from the specified value set.  The value set merely provides examples of the types of concepts intended to be included."/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,385 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-DiagnosticReport-elements-for-R4-DiagnosticReport> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-DiagnosticReport-elements-for-R4-DiagnosticReport"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-DiagnosticReport-elements-for-R4-DiagnosticReport</b></p><a name=\"ConceptMap-R5-DiagnosticReport-elements-for-R4-DiagnosticReport\"> </a><a name=\"hcConceptMap-R5-DiagnosticReport-elements-for-R4-DiagnosticReport\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/DiagnosticReport|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/DiagnosticReport|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px\">DiagnosticReport</td><td style=\"border-left-width: 0px\">DiagnosticReport</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `DiagnosticReport` is representable via FHIR R4B Resource `DiagnosticReport`.\nElement `DiagnosticReport` is mapped to FHIR R4B element `DiagnosticReport`.</td></tr><tr><td style=\"border-right-width: 0px\">DiagnosticReport.meta</td><td style=\"border-left-width: 0px\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.meta</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.meta` is mapped to FHIR R4B element `DiagnosticReport.meta`.</td></tr><tr><td style=\"border-right-width: 0px\">DiagnosticReport.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.implicitRules` is mapped to FHIR R4B element `DiagnosticReport.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px\">DiagnosticReport.language</td><td style=\"border-left-width: 0px\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.language</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.language` is mapped to FHIR R4B element `DiagnosticReport.language`.</td></tr><tr><td style=\"border-right-width: 0px\">DiagnosticReport.text</td><td style=\"border-left-width: 0px\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.text</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.text` is mapped to FHIR R4B element `DiagnosticReport.text`.</td></tr><tr><td style=\"border-right-width: 0px\">DiagnosticReport.contained</td><td style=\"border-left-width: 0px\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.contained</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.contained` is mapped to FHIR R4B element `DiagnosticReport.contained`.</td></tr><tr><td style=\"border-right-width: 0px\">DiagnosticReport.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.identifier` is mapped to FHIR R4B element `DiagnosticReport.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DiagnosticReport.basedOn</td><td style=\"border-left-width: 0px; border-bottom-style: none\">basedOn</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.basedOn</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.basedOn` is mapped to FHIR R4B element `DiagnosticReport.basedOn`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.request</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.basedOn` is mapped to FHIR DSTU2 element `DiagnosticReport.request`.</td></tr><tr><td style=\"border-right-width: 0px\">DiagnosticReport.status</td><td style=\"border-left-width: 0px\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.status</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `DiagnosticReport.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `DiagnosticReport.status` is mapped to FHIR R4B element `DiagnosticReport.status`.</td></tr><tr><td style=\"border-right-width: 0px\">DiagnosticReport.category</td><td style=\"border-left-width: 0px\">category</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.category</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.category` is mapped to FHIR R4B element `DiagnosticReport.category`.</td></tr><tr><td style=\"border-right-width: 0px\">DiagnosticReport.code</td><td style=\"border-left-width: 0px\">code</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.code</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.code` is mapped to FHIR R4B element `DiagnosticReport.code`.</td></tr><tr><td style=\"border-right-width: 0px\">DiagnosticReport.subject</td><td style=\"border-left-width: 0px\">subject</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.subject</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.subject`, use that element instead.\nElement `DiagnosticReport.subject` is mapped to FHIR R4B element `DiagnosticReport.subject`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DiagnosticReport.encounter</td><td style=\"border-left-width: 0px; border-bottom-style: none\">encounter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.encounter</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.encounter` is mapped to FHIR R4B element `DiagnosticReport.encounter`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.context</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.encounter` is mapped to FHIR STU3 element `DiagnosticReport.context`.</td></tr><tr><td style=\"border-right-width: 0px\">DiagnosticReport.effective[x]</td><td style=\"border-left-width: 0px\">effective[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.effective[x]</td><td style=\"border-left-width: 0px\"/><td>Note that the target element context `DiagnosticReport.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DiagnosticReport`.\nElement `DiagnosticReport.effective[x]` is mapped to FHIR R4B element `DiagnosticReport.effective[x]`.\nNote that the target element context `DiagnosticReport.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DiagnosticReport`.</td></tr><tr><td style=\"border-right-width: 0px\">DiagnosticReport.issued</td><td style=\"border-left-width: 0px\">issued</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.issued</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.issued` is mapped to FHIR R4B element `DiagnosticReport.issued`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DiagnosticReport.performer</td><td style=\"border-left-width: 0px; border-bottom-style: none\">performer</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.performer</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.performer` is mapped to FHIR R4B element `DiagnosticReport.performer`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.performer.actor</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.performer` is mapped to FHIR STU3 element `DiagnosticReport.performer`.\nElement `DiagnosticReport.performer` is mapped to FHIR STU3 element `DiagnosticReport.performer.actor`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DiagnosticReport.resultsInterpreter</td><td style=\"border-left-width: 0px; border-bottom-style: none\">resultsInterpreter</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.resultsInterpreter</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.resultsInterpreter` is mapped to FHIR R4B element `DiagnosticReport.resultsInterpreter`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.resultsInterpreter</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.resultsInterpreter` is mapped to FHIR STU3 structure `DiagnosticReport`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">DiagnosticReport.specimen</td><td style=\"border-left-width: 0px\">specimen</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.specimen</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.specimen` is mapped to FHIR R4B element `DiagnosticReport.specimen`.</td></tr><tr><td style=\"border-right-width: 0px\">DiagnosticReport.result</td><td style=\"border-left-width: 0px\">result</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.result</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.result` is mapped to FHIR R4B element `DiagnosticReport.result`.</td></tr><tr><td style=\"border-right-width: 0px\">DiagnosticReport.note</td><td style=\"border-left-width: 0px\">note</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.note</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.note` is mapped to FHIR R4B structure `DiagnosticReport`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">DiagnosticReport.study</td><td style=\"border-left-width: 0px\">study</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.study</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.study` is mapped to FHIR R4B structure `DiagnosticReport`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">DiagnosticReport.supportingInfo</td><td style=\"border-left-width: 0px\">supportingInfo</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.supportingInfo</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.supportingInfo` is mapped to FHIR R4B structure `DiagnosticReport`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">DiagnosticReport.supportingInfo.type</td><td style=\"border-left-width: 0px\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.supportingInfo:type</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.supportingInfo.type` is part of an existing definition because parent element `DiagnosticReport.supportingInfo` requires a cross-version extension.\nElement `DiagnosticReport.supportingInfo.type` is mapped to FHIR R4B structure `DiagnosticReport`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">DiagnosticReport.supportingInfo.reference</td><td style=\"border-left-width: 0px\">reference</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.supportingInfo:reference</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.supportingInfo.reference` is part of an existing definition because parent element `DiagnosticReport.supportingInfo` requires a cross-version extension.\nElement `DiagnosticReport.supportingInfo.reference` is mapped to FHIR R4B structure `DiagnosticReport`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DiagnosticReport.media</td><td style=\"border-left-width: 0px; border-bottom-style: none\">media</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.media</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.media` is mapped to FHIR R4B element `DiagnosticReport.media`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.image</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.media` is mapped to FHIR STU3 element `DiagnosticReport.image`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DiagnosticReport.media.comment</td><td style=\"border-left-width: 0px; border-bottom-style: none\">comment</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.media.comment</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.media.comment` is mapped to FHIR R4B element `DiagnosticReport.media.comment`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.image.comment</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.media.comment` is mapped to FHIR STU3 element `DiagnosticReport.image.comment`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DiagnosticReport.media.link</td><td style=\"border-left-width: 0px; border-bottom-style: none\">link</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.media.link</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.media.link` is mapped to FHIR R4B element `DiagnosticReport.media.link`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.image.link</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.media.link` is mapped to FHIR STU3 element `DiagnosticReport.image.link`.</td></tr><tr><td style=\"border-right-width: 0px\">DiagnosticReport.composition</td><td style=\"border-left-width: 0px\">composition</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.composition</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.composition` is mapped to FHIR R4B structure `DiagnosticReport`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px\">DiagnosticReport.conclusion</td><td style=\"border-left-width: 0px\">conclusion</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.conclusion</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.conclusion` is mapped to FHIR R4B element `DiagnosticReport.conclusion`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DiagnosticReport.conclusionCode</td><td style=\"border-left-width: 0px; border-bottom-style: none\">conclusionCode</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.conclusionCode</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.conclusionCode` is mapped to FHIR R4B element `DiagnosticReport.conclusionCode`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.codedDiagnosis</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.conclusionCode` is mapped to FHIR STU3 element `DiagnosticReport.codedDiagnosis`.</td></tr><tr><td style=\"border-right-width: 0px\">DiagnosticReport.presentedForm</td><td style=\"border-left-width: 0px\">presentedForm</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.presentedForm</td><td style=\"border-left-width: 0px\"/><td>Element `DiagnosticReport.presentedForm` is mapped to FHIR R4B element `DiagnosticReport.presentedForm`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-DiagnosticReport-elements-for-R4-DiagnosticReport"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-DiagnosticReport-elements-for-R4-DiagnosticReport>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5DiagnosticReportElementsForR4DiagnosticReport"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:32.2427887-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/DiagnosticReport>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "DiagnosticReport" ] ;
+       fhir:display [ fhir:v "DiagnosticReport" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `DiagnosticReport` is representable via FHIR R4B Resource `DiagnosticReport`.\nElement `DiagnosticReport` is mapped to FHIR R4B element `DiagnosticReport`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.meta` is mapped to FHIR R4B element `DiagnosticReport.meta`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.implicitRules` is mapped to FHIR R4B element `DiagnosticReport.implicitRules`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.language` is mapped to FHIR R4B element `DiagnosticReport.language`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.text` is mapped to FHIR R4B element `DiagnosticReport.text`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.contained` is mapped to FHIR R4B element `DiagnosticReport.contained`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.identifier` is mapped to FHIR R4B element `DiagnosticReport.identifier`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.basedOn" ] ;
+       fhir:display [ fhir:v "basedOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.basedOn" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.basedOn` is mapped to FHIR R4B element `DiagnosticReport.basedOn`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.request" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.basedOn` is mapped to FHIR DSTU2 element `DiagnosticReport.request`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `DiagnosticReport.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `DiagnosticReport.status` is mapped to FHIR R4B element `DiagnosticReport.status`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.category` is mapped to FHIR R4B element `DiagnosticReport.category`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.code` is mapped to FHIR R4B element `DiagnosticReport.code`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `DiagnosticReport.subject` is mapped to FHIR R4B element `DiagnosticReport.subject`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.encounter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.encounter` is mapped to FHIR R4B element `DiagnosticReport.encounter`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.context" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.encounter` is mapped to FHIR STU3 element `DiagnosticReport.context`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.effective[x]" ] ;
+       fhir:display [ fhir:v "effective[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.effective[x]" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `DiagnosticReport.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DiagnosticReport`.\nElement `DiagnosticReport.effective[x]` is mapped to FHIR R4B element `DiagnosticReport.effective[x]`.\nNote that the target element context `DiagnosticReport.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DiagnosticReport`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.issued" ] ;
+       fhir:display [ fhir:v "issued" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.issued" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.issued` is mapped to FHIR R4B element `DiagnosticReport.issued`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.performer" ] ;
+       fhir:display [ fhir:v "performer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.performer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.performer` is mapped to FHIR R4B element `DiagnosticReport.performer`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.performer.actor" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.performer` is mapped to FHIR STU3 element `DiagnosticReport.performer`.\nElement `DiagnosticReport.performer` is mapped to FHIR STU3 element `DiagnosticReport.performer.actor`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.resultsInterpreter" ] ;
+       fhir:display [ fhir:v "resultsInterpreter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.resultsInterpreter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.resultsInterpreter` is mapped to FHIR R4B element `DiagnosticReport.resultsInterpreter`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.resultsInterpreter" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.resultsInterpreter` is mapped to FHIR STU3 structure `DiagnosticReport`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.specimen" ] ;
+       fhir:display [ fhir:v "specimen" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.specimen" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.specimen` is mapped to FHIR R4B element `DiagnosticReport.specimen`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.result" ] ;
+       fhir:display [ fhir:v "result" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.result" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.result` is mapped to FHIR R4B element `DiagnosticReport.result`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.note` is mapped to FHIR R4B structure `DiagnosticReport`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.study" ] ;
+       fhir:display [ fhir:v "study" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.study" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.study` is mapped to FHIR R4B structure `DiagnosticReport`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.supportingInfo" ] ;
+       fhir:display [ fhir:v "supportingInfo" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.supportingInfo" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.supportingInfo` is mapped to FHIR R4B structure `DiagnosticReport`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.supportingInfo.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.supportingInfo:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.supportingInfo.type` is part of an existing definition because parent element `DiagnosticReport.supportingInfo` requires a cross-version extension.\nElement `DiagnosticReport.supportingInfo.type` is mapped to FHIR R4B structure `DiagnosticReport`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.supportingInfo.reference" ] ;
+       fhir:display [ fhir:v "reference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.supportingInfo:reference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.supportingInfo.reference` is part of an existing definition because parent element `DiagnosticReport.supportingInfo` requires a cross-version extension.\nElement `DiagnosticReport.supportingInfo.reference` is mapped to FHIR R4B structure `DiagnosticReport`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.media" ] ;
+       fhir:display [ fhir:v "media" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.media" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.media` is mapped to FHIR R4B element `DiagnosticReport.media`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.image" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.media` is mapped to FHIR STU3 element `DiagnosticReport.image`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.media.comment" ] ;
+       fhir:display [ fhir:v "comment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.media.comment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.media.comment` is mapped to FHIR R4B element `DiagnosticReport.media.comment`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.image.comment" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.media.comment` is mapped to FHIR STU3 element `DiagnosticReport.image.comment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.media.link" ] ;
+       fhir:display [ fhir:v "link" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.media.link" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.media.link` is mapped to FHIR R4B element `DiagnosticReport.media.link`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.image.link" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.media.link` is mapped to FHIR STU3 element `DiagnosticReport.image.link`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.composition" ] ;
+       fhir:display [ fhir:v "composition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.composition" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.composition` is mapped to FHIR R4B structure `DiagnosticReport`, but has no target element specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.conclusion" ] ;
+       fhir:display [ fhir:v "conclusion" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.conclusion" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.conclusion` is mapped to FHIR R4B element `DiagnosticReport.conclusion`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.conclusionCode" ] ;
+       fhir:display [ fhir:v "conclusionCode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.conclusionCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.conclusionCode` is mapped to FHIR R4B element `DiagnosticReport.conclusionCode`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.codedDiagnosis" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.conclusionCode` is mapped to FHIR STU3 element `DiagnosticReport.codedDiagnosis`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DiagnosticReport.presentedForm" ] ;
+       fhir:display [ fhir:v "presentedForm" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.presentedForm" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DiagnosticReport.presentedForm` is mapped to FHIR R4B element `DiagnosticReport.presentedForm`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

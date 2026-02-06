@@ -1,0 +1,364 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-CareTeam-elements-for-R4-CareTeam> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-CareTeam-elements-for-R4-CareTeam"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-CareTeam-elements-for-R4-CareTeam</b></p><a name=\"ConceptMap-R5-CareTeam-elements-for-R4-CareTeam\"> </a><a name=\"hcConceptMap-R5-CareTeam-elements-for-R4-CareTeam\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/CareTeam|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/CareTeam|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CareTeam</td><td style=\"border-left-width: 0px; border-bottom-style: none\">CareTeam</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `CareTeam` is representable via FHIR R4B Resource `CareTeam`.\nElement `CareTeam` is mapped to FHIR R4B element `CareTeam`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `CareTeam` is representable via FHIR DSTU2 Resource `Basic`.\nElement `CareTeam` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CareTeam.meta</td><td style=\"border-left-width: 0px; border-bottom-style: none\">meta</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.meta</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.meta` is mapped to FHIR R4B element `CareTeam.meta`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.meta</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.meta`, use that element instead.\nElement `CareTeam.meta` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CareTeam.implicitRules</td><td style=\"border-left-width: 0px; border-bottom-style: none\">implicitRules</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.implicitRules` is mapped to FHIR R4B element `CareTeam.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `CareTeam.implicitRules` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CareTeam.language</td><td style=\"border-left-width: 0px; border-bottom-style: none\">language</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.language</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.language` is mapped to FHIR R4B element `CareTeam.language`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.language</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.language`, use that element instead.\nElement `CareTeam.language` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CareTeam.text</td><td style=\"border-left-width: 0px; border-bottom-style: none\">text</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.text</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.text` is mapped to FHIR R4B element `CareTeam.text`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.text</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `CareTeam.text` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CareTeam.contained</td><td style=\"border-left-width: 0px; border-bottom-style: none\">contained</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.contained</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.contained` is mapped to FHIR R4B element `CareTeam.contained`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.contained</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `CareTeam.contained` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CareTeam.identifier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">identifier</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.identifier` is mapped to FHIR R4B element `CareTeam.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.identifier</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `CareTeam.identifier` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CareTeam.status</td><td style=\"border-left-width: 0px; border-bottom-style: none\">status</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.status</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.status` is mapped to FHIR R4B element `CareTeam.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam:status</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.status` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CareTeam.category</td><td style=\"border-left-width: 0px; border-bottom-style: none\">category</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.category</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.category` is mapped to FHIR R4B element `CareTeam.category`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam:category</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.category` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CareTeam.name</td><td style=\"border-left-width: 0px; border-bottom-style: none\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.name</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.name` is mapped to FHIR R4B element `CareTeam.name`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam:name</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.name` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CareTeam.subject</td><td style=\"border-left-width: 0px; border-bottom-style: none\">subject</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.subject</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.subject` is mapped to FHIR R4B element `CareTeam.subject`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.subject</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Basic.subject`, use that element instead.\nElement `CareTeam.subject` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CareTeam.period</td><td style=\"border-left-width: 0px; border-bottom-style: none\">period</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.period</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.period` is mapped to FHIR R4B element `CareTeam.period`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam:period</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.period` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CareTeam.participant</td><td style=\"border-left-width: 0px; border-bottom-style: none\">participant</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.participant</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.participant` is mapped to FHIR R4B element `CareTeam.participant`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam:participant</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.participant` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CareTeam.participant.role</td><td style=\"border-left-width: 0px; border-bottom-style: none\">role</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.participant.role</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.participant.role` is mapped to FHIR R4B element `CareTeam.participant.role`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam:participant:role</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.participant.role` is part of an existing definition because parent element `CareTeam.participant` requires a cross-version extension.\nElement `CareTeam.participant.role` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CareTeam.participant.member</td><td style=\"border-left-width: 0px; border-bottom-style: none\">member</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.participant.member</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.participant.member` is mapped to FHIR R4B element `CareTeam.participant.member`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam:participant:member</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.participant.member` is part of an existing definition because parent element `CareTeam.participant` requires a cross-version extension.\nElement `CareTeam.participant.member` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CareTeam.participant.onBehalfOf</td><td style=\"border-left-width: 0px; border-bottom-style: none\">onBehalfOf</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.participant.onBehalfOf</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.participant.onBehalfOf` is mapped to FHIR R4B element `CareTeam.participant.onBehalfOf`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam:participant:onBehalfOf</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.participant.onBehalfOf` is part of an existing definition because parent element `CareTeam.participant` requires a cross-version extension.\nElement `CareTeam.participant.onBehalfOf` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CareTeam.participant.coverage[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">coverage[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam.participant.coverage</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.participant.coverage[x]` is mapped to FHIR R4B structure `CareTeam`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam:participant:coverage</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.participant.coverage[x]` is part of an existing definition because parent element `CareTeam.participant` requires a cross-version extension.\nElement `CareTeam.participant.coverage[x]` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CareTeam.reason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reason</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.reasonCode</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.reason` is mapped to FHIR R4B element `CareTeam.reasonCode`.\nElement `CareTeam.reason` is mapped to FHIR R4B element `CareTeam.reasonReference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.reasonReference</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.reason` is mapped to FHIR R4B element `CareTeam.reasonCode`.\nElement `CareTeam.reason` is mapped to FHIR R4B element `CareTeam.reasonReference`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam:reason</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.reason` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CareTeam.managingOrganization</td><td style=\"border-left-width: 0px; border-bottom-style: none\">managingOrganization</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.managingOrganization</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.managingOrganization` is mapped to FHIR R4B element `CareTeam.managingOrganization`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam:managingOrganization</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.managingOrganization` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CareTeam.telecom</td><td style=\"border-left-width: 0px; border-bottom-style: none\">telecom</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.telecom</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.telecom` is mapped to FHIR R4B element `CareTeam.telecom`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam.telecom</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.telecom` is mapped to FHIR STU3 structure `CareTeam`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam:telecom</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.telecom` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CareTeam.note</td><td style=\"border-left-width: 0px; border-bottom-style: none\">note</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.note</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.note` is mapped to FHIR R4B element `CareTeam.note`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam:note</td><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.note` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-CareTeam-elements-for-R4-CareTeam"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-CareTeam-elements-for-R4-CareTeam>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5CareTeamElementsForR4CareTeam"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:31.2284782-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/CareTeam"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/CareTeam>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "CareTeam" ] ;
+       fhir:display [ fhir:v "CareTeam" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `CareTeam` is representable via FHIR R4B Resource `CareTeam`.\nElement `CareTeam` is mapped to FHIR R4B element `CareTeam`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `CareTeam` is representable via FHIR DSTU2 Resource `Basic`.\nElement `CareTeam` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.meta` is mapped to FHIR R4B element `CareTeam.meta`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `CareTeam.meta` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.implicitRules` is mapped to FHIR R4B element `CareTeam.implicitRules`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `CareTeam.implicitRules` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.language` is mapped to FHIR R4B element `CareTeam.language`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.language`, use that element instead.\nElement `CareTeam.language` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.text` is mapped to FHIR R4B element `CareTeam.text`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `CareTeam.text` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.contained` is mapped to FHIR R4B element `CareTeam.contained`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `CareTeam.contained` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.identifier` is mapped to FHIR R4B element `CareTeam.identifier`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `CareTeam.identifier` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.status` is mapped to FHIR R4B element `CareTeam.status`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam:status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.status` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.category` is mapped to FHIR R4B element `CareTeam.category`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam:category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.category` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.name` is mapped to FHIR R4B element `CareTeam.name`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam:name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.name` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.subject` is mapped to FHIR R4B element `CareTeam.subject`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.subject" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.subject`, use that element instead.\nElement `CareTeam.subject` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.period` is mapped to FHIR R4B element `CareTeam.period`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam:period" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.period` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.participant" ] ;
+       fhir:display [ fhir:v "participant" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.participant" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.participant` is mapped to FHIR R4B element `CareTeam.participant`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam:participant" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.participant` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.participant.role" ] ;
+       fhir:display [ fhir:v "role" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.participant.role" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.participant.role` is mapped to FHIR R4B element `CareTeam.participant.role`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam:participant:role" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.participant.role` is part of an existing definition because parent element `CareTeam.participant` requires a cross-version extension.\nElement `CareTeam.participant.role` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.participant.member" ] ;
+       fhir:display [ fhir:v "member" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.participant.member" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.participant.member` is mapped to FHIR R4B element `CareTeam.participant.member`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam:participant:member" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.participant.member` is part of an existing definition because parent element `CareTeam.participant` requires a cross-version extension.\nElement `CareTeam.participant.member` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.participant.onBehalfOf" ] ;
+       fhir:display [ fhir:v "onBehalfOf" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.participant.onBehalfOf" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.participant.onBehalfOf` is mapped to FHIR R4B element `CareTeam.participant.onBehalfOf`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam:participant:onBehalfOf" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.participant.onBehalfOf` is part of an existing definition because parent element `CareTeam.participant` requires a cross-version extension.\nElement `CareTeam.participant.onBehalfOf` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.participant.coverage[x]" ] ;
+       fhir:display [ fhir:v "coverage[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam.participant.coverage" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.participant.coverage[x]` is mapped to FHIR R4B structure `CareTeam`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam:participant:coverage" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.participant.coverage[x]` is part of an existing definition because parent element `CareTeam.participant` requires a cross-version extension.\nElement `CareTeam.participant.coverage[x]` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.reasonCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.reason` is mapped to FHIR R4B element `CareTeam.reasonCode`.\nElement `CareTeam.reason` is mapped to FHIR R4B element `CareTeam.reasonReference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.reasonReference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.reason` is mapped to FHIR R4B element `CareTeam.reasonCode`.\nElement `CareTeam.reason` is mapped to FHIR R4B element `CareTeam.reasonReference`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam:reason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.reason` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.managingOrganization" ] ;
+       fhir:display [ fhir:v "managingOrganization" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.managingOrganization" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.managingOrganization` is mapped to FHIR R4B element `CareTeam.managingOrganization`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam:managingOrganization" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.managingOrganization` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.telecom" ] ;
+       fhir:display [ fhir:v "telecom" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.telecom" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.telecom` is mapped to FHIR R4B element `CareTeam.telecom`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam.telecom" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.telecom` is mapped to FHIR STU3 structure `CareTeam`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam:telecom" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.telecom` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.note` is mapped to FHIR R4B element `CareTeam.note`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam:note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.note` is not mapped to FHIR DSTU2, since FHIR R5 `CareTeam` is not mapped." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

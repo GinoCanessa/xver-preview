@@ -1,0 +1,521 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/ConceptMap-R5-NutritionProduct-elements-for-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ConceptMap-R5-NutritionProduct-elements-for-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap ConceptMap-R5-NutritionProduct-elements-for-R4</b></p><a name=\"ConceptMap-R5-NutritionProduct-elements-for-R4\"> </a><a name=\"hcConceptMap-R5-NutritionProduct-elements-for-R4\"> </a><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/NutritionProduct|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/NutritionProduct|5.0.0</td><td colspan=\"2\"><b>Codes</b> from </td><td/></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct</td><td style=\"border-left-width: 0px; border-bottom-style: none\">NutritionProduct</td><td style=\"border-right-width: 0px\">#NutritionProduct</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `NutritionProduct` is representable via FHIR R4B Resource `NutritionProduct`.\nElement `NutritionProduct` is mapped to FHIR R4B element `NutritionProduct`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct</td><td style=\"border-left-width: 0px\"/><td>FHIR R5 Resource `NutritionProduct` is representable via FHIR R4 Resource `Basic`.\nElement `NutritionProduct` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.meta</td><td style=\"border-left-width: 0px; border-bottom-style: none\">meta</td><td style=\"border-right-width: 0px\">#NutritionProduct.meta</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.meta` is mapped to FHIR R4B element `NutritionProduct.meta`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.meta</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.meta`, use that element instead.\nElement `NutritionProduct.meta` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.implicitRules</td><td style=\"border-left-width: 0px; border-bottom-style: none\">implicitRules</td><td style=\"border-right-width: 0px\">#NutritionProduct.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.implicitRules` is mapped to FHIR R4B element `NutritionProduct.implicitRules`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.implicitRules</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `NutritionProduct.implicitRules` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.language</td><td style=\"border-left-width: 0px; border-bottom-style: none\">language</td><td style=\"border-right-width: 0px\">#NutritionProduct.language</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.language` is mapped to FHIR R4B element `NutritionProduct.language`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.language</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `Resource.language`, use that element instead.\nElement `NutritionProduct.language` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.text</td><td style=\"border-left-width: 0px; border-bottom-style: none\">text</td><td style=\"border-right-width: 0px\">#NutritionProduct.text</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.text` is mapped to FHIR R4B element `NutritionProduct.text`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.text</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `NutritionProduct.text` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.contained</td><td style=\"border-left-width: 0px; border-bottom-style: none\">contained</td><td style=\"border-right-width: 0px\">#NutritionProduct.contained</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.contained` is mapped to FHIR R4B element `NutritionProduct.contained`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">Basic.contained</td><td style=\"border-left-width: 0px\"/><td>Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `NutritionProduct.contained` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.code</td><td style=\"border-left-width: 0px; border-bottom-style: none\">code</td><td style=\"border-right-width: 0px\">#NutritionProduct.code</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.code` is mapped to FHIR R4B element `NutritionProduct.code`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:code</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.code` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.status</td><td style=\"border-left-width: 0px; border-bottom-style: none\">status</td><td style=\"border-right-width: 0px\">#NutritionProduct.status</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.status` is mapped to FHIR R4B element `NutritionProduct.status`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:status</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.status` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.category</td><td style=\"border-left-width: 0px; border-bottom-style: none\">category</td><td style=\"border-right-width: 0px\">#NutritionProduct.category</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.category` is mapped to FHIR R4B element `NutritionProduct.category`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:category</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.category` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.manufacturer</td><td style=\"border-left-width: 0px; border-bottom-style: none\">manufacturer</td><td style=\"border-right-width: 0px\">#NutritionProduct.manufacturer</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.manufacturer` is mapped to FHIR R4B element `NutritionProduct.manufacturer`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:manufacturer</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.manufacturer` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.nutrient</td><td style=\"border-left-width: 0px; border-bottom-style: none\">nutrient</td><td style=\"border-right-width: 0px\">#NutritionProduct.nutrient</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.nutrient` is mapped to FHIR R4B element `NutritionProduct.nutrient`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:nutrient</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.nutrient` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.nutrient</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.nutrient` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.nutrient.item</td><td style=\"border-left-width: 0px; border-bottom-style: none\">item</td><td style=\"border-right-width: 0px\">#NutritionProduct.nutrient.item</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.nutrient.item` is mapped to FHIR R4B element `NutritionProduct.nutrient.item`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:nutrient:item</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.nutrient.item` is part of an existing definition because parent element `NutritionProduct.nutrient` requires a cross-version extension.\nElement `NutritionProduct.nutrient.item` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.nutrient:item</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.nutrient.item` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.nutrient.amount</td><td style=\"border-left-width: 0px; border-bottom-style: none\">amount</td><td style=\"border-right-width: 0px\">#NutritionProduct.nutrient.amount</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.nutrient.amount` is mapped to FHIR R4B element `NutritionProduct.nutrient.amount`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:nutrient:amount</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.nutrient.amount` is part of an existing definition because parent element `NutritionProduct.nutrient` requires a cross-version extension.\nElement `NutritionProduct.nutrient.amount` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.nutrient:amount</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.nutrient.amount` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.ingredient</td><td style=\"border-left-width: 0px; border-bottom-style: none\">ingredient</td><td style=\"border-right-width: 0px\">#NutritionProduct.ingredient</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.ingredient` is mapped to FHIR R4B element `NutritionProduct.ingredient`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:ingredient</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.ingredient` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.ingredient</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.ingredient` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.ingredient.item</td><td style=\"border-left-width: 0px; border-bottom-style: none\">item</td><td style=\"border-right-width: 0px\">#NutritionProduct.ingredient.item</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.ingredient.item` is mapped to FHIR R4B element `NutritionProduct.ingredient.item`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:ingredient:item</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.ingredient.item` is part of an existing definition because parent element `NutritionProduct.ingredient` requires a cross-version extension.\nElement `NutritionProduct.ingredient.item` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.ingredient:item</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.ingredient.item` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.ingredient.amount</td><td style=\"border-left-width: 0px; border-bottom-style: none\">amount</td><td style=\"border-right-width: 0px\">#NutritionProduct.ingredient.amount</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.ingredient.amount` is mapped to FHIR R4B element `NutritionProduct.ingredient.amount`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:ingredient:amount</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.ingredient.amount` is part of an existing definition because parent element `NutritionProduct.ingredient` requires a cross-version extension.\nElement `NutritionProduct.ingredient.amount` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.ingredient:amount</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.ingredient.amount` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.knownAllergen</td><td style=\"border-left-width: 0px; border-bottom-style: none\">knownAllergen</td><td style=\"border-right-width: 0px\">#NutritionProduct.knownAllergen</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.knownAllergen` is mapped to FHIR R4B element `NutritionProduct.knownAllergen`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:knownAllergen</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.knownAllergen` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.characteristic</td><td style=\"border-left-width: 0px; border-bottom-style: none\">characteristic</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.characteristic</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.characteristic` is mapped to FHIR R4B structure `NutritionProduct`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:characteristic</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.characteristic` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.characteristic</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.characteristic` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.characteristic.type</td><td style=\"border-left-width: 0px; border-bottom-style: none\">type</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.characteristic:type</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.characteristic.type` is part of an existing definition because parent element `NutritionProduct.characteristic` requires a cross-version extension.\nElement `NutritionProduct.characteristic.type` is mapped to FHIR R4B structure `NutritionProduct`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:characteristic:type</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.characteristic.type` is part of an existing definition because parent element `NutritionProduct.characteristic` requires a cross-version extension.\nElement `NutritionProduct.characteristic.type` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.characteristic:type</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.characteristic.type` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.characteristic.value[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">value[x]</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.characteristic:value</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.characteristic.value[x]` is part of an existing definition because parent element `NutritionProduct.characteristic` requires a cross-version extension.\nElement `NutritionProduct.characteristic.value[x]` is mapped to FHIR R4B structure `NutritionProduct`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:characteristic:value</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.characteristic.value[x]` is part of an existing definition because parent element `NutritionProduct.characteristic` requires a cross-version extension.\nElement `NutritionProduct.characteristic.value[x]` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.characteristic:value</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.characteristic.value[x]` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.instance</td><td style=\"border-left-width: 0px; border-bottom-style: none\">instance</td><td style=\"border-right-width: 0px\">#NutritionProduct.instance</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.instance` is mapped to FHIR R4B element `NutritionProduct.instance`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:instance</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.instance` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.instance</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.instance` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.instance.quantity</td><td style=\"border-left-width: 0px; border-bottom-style: none\">quantity</td><td style=\"border-right-width: 0px\">#NutritionProduct.instance.quantity</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.instance.quantity` is mapped to FHIR R4B element `NutritionProduct.instance.quantity`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:instance:quantity</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.instance.quantity` is part of an existing definition because parent element `NutritionProduct.instance` requires a cross-version extension.\nElement `NutritionProduct.instance.quantity` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.instance:quantity</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.instance.quantity` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.instance.identifier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">identifier</td><td style=\"border-right-width: 0px\">#NutritionProduct.instance.identifier</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.instance.identifier` is mapped to FHIR R4B element `NutritionProduct.instance.identifier`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:instance:identifier</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.instance.identifier` is part of an existing definition because parent element `NutritionProduct.instance` requires a cross-version extension.\nElement `NutritionProduct.instance.identifier` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.instance:identifier</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.instance.identifier` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.instance.name</td><td style=\"border-left-width: 0px; border-bottom-style: none\">name</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.instance.name</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.instance.name` is mapped to FHIR R4B structure `NutritionProduct`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:instance:name</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.instance.name` is part of an existing definition because parent element `NutritionProduct.instance` requires a cross-version extension.\nElement `NutritionProduct.instance.name` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.instance:name</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.instance.name` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.instance.lotNumber</td><td style=\"border-left-width: 0px; border-bottom-style: none\">lotNumber</td><td style=\"border-right-width: 0px\">#NutritionProduct.instance.lotNumber</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.instance.lotNumber` is mapped to FHIR R4B element `NutritionProduct.instance.lotNumber`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:instance:lotNumber</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.instance.lotNumber` is part of an existing definition because parent element `NutritionProduct.instance` requires a cross-version extension.\nElement `NutritionProduct.instance.lotNumber` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.instance:lotNumber</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.instance.lotNumber` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.instance.expiry</td><td style=\"border-left-width: 0px; border-bottom-style: none\">expiry</td><td style=\"border-right-width: 0px\">#NutritionProduct.instance.expiry</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.instance.expiry` is mapped to FHIR R4B element `NutritionProduct.instance.expiry`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:instance:expiry</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.instance.expiry` is part of an existing definition because parent element `NutritionProduct.instance` requires a cross-version extension.\nElement `NutritionProduct.instance.expiry` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.instance:expiry</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.instance.expiry` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.instance.useBy</td><td style=\"border-left-width: 0px; border-bottom-style: none\">useBy</td><td style=\"border-right-width: 0px\">#NutritionProduct.instance.useBy</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.instance.useBy` is mapped to FHIR R4B element `NutritionProduct.instance.useBy`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:instance:useBy</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.instance.useBy` is part of an existing definition because parent element `NutritionProduct.instance` requires a cross-version extension.\nElement `NutritionProduct.instance.useBy` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.instance:useBy</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.instance.useBy` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.instance.biologicalSourceEvent</td><td style=\"border-left-width: 0px; border-bottom-style: none\">biologicalSourceEvent</td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.instance.biologicalSourceEvent</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.instance.biologicalSourceEvent` is mapped to FHIR R4B structure `NutritionProduct`, but has no target element specified.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:instance:biologicalSourceEvent</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.instance.biologicalSourceEvent` is part of an existing definition because parent element `NutritionProduct.instance` requires a cross-version extension.\nElement `NutritionProduct.instance.biologicalSourceEvent` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.instance:biologicalSourceEvent</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.instance.biologicalSourceEvent` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">NutritionProduct.note</td><td style=\"border-left-width: 0px; border-bottom-style: none\">note</td><td style=\"border-right-width: 0px\">#NutritionProduct.note</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.note` is mapped to FHIR R4B element `NutritionProduct.note`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:note</td><td style=\"border-left-width: 0px\"/><td>Element `NutritionProduct.note` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-NutritionProduct-elements-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-NutritionProduct-elements-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "ConceptMapR5NutritionProductElementsForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for FHIR R5 resources in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-06T13:17:33.6685955-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of resource FHIR R5 for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/NutritionProduct"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/NutritionProduct>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "NutritionProduct" ] ;
+       fhir:display [ fhir:v "NutritionProduct" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "#NutritionProduct" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `NutritionProduct` is representable via FHIR R4B Resource `NutritionProduct`.\nElement `NutritionProduct` is mapped to FHIR R4B element `NutritionProduct`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "FHIR R5 Resource `NutritionProduct` is representable via FHIR R4 Resource `Basic`.\nElement `NutritionProduct` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "#NutritionProduct.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.meta` is mapped to FHIR R4B element `NutritionProduct.meta`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.meta" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `NutritionProduct.meta` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "#NutritionProduct.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.implicitRules` is mapped to FHIR R4B element `NutritionProduct.implicitRules`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `NutritionProduct.implicitRules` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "#NutritionProduct.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.language` is mapped to FHIR R4B element `NutritionProduct.language`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.language" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.language`, use that element instead.\nElement `NutritionProduct.language` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "#NutritionProduct.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.text` is mapped to FHIR R4B element `NutritionProduct.text`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.text" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `NutritionProduct.text` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "#NutritionProduct.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.contained` is mapped to FHIR R4B element `NutritionProduct.contained`." ]
+       ] [
+         fhir:code [ fhir:v "Basic.contained" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `NutritionProduct.contained` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "#NutritionProduct.code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.code` is mapped to FHIR R4B element `NutritionProduct.code`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:code" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.code` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "#NutritionProduct.status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.status` is mapped to FHIR R4B element `NutritionProduct.status`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:status" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.status` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "#NutritionProduct.category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.category` is mapped to FHIR R4B element `NutritionProduct.category`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:category" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.category` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.manufacturer" ] ;
+       fhir:display [ fhir:v "manufacturer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "#NutritionProduct.manufacturer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.manufacturer` is mapped to FHIR R4B element `NutritionProduct.manufacturer`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:manufacturer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.manufacturer` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.nutrient" ] ;
+       fhir:display [ fhir:v "nutrient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "#NutritionProduct.nutrient" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.nutrient` is mapped to FHIR R4B element `NutritionProduct.nutrient`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:nutrient" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.nutrient` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.nutrient" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.nutrient` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.nutrient.item" ] ;
+       fhir:display [ fhir:v "item" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "#NutritionProduct.nutrient.item" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.nutrient.item` is mapped to FHIR R4B element `NutritionProduct.nutrient.item`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:nutrient:item" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.nutrient.item` is part of an existing definition because parent element `NutritionProduct.nutrient` requires a cross-version extension.\nElement `NutritionProduct.nutrient.item` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.nutrient:item" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.nutrient.item` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.nutrient.amount" ] ;
+       fhir:display [ fhir:v "amount" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "#NutritionProduct.nutrient.amount" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.nutrient.amount` is mapped to FHIR R4B element `NutritionProduct.nutrient.amount`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:nutrient:amount" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.nutrient.amount` is part of an existing definition because parent element `NutritionProduct.nutrient` requires a cross-version extension.\nElement `NutritionProduct.nutrient.amount` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.nutrient:amount" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.nutrient.amount` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.ingredient" ] ;
+       fhir:display [ fhir:v "ingredient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "#NutritionProduct.ingredient" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.ingredient` is mapped to FHIR R4B element `NutritionProduct.ingredient`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:ingredient" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.ingredient` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.ingredient" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.ingredient` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.ingredient.item" ] ;
+       fhir:display [ fhir:v "item" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "#NutritionProduct.ingredient.item" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.ingredient.item` is mapped to FHIR R4B element `NutritionProduct.ingredient.item`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:ingredient:item" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.ingredient.item` is part of an existing definition because parent element `NutritionProduct.ingredient` requires a cross-version extension.\nElement `NutritionProduct.ingredient.item` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.ingredient:item" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.ingredient.item` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.ingredient.amount" ] ;
+       fhir:display [ fhir:v "amount" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "#NutritionProduct.ingredient.amount" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.ingredient.amount` is mapped to FHIR R4B element `NutritionProduct.ingredient.amount`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:ingredient:amount" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.ingredient.amount` is part of an existing definition because parent element `NutritionProduct.ingredient` requires a cross-version extension.\nElement `NutritionProduct.ingredient.amount` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.ingredient:amount" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.ingredient.amount` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.knownAllergen" ] ;
+       fhir:display [ fhir:v "knownAllergen" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "#NutritionProduct.knownAllergen" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.knownAllergen` is mapped to FHIR R4B element `NutritionProduct.knownAllergen`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:knownAllergen" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.knownAllergen` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.characteristic" ] ;
+       fhir:display [ fhir:v "characteristic" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.characteristic" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.characteristic` is mapped to FHIR R4B structure `NutritionProduct`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:characteristic" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.characteristic` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.characteristic" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.characteristic` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.characteristic.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.characteristic:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.characteristic.type` is part of an existing definition because parent element `NutritionProduct.characteristic` requires a cross-version extension.\nElement `NutritionProduct.characteristic.type` is mapped to FHIR R4B structure `NutritionProduct`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:characteristic:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.characteristic.type` is part of an existing definition because parent element `NutritionProduct.characteristic` requires a cross-version extension.\nElement `NutritionProduct.characteristic.type` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.characteristic:type" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.characteristic.type` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.characteristic.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.characteristic:value" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.characteristic.value[x]` is part of an existing definition because parent element `NutritionProduct.characteristic` requires a cross-version extension.\nElement `NutritionProduct.characteristic.value[x]` is mapped to FHIR R4B structure `NutritionProduct`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:characteristic:value" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.characteristic.value[x]` is part of an existing definition because parent element `NutritionProduct.characteristic` requires a cross-version extension.\nElement `NutritionProduct.characteristic.value[x]` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.characteristic:value" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.characteristic.value[x]` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.instance" ] ;
+       fhir:display [ fhir:v "instance" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "#NutritionProduct.instance" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.instance` is mapped to FHIR R4B element `NutritionProduct.instance`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:instance" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.instance` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.instance" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.instance` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.instance.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "#NutritionProduct.instance.quantity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.instance.quantity` is mapped to FHIR R4B element `NutritionProduct.instance.quantity`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:instance:quantity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.instance.quantity` is part of an existing definition because parent element `NutritionProduct.instance` requires a cross-version extension.\nElement `NutritionProduct.instance.quantity` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.instance:quantity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.instance.quantity` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.instance.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "#NutritionProduct.instance.identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.instance.identifier` is mapped to FHIR R4B element `NutritionProduct.instance.identifier`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:instance:identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.instance.identifier` is part of an existing definition because parent element `NutritionProduct.instance` requires a cross-version extension.\nElement `NutritionProduct.instance.identifier` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.instance:identifier" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.instance.identifier` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.instance.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.instance.name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.instance.name` is mapped to FHIR R4B structure `NutritionProduct`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:instance:name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.instance.name` is part of an existing definition because parent element `NutritionProduct.instance` requires a cross-version extension.\nElement `NutritionProduct.instance.name` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.instance:name" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.instance.name` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.instance.lotNumber" ] ;
+       fhir:display [ fhir:v "lotNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "#NutritionProduct.instance.lotNumber" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.instance.lotNumber` is mapped to FHIR R4B element `NutritionProduct.instance.lotNumber`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:instance:lotNumber" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.instance.lotNumber` is part of an existing definition because parent element `NutritionProduct.instance` requires a cross-version extension.\nElement `NutritionProduct.instance.lotNumber` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.instance:lotNumber" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.instance.lotNumber` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.instance.expiry" ] ;
+       fhir:display [ fhir:v "expiry" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "#NutritionProduct.instance.expiry" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.instance.expiry` is mapped to FHIR R4B element `NutritionProduct.instance.expiry`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:instance:expiry" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.instance.expiry` is part of an existing definition because parent element `NutritionProduct.instance` requires a cross-version extension.\nElement `NutritionProduct.instance.expiry` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.instance:expiry" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.instance.expiry` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.instance.useBy" ] ;
+       fhir:display [ fhir:v "useBy" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "#NutritionProduct.instance.useBy" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.instance.useBy` is mapped to FHIR R4B element `NutritionProduct.instance.useBy`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:instance:useBy" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.instance.useBy` is part of an existing definition because parent element `NutritionProduct.instance` requires a cross-version extension.\nElement `NutritionProduct.instance.useBy` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.instance:useBy" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.instance.useBy` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.instance.biologicalSourceEvent" ] ;
+       fhir:display [ fhir:v "biologicalSourceEvent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.instance.biologicalSourceEvent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.instance.biologicalSourceEvent` is mapped to FHIR R4B structure `NutritionProduct`, but has no target element specified." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:instance:biologicalSourceEvent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.instance.biologicalSourceEvent` is part of an existing definition because parent element `NutritionProduct.instance` requires a cross-version extension.\nElement `NutritionProduct.instance.biologicalSourceEvent` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct.instance:biologicalSourceEvent" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.instance.biologicalSourceEvent` is not mapped to FHIR STU3, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "NutritionProduct.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "#NutritionProduct.note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.note` is mapped to FHIR R4B element `NutritionProduct.note`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionProduct:note" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `NutritionProduct.note` is not mapped to FHIR R4, since FHIR R5 `NutritionProduct` is not mapped." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
